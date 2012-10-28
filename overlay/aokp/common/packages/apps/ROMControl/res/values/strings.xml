@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tablet_ui_summary">This will switch to Tablet UI (requires reboot). Change your LCD Density to smaller value for a better appearence.</string>
+    <string name="stock_density_summary">320x480 phones use 160, 480x854 phones use 240.</string>
+
+</resources>
