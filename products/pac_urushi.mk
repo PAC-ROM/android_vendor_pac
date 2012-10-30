@@ -7,9 +7,12 @@ OVERLAY_TARGET := pa_hdpi
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/urushi
 
+# PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/sony/hdpi
+
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/sony-pac_480x854.rle:root/logo.rle
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
