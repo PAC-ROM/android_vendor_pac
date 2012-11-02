@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_hdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/urushi
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/sony/hdpi
+$(shell cp -f vendor/pac/overlay/pac/sony/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
