@@ -4,4 +4,7 @@ endif
 ifeq (pac_urushi,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_urushi.mk
 endif
+ifeq (pac_maguro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_maguro.mk
+endif
 

@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_imgtec",
+        "target_path":  "vendor/imgtec",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_invensense",
+        "target_path":  "vendor/invensense",
+        "revision":     "jellybean"
+    }
+]
