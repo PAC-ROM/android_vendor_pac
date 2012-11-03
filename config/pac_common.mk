@@ -40,8 +40,8 @@ PRODUCT_COPY_FILES += \
 
 ### PAC ###
 # Common Proprietary
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/app/FileManager.apk:system/app/FileManager.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/pac/prebuilt/common/app/FileManager.apk:system/app/FileManager.apk
 
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 
@@ -59,7 +59,7 @@ VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 PAC_VERSION_MAJOR = 15
-PAC_VERSION_MINOR = 7
+PAC_VERSION_MINOR = 8
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
