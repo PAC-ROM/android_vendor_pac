@@ -90,7 +90,7 @@ def add_to_manifest(repositories):
     f.close()
 
 def fetch_dependencies(device):
-    print 'Looking for product dependencies'
+#    print 'Looking for PAC product dependencies'
     dependencies_path = 'vendor/pac/dependencies/' + device + '.dependencies'
 
     syncable_repos = []
@@ -107,15 +107,15 @@ def fetch_dependencies(device):
                 fetch_list.append(dependency)
                 syncable_repos.append(dependency['target_path'])
             else:
-                print '  %s already in local_manifest' % repo_full
+                print '    %s already in local_manifest' % repo_full
 
         dependencies_file.close()
 
         if len(fetch_list) > 0:
             print 'Adding dependencies to local_manifest'
             add_to_manifest(fetch_list)
-    else:
-        print 'dependencies definition file not found, bailing out.'
+#    else:
+#        print 'dependencies definition file not found, bailing out.'
 
     if len(syncable_repos) > 0:
         print 'Syncing dependencies'
