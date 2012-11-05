@@ -59,7 +59,7 @@ VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 PAC_VERSION_MAJOR = 15
-PAC_VERSION_MINOR = 8
+PAC_VERSION_MINOR = 9
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
@@ -68,4 +68,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
-    ro.aokp.version=$(BOARD)_jb-build-5
+    ro.aokp.version=$(BOARD)_jb-Milestone-1
