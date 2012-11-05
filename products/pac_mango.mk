@@ -10,6 +10,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/mango
 # PAC device overlay
 $(shell cp -f vendor/pac/overlay/pac/sony/mdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
+# PA settings overlay
+$(shell cp -f vendor/pac/prebuilt/pa_mdpi.conf vendor/pa/prebuilt/pa_mdpi.conf)
+
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/sony-pac_320x480.rle:root/logo.rle
