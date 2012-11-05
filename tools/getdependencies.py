@@ -6,9 +6,7 @@ import json
 import re
 from xml.etree import ElementTree
 
-product = sys.argv[1];
-
-device = product[product.index("_") + 1:]
+device = sys.argv[1];
 
 def exists_in_tree(lm, repository):
     for child in lm.getchildren():
