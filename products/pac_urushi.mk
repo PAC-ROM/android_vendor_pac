@@ -10,6 +10,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/urushi
 # PAC device overlay
 $(shell cp -f vendor/pac/overlay/pac/sony/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
+# PA settings overlay
+$(shell cp -f vendor/pac/prebuilt/pa_hdpi.conf vendor/pa/prebuilt/pa_hdpi.conf)
+
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/sony-pac_480x854.rle:root/logo.rle
