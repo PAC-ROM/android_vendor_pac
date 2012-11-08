@@ -94,7 +94,7 @@ if [ -z "$CYANOGEN_NIGHTLY" ]; then
 	PAVERSION=`grep 'ro.modversion=' $REPACK/ota/system/build.prop | sed -e 's/ro.modversion=//g'`
         OVERLAYTARGET=`grep 'ro.pa.family=' $REPACK/ota/system/build.prop | sed -e 's/ro.pa.family=//g'`
 	: ${PAVERSION:=nightly}
-	PACVERSION=`grep 'ro.pac.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pac.version=//g'`
+	PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
 	OUTFILE=$OUT/$PACVERSION.zip
 	echo PACVERSION: $PACVERSION
 else

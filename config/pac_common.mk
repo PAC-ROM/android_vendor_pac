@@ -55,12 +55,13 @@ VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 PAC_VERSION_MAJOR = 16
-PAC_VERSION_MINOR = 0
+PAC_VERSION_MINOR = 1
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pac.version=$(BOARD)_PAC_jb-alpha-v$(PAC_VERSION) \
+    ro.pac.version=$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_PAC_jb-alpha-v$(PAC_VERSION) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
