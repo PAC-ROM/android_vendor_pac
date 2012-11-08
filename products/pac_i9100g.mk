@@ -11,7 +11,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
 $(shell cp -f vendor/pac/overlay/pac/samsung/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include ParanoidAndroid common configuration
-include vendor/pa/config/pac_common.mk
+include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/i9100g/cm.mk)
