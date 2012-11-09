@@ -7,7 +7,5 @@ add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_quincyatt-userdebug
-
-# HTC Devices
-add_lunch_combo pac_ace-userdebug
+add_lunch_combo pac_skyrocket-userdebug
 
