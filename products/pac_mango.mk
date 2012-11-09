@@ -25,7 +25,5 @@ $(call inherit-product, device/semc/mango/cm.mk)
 
 PRODUCT_NAME := pac_mango
 
-GET_VENDOR_PROPS := $(shell vendor/pac/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif
 

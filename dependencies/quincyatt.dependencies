@@ -1,0 +1,26 @@
+[
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_samsung_quincyatt",
+        "target_path":  "device/samsung/quincyatt",
+        "revision":     "jellybean"
+    }
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_samsung_quincy-common",
+        "target_path":  "device/samsung/quincy-common",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_samsung_msm8660-common",
+        "target_path":  "device/samsung/msm8660-common",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man"
+        "repository":   "proprietary_vendor_quincyatt",
+        "target_path":  "vendor/samsung/quincyatt",
+        "revision":     "jellybean"
+    }
+]

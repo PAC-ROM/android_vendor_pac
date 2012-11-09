@@ -22,7 +22,5 @@ $(call inherit-product, device/semc/smultron/cm.mk)
 
 PRODUCT_NAME := pac_smultron
 
-GET_VENDOR_PROPS := $(shell vendor/pac/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif
 

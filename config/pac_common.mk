@@ -17,10 +17,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
-# Use prebuilt paprefs
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk
-
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)

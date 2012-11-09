@@ -1,8 +1,8 @@
 # Check for target product
-ifeq (pac_i9100,$(TARGET_PRODUCT))
+ifeq (pac_quincyatt,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
+OVERLAY_TARGET := pa_xhdpi
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
@@ -14,8 +14,10 @@ $(shell cp -f vendor/pac/overlay/pac/samsung/hdpi/frameworks/base/core/res/asset
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/i9100/cm.mk)
+$(call inherit-product, device/samsung/quincyatt/cm.mk)
 
-PRODUCT_NAME := pac_i9100
+PRODUCT_NAME := pac_quincyatt
+
+GET_VENDOR_PROPS := $(shell vendor/pa/tools/getvendorprops.py $(PRODUCT_NAME))
 
 endif

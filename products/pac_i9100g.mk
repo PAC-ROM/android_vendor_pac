@@ -18,6 +18,4 @@ $(call inherit-product, device/samsung/i9100g/cm.mk)
 
 PRODUCT_NAME := pac_i9100g
 
-GET_VENDOR_PROPS := $(shell vendor/pa/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif
