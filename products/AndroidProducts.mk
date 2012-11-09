@@ -1,6 +1,9 @@
 ifeq (pac_mango,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_mango.mk
 endif
+ifeq (pac_skyrocket,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_skyrocket.mk
+endif
 ifeq (pac_smultron,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_smultron.mk
 endif
