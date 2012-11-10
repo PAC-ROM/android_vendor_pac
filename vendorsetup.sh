@@ -9,3 +9,6 @@ add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_quincyatt-userdebug
 add_lunch_combo pac_skyrocket-userdebug
 
+# Galaxy Ace
+add_lunch_combo pac_cooper-userdebug
+
