@@ -19,3 +19,6 @@ endif
 ifeq (pac_quincyatt,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_quincyatt.mk
 endif
+ifeq (pac_cooper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_cooper.mk
+endif
