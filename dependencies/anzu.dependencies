@@ -1,14 +1,14 @@
 [
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_device_semc_zeusc",
-        "target_path":  "device/semc/zeusc",
+        "account":      "n1kolaa",
+        "repository":   "android_device_semc_anzu",
+        "target_path":  "device/semc/anzu",
         "revision":     "jellybean"
     },
     {
         "account":      "CyanogenMod",
-        "repository":   "android_device_semc_zeus-common",
-        "target_path":  "device/semc/zeus-common",
+        "repository":   "android_device_semc_anzu-common",
+        "target_path":  "device/semc/anzu-common",
         "revision":     "jellybean"
     },
     {
