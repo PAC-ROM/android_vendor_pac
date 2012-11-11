@@ -16,3 +16,6 @@ endif
 ifeq (pac_i9100g,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9100g.mk
 endif
+ifeq (pac_hercules,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_hercules.mk
+endif
