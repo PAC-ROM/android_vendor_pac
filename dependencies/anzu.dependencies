@@ -1,0 +1,26 @@
+[
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_semc_zeusc",
+        "target_path":  "device/semc/zeusc",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_semc_zeus-common",
+        "target_path":  "device/semc/zeus-common",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_semc_msm7x30-common",
+        "target_path":  "device/semc/msm7x30-common",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "semc-kernel-msm7x30",
+        "target_path":  "kernel/semc/msm7x30",
+        "revision":     "jellybean"
+    }
+]
