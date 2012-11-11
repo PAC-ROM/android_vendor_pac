@@ -10,10 +10,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/skyrocket
 # PAC device overlay
 $(shell cp -f vendor/pac/overlay/pac/samsung/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
-
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
