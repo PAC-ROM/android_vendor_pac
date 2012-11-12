@@ -18,5 +18,4 @@ $(call inherit-product, device/samsung/skyrocket/cm.mk)
 
 PRODUCT_NAME := pac_skyrocket
 
-
 endif

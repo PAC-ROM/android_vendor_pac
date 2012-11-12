@@ -26,4 +26,3 @@ $(call inherit-product, device/semc/mango/cm.mk)
 PRODUCT_NAME := pac_mango
 
 endif
-

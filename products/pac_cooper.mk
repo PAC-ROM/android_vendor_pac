@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_mdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/cooper
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/samsung/mdpi
+$(shell cp -f vendor/pac/overlay/pac/samsung/mdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
@@ -17,7 +17,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/cooper/cm.mk)
 
 PRODUCT_NAME := pac_cooper
-
-GET_VENDOR_PROPS := $(shell vendor/pac/tools/getvendorprops.py $(PRODUCT_NAME))
 
 endif

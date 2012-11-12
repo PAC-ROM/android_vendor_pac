@@ -4,7 +4,7 @@
         "repository":   "android_device_semc_mango",
         "target_path":  "device/semc/mango",
         "revision":     "jellybean"
-    }
+    },
     {
         "account":      "PAC-man",
         "repository":   "android_device_semc_mogami-common",

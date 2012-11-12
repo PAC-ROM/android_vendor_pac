@@ -4,7 +4,7 @@
         "repository":   "android_device_semc_satsuma",
         "target_path":  "device/semc/satsuma",
         "revision":     "jellybean"
-    }
+    },
     {
         "account":      "PAC-man",
         "repository":   "android_device_semc_mogami-common",

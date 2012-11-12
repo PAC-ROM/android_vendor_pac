@@ -18,6 +18,4 @@ $(call inherit-product, device/samsung/quincyatt/cm.mk)
 
 PRODUCT_NAME := pac_quincyatt
 
-GET_VENDOR_PROPS := $(shell vendor/pa/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif

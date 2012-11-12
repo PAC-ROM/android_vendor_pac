@@ -25,7 +25,4 @@ $(call inherit-product, device/semc/zeusc/cm.mk)
 
 PRODUCT_NAME := pac_zeusc
 
-GET_VENDOR_PROPS := $(shell vendor/pac/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif
-

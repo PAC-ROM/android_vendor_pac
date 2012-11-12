@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_zeusc,$(TARGET_PRODUCT))
+ifeq (pac_anzu,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
@@ -9,9 +9,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/anzu
 
 # PAC device overlay
 $(shell cp -f vendor/pac/overlay/pac/sony/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
-
-# PA settings overlay
-$(shell cp -f vendor/pac/prebuilt/pa_hdpi.conf vendor/pa/prebuilt/pa_hdpi.conf)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -25,7 +22,4 @@ $(call inherit-product, device/semc/anzu/cm.mk)
 
 PRODUCT_NAME := pac_anzu
 
-GET_VENDOR_PROPS := $(shell vendor/pac/tools/getvendorprops.py $(PRODUCT_NAME))
-
 endif
-

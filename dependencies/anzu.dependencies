@@ -6,9 +6,9 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_device_semc_anzu-common",
-        "target_path":  "device/semc/anzu-common",
+        "account":      "PAC-man",
+        "repository":   "android_device_semc_mogami-common",
+        "target_path":  "device/semc/mogami-common",
         "revision":     "jellybean"
     },
     {

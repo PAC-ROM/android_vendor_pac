@@ -26,4 +26,3 @@ $(call inherit-product, device/semc/zeus/cm.mk)
 PRODUCT_NAME := pac_zeus
 
 endif
-

@@ -4,7 +4,7 @@
         "repository":   "android_device_semc_coconut",
         "target_path":  "device/semc/coconut",
         "revision":     "jellybean"
-    }
+    },
     {
         "account":      "PAC-man",
         "repository":   "android_device_semc_mogami-common",

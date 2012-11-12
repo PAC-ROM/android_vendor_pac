@@ -23,4 +23,3 @@ $(call inherit-product, device/semc/smultron/cm.mk)
 PRODUCT_NAME := pac_smultron
 
 endif
-

@@ -23,4 +23,3 @@ $(call inherit-product, device/semc/urushi/cm.mk)
 PRODUCT_NAME := pac_urushi
 
 endif
-
