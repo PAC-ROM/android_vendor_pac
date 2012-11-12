@@ -4,7 +4,7 @@
         "repository":   "android_device_samsung_quincyatt",
         "target_path":  "device/samsung/quincyatt",
         "revision":     "jellybean"
-    }
+    },
     {
         "account":      "PAC-man",
         "repository":   "android_device_samsung_quincy-common",
