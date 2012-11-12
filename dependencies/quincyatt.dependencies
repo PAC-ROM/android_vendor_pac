@@ -18,7 +18,7 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "PAC-man"
+        "account":      "PAC-man",
         "repository":   "proprietary_vendor_quincyatt",
         "target_path":  "vendor/samsung/quincyatt",
         "revision":     "jellybean"
