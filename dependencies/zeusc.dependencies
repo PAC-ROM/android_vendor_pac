@@ -19,7 +19,7 @@
     },
     {
         "account":      "garwedgess",
-        "repository":   "LuPuS-jB",
+        "repository":   "semc-kernel-msm7x30",
         "target_path":  "kernel/semc/msm7x30",
         "revision":     "jellybean"
     },
