@@ -13,10 +13,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 ### PARANOID ###
-# Replace CM files
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
-
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
@@ -47,14 +43,14 @@ CM_BUILD := $(BOARD)
 
 PA_VERSION_MAJOR = 2
 PA_VERSION_MINOR = 5
-PA_VERSION_MAINTENANCE = 4
+PA_VERSION_MAINTENANCE = 5
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
 
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
-PAC_VERSION_MAJOR = 17
+PAC_VERSION_MAJOR = 18
 PAC_VERSION_MINOR = 0
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
