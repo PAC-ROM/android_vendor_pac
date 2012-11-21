@@ -1,6 +1,8 @@
 # Xperia 2011
 add_lunch_combo pac_anzu-userdebug
+add_lunch_combo pac_haida-userdebug
 add_lunch_combo pac_mango-userdebug
+add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_zeus-userdebug
