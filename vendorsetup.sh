@@ -15,3 +15,5 @@ add_lunch_combo pac_quincyatt-userdebug
 add_lunch_combo pac_skyrocket-userdebug
 # Galaxy Ace
 add_lunch_combo pac_cooper-userdebug
+# Nexus 7
+add_lunch_combo pac_grouper-userdebug
