@@ -28,5 +28,10 @@
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
         "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7",
+        "target_path":  "prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7",
     }
 ]
