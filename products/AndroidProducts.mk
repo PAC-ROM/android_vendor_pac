@@ -43,3 +43,6 @@ endif
 ifeq (pac_zeusc,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_zeusc.mk
 endif
+ifeq (pac_i927,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i927.mk
+endif

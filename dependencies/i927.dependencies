@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "PAC-man",
+        "repository":   "android_device_samsung_i927",
+        "target_path":  "device/samsung/i927",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "android_kernel_samsung_i927",
+        "target_path":  "device/samsung/i927",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "PAC-man",
+        "repository":   "proprietary_vendor_i927",
+        "target_path":  "vendor/samsung/i927",
+        "revision":     "jellybean"
+    }
+]
