@@ -8,7 +8,7 @@
     {
         "account":      "PAC-man",
         "repository":   "android_kernel_samsung_i927",
-        "target_path":  "device/samsung/i927",
+        "target_path":  "kernel/samsung/i927",
         "revision":     "jellybean"
     },
     {
