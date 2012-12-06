@@ -7,6 +7,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Replace CM files
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
 
 ### AOKP ###
 # AOKP Packages
