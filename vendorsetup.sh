@@ -18,3 +18,5 @@ add_lunch_combo pac_i927-userdebug
 add_lunch_combo pac_cooper-userdebug
 # Nexus 7
 add_lunch_combo pac_grouper-userdebug
+# HTC Rezound
+add_lunch_combo pac_vigor-userdebug
