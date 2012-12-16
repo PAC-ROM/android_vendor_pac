@@ -21,3 +21,5 @@ add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_grouper-userdebug
 # Galaxy S3
 add_lunch_combo pac_d2spr-userdebug
+# Galaxy Note Series
+add_lunch_combo pac_i605-userdebug
