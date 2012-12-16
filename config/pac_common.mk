@@ -42,8 +42,8 @@ CM_RELEASE := true
 CM_BUILD := $(BOARD)
 
 PA_VERSION_MAJOR = 2
-PA_VERSION_MINOR = 5
-PA_VERSION_MAINTENANCE = 5
+PA_VERSION_MINOR = 9
+PA_VERSION_MAINTENANCE = 9
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
 
@@ -57,7 +57,7 @@ PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENAN
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=$(BOARD)_PAC_jb-alpha-v$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_LOTK_V2-1_PAC-v$(PAC_VERSION) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
