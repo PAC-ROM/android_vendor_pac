@@ -46,7 +46,6 @@ endif
 ifeq (pac_i927,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i927.mk
 endif
-<<<<<<< HEAD
 ifeq (pac_d710,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d710.mk
 endif
