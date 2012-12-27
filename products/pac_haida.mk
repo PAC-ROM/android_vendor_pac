@@ -7,6 +7,9 @@ OVERLAY_TARGET := pa_hdpi
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/haida
 
+# Common device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common/hdpi
+
 # PAC device overlay
 $(shell cp -f vendor/pac/overlay/pac/sony/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
