@@ -8,6 +8,7 @@ OVERLAY_TARGET := pa_mdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/smultron
 
 # PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common/mdpi
 $(shell cp -f vendor/pac/overlay/pac/sony/mdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo

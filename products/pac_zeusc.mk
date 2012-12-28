@@ -11,6 +11,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/zeusc
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common/hdpi
 
 # PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common/hdpi_480x854
 $(shell cp -f vendor/pac/overlay/pac/sony/hdpi/frameworks/base/core/res/assets/images/android-logo-mask.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PA settings overlay
