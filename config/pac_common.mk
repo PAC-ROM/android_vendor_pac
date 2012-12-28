@@ -35,11 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
     vendor/pa/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf
 
-### PAC ###
-# Common Proprietary
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/app/FileManager.apk:system/app/FileManager.apk
-
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 
 # Add CM release version
@@ -48,21 +43,21 @@ CM_BUILD := $(BOARD)
 
 PA_VERSION_MAJOR = 2
 PA_VERSION_MINOR = 5
-PA_VERSION_MAINTENANCE = 3
+PA_VERSION_MAINTENANCE = 5
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
 
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
-PAC_VERSION_MAJOR = 18
+PAC_VERSION_MAJOR = 19
 PAC_VERSION_MINOR = 0
 PAC_VERSION_MAINTENANCE = 1
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=$(BOARD)_PAC_JB_ALPHA-v$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_PAC_JB_4.1.2-v$(PAC_VERSION) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
