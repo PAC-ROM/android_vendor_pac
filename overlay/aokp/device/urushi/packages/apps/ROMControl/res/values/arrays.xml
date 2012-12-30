@@ -14,7 +14,7 @@
     	<item>2G</item>
     	<item>AP</item>
     	<item>TETHER</item>
-    	<item>TORCH</item>
+<!--    <item>TORCH</item>  -->
     	<item>SWAGGER</item>
     </string-array>
 
@@ -31,7 +31,7 @@
     	<item>@string/toggle_2g</item>
     	<item>@string/toggle_wifi_ap</item>
     	<item>@string/toggle_usb_tether</item>
-    	<item>@string/toggle_torch</item>
+<!--    <item>@string/toggle_torch</item>  -->
     	<item>@string/toggle_swagger</item>
     </string-array>
 
