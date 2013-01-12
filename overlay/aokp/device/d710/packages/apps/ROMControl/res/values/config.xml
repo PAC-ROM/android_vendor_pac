@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Whether or not to display the notification LED settings -->
-    <bool name="has_notification_led">false</bool>
+    <bool name="has_notification_led">true</bool>
 
     <!-- Whether device has camera flash or torch capabilities -->
     <bool name="has_torch">true</bool>
