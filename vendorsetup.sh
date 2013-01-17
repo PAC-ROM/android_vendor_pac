@@ -16,6 +16,8 @@ add_lunch_combo pac_skyrocket-userdebug
 add_lunch_combo pac_i927-userdebug
 # Galaxy Ace
 add_lunch_combo pac_cooper-userdebug
+# Galaxy Gio
+add_lunch_combo pac_gio_userdebug
 # Nexus 7
 add_lunch_combo pac_grouper-userdebug
 # HTC Rezound
