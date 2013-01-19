@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_cooper,$(TARGET_PRODUCT))
+ifeq (pac_gio,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_mdpi
