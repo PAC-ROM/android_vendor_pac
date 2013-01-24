@@ -4,6 +4,9 @@ endif
 ifeq (pac_cooper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_cooper.mk
 endif
+ifeq (pac_gio,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_gio.mk
+endif
 ifeq (pac_grouper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_grouper.mk
 endif

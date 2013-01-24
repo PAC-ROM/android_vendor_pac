@@ -18,6 +18,8 @@ add_lunch_combo pac_d710-userdebug
 add_lunch_combo pac_i577-userdebug
 # Galaxy Ace
 add_lunch_combo pac_cooper-userdebug
+# Galaxy Gio
+add_lunch_combo pac_gio_userdebug
 # Nexus 7
 add_lunch_combo pac_grouper-userdebug
 # Galaxy S3
