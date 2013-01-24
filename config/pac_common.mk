@@ -4,6 +4,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
+# Replace CM files
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pac/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk \
+    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
+
 ### AOKP ###
 # AOKP Packages
 PRODUCT_PACKAGES += \
