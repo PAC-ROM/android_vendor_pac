@@ -55,3 +55,6 @@ endif
 ifeq (pac_vigor,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_vigor.mk
 endif
+ifeq (pac_p720,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p720.mk
+endif

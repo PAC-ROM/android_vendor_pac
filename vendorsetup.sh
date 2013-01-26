@@ -22,3 +22,6 @@ add_lunch_combo pac_gio_userdebug
 add_lunch_combo pac_grouper-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
+# LG Electronics Optimus 3D MAX (P720)
+add_lunch_combo pac_p720-userdebug
+
