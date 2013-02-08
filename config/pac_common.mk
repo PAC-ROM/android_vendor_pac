@@ -4,9 +4,27 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
+# Copy specific ROM files
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
+
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/pa/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/pa/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+
+# T-Mobile theme engine
+include vendor/pa/config/themes_common.mk
+
+# PAC Overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
+
 ### AOKP ###
 # AOKP Packages
 PRODUCT_PACKAGES += \
+    PerformanceControl \
     ROMControl
 
 # AOKP Overlays
@@ -27,6 +45,7 @@ endif
 
 # ParanoidAndroid Proprietary
 PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk \
     vendor/pa/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
     vendor/pa/prebuilt/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf
 
@@ -36,24 +55,27 @@ BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 CM_RELEASE := true
 CM_BUILD := $(BOARD)
 
+# Add PA release version
 PA_VERSION_MAJOR = 2
-PA_VERSION_MINOR = 5
-PA_VERSION_MAINTENANCE = 5
-
-TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
-
+PA_VERSION_MINOR = 9
+PA_VERSION_MAINTENANCE = 9
+PA_PREF_REVISION = 1
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
+# PAC version
 PAC_VERSION_MAJOR = 19
-PAC_VERSION_MINOR = 3
+PAC_VERSION_MINOR = 9
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
+TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=$(BOARD)_PAC_JB_4.1.2-v$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_PAC_JB_4.2.1-v$(PAC_VERSION) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
-    ro.aokp.version=$(BOARD)_jb-Milestone-1
+    ro.papref.revision=$(PA_PREF_REVISION)
+    ro.aokp.version=$(BOARD)_jb-mr1_build-0

@@ -101,9 +101,6 @@ else
 	OUTFILE=$OUT/update-squished.zip
 fi
 
-# PA versioning
-( cd $REPACK/ota/system/etc/paranoid; echo com.paranoid.preferences.version=$PAVERSION >> backup.conf; )
-
 # Copy ParanoidPreferences overlays
 printf "Copying overlay preferences for $OVERLAYTARGET..."
 echo
