@@ -22,3 +22,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/lge/p500/cm.mk)
 
 PRODUCT_NAME := pac_p500
+
+endif
