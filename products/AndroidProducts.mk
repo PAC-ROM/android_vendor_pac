@@ -13,3 +13,6 @@ endif
 ifeq (pac_gio,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_gio.mk
 endif
+ifeq (pac_vigor,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_vigor.mk
+endif

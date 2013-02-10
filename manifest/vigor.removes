@@ -1,0 +1,16 @@
+[
+   {
+        "name":      "Evervolv/android_frameworks_av",
+        "path":  "frameworks/av"
+    },
+    { 
+        "name":      "Chad0989/android_frameworks_native",
+        "path":  "frameworks/native"
+    },
+    { 
+        "name":      "shrike1978/android_hardware_qcom_media",
+        "path":  "hardware/qcom/media"
+    }
+
+]
+
