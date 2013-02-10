@@ -22,3 +22,9 @@ endif
 ifeq (pac_p500,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p500.mk
 endif
+ifeq (pac_evita,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_evita.mk
+endif
+ifeq (pac_d2spr,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2spr.mk
+endif
