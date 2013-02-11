@@ -8,3 +8,6 @@ add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
 # Samsung 2013
 add_lunch_combo pac_d2spr-userdebug
+add_lunch_combo pac_d2tmo-userdebug
+add_lunch_combo pac_d2att-userdebug
+add_lunch_combo pac_d2vzw-userdebug
