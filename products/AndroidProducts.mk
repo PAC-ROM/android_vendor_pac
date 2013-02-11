@@ -29,12 +29,12 @@ ifeq (pac_d2spr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2spr.mk
 endif
 ifeq (pac_d2tmo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2spr.mk
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2tmo.mk
 endif
 ifeq (pac_d2att,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2spr.mk
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2att.mk
 endif
 ifeq (pac_d2vzw,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2spr.mk
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2vzw.mk
 endif
 

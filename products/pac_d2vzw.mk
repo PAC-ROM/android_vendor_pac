@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/d2tmo/cm.mk)
+$(call inherit-product, device/samsung/d2vzw/cm.mk)
 
 PRODUCT_NAME := pac_dvzw
 
