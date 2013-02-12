@@ -20,7 +20,7 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/d2vzw/cm.mk)
 
-PRODUCT_NAME := pac_dvzw
+PRODUCT_NAME := pac_d2vzw
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
