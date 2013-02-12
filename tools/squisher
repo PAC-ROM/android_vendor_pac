@@ -107,7 +107,7 @@ echo
 mkdir $REPACK/ota/system/etc/paranoid/preferences
 mkdir $REPACK/ota/system/etc/paranoid/preferences/images
 cp -r $ANDROID_BUILD_TOP/vendor/pa/prebuilt/preferences/images/* $REPACK/ota/system/etc/paranoid/preferences/images/
-cp -r $ANDROID_BUILD_TOP/vendor/pa/prebuilt/preferences/$OVERLAYTARGET/* $REPACK/ota/system/etc/paranoid/preferences/
+cp -r $ANDROID_BUILD_TOP/vendor/pac/prebuilt/pa/preferences/$OVERLAYTARGET/* $REPACK/ota/system/etc/paranoid/preferences/
 
 # Pack it up and sign
 printf "Zipping package..."
