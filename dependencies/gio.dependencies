@@ -4,6 +4,10 @@
    "target_path": "kernel/samsung/msm7x27",
    "branch": "cm-10.1"
  }, {
+   "repository": "PAC-man/android_device_samsung_gio",
+   "target_path": "device/qcom/msm7x27",
+   "branch": "cm-10.1"
+ }, {
    "repository": "androidarmv6/android_device_qcom_msm7x27",
    "target_path": "device/qcom/msm7x27",
    "branch": "cm-10.1"
