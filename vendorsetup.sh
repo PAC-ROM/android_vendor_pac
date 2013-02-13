@@ -11,3 +11,5 @@ add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2vzw-userdebug
+# Samsung & LGE Legacy Devices
+add_lunch_combo pac_gio-userdebug
