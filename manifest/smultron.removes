@@ -1,0 +1,22 @@
+[
+    {
+        "name":     "CyanogenMod/android_frameworks_native",
+        "path":     "frameworks/native"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_libhardware",
+        "path":     "hardware/libhardware"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_qcom_media",
+        "path":     "hardware/qcom/media"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_qcom_msm8960",
+        "path":     "hardware/qcom/msm8960"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_samsung_slsi_exynos5",
+        "path":     "hardware/samsung_slsi/exynos5"
+    }
+]
