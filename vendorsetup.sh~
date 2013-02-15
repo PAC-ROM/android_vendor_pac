@@ -4,11 +4,6 @@ add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_urushi-userdebug
-# Samsung 2011
-add_lunch_combo pac_i9100-userdebug
-add_lunch_combo pac_i9100g-userdebug
-# Nexus Devices
-add_lunch_combo pac_mako-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
 # HTC 2013
