@@ -58,3 +58,6 @@ endif
 ifeq (pac_mako,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_mako.mk
 endif
+ifeq (pac_ruby,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_ruby.mk
+endif
