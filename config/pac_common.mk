@@ -77,5 +77,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
-    ro.papref.revision=$(PA_PREF_REVISION)
+    ro.papref.revision=$(PA_PREF_REVISION) \
     ro.aokp.version=$(BOARD)_jb-mr1_build-0
