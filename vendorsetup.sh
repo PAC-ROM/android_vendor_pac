@@ -21,12 +21,10 @@ add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2vzw-userdebug
-<<<<<<< HEAD
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_l900-userdebug
-=======
 # Samsung & LGE Legacy Devices
 add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_p500-userdebug
->>>>>>> upstream/cm-10.1
+
