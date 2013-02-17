@@ -1,10 +1,22 @@
+ifeq (pac_anzu,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_anzu.mk
+endif
 ifeq (pac_mango,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_mango.mk
+endif
+ifeq (pac_smultron,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_smultron.mk
+endif
+ifeq (pac_coconut,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_coconut.mk
+endif
+ifeq (pac_satsuma,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_satsuma.mk
 endif
 ifeq (pac_urushi,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_urushi.mk
 endif
-ifeq (pac_urushi,$(TARGET_PRODUCT))
+ifeq (pac_haida,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_haida.mk
 endif
 ifeq (pac_jewel,$(TARGET_PRODUCT))
@@ -42,4 +54,13 @@ ifeq (pac_i605,$(TARGET_PRODUCT))
 endif
 ifeq (pac_l900,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_l900.mk
+endif
+ifeq (pac_i9100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9100.mk
+endif
+ifeq (pac_i9100g,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9100g.mk
+endif
+ifeq (pac_mako,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_mako.mk
 endif

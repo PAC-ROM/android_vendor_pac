@@ -56,9 +56,9 @@ CM_RELEASE := true
 CM_BUILD := $(BOARD)
 
 # Add PA release version
-PA_VERSION_MAJOR = 2
-PA_VERSION_MINOR = 9
-PA_VERSION_MAINTENANCE = 9
+PA_VERSION_MAJOR = 3
+PA_VERSION_MINOR = 0
+PA_VERSION_MAINTENANCE = 0
 PA_PREF_REVISION = 1
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
@@ -66,7 +66,7 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 # PAC version
 PAC_VERSION_MAJOR = 19
 PAC_VERSION_MINOR = 9
-PAC_VERSION_MAINTENANCE = 0
+PAC_VERSION_MAINTENANCE = 1
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
@@ -77,5 +77,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
-    ro.papref.revision=$(PA_PREF_REVISION)
+    ro.papref.revision=$(PA_PREF_REVISION) \
     ro.aokp.version=$(BOARD)_jb-mr1_build-0
