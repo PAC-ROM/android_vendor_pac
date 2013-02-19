@@ -73,7 +73,7 @@ TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=$(BOARD)_PAC_JB_4.2.1-v$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_PAC_JB_4.2.2-v$(PAC_VERSION) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
