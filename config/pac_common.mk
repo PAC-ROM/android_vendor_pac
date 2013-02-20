@@ -66,7 +66,7 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 # PAC version
 PAC_VERSION_MAJOR = 19
 PAC_VERSION_MINOR = 9
-PAC_VERSION_MAINTENANCE = 1
+PAC_VERSION_MAINTENANCE = 2
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
@@ -78,4 +78,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
     ro.papref.revision=$(PA_PREF_REVISION) \
-    ro.aokp.version=$(BOARD)_jb-mr1_build-0
+    ro.aokp.version=$(BOARD)_jb-mr1_build-1
