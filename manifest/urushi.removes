@@ -1,9 +1,5 @@
 [
     {
-        "name":     "CyanogenMod/android_bootable_recovery",
-        "path":     "bootable/recovery"
-    },
-    {
         "name":     "CyanogenMod/android_frameworks_native",
         "path":     "frameworks/native"
     },
