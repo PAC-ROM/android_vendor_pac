@@ -1,13 +1,6 @@
 [
     {
         "remote":       "github",
-        "account":      "TeamWin",
-        "repository":   "Team-Win-Recovery-Project",
-        "target_path":  "bootable/recovery",
-        "revision":     "jb-wip"
-    },
-    {
-        "remote":       "github",
         "account":      "Andromadus",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",

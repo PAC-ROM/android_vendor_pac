@@ -1,0 +1,72 @@
+[
+    {
+        "remote":       "github",
+        "account":      "ParanoidAndroid",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "lge-kernel-star",
+        "target_path":  "kernel/lge/star",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "branch":       "master"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/bt",
+        "target_path":  "hardware/qcom/bt",
+        "branch":       "master"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/camera",
+        "target_path":  "hardware/qcom/camera",
+        "branch":       "master"
+    },
+    {
+        "remote":       "github",
+        "account":      "ParanoidAndroid",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/gps",
+        "target_path":  "hardware/qcom/gps",
+        "branch":       "master"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "branch":       "master"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/power",
+        "target_path":  "hardware/qcom/power",
+        "branch":       "master"
+    },
+    {
+        "remote":       "aosp",
+        "account":      "platform",
+        "repository":   "hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "branch":       "master"
+    }
+]

@@ -27,4 +27,5 @@ add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_p500-userdebug
+add_lunch_combo pac_p990-userdebug
 
