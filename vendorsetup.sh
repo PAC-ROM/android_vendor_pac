@@ -9,6 +9,8 @@ add_lunch_combo pac_haida-userdebug
 # Samsung 2011
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9100g-userdebug
+# Samsung 2012
+add_lunch_combo pac_hercules-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
 # HTC Rezound
