@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "android_device_samsung_msm8660-common",
+    "target_path": "device/samsung/msm8660-common"
+  },
+  {
+    "repository": "android_device_samsung_celox-common",
+    "target_path": "device/samsung/celox-common"
+  },
+  {
+    "repository": "android_device_samsung_hercules",
+    "target_path": "device/samsung/hercules"
+  },
+  {
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+  },
+  {
+    "repository": "android_kernel_samsung_msm8660-common",
+    "target_path": "kernel/samsung/msm8660-common"
+  }
+]
