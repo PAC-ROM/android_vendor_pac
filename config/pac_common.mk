@@ -6,8 +6,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
-    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
+    vendor/pac/prebuilt/supersu/app/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pac/prebuilt/supersu/bin/.ext/.su:system/bin/.ext/.su \
+    vendor/pac/prebuilt/supersu/xbin/su:system/xbin/su
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
