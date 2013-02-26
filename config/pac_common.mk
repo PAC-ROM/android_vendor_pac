@@ -1,4 +1,4 @@
-#tiny gapps
+# tiny gapps
 include vendor/google/gapps_common.mk
 
 # use AOSP default sounds
