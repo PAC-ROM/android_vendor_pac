@@ -1,3 +1,5 @@
+$(call inherit-product, vendor/google/gapps_common.mk)
+
 # use AOSP default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.ringtone=Themos.ogg \
