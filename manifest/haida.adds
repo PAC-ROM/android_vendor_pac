@@ -1,10 +1,10 @@
 [
     {
         "remote":       "github",
-        "account":      "TeamWin",
+        "account":      "PAC-man",
         "repository":   "Team-Win-Recovery-Project",
         "target_path":  "bootable/recovery",
-        "revision":     "jb-wip"
+        "revision":     "twrp2.4"
     },
     {
         "remote":       "github",
