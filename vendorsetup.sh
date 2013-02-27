@@ -15,6 +15,7 @@ add_lunch_combo pac_p1-userdebug
 add_lunch_combo pac_hercules-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
+add_lunch_combo pac_maguro-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
 # HTC 2013
