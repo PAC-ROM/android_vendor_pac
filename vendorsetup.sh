@@ -9,7 +9,6 @@ add_lunch_combo pac_haida-userdebug
 # Samsung 2011
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9100g-userdebug
-add_lunch_combo pac_d710-userdebug
 add_lunch_combo pac_p1-userdebug
 # Samsung 2012
 add_lunch_combo pac_hercules-userdebug
@@ -25,6 +24,7 @@ add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2vzw-userdebug
+add_lunch_combo pac_t0lte-userdebug
 # Samsung & LGE Legacy Devices
 add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
