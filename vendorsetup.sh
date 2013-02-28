@@ -21,6 +21,8 @@ add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_vigor-userdebug
 # HTC Shooter
 add_lunch_combo pac_shooter-userdebug
+add_lunch_combo pac_shootervm-userdebug
+add_lunch_combo pac_shooteru-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
