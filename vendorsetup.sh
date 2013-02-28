@@ -6,6 +6,7 @@ add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_haida-userdebug
+add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9100g-userdebug
