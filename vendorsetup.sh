@@ -36,10 +36,6 @@ add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_p500-userdebug
 add_lunch_combo pac_p990-userdebug
-<<<<<<< HEAD
-
-=======
 # HTC One V
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
->>>>>>> upstream/cm-10.1
