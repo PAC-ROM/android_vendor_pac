@@ -73,9 +73,3 @@ endif
 ifeq (pac_shooter,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooter.mk
 endif
-ifeq (pac_primoc,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_primoc.mk
-endif
-ifeq (pac_primou,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_primou.mk
-endif
