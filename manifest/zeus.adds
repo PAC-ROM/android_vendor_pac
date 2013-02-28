@@ -1,13 +1,6 @@
 [
     {
         "remote":       "github",
-        "account":      "PAC-man",
-        "repository":   "Team-Win-Recovery-Project",
-        "target_path":  "bootable/recovery",
-        "revision":     "twrp2.4"
-    },
-    {
-        "remote":       "github",
         "account":      "Andromadus",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
@@ -18,6 +11,13 @@
         "account":      "Andromadus",
         "repository":   "android_hardware_libhardware",
         "target_path":  "hardware/libhardware",
+        "revision":     "cm10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "garwedgess",
+        "repository":   "android_packages_apps_LegacyCamera",
+        "target_path":  "packages/apps/LegacyCamera",
         "revision":     "cm10.1"
     },
     {
@@ -33,12 +33,5 @@
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
         "revision":     "mr1-staging"
-    },
-    {
-        "remote":       "github",
-        "account":      "PAC-man",
-        "repository":   "android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7",
-        "target_path":  "prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7",
-        "revision":     "master"
     }
 ]

@@ -67,3 +67,27 @@ endif
 ifeq (pac_p990,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p990.mk
 endif
+ifeq (pac_hercules,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_hercules.mk
+endif
+ifeq (pac_d710,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d710.mk
+endif
+ifeq (pac_p1,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p1.mk
+endif
+ifeq (pac_shooter,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooter.mk
+endif
+ifeq (pac_primoc,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_primoc.mk
+endif
+ifeq (pac_primou,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_primou.mk
+endif
+ifeq (pac_zeus,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_zeus.mk
+endif
+ifeq (pac_maguro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_maguro.mk
+endif

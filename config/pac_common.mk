@@ -1,3 +1,6 @@
+# tiny gapps
+include vendor/google/gapps_common.mk
+
 # use AOSP default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.ringtone=Themos.ogg \
@@ -6,8 +9,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/apk/SuperSU.apk:system/app/SuperSU.apk \
-    vendor/pa/prebuilt/common/xbin/su:system/xbin/su
+    vendor/pac/prebuilt/supersu/app/SuperSU.apk:system/app/SuperSU.apk \
+    vendor/pac/prebuilt/supersu/bin/.ext/.su:system/bin/.ext/.su \
+    vendor/pac/prebuilt/supersu/xbin/su:system/xbin/su
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -73,7 +77,7 @@ TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=$(BOARD)_PAC_JB_4.2.2-v$(PAC_VERSION) \
+    ro.pacrom.version=$(BOARD)_PAC_JB_4.2.2-v$(PAC_VERSION)_$(shell date +%0d%^b%Y-%H%M%S) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
