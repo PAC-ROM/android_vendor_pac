@@ -49,6 +49,12 @@ endif
 ifeq (pac_d2vzw,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d2vzw.mk
 endif
+ifeq (pac_i605,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i605.mk
+endif
+ifeq (pac_l900,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_l900.mk
+endif
 ifeq (pac_i9100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9100.mk
 endif
