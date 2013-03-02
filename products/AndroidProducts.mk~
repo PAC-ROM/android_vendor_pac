@@ -55,9 +55,6 @@ endif
 ifeq (pac_l900,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_l900.mk
 endif
-ifeq (pac_captivatemtd,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_captivatemtd.mk
-endif
 ifeq (pac_i9100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9100.mk
 endif
@@ -82,12 +79,6 @@ endif
 ifeq (pac_shooter,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooter.mk
 endif
-ifeq (pac_shootervm,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shootervm.mk
-endif
-ifeq (pac_shooteru,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooteru.mk
-endif
 ifeq (pac_primoc,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_primoc.mk
 endif
@@ -102,7 +93,4 @@ ifeq (pac_zeus,$(TARGET_PRODUCT))
 endif
 ifeq (pac_maguro,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_maguro.mk
-endif
-ifeq (pac_tass,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_tass.mk
 endif
