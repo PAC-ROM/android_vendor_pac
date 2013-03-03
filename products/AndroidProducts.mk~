@@ -76,9 +76,11 @@ endif
 ifeq (pac_p1,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p1.mk
 endif
+<<<<<<< HEAD
 ifeq (pac_t0lte,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_t0lte.mk
 endif
+=======
 ifeq (pac_shooter,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooter.mk
 endif
@@ -106,4 +108,4 @@ endif
 ifeq (pac_tass,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_tass.mk
 endif
-
+>>>>>>> upstream/cm-10.1

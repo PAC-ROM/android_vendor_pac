@@ -7,12 +7,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
-# Copy specific ROM files
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/supersu/app/SuperSU.apk:system/app/SuperSU.apk \
-    vendor/pac/prebuilt/supersu/bin/.ext/.su:system/bin/.ext/.su \
-    vendor/pac/prebuilt/supersu/xbin/su:system/xbin/su
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
@@ -21,6 +15,9 @@ PRODUCT_COPY_FILES += \
 
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
+
+# Embed SuperUser in Settings
+SUPERUSER_EMBEDDED := true
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
@@ -61,7 +58,7 @@ CM_BUILD := $(BOARD)
 
 # Add PA release version
 PA_VERSION_MAJOR = 3
-PA_VERSION_MINOR = 0
+PA_VERSION_MINOR = 1
 PA_VERSION_MAINTENANCE = 0
 PA_PREF_REVISION = 1
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
@@ -69,7 +66,7 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 # PAC version
 PAC_VERSION_MAJOR = 20
-PAC_VERSION_MINOR = 0
+PAC_VERSION_MINOR = 1
 PAC_VERSION_MAINTENANCE = 0
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
