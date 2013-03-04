@@ -28,6 +28,7 @@ add_lunch_combo pac_shooteru-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
+add_lunch_combo pac_ville-userdebug
 # Samsung 2013
 add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
