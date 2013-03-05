@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "android_kernel_samsung_n1",
+        "target_path": "kernel/samsung/n1"
+    },
+    {
+        "repository": "android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode"
+    }
+]
