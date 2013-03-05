@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/htc/shooter/cm.mk)
+$(call inherit-product, device/htc/shooteru/cm.mk)
 
 PRODUCT_NAME := pac_shooteru
 
