@@ -1,10 +1,14 @@
 [
     {
+        "account":      "CyanogenMod",
         "repository": "android_kernel_samsung_n1",
         "target_path": "kernel/samsung/n1"
+        "revision":     "cm-10.1"
     },
     {
+        "account":      "CyanogenMod",
         "repository": "android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode"
+        "revision":     "cm-10.1"
     }
 ]
