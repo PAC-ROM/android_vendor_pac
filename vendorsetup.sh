@@ -17,6 +17,7 @@ add_lunch_combo pac_p1-userdebug
 # Samsung 2012
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_skyrocket-userdebug
+add_lunch_combo pac_p5100-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
