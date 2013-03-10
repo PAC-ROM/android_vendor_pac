@@ -13,9 +13,9 @@
     },
     {
         "account":	"cmartinbaughman",
-        "repository":	"android_kernel_htc_msm8660",
-        "target_path":	"kernel/htc/msm8660",
-        "revision":	"jellybean"
+        "repository":	"android_kernel_htc_msm8660-bt",
+        "target_path":	"kernel/htc/shooter",
+        "revision":	"cm-10.1"
     },
     {
         "account":	"cmartinbaughman",
