@@ -4,7 +4,7 @@
         "account":      "cmartinbaughman",
         "repository":   "android_frameworks_av",
         "target_path":  "frameworks/av",
-        "revision":     "jellybean"
+        "revision":     "cm-10.1"
     },
     { 
         "remote":       "github",
