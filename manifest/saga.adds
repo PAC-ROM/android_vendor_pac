@@ -57,13 +57,6 @@
     },
 	{
         "remote":       "github",
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_qcom_gps",
-        "target_path":  "hardware/qcom/gps",
-        "revision":     "jellybean"
-    },
-	{
-        "remote":       "github",
         "account":      "Andromadus",
         "repository":   "android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7",
         "target_path":  "prebuilt/linux-x86/toolchain/arm-eabi-linaro-4.7",
