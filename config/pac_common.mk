@@ -86,4 +86,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=pacman \
     ro.goo.rom=pacman \
-    ro.goo.version=$(DATE) 
+    ro.goo.version=$(DATE) \
