@@ -75,5 +75,13 @@
         "repository":   "android_packages_apps_Camera",
         "target_path":  "packages/apps/Camera",
         "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_packages_apps_Gallery2",
+        "target_path":  "packages/apps/Gallery2",
+        "revision":     "cm-10.1"
+
     }
 ]

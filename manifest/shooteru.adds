@@ -4,13 +4,20 @@
         "account":      "cmartinbaughman",
         "repository":   "android_frameworks_av",
         "target_path":  "frameworks/av",
-        "revision":     "jellybean"
+        "revision":     "cm-10.1"
     },
     { 
         "remote":       "github",
         "account":      "cmartinbaughman",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
+        "revision":     "cm-10.1"
+    },
+    { 
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_frameworks_base",
+        "target_path":  "frameworks/base",
         "revision":     "cm-10.1"
     },
     {
@@ -54,5 +61,20 @@
         "repository":   "android_hardware_libhardware_legacy",
         "target_path":  "hardware/libhardware_legacy",
         "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_packages_apps_Camera",
+        "target_path":  "packages/apps/Camera",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_packages_apps_Gallery2",
+        "target_path":  "packages/apps/Gallery2",
+        "revision":     "cm-10.1"
+
     }
 ]

@@ -13,8 +13,8 @@
     },
     {
         "account":	"cmartinbaughman",
-        "repository":	"android_kernel_htc_msm8660-bt",
-        "target_path":	"kernel/htc/shooter",
+        "repository":	"android_kernel_htc_msm8660",
+        "target_path":	"kernel/htc/msm8660",
         "revision":	"cm-10.1"
     },
     {
