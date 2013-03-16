@@ -1,0 +1,27 @@
+[
+    {
+        "repository": "android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common"
+    },
+    {
+        "repository": "android_device_samsung_t0ltecdma",
+        "target_path": "device/samsung/t0ltecdma"
+    },
+    {
+        "repository": "android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412"
+    },
+    {
+        "repository": "android_packages_apps_SamsungServiceMode",
+        "target_path": "packages/apps/SamsungServiceMode"
+    },
+    {
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung"
+    },
+    {
+        "repository": "TheMuppets/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung"
+    }
+]
+

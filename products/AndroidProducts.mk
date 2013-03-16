@@ -73,11 +73,11 @@ endif
 ifeq (pac_hercules,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_hercules.mk
 endif
-ifeq (pac_d710,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d710.mk
-endif
 ifeq (pac_p1,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p1.mk
+endif
+ifeq (pac_t0lte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_t0lte.mk
 endif
 ifeq (pac_shooter,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_shooter.mk
@@ -106,6 +106,39 @@ endif
 ifeq (pac_tass,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_tass.mk
 endif
+ifeq (pac_d710,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_d710.mk
+endif
 ifeq (pac_ville,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_ville.mk
+endif
+ifeq (pac_i9103,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_i9103.mk
+endif
+ifeq (pac_p920,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p920.mk
+endif
+ifeq (pac_n7100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_n7100.mk
+endif
+ifeq (pac_p5100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p5100.mk
+endif
+ifeq (pac_p3100,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p3100.mk
+endif
+ifeq (pac_p3110,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p3110.mk
+endif
+ifeq (pac_p5110,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p5110.mk
+endif
+ifeq (pac_saga,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_saga.mk
+endif
+ifeq (pac_p970,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_p970.mk
+endif
+ifeq (pac_crespo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_crespo.mk
 endif

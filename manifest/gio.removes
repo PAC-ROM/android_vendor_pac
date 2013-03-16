@@ -1,0 +1,34 @@
+[
+    {
+        "name":     "CyanogenMod/android_external_libncurses",
+        "path":     "external/libncurses"
+    },
+    {
+        "name":     "CyanogenMod/android_external_wpa_supplicant_8",
+        "path":     "external/wpa_supplicant_8"
+    },
+    {
+        "name":     "CyanogenMod/android_frameworks_av",
+        "path":     "frameworks/av"
+    },
+    {
+        "name":     "CyanogenMod/android_frameworks_native",
+        "path":     "frameworks/native"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_libhardware_legacy",
+        "path":     "hardware/libhardware_legacy"
+    },
+    {
+        "name":     "CyanogenMod/android_hardware_msm7k",
+        "path":     "hardware/msm7k"
+    },
+	{
+        "name":     "CyanogenMod/android_hardware_qcom_gps",
+        "path":     "hardware/qcom/gps"
+    },
+	{
+        "name":     "CyanogenMod/android_system_netd",
+        "path":     "system/netd"
+    }
+]

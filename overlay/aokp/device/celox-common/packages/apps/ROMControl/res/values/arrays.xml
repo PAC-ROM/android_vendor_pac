@@ -2,6 +2,7 @@
 <resources>
    <!-- Generic toggle overlay. Should be set per device in overlay -->
     <string-array name="available_toggles_entries" translatable="false">
+        <item>USER</item>
         <item>ROTATE</item>
         <item>BT</item>
         <item>GPS</item>
@@ -19,10 +20,13 @@
         <item>NFC</item>
         <item>WIFITETHER</item>
         <item>USBTETHER</item>
-        <item>TORCH</item>
+        <item>LTE</item>
         <item>2G</item>
+        <item>BRIGHTNESS</item>
+        <item>SETTINGS</item>
     </string-array>
     <string-array name="available_toggles_values" translatable="false">
+        <item>@string/toggle_user</item>
         <item>@string/toggle_auto_rotate</item>
         <item>@string/toggle_bluetooth</item>
         <item>@string/toggle_gps</item>
@@ -40,8 +44,10 @@
         <item>@string/toggle_nfc</item>
         <item>@string/toggle_wifi_tether</item>
         <item>@string/toggle_usb_tether</item>
-        <item>@string/toggle_torch</item>
+        <item>@string/toggle_lte</item>
         <item>@string/toggle_2g</item>
+        <item>@string/toggle_brightness</item>
+        <item>@string/toggle_settings</item>
     </string-array>
 
 </resources>
