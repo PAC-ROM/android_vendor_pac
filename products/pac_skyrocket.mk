@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/skyrocket/cm.mk)
 
