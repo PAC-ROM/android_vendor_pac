@@ -23,4 +23,8 @@ $(call inherit-product, device/samsung/cooper/cm.mk)
 
 PRODUCT_NAME := pac_cooper
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
+
 endif
