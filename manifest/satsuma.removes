@@ -1,5 +1,9 @@
 [
     {
+        "name":     "CyanogenMod/android_external_wpa_supplicant_8",
+        "path":     "external/wpa_supplicant_8"
+    },
+    {
         "name":     "CyanogenMod/android_frameworks_native",
         "path":     "frameworks/native"
     },
