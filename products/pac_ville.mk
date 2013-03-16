@@ -18,4 +18,8 @@ $(call inherit-product, device/htc/ville/cm.mk)
 
 PRODUCT_NAME := pac_ville
 
+# Add bluefa1con bootanim
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 endif
