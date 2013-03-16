@@ -27,7 +27,11 @@
         "name":     "CyanogenMod/android_hardware_qcom_gps",
         "path":     "hardware/qcom/gps"
     },
-	{
+    {
+        "name":     "CyanogenMod/android_packages_inputmethods_LatinIME",
+        "path":     "packages/inputmethods/LatinIME"
+    },
+    {
         "name":     "CyanogenMod/android_system_netd",
         "path":     "system/netd"
     }
