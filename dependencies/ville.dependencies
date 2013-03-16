@@ -19,8 +19,8 @@
     },
     {
         "account":      "atrus5",
-        "repository":   "proprietary_vendor_htc",
-        "target_path":  "vendor/htc",
+        "repository":   "vendor_htc_ville",
+        "target_path":  "vendor/htc/ville",
         "revision":     "master"
     }
 ]
