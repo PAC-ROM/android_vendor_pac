@@ -40,12 +40,5 @@
         "repository":   "android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7",
         "target_path":  "prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7",
         "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_system_core",
-        "target_path":  "system/core",
-        "revision":     "cm-10.1"
     }
 ]
