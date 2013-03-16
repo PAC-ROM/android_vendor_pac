@@ -26,13 +26,5 @@
     {
         "name":   "CyanogenMod/android_hardware_libhardware_legacy",
         "path":  "hardware/libhardware_legacy"
-    },
-    {
-        "name":   "PAC-man/android_packages_apps_Camera",
-        "path":   "packages/apps/Camera"
-    },
-    {
-	"name":    "PAC-man/android_packages_apps_Gallery2",
-        "path":    "packages/apps/Gallery2"
     }
 ]
