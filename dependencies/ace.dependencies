@@ -1,0 +1,38 @@
+[
+    {
+        "account":      "Mustaavalkosta",
+        "repository":   "android_device_common",
+        "target_path":  "device/common",
+        "revision":     "jb-mv"
+    },
+    {        
+        "account":      "Mustaavalkosta",
+        "repository":   "android_device_htc_msm7x30-common",
+        "target_path":  "device/htc/msm7x30-common",
+        "revision":     "jb-mv"
+    },
+	{        
+        "account":      "Mustaavalkosta",
+        "repository":   "android_device_htc_ace",
+        "target_path":  "device/htc/ace",
+        "revision":     "jb-mv"
+    },
+	{  
+        "account":      "Mustaavalkosta",
+        "repository":   "android_vendor_htc_ace",
+        "target_path":  "vendor/htc/ace",
+        "revision":     "jb-mv"
+    },
+	{  
+        "account":      "Mustaavalkosta",
+        "repository":   "android_vendor_qcom_proprietary",
+        "target_path":  "vendor/qcom/proprietary",
+        "revision":     "cm-10.1"
+    },
+	{  
+        "account":      "KangBangKreations",
+        "repository":   "KangBanged-7x30",
+        "target_path":  "kernel/htc/KangBanged-7x30",
+        "revision":     "kb-stable"
+    }	
+]
