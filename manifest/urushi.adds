@@ -45,7 +45,7 @@
         "remote":       "github",
         "account":      "cm42semc",
         "repository":   "android_system_core",
-        "target_path":  "android/system/core",
+        "target_path":  "system/core",
         "revision":     "cm-10.1"
     }
 ]
