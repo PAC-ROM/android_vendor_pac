@@ -1,0 +1,92 @@
+[
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_bionic",
+        "target_path":  "bionic",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_packages_apps_Camera",
+        "target_path":  "packages/apps/Camera",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_packages_apps_Gallery2",
+        "target_path":  "packages/apps/Gallery2",
+        "revision":     "cm-10.1"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_hardware_msm7k",
+        "target_path":  "hardware/msm7k",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_hardware_ril",
+        "target_path":  "hardware/ril",
+        "revision":     "jb-mv"
+    },
+    {
+        "remote":       "github",
+        "account":      "Andromadus",
+        "repository":   "android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "Andro4.2"
+    },
+	{
+        "remote":       "github",
+        "account":      "Andromadus",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "cm10.1"
+    },
+	{
+        "remote":       "github",
+        "account":      "Andromadus",
+        "repository":   "android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "jb4.2"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_toolchain_eabi_linaro",
+        "target_path":  "prebuilts/gcc/linux-x86/arm/android-toolchain-eabi",
+        "revision":     "master"
+    },
+	{
+        "remote":       "github",
+        "account":      "Mustaavalkosta",
+        "repository":   "android_prebuilts_misc",
+        "target_path":  "prebuilts/misc",
+        "revision":     "jb-mv"
+    },
+	{
+        "remote":       "cfx",
+        "repository":   "prebuilts_gcc_linux-x86_arm_arm-eabi-4.7",
+        "target_path":  "prebuilt/linux-x86/toolchain/arm-eabi-4.7",
+        "revision":     "jb-devel"
+    }
+]
