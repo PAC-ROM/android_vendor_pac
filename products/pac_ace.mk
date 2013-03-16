@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_saga,$(TARGET_PRODUCT))
+ifeq (pac_ace,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
@@ -18,14 +18,14 @@ PRODUCT_COPY_FILES += \
 # Copy PAC hdpi bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip 
-	
+
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/htc/saga/cm.mk)
+$(call inherit-product, device/htc/ace/cm.mk)
 
-PRODUCT_NAME := pac_saga
+PRODUCT_NAME := pac_ace
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))

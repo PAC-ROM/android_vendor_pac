@@ -31,6 +31,7 @@ add_lunch_combo pac_shooter-userdebug
 add_lunch_combo pac_shootervm-userdebug
 add_lunch_combo pac_shooteru-userdebug
 # HTC 2011
+add_lunch_combo pac_ace-userdebug
 add_lunch_combo pac_saga-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
