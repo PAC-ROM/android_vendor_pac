@@ -23,4 +23,8 @@ $(call inherit-product, device/samsung/i9103/cm.mk)
 
 PRODUCT_NAME := pac_i9103
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 endif

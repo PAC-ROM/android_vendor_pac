@@ -22,5 +22,8 @@ $(call inherit-product, device/samsung/maguro/cm.mk)
 
 PRODUCT_NAME := pac_maguro
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 endif

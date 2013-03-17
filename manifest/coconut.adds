@@ -1,6 +1,13 @@
 [
     {
         "remote":       "github",
+        "account":      "cm42semc",
+        "repository":   "android_external_wpa_supplicant_8",
+        "target_path":  "external/wpa_supplicant_8",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
         "account":      "Andromadus",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
@@ -22,10 +29,10 @@
     },
     {
         "remote":       "github",
-        "account":      "2011Xperia",
+        "account":      "cm42semc",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "mr1-staging"
+        "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
@@ -33,5 +40,12 @@
         "repository":   "android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7",
         "target_path":  "prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7",
         "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "account":      "cm42semc",
+        "repository":   "android_device_common",
+        "target_path":  "device/common",
+        "revision":     "cm-10.1"
     }
 ]

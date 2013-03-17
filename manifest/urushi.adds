@@ -1,6 +1,13 @@
 [
     {
         "remote":       "github",
+        "account":      "cm42semc",
+        "repository":   "android_external_wpa_supplicant_8",
+        "target_path":  "external/wpa_supplicant_8",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
         "account":      "Andromadus",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
