@@ -148,3 +148,6 @@ endif
 ifeq (pac_crespo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_crespo.mk
 endif
+ifeq (pac_epicmtd,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_epicmtd.mk
+endif
