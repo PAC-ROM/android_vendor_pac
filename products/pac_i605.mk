@@ -26,5 +26,8 @@ PRODUCT_NAME := pac_i605
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
 GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 endif
