@@ -7,10 +7,6 @@
         "name":     "PAC-man/android_packages_apps_Gallery2",
         "path":     "packages/apps/Gallery2"
     },
-	{
-        "name":     "CyanogenMod/android_packages_apps_DeskClock",
-        "path":     "packages/apps/DeskClock"
-    },
     {
         "name":     "CyanogenMod/android_frameworks_av",
         "path":     "frameworks/av"
