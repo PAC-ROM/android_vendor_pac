@@ -27,13 +27,6 @@
         "target_path":  "packages/apps/Gallery2",
         "revision":     "cm-10.1"
     },
-	{
-        "remote":       "github",
-        "account":      "Andromadus",
-        "repository":   "android_packages_apps_DeskClock",
-        "target_path":  "packages/apps/DeskClock",
-        "revision":     "cm10.1"
-    },
     {
         "remote":       "github",
         "account":      "Andromadus",
