@@ -1,22 +1,32 @@
 [
   {
+    "account": "CyanogenMod"    
     "repository": "android_device_samsung_msm8960-common",
     "target_path": "device/samsung/msm8960-common"
+    "revision": "cm-10.1"
   },
   {
+    "account": "CyanogenMod"
     "repository": "android_device_samsung_d2-common",
     "target_path": "device/samsung/d2-common"
+    "revision": "cm-10.1"
   },
   {
-    "repository": "android_device_samsung_d2spr",
+    "account": "CyanogenMod"
+    "repository": "android_device_samsung_d2vzw",
     "target_path": "device/samsung/d2vzw"
+    "revision": "cm-10.1"
   },
   {
+    "account": "CyanogenMod"
     "repository": "android_device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common"
+    "revision": "cm-10.1"
   },
   {
+    "account": "CyanogenMod"
     "repository": "android_kernel_samsung_d2",
     "target_path": "kernel/samsung/d2"
+    "revision": "cm-10.1"
   }
 ]
