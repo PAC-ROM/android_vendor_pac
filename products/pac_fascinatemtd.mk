@@ -21,7 +21,7 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/fascinatemtd/cm.mk)
 
-PRODUCT_NAME := pac_fascinate
+PRODUCT_NAME := pac_fascinatemtd
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
