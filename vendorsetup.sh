@@ -9,6 +9,7 @@ add_lunch_combo pac_haida-userdebug
 add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug
+add_lunch_combo pac_fascinatemtd-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9103-userdebug
 add_lunch_combo pac_i9100g-userdebug
@@ -38,6 +39,8 @@ add_lunch_combo pac_saga-userdebug
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_ville-userdebug
+#Samsung 2010
+add_lunch_combo pac_epicmtd-userdebug
 # Samsung 2013
 add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
