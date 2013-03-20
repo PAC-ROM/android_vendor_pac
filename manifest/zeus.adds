@@ -18,7 +18,7 @@
         "account":      "garwedgess",
         "repository":   "android_packages_apps_LegacyCamera",
         "target_path":  "packages/apps/LegacyCamera",
-        "revision":     "cm10.1"
+        "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
@@ -29,9 +29,9 @@
     },
     {
         "remote":       "github",
-        "account":      "2011Xperia",
+        "account":      "cm42semc",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "mr1-staging"
+        "revision":     "cm-10.1"
     }
 ]
