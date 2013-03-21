@@ -17,6 +17,10 @@ PRODUCT_COPY_FILES += \
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/i605/cm.mk)
 
@@ -25,9 +29,5 @@ PRODUCT_NAME := pac_i605
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
 GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 endif
