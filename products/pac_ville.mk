@@ -13,13 +13,13 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
+# Add bluefa1con bootanim
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # Inherit CM device configuration
 $(call inherit-product, device/htc/ville/cm.mk)
 
 PRODUCT_NAME := pac_ville
-
-# Add bluefa1con bootanim
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 endif
