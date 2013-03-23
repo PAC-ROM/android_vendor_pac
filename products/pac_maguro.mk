@@ -14,6 +14,10 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_720x1280.rle:root/logo.rle
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
@@ -21,9 +25,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/maguro/cm.mk)
 
 PRODUCT_NAME := pac_maguro
-
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 endif

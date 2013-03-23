@@ -14,6 +14,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/GIO.rle
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
@@ -21,10 +25,6 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/gio/cm.mk)
 
 PRODUCT_NAME := pac_gio
-
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
