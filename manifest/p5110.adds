@@ -1,0 +1,9 @@
+[
+    {
+        "remote": "github",
+        "account": "kumajaya",
+        "repository": "android_kernel_samsung_espresso10",
+        "target_path": "kernel/samsung/espresso10",
+        "revision": "cm-10.1-blackhawk"
+    }
+]
