@@ -7,7 +7,7 @@
     <bool name="has_torch">false</bool>
 
     <!-- Whether device has hardware buttons -->
-    <bool name="has_hardware_buttons">true</bool>
+    <bool name="has_hardware_buttons">false</bool>
 
     <!-- Whether can use fast chage -->
     <bool name="has_fast_charge">false</bool>
