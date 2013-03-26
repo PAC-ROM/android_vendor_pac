@@ -15,6 +15,10 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/sony-pac_480x854.rle:root/logo.rle
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 
