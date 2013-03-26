@@ -22,9 +22,5 @@
     {
         "name":     "CyanogenMod/android_hardware_samsung_slsi_exynos5",
         "path":     "hardware/samsung_slsi/exynos5"
-    },
-    {
-        "name":     "CyanogenMod/android_device_common",
-        "path":     "device/common"
     }
 ]
