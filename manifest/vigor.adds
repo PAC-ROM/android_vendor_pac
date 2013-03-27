@@ -12,13 +12,6 @@
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
         "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "shrike1978",
-        "repository":   "android_hardware_qcom_media",
-        "target_path":  "hardware/qcom/media",
-        "revision":     "cm-10.1"
     }
 
 ]
