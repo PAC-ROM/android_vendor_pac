@@ -27,7 +27,7 @@
         "account":      "CyanogenMod",
         "repository":   "android_hardware_sony_DASH",
         "target_path":  "hardware/sony/DASH",
-        "revision":     "cm-10.1"
+        "revision":     "jellybean"
     },
     {
         "account":      "CyanogenMod",
