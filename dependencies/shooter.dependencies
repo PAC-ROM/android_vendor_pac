@@ -22,5 +22,19 @@
         "repository":	"android_vendor_htc",
         "target_path":	"vendor/htc",
         "revision":	"cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_packages_apps_CMWimaxSettings",
+        "target_path":  "packages/apps/CMWimaxSettings",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "google-pacman",
+        "target_path":  "packages/apps/GooglePacman",
+        "revision":     "master"
     }
 ]
