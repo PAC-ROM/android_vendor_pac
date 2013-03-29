@@ -8,10 +8,6 @@
         "path":  "frameworks/native"
     },
     { 
-        "name":  "PAC-man/android_frameworks_base",
-        "path":  "frameworks/base"
-    },
-    { 
         "name":  "CyanogenMod/android_hardware_qcom_media",
         "path":  "hardware/qcom/media"
     },
