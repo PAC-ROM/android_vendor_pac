@@ -151,3 +151,9 @@ endif
 ifeq (pac_epicmtd,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_epicmtd.mk
 endif
+ifeq (pac_grouper,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_grouper.mk
+endif
+ifeq (pac_tilapia,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pac_tilapia.mk
+endif
