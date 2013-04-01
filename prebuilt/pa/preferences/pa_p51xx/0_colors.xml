@@ -1,0 +1,34 @@
+<property name="PA Colors" active="true">
+
+        <description><![CDATA[
+            This one will pour<br/>
+            a splash of colors<br>
+            over your apps.<br/>
+        ]]></description>
+        <setting type="Hybrid" target="com.skype.raider.colors" value="ffffffff|b200c1ff|ffffd400|ff145879"/>
+        <setting type="Hybrid" target="com.android.launcher2" value="aa000000|b2ffffff|ffffffff|b0000000"/>
+        <setting type="Hybrid" target="com.sand.airdroid.colors" value="ff6b9900|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.browser.colors" value="ff2c2c2c|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.calendar.colors" value="ffc2db00|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.chrome.colors" value="ff393939|b200ceff|ff656565|ff000000"/>
+        <setting type="Hybrid" target="com.s0up.goomanager.colors" value="ff000000|b200c9ff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.google.android.apps.docs.colors" value="ff242424|b2e3ff00|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.dropbox.android.colors" value="ff0063b2|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.facebook.katana.colors" value="ff123a6d|b2ffffff|ffffffff|ff133661"/>
+        <setting type="Hybrid" target="flipboard.app.colors" value="ffdbdbdb|b2383838|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.vending.colors" value="ff3b3b3b|b295a939|ffffffff|ff5a573e"/>
+        <setting type="Hybrid" target="com.google.android.gm.colors" value="ff464646|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.google.android.googlequicksearchbox.colors" value="ffe4e4e4|b2adadad|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.google.android.apps.plus.colors" value="ff505050|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.imdb.mobile.colors" value="ffffd500|b25c5c5c|ff000000|ff000000"/>
+        <setting type="Hybrid" target="pl.solidexplorer.colors" value="ff0ca4c0|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.soundcloud.android.colors" value="ffff5100|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.verge.android.colors" value="ffe00c0c|b2ffffff|ffffffff|ffae0000"/>
+        <setting type="Hybrid" target="com.google.android.youtube.colors" value="ff000000|b2ff0000|ffffffff|ff9f0000"/>
+        <setting type="Hybrid" target="com.google.android.talk.colors" value="ff464646|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.whatsapp.colors" value="ff2e9e00|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.twitter.android.colors" value="ff009ecb|b2ffffff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.contacts.colors" value="ff101010|b200c0ff|ffffffff|ff000000"/>
+        <setting type="Hybrid" target="com.android.settings.colors" value="ff0d0d0d|b200c3ff|ffffffff|ff076184"/>
+
+</property>

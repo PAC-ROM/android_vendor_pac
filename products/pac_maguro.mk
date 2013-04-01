@@ -18,6 +18,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
+# Hardware info for Settings>About Phone>Hardware info
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.chipset=Texas Instruments OMAP 4460 \
+    ro.device.gpu=PowerVR SGX540 \
+    ro.device.front_cam=1.3 MP, 720p video (1280x720 @ 30fps) \
+    ro.device.rear_cam=5 MP, 1080p video (1920x1080 @ 34fps) \
+    ro.device.screen_res=1280x720 
+
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
 

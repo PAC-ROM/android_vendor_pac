@@ -20,6 +20,10 @@ include vendor/pa/config/themes_common.mk
 # Embed SuperUser in Settings
 SUPERUSER_EMBEDDED := true
 
+# PAC Packages
+PRODUCT_PACKAGES += \
+    GooglePacman
+
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 

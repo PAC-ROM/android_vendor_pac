@@ -12,7 +12,7 @@
         "revision":	"cm-10.1"
     },
     {
-        "account":	"cmartinbaughman",
+        "account":	"johnnyslt",
         "repository":	"android_kernel_htc_msm8660",
         "target_path":	"kernel/htc/msm8660",
         "revision":	"cm-10.1"
@@ -22,5 +22,12 @@
         "repository":	"android_vendor_htc",
         "target_path":	"vendor/htc",
         "revision":	"cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "google-pacman",
+        "target_path":  "packages/apps/GooglePacman",
+        "revision":     "master"
     }
 ]
