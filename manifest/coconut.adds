@@ -29,7 +29,7 @@
     },
     {
         "remote":       "github",
-        "account":      "cm42semc",
+        "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
         "revision":     "cm-10.1"

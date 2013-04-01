@@ -30,12 +30,6 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_ti_fmradio",
-        "target_path":  "hardware/ti/fmradio",
-        "revision":     "jellybean"
-    },
-    {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
