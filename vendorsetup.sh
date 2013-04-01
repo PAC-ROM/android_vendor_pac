@@ -25,6 +25,7 @@ add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
+add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_tilapia-userdebug
