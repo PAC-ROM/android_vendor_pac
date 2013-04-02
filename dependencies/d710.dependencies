@@ -6,7 +6,7 @@
     "revision":     "cm-10.1"
     },
   {
-    "account":      "Team-Hydra",
+    "account":      "PAC-man",
     "repository":   "android_device_samsung_d710",
     "target_path":  "device/samsung/d710",
     "revision":     "cm-10.1"
