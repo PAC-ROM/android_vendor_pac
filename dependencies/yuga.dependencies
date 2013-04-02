@@ -39,13 +39,13 @@
     "account": "CyanogenMod",
     "repository": "android_packages_apps_FMRadio",
     "target_path": "packages/apps/FmRadio",
-    "branch": "jellybean"
+    "revision": "jellybean"
   },
  {
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_hardware_sony_DASH",
     "target_path": "hardware/sony/DASH"
-    "branch": "jellybean"
+    "revision": "jellybean"
   }
 ]
