@@ -1,3 +1,5 @@
+# Xperia 2012
+add_lunch_combo pac_yuga-userdebug
 # Xperia 2011
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_mango-userdebug
