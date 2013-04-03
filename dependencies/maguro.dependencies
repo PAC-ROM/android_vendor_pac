@@ -13,6 +13,13 @@
         "target_path":  "kernel/samsung/tuna",
         "revision":     "cm-10.1"
     },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_device_samsung_maguro",
+        "target_path":  "device/samsung/maguro",
+        "revision":     "cm-10.1"
+    },
     {
         "remote":       "github",
         "account":      "TheMuppets",
