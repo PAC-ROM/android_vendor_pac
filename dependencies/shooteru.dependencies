@@ -22,12 +22,5 @@
         "repository":	"android_vendor_htc",
         "target_path":	"vendor/htc",
         "revision":	"cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "cmartinbaughman",
-        "repository":   "google-pacman",
-        "target_path":  "packages/apps/GooglePacman",
-        "revision":     "master"
     }
 ]
