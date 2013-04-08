@@ -10,7 +10,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 # PAC device overlay
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_lg-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration

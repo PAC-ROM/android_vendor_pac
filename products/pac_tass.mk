@@ -15,7 +15,7 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/TASS.rle
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration

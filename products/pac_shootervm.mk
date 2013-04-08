@@ -14,7 +14,7 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
 
-# Add bluefa1con bootanim
+# Add PAC bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.rear_cam=5 MP, 720p video (1280x720 @ 30fps) \
     ro.device.screen_res=540x960
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration

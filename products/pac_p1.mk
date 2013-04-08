@@ -11,7 +11,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
