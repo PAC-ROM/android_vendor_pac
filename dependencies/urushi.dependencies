@@ -30,7 +30,7 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "CyanogenMod",
+        "account":      "cm42semc",
         "repository":   "android_hardware_ti_fmradio",
         "target_path":  "hardware/ti/fmradio",
         "revision":     "jellybean"

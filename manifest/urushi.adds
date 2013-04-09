@@ -8,30 +8,44 @@
     },
     {
         "remote":       "github",
-        "account":      "Andromadus",
-        "repository":   "android_frameworks_native",
-        "target_path":  "frameworks/native",
-        "revision":     "cm10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "Andromadus",
-        "repository":   "android_hardware_libhardware",
-        "target_path":  "hardware/libhardware",
-        "revision":     "cm10.1"
-    },
-    {
-        "remote":       "github",
         "account":      "cm42semc",
-        "repository":   "android_hardware_qcom_media",
-        "target_path":  "hardware/qcom/media",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
         "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
         "account":      "cm42semc",
+        "repository":   "android_hardware_qcom_audio-caf",
+        "target_path":  "hardware/qcom/audio-caf",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "arco",
+        "repository":   "android_hardware_qcom_media-legacy",
+        "target_path":  "hardware/qcom/media-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cm42semc",
+        "repository":   "android_packages_apps_Gallery2",
+        "target_path":  "packages/apps/Gallery2",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "cm42semc",
+        "repository":   "android_system_netd",
+        "target_path":  "system/netd",
         "revision":     "cm-10.1"
     },
     {
