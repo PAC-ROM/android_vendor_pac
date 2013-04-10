@@ -18,14 +18,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# Hardware info for Settings>About Phone>Hardware info
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.device.chipset=Qualcomm MSM8660 \
-    ro.device.gpu=Adreno 220 \
-    ro.device.front_cam=1.3 MP, 720p video (1280x720 @ 30fps) \
-    ro.device.rear_cam=5 MP, 720p video (1280x720 @ 30fps) \
-    ro.device.screen_res=540x960
-
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 

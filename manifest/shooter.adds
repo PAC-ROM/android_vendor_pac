@@ -20,21 +20,7 @@
         "target_path":  "hardware/qcom/media",
         "revision":     "cm-10.1"
     },
-	{
-        "remote":       "github",
-        "account":      "cmartinbaughman",
-        "repository":   "android_hardware_qcom_media-legacy",
-        "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-10.1"
-    },
-	{
-        "remote":       "github",
-        "account":      "cmartinbaughman",
-        "repository":   "android_hardware_qcom_display-legacy",
-        "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.1"
-    },
-	{
+    {
         "remote":       "github",
         "account":      "cmartinbaughman",
         "repository":   "android_hardware_qcom_audio-caf",
@@ -54,5 +40,19 @@
         "repository":   "android_hardware_libhardware_legacy",
         "target_path":  "hardware/libhardware_legacy",
         "revision":     "cm-10.1"
-    }
+    },
+    {
+        "remote":       "github",
+        "account":      "cmartinbaughman",
+        "repository":   "android_hardware_qcom_audio-legacy",
+        "target_path":  "hardware/qcom/audio-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "Team-Hydra",
+        "repository":   "android_hardware_qcom/gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "cm-10.1"
+    }    
 ]

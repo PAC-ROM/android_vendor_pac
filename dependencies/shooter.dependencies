@@ -12,22 +12,45 @@
         "revision":	"cm-10.1"
     },
     {
-        "account":	"cmartinbaughman",
-        "repository":	"android_kernel_htc_msm8660",
-        "target_path":	"kernel/htc/msm8660",
-        "revision":	"cm-10.1"
-    },
-    {
-        "account":	"cmartinbaughman",
+        "account":	"Team-Hydra",
         "repository":	"android_vendor_htc",
         "target_path":	"vendor/htc",
         "revision":	"cm-10.1"
     },
     {
-        "remote":       "github",
         "account":      "cmartinbaughman",
         "repository":   "android_packages_apps_CMWimaxSettings",
         "target_path":  "packages/apps/CMWimaxSettings",
+        "revision":     "cm-10.1"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_packages_apps_Camera",
+        "target_path":  "packages/apps/Camera",
+        "revision":     "cm-10.1"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_hardware_qcom_media-legacy",
+        "target_path":  "hardware/qcom/media-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_hardware_qcom_display-legacy",
+        "target_path":  "hardware/qcom/display-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_hardware_qcom_audio-legacy",
+        "target_path":  "hardware/qcom/audio-legacy",
+        "revision":     "cm-10.1"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_hardware_qcom_gps-legacy",
+        "target_path":  "hardware/qcom/gps-legacy",
         "revision":     "cm-10.1"
     }
 ]
