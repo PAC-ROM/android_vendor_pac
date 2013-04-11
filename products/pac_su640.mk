@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_p930,$(TARGET_PRODUCT))
+ifeq (pac_su640,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
@@ -17,9 +17,9 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/lge/p930/cm.mk)
+$(call inherit-product, device/lge/su640/cm.mk)
 
-PRODUCT_NAME := pac_p930
+PRODUCT_NAME := pac_su640
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
