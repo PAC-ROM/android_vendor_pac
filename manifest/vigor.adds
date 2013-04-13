@@ -1,0 +1,17 @@
+[ 
+   { 
+        "remote":       "github",
+        "account":      "Evervolv",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "jellybean"
+    },
+    { 
+        "remote":       "github",
+        "account":      "Chad0989",
+        "repository":   "android_frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "cm-10.1"
+    }
+
+]

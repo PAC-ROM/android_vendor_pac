@@ -1,0 +1,12 @@
+[
+   {
+        "name":  "CyanogenMod/android_frameworks_av",
+        "path":  "frameworks/av"
+    },
+    { 
+        "name":  "CyanogenMod/android_frameworks_native",
+        "path":  "frameworks/native"
+    }
+
+]
+

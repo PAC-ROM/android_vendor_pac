@@ -6,7 +6,7 @@
         "revision":	"cm-10.1"
     },
     {
-        "account":	"CyanogenMod",
+        "account":	"Chad0989",
         "repository":	"android_device_htc_msm8660-common",
         "target_path":	"device/htc/msm8660-common",
         "revision":	"cm-10.1"
