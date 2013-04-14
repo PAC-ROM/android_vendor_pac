@@ -1,25 +1,5 @@
 [
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_external_wpa_supplicant_8",
-        "target_path":  "external/wpa_supplicant_8",
-        "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_frameworks_av",
-        "target_path":  "frameworks/av",
-        "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_hardware_qcom_audio-caf",
-        "target_path":  "hardware/qcom/audio-caf",
-        "revision":     "cm-10.1"
-    },
+    
     {
         "remote":       "github",
         "account":      "arco",
@@ -32,20 +12,6 @@
         "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_packages_apps_Gallery2",
-        "target_path":  "packages/apps/Gallery2",
-        "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "cm42semc",
-        "repository":   "android_system_netd",
-        "target_path":  "system/netd",
         "revision":     "cm-10.1"
     },
     {
