@@ -22,5 +22,11 @@
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
     "revision":    "cm-10.1"
+  },
+  {
+    "account":    "PAC-man",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision":    "cm-10.1"
   }
 ]
