@@ -1,14 +1,14 @@
 [
     {
         "remote":       "github",
-        "account":      "metaiiica",
+        "account":      "PAC-man",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
-        "account":      "metaiiica",
+        "account":      "PAC-man",
         "repository":   "lge-kernel-star",
         "target_path":  "kernel/lge/star",
         "branch":       "cm-10.1"
