@@ -5,14 +5,14 @@
         "account":      "arco",
         "repository":   "android_hardware_qcom_media-legacy",
         "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.1_old"
     },
     {
         "remote":       "github",
         "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.1_old"
     },
     {
         "remote":       "github",
