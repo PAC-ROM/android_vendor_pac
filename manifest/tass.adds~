@@ -92,7 +92,7 @@
     },
     {
         "remote":       "github",
-        "account":      "androidarmv6",
+        "account":      "Paul-L",
         "repository":   "android_kernel_samsung_msm7x27",
         "target_path":  "kernel/samsung/msm7x27",
         "branch":       "cm-10.1"
