@@ -106,7 +106,7 @@
     },
     {
         "remote":       "github",
-        "account":      "Paul-L",
+        "account":      "PAC-man",
         "repository":   "android_device_samsung_beni",
         "target_path":  "device/samsung/beni",
         "branch":       "cm-10.1"
