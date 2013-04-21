@@ -1,0 +1,30 @@
+[
+    {
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_audience",
+        "target_path":  "vendor/audience",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_broadcom",
+        "target_path":  "vendor/broadcom",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_kernel_samsung_manta",
+        "target_path":  "kernel/samsung/manta",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-10.1"
+    }
+]
