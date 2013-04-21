@@ -59,6 +59,7 @@ add_lunch_combo pac_gio-userdebug
 add_lunch_combo pac_cooper-userdebug
 add_lunch_combo pac_p500-userdebug
 add_lunch_combo pac_tass-userdebug
+add_lunch_combo pac_beni-userdebug
 add_lunch_combo pac_p990-userdebug
 add_lunch_combo pac_p920-userdebug
 add_lunch_combo pac_p970-userdebug
