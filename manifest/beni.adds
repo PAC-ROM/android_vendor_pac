@@ -4,7 +4,7 @@
         "account":      "androidarmv6",
         "repository":   "android_device_ldpi-common",
         "target_path":  "device/ldpi-common",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.1"	
     },
     {
         "remote":       "github",
