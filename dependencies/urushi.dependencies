@@ -18,7 +18,7 @@
         "revision":     "cm-10.1"
     },
     {
-        "account":      "nobodyAtall",
+        "account":      "singhdd93",
         "repository":   "msm7x30-2.6.32.x-nAa",
         "target_path":  "kernel/semc/msm7x30",
         "revision":     "master"
