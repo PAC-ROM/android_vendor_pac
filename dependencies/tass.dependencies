@@ -15,7 +15,7 @@
    "target_path": "device/qcom/msm7x27",
    "revision": "cm-10.1"
  }, {
-   "account":      "androidarmv6",
+   "account":      "Paul-L",
    "repository": "android_device_samsung_msm7x27-common",
    "target_path": "device/samsung/msm7x27-common",
    "revision": "cm-10.1"
