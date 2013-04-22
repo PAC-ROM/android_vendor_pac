@@ -23,8 +23,4 @@
         "name":     "CyanogenMod/android_hardware_msm7k",
         "path":     "hardware/msm7k"
     },
-	{
-        "name":     "CyanogenMod/android_hardware_qcom_gps",
-        "path":     "hardware/qcom/gps"
-    }
 ]
