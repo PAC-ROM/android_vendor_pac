@@ -23,13 +23,6 @@
     {
         "remote":       "github",
         "account":      "cmartinbaughman",
-        "repository":   "android_hardware_qcom_audio-caf",
-        "target_path":  "hardware/qcom/audio-caf",
-        "revision":     "cm-10.1"
-    },
-	{
-        "remote":       "github",
-        "account":      "cmartinbaughman",
         "repository":   "android_hardware_libhardware",
         "target_path":  "hardware/libhardware",
         "revision":     "cm-10.1"
