@@ -15,6 +15,13 @@
     },
     {
         "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_widevine",
+        "target_path":  "vendor/widevine",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
         "account":      "CyanogenMod",
         "repository":   "android_kernel_samsung_manta",
         "target_path":  "kernel/samsung/manta",
