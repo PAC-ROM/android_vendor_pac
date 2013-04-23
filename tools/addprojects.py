@@ -50,6 +50,9 @@ def is_in_manifest(projectname):
     return None
 
 def add_to_manifest(repositories):
+    if not os.path.exists(".repo/local_manifests/"):
+        os.makedirs(".repo/local_manifests/")
+
     try:
         lm = ElementTree.parse(".repo/local_manifests/roomservice.xml")
         lm = lm.getroot()
