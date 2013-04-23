@@ -2,13 +2,6 @@
     {
         "remote":       "github",
         "account":      "androidarmv6",
-        "repository":   "android_device_mdpi-common",
-        "target_path":  "device/mdpi-common",
-        "revision":     "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
         "repository":   "android_external_libncurses",
         "target_path":  "external/libncurses",
         "branch":       "cm-10.1"
@@ -92,44 +85,9 @@
     },
     {
         "remote":       "github",
-        "account":      "OldDroid",
-        "repository":   "android_kernel_samsung_msm7x27",
-        "target_path":  "kernel/samsung/msm7x27",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
-        "repository":   "android_device_qcom_msm7x27",
-        "target_path":  "device/qcom/msm7x27",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
         "account":      "PAC-man",
         "repository":   "android_device_samsung_gio",
         "target_path":  "device/samsung/gio",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
-        "repository":   "android_vendor_qcom_msm7x27",
-        "target_path":  "vendor/qcom/msm7x27",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
-        "repository":   "android_vendor_samsung",
-        "target_path":  "vendor/samsung",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
-        "repository":   "android_device_samsung_msm7x27-common",
-        "target_path":  "device/samsung/msm7x27-common",
         "branch":       "cm-10.1"
     }
 ]
