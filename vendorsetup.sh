@@ -53,8 +53,10 @@ add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_i605-userdebug
+add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_t0lte-userdebug
+add_lunch_combo pac_n7000-userdebug
 add_lunch_combo pac_n7100-userdebug
 add_lunch_combo pac_venturi_usa-userdebug
 # Samsung & LGE Legacy Devices
