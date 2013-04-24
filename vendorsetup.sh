@@ -26,6 +26,7 @@ add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
 add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
+add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_manta-userdebug
@@ -77,3 +78,8 @@ add_lunch_combo pac_su640-userdebug
 add_lunch_combo pac_vs920-userdebug
 # Motorola 2013
 add_lunch_combo pac_vanquish-userdebug
+add_lunch_combo pac_spyder-userdebug
+add_lunch_combo pac_targa-userdebug
+add_lunch_combo pac_maserati-userdebug
+add_lunch_combo pac_umts_spyder-userdebug
+add_lunch_combo pac_solana-userdebug
