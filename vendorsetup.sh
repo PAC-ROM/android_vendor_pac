@@ -13,6 +13,7 @@ add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_fascinatemtd-userdebug
+add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9103-userdebug
 add_lunch_combo pac_i9100g-userdebug
