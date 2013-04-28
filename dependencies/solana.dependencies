@@ -29,10 +29,10 @@
    },
    {
       "remote":  "github",
-      "account": "STS-Dev-Team",
+      "account": "CyanogenMod",
       "repository":  "android_kernel_motorola_omap4-kexec-common",
       "target_path":  "kernel/motorola/omap4-kexec-common",
-      "revision":  "cm-10.1-dev"
+      "revision":  "cm-10.1"
    }
 
 ] 
