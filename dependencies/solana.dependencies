@@ -15,7 +15,7 @@
    },
     {
       "remote":  "github",
-      "account": "CyanogenMod",
+      "account": "TeamMotoPac",
       "repository":  "android_device_motorola_omap4-common",
       "target_path":  "device/motorola/omap4-common",
       "revision":  "cm-10.1"
@@ -28,8 +28,8 @@
       "revision":  "cm-10.1"
    },
    {
-      "remote":  "STS-Dev-Team",
-      "account": "CyanogenMod",
+      "remote":  "github",
+      "account": "STS-Dev-Team",
       "repository":  "android_kernel_motorola_omap4-kexec-common",
       "target_path":  "kernel/motorola/omap4-kexec-common",
       "revision":  "cm-10.1-dev"
