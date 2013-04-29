@@ -8,7 +8,7 @@
    },
     {
       "remote":  "github",
-      "account": "CyanogenMOd",
+      "account": "CyanogenMod",
       "repository":  "android_device_motorola_targa",
       "target_path":  "device/motorola/targa",
       "revision":  "cm-10.1"
