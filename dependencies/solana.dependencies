@@ -10,7 +10,7 @@
       "remote":  "github",
       "account": "CyanogenMod",
       "repository":  "android_device_motorola_solana",
-      "target_path":  "device/motorola/spyder",
+      "target_path":  "device/motorola/solana",
       "revision":  "cm-10.1"
    },
     {
