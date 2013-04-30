@@ -7,7 +7,7 @@
         "revision":   "cm-10.1"
     },
     {   "remote":  "github",
-        "account":  "TeamMotoPac",
+        "account":  "razrqcom-dev-team",
         "repository":  "android_device_motorola_msm8960-common",
         "target_path":  "device/motorola/msm8960-common",
         "revision":  "cm-10.1"
