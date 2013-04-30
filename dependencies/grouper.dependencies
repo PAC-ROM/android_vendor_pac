@@ -43,12 +43,6 @@
     },
     {
         "account":      "TheMuppets",
-        "repository":   "proprietary_vendor_trusted_logic",
-        "target_path":  "vendor/trusted_logic",
-        "revision":     "cm-10.1"
-    },
-    {
-        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
         "revision":     "cm-10.1"
