@@ -2,13 +2,13 @@
 ifeq (pac_p1,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_mdpi
+OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include PAC common configuration
