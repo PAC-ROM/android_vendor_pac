@@ -23,4 +23,7 @@ $(call inherit-product, device/samsung/p1/cm.mk)
 
 PRODUCT_NAME := pac_p1
 
+# Update local_manifest.xml
+GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
+
 endif
