@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  This file describes which devices are to be built nightly and their
+  priority.  Higher numerical priority gets preference at build time.
+
+  The priority for a device is a base value that is modified at build
+  time, as follows:
+
+  1. Priority is increased by 10 for each day that the device has not
+     been built.
+
+  2. Priority is cut in half if the previous device build failed.
+
+  Example: a device has base priority 20, has not built in 3 days, and
+  the previous build failed.  Its priority at build time would be:
+    (20 + 3*10) / 2 = 25
+-->
+
+<manifest>
+  <!-- Tier 1 devices -->
+  <device name="d2att" priority="100" />
+  <device name="d2spr" priority="100" />
+  <device name="d2tmo" priority="100" />
+  <device name="d2vzw" priority="100" />
+  <device name="d710" priority="100" />
+  <device name="i9100g" priority="100" />
+  <device name="i9100" priority="100" />
+  <device name="maguro" priority="100" />
+
+  <!-- Tier 2 devices -->
+  <device name="coconut" priority="10" />
+  <device name="grouper" priority="10" />
+  <device name="mako" priority="10" />
+  <device name="mango" priority="10" />
+  <device name="manta" priority="10" />
+  <device name="n7100" priority="10" />
+  <device name="p930" priority="10" />
+  <device name="satsuma" priority="10" />
+  <device name="skyrocket" priority="10" />
+  <device name="smultron" priority="10" />
+  <device name="su640" priority="10" />
+  <device name="tilapia" priority="10" />
+  <device name="urushi" priority="10" />
+  <device name="vs920" priority="10" />
+</manifest>
