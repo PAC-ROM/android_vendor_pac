@@ -8,6 +8,14 @@
         "path": "hardware/libhardware"
     },
     {
+        "name":     "arco/android_hardware_qcom_display-legacy",
+        "path":     "hardware/qcom/display-legacy"
+    },
+    {
+        "name":     "arco/android_hardware_qcom_media-legacy",
+        "path":     "hardware/qcom/media-legacy"
+    },
+    {
         "name": "CyanogenMod/android_hardware_qcom_media",
         "path": "hardware/qcom/media"
     },

@@ -8,6 +8,14 @@
         "path":     "hardware/libhardware"
     },
     {
+        "name":     "arco/android_hardware_qcom_display-legacy",
+        "path":     "hardware/qcom/display-legacy"
+    },
+    {
+        "name":     "arco/android_hardware_qcom_media-legacy",
+        "path":     "hardware/qcom/media-legacy"
+    },
+    {
         "name":     "CyanogenMod/android_hardware_qcom_media",
         "path":     "hardware/qcom/media"
     },
@@ -16,11 +24,11 @@
         "path":     "hardware/qcom/msm8960"
     },
     {
+        "name":     "CyanogenMod/android_hardware_samsung_slsi_exynos5",
+        "path":     "hardware/samsung_slsi/exynos5"
+    },
+    {
         "name":     "CyanogenMod/android_packages_apps_LegacyCamera",
         "path":     "packages/apps/LegacyCamera"
     },
-    {
-        "name":     "CyanogenMod/android_hardware_samsung_slsi_exynos5",
-        "path":     "hardware/samsung_slsi/exynos5"
-    }
 ]

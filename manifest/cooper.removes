@@ -28,6 +28,14 @@
         "path":     "hardware/qcom/gps"
     },
     {
+        "name":     "arco/android_hardware_qcom_display-legacy",
+        "path":     "hardware/qcom/display-legacy"
+    },
+    {
+        "name":     "arco/android_hardware_qcom_media-legacy",
+        "path":     "hardware/qcom/media-legacy"
+    },
+    {
         "name":     "CyanogenMod/android_packages_inputmethods_LatinIME",
         "path":     "packages/inputmethods/LatinIME"
     },
