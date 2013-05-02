@@ -4,7 +4,7 @@
         "account":      "CyanogenMod",
         "repository":   "android_device_samsung_manta",
         "target_path":  "device/samsung/manta",
-        "branch":       "cm-10.1"
+        "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
@@ -32,7 +32,7 @@
         "account":      "CyanogenMod",
         "repository":   "android_kernel_samsung_manta",
         "target_path":  "kernel/samsung/manta",
-        "branch":       "cm-10.1"
+        "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
