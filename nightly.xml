@@ -29,8 +29,12 @@
   <device name="maguro" priority="100" />
 
   <!-- Tier 2 devices -->
+  <device name="anzu" priority="10" />
   <device name="coconut" priority="10" />
   <device name="grouper" priority="10" />
+  <device name="haida" priority="10" />
+  <device name="hallon" priority="10" />
+  <device name="iyokan" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
