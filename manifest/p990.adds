@@ -15,16 +15,16 @@
     },
     {
         "remote": "github",
-        "account": "p990-dev",
+        "account": "PAC-man",
         "repository": "android_device_lge_p990",
         "target_path": "device/lge/p990",
-        "revision": "cm-10.1-newbl"
+        "revision": "cm10.1-newbl"
     },
     {
         "remote": "github",
-        "account": "p990-dev",
+        "account": "PAC-man",
         "repository": "android_device_lge_star-common",
         "target_path": "device/lge/star-common",
-        "revision": "cm-10.1-newbl"
+        "revision": "cm-10.1"
     }
 ]
