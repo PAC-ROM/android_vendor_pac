@@ -2,7 +2,7 @@
 ifeq (pac_d2vzw,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xhdpi
+OVERLAY_TARGET := pa_d2
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/d2-common
