@@ -1,0 +1,24 @@
+[
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_lge_p880",
+    "target_path": "device/lge/iprj-common",
+    "revision": "cm-10.1"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "lge-kernel-p880",
+    "target_path": "kernel/lge/p880",
+    "revision": "cm-10.1"
+  },
+  {
+    "remote": "github",
+    "account": "TheMuppets",
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision": "cm-10.1"
+  }
+]
+
