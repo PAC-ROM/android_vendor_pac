@@ -1,27 +1,27 @@
 [
     {
-        "account":      "PAC-man",
+        "account":      "semc7x30",
         "repository":   "android_device_semc_smultron",
         "target_path":  "device/semc/smultron",
         "revision":     "cm-10.1"
     },
     {
-        "account":      "PAC-man",
+        "account":      "semc7x30",
         "repository":   "android_device_semc_mogami-common",
         "target_path":  "device/semc/mogami-common",
         "revision":     "cm-10.1"
     },
     {
-        "account":      "PAC-man",
+        "account":      "semc7x30",
         "repository":   "android_device_semc_msm7x30-common",
         "target_path":  "device/semc/msm7x30-common",
         "revision":     "cm-10.1"
     },
     {
-        "account":      "singhdd93",
-        "repository":   "msm7x30-2.6.32.x-nAa",
+        "account":      "mikeNG",
+        "repository":   "msm7x30-3.0.x-nAa",
         "target_path":  "kernel/semc/msm7x30",
-        "revision":     "master"
+        "revision":     "cm-10.1"
     },
     {
         "account":      "CyanogenMod",
@@ -30,10 +30,10 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "semc7x30",
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
-        "revision":     "jellybean"
+        "revision":     "cm-10.1"
     },
     {
         "account":      "CyanogenMod",

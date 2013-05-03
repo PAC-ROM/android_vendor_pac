@@ -2,13 +2,17 @@
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_odin-userdebug
 # Xperia 2011
+####Mogami####
 add_lunch_combo pac_anzu-userdebug
-add_lunch_combo pac_mango-userdebug
-add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_coconut-userdebug
-add_lunch_combo pac_satsuma-userdebug
-add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_haida-userdebug
+add_lunch_combo pac_hallon-userdebug
+add_lunch_combo pac_iyokan-userdebug
+add_lunch_combo pac_mango-userdebug
+add_lunch_combo pac_satsuma-userdebug
+add_lunch_combo pac_smultron-userdebug
+add_lunch_combo pac_urushi-userdebug
+####Zeus####
 add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug
