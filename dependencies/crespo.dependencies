@@ -1,7 +1,7 @@
 [
     {
         "remote":       "github",
-        "account":      "TheMuppets",
+        "account":      "PAC-man",
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
         "revision":     "cm-10.1"
