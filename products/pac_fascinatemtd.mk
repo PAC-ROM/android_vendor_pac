@@ -4,6 +4,10 @@ ifeq (pac_fascinatemtd,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
+# Setup my personal OTA with goo.im
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=Unjust
+
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/fascinatemtd
 

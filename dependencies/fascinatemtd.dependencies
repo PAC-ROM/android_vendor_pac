@@ -1,18 +1,18 @@
 [
   {
-    "account":    "CyanogenMod",
-    "repository": "android_device_samsung_fascinatemtd",
+    "account":    "C457",
+    "repository": "device_samsung_fascinatemtd",
     "target_path": "device/samsung/fascinatemtd",
     "revision":    "cm-10.1"
   },
   {
-    "account":    "CyanogenMod",
-    "repository": "android_kernel_samsung_aries",
-    "target_path": "kernel/samsung/aries",
+    "account":    "DerTeufel",
+    "repository": "sasung-kernel-aries",
+    "target_path": "kernel/samsung/devil",
     "revision":    "cm-10.1"
   },
   {
-    "account":    "CyanogenMod",
+    "account":    "C457",
     "repository": "android_device_samsung_aries-common",
     "target_path": "device/samsung/aries-common",
     "revision":    "cm-10.1"
