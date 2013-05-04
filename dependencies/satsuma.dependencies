@@ -1,18 +1,18 @@
 [
     {
-        "account":      "semc7x30",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_satsuma",
         "target_path":  "device/semc/satsuma",
         "revision":     "cm-10.1"
     },
     {
-        "account":      "semc7x30",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_mogami-common",
         "target_path":  "device/semc/mogami-common",
         "revision":     "cm-10.1"
     },
     {
-        "account":      "semc7x30",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_msm7x30-common",
         "target_path":  "device/semc/msm7x30-common",
         "revision":     "cm-10.1"
