@@ -8,15 +8,12 @@ OVERLAY_TARGET := pa_hdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/epicmtd
 
 # PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
-
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
