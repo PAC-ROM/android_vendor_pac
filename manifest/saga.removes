@@ -12,7 +12,7 @@
         "path":     "frameworks/av"
     },
     {
-        "name":     "CyanogenMod/android_frameworks_native",
+        "name":     "PAC-man/android_frameworks_native",
         "path":     "frameworks/native"
     },
 	{
