@@ -1,12 +1,12 @@
 [
   {
-    "account":    "Nick0703",
+    "account":    "PAC-man",
     "repository": "android_device_samsung_p5100",
     "target_path": "device/samsung/p5100",
     "revision":    "cm-10.1"
   },
   {
-    "account":    "Nick0703",
+    "account":    "PAC-man",
     "repository": "android_device_samsung_omap4-common",
     "target_path": "device/samsung/omap4-common",
     "revision":    "cm-10.1"
