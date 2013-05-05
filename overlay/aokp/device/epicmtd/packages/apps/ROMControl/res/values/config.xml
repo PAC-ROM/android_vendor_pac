@@ -13,5 +13,5 @@
     <bool name="has_fast_charge">true</bool>
 
     <!-- Whether can use color tuning -->
-    <bool name="has_color_tuning">true</bool>
+    <bool name="has_color_tuning">false</bool>
 </resources>
