@@ -7,7 +7,7 @@
   },
   {
     "account":    "DerTeufel",
-    "repository": "sasung-kernel-aries",
+    "repository": "samsung-kernel-aries",
     "target_path": "kernel/samsung/devil",
     "revision":    "cm-10.1"
   },
