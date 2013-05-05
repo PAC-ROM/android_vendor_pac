@@ -8,6 +8,10 @@
         "path":     "frameworks/av"
     },
     {
+        "name":     "PAC-man/android_frameworks_native",
+        "path":     "frameworks/native"
+    },
+    {
         "name":     "CyanogenMod/android_device_common",
         "path":     "device/common"
     },
