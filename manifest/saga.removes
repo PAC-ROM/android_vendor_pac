@@ -4,10 +4,6 @@
         "path":     "packages/apps/Camera"
     },
     {
-        "name":     "CyanogenMod/android_packages_apps_Gallery2",
-        "path":     "packages/apps/Gallery2"
-    },
-    {
         "name":     "CyanogenMod/android_frameworks_av",
         "path":     "frameworks/av"
     },
