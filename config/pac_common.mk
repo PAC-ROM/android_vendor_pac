@@ -32,16 +32,13 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 PRODUCT_PACKAGES += \
     PerformanceControl \
     ROMControl
-
-# AOKP Wallpapers
-PRODUCT_PACKAGES += \
     SwagPapers
 
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 ### PARANOID ###
-# PARANOID WALLPAPERS
+# PARANOID Packages
 PRODUCT_PACKAGES += \
     ParanoidWallpapers
 
