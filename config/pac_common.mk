@@ -31,7 +31,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 # AOKP Packages
 PRODUCT_PACKAGES += \
     PerformanceControl \
-    ROMControl
+    ROMControl \
     SwagPapers
 
 # AOKP Overlays
@@ -77,7 +77,7 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 # PAC version
 PAC_VERSION_MAJOR = 22
 PAC_VERSION_MINOR = 1
-PAC_VERSION_MAINTENANCE = 0
+PAC_VERSION_MAINTENANCE = 1
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
