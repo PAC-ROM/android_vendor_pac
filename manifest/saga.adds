@@ -9,13 +9,6 @@
     {
         "remote":       "github",
         "account":      "Andromadus",
-        "repository":   "android_frameworks_native",
-        "target_path":  "frameworks/native",
-        "revision":     "cm10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "Andromadus",
         "repository":   "android_packages_apps_Camera",
         "target_path":  "packages/apps/Camera",
         "revision":     "cm10.1"
