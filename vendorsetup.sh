@@ -1,3 +1,5 @@
+# Oppo 2013
+add_lunch_combo pac_find5-userdebug
 # Xperia 2013
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_odin-userdebug
