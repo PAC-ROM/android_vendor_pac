@@ -1,10 +1,4 @@
 [
-    {
-        "account":      "Andromadus",
-        "repository":   "android_device_common",
-        "target_path":  "device/common",
-        "revision":     "cm10.1"
-    },
     {        
         "account":      "Andromadus",
         "repository":   "android_device_htc_common",
@@ -18,7 +12,7 @@
         "revision":     "cm10.1"
     },
 	{        
-        "account":      "Andromadus",
+        "account":      "blindndumb",
         "repository":   "android_device_htc_saga",
         "target_path":  "device/htc/saga",
         "revision":     "cm10.1"
