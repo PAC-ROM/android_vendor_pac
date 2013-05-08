@@ -1,4 +1,10 @@
 [
+    {
+        "account":      "Andromadus",
+        "repository":   "android_device_common",
+        "target_path":  "device/common",
+        "revision":     "cm10.1"
+    },
     {        
         "account":      "Andromadus",
         "repository":   "android_device_htc_common",
