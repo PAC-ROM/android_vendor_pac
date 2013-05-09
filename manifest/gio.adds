@@ -15,7 +15,7 @@
     },
     {
         "remote":       "github",
-        "account":      "OldDroid",
+        "account":      "androidarmv6",
         "repository":   "android_kernel_samsung_msm7x27",
         "target_path":  "kernel/samsung/msm7x27",
         "branch":       "cm-10.1"
@@ -88,13 +88,6 @@
         "account":      "androidarmv6",
         "repository":   "android_system_netd",
         "target_path":  "system/netd",
-        "branch":       "cm-10.1"
-    },
-    {
-        "remote":       "github",
-        "account":      "androidarmv6",
-        "repository":   "android_packages_inputmethods_LatinIME",
-        "target_path":  "packages/inputmethods/LatinIME",
         "branch":       "cm-10.1"
     },
     {
