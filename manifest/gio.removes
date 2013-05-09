@@ -12,7 +12,7 @@
         "path":     "frameworks/av"
     },
     {
-        "name":     "CyanogenMod/android_frameworks_native",
+        "name":     "PAC-man/android_frameworks_native",
         "path":     "frameworks/native"
     },
     {
@@ -34,10 +34,6 @@
     {
         "name":     "arco/android_hardware_qcom_media-legacy",
         "path":     "hardware/qcom/media-legacy"
-    },
-    {
-        "name":     "CyanogenMod/android_packages_inputmethods_LatinIME",
-        "path":     "packages/inputmethods/LatinIME"
     },
     {
         "name":     "CyanogenMod/android_system_netd",
