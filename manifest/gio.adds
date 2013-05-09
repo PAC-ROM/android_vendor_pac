@@ -36,7 +36,7 @@
     },
     {
         "remote":       "github",
-        "account":      "PAC-man",
+        "account":      "OldDroid",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
         "branch":       "cm-10.1-legacy"
