@@ -36,6 +36,13 @@
     },
     {
         "remote":       "github",
+        "account":      "androidarmv6",
+        "repository":   "android_device_mdpi-common",
+        "target_path":  "device/mdpi-common",
+        "revision":     "cm-10.1"
+    },
+    {
+        "remote":       "github",
         "account":      "OldDroid",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
