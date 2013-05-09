@@ -27,6 +27,7 @@
   <device name="i9100g" priority="100" />
   <device name="i9100" priority="100" />
   <device name="maguro" priority="100" />
+  <device name="galaxysmtd" priority="100" />
 
   <!-- Tier 2 devices -->
   <device name="anzu" priority="10" />
