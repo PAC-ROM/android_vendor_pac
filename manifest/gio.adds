@@ -36,10 +36,10 @@
     },
     {
         "remote":       "github",
-        "account":      "androidarmv6",
+        "account":      "PAC-man",
         "repository":   "android_frameworks_native",
         "target_path":  "frameworks/native",
-        "branch":       "cm-10.1"
+        "branch":       "cm-10.1-legacy"
     },
     {
         "remote":       "github",
