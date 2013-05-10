@@ -2,7 +2,7 @@
 ifeq (pac_saga,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
+OVERLAY_TARGET := pa_saga
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
@@ -15,9 +15,9 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/GIO.rle
 
-# Copy PAC hdpi bootanimation
+# Copy PAC minimal hdpi bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip 
+    vendor/pac/prebuilt/hdpi//minimal_bootanimation/bootanimation.zip:system/media/bootanimation.zip 
 	
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
