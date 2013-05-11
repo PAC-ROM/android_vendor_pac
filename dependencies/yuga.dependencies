@@ -45,7 +45,7 @@
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_hardware_sony_DASH",
-    "target_path": "hardware/sony/DASH"
+    "target_path": "hardware/sony/DASH",
     "revision": "jellybean"
   }
 ]
