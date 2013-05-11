@@ -1,9 +1,0 @@
-[
-    {
-        "remote":       "github",
-        "account":      "CyanogenMod",
-        "repository":   "android_packages_wallpapers_MagicSmoke",
-        "target_path":  "packages/wallpapers/MagicSmoke",
-        "revision":     "cm-10.1"
-    }
-]

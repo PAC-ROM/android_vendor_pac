@@ -22,7 +22,4 @@ $(call inherit-product, device/lge/p990/cm.mk)
 
 PRODUCT_NAME := pac_p990
 
-# Update local_manifest.xml
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-
 endif
