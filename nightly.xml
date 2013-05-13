@@ -46,6 +46,8 @@
   <device name="n7100" priority="10" />
   <device name="p930" priority="10" />
   <device name="p990" priority="10" />
+  <device name="p3100" priority="10" />
+  <device name="p3110" priority="10" />
   <device name="satsuma" priority="10" />
   <device name="skyrocket" priority="10" />
   <device name="smultron" priority="10" />
