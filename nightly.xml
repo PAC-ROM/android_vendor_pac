@@ -54,5 +54,7 @@
   <device name="su640" priority="10" />
   <device name="tilapia" priority="10" />
   <device name="urushi" priority="10" />
+  <device name="venturi_usa" priority="10" />
   <device name="vs920" priority="10" />
+
 </manifest>
