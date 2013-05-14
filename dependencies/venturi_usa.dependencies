@@ -1,8 +1,8 @@
 [
   {
-    "account":      "JackpotClavin",
-    "repository":   "android_vendor_samsung_venturi_usa",
-    "target_path":  "vendor/samsung/venturi_usa",
+    "account":      "PAC-man",
+    "repository":   "proprietary_vendor_samsung",
+    "target_path":  "vendor/samsung",
     "revision":     "cm-10.1"
     },
   {
