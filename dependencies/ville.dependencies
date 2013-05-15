@@ -24,9 +24,9 @@
         "revision":     "cm-10.1"
     },
     {
-        "account":      "atrus5",
-        "repository":   "vendor_htc_ville",
-        "target_path":  "vendor/htc/ville",
-        "revision":     "master"
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_htc",
+        "target_path":  "vendor/htc",
+        "revision":     "cm-10.1"
     }
 ]
