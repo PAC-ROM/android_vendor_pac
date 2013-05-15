@@ -22,7 +22,7 @@
     }, 
     {
         "remote":	"github",
-        "account": 	"Andromadus",
+        "account": 	"blindndumb",
         "repository": 	"android_hardware_libhardware",
         "target_path": 	"hardware/libhardware",
         "revision": 	"cm10.1"
