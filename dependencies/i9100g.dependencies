@@ -18,7 +18,7 @@
     "revision":     "cm-10.1"
   },
   {
-    "account":      "CyanogenMod",
+    "account":      "PAC-man",
     "repository":   "android_device_samsung_omap4-common",
     "target_path":  "device/samsung/omap4-common",
     "revision":     "cm-10.1"
