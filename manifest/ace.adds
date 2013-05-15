@@ -51,6 +51,13 @@
     {
         "remote":	"github",
         "account":	"Mustaavalkosta",
+        "repository": 	"android_vendor_qcom_proprietary",
+        "target_path": 	"vendor/qcom/proprietary",
+        "revision": 	"cm-10.1"
+    },
+    {
+        "remote":	"github",
+        "account":	"Mustaavalkosta",
         "repository": 	"android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7",
         "target_path": 	"prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
         "revision": 	"master"
