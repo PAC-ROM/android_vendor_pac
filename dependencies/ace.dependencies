@@ -30,9 +30,9 @@
         "revision":     "jb-mv"
     },
     {  
-        "account":      "KangBangKreations",
-        "repository":   "KangBanged-7x30",
-        "target_path":  "kernel/htc/KangBanged-7x30",
-        "revision":     "kb-stable"
+        "account":      "Mustaavalkosta",
+        "repository":   "htc7x30-3.0",
+        "target_path":  "kernel/htc/htc7x30-3.0",
+        "revision":     "cm-10.1"
     }
 ]
