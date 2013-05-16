@@ -68,5 +68,11 @@
         "repository": 	"android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7",
         "target_path": 	"prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7",
         "revision": 	"master"
+    },
+    {
+        "remote":	"cfx",
+        "repository": 	"prebuilts_gcc_linux-x86_arm_arm-eabi-4.7",
+        "target_path": 	"prebuilt/linux-x86/toolchain/arm-eabi-4.7",
+        "revision": 	"jb-devel"
     }
 ]
