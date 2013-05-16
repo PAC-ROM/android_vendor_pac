@@ -6,13 +6,13 @@
     "revision":     "cm-10.1"
     },
   {
-    "account":      "JackpotClavin",
-    "repository":   "android_device_samsung_venturi_usa",
-    "target_path":  "device/samsung/venturi_usa",
+    "account":      "Mevordel",
+    "repository":   "android_device_samsung_venturi",
+    "target_path":  "device/samsung/venturi",
     "revision":     "cm-10.1"
   },
   {
-    "account":      "JackpotClavin",
+    "account":      "Mevordel",
     "repository":   "android_kernel_samsung_venturi",
     "target_path":  "kernel/samsung/venturi",
     "revision":     "3.0Venturi"
