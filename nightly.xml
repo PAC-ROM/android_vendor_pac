@@ -38,7 +38,8 @@
   <device name="grouper" priority="10" />
   <device name="haida" priority="10" />
   <device name="hallon" priority="10" />
-  <device name="hercules" priority="10" />  
+  <device name="hercules" priority="10" />
+  <device name="i9103" priority="10" /> 
   <device name="iyokan" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
