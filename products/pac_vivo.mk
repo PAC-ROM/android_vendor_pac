@@ -1,8 +1,8 @@
 # Check for target product
-ifeq (pac_ace,$(TARGET_PRODUCT))
+ifeq (pac_vivo,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_saga
+OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
@@ -15,17 +15,17 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/GIO.rle
 
-# Copy PAC minimal hdpi bootanimation
+# Copy PAC hdpi bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/minimal_bootanimation/bootanimation.zip:system/media/bootanimation.zip 
-	
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip 
+
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/htc/ace/cm.mk)
+$(call inherit-product, device/htc/vivo/cm.mk)
 
-PRODUCT_NAME := pac_ace
+PRODUCT_NAME := pac_vivo
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))

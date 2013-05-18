@@ -49,13 +49,14 @@ add_lunch_combo pac_shooteru-userdebug
 # HTC 2011
 add_lunch_combo pac_ace-userdebug
 add_lunch_combo pac_saga-userdebug
+add_lunch_combo pac_vivo-userdebug
 # HTC 2013
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7wls-userdebug
-# Samsung 2010
+#Samsung 2010
 add_lunch_combo pac_epicmtd-userdebug
 # Samsung 2013
 add_lunch_combo pac_d2spr-userdebug
