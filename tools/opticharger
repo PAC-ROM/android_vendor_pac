@@ -58,7 +58,7 @@ then
 elif [ "$(which optipng)" != "" ];
 then
     optimize_png () {
-        optipng -o7 -quiet $1 1> /dev/null 2> /dev/null
+        optipng -nc -nb -o7 -quiet $1 1> /dev/null 2> /dev/null
     }
 elif [ "$(which pngout-static)" != "" ];
 then
