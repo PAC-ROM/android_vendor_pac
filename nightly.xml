@@ -40,10 +40,12 @@
   <device name="hallon" priority="10" />
   <device name="hercules" priority="10" />
   <device name="i9103" priority="10" /> 
+  <device name="i9300" priority="10" /> 
   <device name="iyokan" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
+  <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="p930" priority="10" />
   <device name="p990" priority="10" />
