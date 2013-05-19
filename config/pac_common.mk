@@ -27,6 +27,11 @@ PRODUCT_PACKAGES += \
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 
+# Copy over the changelog to the device
+PRODUCT_COPY_FILES += \
+    vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
+    vendor/pac/CONTRIBUTORS.mkdn:system/etc/PAC-CONTRIBUTORS.txt
+
 ### AOKP ###
 # AOKP Packages
 PRODUCT_PACKAGES += \

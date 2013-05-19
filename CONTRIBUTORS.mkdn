@@ -1,0 +1,80 @@
+PAC-man Rom
+===========
+
+
+Developers:
+-----------
+* bluefa1con
+* garwedgess
+* gs2usr
+* Nick0703
+* NukeAOSP
+* OldDroid
+* Papa Smurf151
+* singhdd93
+* Sniper
+* szl.kiev
+* xLaMbChOpSx
+
+
+Forum Administrators:
+----------
+* bluefa1con
+* metaiiica
+* Papa Smurf151
+* szl.kiev
+
+
+BuildBot Maintainers:
+----------
+* basketthis
+* Sniper
+* tdm
+
+
+Device Mentainers:
+----------
+* apascual89 ()
+* atrus5 ()
+* beerbong ()
+* berni987654321 ()
+* bkjolly ()
+* Blake (primo)
+* blindndumb (ace , saga, vivo)
+* BLOWNCO ()
+* bluefa1con (i9100, i9100g, mako)
+* cmartinbaughman (shooter, shooteru, shootervm)
+* Druboo666 (haida, hallon)
+* garwedgess (zeus)
+* grarak (maguro, i9103)
+* gs2usr (skyrocket)
+* IconRunner ()
+* iurnait ()
+* jack_nuclear ()
+* jamieg71 (jewel, evita)
+* jaydub82 (hercules)
+* jeroenqui ()
+* just1nsama ()
+* KBizzle (sprint n7100)
+* klin1344 ()
+* metaiiica (p990)
+* mithun46 ()
+* Nick0703 (captivatemtd, p3100, p3110, p5100, p5110)
+* n1kolaa (anzu)
+* OldDroid (p1000, gio, cooper, p500)
+* Papa Smurf151 (d2spr, d2att, d2tmo, d2vzw)
+* Paul-L (tass)
+* shrike1978 (vigor)
+* singhdd93 (coconut , mango , satsuma , smultron , iyokan , hallon)
+* Sniper (d710, m7wls, m7)
+* speedbot (beni)
+* szl.kiev (urushi, mango)
+* tdm (P930, SU640, VS920)
+* vertigo2012 ()
+* Wechy77 ()
+* wedgess ()
+
+Total Devices: 52
+
+Best regards
+     szl.kiev
