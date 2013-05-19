@@ -40,6 +40,7 @@ add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_tilapia-userdebug
+add_lunch_combo pac_toroplus-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
 # HTC Shooter
@@ -95,3 +96,4 @@ add_lunch_combo pac_maserati-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_solana-userdebug
 add_lunch_combo pac_vanquishgsm-userdebug
+add_lunch_combo pac_scorpionmini-userdebug
