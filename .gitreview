@@ -1,0 +1,5 @@
+[gerrit]
+host=code.nwwn.com
+port=29418
+project=PAC-man/android_vendor_pac.git
+defaultbranch=cm-10.1
