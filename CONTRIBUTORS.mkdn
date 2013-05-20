@@ -47,7 +47,7 @@ Device Mentainers:
 * cmartinbaughman (shooter, shooteru, shootervm)
 * Druboo666 (haida, hallon)
 * garwedgess (zeus)
-* grarak (maguro, i9103)
+* Grarak (maguro, i9103)
 * gs2usr (skyrocket)
 * IconRunner ()
 * iurnait (venturi)
