@@ -39,7 +39,7 @@ Device Maintainers:
 * aways (galaxysmtd)
 * beerbong ()
 * berni987654321 ()
-* Bkjolly (xt926, xt925, xt912, xt910, Droid Bionic, Droid 4, Droid 3, Gatlaxy Nexus Toro, Galaxy Nexus Toroplus )
+* Bkjolly (xt926, xt925, xt912, xt910, xt907, Droid Bionic, Droid 4, Droid 3, Gatlaxy Nexus Toro, Galaxy Nexus Toroplus )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
 * BLOWNCO ()
