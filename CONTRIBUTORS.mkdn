@@ -50,7 +50,7 @@ Device Mentainers:
 * grarak (maguro, i9103)
 * gs2usr (skyrocket)
 * IconRunner ()
-* iurnait ()
+* iurnait (venturi)
 * jack_nuclear ()
 * jamieg71 (jewel, evita)
 * jaydub82 (hercules)
