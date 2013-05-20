@@ -36,6 +36,7 @@ Device Mentainers:
 ----------
 * apascual89 ()
 * atrus5 ()
+* aways (galaxysmtd)
 * beerbong ()
 * berni987654321 ()
 * bkjolly ()
@@ -74,7 +75,7 @@ Device Mentainers:
 * Wechy77 ()
 * wedgess ()
 
-Total Devices: 52
+Total Devices: 53
 
 Best regards
      szl.kiev
