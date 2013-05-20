@@ -35,7 +35,7 @@ BuildBot Maintainers:
 Device Maintainers:
 ----------
 * apascual89 ()
-* atrus5 ()
+* atrus5 (ville)
 * aways (galaxysmtd)
 * beerbong ()
 * berni987654321 ()
