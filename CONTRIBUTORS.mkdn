@@ -72,8 +72,7 @@ Device Mentainers:
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
 * vertigo2012 ()
-* Wechy77 ()
-* wedgess ()
+* Wechy77 (urushi)
 
 Total Devices: 53
 
