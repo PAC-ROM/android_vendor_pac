@@ -24,7 +24,7 @@
         "revision":     "cm-10.1"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "atrus5",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
         "revision":     "cm-10.1"
