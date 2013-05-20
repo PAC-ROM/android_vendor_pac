@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
 # AOKP Packages
 PRODUCT_PACKAGES += \
     PerformanceControl \
+    PermissionsManager \    
     ROMControl \
     SwagPapers
 
