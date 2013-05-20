@@ -10,9 +10,9 @@ PRODUCT_COPY_FILES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/pa/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/pa/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+    vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
