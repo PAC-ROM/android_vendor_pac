@@ -32,14 +32,14 @@ BuildBot Maintainers:
 * tdm
 
 
-Device Mentainers:
+Device Maintainers:
 ----------
 * apascual89 ()
 * atrus5 ()
 * aways (galaxysmtd)
 * beerbong ()
 * berni987654321 ()
-* bkjolly ()
+* Bkjolly (xt926, xt925, xt912, xt910, Droid Bionic, Droid 4, Droid 3, Gatlaxy Nexus Toro, Galaxy Nexus Toroplus )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
 * BLOWNCO ()
