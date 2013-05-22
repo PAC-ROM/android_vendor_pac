@@ -46,6 +46,7 @@ Device Maintainers:
 * bluefa1con (i9100, i9100g, mako)
 * cmartinbaughman (shooter, shooteru, shootervm)
 * Druboo666 (haida, hallon)
+* djpbx (mint)
 * garwedgess (zeus)
 * Grarak (maguro, i9103)
 * gs2usr (skyrocket)
@@ -74,7 +75,7 @@ Device Maintainers:
 * vertigo2012 (Mako, Grouper, Tilapia, n7100)
 * Wechy77 (urushi)
 
-Total Devices: 53
+Total Devices: 54
 
 Best regards
      szl.kiev
