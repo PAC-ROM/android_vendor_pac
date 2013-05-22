@@ -1,12 +1,12 @@
 [
     {
-        "account":	"Chad0989",
+        "account":	"Flyhalf205",
         "repository":	"device_htc_vigor",
         "target_path":	"device/htc/vigor",
         "revision":	"cm-10.1"
     },
     {
-        "account":	"Chad0989",
+        "account":	"Flyhalf205",
         "repository":	"android_device_htc_msm8660-common",
         "target_path":	"device/htc/msm8660-common",
         "revision":	"cm-10.1"
@@ -18,7 +18,7 @@
         "revision":	"jellybean"
     },
     {
-        "account":	"Chad0989",
+        "account":	"Flyhalf205",
         "repository":	"vendor_htc_vigor",
         "target_path":	"vendor/htc/vigor",
         "revision":	"cm-10.1"
