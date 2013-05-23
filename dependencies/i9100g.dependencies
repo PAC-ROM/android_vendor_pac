@@ -1,6 +1,6 @@
 [
   {
-    "account":      "PAC-man",
+    "account":      "PAC-samsung",
     "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-10.1"
@@ -18,7 +18,7 @@
     "revision":     "cm-10.1"
   },
   {
-    "account":      "PAC-man",
+    "account":      "PAC-samsung",
     "repository":   "android_device_samsung_omap4-common",
     "target_path":  "device/samsung/omap4-common",
     "revision":     "cm-10.1"
