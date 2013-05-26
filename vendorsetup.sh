@@ -7,6 +7,7 @@ add_lunch_combo pac_odin-userdebug
 # Xperia 2012
 ####Board: Blue####
 add_lunch_combo pac_mint-userdebug
+add_lunch_combo pac_hayabusa-userdebug
 # Xperia 2011
 ####Board: Mogami####
 add_lunch_combo pac_anzu-userdebug

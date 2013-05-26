@@ -46,7 +46,7 @@ Device Maintainers:
 * bluefa1con (i9100, i9100g, mako)
 * cmartinbaughman (shooter, shooteru, shootervm)
 * Druboo666 (haida, hallon)
-* djpbx (mint)
+* djpbx (mint, hayabusa)
 * garwedgess (zeus)
 * Grarak (maguro, i9103)
 * gs2usr (skyrocket)
