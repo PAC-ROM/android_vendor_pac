@@ -1,15 +1,16 @@
 # Oppo 2013
 add_lunch_combo pac_find5-userdebug
 # Xperia 2013
-####Board: Fusion3####
+##Board: Fusion3
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_odin-userdebug
 # Xperia 2012
-####Board: Blue####
+##Board: Blue
 add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_hayabusa-userdebug
+add_lunch_combo pac_tsubasa-userdebug
 # Xperia 2011
-####Board: Mogami####
+##Board: Mogami
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_haida-userdebug
@@ -19,7 +20,7 @@ add_lunch_combo pac_mango-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
-####Board: Zeus####
+##Board: Zeus
 add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug

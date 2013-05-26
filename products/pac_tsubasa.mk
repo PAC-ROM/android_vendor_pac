@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_mint,$(TARGET_PRODUCT))
+ifeq (pac_tsubasa,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_sony-blue
@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/sony/mint/cm.mk)
+$(call inherit-product, device/sony/tsubasa/cm.mk)
 
-PRODUCT_NAME := pac_mint
+PRODUCT_NAME := pac_tsubasa
 
 endif
