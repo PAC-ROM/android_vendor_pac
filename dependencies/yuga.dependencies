@@ -16,6 +16,13 @@
   {
     "remote": "github",
     "account": "CyanogenMod",
+    "repository": "android_device_sony_yuga",
+    "target_path": "device/sony/yuga",
+    "revision": "cm-10.1"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
     "repository": "android_device_sony_qcom-common",
     "target_path": "device/sony/qcom-common",
     "revision": "cm-10.1"
