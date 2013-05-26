@@ -34,15 +34,15 @@ BuildBot Maintainers:
 
 Device Maintainers:
 ----------
-* apascual89 ()
+* apascual89 (manta, odin, find5)
 * atrus5 (ville)
 * aways (galaxysmtd)
-* beerbong ()
-* berni987654321 ()
+* beerbong (n7000, i9300)
+* berni987654321 (p880, p920)
 * Bkjolly (xt926, xt925, xt912, xt910, xt907, Droid Bionic, Droid 4, Droid 3, Galaxy Nexus Toro, Galaxy Nexus Toroplus )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
-* BLOWNCO ()
+* BLOWNCO (t0lte)
 * bluefa1con (i9100, i9100g, mako)
 * cmartinbaughman (shooter, shooteru, shootervm)
 * Druboo666 (haida, hallon)
@@ -50,15 +50,15 @@ Device Maintainers:
 * garwedgess (zeus)
 * Grarak (maguro, i9103)
 * gs2usr (skyrocket)
-* IconRunner ()
+* IconRunner (i777)
 * iurnait (venturi)
 * jack_nuclear ()
 * jamieg71 (jewel, evita)
 * jaydub82 (hercules)
-* jeroenqui ()
-* just1nsama ()
+* jeroenqui (yuga)
+* just1nsama (p930, su640)
 * KBizzle (sprint n7100)
-* klin1344 ()
+* klin1344 (ville)
 * metaiiica (p990)
 * mithun46 ()
 * Nick0703 (captivatemtd, p3100, p3110, p5100, p5110)
@@ -72,10 +72,10 @@ Device Maintainers:
 * speedbot (beni)
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
-* vertigo2012 (Mako, Grouper, Tilapia, n7100)
+* vertigo2012 (Mako, Grouper, Tilapia, n7100, i9505)
 * Wechy77 (urushi)
 
-Total Devices: 54
+Total Devices: 65
 
 Best regards
      szl.kiev
