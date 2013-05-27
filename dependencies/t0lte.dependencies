@@ -1,6 +1,6 @@
 [
   {
-    "account":      "TheMuppets",
+    "account":      "PAC-samsung",
     "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-10.1"
@@ -32,7 +32,7 @@
   {
     "account":      "CyanogenMod",
     "repository": "android_kernel_samsung_smdk4412",
-        "target_path": "kernel/samsung/smdk4412",
+    "target_path": "kernel/samsung/smdk4412",
     "revision":     "cm-10.1"
   }
 ]

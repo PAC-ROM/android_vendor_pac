@@ -113,14 +113,14 @@
     },
     {
         "remote":       "github",
-        "account":      "PAC-man",
+        "account":      "PAC-samsung",
         "repository":   "android_device_samsung_msm7x27-common",
         "target_path":  "device/samsung/msm7x27-common",
         "branch":       "cm-10.1"
     },
     {
         "remote":       "github",
-        "account":      "PAC-man",
+        "account":      "PAC-samsung",
         "repository":   "android_device_samsung_gio",
         "target_path":  "device/samsung/gio",
         "branch":       "cm-10.1"

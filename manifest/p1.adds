@@ -8,28 +8,28 @@
     },
     {
         "remote":        "github",
-        "account":       "PAC-man",
+        "account":       "PAC-samsung",
         "repository":    "android_device_samsung_p1-common",
         "target_path":   "device/samsung/p1-common",
         "revision":      "cm-10.1"
     },
     {
         "remote":        "github",
-        "account":       "PAC-man",
+        "account":       "PAC-samsung",
         "repository":    "android_device_samsung_p1",
         "target_path":   "device/samsung/p1",
         "revision":      "cm-10.1"
     },
     {
         "remote":        "github",
-        "account":       "PAC-man",
+        "account":       "PAC-samsung",
         "repository":    "proprietary_vendor_samsung",
         "target_path":   "vendor/samsung",
         "branch":        "cm-10.1"
     },
     {
         "remote":        "github",
-        "account":       "PAC-man",
+        "account":       "PAC-samsung",
         "repository":    "android_kernel_samsung_aries",
         "target_path":   "kernel/samsung/aries",
         "branch":        "cm-10.1"
