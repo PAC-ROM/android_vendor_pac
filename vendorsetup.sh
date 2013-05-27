@@ -38,6 +38,8 @@ add_lunch_combo pac_p5100-userdebug
 add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
 add_lunch_combo pac_p3110-userdebug
+# Samsung 2013
+add_lunch_combo pac_jfltecan-userdebug
 # Nexus Devices
 add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_mako-userdebug
