@@ -1,5 +1,5 @@
 [
- {
+  {
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_device_samsung_jfltecan",
@@ -26,7 +26,7 @@
     "repository": "android_device_samsung_jf-common",
     "target_path": "device/samsung/jf-common",
     "revision": "cm-10.1"
- }
+ },
  {
     "remote": "github",
     "account": "CyanogenMod",
