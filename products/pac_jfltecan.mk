@@ -2,10 +2,10 @@
 ifeq (pac_jfltecan,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_odin
+OVERLAY_TARGET := pa_jfltexxx
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/yuga
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/jfltexxx
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -15,12 +15,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# include ParanoidAndroid common configuration
+# include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/jfltecan/cm.mk)
 
 PRODUCT_NAME := pac_jfltecan
+
+# Update local_manifest.xml
+GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
+GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
 endif
