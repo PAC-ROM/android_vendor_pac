@@ -19,8 +19,8 @@
     },
     {
         "account":      "PAC-samsung",
-        "repository":   "proprietary_vendor_quincyatt",
-        "target_path":  "vendor/samsung/quincyatt",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
         "revision":     "jellybean"
     }
 ]

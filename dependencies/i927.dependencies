@@ -13,8 +13,8 @@
     },
     {
         "account":      "PAC-samsung",
-        "repository":   "proprietary_vendor_i927",
-        "target_path":  "vendor/samsung/i927",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
         "revision":     "jellybean"
     }
 ]
