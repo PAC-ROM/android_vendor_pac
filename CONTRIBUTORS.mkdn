@@ -38,7 +38,7 @@ Device Maintainers:
 * atrus5 (ville)
 * aways (galaxysmtd)
 * beerbong (n7000, i9300)
-* berni987654321 (p880, p920)
+* berni987654321 (p920, p970, p880, crespo)
 * Bkjolly (xt926, xt925, xt912, xt910, xt907, Droid Bionic, Droid 4, Droid 3, Galaxy Nexus Toro, Galaxy Nexus Toroplus )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
