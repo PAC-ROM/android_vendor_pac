@@ -1,7 +1,7 @@
 [
     {
         "remote": "github",
-        "account": "PAC-man",
+        "account": "TheMuppets",
         "repository": "proprietary_vendor_lge",
         "target_path": "vendor/lge",
         "revision": "cm-10.1"
