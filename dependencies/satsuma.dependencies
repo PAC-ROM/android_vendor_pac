@@ -1,24 +1,24 @@
 [
     {
-        "account":      "PAC-man",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_satsuma",
         "target_path":  "device/semc/satsuma",
         "revision":     "jellybean"
     },
     {
-        "account":      "PAC-man",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_mogami-common",
         "target_path":  "device/semc/mogami-common",
         "revision":     "jellybean"
     },
     {
-        "account":      "PAC-man",
+        "account":      "PAC-semc7x30",
         "repository":   "android_device_semc_msm7x30-common",
         "target_path":  "device/semc/msm7x30-common",
         "revision":     "jellybean"
     },
     {
-        "account":      "PAC-man",
+        "account":      "PAC-semc7x30",
         "repository":   "semc-kernel-msm7x30",
         "target_path":  "kernel/semc/msm7x30",
         "revision":     "jellybean"
