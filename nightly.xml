@@ -45,6 +45,7 @@
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
+  <device name="odin" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="p930" priority="10" />
