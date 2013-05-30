@@ -10,7 +10,7 @@
     "remote": "github",
     "account": "PAC-samsung",
     "repository": "android_device_samsung_gio",
-    "target_path": "device/qcom/msm7x27",
+    "target_path": "device/samsung/gio",
     "revision": "cm-10.1"
   },
   {
