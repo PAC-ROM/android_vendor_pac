@@ -106,7 +106,7 @@
     },
     {
         "remote":       "github",
-        "account":      "PAC-man",
+        "account":      "PAC-lge",
         "repository":   "android_device_lge_p500",
         "target_path":  "device/lge/p500",
         "branch":       "cm-10.1"
