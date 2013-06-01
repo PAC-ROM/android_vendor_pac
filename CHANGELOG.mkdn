@@ -6,6 +6,14 @@ Website: http://pac-man-rom.de/forum/
 CHANGELOG : (Notable New Features)
 ----------------------------------
 
+## 22.3.0 -> 22.4.0
+
+- Updated all CM commits to RC4[szl.kiev]
+- Updated PA commits[singhdd93]
+- Fix Pie & Tablet Date View[singhdd93]
+- Update AOKP Ribbons[xLaMbChOpSx]
+- Fix 3-dot Menu Button[xLaMbChOpSx]
+
 ## 22.2.0 -> 22.3.0
 
 - Updated all CM commits[singhdd93]
