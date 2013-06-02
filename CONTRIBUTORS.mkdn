@@ -69,6 +69,7 @@ Device Maintainers:
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
 * Sniper (d710, m7wls, m7)
 * speedbot (beni)
+* surdu_petru (spyder, umts_spyder)
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
 * vertigo2012 (Mako, Grouper, Tilapia, n7100, i9505)
