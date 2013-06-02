@@ -63,7 +63,7 @@ Device Maintainers:
 * mithun46 ()
 * Nick0703 (captivatemtd, jfltecan, p3100, p3110, p5100, p5110)
 * OldDroid (p1000, gio, cooper, p500)
-* Papa Smurf151 (d2spr, d2att, d2tmo, d2vzw,jfltespr, jfltevzw)
+* Papa Smurf151 (d2spr, d2att, d2tmo, d2vzw, jfltespr, jflteusc, jfltevzw)
 * Paul-L (tass)
 * shrike1978 (vigor)
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
