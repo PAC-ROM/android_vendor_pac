@@ -4,6 +4,10 @@ ifeq (pac_fascinatemtd,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
+# PA Pref Hack for HDPI & MDPI
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk
+
 # Setup my personal OTA with goo.im
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=Unjust

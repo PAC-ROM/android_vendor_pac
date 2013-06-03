@@ -4,6 +4,9 @@ ifeq (pac_scorpionmini,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_hdpi
 
+# PA Pref Hack for HDPI & MDPI
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk
 
 # PAC device overlay
 $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_motorola-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
