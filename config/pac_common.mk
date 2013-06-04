@@ -6,7 +6,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk 
+    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk \
+	vendor/pac/prebuilt/common/apk/RomStats.apk:system/app/RomStats.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -94,10 +95,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
     ro.papref.revision=$(PA_PREF_REVISION) \
-    ro.aokp.version=$(BOARD)_jb-mr1_milestone-1 
+    ro.aokp.version=$(BOARD)_jb-mr1_milestone-1
 
 # Setup OTA with goo.im
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=pacman \
     ro.goo.rom=pacman \
     ro.goo.version=$(shell date +%s)
+
+# ROMStats Properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.romstats.url=http://stats.pac-rom.com \
+    ro.romstats.name=PacMan \
+    ro.romstats.version=$(PAC_VERSION) \
+    ro.romstats.tframe=7
