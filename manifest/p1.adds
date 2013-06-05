@@ -22,7 +22,7 @@
     },
     {
         "remote":        "github",
-        "account":       "PAC-samsung",
+        "account":       "TheMuppets",
         "repository":    "proprietary_vendor_samsung",
         "target_path":   "vendor/samsung",
         "branch":        "cm-10.1"
