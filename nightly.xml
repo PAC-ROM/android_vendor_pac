@@ -42,6 +42,12 @@
   <device name="i9103" priority="10" /> 
   <device name="i9300" priority="10" /> 
   <device name="iyokan" priority="10" />
+  <device name="jflteatt" priority="10" />
+  <device name="jfltecan" priority="10" />
+  <device name="jfltespr" priority="10" />
+  <device name="jfltetmo" priority="10" />
+  <device name="jflteusc" priority="10" />
+  <device name="jfltevzw" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
