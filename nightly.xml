@@ -66,5 +66,9 @@
   <device name="urushi" priority="10" />
   <device name="venturi_usa" priority="10" />
   <device name="vs920" priority="10" />
+  <device name="p920" priority="10" />
+  <device name="p970" priority="10" />
+  <device name="p880" priority="10" />
+  <device name="crespo" priority="10" />
 
 </manifest>
