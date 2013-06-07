@@ -2,10 +2,10 @@
 ifeq (pac_find5,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_odin
+OVERLAY_TARGET := pa_find5
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/yuga
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/find5
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
