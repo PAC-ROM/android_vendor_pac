@@ -108,4 +108,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.romstats.url=http://stats.pac-rom.com \
     ro.romstats.name=PacMan \
     ro.romstats.version=$(PAC_VERSION) \
-    ro.romstats.tframe=7
+    ro.romstats.tframe=1
