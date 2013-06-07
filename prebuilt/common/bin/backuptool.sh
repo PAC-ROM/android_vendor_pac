@@ -40,6 +40,7 @@ case "$1" in
     run_stage post-restore
     restore_addon_d
     rm -rf $C
+    rm -rf /data/data/android.romstats
     sync
   ;;
   *)
