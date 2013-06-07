@@ -8,6 +8,7 @@ CHANGELOG : (Notable New Features)
 
 ## 22.3.0 -> 22.4.0
 
+- Add ROMStats to PAC-Man ROM [BLOWNCO & Mithun46 & PapaSmurf151]
 - Updated all CM commits to RC4[szl.kiev]
 - Updated PA commits[singhdd93]
 - Fix Pie & Tablet Date View[singhdd93]
