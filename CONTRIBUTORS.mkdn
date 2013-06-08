@@ -70,7 +70,7 @@ Device Maintainers:
 * skeevy420 (mb886)
 * Sniper (d710, m7wls, m7)
 * speedbot (beni)
-* surdu_petru (spyder, umts_spyder)
+* surdu_petru (spyder, umts_spyder, tf300t)
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
 * vertigo2012 (Mako, Grouper, Tilapia, n7100, i9505)

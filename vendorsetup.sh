@@ -111,3 +111,5 @@ add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_solana-userdebug
 add_lunch_combo pac_vanquishgsm-userdebug
 add_lunch_combo pac_scorpionmini-userdebug
+# Asus device
+add_lunch_combo pac_tf300t-userdebug
