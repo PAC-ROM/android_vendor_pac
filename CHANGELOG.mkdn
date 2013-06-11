@@ -10,6 +10,7 @@ CHANGELOG : (Notable New Features)
 
 - Added HALO [Sniper & g2usr]
 - Updated PA to 3.6
+- Removed MDPI/HDPI PA Preference Hack
 
 ## 22.3.0 -> 22.4.0
 
