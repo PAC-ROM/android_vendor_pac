@@ -18,7 +18,7 @@
     "revision":     "cm-10.1"
   },
   {
-    "account":      "Team-Hydra",
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_galaxys2-common",
     "target_path":  "device/samsung/galaxys2-common",
     "revision":     "cm-10.1"
@@ -31,8 +31,8 @@
   },
   {
     "account":      "Team-Hydra",
-    "repository":   "android_kernel_samsung_smdk4210",
-    "target_path":  "kernel/samsung/smdk4210",
+    "repository":   "android_kernel_samsung_smdk4412",
+    "target_path":  "kernel/samsung/smdk4412",
     "revision":     "cm-10.1"
   }
 ]
