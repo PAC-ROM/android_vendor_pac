@@ -18,9 +18,6 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
 
-# Embed SuperUser in Settings
-SUPERUSER_EMBEDDED := true
-
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman
