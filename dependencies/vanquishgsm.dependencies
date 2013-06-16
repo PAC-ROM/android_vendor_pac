@@ -23,5 +23,12 @@
         "repository":  "android_vendor_motorola_xt925",
         "target_path":  "vendor/motorola/xt925",
         "revision":  "cm-10.1"
-    } 
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_vendor_motorola_msm8960-common",
+        "target_path": "vendor/motorola/msm8960-common",
+        "revision": "cm-10.1"
+    }
 ]
