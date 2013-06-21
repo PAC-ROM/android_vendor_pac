@@ -55,7 +55,7 @@ Device Maintainers:
 * jack_nuclear ()
 * jamieg71 (jewel, evita)
 * jaydub82 (hercules)
-* jeroenqui (yuga)
+* jeroenqui (yuga, tf201)
 * just1nsama (p930, su640)
 * KBizzle (sprint n7100)
 * klin1344 (ville)
@@ -76,7 +76,7 @@ Device Maintainers:
 * vertigo2012 (Mako, Grouper, Tilapia, n7100, jfltexx)
 * Wechy77 (urushi)
 
-Total Devices: 96
+Total Devices: 97
 
 Best regards
      szl.kiev
