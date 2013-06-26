@@ -34,7 +34,7 @@ BuildBot Maintainers:
 
 Device Maintainers:
 ----------
-* apascual89 (manta, odin, find5, jflteatt, jfltetmo)
+* apascual89 (manta, odin, find5, jflteatt, jfltetmo, m7att)
 * atrus5 (ville)
 * aways (galaxysmtd)
 * beerbong (n7000, i9300)
