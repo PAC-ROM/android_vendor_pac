@@ -48,6 +48,7 @@
   <device name="jfltetmo" priority="10" />
   <device name="jflteusc" priority="10" />
   <device name="jfltevzw" priority="10" />
+  <device name="jfltexx" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
