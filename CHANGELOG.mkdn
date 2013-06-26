@@ -1,7 +1,8 @@
 PAC-man : The AIO Rom
 ==================================
 Source : http://github.com/PAC-man
-Website: http://pac-man-rom.de/forum/ 
+Website: http://www.pac-rom.com
+Forum  : http://forum.pac-rom.com
 ----------------------------------
 CHANGELOG : (Notable New Features)
 ----------------------------------
