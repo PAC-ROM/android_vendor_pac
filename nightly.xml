@@ -54,6 +54,7 @@
   <device name="manta" priority="10" />
   <device name="m7att" priority="10" />
   <device name="odin" priority="10" />
+  <device name="otter" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="p930" priority="10" />

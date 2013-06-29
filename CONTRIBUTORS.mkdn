@@ -48,6 +48,7 @@ Device Maintainers:
 * Druboo666 (haida, hallon)
 * djpbx (mint, hayabusa, tsubasa)
 * garwedgess (anzu, zeus)
+* goldflame09 (otter)
 * Grarak (maguro, i9103)
 * gs2usr (skyrocket, jflteatt, jfltetmo)
 * IconRunner (i777)
@@ -76,7 +77,7 @@ Device Maintainers:
 * vertigo2012 (Mako, Grouper, Tilapia, n7100, jfltexx)
 * Wechy77 (urushi)
 
-Total Devices: 97
+Total Devices: 98
 
 Best regards
      szl.kiev
