@@ -4,11 +4,11 @@
         "account": "CyanogenMod",
         "repository": "android_device_lge_mako",
         "target_path": "device/lge/mako",
-        "revision": "cm-10.1"
+        "revision": "cm10.1"
     },
     {
         "remote": "github",
-        "account": "ParanoidAndroid",
+        "account": "CyanogenMod",
         "repository": "lge-kernel-mako",
         "target_path": "kernel/lge/mako",
         "revision": "jellybean"
