@@ -1,29 +1,34 @@
 [
   {
+    "remote":       "github",
     "account":      "TheMuppets",
     "repository":   "proprietary_vendor_amazon",
     "target_path":  "vendor/amazon",
     "revision":     "cm-10.1"
     },
   {
+    "remote":       "github",
     "account":      "KFire-Android",
     "repository":   "android_device_amazon_omap4-common",
     "target_path":  "device/amazon/omap4-common",
     "revision":     "cm-10.1"
   },
   {
+    "remote":       "github",
     "account":      "KFire-Android",
     "repository":   "android_kernel_omap_otter-common",
     "target_path":  "kernel/amazon/otter-common",
     "revision":     "cm-10.1"
   },
   {
+    "remote":       "github",
     "account":      "KFire-Android",
     "repository":   "android_device_otter-common",
     "target_path":  "device/amazon/otter-common",
     "revision":     "cm-10.1"
   },
   {
+    "remote":       "github",
     "account":      "KFire-Android",
     "repository":   "android_device_amazon_otter",
     "target_path":  "device/amazon/otter",
