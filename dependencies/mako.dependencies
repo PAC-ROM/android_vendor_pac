@@ -4,7 +4,7 @@
         "account": "CyanogenMod",
         "repository": "android_device_lge_mako",
         "target_path": "device/lge/mako",
-        "revision": "cm10.1"
+        "revision": "cm-10.1"
     },
     {
         "remote": "github",
