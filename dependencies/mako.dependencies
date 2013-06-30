@@ -11,7 +11,7 @@
         "account": "CyanogenMod",
         "repository": "lge-kernel-mako",
         "target_path": "kernel/lge/mako",
-        "revision": "jellybean"
+        "revision": "cm-10.1"
     },
     {
         "remote": "github",
