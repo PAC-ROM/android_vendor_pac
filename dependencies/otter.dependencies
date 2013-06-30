@@ -15,21 +15,21 @@
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
-    "repository":   "android_kernel_omap_otter-common",
+    "account":      "CyanogenMod",
+    "repository":   "android_kernel_otter-common",
     "target_path":  "kernel/amazon/otter-common",
     "revision":     "cm-10.1"
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
+    "account":      "CyanogenMod",
     "repository":   "android_device_otter-common",
     "target_path":  "device/amazon/otter-common",
     "revision":     "cm-10.1"
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
+    "account":      "CyanogenMod",
     "repository":   "android_device_amazon_otter",
     "target_path":  "device/amazon/otter",
     "revision":     "cm-10.1"
