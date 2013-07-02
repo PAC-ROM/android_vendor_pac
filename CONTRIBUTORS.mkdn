@@ -70,6 +70,7 @@ Device Maintainers:
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
 * skeevy420 (mb886)
 * Sniper (d710, m7wls, m7)
+* MaDc0w (m7ul)
 * speedbot (beni)
 * surdu_petru (spyder, umts_spyder, tf300t)
 * szl.kiev (urushi, mango)
@@ -77,7 +78,7 @@ Device Maintainers:
 * vertigo2012 (Mako, Grouper, Tilapia, n7100, jfltexx)
 * Wechy77 (urushi)
 
-Total Devices: 98
+Total Devices: 99
 
 Best regards
      szl.kiev
