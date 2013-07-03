@@ -2,7 +2,7 @@
 ifeq (pac_odin,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_odin
+OVERLAY_TARGET := pa_xxhdpi
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/yuga
