@@ -30,7 +30,7 @@
     "revision":     "cm-10.1"
   },
   {
-    "account":      "Team-Hydra",
+    "account":      "CyanogenMod",
     "repository":   "android_kernel_samsung_smdk4412",
     "target_path":  "kernel/samsung/smdk4412",
     "revision":     "cm-10.1"
