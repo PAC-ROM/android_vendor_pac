@@ -42,7 +42,7 @@ Device Maintainers:
 * Bkjolly (xt926, xt925, xt907, Droid Bionic, Droid 4, Droid 3, Galaxy Nexus Toro, Galaxy Nexus Toroplus )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
-* BLOWNCO (t0lte, p5100, p5110)
+* BLOWNCO (jfltecri, jfltexx, t0lte, p5100, p5110)
 * bluefa1con (i9100, i9100g, mako)
 * cmartinbaughman (shooter, shooteru, shootervm)
 * Druboo666 (haida, hallon)
@@ -64,7 +64,7 @@ Device Maintainers:
 * mithun46 ()
 * Nick0703 (captivatemtd, jfltecan, p3100, p3110)
 * OldDroid (p1000, gio, cooper, p500)
-* Papa Smurf151 (d2spr, d2att, d2tmo, d2vzw, jfltespr, jflteusc, jfltevzw)
+* Papa Smurf151 (d2att, d2cri, d2mtr, d2spr, d2tmo, d2usc, d2vzw, jfltespr, jflteusc, jfltevzw)
 * Paul-L (tass)
 * shrike1978 (vigor)
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
@@ -75,10 +75,10 @@ Device Maintainers:
 * surdu_petru (spyder, umts_spyder, tf300t)
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
-* vertigo2012 (Mako, Grouper, Tilapia, n7100, jfltexx)
+* vertigo2012 (Mako, Grouper, Tilapia, n7100)
 * Wechy77 (urushi)
 
-Total Devices: 99
+Total Devices: 107
 
 Best regards
      szl.kiev

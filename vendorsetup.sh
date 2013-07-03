@@ -70,14 +70,18 @@ add_lunch_combo pac_m7wls-userdebug
 # Samsung 2010
 add_lunch_combo pac_epicmtd-userdebug
 # Samsung 2013
+add_lunch_combo pac_d2att-userdebug
+add_lunch_combo pac_d2cri-userdebug
+add_lunch_combo pac_d2mtr-userdebug
 add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
-add_lunch_combo pac_d2att-userdebug
+add_lunch_combo pac_d2usc-userdebug
 add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_jflteatt-userdebug
 add_lunch_combo pac_jfltecan-userdebug
+add_lunch_combo pac_jfltecri-userdebug
 add_lunch_combo pac_jfltespr-userdebug
 add_lunch_combo pac_jfltetmo-userdebug
 add_lunch_combo pac_jflteusc-userdebug

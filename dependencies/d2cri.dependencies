@@ -16,8 +16,8 @@
   {
     "remote": "github",
     "account": "CyanogenMod",
-    "repository": "android_device_samsung_d2spr",
-    "target_path": "device/samsung/d2spr",
+    "repository": "android_device_samsung_d2cri",
+    "target_path": "device/samsung/d2cri",
     "revision": "cm-10.1"
   },
   {

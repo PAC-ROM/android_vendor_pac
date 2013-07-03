@@ -34,6 +34,9 @@
   <device name="anzu" priority="10" />
   <device name="coconut" priority="10" />
   <device name="crespo" priority="10" />
+  <device name="d2cri" priority="10" />
+  <device name="d2mtr" priority="10" />
+  <device name="d2usc" priority="10" />
   <device name="evita" priority="10" />
   <device name="find5" priority="10" />
   <device name="galaxysmtd" priority="10" />
@@ -47,6 +50,7 @@
   <device name="jewel" priority="10" />
   <device name="jflteatt" priority="10" />
   <device name="jfltecan" priority="10" />
+  <device name="jfltecri" priority="10" />
   <device name="jfltespr" priority="10" />
   <device name="jfltetmo" priority="10" />
   <device name="jflteusc" priority="10" />
