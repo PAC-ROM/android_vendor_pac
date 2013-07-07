@@ -77,6 +77,7 @@ Device Maintainers:
 * tdm (P930, SU640, VS920)
 * vertigo2012 (Mako, Grouper, Tilapia, n7100)
 * Wechy77 (urushi)
+* zyonee (mako, grouper)
 
 Total Devices: 107
 
