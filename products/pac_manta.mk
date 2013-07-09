@@ -10,7 +10,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk

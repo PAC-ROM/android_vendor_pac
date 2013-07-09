@@ -12,7 +12,7 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 
 # Add bluefa1con bootanim
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk

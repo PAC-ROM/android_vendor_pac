@@ -13,7 +13,7 @@ PRODUCT_COPY_FILES += \
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
