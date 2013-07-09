@@ -127,3 +127,6 @@ add_lunch_combo pac_tf300t-userdebug
 add_lunch_combo pac_tf201-userdebug
 # Amazon
 add_lunch_combo pac_otter-userdebug
+add_lunch_combo pac_otter2-userdebug
+add_lunch_combo pac_tate-userdebug
+add_lunch_combo pac_jem-userdebug

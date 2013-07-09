@@ -47,6 +47,7 @@
   <device name="i9103" priority="10" /> 
   <device name="i9300" priority="10" /> 
   <device name="iyokan" priority="10" />
+  <device name="jem" priority="10" />
   <device name="jewel" priority="10" />
   <device name="jflteatt" priority="10" />
   <device name="jfltecan" priority="10" />
@@ -63,6 +64,7 @@
   <device name="m7ul" priority="10" />
   <device name="odin" priority="10" />
   <device name="otter" priority="10" />
+  <device name="otter2" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="p880" priority="10" />
@@ -78,6 +80,7 @@
   <device name="skyrocket" priority="10" />
   <device name="smultron" priority="10" />
   <device name="su640" priority="10" />
+  <device name="tate" priority="10" />
   <device name="tilapia" priority="10" />
   <device name="urushi" priority="10" />
   <device name="venturi_usa" priority="10" />
