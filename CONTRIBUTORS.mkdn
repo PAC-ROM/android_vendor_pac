@@ -69,7 +69,7 @@ Device Maintainers:
 * shrike1978 (vigor)
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
 * skeevy420 (mb886)
-* Sniper (d710, m7wls, m7)
+* Sniper (d710, m7spr, m7, u8800pro)
 * MaDc0w (m7ul)
 * speedbot (beni)
 * surdu_petru (spyder, umts_spyder, tf300t)
@@ -79,7 +79,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 110
+Total Devices: 111
 
 Best regards
      szl.kiev

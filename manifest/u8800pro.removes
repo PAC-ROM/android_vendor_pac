@@ -1,0 +1,14 @@
+[
+    {
+        "name":     "android_hardware_qcom_display",
+        "path":     "hardware/qcom/display"
+    },
+    {
+        "name":     "arco/android_hardware_qcom_display-legacy",
+        "path":     "hardware/qcom/display-legacy"
+    },
+    {
+        "name":     "android_hardware_qcom_media",
+        "path":     "hardware/qcom/media"
+    }
+]

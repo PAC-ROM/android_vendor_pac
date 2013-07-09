@@ -1,0 +1,58 @@
+[
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_hardware_atheros_wifi_libs",
+        "target_path":  "hardware/atheros/wifi/libs",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "branch":       "cm-10.1-new"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_hardware_qcom_display-legacy",
+        "target_path":  "hardware/qcom/display-legacy",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_device_huawei_u8800pro",
+        "target_path":  "device/huawei/u8800pro",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_device_huawei_msm7x30-common",
+        "target_path":  "device/huawei/msm7x30-common",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_kernel_huawei_honor",
+        "target_path":  "kernel/huawei/honor",
+        "branch":       "cm-10.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-u8800pro",
+        "repository":   "android_vendor_huawei",
+        "target_path":  "vendor/huawei",
+        "branch":       "cm-10.1"
+    }
+]
