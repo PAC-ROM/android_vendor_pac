@@ -15,6 +15,7 @@
         <setting type="Hybrid" target="com.google.android.apps.docs.colors" value="ff242424|b2e3ff00|ffffffff|ff000000"/>
         <setting type="Hybrid" target="com.dropbox.android.colors" value="ff0063b2|b2ffffff|ffffffff|ff000000"/>
         <setting type="Hybrid" target="com.facebook.katana.colors" value="ff123a6d|b2ffffff|ffffffff|ff133661"/>
+        <setting type="Hybrid" target="com.facebook.orca.colors" value="ff123a6d|b2ffffff|ffffffff|ff133661"/>
         <setting type="Hybrid" target="flipboard.app.colors" value="ffdbdbdb|b2383838|ffffffff|ff000000"/>
         <setting type="Hybrid" target="com.android.vending.colors" value="ff3b3b3b|b295a939|ffffffff|ff5a573e"/>
         <setting type="Hybrid" target="com.google.android.gm.colors" value="ff464646|b2ffffff|ffffffff|ff000000"/>
