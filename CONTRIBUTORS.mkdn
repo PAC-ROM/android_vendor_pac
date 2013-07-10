@@ -39,7 +39,7 @@ Device Maintainers:
 * aways (galaxysmtd)
 * beerbong (n7000, i9300)
 * berni987654321 (p920, p970, p880, crespo)
-* Bkjolly (xt926, xt925, xt907, Droid Bionic, Droid 4, Droid 3, Galaxy Nexus Toro, Galaxy Nexus Toroplus )
+* Bkjolly (xt926, xt925, xt907, Droid Bionic, Droid 4, Droid 3, Galaxy Nexus Toro, Galaxy Nexus Toroplus, Grouper, Tilapia )
 * Blake (primo)
 * blindndumb (ace , saga, vivo)
 * BLOWNCO (jfltecri, jfltexx, t0lte, p5100, p5110)
@@ -75,7 +75,7 @@ Device Maintainers:
 * surdu_petru (spyder, umts_spyder, tf300t)
 * szl.kiev (urushi, mango)
 * tdm (P930, SU640, VS920)
-* vertigo2012 (Mako, Grouper, Tilapia, n7100)
+* vertigo2012 (Mako, n7100)
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
