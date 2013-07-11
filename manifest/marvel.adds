@@ -74,7 +74,7 @@
     },{
         "remote":      "github",
         "account":     "androidarmv6",
-        "repository":  "androidarmv6/android_packages_apps_Bluetooth_msm",
+        "repository":  "android_packages_apps_Bluetooth_msm",
         "target_path": "packages/apps/Bluetooth_msm",
         "revision":    "cm-10.1"
 
