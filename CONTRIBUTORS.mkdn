@@ -49,6 +49,7 @@ Device Maintainers:
 * Druboo666 (haida, hallon)
 * djpbx (mint, hayabusa, tsubasa)
 * garwedgess (anzu, zeus)
+* gchild320 (i605)
 * goldflame09 (otter, otter2, tate, jem)
 * Grarak (maguro, i9103)
 * gs2usr (skyrocket, jflteatt, jfltetmo)
@@ -80,7 +81,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 111
+Total Devices: 112
 
 Best regards
      szl.kiev
