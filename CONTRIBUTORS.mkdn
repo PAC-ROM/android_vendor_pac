@@ -73,7 +73,7 @@ Device Maintainers:
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
 * skeevy420 (mb886)
 * Sniper (d710, m7spr, m7, u8800pro)
-* MaDc0w (m7ul)
+* MaDc0w (m7ul,i9305)
 * speedbot (beni)
 * surdu_petru (spyder, umts_spyder, tf300t)
 * szl.kiev (urushi, mango)
