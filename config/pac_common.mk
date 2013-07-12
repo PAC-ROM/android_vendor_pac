@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     ROMControl \
     SwagPapers \
-    PermissionsManager  
+    PermissionsManager
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 

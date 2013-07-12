@@ -17,7 +17,7 @@ PRODUCT_COPY_FILES += \
 
 # Copy PAC minimal hdpi bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/minimal_bootanimation/bootanimation.zip:system/media/bootanimation.zip 
+    vendor/pac/prebuilt/hdpi/minimal_bootanimation/bootanimation.zip:system/media/bootanimation.zip
 	
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk

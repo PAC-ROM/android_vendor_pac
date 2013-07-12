@@ -119,7 +119,7 @@ CHANGELOG : (Notable New Features)
 
 ## 19.1.0 -> 19.2.0
 
-- Remove CM volume panel style 
+- Remove CM volume panel style
 - Remove CM kill app longpress back
 - CM10 Nightly Updates
 
