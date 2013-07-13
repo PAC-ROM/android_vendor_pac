@@ -11,6 +11,11 @@ add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_hayabusa-userdebug
 add_lunch_combo pac_tsubasa-userdebug
+##Board: Montblanc
+add_lunch_combo pac_kumquat-userdebug
+add_lunch_combo pac_lotus-userdebug
+add_lunch_combo pac_nypon-userdebug
+add_lunch_combo pac_pepper-userdebug
 # Xperia 2011
 ##Board: Mogami
 add_lunch_combo pac_anzu-userdebug

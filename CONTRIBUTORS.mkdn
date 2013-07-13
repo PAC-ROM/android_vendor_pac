@@ -69,6 +69,7 @@ Device Maintainers:
 * OldDroid (p1000, gio, cooper, p500)
 * Papa Smurf151 (d2att, d2cri, d2mtr, d2spr, d2tmo, d2usc, d2vzw, jfltespr, jflteusc, jfltevzw)
 * Paul-L (tass)
+* percy_g2 (kumquat,lotus,nypon,pepper)
 * shrike1978 (vigor)
 * singhdd93 (coconut, mango, satsuma, smultron, iyokan, hallon)
 * skeevy420 (mb886)
@@ -82,7 +83,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 113
+Total Devices: 117
 
 Best regards
      szl.kiev
