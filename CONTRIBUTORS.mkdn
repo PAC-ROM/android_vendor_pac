@@ -47,6 +47,7 @@ Device Maintainers:
 * bluefa1con (i9100, i9100g, mako)
 * cmartinbaughman (shooter, shooteru, shootervm)
 * crossfire77 (marvel)
+* dominos_liberty (villec2)
 * Druboo666 (haida, hallon)
 * djpbx (mint, hayabusa, tsubasa)
 * garwedgess (anzu, zeus)
@@ -84,7 +85,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 118
+Total Devices: 119
 
 Best regards
      szl.kiev

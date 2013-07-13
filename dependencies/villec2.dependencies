@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "bilalliberty",
+        "repository":   "android_device_htc_villec2",
+        "target_path":  "device/htc/villec2",
+        "revision":     "jellybean"
+    },
+    {
+        "account":      "Mokee",
+        "repository":   "android_kernel_htc_villec2",
+        "target_path":  "kernel/htc/villec2",
+        "revision":     "jb-mr1_mkt"
+    },
+    {
+        "account":      "bilalliberty",
+        "repository":   "proprietary_vendor_htc",
+        "target_path":  "vendor/htc",
+        "revision":     "jellybean"
+         }
+]
