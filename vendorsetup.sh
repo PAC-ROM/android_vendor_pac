@@ -119,6 +119,7 @@ add_lunch_combo pac_p930-userdebug
 add_lunch_combo pac_su640-userdebug
 add_lunch_combo pac_vs920-userdebug
 # Motorola 2013
+add_lunch_combo pac_edison-userdebug
 add_lunch_combo pac_mb886-userdebug
 add_lunch_combo pac_vanquish-userdebug
 add_lunch_combo pac_spyder-userdebug
