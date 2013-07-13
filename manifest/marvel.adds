@@ -21,7 +21,7 @@
         "remote":      "github",
         "account":     "androidarmv6",
         "repository":  "android_external_dbus",
-        "target_path": "external_dbus",
+        "target_path": "external/dbus",
         "revision":    "cm-10.1"
     },{
         "remote":      "github",
