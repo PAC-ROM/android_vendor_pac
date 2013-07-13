@@ -47,6 +47,7 @@
   <device name="hercules" priority="10" />
   <device name="i605" priority="10" />
   <device name="i9103" priority="10" />
+  <device name="i927" priority="10" />
   <device name="i9300" priority="10" />
   <device name="i9305" priority="10" />
   <device name="iyokan" priority="10" />

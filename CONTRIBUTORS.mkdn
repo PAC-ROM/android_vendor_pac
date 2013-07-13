@@ -71,6 +71,7 @@ Device Maintainers:
 * jaydub82 (hercules)
 * jeroenqui (yuga, tf201)
 * just1nsama (p930, su640)
+* Kick Buttowski (i927)
 * klin1344 (ville)
 * MaDc0w (m7ul,i9305)
 * metaiiica (p990)
@@ -93,7 +94,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 118
+Total Devices: 119
 
 Best regards
      szl.kiev
