@@ -1,0 +1,10 @@
+[
+   {
+        "remote":       "github",
+        "account":      "jose51197",
+        "repository":   "fireball_bluetooth",
+        "target_path":  "device",
+        "revision":     "cm-10.1"
+    }
+
+]

@@ -70,6 +70,7 @@ Device Maintainers:
 * jamieg71 (jewel, evita)
 * jaydub82 (hercules)
 * jeroenqui (yuga, tf201)
+* jose51197 (fireball)
 * just1nsama (p930, su640)
 * Kick Buttowski (i927)
 * klin1344 (ville)
@@ -94,7 +95,7 @@ Device Maintainers:
 * Wechy77 (urushi)
 * zyonee (mako, grouper)
 
-Total Devices: 119
+Total Devices: 120
 
 Best regards
      szl.kiev
