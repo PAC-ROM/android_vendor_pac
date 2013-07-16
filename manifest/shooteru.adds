@@ -1,12 +1,12 @@
-[ 
-   { 
+[
+   {
         "remote":       "github",
         "account":      "cmartinbaughman",
         "repository":   "android_frameworks_av",
         "target_path":  "frameworks/av",
         "revision":     "cm-10.1"
     },
-    { 
+    {
         "remote":       "github",
         "account":      "cmartinbaughman",
         "repository":   "android_frameworks_native",

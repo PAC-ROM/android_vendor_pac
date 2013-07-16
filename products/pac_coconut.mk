@@ -14,7 +14,7 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/sony-pac_320x480.rle:root/logo.rle
-    
+
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip

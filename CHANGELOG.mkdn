@@ -9,6 +9,8 @@ CHANGELOG : (Notable New Features)
 
 ## 22.4.0 -> 23.0.0
 
+- Add ROM-Share [mithun46]
+- Update all CM Commits [mithun46 & zyonee]
 - Added HALO [Sniper & gs2usr]
 - Updated PA to 3.6
 - Removed MDPI/HDPI PA Preferences Hack
@@ -117,7 +119,7 @@ CHANGELOG : (Notable New Features)
 
 ## 19.1.0 -> 19.2.0
 
-- Remove CM volume panel style 
+- Remove CM volume panel style
 - Remove CM kill app longpress back
 - CM10 Nightly Updates
 

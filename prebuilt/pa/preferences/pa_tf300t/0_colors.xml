@@ -6,6 +6,7 @@
         <setting type="Hybrid" target="com.cyanogenmod.trebuchet.colors" value="4A000000|B2FFFFFF|FFFFFFFF|4A000000|FF33B5E5"/>
         <setting type="Hybrid" target="com.android.vending.colors" value="FF121212|D1DC8745|FFB5D67E|FF121212|E5C1534E"/>
         <setting type="Hybrid" target="com.facebook.katana.colors" value="FF28395F|B2FFFFFF|FFFFFFFF|FF375180|93FFFFFF"/>
+        <setting type="Hybrid" target="com.facebook.orca.colors" value="FF28395F|B2FFFFFF|FFFFFFFF|FF375180|93FFFFFF"/>
         <setting type="Hybrid" target="com.android.mms.colors" value="FF222222|B2FFFFFF|FFFFFFFF|FF555555|B294B829"/>
         <setting type="Hybrid" target="com.google.android.calendar.colors" value="FF44B9E5|FFFFFFFF|FFFFFFFF|FFDDDDDD|FF44B9E5"/>
         <setting type="Hybrid" target="com.google.android.talk.colors" value="FF222222|B2FFFFFF|FFFFFFFF|FF222222|B2FF8801"/>

@@ -6,6 +6,12 @@
         "target_path":  "device/samsung/tuna",
         "revision":     "cm-10.1"
     },
+    {   "remote":       "github",
+        "account":      "CyangogenMod",
+        "repository":   "android_device_samsung_toroplus",
+        "target_path":  "device/samsung/toroplus",
+        "revision":     "cm-10.1"
+    },
     {
         "remote":       "github",
         "account":      "CyanogenMod",

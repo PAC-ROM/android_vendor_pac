@@ -7,6 +7,13 @@
         "revision":     "cm-10.1"
     },
     {
+       "remote":        "github",
+       "account":       "CyanogenMod",
+       "repository":    "android_device_samsung_toro",
+       "target_path":   "device/samsung/toro",
+       "revision":      "cm-10.1"
+    },
+    {
         "remote":       "github",
         "account":      "CyanogenMod",
         "repository":   "android_kernel_samsung_tuna",

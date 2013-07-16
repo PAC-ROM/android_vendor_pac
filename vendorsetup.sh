@@ -11,6 +11,11 @@ add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_hayabusa-userdebug
 add_lunch_combo pac_tsubasa-userdebug
+##Board: Montblanc
+add_lunch_combo pac_kumquat-userdebug
+add_lunch_combo pac_lotus-userdebug
+add_lunch_combo pac_nypon-userdebug
+add_lunch_combo pac_pepper-userdebug
 # Xperia 2011
 ##Board: Mogami
 add_lunch_combo pac_anzu-userdebug
@@ -31,6 +36,7 @@ add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9103-userdebug
 add_lunch_combo pac_i9100g-userdebug
+add_lunch_combo pac_i927-userdebug
 add_lunch_combo pac_d710-userdebug
 add_lunch_combo pac_p1-userdebug
 # Samsung 2012
@@ -81,6 +87,7 @@ add_lunch_combo pac_d2usc-userdebug
 add_lunch_combo pac_d2vzw-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i9300-userdebug
+add_lunch_combo pac_i9305-userdebug
 add_lunch_combo pac_jflteatt-userdebug
 add_lunch_combo pac_jfltecan-userdebug
 add_lunch_combo pac_jfltecri-userdebug
@@ -113,6 +120,7 @@ add_lunch_combo pac_p930-userdebug
 add_lunch_combo pac_su640-userdebug
 add_lunch_combo pac_vs920-userdebug
 # Motorola 2013
+add_lunch_combo pac_edison-userdebug
 add_lunch_combo pac_mb886-userdebug
 add_lunch_combo pac_vanquish-userdebug
 add_lunch_combo pac_spyder-userdebug
@@ -130,5 +138,6 @@ add_lunch_combo pac_otter-userdebug
 add_lunch_combo pac_otter2-userdebug
 add_lunch_combo pac_tate-userdebug
 add_lunch_combo pac_jem-userdebug
-# Huawei
-add_lunch_combo pac_u8800pro-userdebug
+# HTC-legacy
+add_lunch_combo pac_marvel-userdebug
+add_lunch_combo pac_villec2-userdebug
