@@ -148,7 +148,7 @@ Samsung:
 * Galaxy S II                  i9100G          bluefa1con
 * Galaxy S II LTE (AT&T)       skyrocket       gs2usr
 * Galaxy S II (T-Mobile)       hercules        ga2usr
-* Galaxy S III                 i9300           beerbong
+* Galaxy S III                 i9300           beerbong, garwedgess
 * Galaxy S III                 i9305           MaDc0w
 * Galaxy S III (AT&T)          d2att           Papa Smurf151
 * Galaxy S III (Cricket)       d2cri           Papa Smurf151
@@ -195,13 +195,13 @@ Sony Ericsson:
 ---------------------------------------------------------------------
 * Live With Walkman            coconut         singhdd93
 * Xperia Active                satsuma         singhdd93
-* Xperia Arc                   anzu            n1kolaa , singhdd93
+* Xperia Arc                   anzu            garwedgess, singhdd93
 * Xperia Mini                  smultron        singhdd93
-* Xperia Mini Pro              mango           szl.kiev , singhdd93
-* Xperia Neo                   hallon          Druboo666 , singhdd93
+* Xperia Mini Pro              mango           szl.kiev, singhdd93
+* Xperia Neo                   hallon          Druboo666, singhdd93
 * Xperia Neo V                 haida           Druboo666, singhdd93
 * Xperia Pro                   iyokan          singhdd93
-* Xperia Ray                   urushi          szl.kiev , singhdd93, Wechy77
+* Xperia Ray                   urushi          szl.kiev, singhdd93, Wechy77
 * Xperia Play                  zeus            garwedgess
 
 
