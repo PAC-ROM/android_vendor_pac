@@ -12,10 +12,10 @@
         "revision":	"cm-10.1"
     },
     {
-        "account":	"shrike1978",
-        "repository":	"ermahgerd_kernel_vigor",
+        "account":	"Flyhalf205",
+        "repository":	"vigor_aosp_kernel",
         "target_path":	"kernel/htc/vigor-3.0",
-        "revision":	"jellybean"
+        "revision":	"cm-10.1"
     },
     {
         "account":	"Flyhalf205",
