@@ -149,7 +149,7 @@ Samsung:
 * Galaxy S II LTE (AT&T)       skyrocket       gs2usr
 * Galaxy S II (T-Mobile)       hercules        ga2usr
 * Galaxy S III                 i9300           beerbong, garwedgess
-* Galaxy S III                 i9305           MaDc0w
+* Galaxy S III (LTE)           i9305           MaDc0w
 * Galaxy S III (AT&T)          d2att           Papa Smurf151
 * Galaxy S III (Cricket)       d2cri           Papa Smurf151
 * Galaxy S III (Metro PCS)     d2mtr           Papa Smurf151
