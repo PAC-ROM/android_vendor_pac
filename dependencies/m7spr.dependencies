@@ -7,8 +7,8 @@
     },
     {
         "account":      "CyanogenMod",
-        "repository":   "android_device_htc_m7wls",
-        "target_path":  "device/htc/m7wls",
+        "repository":   "android_device_htc_m7spr",
+        "target_path":  "device/htc/m7spr",
         "revision":     "cm-10.1"
     },
     {
