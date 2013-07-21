@@ -20,7 +20,7 @@
   {
     "account":      "Atrix2-Dev-Team",
     "repository":   "kernel_mapphone_kexec",
-    "target_path":  "kernel/motorola/omap4-kexec-common",
+    "target_path":  "kernel/motorola/omap4-common",
     "revision":     "cm-10.1"
   }
 ]
