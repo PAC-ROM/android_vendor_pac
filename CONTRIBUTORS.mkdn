@@ -58,7 +58,7 @@ ASUS:
 * Eee Pad Transformer Prime:   tf201           jeroenqui
 * Nexus 7:                     grouper         Bkjolly, zyonee
 * Nexus 7 3G:                  tilapia         Bkjolly
-* Transformer Pad:             tf300t          surdu_petru
+* Transformer Pad:             tf300t          gchild320
 
 
 
