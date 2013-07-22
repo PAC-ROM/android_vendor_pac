@@ -168,7 +168,7 @@ Samsung:
 * Galaxy Tab 7':               p1000           OldDroid
 * Galaxy Tab 10':              p7100           BLOWNCO
 * Galaxy Tab 2 7':             p3100/P3110     Nick0703
-* Galaxy Tab 2 10':            p5100/P5110     BLOWNCO
+* Galaxy Tab 2 10':            p5100/P5110     BLOWNCO, pvyParts
 * Galaxy W:                    i8150           percy_g2
 * Nexus S:                     crespo          berni987654321
 * Nexus 10:                    manta           apascual89
