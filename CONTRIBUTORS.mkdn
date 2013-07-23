@@ -75,6 +75,7 @@ HTC:
 * One (AT&T):                  m7att           apascual89
 * One (GSM):                   m7ul            MaDc0w
 * One (Sprint):                m7spr           Sniper
+* One (T-Mobile):              m7tmo           MaDc0w
 * One S:                       ville           atrus5
 * One S C2:                    villec2         dominos_liberty
 * One X:                       evita           jamieg71
@@ -148,7 +149,7 @@ Samsung:
 * Galaxy S II:                 i9100G          bluefa1con
 * Galaxy S II LTE (AT&T):      skyrocket       gs2usr
 * Galaxy S II (T-Mobile):      hercules        ga2usr
-* Galaxy S III:                i9300           beerbong, garwedgess
+* Galaxy S III (GSM):          i9300           beerbong, garwedgess
 * Galaxy S III (LTE):          i9305           MaDc0w
 * Galaxy S III (AT&T):         d2att           Papa Smurf151
 * Galaxy S III (Cricket):      d2cri           Papa Smurf151
@@ -206,7 +207,7 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 118
+Total Devices: 119
 
 Best regards
      szl.kiev
