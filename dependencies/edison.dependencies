@@ -1,9 +1,9 @@
 [
   {
-    "account":      "Atrix2-Dev-Team",
+    "account":      "TheMuppets",
     "repository":   "proprietary_vendor_motorola",
     "target_path":  "vendor/motorola",
-    "revision":     "edison-jb"
+    "revision":     "cm-10.1"
     },
   {
     "account":      "Atrix2-Dev-Team",
@@ -18,8 +18,8 @@
     "revision":     "cm-10.1"
   },
   {
-    "account":      "Atrix2-Dev-Team",
-    "repository":   "kernel_mapphone_kexec",
+    "account":      "CyanogenMod",
+    "repository":   "android_kernel_motorola_omap4-common",
     "target_path":  "kernel/motorola/omap4-common",
     "revision":     "cm-10.1"
   }
