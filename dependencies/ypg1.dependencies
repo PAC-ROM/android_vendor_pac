@@ -1,8 +1,8 @@
 [
   {
-    "account":      "TheMuppets",
-    "repository":   "proprietary_vendor_samsung",
-    "target_path":  "vendor/samsung",
+    "account":      "bbelos",
+    "repository":   "vendor_samsung_ypg1",
+    "target_path":  "vendor/samsung/ypg1",
     "revision":     "cm-10.1"
     },
   {
