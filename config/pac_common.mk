@@ -6,8 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Copy specific ROM files
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk \
-	vendor/pac/prebuilt/common/apk/PACStats.apk:system/app/PACStats.apk
+    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -20,7 +19,8 @@ include vendor/pa/config/themes_common.mk
 
 # PAC Packages
 PRODUCT_PACKAGES += \
-    GooglePacman
+    GooglePacman \
+    PacStats
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
