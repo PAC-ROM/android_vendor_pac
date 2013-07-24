@@ -1,0 +1,23 @@
+[
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_lge_p760",
+    "target_path": "device/lge/p760",
+    "revision": "cm-10.1"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "lge-kernel-omap4",
+    "target_path": "kernel/lge/omap4-common",
+    "revision": "cm-10.1"
+  },
+  {
+    "remote": "github",
+    "account": "TheMuppets",
+    "repository": "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision": "cm-10.1"
+  }
+]
