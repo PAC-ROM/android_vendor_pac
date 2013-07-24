@@ -71,6 +71,7 @@ HTC:
 * Evo 3D (GSM):                shooteru        cmbaughman
 * Evo LTE:                     jewel           jamieg71
 * Evo V:                       shootervm       cmbaughman
+* MyTouch 4G:                  glacier         coderzs
 * One:                         m7              sniper
 * One (AT&T):                  m7att           apascual89
 * One (GSM):                   m7ul            MaDc0w

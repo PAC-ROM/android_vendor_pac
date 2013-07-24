@@ -1,0 +1,23 @@
+[
+    {
+        "account":       "coderzstas",
+        "repository":    "android_device_htc_glacier",
+        "target_path":   "device/htc/glacier",
+        "revision":      "pac"
+    },{
+        "account":       "coderzstas",
+        "repository":    "android_device_htc_msm7x30-common",
+        "target_path":   "device/htc/msm7x30-common",
+        "revision":      "jellybean"
+    },{
+        "account":       "coderzstas",
+        "repository":    "android_vendor_htc_glacier",
+        "target_path":   "vendor/htc/glacier",
+        "revision":      "master"
+    },{
+        "account":       "Evervolv",
+        "repository":    "htc7x30-3.0",
+        "target_path":   "kernel/htc/htc7x30",
+        "revision":      "jellybean"
+    }
+]
