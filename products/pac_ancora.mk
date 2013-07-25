@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_ancora,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/samsung)
+$(shell rm -f vendor/samsung/ancora)
+$(shell ln -sf ../samsung_ancora vendor/samsung/ancora)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
