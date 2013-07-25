@@ -168,8 +168,6 @@ Samsung:
 * Galaxy S IV (US Cellular):   jflteusc        Papa Smurf151
 * Galaxy S IV (Verizon):       jfltevzw        Papa Smurf151
 * Galaxy Tab 7':               p1000           OldDroid
-* Galaxy Tab 8.9 (GSM):        p5              mithun46
-* Galaxy Tab 8.9 (Wi-Fi)       p5wifi          mithun46
 * Galaxy Tab 10':              p7100           BLOWNCO
 * Galaxy Tab 2 7':             p3100/P3110     Nick0703
 * Galaxy Tab 2 10':            p5100/P5110     BLOWNCO, pvyParts
@@ -210,7 +208,8 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 122
+
+Total Devices: 120
 
 Best regards
      szl.kiev
