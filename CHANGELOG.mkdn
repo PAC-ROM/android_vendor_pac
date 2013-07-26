@@ -9,13 +9,15 @@ CHANGELOG : (Notable New Features)
 
 ## 22.4.0 -> 23.0.0
 
+- Finalize Code in 4.2
+- Fix Some Bugs [garwedgess & gs2usr]
 - Add ROM-Share [mithun46]
-- Update all CM Commits [mithun46 & zyonee]
+- Update all CM, PA & AOKP Commits [mithun46, zyonee & garwedgess]
 - Added HALO [Sniper & gs2usr]
 - Updated PA to 3.6
 - Removed MDPI/HDPI PA Preferences Hack
-- Updated to CM-10.1-RC5
-- TRDS 2.0
+- Updated to CM-10.1.1-RC0
+- TRDS 2.0 [SlimRoms/singhdd93]
 
 ## 22.3.0 -> 22.4.0
 
@@ -34,7 +36,7 @@ CHANGELOG : (Notable New Features)
 - Statusbar auto collapse is back[gs2usr]
 - Calendar now work on 960p[PA/beerbong]
 - Phone layouts for Tablet/Phablet UI[PA/beerbong]
-- Email FC Fixed[Sniper-]
+- Email FC Fixed[Sniper]
 - Lockscreen shortcuts for now[Langes72]
 - CM's lockscreen slider shortcut is back[gs2usr]
 - View PAC-man contributors in Settings > About phone[Sniper]
