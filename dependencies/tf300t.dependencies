@@ -10,5 +10,11 @@
       "repository":  "android_kernel_asus_tf300t",
       "target_path":  "kernel/asus/tf300t",
       "revision":  "jellybean"
+   },
+   {
+      "account": "TheMuppets",
+      "repository": "proprietary_vendor_asus",
+      "target_path": "vendor/asus",
+      "revision": "cm-10.1"
    }
 ]
