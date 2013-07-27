@@ -93,7 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
     ro.papref.revision=$(PA_PREF_REVISION) \
-    ro.aokp.version=$(BOARD)_jb-mr1_milestone-1
+    ro.aokp.version=$(BOARD)_jb-mr1_milestone-2
 
 # Setup OTA with goo.im
 PRODUCT_PROPERTY_OVERRIDES += \
