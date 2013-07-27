@@ -24,7 +24,7 @@
         "remote": "github",
         "account": "razrqcom-dev-team",
         "repository": "android_vendor_motorola_xt926",
-        "target_path": "vendor/motorola/xt926",
+        "target_path": "vendor/motorola-extra/xt926",
         "revision": "cm-10.1"
     },
     {

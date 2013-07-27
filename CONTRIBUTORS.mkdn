@@ -72,7 +72,6 @@ HTC:
 * Evo LTE:                     jewel           jamieg71
 * Evo V:                       shootervm       cmbaughman
 * MyTouch 4G:                  glacier         coderzs
-* One:                         m7              sniper
 * One (AT&T):                  m7att           apascual89
 * One (GSM):                   m7ul            MaDc0w
 * One (Sprint):                m7spr           Sniper
@@ -210,7 +209,7 @@ Sony Ericsson:
 
 ---------------------------------------------------------------------
 
-Total Devices: 120
+Total Devices: 119
 
 Best regards
      szl.kiev

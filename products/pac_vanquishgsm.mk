@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_vanquishgsm,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/motorola)
+$(shell rm -f vendor/motorola/vanquishgsm)
+$(shell ln -sf ../motorola-extra/vanquishgsm)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_xhdpi
 

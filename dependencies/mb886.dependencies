@@ -21,7 +21,7 @@
     {   "remote":  "github",
         "account":  "razrqcom-dev-team",
         "repository":  "android_vendor_motorola_mb886",
-        "target_path":  "vendor/motorola/mb886",
+        "target_path":  "vendor/motorola-extra/mb886",
         "revision":  "cm-10.1"
     },
     {   "remote":  "github",

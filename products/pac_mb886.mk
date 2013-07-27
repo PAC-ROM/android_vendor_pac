@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_mb886,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/motorola)
+$(shell rm -f vendor/motorola/mb886)
+$(shell ln -sf ../motorola-extra/mb886)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_xhdpi
 

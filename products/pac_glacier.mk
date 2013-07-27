@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_glacier,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/htc)
+$(shell rm -f vendor/htc/glacier)
+$(shell ln -sf ../htc-extra/glacier)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_saga
 

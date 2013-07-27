@@ -1,14 +1,14 @@
 [
     {
         "remote":      "github",
-        "account":     "TeamRegular",
+        "account":     "CyanogenMod",
         "repository":  "android_kernel_samsung_epicmtd",
         "target_path": "kernel/samsung/epicmtd",
         "revision":    "cm-10.1"
     },
     {
         "remote":      "github",
-        "account":     "TeamRegular",
+        "account":     "CyanogenMod",
         "repository":  "android_device_samsung_epicmtd",
         "target_path": "device/samsung/epicmtd",
         "revision":    "cm-10.1"
@@ -21,11 +21,11 @@
         "revision":     "cm-10.1"
     }
 	{
-        "remote": "github",
-        "account": "TheMuppets",
-        "repository": "proprietary_vendor_samsung",
-        "target_path": "vendor/samsung",
-        "revision": "cm-10.1"
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-10.1"
     }
 
 ]

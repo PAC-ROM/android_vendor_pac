@@ -12,7 +12,7 @@
     },{
         "account":       "coderzstas",
         "repository":    "android_vendor_htc_glacier",
-        "target_path":   "vendor/htc/glacier",
+        "target_path":   "vendor/htc-extra/glacier",
         "revision":      "master"
     },{
         "account":       "Evervolv",
