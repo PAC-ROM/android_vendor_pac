@@ -88,7 +88,6 @@
   <device name="p920" priority="10" />
   <device name="p930" priority="10" />
   <device name="p970" priority="10" />
-  <device name="p990" priority="10" />
   <device name="p3100" priority="10" />
   <device name="p3110" priority="10" />
   <device name="p5100" priority="10" />
@@ -117,7 +116,6 @@
   <device name="venturi_usa" priority="10" />
   <device name="ville" priority="10" />
   <device name="vs920" priority="10" />
-  <device name="ypg1" priority="10" />
   <device name="yuga" priority="10" />
 
 </manifest>
