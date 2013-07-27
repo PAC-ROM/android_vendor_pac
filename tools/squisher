@@ -90,16 +90,9 @@ rm -rf $REPACK/ota/recovery
 	find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
 
 # Determine what to name the new signed package
-if [ -z "$CYANOGEN_NIGHTLY" ]; then
-	PAVERSION=`grep 'ro.modversion=' $REPACK/ota/system/build.prop | sed -e 's/ro.modversion=//g'`
-        OVERLAYTARGET=`grep 'ro.pa.family=' $REPACK/ota/system/build.prop | sed -e 's/ro.pa.family=//g'`
-	: ${PAVERSION:=nightly}
-	PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
-	OUTFILE=$OUT/$PACVERSION.zip
-	echo PACVERSION: $PACVERSION
-else
-	OUTFILE=$OUT/update-squished.zip
-fi
+PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
+OUTFILE=$OUT/$PACVERSION.zip
+echo PACVERSION: $PACVERSION
 
 # Copy ParanoidPreferences overlays
 printf "Copying overlay preferences for $OVERLAYTARGET..."
