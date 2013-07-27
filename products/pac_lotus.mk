@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_lotus,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/sony)
+$(shell rm -f vendor/sony/lotus)
+$(shell ln -sf ../samsung-extra/lotus)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 

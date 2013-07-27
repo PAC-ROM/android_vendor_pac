@@ -14,7 +14,7 @@
     {
         "account":      "bilalliberty",
         "repository":   "proprietary_vendor_htc",
-        "target_path":  "vendor/htc",
+        "target_path":  "vendor/htc-extra/villec2",
         "revision":     "jellybean"
          }
 ]

@@ -2,7 +2,7 @@
   {
     "account":      "bbelos",
     "repository":   "vendor_samsung_ypg1",
-    "target_path":  "vendor/samsung/ypg1",
+    "target_path":  "vendor/samsung-extra/ypg1",
     "revision":     "cm-10.1"
     },
   {

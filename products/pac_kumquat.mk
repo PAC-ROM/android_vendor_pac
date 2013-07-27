@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_kumquat,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/sony)
+$(shell rm -f vendor/sony/kumquat)
+$(shell ln -sf ../samsung-extra/kumquat)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 

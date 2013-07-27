@@ -1,6 +1,6 @@
 [
   {
-    "account":    "PAC-samsung",
+    "account":    "CyanogenMod",
     "repository": "android_device_samsung_p3110",
     "target_path": "device/samsung/p3110",
     "revision":    "cm-10.1"

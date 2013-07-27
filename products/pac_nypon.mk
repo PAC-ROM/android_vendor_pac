@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_nypon,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/sony)
+$(shell rm -f vendor/sony/nypon)
+$(shell ln -sf ../sony-extra/nypon)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 

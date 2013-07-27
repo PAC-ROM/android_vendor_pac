@@ -8,10 +8,10 @@
     },
     {
         "remote":	"github",
-        "account":	"berni987654321",
+        "account":	"CyanogenMod",
         "repository":	"lge-kernel-omap4",
         "target_path":	"kernel/lge/omap4-common",
-        "revision":	"android-omap-3.0"
+        "revision":	"cm-10.1"
     },
     {
         "remote":	"github",

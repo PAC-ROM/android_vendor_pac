@@ -17,4 +17,10 @@
       "target_path": "vendor/asus",
       "revision": "cm-10.1"
    }
+   }
+      "account": "TheMuppets",
+      "repository":  "proprietary_vendor_asus",
+      "target_path":  "vendor/asus/tf300t",
+      "revision":  "cm-10.1"
+   }
 ]

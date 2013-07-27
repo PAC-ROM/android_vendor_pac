@@ -3,7 +3,7 @@
     "remote": "github",
     "account": "XperiaPAC",
     "repository": "android_vendor_sony",
-    "target_path": "vendor/sony",
+    "target_path": "vendor/sony-extra/nypon",
     "revision": "cm-10.1"
   },
   {

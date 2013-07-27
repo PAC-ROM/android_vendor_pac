@@ -8,7 +8,7 @@
     {
         "account":      "percy-g2",
         "repository":   "android_vendor_samsung_ancora",
-        "target_path":  "vendor/samsung_ancora",
+        "target_path":  "vendor/samsung-extra/ancora",
         "revision":     "cm-10.1"
     }
 ]

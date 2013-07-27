@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_villec2,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/htc)
+$(shell rm -f vendor/htc/villec2)
+$(shell ln -sf ../htc-extra/villec2)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 

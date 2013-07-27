@@ -24,14 +24,12 @@
   <device name="d2spr" priority="100" />
   <device name="d2tmo" priority="100" />
   <device name="d2vzw" priority="100" />
-  <device name="d710" priority="100" />
   <device name="i9100g" priority="100" />
   <device name="i9100" priority="100" />
   <device name="maguro" priority="100" />
 
   <!-- Tier 2 devices -->
   <!-- Add new devices here -->
-  <device name="ancora" priority="10" />
   <device name="anzu" priority="10" />
   <device name="captivatemtd" priority="10" />
   <device name="coconut" priority="10" />
@@ -39,7 +37,9 @@
   <device name="d2cri" priority="10" />
   <device name="d2mtr" priority="10" />
   <device name="d2usc" priority="10" />
+  <device name="d710" priority="10" />
   <device name="edison" priority="10" />
+  <device name="epicmtd" priority="10" />
   <device name="evita" priority="10" />
   <device name="fascinatemtd" priority="10" />
   <device name="find5" priority="10" />
@@ -52,8 +52,6 @@
   <device name="hayabusa" priority="10" />
   <device name="hercules" priority="10" />
   <device name="i605" priority="10" />
-  <device name="i900" priority="10" />
-  <device name="i900g" priority="10" />
   <device name="i9103" priority="10" />
   <device name="i927" priority="10" />
   <device name="i9300" priority="10" />
@@ -75,11 +73,11 @@
   <device name="m7spr" priority="10" />
   <device name="m7tmo" priority="10" />
   <device name="m7ul" priority="10" />
-  <device name="maguro" priority="10" />
   <device name="mako" priority="10" />
   <device name="mango" priority="10" />
   <device name="manta" priority="10" />
   <device name="maserati" priority="10" />
+  <device name="mb886" priority="10" />
   <device name="mint" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
@@ -108,16 +106,19 @@
   <device name="targa" priority="10" />
   <device name="tate" priority="10" />
   <device name="tf201" priority="10" />
+  <device name="tf300" priority="10" />
   <device name="tilapia" priority="10" />
   <device name="toro" priority="10" />
   <device name="toroplus" priority="10" />
   <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
   <device name="urushi" priority="10" />
+  <device name="vanquish" priority="10" />
+  <device name="vanquishgsm" priority="10" />
   <device name="venturi_usa" priority="10" />
   <device name="ville" priority="10" />
   <device name="vs920" priority="10" />
-<!--  <device name="ypg1" priority="10" />-->
+  <device name="ypg1" priority="10" />
   <device name="yuga" priority="10" />
 
 </manifest>
