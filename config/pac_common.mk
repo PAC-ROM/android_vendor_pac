@@ -20,7 +20,8 @@ include vendor/pac/config/themes_common.mk
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman \
-    PacStats
+    PacStats \
+	PacPapers
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
