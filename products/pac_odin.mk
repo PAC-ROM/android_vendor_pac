@@ -25,5 +25,6 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/sony/odin/cm.mk)
 
 PRODUCT_NAME := pac_odin
+DEVICE_RESOLUTION := 1080x1920
 
 endif
