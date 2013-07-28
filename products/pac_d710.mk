@@ -22,6 +22,7 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/d710/cm.mk)
 
 PRODUCT_NAME := pac_d710
+DEVICE_RESOLUTION := 480x800
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
