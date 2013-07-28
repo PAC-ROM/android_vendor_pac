@@ -45,7 +45,6 @@
   <device name="find5" priority="10" />
   <device name="fireball" priority="10" />
   <device name="galaxysmtd" priority="10" />
-  <device name="glacier" priority="10" />
   <device name="grouper" priority="10" />
   <device name="haida" priority="10" />
   <device name="hallon" priority="10" />
