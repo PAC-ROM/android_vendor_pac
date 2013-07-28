@@ -87,6 +87,7 @@
   <device name="p920" priority="10" />
   <device name="p930" priority="10" />
   <device name="p970" priority="10" />
+  <device name="p990" priority="10" />
   <device name="p3100" priority="10" />
   <device name="p3110" priority="10" />
   <device name="p5100" priority="10" />
