@@ -95,6 +95,7 @@
   <device name="pollux" priority="10" />
   <device name="pollux_windy" priority="10" />
   <device name="satsuma" priority="10" />
+  <device name="scorpionmini" priority="10" />
   <device name="skyrocket" priority="10" />
   <device name="smultron" priority="10" />
   <device name="solana" priority="10" />

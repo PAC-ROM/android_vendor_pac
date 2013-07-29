@@ -1,6 +1,11 @@
 # Check for target product
 ifeq (pac_scorpionmini,$(TARGET_PRODUCT))
 
+# Vendor hack
+$(shell mkdir -p vendor/motorola)
+$(shell rm -f vendor/motorola/xt907)
+$(shell ln -sf ../motorola-extra/xt907)
+
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_hdpi
 
