@@ -15,7 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
 # T-Mobile theme engine
-include vendor/pa/config/themes_common.mk
+include vendor/pac/config/themes_common.mk
 
 # PAC Packages
 PRODUCT_PACKAGES += \
