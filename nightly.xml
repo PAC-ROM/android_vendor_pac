@@ -105,7 +105,7 @@
   <device name="targa" priority="10" />
   <device name="tate" priority="10" />
   <device name="tf201" priority="10" />
-  <device name="tf300" priority="10" />
+  <device name="tf300t" priority="10" />
   <device name="tilapia" priority="10" />
   <device name="toro" priority="10" />
   <device name="toroplus" priority="10" />
