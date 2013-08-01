@@ -112,7 +112,7 @@
   <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
   <device name="urushi" priority="10" />
-  <device name="venturi_usa" priority="10" />
+  <device name="venturi" priority="10" />
   <device name="ville" priority="10" />
   <device name="vs920" priority="10" />
 <!--  <device name="ypg1" priority="10" />-->

@@ -103,7 +103,7 @@ add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_n7000-userdebug
 add_lunch_combo pac_n7100-userdebug
-add_lunch_combo pac_venturi_usa-userdebug
+add_lunch_combo pac_venturi-userdebug
 add_lunch_combo pac_ypg1-userdebug
 # Samsung & LGE Legacy Devices
 add_lunch_combo pac_ancora-userdebug
