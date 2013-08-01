@@ -1,3 +1,12 @@
+# Vendor hack
+#   $1 = vendor name
+#   $2 = product name
+define vendor-replace
+  $(shell mkdir -p vendor/$(1); \
+          rm -rf vendor/$(1)/$(2); \
+          ln -sf ../$(1)-extra/$(2) vendor/$(1)/$(2))
+endef
+
 # use AOSP default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.ringtone=Themos.ogg \
