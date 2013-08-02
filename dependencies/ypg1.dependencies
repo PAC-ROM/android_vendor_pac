@@ -1,26 +1,26 @@
 [
   {
-    "account":      "bbelos",
+    "account":      "zaclimon",
     "repository":   "vendor_samsung_ypg1",
-    "target_path":  "vendor/samsung/ypg1",
-    "revision":     "cm-10.1"
+    "target_path":  "vendor/samsung-extra/ypg1",
+    "revision":     "jellybean"
     },
   {
     "account":      "bbelos",
     "repository":   "android_device_samsung_ypg1",
     "target_path":  "device/samsung/ypg1",
-    "revision":     "cm-10.1"
+    "revision":     "cm-10.2"
   },
   {
     "account":      "bbelos",
     "repository":   "android_kernel_samsung_aries",
     "target_path":  "kernel/samsung/ypg13.0",
-    "revision":     "cm-10.1-ypg1-dev"
+    "revision":     "cm-10.2-ypg1-dev"
   },
   {
     "account":      "CyanogenMod",
     "repository":   "android_hardware_samsung",
     "target_path":  "hardware/samsung",
-    "revision":     "cm-10.1"
+    "revision":     "cm-10.2"
   }
 ]
