@@ -85,8 +85,6 @@ PAC_VERSION_MINOR = 1
 PAC_VERSION_MAINTENANCE = RC1
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
-TARGET_CUSTOM_RELEASETOOL := vendor/pac/tools/squisher
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
     ro.pacrom.version=pac_$(BOARD)_4.2-$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
