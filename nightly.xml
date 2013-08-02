@@ -63,6 +63,7 @@
   <device name="jflteatt" priority="10" />
   <device name="jfltecan" priority="10" />
   <device name="jfltecri" priority="10" />
+  <device name="jfltecsp" priority="10" />
   <device name="jfltespr" priority="10" />
   <device name="jfltetmo" priority="10" />
   <device name="jflteusc" priority="10" />

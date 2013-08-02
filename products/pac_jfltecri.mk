@@ -5,7 +5,7 @@ ifeq (pac_jfltecri,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_xxhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/jfltecri
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/jfltexxx
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
