@@ -209,7 +209,7 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 121
+Total Devices: 122
 
 Best regards
      szl.kiev
