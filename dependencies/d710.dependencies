@@ -1,7 +1,7 @@
 [
   {
-    "account":      "Team-Hydra",
-    "repository":   "android_vendor_samsung",
+    "account":      "StatlerAndWaldorf",
+    "repository":   "vendor_samsung_d710",
     "target_path":  "vendor/samsung-extra/d710",
     "revision":     "cm-10.1"
     },
