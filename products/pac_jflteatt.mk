@@ -23,8 +23,4 @@ $(call inherit-product, device/samsung/jflteatt/cm.mk)
 
 PRODUCT_NAME := pac_jflteatt
 
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-
 endif

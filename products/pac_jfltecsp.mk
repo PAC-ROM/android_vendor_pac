@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_jfltevzw,$(TARGET_PRODUCT))
+ifeq (pac_jfltecsp,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xxhdpi
@@ -19,8 +19,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/jfltevzw/cm.mk)
+$(call inherit-product, device/samsung/jfltecsp/cm.mk)
 
-PRODUCT_NAME := pac_jfltevzw
+PRODUCT_NAME := pac_jfltecsp
 
 endif

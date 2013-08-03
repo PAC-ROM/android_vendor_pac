@@ -5,7 +5,7 @@ ifeq (pac_jfltecri,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_xxhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/jfltecri
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/jfltexxx
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -22,9 +22,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/jfltecri/cm.mk)
 
 PRODUCT_NAME := pac_jfltecri
-
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
 endif

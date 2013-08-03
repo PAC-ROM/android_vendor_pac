@@ -164,6 +164,7 @@ Samsung:
 * Galaxy S IV (AT&T):          jflteatt        ga2usr
 * Galaxy S IV (Canada):        jfltecan        Nick0703
 * Galaxy S IV (Cricket):       jfltecri        BLOWNCO
+* Galaxy S IV (C-Spire):       jfltecsp        OPEN
 * Galaxy S IV (Sprint):        jfltespr        Papa Smurf151
 * Galaxy S IV (T-Mobile):      jfltetmo        apascual89
 * Galaxy S IV (GSM):           jfltexx         vertigo2012
@@ -211,7 +212,7 @@ Sony Ericsson:
 
 ---------------------------------------------------------------------
 
-Total Devices: 121
+Total Devices: 122
 
 Best regards
      szl.kiev
