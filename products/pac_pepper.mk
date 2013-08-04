@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_pepper,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/sony)
-$(shell rm -f vendor/sony/pepper)
-$(shell ln -sf ../samsung-extra/pepper)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -20,6 +15,9 @@ include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/sony/pepper/cm.mk)
+
+# vendor hack
+$(call vendor-replace,sony,pepper)
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \

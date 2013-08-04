@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_glacier,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/htc)
-$(shell rm -f vendor/htc/glacier)
-$(shell ln -sf ../htc-extra/glacier)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_saga
 
@@ -26,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,htc,glacier)
 
 # Inherit CM device configuration
 $(call inherit-product, device/htc/glacier/cm.mk)

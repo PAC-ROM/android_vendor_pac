@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_villec2,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/htc)
-$(shell rm -f vendor/htc/villec2)
-$(shell ln -sf ../htc-extra/villec2)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -21,6 +16,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,htc,villec2)
 
 # Inherit CM device configuration
 $(call inherit-product, device/htc/villec2/cm.mk)

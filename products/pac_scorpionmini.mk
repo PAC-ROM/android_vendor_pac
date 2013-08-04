@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_scorpionmini,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/motorola)
-$(shell rm -f vendor/motorola/xt907)
-$(shell ln -sf ../motorola-extra/xt907)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_hdpi
 
@@ -22,6 +17,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,motorola,scorpionmini)
 
 # Inherit CM device configuration
 $(call inherit-product, device/motorola/xt907/cm.mk)

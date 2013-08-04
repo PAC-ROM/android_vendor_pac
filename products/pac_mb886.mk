@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_mb886,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/motorola)
-$(shell rm -f vendor/motorola/mb886)
-$(shell ln -sf ../motorola-extra/mb886)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_xhdpi
 
@@ -25,6 +20,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,motorola,mb886)
 
 # Inherit CM device configuration
 $(call inherit-product, device/motorola/mb886/cm.mk)

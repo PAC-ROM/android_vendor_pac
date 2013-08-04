@@ -17,7 +17,7 @@
     },{
         "account":       "PAC-marvel",
         "repository":    "android_vendor_htc_marvel",
-        "target_path":   "vendor/htc/marvel",
+        "target_path":   "vendor/htc-extra/marvel",
         "revision":      "master"
     },{
         "account":       "PAC-marvel",

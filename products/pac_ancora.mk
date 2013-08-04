@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_ancora,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/samsung)
-$(shell rm -f vendor/samsung/ancora)
-$(shell ln -sf ../samsung-extra/ancora)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -26,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,samsung,ancora)
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/ancora/cm.mk)

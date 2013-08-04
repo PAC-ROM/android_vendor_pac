@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_ypg1,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/samsung)
-$(shell rm -f vendor/samsung/ypg1)
-$(shell ln -sf ../samsung-extra/ypg1)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -26,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,samsung,ypg1)
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/ypg1/cm.mk)

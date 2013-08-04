@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_nypon,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/sony)
-$(shell rm -f vendor/sony/nypon)
-$(shell ln -sf ../sony-extra/nypon)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -17,6 +12,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,sony,nypon)
 
 # Inherit CM device configuration
 $(call inherit-product, device/sony/nypon/cm.mk)

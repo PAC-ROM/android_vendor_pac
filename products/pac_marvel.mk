@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
+# vendor hack
+$(call vendor-replace,htc,marvel)
+
 # Inherit CM device configuration
 $(call inherit-product, device/htc/marvel/cm.mk)
 

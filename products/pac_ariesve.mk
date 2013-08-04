@@ -1,11 +1,6 @@
 # Check for target product
 ifeq (pac_ariesve,$(TARGET_PRODUCT))
 
-# Vendor hack
-$(shell mkdir -p vendor/samsung)
-$(shell rm -f vendor/samsung/ariesve)
-$(shell ln -sf ../samsung-extra/ariesve)
-
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
@@ -26,6 +21,9 @@ PRODUCT_COPY_FILES += \
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
+
+# vendor hack
+$(call vendor-replace,samsung,ariesve)
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/ariesve/cm.mk)
