@@ -139,7 +139,7 @@ Samsung:
 * Galaxy Note 2 (Sprint):      l900            BLOWNCO
 * Galaxy Note 2 (T-Mobile):    t0lte           BLOWNCO
 * Galaxy Note 2 (Verizon):     i605            gchild320
-* Galaxy Player 4.0:           ypg1            iurnait, zaclimon, goldflame09
+* Galaxy Player 4.0:           ypg1            goldflame09, iurnait, zaclimon
 * Galaxy Player 5.0:           venturi         iurnait
 * Galaxy R:                    i9103           Grarak
 * Galaxy S I:                  galaxysmtd      aways
