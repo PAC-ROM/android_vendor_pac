@@ -13,10 +13,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
-# Copy specific ROM files
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/GooManager.apk:system/app/GooManager.apk
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
@@ -109,12 +105,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.version=$(VERSION) \
     ro.papref.revision=$(PA_PREF_REVISION) \
     ro.aokp.version=$(BOARD)_jb-mr1_milestone-2
-
-# Setup OTA with goo.im
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=pacman \
-    ro.goo.rom=pacman \
-    ro.goo.version=$(shell date +%s)
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
