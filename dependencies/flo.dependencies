@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_asus_flo",
+        "target_path":  "device/asus/flo",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_asus",
+        "target_path":  "vendor/asus",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_kernel_google_msm",
+        "target_path":  "kernel/google/msm",
+        "revision":     "cm-10.2"
+    }
+]

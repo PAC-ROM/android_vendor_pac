@@ -49,13 +49,14 @@ add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
 add_lunch_combo pac_p3110-userdebug
 # Nexus Devices
-add_lunch_combo pac_toro-userdebug
-add_lunch_combo pac_mako-userdebug
-add_lunch_combo pac_maguro-userdebug
-add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_crespo-userdebug
+add_lunch_combo pac_flo-userdebug
 add_lunch_combo pac_grouper-userdebug
+add_lunch_combo pac_maguro-userdebug
+add_lunch_combo pac_mako-userdebug
+add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_tilapia-userdebug
+add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_toroplus-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
