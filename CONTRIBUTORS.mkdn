@@ -92,6 +92,7 @@ HTC:
 ---------------------------------------------------------------------
 * Nexus 4:                     mako            vertigo2012, zyonee
 * Nitro HD:                    p930            tdm.code
+* Optimus G:                   e975            faust93
 * Optimus 2X:                  p990            metaiiica
 * Optimus 3D:                  p920            berni987654321
 * Optimus 4X:                  p880            berni987654321

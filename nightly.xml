@@ -37,6 +37,7 @@
   <device name="d2cri" priority="10" />
   <device name="d2mtr" priority="10" />
   <device name="d2usc" priority="10" />
+  <device name="e975" priority="10" />
   <device name="edison" priority="10" />
   <device name="epicmtd" priority="10" />
   <device name="evita" priority="10" />

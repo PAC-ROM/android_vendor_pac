@@ -120,6 +120,7 @@ add_lunch_combo pac_p970-userdebug
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
 # LGE
+add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_p760-userdebug
 add_lunch_combo pac_p880-userdebug
 add_lunch_combo pac_p930-userdebug
