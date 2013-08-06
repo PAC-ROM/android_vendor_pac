@@ -20,8 +20,8 @@ include vendor/pac/config/themes_common.mk
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman \
-    PacStats \
-	PacPapers
+    PacPapers \
+    PacStats
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
@@ -35,17 +35,16 @@ PRODUCT_COPY_FILES += \
 # AOKP Packages
 PRODUCT_PACKAGES += \
     PerformanceControl \
-    ROMControl \
-    SwagPapers \
-    PermissionsManager
+    PermissionsManager \
+    ROMControl
+
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 ### PARANOID ###
 # PARANOID Packages
 PRODUCT_PACKAGES += \
-    HALO \
-    ParanoidWallpapers
+    HALO
 
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
