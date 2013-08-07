@@ -159,6 +159,7 @@ Samsung:
 * Galaxy S III (T-Mobile):     d2tmo           Papa Smurf151
 * Galaxy S III (US Cellular):  d2usc           Papa Smurf151
 * Galaxy S III (Verizon):      d2vzw           Papa Smurf151
+* Galaxy S IV (GSM):           i9500           i9500
 * Galaxy S IV (AT&T):          jflteatt        ga2usr
 * Galaxy S IV (Canada):        jfltecan        Nick0703
 * Galaxy S IV (Cricket):       jfltecri        BLOWNCO
