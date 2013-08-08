@@ -32,9 +32,9 @@
   <!-- Tier 2 devices -->
   <!-- Add new devices here -->
   <device name="ancora" priority="10" />
-  <device name="anzu" priority="10" />
+<!--  <device name="anzu" priority="10" /> -->
   <device name="captivatemtd" priority="10" />
-  <device name="coconut" priority="10" />
+<!--  <device name="coconut" priority="10" /> -->
   <device name="crespo" priority="10" />
   <device name="d2cri" priority="10" />
   <device name="d2mtr" priority="10" />
@@ -46,8 +46,8 @@
   <device name="fireball" priority="10" />
   <device name="galaxysmtd" priority="10" />
   <device name="grouper" priority="10" />
-  <device name="haida" priority="10" />
-  <device name="hallon" priority="10" />
+<!--  <device name="haida" priority="10" /> -->
+<!--  <device name="hallon" priority="10" /> -->
   <device name="hayabusa" priority="10" />
   <device name="hercules" priority="10" />
   <device name="i605" priority="10" />
@@ -57,7 +57,7 @@
   <device name="i927" priority="10" />
   <device name="i9300" priority="10" />
   <device name="i9305" priority="10" />
-  <device name="iyokan" priority="10" />
+<!--  <device name="iyokan" priority="10" /> -->
   <device name="jem" priority="10" />
   <device name="jewel" priority="10" />
   <device name="jflteatt" priority="10" />
@@ -77,7 +77,7 @@
   <device name="m7ul" priority="10" />
   <device name="maguro" priority="10" />
   <device name="mako" priority="10" />
-  <device name="mango" priority="10" />
+<!--  <device name="mango" priority="10" /> -->
   <device name="manta" priority="10" />
   <device name="maserati" priority="10" />
   <device name="mint" priority="10" />
@@ -97,9 +97,9 @@
   <device name="p5110" priority="10" />
   <device name="pollux" priority="10" />
   <device name="pollux_windy" priority="10" />
-  <device name="satsuma" priority="10" />
+<!--  <device name="satsuma" priority="10" /> -->
   <device name="skyrocket" priority="10" />
-  <device name="smultron" priority="10" />
+<!--  <device name="smultron" priority="10" /> -->
   <device name="solana" priority="10" />
   <device name="spyder" priority="10" />
   <device name="su640" priority="10" />
@@ -112,11 +112,11 @@
   <device name="toroplus" priority="10" />
   <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
-  <device name="urushi" priority="10" />
+<!--  <device name="urushi" priority="10" /> -->
   <device name="venturi" priority="10" />
   <device name="ville" priority="10" />
   <device name="vs920" priority="10" />
-<!--  <device name="ypg1" priority="10" />-->
+<!--  <device name="ypg1" priority="10" /> -->
   <device name="yuga" priority="10" />
 
 </manifest>
