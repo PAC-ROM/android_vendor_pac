@@ -21,12 +21,12 @@
     "account":    "CyanogenMod",
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
-    "revision":    "cm-10.1"
+    "revision":    "cm-10.2"
   },
   {
     "account":    "CyanogenMod",
     "repository": "android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "revision":    "cm-10.1"
+    "revision":    "cm-10.2"
   }
 ]

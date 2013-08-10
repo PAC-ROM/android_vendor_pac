@@ -70,7 +70,6 @@ HTC:
 * Evo 3D (GSM):                shooteru        cmbaughman
 * Evo LTE:                     jewel           jamieg71
 * Evo V:                       shootervm       cmbaughman
-* One:                         m7              sniper
 * One (AT&T):                  m7att           apascual89
 * One (GSM):                   m7ul            MaDc0w
 * One (Sprint):                m7spr           Sniper
@@ -125,6 +124,7 @@ Oppo:
 Samsung:
 ---------------------------------------------------------------------
 * Captivate Glide:             i927            Kick Buttowski
+* Epic 4G:                     epicmtd         C457
 * Epic 4G Touch (Sprint):      d710            Sniper
 * Fascinate:                   fascinatemtd    C457
 * Galaxy Ace:                  cooper          OldDroid
@@ -209,7 +209,7 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 122
+Total Devices: 123
 
 Best regards
      szl.kiev

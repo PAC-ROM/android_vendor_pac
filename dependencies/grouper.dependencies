@@ -1,56 +1,56 @@
 [
     {
-        "account":      "CyanogenMod",
+        "account":      "dhacker29",
         "repository":   "android_device_asus_grouper",
         "target_path":  "device/asus/grouper",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "dhacker29",
         "repository":   "proprietary_vendor_asus",
-        "target_path":  "vendor/asus",
-        "revision":     "cm-10.1"
+        "target_path":  "vendor/asus-extra/grouper",
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "dhacker29",
         "repository":   "proprietary_vendor_broadcom",
-        "target_path":  "vendor/broadcom",
-        "revision":     "cm-10.1"
+        "target_path":  "vendor/broadcom-extra/grouper",
+        "revision":     "cm-10.2"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_elan",
         "target_path":  "vendor/elan",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "dhacker29",
         "repository":   "proprietary_vendor_invensense",
-        "target_path":  "vendor/invensense",
-        "revision":     "cm-10.1"
+        "target_path":  "vendor/invensense-extra/grouper",
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "dhacker29",
         "repository":   "proprietary_vendor_nvidia",
-        "target_path":  "vendor/nvidia",
-        "revision":     "cm-10.1"
+        "target_path":  "vendor/nvidia-extra/grouper",
+        "revision":     "cm-10.2"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_nxp",
         "target_path":  "vendor/nxp",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "dhacker29",
         "repository":   "proprietary_vendor_widevine",
-        "target_path":  "vendor/widevine",
-        "revision":     "cm-10.1"
+        "target_path":  "vendor/widevine-extra/grouper",
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "CyanogenMod",
+        "account":      "dhacker29",
         "repository":   "android_kernel_asus_grouper",
         "target_path":  "kernel/asus/grouper",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.2"
     }
 ]

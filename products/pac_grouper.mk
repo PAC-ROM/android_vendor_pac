@@ -18,6 +18,13 @@ PRODUCT_COPY_FILES += \
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
+# vendor hack
+$(call vendor-replace,asus,grouper)
+$(call vendor-replace,broadcom,grouper)
+$(call vendor-replace,invensense,grouper)
+$(call vendor-replace,nvidia,grouper)
+$(call vendor-replace,windvine,grouper)
+
 # Inherit CM device configuration
 $(call inherit-product, device/asus/grouper/cm.mk)
 

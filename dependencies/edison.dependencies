@@ -3,13 +3,13 @@
     "account":      "TheMuppets",
     "repository":   "proprietary_vendor_motorola",
     "target_path":  "vendor/motorola",
-    "revision":     "cm-10.1"
+    "revision":     "cm-10.2"
     },
   {
     "account":      "Atrix2-Dev-Team",
     "repository":   "android_device_motorola_edison",
     "target_path":  "device/motorola/edison",
-    "revision":     "cm-10.1"
+    "revision":     "cm-10.2"
   },
   {
     "account":      "PAC-Motorola",
