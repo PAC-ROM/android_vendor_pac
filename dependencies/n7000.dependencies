@@ -31,8 +31,8 @@
   },
   {
     "account":      "CyanogenMod",
-    "repository":   "android_kernel_samsung_smdk4210",
-    "target_path":  "kernel/samsung/smdk4210",
+    "repository":   "android_kernel_samsung_smdk4412",
+    "target_path":  "kernel/samsung/smdk4412",
     "revision":     "cm-10.2"
   }
 ]
