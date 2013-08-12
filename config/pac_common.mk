@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
 ### AOKP ###
 # AOKP Packages
 PRODUCT_PACKAGES += \
-    PerformanceControl \
     PermissionsManager \
     ROMControl
 
