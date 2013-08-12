@@ -4,7 +4,7 @@
     "account": "TheMuppets",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "cm-10.2"
+    "revision": "cm-10.1"
   },
   {
     "remote": "github",
