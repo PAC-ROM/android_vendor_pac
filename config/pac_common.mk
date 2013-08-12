@@ -13,6 +13,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.notification_sound=Proxima.ogg \
   ro.config.alarm_alert=Cesium.ogg
 
+# Copy specific ROM files
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/apk/PacConsole.apk:system/app/PacConsole.apk
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
@@ -26,7 +30,7 @@ include vendor/pac/config/themes_common.mk
 PRODUCT_PACKAGES += \
     GooglePacman \
     PacPapers \
-    PacStats
+    PacStats 
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
