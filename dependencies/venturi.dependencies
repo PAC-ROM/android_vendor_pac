@@ -2,7 +2,7 @@
   {
     "account":      "iurnait",
     "repository":   "android_vendor_samsung_venturi",
-    "target_path":  "vendor/samsung/venturi",
+    "target_path":  "vendor/samsung-extra/venturi",
     "revision":     "cm-10.2"
     },
   {
