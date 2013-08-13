@@ -23,7 +23,7 @@ $(call vendor-replace,asus,grouper) \
 $(call vendor-replace,broadcom,grouper) \
 $(call vendor-replace,invensense,grouper) \
 $(call vendor-replace,nvidia,grouper) \
-$(call vendor-replace,windvine,grouper)
+$(call vendor-replace,widevine,grouper)
 
 # Inherit CM device configuration
 $(call inherit-product, device/asus/grouper/cm.mk)
