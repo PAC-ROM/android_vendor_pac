@@ -12,7 +12,9 @@ Developers:
 * gs2usr
 * metaiiica
 * Nick0703
+* Owain94
 * Papa Smurf151
+* pvyParts
 * singhdd93
 * Sniper
 * szl.kiev
@@ -135,7 +137,7 @@ Samsung:
 * Galaxy Nexus:                toro            Bkjolly
 * Galaxy Nexus:                toroplus        Bkjolly
 * Galaxy Note:                 n7000           beerbong
-* Galaxy Note 2 (GSM):         n7100           abhisahara
+* Galaxy Note 2 (GSM):         n7100           abhisahara, Owain94
 * Galaxy Note 2 (Sprint):      l900            BLOWNCO
 * Galaxy Note 2 (T-Mobile):    t0lte           BLOWNCO
 * Galaxy Note 2 (Verizon):     i605            gchild320
@@ -148,7 +150,7 @@ Samsung:
 * Galaxy S II:                 i9100G          bluefa1con
 * Galaxy S II LTE (AT&T):      skyrocket       gs2usr
 * Galaxy S II (T-Mobile):      hercules        ga2usr
-* Galaxy S III (GSM):          i9300           beerbong, garwedgess
+* Galaxy S III (GSM):          i9300           garwedgess
 * Galaxy S III (LTE):          i9305           MaDc0w
 * Galaxy S III (AT&T):         d2att           Papa Smurf151
 * Galaxy S III (Cricket):      d2cri           Papa Smurf151
@@ -189,7 +191,7 @@ Sony
 * Xperia TX:                   hayabusa        djpbx
 * Xperia U:                    kumquat         percy_g2
 * Xperia V:                    tsubasa         djpbx
-* Xperia Z:                    yuga            jeroenqui
+* Xperia Z:                    yuga            jeroenqui, pvyParts
 * Xperia ZL:                   odin            mithun46
 
 
