@@ -6,15 +6,15 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "dhacker29",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_asus",
-        "target_path":  "vendor/asus-extra/grouper",
+        "target_path":  "vendor/asus/grouper",
         "revision":     "cm-10.2"
     },
     {
-        "account":      "dhacker29",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_broadcom",
-        "target_path":  "vendor/broadcom-extra/grouper",
+        "target_path":  "vendor/broadcom/grouper",
         "revision":     "cm-10.2"
     },
     {
@@ -24,15 +24,15 @@
         "revision":     "cm-10.1"
     },
     {
-        "account":      "dhacker29",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_invensense",
-        "target_path":  "vendor/invensense-extra/grouper",
+        "target_path":  "vendor/invensense/grouper",
         "revision":     "cm-10.2"
     },
     {
-        "account":      "dhacker29",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_nvidia",
-        "target_path":  "vendor/nvidia-extra/grouper",
+        "target_path":  "vendor/nvidia/grouper",
         "revision":     "cm-10.2"
     },
     {
@@ -42,9 +42,9 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "dhacker29",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_widevine",
-        "target_path":  "vendor/widevine-extra/grouper",
+        "target_path":  "vendor/widevine/grouper",
         "revision":     "cm-10.2"
     },
     {
