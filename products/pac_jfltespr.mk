@@ -12,6 +12,10 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_1080x1920.rle:root/logo.rle
     $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
+
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
