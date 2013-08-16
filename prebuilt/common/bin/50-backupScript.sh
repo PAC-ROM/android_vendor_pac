@@ -11,6 +11,7 @@ list_files() {
 cat <<EOF
 etc/hosts
 etc/paranoid/properties.conf
+etc/init.d.cfg
 EOF
 }
 
