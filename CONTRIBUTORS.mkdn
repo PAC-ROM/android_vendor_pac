@@ -121,6 +121,8 @@ Motorola:
 * Razr M:                       scorpionmini     	Timpohladthomas
 * Droid Razr (GSM):       	umts_spyder    	surdu_petru
 * Droid Razr(Verizon):    	spyder               	surdu_petru
+* Photon Q (Sprint):       	xt897c             	arrrghhh
+* Photon Q (GSM):          	xt897           	arrrghhh
 
 
 
@@ -218,7 +220,8 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 124
+
+Total Devices: 126
 
 Best regards
      szl.kiev
