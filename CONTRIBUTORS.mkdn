@@ -171,7 +171,7 @@ Samsung:
 * Galaxy S IV (C-Sprite):      	jfltecsp        	OPEN
 * Galaxy S IV (Sprint):        	jfltespr        	Sniper
 * Galaxy S IV (T-Mobile):     	jfltetmo        	apascual89
-* Galaxy S IV (GSM):           	jfltexx         	vertigo2012
+* Galaxy S IV (GSM):           	jfltexx         	metaiiica, vertigo2012
 * Galaxy S IV (US Cellular):  	jflteusc        	Papa Smurf151
 * Galaxy S IV (Verizon):       	jfltevzw        	Papa Smurf151
 * Galaxy Tab 7':               	p1000           	OldDroid
