@@ -8,7 +8,6 @@ Developers:
 * Bkjolly
 * BLOWNCO
 * bluefa1con
-* garwedgess
 * gs2usr
 * metaiiica
 * Nick0703
@@ -18,7 +17,8 @@ Developers:
 * singhdd93
 * Sniper
 * szl.kiev
-* tdm.code
+* tdmcode
+* wedgess
 * xLaMbChOpSx
 * zyonee
 
@@ -33,13 +33,13 @@ Forum Administrators:
 BuildBot Maintainers:
 ----------------------------
 * basketthis
-* tdm
+* tdmcode
 
 Web Administrators:
 ---------------------------
 * jeroenqui
 * Papa Smurf151
-* tdm.code
+* tdmcode
 
 
 Graphics Team:
@@ -97,14 +97,14 @@ HTC:
  LG:
 ---------------------------------------------------------------------
 * Nexus 4:               	mako           vertigo2012, zyonee
-* Nitro HD:               	p930            tdm.code
+* Nitro HD:               	p930            tdmcode
 * Optimus 2X:          	p990            metaiiica
 * Optimus 3D:          	p920            berni987654321
 * Optimus 4X:          	p880            berni987654321
 * Optimus Black:      	p970            berni987654321
-* Optimus LTE:         	su640          tdm.code
+* Optimus LTE:         	su640          tdmcode
 * Optimus One:        	p500            OldDroid
-* Spectrum:              	vs920          tdm.code
+* Spectrum:              	vs920          tdmcode
 
 
 
@@ -156,7 +156,7 @@ Samsung:
 * Galaxy S II:                 	i9100G          	bluefa1con
 * Galaxy S II LTE (AT&T):    	skyrocket       	gs2usr
 * Galaxy S II (T-Mobile):      	hercules        	ga2usr
-* Galaxy S III (GSM):          	i9300           	garwedgess
+* Galaxy S III (GSM):          	i9300           	wedgess
 * Galaxy S III (LTE):          	i9305           	MaDc0w
 * Galaxy S III (AT&T):         	d2att           	Papa Smurf151
 * Galaxy S III (Cricket):      	d2cri           	Papa Smurf151
@@ -206,14 +206,14 @@ Sony Ericsson:
 ---------------------------------------------------------------------
 * Live With Walkman:     	coconut    	singhdd93
 * Xperia Active:               	satsuma   	singhdd93
-* Xperia Arc:                   	anzu         	garwedgess, singhdd93
+* Xperia Arc:                   	anzu         	wedgess, singhdd93
 * Xperia Mini:                  	smultron   	singhdd93
 * Xperia Mini Pro:            	mango      	szl.kiev, singhdd93
 * Xperia Neo:                  	hallon        	Druboo666, singhdd93
 * Xperia Neo V:               	haida         	Druboo666, singhdd93
 * Xperia Pro:                    	iyokan       	singhdd93
 * Xperia Ray:                   	urushi       	szl.kiev, singhdd93, Wechy77
-* Xperia Play:                 	zeus        	garwedgess
+* Xperia Play:                 	zeus        	wedgess
 
 
 ---------------------------------------------------------------------
