@@ -9,14 +9,14 @@ CHANGELOG : (Notable New Features)
 
 ## 23.0.0 → 4.3
 
-- Dropped Numer Changelog System [bluefa1con & Papa Smurf151]
+- Dropped Number Changelog System [bluefa1con & Papa Smurf151]
 - Upgraded to Android 4.3 [Bkjolly & bluefa1con & Goldflame0 & g2user & Mithun46 & Owain94 & slz.kiev & Sniper & wedgess & zyonee]
 - Update all CM, PA & AOKP commits [Goldflame09 & slz.kiev & wedgess & zyonee]
 - Added Halo colors [C457 & Owain94]
 - Removed Goo Manager [Goldflame09 & Singh_dd93]
 - Added PAC Console app [pvyParts]
 - Added PacPapers [Papa Smurf151 & pvyParts]
-- Mass Reorganisation off all settings and removal of separate Rom control [Owain94]
+- Mass Reorganization off all settings and removal of separate Rom control [Owain94]
 - Added status bar weather from AOKP [Owain94]
 - Merged PAC in Black [Singh_dd93]
 - Added new boot animation [One2thTexan]
