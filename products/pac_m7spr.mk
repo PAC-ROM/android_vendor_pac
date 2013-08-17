@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_m7wls,$(TARGET_PRODUCT))
+ifeq (pac_m7spr,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xxhdpi
@@ -18,8 +18,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/htc/m7wls/cm.mk)
+$(call inherit-product, device/htc/m7spr/cm.mk)
 
-PRODUCT_NAME := pac_m7wls
+PRODUCT_NAME := pac_m7spr
 
 endif
