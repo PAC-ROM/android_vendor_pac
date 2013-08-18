@@ -15,6 +15,6 @@
         "account":      "bilalliberty",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
-        "revision":     "jellybean"
+        "revision":     "cm10.2"
          }
 ]
