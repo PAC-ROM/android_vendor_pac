@@ -117,7 +117,7 @@ Motorola:
 * Droid Bionic (Verizon): 	targa                  	Bkjolly
 * Razr HD (GSM):          	vanquishgsm    	Bkjolly
 * Razr HD (Verizon):      	vanquish           	Bkjolly
-* Razr M:                         	scorpionmini     	Bkjolly
+* Razr M:                       scorpionmini     	Timpohladthomas
 * Droid Razr (GSM):       	umts_spyder    	surdu_petru
 * Droid Razr(Verizon):    	spyder               	surdu_petru
 
