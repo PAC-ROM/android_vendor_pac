@@ -3,13 +3,13 @@
         "account":      "bilalliberty",
         "repository":   "android_device_htc_villec2",
         "target_path":  "device/htc/villec2",
-        "revision":     "jellybean"
+        "revision":     "cm10.2"
     },
     {
-        "account":      "Mokee",
+        "account":      "bilalliberty",
         "repository":   "android_kernel_htc_villec2",
         "target_path":  "kernel/htc/villec2",
-        "revision":     "jb-mr1_mkt"
+        "revision":     "cm10.2"
     },
     {
         "account":      "bilalliberty",
