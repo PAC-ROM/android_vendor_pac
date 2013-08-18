@@ -24,6 +24,7 @@ CHANGELOG : (Notable New Features)
 - Swapped AOKP performance control for CM [Owain94]
 - Animate Developer Partition icon [pvyParts]
 - Added Partition information settings [Owain94]
+- Added Halo 2.0 [Owain94 & C457 & zyonee]
 
 
 
