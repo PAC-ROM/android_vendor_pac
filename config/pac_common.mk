@@ -30,7 +30,7 @@ include vendor/pa/config/themes_common.mk
 PRODUCT_PACKAGES += \
     GooglePacman \
     PacStats \
-	PacPapers
+    PacPapers \
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
