@@ -33,6 +33,7 @@ Forum Administrators:
 BuildBot Maintainers:
 ----------------------------
 * basketthis
+* papi92
 * tdmcode
 
 Web Administrators:
@@ -46,6 +47,7 @@ Graphics Team:
 ---------------------
 * pvyParts
 * One2thTexan
+* ATMOSPH3AR
 
 
 Devices:		  Codename:       Maintainer:
