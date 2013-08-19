@@ -39,6 +39,7 @@
 <!--  <device name="fascinatemtd" priority="10" /> -->
   <device name="find5" priority="10" />
   <device name="fireball" priority="10" />
+  <device name="flo" priority="10" />
   <device name="galaxysmtd" priority="10" />
 <!--  <device name="grouper" priority="10" /> -->
 <!--  <device name="haida" priority="10" /> -->
@@ -116,8 +117,8 @@
   <device name="ville" priority="10" />
   <device name="villec2" priority="10" />
 <!--  <device name="vs920" priority="10" /> -->
-  <device name="ypg1" priority="10" />
-  <device name="yuga" priority="10" />
   <device name="xt897" priority="10" />
   <device name="xt897c" priority="10" />
+  <device name="ypg1" priority="10" />
+  <device name="yuga" priority="10" />
 </manifest>
