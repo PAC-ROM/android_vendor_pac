@@ -128,7 +128,7 @@ echo
 echo "Use This link in a browser after uploading the the zip to your req'd host"
 echo "If you do not know the password ask in the normal places"
 echo "---------------- LINK ----------------"
-echo "http://blownco.com/ota/?device=$DEVICE&version=$PACVERSION&md5=$MD5VAL"
+echo "http://pac-rom.com/ota/?device=$DEVICE&version=$PACVERSION&md5=$MD5VAL"
 echo "-------------- END LINK --------------"
 echo "be sure to make sure you use a direct linkable host"
 echo "got probs with the OTA contact pvyParts in hangouts"
