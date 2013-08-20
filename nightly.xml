@@ -110,8 +110,8 @@
   <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
 <!--  <device name="urushi" priority="10" /> -->
-<!--  <device name="vanquish" priority="10" /> -->
-<!--  <device name="vanquishgsm" priority="10" /> -->
+  <device name="vanquish" priority="10" />
+  <device name="vanquishgsm" priority="10" />
   <device name="venturi" priority="10" />
   <device name="vigor" priority="10" />
   <device name="ville" priority="10" />
