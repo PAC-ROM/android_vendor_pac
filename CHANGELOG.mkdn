@@ -10,7 +10,7 @@ CHANGELOG : (Notable New Features)
 ## 23.0.0 → 4.3
 
 - Dropped Number Changelog System [bluefa1con & Papa Smurf151]
-- Upgraded to Android 4.3 [Bkjolly & bluefa1con & Goldflame0 & g2user & Mithun46 & Owain94 & slz.kiev & Sniper & wedgess & zyonee]
+- Upgraded to Android 4.3 [Bkjolly & bluefa1con & Goldflame09 & g2user & Mithun46 & Owain94 & slz.kiev & Sniper & wedgess & zyonee]
 - Update all CM, PA & AOKP commits [Goldflame09 & slz.kiev & wedgess & zyonee]
 - Added Halo colors [C457 & Owain94]
 - Removed Goo Manager [Goldflame09 & Singh_dd93]
