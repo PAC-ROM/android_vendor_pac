@@ -1,74 +1,74 @@
-[URL="http://forum.xda-developers.com/showthread.php?t=2256194"]Atrix 2:             	    edison          ravikirancg[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2266322"]Atrix HD:                   mb886           skeevy420[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306451"]Droid 4 (Verizon):         	maserati        Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306446"]Droid Bionic (Verizon): 	targa           Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2280684"]Droid Incredible 4G:  	    fireball        jose51197[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2301493"]Droid Razr (GSM):       	umts_spyder    	surdu_petru[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306365"]Droid Razr HD (Verizon):    vanquish        Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306365"]Droid Razr HD (GSM):        vanquishgsm    	Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306377"]Droid Razr HD (Verizon):    vanquish        Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2301493"]Droid Razr(Verizon):    	spyder          surdu_petru[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2176569"]Epic 4G:                    epicmtd         C457[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2050948"]Epic 4G Touch (Sprint):     d710            Sniper[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2141573"]Evo LTE:                    jewel           jamieg71[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2268850"]Find5:                      find5           apascual89[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=1978991"]Galaxy Nexus:               maguro          Grarak[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306416"]Galaxy Nexus:               toro            Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2306439"]Galaxy Nexus:               toroplus        Bkjolly[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2248298"]Galaxy Note:                n7000           beerbong[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=1992386"]Galaxy Note 2 (GSM):       	n7100           abhisahara, Owain94[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2326862"]Galaxy Note 2 (Sprint):     l900            BLOWNCO[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2403899"]Galaxy Note 2 (T-Mobile):  	t0lte           BLOWNCO[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2311152"]Galaxy Note 2 (Verizon):   	i605            gchild320[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2387504"]Galaxy Player 4.0:          ypg1            goldflame09, iurnait, zaclimon[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2387504"]Galaxy Player 5.0:          venturi         iurnait[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2170768"]Galaxy S I:                 galaxysmtd    	aways[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2173726"]Galaxy S I Captivate:       captivatemtd 	Nick0703[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2203444"]Galaxy S II:                i9100           bluefa1con[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=1957348]Galaxy S II:                i9100G          bluefa1con[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2178402"]Galaxy S II LTE (AT&T):    	skyrocket       gs2usr[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=1974280"]Galaxy S II (T-Mobile):     hercules        gs2usr[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2400382"]Galaxy S III (GSM):         i9300           wedgess[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2361286"]Galaxy S III (LTE):         i9305           MaDc0w[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2015607"]Galaxy S III (AT&T):        d2att           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2351025"]Galaxy S III (Cricket):     d2cri           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2351024"]Galaxy S III (Metro PCS):  	d2mtr           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2032843"]Galaxy S III (Sprint):      d2spr          	Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2015525"]Galaxy S III (T-Mobile):    d2tmo           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2351025"]Galaxy S III (US Cellular): d2usc           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2028443"]Galaxy S III (Verizon):     d2vzw           Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2312049"]Galaxy S IV (AT&T):         jflteatt        ga2usr[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2312024"]Galaxy S IV (Canada):       jfltecan        Nick0703[/URL]
-[URL="http://pacman.basketbuild.com/index.php?dir=main/jfltecri/nightly/"]Galaxy S IV (Cricket):      jfltecri        BLOWNCO[/URL]
+<a href="http://forum.xda-developers.com/showthread.php?t=2256194"]Atrix 2:             	    edison          ravikirancg</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2266322"]Atrix HD:                   mb886           skeevy420</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306451"]Droid 4 (Verizon):         	maserati        Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306446"]Droid Bionic (Verizon): 	targa           Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2280684"]Droid Incredible 4G:  	    fireball        jose51197</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2301493"]Droid Razr (GSM):       	umts_spyder    	surdu_petru</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306365"]Droid Razr HD (Verizon):    vanquish        Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306365"]Droid Razr HD (GSM):        vanquishgsm    	Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306377"]Droid Razr HD (Verizon):    vanquish        Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2301493"]Droid Razr(Verizon):    	spyder          surdu_petru</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2176569"]Epic 4G:                    epicmtd         C457</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2050948"]Epic 4G Touch (Sprint):     d710            Sniper</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2141573"]Evo LTE:                    jewel           jamieg71</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2268850"]Find5:                      find5           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1978991"]Galaxy Nexus:               maguro          Grarak</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306416"]Galaxy Nexus:               toro            Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2306439"]Galaxy Nexus:               toroplus        Bkjolly</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2248298"]Galaxy Note:                n7000           beerbong</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1992386"]Galaxy Note 2 (GSM):       	n7100           abhisahara, Owain94</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2326862"]Galaxy Note 2 (Sprint):     l900            BLOWNCO</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2403899"]Galaxy Note 2 (T-Mobile):  	t0lte           BLOWNCO</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2311152"]Galaxy Note 2 (Verizon):   	i605            gchild320</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2387504"]Galaxy Player 4.0:          ypg1            goldflame09, iurnait, zaclimon</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2387504"]Galaxy Player 5.0:          venturi         iurnait</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2170768"]Galaxy S I:                 galaxysmtd    	aways</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2173726"]Galaxy S I Captivate:       captivatemtd 	Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2203444"]Galaxy S II:                i9100           bluefa1con</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1957348]Galaxy S II:                i9100G          bluefa1con</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2178402"]Galaxy S II LTE (AT&T):    	skyrocket       gs2usr</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1974280"]Galaxy S II (T-Mobile):     hercules        gs2usr</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2400382"]Galaxy S III (GSM):         i9300           wedgess</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2361286"]Galaxy S III (LTE):         i9305           MaDc0w</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2015607"]Galaxy S III (AT&T):        d2att           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2351025"]Galaxy S III (Cricket):     d2cri           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2351024"]Galaxy S III (Metro PCS):  	d2mtr           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2032843"]Galaxy S III (Sprint):      d2spr          	Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2015525"]Galaxy S III (T-Mobile):    d2tmo           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2351025"]Galaxy S III (US Cellular): d2usc           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2028443"]Galaxy S III (Verizon):     d2vzw           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312049"]Galaxy S IV (AT&T):         jflteatt        ga2usr</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024"]Galaxy S IV (Canada):       jfltecan        Nick0703</a>
+<a href="http://pacman.basketbuild.com/index.php?dir=main/jfltecri/nightly/"]Galaxy S IV (Cricket):      jfltecri        BLOWNCO</a>
 Galaxy S IV (C-Sprite):     jfltecsp        OPEN
-[URL="http://forum.xda-developers.com/showthread.php?t=2312063"]Galaxy S IV (Sprint):       jfltespr        Sniper[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2312036"]Galaxy S IV (T-Mobile):     jfltetmo        apascual89[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2295673"]Galaxy S IV (GSM):          jfltexx         vertigo2012[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2312131"]Galaxy S IV (US Cellular):  jflteusc        sniper[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2312069"]Galaxy S IV (Verizon):      jfltevzw        Papa Smurf151[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2202854"]Galaxy Tab 2 7':            p3100  	        Nick0703[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2202854"]Galaxy Tab 2 7':            p3110  	        Nick0703[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2202885"]Galaxy Tab 2 10':           p5100  	        BLOWNCO, pvyParts[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2202885"]Galaxy Tab 2 10':           p5110  	        BLOWNCO, pvyParts[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2407455"]Kindle Fire:              	otter           goldflame09[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2347951"]Kindle Fire 2:		        otter2         	goldflame09[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2355103"]Kindle Fire HD 7: 	        tate           	goldflame09[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2356333"]Kindle Fire HD 8.9: 	    jem            	goldflame09[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2146879"]Nexus 4:               	    mako            vertigo2012, zyonee[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2214360"]Nexus 10:                   manta           apascual89[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2190031"]Nexus S:                    crespo          berni987654321[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2348590"]One (AT&T):              	m7att           apascual89[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2348415"]One (GSM):               	m7ul            MaDc0w[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2267572"]One (Sprint):              	m7spr           Sniper[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2375475"]One (T-Mobile):         	m7tmo           MaDc0w[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2164406"]One S:                      ville           atrus5[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2141603"]One X:                      evita           jamieg71[/URL]
+<a href="http://forum.xda-developers.com/showthread.php?t=2312063"]Galaxy S IV (Sprint):       jfltespr        Sniper</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312036"]Galaxy S IV (T-Mobile):     jfltetmo        apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2295673"]Galaxy S IV (GSM):          jfltexx         vertigo2012</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312131"]Galaxy S IV (US Cellular):  jflteusc        sniper</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312069"]Galaxy S IV (Verizon):      jfltevzw        Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2202854"]Galaxy Tab 2 7':            p3100  	        Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2202854"]Galaxy Tab 2 7':            p3110  	        Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2202885"]Galaxy Tab 2 10':           p5100  	        BLOWNCO, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2202885"]Galaxy Tab 2 10':           p5110  	        BLOWNCO, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2407455"]Kindle Fire:              	otter           goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2347951"]Kindle Fire 2:		        otter2         	goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2355103"]Kindle Fire HD 7: 	        tate           	goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2356333"]Kindle Fire HD 8.9: 	    jem            	goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2146879"]Nexus 4:               	    mako            vertigo2012, zyonee</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2214360"]Nexus 10:                   manta           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2190031"]Nexus S:                    crespo          berni987654321</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2348590"]One (AT&T):              	m7att           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2348415"]One (GSM):               	m7ul            MaDc0w</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2267572"]One (Sprint):              	m7spr           Sniper</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2375475"]One (T-Mobile):         	m7tmo           MaDc0w</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2164406"]One S:                      ville           atrus5</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2141603"]One X:                      evita           jamieg71</a>
 Photon Q 4G LTE			    xt897			arrrghhh 
 Photon Q 4G LTE			    xt897c			arrrghhh
-[URL="http://forum.xda-developers.com/showthread.php?t=2071043"]Rezound:                   	vigor           shrike1978[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2297723"]Xperia T:                   mint            djpbx[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2301156"]Xperia V:                   tsubasa         djpbx[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2208249"]Xperia Z:                   yuga            jeroenqui, pvyParts[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2334047"]Xperia Tablet Z:         	pollux          bluefa1con[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2334047"]Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con[/URL]
-[URL="http://forum.xda-developers.com/showthread.php?t=2406640"]Xperia ZL:                  odin            mithun46[/URL]
+<a href="http://forum.xda-developers.com/showthread.php?t=2071043"]Rezound:                   	vigor           shrike1978</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2297723"]Xperia T:                   mint            djpbx</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2301156"]Xperia V:                   tsubasa         djpbx</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2208249"]Xperia Z:                   yuga            jeroenqui, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2334047"]Xperia Tablet Z:         	pollux          bluefa1con</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2334047"]Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2406640"]Xperia ZL:                  odin            mithun46</a>
