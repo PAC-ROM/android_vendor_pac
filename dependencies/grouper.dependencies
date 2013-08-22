@@ -8,13 +8,13 @@
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_asus",
-        "target_path":  "vendor/asus/grouper",
+        "target_path":  "vendor/asus",
         "revision":     "cm-10.2"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_broadcom",
-        "target_path":  "vendor/broadcom/grouper",
+        "target_path":  "vendor/broadcom",
         "revision":     "cm-10.2"
     },
     {
@@ -26,13 +26,13 @@
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_invensense",
-        "target_path":  "vendor/invensense/grouper",
+        "target_path":  "vendor/invensense",
         "revision":     "cm-10.2"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_nvidia",
-        "target_path":  "vendor/nvidia/grouper",
+        "target_path":  "vendor/nvidia",
         "revision":     "cm-10.2"
     },
     {
@@ -44,7 +44,7 @@
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_widevine",
-        "target_path":  "vendor/widevine/grouper",
+        "target_path":  "vendor/widevine",
         "revision":     "cm-10.2"
     },
     {
