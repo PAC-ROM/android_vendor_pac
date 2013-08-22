@@ -46,7 +46,7 @@
     "account": "CyanogenMod",
     "repository": "android_packages_apps_FMRadio",
     "target_path": "packages/apps/FmRadio",
-    "revision": "jellybean"
+    "revision": "cm-10.2"
   },
  {
     "remote": "github",

@@ -76,7 +76,7 @@
   <device name="manta" priority="10" />
   <device name="maserati" priority="10" />
   <device name="mb886" priority="10" />
-  <device name="mint" priority="10" />
+<!--  <device name="mint" priority="10" /> -->
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="odin" priority="10" />
@@ -107,7 +107,7 @@
 <!--  <device name="tilapia" priority="10" /> -->
   <device name="toro" priority="10" />
 <!--  <device name="toroplus" priority="10" /> -->
-  <device name="tsubasa" priority="10" />
+<!--  <device name="tsubasa" priority="10" /> -->
   <device name="umts_spyder" priority="10" />
 <!--  <device name="urushi" priority="10" /> -->
   <device name="vanquish" priority="10" />
