@@ -1,6 +1,6 @@
 <div>
 <a href="http://forum.xda-developers.com/showthread.php?t=2256194">Atrix 2:             	    edison          ravikirancg</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2398627">Atrix HD:                   mb886           skeevy420</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2266322">Atrix HD:                   mb886           skeevy420</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306451">Droid 4 (Verizon):         	maserati        Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306446">Droid Bionic (Verizon): 	targa           Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2280684">Droid Incredible 4G:  	    fireball        jose51197</a>
@@ -56,6 +56,7 @@ Galaxy S IV (C-Sprite):     jfltecsp        OPEN
 <a href="http://forum.xda-developers.com/showthread.php?t=2202854">Galaxy Tab 2 7':            p3110  	        Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202885">Galaxy Tab 2 10':           p5100  	        BLOWNCO, pvyParts</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202885">Galaxy Tab 2 10':           p5110  	        BLOWNCO, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2415686">Ideos X5 Pro                u8800pro         herna</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2407455">Kindle Fire:              	otter           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2347951">Kindle Fire 2:		        otter2         	goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2355103">Kindle Fire HD 7: 	        tate           	goldflame09</a>
