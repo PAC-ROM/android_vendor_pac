@@ -23,5 +23,5 @@
         "repository":  "proprietary_vendor_motorola",
         "target_path":  "vendor/motorola",
         "revision":  "cm-10.2"
-    },
+    }
 ]
