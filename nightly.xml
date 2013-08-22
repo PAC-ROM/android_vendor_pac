@@ -34,6 +34,7 @@
   <device name="d710" priority="10" />
   <device name="e975" priority="10" />
   <device name="edison" priority="10" />
+  <device name="endeavoru" priority="10" />
   <device name="epicmtd" priority="10" />
 <!--  <device name="evita" priority="10" /> -->
 <!--  <device name="fascinatemtd" priority="10" /> -->

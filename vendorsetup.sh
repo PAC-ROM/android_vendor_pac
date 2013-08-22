@@ -73,6 +73,7 @@ add_lunch_combo pac_runnymede-userdebug
 add_lunch_combo pac_fireball-userdebug
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
+add_lunch_combo pac_endeavoru-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_m7ul-userdebug
 add_lunch_combo pac_m7att-userdebug
