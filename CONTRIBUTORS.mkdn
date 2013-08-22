@@ -83,7 +83,7 @@ HTC:
 * Evo V:                       shootervm       cmbaughman
 * One (AT&T):                  m7att           apascual89
 * One (GSM):                   m7ul            MaDc0w
-* One (Sprint):                m7spr           Sniper
+* One (Sprint):                m7spr           MallardDuck
 * One (T-Mobile):              m7tmo           MaDc0w
 * One S:                       ville           atrus5
 * One S C2:                    villec2         dominos_liberty
