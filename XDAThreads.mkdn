@@ -66,6 +66,7 @@ Galaxy S IV (C-Sprite):     jfltecsp        OPEN
 <a href="http://forum.xda-developers.com/showthread.php?t=2267572">One (Sprint):              	m7spr           Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2375475">One (T-Mobile):         	m7tmo           MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2164406">One S:                      ville           atrus5</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2271635">One S C2:                      villec2           dominos_liberty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2141603">One X:                      evita           jamieg71</a>
 Photon Q 4G LTE			    xt897			arrrghhh 
 Photon Q 4G LTE			    xt897c			arrrghhh
