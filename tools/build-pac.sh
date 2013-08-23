@@ -42,7 +42,7 @@ fi
 
 # get OS (linux / Mac OS x)
 IS_DARWIN=$(uname -a | grep Darwin)
-if [ -z "$IS_DARWIN" ]; then
+if [ -n "$IS_DARWIN" ]; then
 	CPUS=$(sysctl hw.ncpu | awk '{print $2}')
 	DATE=gdate
 else
@@ -66,6 +66,7 @@ while getopts "cdj:s" opt; do
 	*) usage
 	esac
 done
+shift $((OPTIND-1))
 if [ "$#" -ne 1 ]; then
 	usage
 fi
