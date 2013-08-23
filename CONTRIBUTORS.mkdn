@@ -125,7 +125,7 @@ Motorola:
 * Photon Q (GSM):              xt897           arrrghhh
 * Razr HD (GSM):               vanquishgsm     Bkjolly
 * Razr HD (Verizon):           vanquish        Bkjolly
-* Razr M:                      scorpionmini    Timpohladthomas
+* Razr M (Verizon):            scorpionmini    timpohladthomas
 
 
 
