@@ -69,6 +69,7 @@ ASUS:
 * Nexus 7 3G:                  tilapia         Bkjolly
 * Nexus 7 (2013):              flo             apascual89, zaclimon
 * Transformer Pad:             tf300t          gchild320
+* Transformer Pad Infinity:    tf700t          gchild320
 
 
 

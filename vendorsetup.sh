@@ -145,6 +145,7 @@ add_lunch_combo pac_xt897c-userdebug
 # Asus device
 add_lunch_combo pac_tf300t-userdebug
 add_lunch_combo pac_tf201-userdebug
+add_lunch_combo pac_tf700t-userdebug
 # Amazon
 add_lunch_combo pac_otter-userdebug
 add_lunch_combo pac_otter2-userdebug
