@@ -41,6 +41,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2015525">Galaxy S III (T-Mobile):    d2tmo           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (US Cellular): d2usc           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2028443">Galaxy S III (Verizon):     d2vzw           Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2396173">Galaxy S IV (GSM):          i9500           Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312049">Galaxy S IV (AT&T):         jflteatt        ga2usr</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Canada):       jfltecan        Nick0703</a>
 <a href="http://pacman.basketbuild.com/index.php?dir=main/jfltecri/nightly/">Galaxy S IV (Cricket):      jfltecri        BLOWNCO</a>
