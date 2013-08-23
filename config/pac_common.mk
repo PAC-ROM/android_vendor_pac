@@ -61,11 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
     vendor/pac/CONTRIBUTORS.mkdn:system/etc/PAC-CONTRIBUTORS.txt
 
-### AOKP ###
-# AOKP Packages
-PRODUCT_PACKAGES += \
-    PermissionsManager \
-
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
