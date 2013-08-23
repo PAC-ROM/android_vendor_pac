@@ -115,7 +115,7 @@ echo -e "${bldblu}Setting up environment ${txtrst}"
 # lunch device
 echo -e ""
 echo -e "${bldblu}Lunching device ${txtrst}"
-lunch "pac_$DEVICE-userdebug";
+lunch "pac_$device-userdebug";
 
 echo -e ""
 echo -e "${bldblu}Starting compilation ${txtrst}"
@@ -132,7 +132,7 @@ vendor/pac/tools/squisher
 
 # cleanup unused built
 rm -f out/target/product/$device/cm-*.*
-rm -f out/target/product/$device/pac_*.zip
+rm -f out/target/product/$device/pac_*-ota*.zip
 
 # finished? get elapsed time
 t2=$($DATE +%s)
