@@ -25,6 +25,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2311152">Galaxy Note 2 (Verizon):   	i605            gchild320</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 4.0:          ypg1            goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi         iurnait</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1982756">Galaxy R:                   i9103           Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2170768">Galaxy S I:                 galaxysmtd    	aways</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2173726">Galaxy S I Captivate:       captivatemtd 	Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203444">Galaxy S II:                i9100           bluefa1con</a>
