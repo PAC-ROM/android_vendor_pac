@@ -113,6 +113,9 @@ rm -f out/target/product/$device/obj/KERNEL_OBJ/.version
 echo -e "${bldblu}Setting up environment ${txtrst}"
 . build/envsetup.sh
 
+# Remove system folder (this will create a new build.prop with updated build time and date)
+rm -rf out/target/product/$device/system/
+
 # lunch device
 echo -e ""
 echo -e "${bldblu}Lunching device ${txtrst}"
