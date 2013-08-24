@@ -83,6 +83,7 @@
   <device name="odin" priority="10" />
   <device name="otter" priority="10" />
   <device name="otter2" priority="10" />
+  <device name="p760" priority="10" />
 <!--  <device name="p880" priority="10" /> -->
 <!--  <device name="p920" priority="10" /> -->
 <!--  <device name="p930" priority="10" /> -->

@@ -90,5 +90,6 @@ Galaxy S IV (C-Sprite):     jfltecsp        OPEN
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:         	pollux          bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2406640">Xperia ZL:                  odin            mithun46</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2195177">LG P760 Optimus L9:                  p760            adamz667</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=38249397">LG P990 Optimus 2x:                  p990            MetaIIica</a>
 </div>

@@ -105,6 +105,7 @@ HTC:
 * Optimus 3D:                  p920            berni987654321
 * Optimus 4X:                  p880            berni987654321
 * Optimus Black:               p970            berni987654321
+* Optimus L9:                  p760            adamz667
 * Optimus LTE:                 su640           tdm.code
 * Optimus G:                   e975            faust93
 * Optimus One:                 p500            OldDroid
@@ -224,7 +225,7 @@ Sony Ericsson:
 
 
 ---------------------------------------------------------------------
-Total Devices: 126
+Total Devices: 127
 
 Best regards
      szl.kiev
