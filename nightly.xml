@@ -36,7 +36,7 @@
   <device name="edison" priority="10" />
   <device name="endeavoru" priority="10" />
   <device name="epicmtd" priority="10" />
-<!--  <device name="evita" priority="10" /> -->
+  <device name="evita" priority="10" />
 <!--  <device name="fascinatemtd" priority="10" /> -->
   <device name="find5" priority="10" />
   <device name="fireball" priority="10" />
@@ -56,7 +56,7 @@
   <device name="i9305" priority="10" />
 <!--  <device name="iyokan" priority="10" /> -->
   <device name="jem" priority="10" />
-<!--  <device name="jewel" priority="10" /> -->
+  <device name="jewel" priority="10" />
   <device name="jflteatt" priority="10" />
   <device name="jfltecan" priority="10" />
   <device name="jfltecri" priority="10" />
