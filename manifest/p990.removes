@@ -1,0 +1,23 @@
+[
+    {
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "android_vendor_google",
+        "target_path":  "vendor/google",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_dalvik",
+        "target_path":  "dalvik",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "cm-10.2"
+    }
+]
