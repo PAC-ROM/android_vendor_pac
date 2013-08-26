@@ -152,7 +152,7 @@ Samsung:
 * Galaxy S II:                 i9100G          bluefa1con
 * Galaxy S II LTE (AT&T):      skyrocket       gs2usr
 * Galaxy S II (T-Mobile):      hercules        ga2usr
-* Galaxy S II (AT&T):          i777            IngCr3at1on
+* Galaxy S II (AT&T):          i777            IngCr3at1on, IconRunner
 * Galaxy S III (GSM):          i9300           beerbong, garwedgess
 * Galaxy S III (LTE):          i9305           MaDc0w
 * Galaxy S III (AT&T):         d2att           Papa Smurf151
