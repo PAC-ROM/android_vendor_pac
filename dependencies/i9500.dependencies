@@ -2,7 +2,7 @@
   {
     "account":      "PAC-samsung",
     "repository":   "proprietary_vendor_samsung_i9500",
-    "target_path":  "vendor/samsung/i9500",
+    "target_path":  "vendor/samsung-extra/i9500",
     "revision":     "cm-10.2"
     },
   {
