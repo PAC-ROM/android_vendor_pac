@@ -13,12 +13,6 @@
     },
     {
         "account":      "CMu8800pro",
-        "repository":   "android_hardware_qcom_display-legacy",
-        "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.2"
-    },
-    {
-        "account":      "CMu8800pro",
         "repository":   "android_hardware_atheros_wifi_libs",
         "target_path":  "hardware/atheros/wifi/libs",
         "revision":     "cm-10.1"
