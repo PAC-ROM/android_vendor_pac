@@ -45,13 +45,13 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2312049">Galaxy S IV (AT&T):         jflteatt        ga2usr</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Canada):       jfltecan        Nick0703</a>
 <a href="http://pacman.basketbuild.com/index.php?dir=main/jfltecri/nightly/">Galaxy S IV (Cricket):      jfltecri        BLOWNCO</a>
-Galaxy S IV (C-Sprite):     jfltecsp        OPEN
+<a href="http://forum.xda-developers.com/showthread.php?t=2412589">Galaxy S IV (C-Spire):     jfltecsp        RIPng</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312063">Galaxy S IV (Sprint):       jfltespr        Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312036">Galaxy S IV (T-Mobile):     jfltetmo        apascual89</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2295673">Galaxy S IV (GSM):          jfltexx         vertigo2012</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=44481866">Galaxy S IV (GSM):          jfltexx         MetaIIica</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312131">Galaxy S IV (US Cellular):  jflteusc        sniper</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2312069">Galaxy S IV (Verizon):      jfltevzw        Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312069">Galaxy S IV (Verizon):      jfltevzw        RIPng</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202854">Galaxy Tab 2 7':            p3100  	        Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202854">Galaxy Tab 2 7':            p3110  	        Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202885">Galaxy Tab 2 10':           p5100  	        BLOWNCO, pvyParts</a>
