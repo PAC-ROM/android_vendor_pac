@@ -21,13 +21,5 @@
         "name":     "android_external_wpa_supplicant_8_ti",
         "remote":   "cm",
         "path":     "external/wpa_supplicant_8_ti"
-    },
-    {
-        "name":     "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
-        "path":     "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7"
-    },
-    {
-        "name":     "platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7",
-        "path":     "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7"
     }
 ]
