@@ -13,11 +13,11 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/p31xx/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
