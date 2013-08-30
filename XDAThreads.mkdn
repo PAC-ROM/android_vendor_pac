@@ -20,6 +20,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2248298">Galaxy Note:                n7000           beerbong</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2417967">Galaxy Note:                quincyatt       AD5GB</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1992386">Galaxy Note 2 (GSM):       	n7100           abhisahara, Owain94</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2403899">Galaxy Note 2 (AT&T):       	t0lteatt           BLOWNCO</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2326862">Galaxy Note 2 (Sprint):     l900            BLOWNCO</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2403899">Galaxy Note 2 (LTE):  	t0lte           BLOWNCO</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2426051">Galaxy Note 2 (T-Mobile):  	t0ltetmo        UtkarshGupta</a>
