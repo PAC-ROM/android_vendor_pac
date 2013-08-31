@@ -194,6 +194,7 @@ Sony
 * Xperia V:                    tsubasa         djpbx
 * Xperia Z:                    yuga            jeroenqui
 * Xperia ZL:                   odin            mithun46
+* Xperia ZR:                   dogo            nolinuxnoparty
 
 
 

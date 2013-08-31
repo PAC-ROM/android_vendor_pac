@@ -82,6 +82,7 @@
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="odin" priority="10" />
+  <device name="dogo" priority="10" />
   <device name="otter" priority="10" />
   <device name="otter2" priority="10" />
   <device name="p760" priority="10" />
