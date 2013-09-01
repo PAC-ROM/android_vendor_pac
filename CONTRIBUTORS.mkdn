@@ -89,6 +89,8 @@ HTC:
 * One (T-Mobile):              m7tmo           MaDc0w
 * One S:                       ville           atrus5
 * One S C2:                    villec2         dominos_liberty
+* One X:                       endeavoru       razer1224
+* One X+:                      enrc2b          razer1224
 * One X:                       evita           jamieg71
 * One V:                       primo           Black
 * Rezound:                     vigor           shrike1978
