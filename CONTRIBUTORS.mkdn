@@ -157,6 +157,7 @@ Samsung:
 * Galaxy Nexus:                toroplus        Bkjolly
 * Galaxy Note:                 n7000           beerbong
 * Galaxy Note:                 quincyatt       AD5GB   
+* Galaxy Note:                 quincytmo       AD5GB   
 * Galaxy Note 2 (GSM):         n7100           abhisahara, Owain94
 * Galaxy Note 2 (Sprint):      l900            BLOWNCO
 * Galaxy Note 2 (LTE):         t0lte           BLOWNCO

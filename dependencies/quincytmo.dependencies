@@ -1,0 +1,44 @@
+[
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_samsung_msm8660-common",
+    "target_path": "device/samsung/msm8660-common",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_samsung_quincy-common",
+    "target_path": "device/samsung/quincy-common",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_samsung_quincytmo",
+    "target_path": "device/samsung/quincytmo",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_kernel_samsung_msm8660-common",
+    "target_path": "kernel/samsung/msm8660-common",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "TheMuppets",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-10.2"
+  }
+]
