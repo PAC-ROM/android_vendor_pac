@@ -36,9 +36,9 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "br101",
+        "account":      "LegacyXperia",
         "repository":   "android_external_iw",
         "target_path":  "external/iw",
-        "revision":     "master"
+        "revision":     "cm-10.2"
     }
 ]
