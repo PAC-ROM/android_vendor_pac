@@ -15,7 +15,7 @@
     },
     {
        "remote":        "github",
-       "account":       "CyanogenMod",
+       "account":       "PAC-Motorola",
        "repository":    "android_device_samsung_toro",
        "target_path":   "device/samsung/toro",
        "revision":      "cm-10.2"

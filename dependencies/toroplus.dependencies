@@ -7,7 +7,7 @@
         "revision":     "cm-10.2"
     },
     {   "remote":       "github",
-        "account":      "CyanogenMod",
+        "account":      "PAC-Motorola",
         "repository":   "android_device_samsung_toroplus",
         "target_path":  "device/samsung/toroplus",
         "revision":     "cm-10.1"
