@@ -70,7 +70,7 @@ shift $((OPTIND-1))
 if [ "$#" -ne 1 ]; then
 	usage
 fi
-device="$1"
+DEVICE="$1"
 
 # get current version
 eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ *//g')
