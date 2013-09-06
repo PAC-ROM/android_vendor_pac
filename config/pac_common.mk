@@ -117,12 +117,12 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 # PAC version
 PAC_VERSION_MAJOR = 4
 PAC_VERSION_MINOR = 3
-PAC_VERSION_MAINTENANCE = Build 1
+PAC_VERSION_MAINTENANCE = Build-1
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=pac_$(BOARD)_4.3-$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
+    ro.pacrom.version=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
     ro.modversion=$(PA_VERSION) \
     ro.pa.family=$(PA_CONF_SOURCE) \
     ro.pa.version=$(VERSION) \
