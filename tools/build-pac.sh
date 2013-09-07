@@ -2,31 +2,31 @@
 
 usage()
 {
-	echo ""
-	echo "Usage:"
-	echo "  build-pac.sh [options] device"
-	echo ""
-	echo "  Options:"
-	echo "    -c  Clean before build"
-	echo "    -d  Use dex optimizations"
-	echo "    -j# Set jobs"
-	echo "    -s  Sync before build"
-	echo ""
-	echo "  Example:"
-	echo "    ./build-pac.sh -c mako"
-	echo ""
+	echo -e ""
+	echo -e ${txtbld}"Usage:"${txtrst}
+	echo -e "  build-pac.sh [options] device"
+	echo -e ""
+	echo -e ${txtbld}"  Options:"${txtrst}
+	echo -e "    -c  Clean before build"
+	echo -e "    -d  Use dex optimizations"
+	echo -e "    -j# Set jobs"
+	echo -e "    -s  Sync before build"
+	echo -e ""
+	echo -e ${txtbld}"  Example:"${txtrst}
+	echo -e "    ./build-pac.sh -c mako"
+	echo -e ""
 	exit 1
 }
 
 # colors
-. ${ANDROID_BUILD_TOP}/vendor/pac/tools/colors
+. ./vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
-	echo "No .repo directory found.  Is this an Android build tree?"
+	echo -e ${red}"No .repo directory found.  Is this an Android build tree?"${txtrst}
 	exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
-	echo "No vendor/pac directory found.  Is this a PAC build tree?"
+	echo -e ${red}"No vendor/pac directory found.  Is this a PAC build tree?"${txtrst}
 	exit 1
 fi
 
@@ -69,11 +69,11 @@ VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
 # get time of startup
 t1=$($DATE +%s)
 
-echo -e "${cya}Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION ${txtrst}"
+echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
 
 # PAC device dependencies
 echo -e ""
-echo -e "${bldblu}Looking for PAC product dependencies${txtrst}${cya}"
+echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
 vendor/pac/tools/getdependencies.py "$device"
 echo -e "${txtrst}"
 
@@ -84,7 +84,7 @@ fi
 # download prebuilt files
 if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ]; then
 	echo -e ""
-	echo -e "${bldblu}Downloading prebuilts${txtrst}"
+	echo -e ${bldblu}"Downloading prebuilts"${txtrst}
 	vendor/cm/get-prebuilts
 	echo -e ""
 fi
@@ -92,7 +92,7 @@ fi
 # sync with latest sources
 if [ "$opt_sync" -ne 0 ]; then
 	echo -e ""
-	echo -e "${bldblu}Fetching latest sources${txtrst}"
+	echo -e ${bldblu}"Fetching latest sources"${txtrst}
 	repo sync -j"$opt_jobs"
 	echo -e ""
 fi
@@ -100,7 +100,7 @@ fi
 rm -f out/target/product/$device/obj/KERNEL_OBJ/.version
 
 # setup environment
-echo -e "${bldblu}Setting up environment ${txtrst}"
+echo -e ${bldblu}"Setting up environment"${txtrst}
 . build/envsetup.sh
 
 # Remove system folder (this will create a new build.prop with updated build time and date)
@@ -108,11 +108,11 @@ rm -rf out/target/product/$device/system/
 
 # lunch device
 echo -e ""
-echo -e "${bldblu}Lunching device ${txtrst}"
+echo -e ${bldblu}"Lunching device"${txtrst}
 lunch "pac_$device-userdebug";
 
 echo -e ""
-echo -e "${bldblu}Starting compilation ${txtrst}"
+echo -e ${bldblu}"Starting compilation"${txtrst}
 
 # start compilation
 if [ "$opt_dex" -ne 0 ]; then
@@ -134,4 +134,4 @@ t2=$($DATE +%s)
 tmin=$(( (t2-t1)/60 ))
 tsec=$(( (t2-t1)%60 ))
 
-echo "${bldgrn}Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds${txtrst}"
+echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}

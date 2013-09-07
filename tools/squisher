@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Squish a CM otapackage for distribution
 # cyanogen
@@ -21,7 +21,7 @@ else
 fi
 
 if [ -z "$OUT" -o ! -d "$OUT" ]; then
-	echo "ERROR: $0 only works with a full build environment. $OUT should exist."
+	echo -e ${red}"ERROR: $0 only works with a full build environment. $OUT should exist."${txtrst}
 	exit 1
 fi
 
@@ -33,7 +33,7 @@ else
     OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$USER.zip
 fi
 if [ ! -f "$OTAPACKAGE" ]; then
-	echo "$OTAPACKAGE doesn't exist!";
+	echo -e ${red}"$OTAPACKAGE doesn't exist!"${txtrst};
 	exit 1
 fi
 
@@ -42,19 +42,18 @@ QUIET=-q
 DELETE_BINS="applypatch applypatch_static check_prereq recovery updater"
 
 REPACK=$OUT/repack.d
-printf "${bldcya}Sanitizing environment${txtrst}..."
+echo -e ${bldcya}"Sanitizing environment..."${txtrst}
 rm -rf $REPACK
 mkdir -p $REPACK
-echo
 
 
 # Unpack the otapackage and opticharge all apks
 mkdir $REPACK/ota
 (
 cd $REPACK/ota
-printf "${bldgrn}Unpacking${txtrst}: ${grn}$OTAPACKAGE${txtrst}..."
+echo -e ${bldgrn}"Unpacking${txtrst}: ${grn}$OTAPACKAGE..."${txtrst}
 unzip $QUIET $OTAPACKAGE
-echo
+echo -e ""
 cd $REPACK/ota/system/framework
 $OPTICHARGER framework-res.apk
 cd $REPACK/ota/system/app
@@ -95,60 +94,59 @@ rm -rf $REPACK/ota/recovery
 if [ -z "$CYANOGEN_NIGHTLY" ]; then
 	PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
 	OUTFILE=$OUT/$PACVERSION.zip
-	echo; echo "${bldgrn}P${bldppl}A${bldblu}C${bldylw}-VERSION${txtrst}:${cya} $PACVERSION ${txtrst}"; echo
+	echo -e ""; echo -e "${bldgrn}P${bldppl}A${bldblu}C${bldylw}-VERSION${txtrst}:${cya} $PACVERSION"${txtrst}; echo -e ""
 else
 	OUTFILE=$OUT/update-squished.zip
 fi
 
 # Pack it up and sign
-printf "${grn}Zipping package...${txtrst}"
+echo -e ${grn}"Zipping package..."${txtrst}
 ( cd $REPACK/ota; zip $QUIET -r $REPACK/update.zip . )
-echo
-printf "${grn}Signing package...${txtrst}"
+echo -e ${grn}"Signing package..."${txtrst}
 SECURITYDIR=$ANDROID_BUILD_TOP/build/target/product/security
 java -Xmx1024m \
 	-jar $ANDROID_BUILD_TOP/out/host/$OUT_TARGET_HOST/framework/signapk.jar \
 	-w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 \
 	$REPACK/update.zip $OUTFILE
-echo
-printf "${grn}Cleaning up...${txtrst}"
+echo -e ${grn}"Cleaning up..."${txtrst}
 rm -rf $REPACK
-echo
 
 # Create a md5 checksum image of the repacked package
 (
 img=`basename $OUTFILE`
 cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
-echo; echo "${cya}Package complete:${ylw} $OUTFILE ${txtrst}"; echo
-echo "${cya}ZIP:${ylw} $img"
-echo "${cya}MD5: ${ylw} $MD5"
+ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}'`
+echo -e ""; echo -e ${bldgrn}"Package complete:"${txtrst}
+echo -e ${cya}"ZIP:${ylw}  $img"${txtrst}
+echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $1}'`"${txtrst}
+echo -e ${cya}"SIZE:${ylw} $ZIPSIZE"${txtrst}
 MD5VAL=`cat $img.md5sum  | awk '{ print $1 }'`
-DEVICE=`echo $TARGET_PRODUCT | cut -d "_" -f 2`
+DEVICE=`echo -e $TARGET_PRODUCT | cut -d "_" -f 2`
 
-echo ${bldylw}
-echo "    dMMMMb  .aMMMb  .aMMMb  dMMMMMMMMb .aMMMb  dMMMMb"
-echo "   dMP.dMP dMP\"dMP dMP\"VMP dMP\"dMP\"dMPdMP\"dMP dMP dMP"
-echo "  dMMMMP\" dMMMMMP dMP     dMP dMP dMPdMMMMMP dMP dMP"
-echo " dMP     dMP dMP dMP.aMP dMP dMP dMPdMP dMP dMP dMP"
-echo "dMP     dMP dMP  VMMMP\" dMP dMP dMPdMP dMP dMP dMP"
-echo
-echo "    dMMMMb  .aMMMb  dMMMMMMMMb  .dMMMb"
-echo "   dMP.dMP dMP\"dMP dMP\"dMP\"dMP dMP\" VP"
-echo "  dMMMMK\" dMP dMP dMP dMP dMP  VMMMb"
-echo " dMP\"AMF dMP.aMP dMP dMP dMP dP .dMP"
-echo "dMP dMP  VMMMP\" dMP dMP dMP  VMMMP\""
-echo ${txtrst}
+echo -e ""
+echo -e ${bldylw}"    dMMMMb  .aMMMb  .aMMMb  dMMMMMMMMb .aMMMb  dMMMMb"
+echo -e "   dMP.dMP dMP\"dMP dMP\"VMP dMP\"dMP\"dMPdMP\"dMP dMP dMP"
+echo -e "  dMMMMP\" dMMMMMP dMP     dMP dMP dMPdMMMMMP dMP dMP"
+echo -e " dMP     dMP dMP dMP.aMP dMP dMP dMPdMP dMP dMP dMP"
+echo -e "dMP     dMP dMP  VMMMP\" dMP dMP dMPdMP dMP dMP dMP"
+echo -e
+echo -e "    dMMMMb  .aMMMb  dMMMMMMMMb  .dMMMb"
+echo -e "   dMP.dMP dMP\"dMP dMP\"dMP\"dMP dMP\" VP"
+echo -e "  dMMMMK\" dMP dMP dMP dMP dMP  VMMMb"
+echo -e " dMP\"AMF dMP.aMP dMP dMP dMP dP .dMP"
+echo -e "dMP dMP  VMMMP\" dMP dMP dMP  VMMMP\""${txtrst}
+echo -e ""
 
 #OTA link for ease of use !
-echo "Use This link in a browser after uploading the the zip to your req'd host."
-echo "If you do not know the password ask in the normal places."
-echo "${cyarev}                                   LINK                                         ${txtrst}"
-echo "http://pac-rom.com/ota/?device=$DEVICE&version=$PACVERSION&md5=$MD5VAL"
-echo "${cyarev}                                 END LINK                                       ${txtrst}"
-echo "Make sure you use a direct linkable host, got problems"
-echo "with the OTA? Contact ${txtbld}pvyParts${txtrst} in hangouts."
-echo
+echo -e "Use this link in a browser after uploading the zip to your required host."
+echo -e "If you do not know the password ask in the normal places."
+echo -e ${ylwrev}"                                   LINK                                         "${txtrst}
+echo -e ${cya}"http://pac-rom.com/ota/?device=$DEVICE&version=$PACVERSION&md5=$MD5VAL"${txtrst}
+echo -e ${ylwrev}"                                 END LINK                                       "${txtrst}
+echo -e "Make sure you use a direct linkable host, got problems"
+echo -e "with the OTA? Contact ${txtbld}pvyParts${txtrst} in hangouts."
+echo -e ""
 )
 
 exit 0
