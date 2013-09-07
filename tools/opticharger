@@ -9,6 +9,8 @@
 # cyanogen - shade@chemlab.org
 # ChrisSoyars - me@ctso.me
 
+. ${ANDROID_BUILD_TOP}/vendor/pac/tools/colors
+
 OUT_TARGET_HOST=$(uname -a | grep Darwin)
 if [ -z "$OUT_TARGET_HOST" ]
 then
@@ -88,7 +90,7 @@ fi
 if [ -e "$1" ];
 then
     NAME=`basename $1`;
-    echo "Optimizing $NAME...";
+    echo "${bldgrn}Optimizing:${txtrst} $NAME...";
 
     if [ "$2" != "" ];
     then
@@ -132,7 +134,7 @@ then
 
     [ $QUIET ] || echo "Repacking apk.."
     aapt p -0 .dat -0 .dict -F $NAME .
-    
+
     [ $QUIET ] || echo "Resigning with cert: `echo $CERT`"
 
     [ $QUIET ] || echo java -jar $ANDROID_BUILD_TOP/out/host/$OUT_TARGET_HOST/framework/signapk.jar $ANDROID_BUILD_TOP/$CERT $ANDROID_BUILD_TOP/$KEY $NAME signed_$NAME

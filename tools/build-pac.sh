@@ -18,18 +18,8 @@ usage()
 	exit 1
 }
 
-# Colorize and add text parameters
-red=$(tput setaf 1)             #  red
-grn=$(tput setaf 2)             #  green
-cya=$(tput setaf 6)             #  cyan
-txtbld=$(tput bold)             # Bold
-bldred=${txtbld}$(tput setaf 1) #  red
-bldgrn=${txtbld}$(tput setaf 2) #  green
-bldylw=${txtbld}$(tput setaf 3) #  yellow
-bldblu=${txtbld}$(tput setaf 4) #  blue
-bldppl=${txtbld}$(tput setaf 5) #  purple
-bldcya=${txtbld}$(tput setaf 6) #  cyan
-txtrst=$(tput sgr0)             # Reset
+# colors
+. ${ANDROID_BUILD_TOP}/vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
 	echo "No .repo directory found.  Is this an Android build tree?"
