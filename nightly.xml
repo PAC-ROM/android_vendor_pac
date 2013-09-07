@@ -39,7 +39,7 @@
   <device name="epicmtd" priority="10" />
   <device name="evita" priority="10" />
 <!--  <device name="fascinatemtd" priority="10" /> -->
-  <device name="find5" priority="10" />
+<!--  <device name="find5" priority="10" /> -->
   <device name="fireball" priority="10" />
   <device name="flo" priority="10" />
   <device name="galaxysmtd" priority="10" />
