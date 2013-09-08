@@ -29,6 +29,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi         iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1982756">Galaxy R:                   i9103           Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2170768">Galaxy S I:                 galaxysmtd    	aways</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2435945">Galaxy S LCD:                 galaxysl    	UtkarshGupta</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2173726">Galaxy S I Captivate:       captivatemtd 	Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203444">Galaxy S II:                i9100           bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1957348">Galaxy S II:                i9100G          bluefa1con</a>
