@@ -4,52 +4,65 @@ PAC-man Rom
 
 Developers:
 ----------------
-* apascual89
-* Bkjolly
-* BLOWNCO
-* bluefa1con
-* gs2usr
-* metaiiica
-* Nick0703
-* Owain94
-* Papa Smurf151
-* pvyParts
-* singhdd93
-* Sniper
-* szl.kiev
-* tdmcode
-* wedgess
-* xLaMbChOpSx
-* zyonee
+*__apascual89__
+*__Bkjolly__
+*__BLOWNCO__
+*__bluefa1con__
+*__goldflame09__
+*__gs2usr__
+*__metaiiica__
+*__Nick0703__
+*__Owain94__
+*__Papa Smurf151__
+*__pvyParts__
+*__singhdd93__
+*__Sniper__
+*__szl.kiev__
+*__tdm.code__
+*__wedgess__
+*__xLaMbChOpSx__
+*__zyonee__
 
 Forum Administrators:
 -----------------------------
-* bluefa1con
-* metaiiica
-* Papa Smurf151
-* szl.kiev
+*__bluefa1con__
+*__metaiiica__
+*__Papa Smurf151__
+*__szl.kiev__
 
 
 BuildBot Maintainers:
 ----------------------------
-* basketthis
-* papi92
-* tdmcode
+*__basketthis__
+*__papi92__
+*__tdm.code__
 
 Web Administrators:
 ---------------------------
-* jeroenqui
-* Papa Smurf151
-* tdmcode
+*__jeroenqui__
+*__Papa Smurf151__
+*__tdm.code__
 
+Gerrit Administrators:
+------------------------------
+*__bluefa1con__
+*__gs2usr__
+*__Nick0703__
+*__Papa Smurf151__
+*__singhdd93__
+*__Sniper__
+*__szl.kiev__
+*__tdm.code__
+*__wedgess__
+*__zyonee__
 
 Graphics Team:
 ---------------------
-* ATMOSPH3AR
-* One2thTexan
-* pvyParts
-* Rinkle McBally
-* zooyork0721
+*__ATMOSPH3AR__
+*__One2thTexan__
+*__pvyParts__
+*__Rinkle McBally__
+*__zooyork0721__
 
 
 Devices:		  Codename:       Maintainer:
@@ -57,182 +70,182 @@ Devices:		  Codename:       Maintainer:
 
 Amazon:
 ---------------------------------------------------------------------
-* Kindle Fire:                 otter           goldflame09
-* Kindle Fire 2:               otter2          goldflame09
-* Kindle Fire HD 7:            tate            goldflame09
-* Kindle Fire HD 8.9:          jem             goldflame09
+*__Kindle Fire (otter) :__ goldflame09
+*__Kindle Fire 2 (otter2) :__ goldflame09
+*__Kindle Fire HD 7 (tate) :__ goldflame09
+*__Kindle Fire HD 8.9 (jem) :__ goldflame09
 
 
 
 ASUS:
 ---------------------------------------------------------------------
-* Eee Pad Transformer Prime:   tf201           jeroenqui
-* Nexus 7:                     grouper         Bkjolly, zyonee
-* Nexus 7 3G:                  tilapia         Bkjolly
-* Nexus 7 (2013):              flo             apascual89, zaclimon
-* Transformer Pad:             tf300t          gchild320
-* Transformer Pad Infinity:    tf700t          gchild320
+*__Eee Pad Transformer Prime (tf201) :__ jeroenqui
+*__Nexus 7 (grouper) :__ Bkjolly, zyonee
+*__Nexus 7 3G (tilapia) :__ Bkjolly
+*__Nexus 7 (2013) (flo) :__ apascual89, zaclimon
+*__Transformer Pad (tf300t) :__ gchild320
+*__Transformer Pad Infinity (tf700t) :__ gchild320
 
 
 
 HTC:
 ---------------------------------------------------------------------
-* Desire HD:                   ace             blindndumb
-* Desire S:                    saga            blindndumb
-* Droid Incredible 4G:         fireball        jose51197
-* Evo 3D:                      shooter         cmbaughman
-* Evo 3D (GSM):                shooteru        cmbaughman
-* Evo LTE:                     jewel           jamieg71
-* Evo V:                       shootervm       cmbaughman
-* One (AT&T):                  m7att           apascual89
-* One (GSM):                   m7ul            MaDc0w
-* One (Sprint):                m7spr           MallardDuck
-* One (T-Mobile):              m7tmo           MaDc0w
-* One S:                       ville           atrus5
-* One S C2:                    villec2         dominos_liberty
-* One X:                       endeavoru       razer1224
-* One X+:                      enrc2b          razer1224
-* One X:                       evita           jamieg71
-* One V:                       primo           Black
-* Rezound:                     vigor           shrike1978
-* Ruby:                        ruby            Alexander Pohl
-* Runnymede:                   runnymede       onejay09
-* Vivo:                        vivo            blindndumb
-* Wildfire S:                  marvel          crossfire77
+*__Desire HD (ace) :__ blindndumb
+*__Desire S (saga) :__ blindndumb
+*__Droid Incredible 4G (fireball) :__ jose51197
+*__Evo 3D (shooter) :__ cmbaughman
+*__Evo 3D (GSM)(shooteru) :__ cmbaughman
+*__Evo LTE (jewel) :__ jamieg71
+*__Evo V (shootervm) :__ cmbaughman
+*__One (AT&T) (m7att) :__ MaDcow
+*__One (GSM)(m7ul) :__ MaDc0w
+*__One (Sprint) (m7spr) :__ MallardDuck
+*__One (T-Mobile) (m7tmo) :__ MaDc0w
+*__One S (ville) :__ atrus5
+*__One S C2 (villec2) :__ dominos_liberty
+*__One X (endeavoru) :__ razer1224
+*__One X+ (enrc2b) :__ razer1224
+*__One X (evita) :__ jamieg71
+*__One V (primo) :__ Black
+*__Rezound (vigor) :__ shrike1978
+*__Ruby (ruby) :__ Alexander Pohl
+*__Runnymede(runnymede) :__ onejay09
+*__Vivo (vivo) :__ blindndumb
+*__Wildfire S (marvel) :__ crossfire77
 
 HUAWEI:
 ---------------------------------------------------------------------
-* Ideos X5 PRO                 u8800pro        herna
+*__Ideos X5 PRO (u8800pro) :__ herna
 
  LG:
 ---------------------------------------------------------------------
-* Nexus 4:                     mako            vertigo2012, zyonee
-* Nitro HD:                    p930            tdm.code
-* Optimus 2X:                  p990            metaiiica
-* Optimus 3D:                  p920            berni987654321
-* Optimus 4X:                  p880            berni987654321
-* Optimus Black:               p970            berni987654321
-* Optimus L9:                  p760            adamz667
-* Optimus LTE:                 su640           tdm.code
-* Optimus G:                   e975            faust93
-* Optimus One:                 p500            OldDroid
-* Spectrum:                    vs920           tdm.code
+*__Nexus 4 (mako) :__ apascual89, zyonee
+*__Nitro HD (p930) :__ tdm.code
+*__Optimus 2X (p990) :__ metaiiica
+*__Optimus 3D (p920) :__ berni987654321
+*__Optimus 4X (p880) :__ berni987654321
+*__Optimus Black (p970) :__ berni987654321
+*__Optimus L9 (p760) :__ adamz667
+*__Optimus LTE (su640) :__ tdm.code
+*__Optimus G (e975) :__ faust93
+*__Optimus One (p500) :__ OldDroid
+*__Spectrum (vs920) :__ tdm.code
 
 
 
 Motorola:
 ---------------------------------------------------------------------
-* Atrix 2:                     edison          ravikirancg
-* Atrix HD:                    mb886           skeevy420
-* Droid 3 (Verizon):           solana          Bkjolly
-* Droid 4 (Verizon):           maserati        Bkjolly
-* Droid Bionic (Verizon):      targa           Bkjolly
-* Droid Razr (GSM):            umts_spyder     surdu_petru
-* Droid Razr(Verizon):         spyder          surdu_petru
-* Photon Q (Sprint):           xt897c          arrrghhh
-* Photon Q (GSM):              xt897           arrrghhh
-* Razr HD (GSM):               vanquishgsm     Bkjolly
-* Razr HD (Verizon):           vanquish        Bkjolly
-* Razr M (Verizon):            scorpionmini    timpohladthomas
+*__Atrix 2 (edison) :__ ravikirancg
+*__Atrix HD (mb886) :__ skeevy420
+*__Droid 3 (Verizon) (solana) :__ Bkjolly
+*__Droid 4 (Verizon) (maserati) :__ Bkjolly
+*__Droid Bionic (Verizon) (targa) :__ Bkjolly
+*__Droid Razr (GSM) (umts_spyder) :__ surdu_petru
+*__Droid Razr(Verizon) (spyder) :__ surdu_petru
+*__Photon Q (Sprint) (xt897c) :__ arrrghhh
+*__Photon Q (GSM) (xt897) :__ arrrghhh
+*__Razr HD (GSM) (vanquishgsm) :__ Bkjolly
+*__Razr HD (Verizon) (vanquish) :__ Bkjolly
+*__Razr M (Verizon) (scorpionmini) :__ timpohladthomas
 
 
 
 Oppo:
 ---------------------------------------------------------------------
-* Find5:                       find5           apascual89
+*__Find5 (find5) :__ tdm.code
 
 
 
 Samsung:
 ---------------------------------------------------------------------
-* Captivate Glide:             i927            Kick Buttowski
-* Epic 4G:                     epicmtd         C457
-* Epic 4G Touch (Sprint):      d710            Sniper
-* Fascinate:                   fascinatemtd    C457
-* Galaxy Ace:                  cooper          OldDroid
-* Galaxy Fit:                  beni            speedbot
-* Galaxy Gio:                  gio             OldDroid
-* Galaxy Mini:                 tass            Paul-L
-* Galaxy Nexus:                maguro          -Jesco-
-* Galaxy Nexus:                toro            Bkjolly
-* Galaxy Nexus:                toroplus        Bkjolly
-* Galaxy Note:                 n7000           beerbong
-* Galaxy Note:                 quincyatt       AD5GB
-* Galaxy Note:                 quincytmo       AD5GB
-* Galaxy Note 2 (GSM):         n7100           abhisahara, Owain94
-* Galaxy Note 2 (Sprint):      l900            BLOWNCO
-* Galaxy Note 2 (LTE):         t0lte           BLOWNCO
-* Galaxy Note 2 (T-Mobile):    t0ltetmo        UtkarshGupta
-* Galaxy Note 2 (Verizon):     i605            gchild320
-* Galaxy Player 4.0:           ypg1            goldflame09, iurnait, zaclimon
-* Galaxy Player 5.0:           venturi         iurnait
-* Galaxy R:                    i9103           Grarak
-* Galaxy S I:                  galaxysmtd      aways
-* Galaxy S I Captivate:        captivatemtd    Nick0703
-* Galaxy S II:                 i9100           bluefa1con
-* Galaxy S II:                 i9100G          bluefa1con
-* Galaxy S II LTE (AT&T):      skyrocket       gs2usr
-* Galaxy S II (T-Mobile):      hercules        ga2usr
-* Galaxy S II (AT&T):          i777            IngCr3at1on, IconRunner
-* Galaxy S III (GSM):          i9300           garwedgess
-* Galaxy S III (LTE):          i9305           MaDc0w
-* Galaxy S III (AT&T):         d2att           Papa Smurf151
-* Galaxy S III (Cricket):      d2cri           Papa Smurf151
-* Galaxy S III (Metro PCS):    d2mtr           Papa Smurf151
-* Galaxy S III (Sprint):       d2spr           Papa Smurf151
-* Galaxy S III (T-Mobile):     d2tmo           Papa Smurf151
-* Galaxy S III (US Cellular):  d2usc           Papa Smurf151
-* Galaxy S III (Verizon):      d2vzw           Papa Smurf151
-* Galaxy S IV (GSM):           i9500           Grarak
-* Galaxy S IV (AT&T):          jflteatt        ga2usr
-* Galaxy S IV (Canada):        jfltecan        Nick0703
-* Galaxy S IV (Cricket):       jfltecri        BLOWNCO
-* Galaxy S IV (C-Sprite):      jfltecsp        RIPng
-* Galaxy S IV (Sprint):        jfltespr        Sniper
-* Galaxy S IV (T-Mobile):      jfltetmo        apascual89
-* Galaxy S IV (GSM):           jfltexx         metaiiica, vertigo2012
-* Galaxy S IV (US Cellular):   jflteusc        Papa Smurf151
-* Galaxy S IV (Verizon):       jfltevzw        RIPng
-* Galaxy Tab 7':               p1000           OldDroid
-* Galaxy Tab 8.9 (GSM):        p5              mithun46
-* Galaxy Tab 8.9 (Wi-Fi)       p5wifi          mithun46
-* Galaxy Tab 10':              p7100           BLOWNCO
-* Galaxy Tab 2 7':             p3100/P3110     Nick0703
-* Galaxy Tab 2 10':            p5100/P5110     BLOWNCO, pvyParts
-* Galaxy W:                    i8150           percy_g2
-* Nexus S:                     crespo          berni987654321
-* Nexus 10:                    manta           apascual89
+*__Captivate Glide (i927) :__ Kick Buttowski
+*__Epic 4G (epicmtd) :__ C457
+*__Epic 4G Touch (Sprint) (d710) :__ Sniper
+*__Fascinate (fascinatemtd) :__ C457
+*__Galaxy Ace (cooper) :__ OldDroid
+*__Galaxy Fit (beni) :__ speedbot
+*__Galaxy Gio (gio) :__ OldDroid
+*__Galaxy Mini (tass) :__ Paul-L
+*__Galaxy Nexus (maguro) :__ -Jesco-
+*__Galaxy Nexus (toro) :__ Bkjolly
+*__Galaxy Nexus (toroplus) :__ Bkjolly
+*__Galaxy Note (n7000) :__ beerbong
+*__Galaxy Note (quincyatt) :__ AD5GB
+*__Galaxy Note (quincytmo) :__ AD5GB
+*__Galaxy Note 2 (GSM) (n7100) :__ abhisahara, Owain94
+*__Galaxy Note 2 (LTE) (t0lte) :__ BLOWNCO
+*__Galaxy Note 2 (Sprint) (l900) :__ BLOWNCO
+*__Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ UtkarshGupta
+*__Galaxy Note 2 (Verizon) (i605) :__ gchild320
+*__Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
+*__Galaxy Player 5.0 (venturi) :__ iurnait
+*__Galaxy R (i9103) :__ Grarak
+*__Galaxy S I (galaxysmtd) :__ aways
+*__Galaxy S I Captivate (captivatemtd) :__ Nick0703
+*__Galaxy S II (i9100) :__ bluefa1con
+*__Galaxy S II (i9100G) :__ bluefa1con
+*__Galaxy S II LTE (AT&T) (skyrocket) :__ gs2usr
+*__Galaxy S II (T-Mobile) (hercules) :__ ga2usr
+*__Galaxy S II (AT&T) (i777) :__ IngCr3at1on, IconRunner
+*__Galaxy S III (AT&T) (d2att) :__ Papa Smurf151
+*__Galaxy S III (Cricket) (d2cri) :__ Papa Smurf151
+*__Galaxy S III (GSM) (i9300) :__ garwedgess
+*__Galaxy S III (LTE) (i9305) :__ MaDc0w
+*__Galaxy S III (Metro PCS) (d2mtr) :__ Papa Smurf151
+*__Galaxy S III (Sprint) (d2spr) :__ Papa Smurf151
+*__Galaxy S III (T-Mobile) (d2tmo) :__ Papa Smurf151
+*__Galaxy S III (US Cellular) (d2usc) :__ Papa Smurf151
+*__Galaxy S III (Verizon) (d2vzw) :__ Papa Smurf151
+*__Galaxy S IV (GSM) (i9500) :__ Grarak
+*__Galaxy S IV (AT&T) (jflteatt) :__ ga2usr
+*__Galaxy S IV (Canada) (jfltecan) :__ Nick0703
+*__Galaxy S IV (Cricket) (jfltecri) :__ BLOWNCO
+*__Galaxy S IV (C-Sprite) (jfltecsp) :__ RIPng
+*__Galaxy S IV (GSM) (jfltexx) :__ metaiiica, vertigo2012
+*__Galaxy S IV (Sprint) (jfltespr) :__ Sniper
+*__Galaxy S IV (T-Mobile) (jfltetmo) :__ apascual89
+*__Galaxy S IV (US Cellular) (jflteusc) :__ Sniper
+*__Galaxy S IV (Verizon) (jfltevzw) :__ RIPng
+*__Galaxy Tab 7' (p1000) :__ OldDroid
+*__Galaxy Tab 8.9 (GSM) (p5) :__ mithun46
+*__Galaxy Tab 8.9 (Wi-Fi) (p5wifi) :__ mithun46
+*__Galaxy Tab 10' (p7100) :__ BLOWNCO
+*__Galaxy Tab 2 7' (p3100/P3110) :__ Nick0703
+*__Galaxy Tab 2 10' (p5100/P5110) :__ BLOWNCO, pvyParts
+*__Galaxy W (i8150) :__ percy_g2
+*__Nexus S (crespo) :__ berni987654321
+*__Nexus 10 (manta) :__ apascual89
 
 
 
 Sony
 ---------------------------------------------------------------------
-* Xperia GO:                   lotus           percy_g2
-* Xperia P:                    nypon           percy_g2
-* Xperia Sola:                 pepper          percy_g2
-* Xperia T:                    mint            djpbx
-* Xperia Tablet Z:             pollux          bluefa1con
-* Xperia Tablet Z LTE:         pollux_windy    bluefa1con
-* Xperia TX:                   hayabusa        djpbx
-* Xperia U:                    kumquat         percy_g2
-* Xperia V:                    tsubasa         djpbx
-* Xperia Z:                    yuga            jeroenqui, pvyParts
-* Xperia ZL:                   odin            mithun46
+*__Xperia GO (lotus) :__ percy_g2
+*__Xperia P (nypon) :__ percy_g2
+*__Xperia Sola (pepper) :__ percy_g2
+*__Xperia T (mint) :__ djpbx
+*__Xperia Tablet Z (pollux) :__ bluefa1con
+*__Xperia Tablet Z LTE (pollux_windy) :__ bluefa1con
+*__Xperia TX (hayabusa) :__ djpbx
+*__Xperia U (kumquat) :__ percy_g2
+*__Xperia V (tsubasa) :__ djpbx
+*__Xperia Z (yuga) :__ jeroenqui, pvyParts
+*__Xperia ZL (odin) :__ mithun46
 
 
 
 Sony Ericsson:
 ---------------------------------------------------------------------
-* Live With Walkman:           coconut         singhdd93
-* Xperia Active:               satsuma         singhdd93
-* Xperia Arc:                  anzu            garwedgess, singhdd93
-* Xperia Mini:                 smultron        singhdd93
-* Xperia Mini Pro:             mango           szl.kiev, singhdd93
-* Xperia Neo:                  hallon          Druboo666, singhdd93
-* Xperia Neo V:                haida           Druboo666, singhdd93
-* Xperia Pro:                  iyokan          singhdd93
-* Xperia Ray:                  urushi          szl.kiev, singhdd93, Wechy77
-* Xperia Play:                 zeus            garwedgess
+*__Live With Walkman (coconut) :__ singhdd93
+*__Xperia Active (satsuma) :__ singhdd93
+*__Xperia Arc (anzu) :__ garwedgess, singhdd93
+*__Xperia Mini (smultron) :__ singhdd93
+*__Xperia Mini Pro (mango) :__ szl.kiev, singhdd93
+*__Xperia Neo (hallon) :__ Druboo666, singhdd93
+*__Xperia Neo V (haida) :__ Druboo666, singhdd93
+*__Xperia Pro (iyokan) :__ singhdd93
+*__Xperia Ray (urushi) :__ szl.kiev, singhdd93, Wechy77
+*__Xperia Play (zeus) :__ garwedgess
 
 
 ---------------------------------------------------------------------
