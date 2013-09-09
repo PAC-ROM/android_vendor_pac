@@ -92,6 +92,7 @@ HTC:
 ---------------------------------------------------------------------
 * __Desire HD (ace) :__ blindndumb
 * __Desire S (saga) :__ blindndumb
+* __Droid DNA (dlx) :__ pio_masaki
 * __Droid Incredible 4G (fireball) :__ jose51197
 * __Evo 3D (shooter) :__ cmbaughman
 * __Evo 3D (GSM)(shooteru) :__ cmbaughman
