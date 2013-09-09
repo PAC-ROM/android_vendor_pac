@@ -99,4 +99,5 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2406640">Xperia ZL:                  odin            mithun46</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=2195177">LG P760 Optimus L9:                  p760            adamz667</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=38249397">LG P990 Optimus 2x:                  p990            MetaIIica</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2418933">LG e610 Optimus L5:                  e610            bart452, herna</a>
 </div>

@@ -1,0 +1,32 @@
+[
+    {
+        "account":      "TeamHackLG",
+        "repository":   "android_device_lge_e610",
+        "target_path":  "device/lge/e610",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "TeamHackLG",
+        "repository":   "android_device_lge_msm7x27a-common",
+        "target_path":  "device/lge/msm7x27a-common",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "TeamHackLG",
+        "repository":   "lge_kernel_lproj",
+        "target_path":  "kernel/lge/msm7x27a-common",
+        "revision":     "android-msm-3.4-jb4.3"
+    },
+    {
+        "account":      "TeamHackLG",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "TeamHackLG",
+        "repository":   "android_hardware_qcom_media-legacy",
+        "target_path":  "hardware/qcom/media-legacy",
+        "revision":     "cm-10.2"
+    }
+]

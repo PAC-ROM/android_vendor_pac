@@ -1,0 +1,10 @@
+[
+    {
+        "name":     "CyanogenMod/android_hardware_qcom_display-caf",
+        "path":     "hardware/qcom/display-caf"
+    },
+    {
+        "name":     "CyanogenMod/android_frameworks_native",
+        "path":     "frameworks/native"
+    }
+]

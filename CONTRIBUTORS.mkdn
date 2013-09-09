@@ -125,6 +125,7 @@ HUAWEI:
 * __Optimus 3D (p920) :__ berni987654321
 * __Optimus 4X (p880) :__ berni987654321
 * __Optimus Black (p970) :__ berni987654321
+* __Optimus L5 (e610) :__ herna, bart452
 * __Optimus L9 (p760) :__ adamz667
 * __Optimus LTE (su640) :__ tdm.code
 * __Optimus G (e975) :__ faust93
