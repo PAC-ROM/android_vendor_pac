@@ -1,6 +1,6 @@
 [
     {
-        "account":      "dhacker29",
+        "account":      "CyanogenMod",
         "repository":   "android_device_asus_grouper",
         "target_path":  "device/asus/grouper",
         "revision":     "cm-10.2"
