@@ -1,0 +1,21 @@
+[
+    {
+        "account":      "KonstaT",
+        "repository":   "android_device_zte_atlas40",
+        "target_path":  "device/zte/atlas40",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "KonstaT",
+        "repository":   "proprietary_vendor_zte",
+        "target_path":  "vendor/zte/atlas40",
+        "revision":     "cm-10.1"
+    }
+
+    {
+        "account":      "KonstaT",
+        "repository":   "android_kernel_zte_msm7x27a",
+        "target_path":  "kernel/zte/msm7x27a",
+        "revision":     "jellybean"
+    }
+]

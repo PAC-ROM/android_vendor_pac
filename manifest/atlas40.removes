@@ -1,0 +1,16 @@
+[
+    {
+        "name": "android_frameworks_av",
+        "path": "frameworks/av"
+    },{
+        "name": "android_frameworks_native",
+        "path": "frameworks/native"
+    },{
+        "name": "android_hardware_qcom_media-legacy",
+        "path": "hardware/qcom/media-legacy"
+    },{
+        "name": "android_hardware_qcom_display-legacy",
+        "path": "hardware/qcom/display-legacy"
+
+    }
+]

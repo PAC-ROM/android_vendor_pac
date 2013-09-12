@@ -166,3 +166,5 @@ add_lunch_combo pac_marvel-userdebug
 add_lunch_combo pac_villec2-userdebug
 # Huawei
 add_lunch_combo pac_u8800pro-userdebug
+# ZTE
+add_lunch_combo pac_atlas40-userdebug
