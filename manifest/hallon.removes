@@ -16,10 +16,5 @@
         "name":     "android_hardware_ti_wpan",
         "remote":   "cm",
         "path":     "hardware/ti/wpan"
-    },
-    {
-        "name":     "android_external_wpa_supplicant_8_ti",
-        "remote":   "cm",
-        "path":     "external/wpa_supplicant_8_ti"
     }
 ]
