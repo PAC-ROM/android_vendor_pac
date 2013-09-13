@@ -15,6 +15,10 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_240x320.rle:root/TASS.rle
 
+# Copy bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/ldpi/bootanimation.zip:system/media/bootanimation.zip
+
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 

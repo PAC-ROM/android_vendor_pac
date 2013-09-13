@@ -15,9 +15,9 @@ $(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-ma
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/GIO.rle
 
-# Copy PAC minimal hdpi bootanimation
+# Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/minimal_bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 	
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
