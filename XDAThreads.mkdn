@@ -32,6 +32,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2170768">Galaxy S I:                 galaxysmtd    	aways</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2435945">Galaxy S LCD:                 galaxysl    	UtkarshGupta</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2173726">Galaxy S I Captivate:       captivatemtd 	Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2447478">Galaxy S I Plus:       ariesve 	krislibaeer</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203444">Galaxy S II:                i9100           bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1957348">Galaxy S II:                i9100G          bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2178402">Galaxy S II LTE (AT&T):    	skyrocket       gs2usr</a>

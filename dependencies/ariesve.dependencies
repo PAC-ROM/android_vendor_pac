@@ -1,0 +1,14 @@
+[
+    {
+        "account":      "krislibaeer",
+        "repository":   "pac_android_device_samsung_ariesve",
+        "target_path":  "device/samsung/ariesve",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "AriesVE-DevCon-TEAM",
+        "repository":   "android_vendor_samsung_ariesve",
+        "target_path":  "vendor/samsung-extra/ariesve",
+        "revision":     "cm-10.2"
+    }
+]
