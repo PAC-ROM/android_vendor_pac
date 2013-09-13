@@ -108,7 +108,7 @@ HTC:
 * __One X+ (enrc2b) :__ razer1224
 * __One X (evita) :__ jamieg71
 * __One V (primo) :__ Black
-* __Rezound (vigor) :__ shrike1978
+* __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Ruby (ruby) :__ Alexander Pohl
 * __Runnymede(runnymede) :__ onejay09
 * __Vivo (vivo) :__ blindndumb
