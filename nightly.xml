@@ -43,7 +43,7 @@
 <!--  <device name="find5" priority="10" /> -->
   <device name="fireball" priority="10" />
   <device name="flo" priority="10" />
-  <device name="galaxysl" priority="10" />
+<!--  <device name="galaxysl" priority="10" /> -->
   <device name="galaxysmtd" priority="10" />
   <device name="grouper" priority="10" />
 <!--  <device name="haida" priority="10" /> -->
