@@ -6,10 +6,10 @@
         "name": "android_frameworks_native",
         "path": "frameworks/native"
     },{
-        "name": "arco/hardware_qcom_media-legacy",
+        "name": "arco/android_hardware_qcom_media-legacy",
         "path": "hardware/qcom/media-legacy"
     },{
-        "name": "arco/hardware_qcom_display-legacy",
+        "name": "arco/android_hardware_qcom_display-legacy",
         "path": "hardware/qcom/display-legacy"
 
     }
