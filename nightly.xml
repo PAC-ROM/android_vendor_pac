@@ -85,6 +85,8 @@
   <device name="mint" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
+  <device name="n8000" priority="10" />
+  <device name="n8013" priority="10" />
   <device name="odin" priority="10" />
   <device name="otter" priority="10" />
   <device name="otter2" priority="10" />
