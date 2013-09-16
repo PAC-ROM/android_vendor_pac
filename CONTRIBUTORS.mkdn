@@ -130,6 +130,7 @@ HUAWEI:
 * __Optimus L9 (p760) :__ adamz667
 * __Optimus LTE (su640) :__ tdm.code
 * __Optimus G (e975) :__ faust93
+* __Optimus G (ls970) (Sprint):__ spleef
 * __Optimus One (p500) :__ OldDroid
 * __Spectrum (vs920) :__ tdm.code
 
@@ -256,7 +257,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 136
+Total Devices: 137
 
 Best regards
      szl.kiev

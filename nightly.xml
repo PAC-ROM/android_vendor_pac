@@ -72,6 +72,7 @@
   <device name="jfltevzw" priority="10" />
   <device name="jfltexx" priority="10" />
   <device name="l900" priority="10" />
+  <device name="ls970" priority="10" />
   <device name="m7att" priority="10" />
   <device name="m7spr" priority="10" />
   <device name="m7tmo" priority="10" />
