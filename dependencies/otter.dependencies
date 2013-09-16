@@ -15,10 +15,10 @@
   },
   {
     "remote":       "github",
-    "account":      "loosethisskin",
+    "account":      "CyanogenMod",
     "repository":   "kernel_omap_otter-common",
     "target_path":  "kernel/amazon/otter-common",
-    "revision":     "cm-10.2-exp"
+    "revision":     "cm-10.2"
   },
   {
     "remote":       "github",
