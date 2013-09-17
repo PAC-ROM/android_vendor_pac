@@ -111,6 +111,7 @@
 <!--  <device name="smultron" priority="10" /> -->
 <!--  <device name="solana" priority="10" /> -->
   <device name="spyder" priority="10" />
+  <device name="steelhead" priority="10" />
 <!--  <device name="su640" priority="10" /> -->
   <device name="t0lte" priority="10" />
   <device name="t0ltetmo" priority="10" />
