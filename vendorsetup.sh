@@ -1,3 +1,5 @@
+# Nexus Q
+add_lunch_combo pac_steelhead-userdebug
 # Oppo 2013
 add_lunch_combo pac_find5-userdebug
 # Xperia 2013
