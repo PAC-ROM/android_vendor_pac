@@ -164,9 +164,9 @@ Oppo:
 Samsung:
 ---------------------------------------------------------------------
 * __Captivate Glide (i927) :__ Kick Buttowski
-* __Epic 4G (epicmtd) :__ C457
+* __Epic 4G (epicmtd) :__ Unjustified Dev.
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
-* __Fascinate (fascinatemtd) :__ C457
+* __Fascinate (fascinatemtd) :__ Unjustified Dev
 * __Galaxy Ace (cooper) :__ OldDroid
 * __Galaxy Fit (beni) :__ speedbot
 * __Galaxy Gio (gio) :__ OldDroid
