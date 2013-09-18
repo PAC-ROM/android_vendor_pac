@@ -178,7 +178,7 @@ Samsung:
 * __Galaxy Note (quincyatt) :__ AD5GB
 * __Galaxy Note (quincytmo) :__ AD5GB
 * __Galaxy Note 2 (GSM) (n7100) :__ abhisahara, Owain94
-* __Galaxy Note 2 (LTE) (t0lte) :__ BLOWNCO
+* __Galaxy Note 2 (LTE) (t0lte) :__ UtkarshGupta
 * __Galaxy Note 2 (Sprint) (l900) :__ BLOWNCO
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ UtkarshGupta
 * __Galaxy Note 2 (Verizon) (i605) :__ gchild320
@@ -258,7 +258,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 139
+Total Devices: 145
 
 Best regards
      szl.kiev
