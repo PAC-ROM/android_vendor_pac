@@ -12,7 +12,7 @@
     "revision":     "cm-10.2"
   },
   {
-    "account":      "CyanogenMod",
+    "account":      "manelscout4life",
    "repository": "android_kernel_google_steelhead",
    "target_path": "kernel/google/steelhead",
     "revision":     "cm-10.2"
