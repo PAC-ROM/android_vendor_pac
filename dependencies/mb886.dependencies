@@ -6,11 +6,19 @@
         "target_path":  "device/motorola/mb886",
         "revision":   "cm-10.2"
     },
-    {   "remote":  "github",
-        "account":  "PAC-Moto",
-        "repository":  "android_device_motorola_msm8960-common",
-        "target_path":  "device/motorola/msm8960-common",
-        "revision":  "cm-10.2"
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_motorola_msm8960-common",
+        "target_path": "device/motorola/msm8960-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "PAC-Motorola",
+        "repository": "android_device_motorola_qcom-common",
+        "target_path": "device/motorola/qcom-common",
+        "revision": "cm-10.2"
     },
     {   "remote":  "github",
         "account":  "CyanogenMod",
@@ -18,10 +26,10 @@
         "target_path":  "kernel/motorola/msm8960-common",
         "revision":  "cm-10.2"
     },
-    {   "remote":  "github",
-        "account":  "TheMuppets",
-        "repository":  "proprietary_vendor_motorola",
-        "target_path":  "vendor/motorola",
-        "revision":  "cm-10.2"
+    {   "remote": "github",
+        "account": "TheMuppets",
+        "repository": "proprietary_vendor_motorola",
+        "target_path": "vendor/motorola",
+        "revision": "cm-10.2"
     }
 ]
