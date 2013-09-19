@@ -413,6 +413,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.ShowProgress(0.5, 0)
 
   if OPTIONS.wipe_user_data:
+    script.Print("Formatting Data")
     script.FormatPartition("/data")
 
   script.Print("#################################################");
@@ -426,15 +427,23 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.Print("#                                               #");
   script.Print("#################################################");
 
+  device = GetBuildProp("ro.product.device", OPTIONS.info_dict)
+  model = GetBuildProp("ro.product.model", OPTIONS.info_dict)
+  script.Print("# Device: %s (%s)"%(model, device));
+  script.Print("#################################################");
+
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
 
+  script.Print("Formatting System")
   script.FormatPartition("/system")
   script.Mount("/system")
   #script.UnpackPackageDir("recovery", "/system")
+  script.Print("Extracting System Files...")
   script.UnpackPackageDir("system", "/system")
 
   symlinks = CopySystemFiles(input_zip, output_zip)
+  script.Print("Making Sym Links")
   script.MakeSymlinks(symlinks)
 
   boot_img = common.GetBootableImage("boot.img", "boot.img",
@@ -455,9 +464,12 @@ def WriteFullOTAPackage(input_zip, output_zip):
     script.RunBackup("restore")
 
   script.ShowProgress(0.2, 10)
+  script.Print("Flashing boot.img")
   script.WriteRawImage("/boot", "boot.img")
 
   script.ShowProgress(0.1, 0)
+  script.Print("Thanks for choosing PAC-MAN ROMS")
+  script.Print("Enjoy PAC-MAN now")
   device_specific.FullOTA_InstallEnd()
 
   if OPTIONS.extra_script is not None:
