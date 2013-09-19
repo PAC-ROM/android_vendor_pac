@@ -1,20 +1,20 @@
 [
   {
-    "account":    "dhiru1602",
+    "account":    "sconosciuto",
     "repository": "android_device_samsung_galaxysl",
     "target_path": "device/samsung/galaxysl",
-    "revision":    "cm-10.2"
+    "revision":    "jellybean-3.0"
   },
   {
-    "account":    "dhiru1602",
+    "account":    "sconosciuto",
     "repository": "android_kernel_samsung_latona",
     "target_path": "kernel/samsung/latona",
-    "revision":    "cm-10.2"
+    "revision":    "latona-3.0.y"
   },
   {
-    "account":    "dhiru1602",
+    "account":    "sconosciuto",
     "repository": "android_vendor_samsung_galaxysl",
     "target_path": "vendor/samsung-extra/galaxysl",
-    "revision":    "cm-10.1"
+    "revision":    "jellybean-3.0"
   }
 ]
