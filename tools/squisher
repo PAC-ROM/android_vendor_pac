@@ -93,10 +93,19 @@ rm -rf $REPACK/ota/recovery
 # Determine what to name the new signed package
 if [ -z "$CYANOGEN_NIGHTLY" ]; then
 	PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
+	ABIGEN=`grep 'ro.product.cpu.abi=' $REPACK/ota/system/build.prop | sed -e 's/ro.product.cpu.abi=//g'`
 	OUTFILE=$OUT/$PACVERSION.zip
 	echo -e ""; echo -e "${bldgrn}P${bldppl}A${bldblu}C${bldylw}-VERSION${txtrst}:${cya} $PACVERSION"${txtrst}; echo -e ""
 else
 	OUTFILE=$OUT/update-squished.zip
+fi
+
+
+
+if [ -n $ABIGEN ]; then
+	echo ${cya}"Packing in Pre-Built Libs for CPU Variant:${ylw}$ABIGEN"${txtrst}
+	cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/libs/$ABIGEN/libbypass.so $REPACK/ota/system/lib/libbypass.so
+	echo ""
 fi
 
 # Pack it up and sign
