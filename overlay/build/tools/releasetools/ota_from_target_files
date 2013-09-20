@@ -416,21 +416,21 @@ def WriteFullOTAPackage(input_zip, output_zip):
     script.Print("Formatting Data")
     script.FormatPartition("/data")
 
-  script.Print("#################################################");
-  script.Print("#                                               #");
-  script.Print("#_____   ____    ____     __  __   ____   __  _ #");
-  script.Print("#| ()_) / () \  / (__`   |  \/  | / () \ |  \| |#");
-  script.Print("#|_|   /__/\__\ \____)   |_|\/|_|/__/\__\|_|\__|#");
-  script.Print("#       _____   ____  __  __   ____             #");
-  script.Print("#       | () ) / () \|  \/  | (_ (_`            #");
-  script.Print("#       |_|\_\ \____/|_|\/|_| __)__)            #");
-  script.Print("#                                               #");
-  script.Print("#################################################");
+  script.Print("###############################################");
+  script.Print("#                                             #");
+  script.Print("#_____   ____    ____   __  __   ____   __  _ #");
+  script.Print("#| ()_) / () \  / (__` |  \/  | / () \ |  \| |#");
+  script.Print("#|_|   /__/\__\ \____) |_|\/|_|/__/\__\|_|\__|#");
+  script.Print("#       _____   ____  __  __   ____           #");
+  script.Print("#       | () ) / () \|  \/  | (_ (_`          #");
+  script.Print("#       |_|\_\ \____/|_|\/|_| __)__)          #");
+  script.Print("#                                             #");
+  script.Print("###############################################");
 
   device = GetBuildProp("ro.product.device", OPTIONS.info_dict)
   model = GetBuildProp("ro.product.model", OPTIONS.info_dict)
   script.Print("# Device: %s (%s)"%(model, device));
-  script.Print("#################################################");
+  script.Print("###############################################");
 
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
