@@ -21,6 +21,7 @@
   <!-- Add new devices here -->
 <!--  <device name="ancora" priority="10" /> -->
 <!--  <device name="anzu" priority="10" /> -->
+  <device name="ariesve" priority="10" />
   <device name="captivatemtd" priority="10" />
 <!--  <device name="coconut" priority="10" /> -->
   <device name="crespo" priority="10" />
