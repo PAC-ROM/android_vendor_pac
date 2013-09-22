@@ -177,6 +177,7 @@ Samsung:
 * __Galaxy Note (n7000) :__ beerbong
 * __Galaxy Note (quincyatt) :__ AD5GB
 * __Galaxy Note (quincytmo) :__ AD5GB
+* __Galaxy Note 2 (AT&T) (t0lteatt) :__ UtkarshGupta
 * __Galaxy Note 2 (GSM) (n7100) :__ abhisahara, Owain94
 * __Galaxy Note 2 (LTE) (t0lte) :__ UtkarshGupta
 * __Galaxy Note 2 (Sprint) (l900) :__ BLOWNCO
