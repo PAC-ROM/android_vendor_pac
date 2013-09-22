@@ -182,6 +182,7 @@ Samsung:
 * __Galaxy Note 2 (LTE) (t0lte) :__ UtkarshGupta
 * __Galaxy Note 2 (Sprint) (l900) :__ BLOWNCO
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ UtkarshGupta
+* __Galaxy Note 2 (US Cellular) (r950) :__ UtkarshGupta
 * __Galaxy Note 2 (Verizon) (i605) :__ gchild320
 * __Galaxy Note 10.1 (N8000) :__ pimpmaneaton
 * __Galaxy Note 10.1 (N8013) :__ pimpmaneaton
