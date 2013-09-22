@@ -1,12 +1,12 @@
 [
     {
-        "account":      "percy-g2",
-        "repository":   "android_device_samsung_ancora",
+        "account":      "krislibaeer",
+        "repository":   "pac_android_device_samsung_ancora",
         "target_path":  "device/samsung/ancora",
-        "revision":     "cm-10.1"
+        "revision":     "cm-10.2"
     },
     {
-        "account":      "percy-g2",
+        "account":      "arco",
         "repository":   "android_vendor_samsung_ancora",
         "target_path":  "vendor/samsung/ancora",
         "revision":     "cm-10.1"
