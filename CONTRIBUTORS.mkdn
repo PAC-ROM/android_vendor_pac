@@ -240,7 +240,7 @@ Sony
 * __Xperia U (kumquat) :__ percy_g2
 * __Xperia V (tsubasa) :__ djpbx
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
-* __Xperia ZL (odin) :__ mithun46
+* __Xperia ZL (odin) :__ havanahjoe
 
 
 Sony Ericsson:
