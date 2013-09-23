@@ -8,7 +8,7 @@
     {
         "account":      "arco",
         "repository":   "android_vendor_samsung_ancora",
-        "target_path":  "vendor/samsung/ancora",
+        "target_path":  "vendor/samsung-extra/ancora",
         "revision":     "cm-10.1"
     }
 ]
