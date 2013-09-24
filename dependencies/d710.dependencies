@@ -6,7 +6,7 @@
     "revision":     "cm-10.2"
     },
   {
-    "account":      "CyanogenMod",
+    "account":      "Team-Hydra",
     "repository":   "android_device_samsung_d710",
     "target_path":  "device/samsung/d710",
     "revision":     "cm-10.2"
