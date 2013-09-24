@@ -141,3 +141,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     persist.sys.root_access=3
+
+# Camera shutter sound property
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.camera-sound=1
