@@ -6,15 +6,15 @@
     "revision":    "cm-10.2"
   },
   {
-    "account":    "sconosciuto",
+    "account":    "dhiru1602",
     "repository": "android_kernel_samsung_latona",
     "target_path": "kernel/samsung/latona",
-    "revision":    "latona-3.0.y"
+    "revision":    "cm-10.2"
   },
   {
-    "account":    "sconosciuto",
+    "account":    "dhiru1602",
     "repository": "android_vendor_samsung_galaxysl",
     "target_path": "vendor/samsung-extra/galaxysl",
-    "revision":    "jellybean-3.0"
+    "revision":    "cm-10.2"
   }
 ]
