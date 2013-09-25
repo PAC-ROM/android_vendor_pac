@@ -1,0 +1,14 @@
+[
+    {
+        "account":      "nolinuxnoparty",
+        "repository":   "platform_device_htc_pico",
+        "target_path":  "device/htc/pico",
+        "revision":     "android-4.3"
+    },
+    {
+        "account":      "sakindia123",
+        "repository":   "android_kernel_htc_pico",
+        "target_path":  "kernel/htc/pico",
+        "revision":     "master"
+    }
+]

@@ -172,6 +172,7 @@ add_lunch_combo pac_jem-userdebug
 # HTC-legacy
 add_lunch_combo pac_marvel-userdebug
 add_lunch_combo pac_villec2-userdebug
+add_lunch_combo pac_pico-userdebug
 # Huawei
 add_lunch_combo pac_u8800pro-userdebug
 # ZTE

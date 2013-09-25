@@ -116,7 +116,7 @@ HTC:
 * __Runnymede(runnymede) :__ onejay09
 * __Vivo (vivo) :__ blindndumb
 * __Wildfire S (marvel) :__ crossfire77
-
+* __Explorer (pico) :__ nolinuxnoparty
 
 HUAWEI:
 ---------------------------------------------------------------------
