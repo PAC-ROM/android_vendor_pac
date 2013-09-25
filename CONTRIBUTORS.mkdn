@@ -79,8 +79,8 @@ Amazon:
 ASUS:
 ---------------------------------------------------------------------
 * __Eee Pad Transformer Prime (tf201) :__ jeroenqui
-* __Nexus 7 (grouper) :__ Bkjolly, zyonee
-* __Nexus 7 3G (tilapia) :__ Bkjolly
+* __Nexus 7 (grouper) :__ singhdd93, zyonee
+* __Nexus 7 3G (tilapia) :__ singhdd93
 * __Nexus 7 (2013) (flo) :__ apascual89, zaclimon
 * __Transformer Pad (tf300t) :__ gchild320
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
