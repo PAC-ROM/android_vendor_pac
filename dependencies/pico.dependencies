@@ -3,7 +3,7 @@
         "account":      "nolinuxnoparty",
         "repository":   "platform_device_htc_pico",
         "target_path":  "device/htc/pico",
-        "revision":     "cm-10.2"
+        "revision":     "pac-4.3"
     },
     {
         "account":      "sakindia123",
