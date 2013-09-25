@@ -100,6 +100,7 @@ HTC:
 * __Evo 3D (shooter) :__ cmbaughman
 * __Evo 3D (GSM)(shooteru) :__ cmbaughman
 * __Evo LTE (jewel) :__ jamieg71
+* __Explorer (pico) :__ nolinuxnoparty
 * __Evo V (shootervm) :__ cmbaughman
 * __One (AT&T) (m7att) :__ MaDcow
 * __One (GSM)(m7ul) :__ MaDc0w
@@ -116,7 +117,7 @@ HTC:
 * __Runnymede(runnymede) :__ onejay09
 * __Vivo (vivo) :__ blindndumb
 * __Wildfire S (marvel) :__ crossfire77
-* __Explorer (pico) :__ nolinuxnoparty
+
 
 HUAWEI:
 ---------------------------------------------------------------------
