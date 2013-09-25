@@ -86,6 +86,7 @@ add_lunch_combo pac_m7ul-userdebug
 add_lunch_combo pac_m7att-userdebug
 add_lunch_combo pac_m7tmo-userdebug
 add_lunch_combo pac_m7spr-userdebug
+add_lunch_combo pac_m7vzw-userdebug
 # Samsung 2010
 add_lunch_combo pac_epicmtd-userdebug
 # Samsung 2013

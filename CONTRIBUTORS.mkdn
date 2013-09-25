@@ -106,6 +106,7 @@ HTC:
 * __One (GSM)(m7ul) :__ MaDc0w
 * __One (Sprint) (m7spr) :__ MallardDuck
 * __One (T-Mobile) (m7tmo) :__ MaDc0w
+* __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ dominos_liberty
 * __One X (endeavoru) :__ razer1224
@@ -261,7 +262,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 145
+Total Devices: 146
 
 Best regards
      szl.kiev

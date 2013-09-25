@@ -79,6 +79,7 @@
   <device name="m7spr" priority="10" />
   <device name="m7tmo" priority="10" />
   <device name="m7ul" priority="10" />
+  <device name="m7vzw" priority="10" />
   <device name="maguro" priority="10" />
   <device name="mako" priority="10" />
 <!--  <device name="mango" priority="10" /> -->
