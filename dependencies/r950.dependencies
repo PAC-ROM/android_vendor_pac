@@ -20,7 +20,7 @@
   {
     "account":      "CyanogenMod",
     "repository":   "android_device_samsung_r950",
-    "target_path":  "device/samsung/t0ltetmo",
+    "target_path":  "device/samsung/r950",
     "revision":     "cm-10.2"
   },
   {
