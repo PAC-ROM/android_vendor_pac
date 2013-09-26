@@ -1,9 +1,10 @@
+[
   {
     "account":      "TheMuppets",
     "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-10.2"
-    },
+  },
   {
     "account":    "CyanogenMod",
     "repository": "android_device_samsung_exhilarate",
