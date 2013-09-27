@@ -23,10 +23,4 @@
         "target_path":  "vendor/huawei",
         "revision":     "cm10.2"
     },
-    {
-        "account":      "Herna1994",
-        "repository":   "android_hardware_qcom_media-legacy",
-        "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm10.2"
-    }
 ]
