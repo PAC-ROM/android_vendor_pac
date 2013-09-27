@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  This file describes which devices are to be built weekly. These devices include legacy devices that use our add/remove options found in
+  the manifest folder of the vendor_pac repo. The will run once a week and that is it. This is to save needed resources.
+-->
+
+<manifest>
+  <!-- Add new devices here -->
+  <device name="ancora" priority="10" />
+  <device name="ariesve" priority="10" />
+  <device name="anzu" priority="10" />
+  <device name="atlas40" priority="10" />
+  <device name="coconut" priority="10" />
+  <device name="e610" priority="10" />
+  <device name="haida" priority="10" />
+  <device name="hallon" priority="10" />
+  <device name="iyokan" priority="10" />
+  <device name="mango" priority="10" />
+  <device name="satsuma" priority="10" />
+  <device name="smultron" priority="10" />
+  <device name="u8800pro" priority="10" />
+  <device name="urushi" priority="10" />
+  <device name="vigor" priority="10" />
+</manifest>
