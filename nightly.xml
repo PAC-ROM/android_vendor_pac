@@ -32,8 +32,8 @@
   <device name="dlx" priority="10" />
   <device name="e975" priority="10" />
   <device name="edison" priority="10" />
-  <device name="endeavoru" priority="10" />
-  <device name="enrc2b" priority="10" />
+<!-- device name="endeavoru" priority="10" -->
+<!-- device name="enrc2b" priority="10" -->
 <!-- device name="epicmtd" priority="10" /> -->
   <device name="evita" priority="10" />
   <device name="exhilarate" priority="10" />
