@@ -25,6 +25,7 @@
   <device name="d2cri" priority="10" />
   <device name="d2mtr" priority="10" />
   <device name="d2spr" priority="10" />
+  <device name="d2spi" priority="10" />
   <device name="d2tmo" priority="10" />
   <device name="d2usc" priority="10" />
   <device name="d2vzw" priority="10" />

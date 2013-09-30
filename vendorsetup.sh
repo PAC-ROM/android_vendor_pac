@@ -99,6 +99,7 @@ add_lunch_combo pac_codinatmo-userdebug
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2cri-userdebug
 add_lunch_combo pac_d2mtr-userdebug
+add_lunch_combo pac_d2spi-userdebug
 add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2usc-userdebug

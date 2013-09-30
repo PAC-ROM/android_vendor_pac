@@ -50,6 +50,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (Cricket):     d2cri           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351024">Galaxy S III (Metro PCS):  	d2mtr           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2032843">Galaxy S III (Sprint):      d2spr          	Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2032843">Galaxy S III (C-Spire):      d2spi          	Unjustifed Dev,Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2015525">Galaxy S III (T-Mobile):    d2tmo           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (US Cellular): d2usc           Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2028443">Galaxy S III (Verizon):     d2vzw           Papa Smurf151</a>

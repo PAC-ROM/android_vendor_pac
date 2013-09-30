@@ -209,6 +209,7 @@ Samsung:
 * __Galaxy S III (LTE) (i9305) :__ MaDc0w
 * __Galaxy S III (Metro PCS) (d2mtr) :__ Papa Smurf151
 * __Galaxy S III (Sprint) (d2spr) :__ Papa Smurf151
+* __Galaxy S III (C-Spire) (d2spi) :__ Papa Smurf151
 * __Galaxy S III (T-Mobile) (d2tmo) :__ Papa Smurf151
 * __Galaxy S III (US Cellular) (d2usc) :__ Papa Smurf151
 * __Galaxy S III (Verizon) (d2vzw) :__ Papa Smurf151
@@ -216,7 +217,7 @@ Samsung:
 * __Galaxy S IV (AT&T) (jflteatt) :__ ga2usr
 * __Galaxy S IV (Canada) (jfltecan) :__ Nick0703
 * __Galaxy S IV (Cricket) (jfltecri) :__ BLOWNCO
-* __Galaxy S IV (C-Sprite) (jfltecsp) :__ RIPng
+* __Galaxy S IV (C-Spire) (jfltecsp) :__ RIPng
 * __Galaxy S IV (GSM) (jfltexx) :__ metaiiica, vertigo2012
 * __Galaxy S IV (Sprint) (jfltespr) :__ Sniper
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ apascual89
@@ -267,7 +268,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 153
+Total Devices: 154
 
 Best regards
      szl.kiev
