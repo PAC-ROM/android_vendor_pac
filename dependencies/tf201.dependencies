@@ -1,20 +1,20 @@
 [
    {
-      "account": "CyanogenMod",
+      "account": "Voyager2k",
       "repository":  "android_device_asus_tf201",
       "target_path":  "device/asus/tf201",
-      "revision":  "cm-10.1"
+      "revision":  "cm-10.2"
    },
    {
-      "account": "CyanogenMod",
+      "account": "Voyager2k",
       "repository": "android_kernel_asus_tf201",
       "target_path": "kernel/asus/tf201",
-      "revision": "10.4.2.17-mr1"
+      "revision": "cm-10.2"
    },
    {
       "account": "TheMuppets",
       "repository": "proprietary_vendor_asus",
       "target_path": "vendor/asus",
-      "revision": "cm-10.1"
+      "revision": "cm-10.2"
    }
 ]
