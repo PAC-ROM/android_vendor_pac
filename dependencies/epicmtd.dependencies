@@ -1,14 +1,14 @@
 [
     {
         "remote":      "github",
-        "account":     "TeamRegular",
+        "account":     "CyanogenMod",
         "repository":  "android_kernel_samsung_epicmtd",
         "target_path": "kernel/samsung/epicmtd",
         "revision":    "cm-10.2"
     },
     {
         "remote":      "github",
-        "account":     "TeamRegular",
+        "account":     "CyanogenMod",
         "repository":  "android_device_samsung_epicmtd",
         "target_path": "device/samsung/epicmtd",
         "revision":    "cm-10.2"
