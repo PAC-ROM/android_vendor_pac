@@ -221,6 +221,7 @@ Samsung:
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ apascual89
 * __Galaxy S IV (US Cellular) (jflteusc) :__ Sniper
 * __Galaxy S IV (Verizon) (jfltevzw) :__ RIPng
+* __Galaxy S Blaze 4G (T-Mobile) (t769) :__ InkSlinger420
 * __Galaxy Tab 7' (p1000) :__ OldDroid
 * __Galaxy Tab 8.9 (GSM) (p5) :__ mithun46
 * __Galaxy Tab 8.9 (Wi-Fi) (p5wifi) :__ mithun46
@@ -264,7 +265,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 150
+Total Devices: 151
 
 Best regards
      szl.kiev

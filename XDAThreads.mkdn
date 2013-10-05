@@ -13,6 +13,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2176569">Epic 4G:                    epicmtd         Unjustifed Dev.</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2050948">Epic 4G Touch (Sprint):     d710            Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2141573">Evo LTE:                    jewel           jamieg71</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2445143">Exhilarate:		exhilarate		InkSlinger420</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev.</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                      find5           apascual89</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1978991">Galaxy Nexus:               maguro          Grarak</a>
@@ -32,6 +33,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 4.0:          ypg1            goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi         iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1982756">Galaxy R:                   i9103           Grarak</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2471231">Galaxy S Blaze 4G		t769		InkSlinger420</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2245811">Galaxy S Captivate Glide:	i927		Kick-Buttowski</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2170768">Galaxy S I:                 galaxysmtd    	aways</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2435945">Galaxy S LCD:                 galaxysl    	UtkarshGupta</a>
