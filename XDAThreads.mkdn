@@ -78,7 +78,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2214360">Nexus 10:                   manta           apascual89</a>
 <a href="http://rootzwiki.com/topic/102545-romofficial43pac-man-rom/">Nexus Q:                    steelhead          manelscout4life</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo          berni987654321</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):              	m7att           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):              	m7att           MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):               	m7ul            MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):              	m7spr           MallardDuck(Pocker09)</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2375475">One (T-Mobile):         	m7tmo           MaDc0w</a>

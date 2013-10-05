@@ -102,7 +102,7 @@ HTC:
 * __Evo LTE (jewel) :__ jamieg71
 * __Explorer (pico) :__ NiharG
 * __Evo V (shootervm) :__ cmbaughman
-* __One (AT&T) (m7att) :__ MaDcow
+* __One (AT&T) (m7att) :__ MaDc0w
 * __One (GSM)(m7ul) :__ MaDc0w
 * __One (Sprint) (m7spr) :__ MallardDuck
 * __One (T-Mobile) (m7tmo) :__ MaDc0w
@@ -125,7 +125,7 @@ HUAWEI:
 * __Ideos X5 PRO (u8800pro) :__ herna
 
 
- LG:
+LG:
 ---------------------------------------------------------------------
 * __Nexus 4 (mako) :__ apascual89, zyonee
 * __Nitro HD (p930) :__ tdm.code
@@ -232,7 +232,7 @@ Samsung:
 * __Nexus 10 (manta) :__ apascual89
 
 
-Sony
+Sony:
 ---------------------------------------------------------------------
 * __Xperia GO (lotus) :__ percy_g2
 * __Xperia P (nypon) :__ percy_g2
@@ -264,7 +264,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 146
+Total Devices: 150
 
 Best regards
      szl.kiev
