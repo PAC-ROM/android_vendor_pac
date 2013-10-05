@@ -168,6 +168,7 @@ Samsung:
 * __Captivate Glide (i927) :__ Kick Buttowski
 * __Epic 4G (epicmtd) :__ Unjustified Dev.
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
+* __Exhilarate (AT&T) (sgh-1577) :__ InkSlinger420
 * __Fascinate (fascinatemtd) :__ Unjustified Dev
 * __Galaxy Ace (cooper) :__ OldDroid
 * __Galaxy Fit (beni) :__ speedbot
