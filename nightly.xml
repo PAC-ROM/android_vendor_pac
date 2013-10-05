@@ -111,6 +111,7 @@
   <device name="t0lte" priority="10" />
   <device name="t0lteatt" priority="10" />
   <device name="t0ltetmo" priority="10" />
+  <device name="t769" priority="10" />
   <device name="targa" priority="10" />
   <device name="tate" priority="10" />
   <device name="tf201" priority="10" />

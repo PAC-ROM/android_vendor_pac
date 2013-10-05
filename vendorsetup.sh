@@ -49,6 +49,7 @@ add_lunch_combo pac_p5wifi-userdebug
 add_lunch_combo pac_exhilarate-userdebug
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_skyrocket-userdebug
+add_lunch_combo pac_t769-userdebug
 add_lunch_combo pac_p5100-userdebug
 add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
