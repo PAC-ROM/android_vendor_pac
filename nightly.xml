@@ -117,7 +117,7 @@
   <device name="tf201" priority="10" />
   <device name="tf300t" priority="10" />
   <device name="tf700t" priority="10" />
-<!--  <device name="tilapia" priority="10" /> -->
+  <device name="tilapia" priority="10" />
   <device name="toro" priority="10" />
   <device name="toroplus" priority="10" />
   <device name="tsubasa" priority="10" />
