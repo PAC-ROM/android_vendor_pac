@@ -2,27 +2,6 @@
     {
         "remote":       "github",
         "account":      "LegacyXperia",
-        "repository":   "android_hardware_qcom_display-legacy",
-        "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "github",
-        "account":      "LegacyXperia",
-        "repository":   "android_hardware_qcom_media-legacy",
-        "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "github",
-        "account":      "LegacyXperia",
-        "repository":   "android_hardware_ti_wlan",
-        "target_path":  "hardware/ti/wlan",
-        "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "github",
-        "account":      "LegacyXperia",
         "repository":   "android_hardware_ti_wpan",
         "target_path":  "hardware/ti/wpan",
         "revision":     "cm-10.2"
