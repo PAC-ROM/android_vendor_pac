@@ -34,19 +34,5 @@
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
         "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "github",
-        "account":      "mikeNG",
-        "repository":   "android_hardware_qcom_display-legacy",
-        "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.2_old"
-    },
-    {
-        "remote":       "github",
-        "account":      "arco",
-        "repository":   "android_hardware_qcom_media-legacy",
-        "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-10.2_old"
     }
 ]
