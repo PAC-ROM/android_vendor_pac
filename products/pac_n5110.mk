@@ -2,7 +2,7 @@
 ifeq (pac_n5110,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_n5110
+OVERLAY_TARGET := pa_tvdpi
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/n5110
