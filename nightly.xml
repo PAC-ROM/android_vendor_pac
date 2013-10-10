@@ -121,6 +121,7 @@
   <device name="toro" priority="10" />
   <device name="toroplus" priority="10" />
   <device name="tsubasa" priority="10" />
+  <device name="u8860" priority="10" />
   <device name="umts_spyder" priority="10" />
   <device name="vanquish" priority="10" />
   <device name="vanquishgsm" priority="10" />
