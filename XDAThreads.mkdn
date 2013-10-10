@@ -92,6 +92,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE	    xt897		arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE	    xt897c		arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2425473">Rezound:                   vigor           IAmTheOneTheyCallNeo</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2333171">Transformer Prime:	   tf201	     jeroenqui</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc			anzu		singh_dd93, wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2138478">Xperia Active		satsuma		singh_dd93</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2138478">Xperia LWW			coconut		singh_dd93</a>
@@ -104,6 +105,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2297723">Xperia T:                   mint            djpbx</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2301156">Xperia V:                   tsubasa         djpbx</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2208249">Xperia Z:                   yuga            jeroenqui, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2478003">Xperia Z1:		    honami          jeroenqui</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:         	pollux          bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2406640">Xperia ZL:                  odin            mithun46</a>

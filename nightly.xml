@@ -46,6 +46,7 @@
   <device name="grouper" priority="10" />
 <!--  <device name="hayabusa" priority="10" /> -->
   <device name="hercules" priority="10" />
+  <device name="honami" priority="10" />
   <device name="i605" priority="10" />
   <device name="i777" priority="10" />
   <device name="i9100" priority="10" />

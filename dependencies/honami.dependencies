@@ -1,0 +1,58 @@
+[
+  {
+    "remote": "github",
+    "account": "TheMuppets",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_common",
+    "target_path": "device/sony/common",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_honami",
+    "target_path": "device/sony/honami",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_qcom-common",
+    "target_path": "device/sony/qcom-common",
+    "revision": "cm-10.2"
+ },
+ {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_rhine-common",
+    "target_path": "device/sony/rhine-common",
+    "revision": "cm-10.2"
+ },
+ {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_kernel_sony_msm8974",
+    "target_path": "kernel/sony/msm8974",
+    "revision": "cm-10.2"
+ },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_packages_apps_FMRadio",
+    "target_path": "packages/apps/FmRadio",
+    "revision": "cm-10.2"
+  },
+ {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_hardware_sony_DASH",
+    "target_path": "hardware/sony/DASH",
+    "revision": "cm-10.2"
+  }
+]
