@@ -430,6 +430,8 @@ def WriteFullOTAPackage(input_zip, output_zip):
   device = GetBuildProp("ro.product.device", OPTIONS.info_dict)
   model = GetBuildProp("ro.product.model", OPTIONS.info_dict)
   script.Print("# Device: %s (%s)"%(model, device));
+  # Print New Features
+  script.Print(">>>New Gesture Anywhere<<<")
   script.Print("###############################################");
 
   if "selinux_fc" in OPTIONS.info_dict:
