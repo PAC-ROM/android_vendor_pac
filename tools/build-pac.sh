@@ -104,7 +104,9 @@ echo -e ${bldblu}"Setting up environment"${txtrst}
 . build/envsetup.sh
 
 # Remove system folder (this will create a new build.prop with updated build time and date)
-rm -rf out/target/product/$device/system/
+rm -f out/target/product/$device/system/build.prop
+rm -f out/target/product/$device/system/app/*.odex
+rm -f out/target/product/$device/system/framework/*.odex
 
 # lunch device
 echo -e ""
