@@ -66,9 +66,6 @@ device="$1"
 eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ *//g')
 VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
 
-# get time of startup
-t1=$($DATE +%s)
-
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
 
 # PAC device dependencies
@@ -98,6 +95,9 @@ if [ "$opt_sync" -ne 0 ]; then
 fi
 
 rm -f out/target/product/$device/obj/KERNEL_OBJ/.version
+
+# get time of startup
+t1=$($DATE +%s)
 
 # setup environment
 echo -e ${bldblu}"Setting up environment"${txtrst}
