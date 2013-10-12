@@ -1,0 +1,14 @@
+[
+    {
+        "name":     "android_frameworks_av",
+        "path":     "frameworks/av"
+    },
+    {
+        "name":     "android_device_generic_goldfish",
+        "path":     "device/generic/goldfish"
+    },
+    {
+        "name":     "android_hardware_broadcom_wlan",
+        "path":     "hardware_broadcom_wlan"
+    }
+]

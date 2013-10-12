@@ -4,20 +4,20 @@
         "account": "TheMuppets",
         "repository": "proprietary_vendor_lge",
         "target_path": "vendor/lge",
-        "revision": "cm-10.1"
+        "revision": "cm-10.2"
     },
     {
         "remote": "github",
-        "account": "kasperhettinga",
+        "account": "dhiru1602",
         "repository": "lge-kernel-sniper",
         "target_path": "kernel/lge/p970",
-        "revision": "mackay-cm101"
+        "revision": "cm-10.2"
     },
     {
         "remote": "github",
-        "account": "kasperhettinga",
+        "account": "zaclimon",
         "repository": "android_device_lge_p970",
         "target_path": "device/lge/p970",
-        "revision": "mackay-cm101"
+        "revision": "cm-10.2"
     }
 ]

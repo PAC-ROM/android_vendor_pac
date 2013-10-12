@@ -17,6 +17,7 @@
   <device name="hallon" priority="10" />
   <device name="iyokan" priority="10" />
   <device name="mango" priority="10" />
+  <device name="p970" priority="10" />
   <device name="satsuma" priority="10" />
   <device name="smultron" priority="10" />
   <device name="u8800pro" priority="10" />
