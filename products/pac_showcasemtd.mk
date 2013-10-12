@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_fascinatemtd,$(TARGET_PRODUCT))
+ifeq (pac_showcasemtd,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
@@ -19,9 +19,9 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/fascinatemtd/cm.mk)
+$(call inherit-product, device/samsung/showcasemtd/cm.mk)
 
-PRODUCT_NAME := pac_fascinatemtd
+PRODUCT_NAME := pac_showcasemtd
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))

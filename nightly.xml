@@ -80,6 +80,7 @@
   <device name="mako" priority="10" />
   <device name="manta" priority="10" />
   <device name="maserati" priority="10" />
+  <device name="mesmerizemtd" priority="10" />
   <device name="mb886" priority="10" />
   <device name="mint" priority="10" />
   <device name="n5100" priority="10" />
@@ -106,6 +107,7 @@
   <device name="quincytmo" priority="10" />
   <device name="r950" priority="10" />
   <device name="scorpionmini" priority="10" />
+  <device name="showcasemtd" priority="10" />
   <device name="skyrocket" priority="10" />
 <!--  <device name="solana" priority="10" /> -->
   <device name="spyder" priority="10" />

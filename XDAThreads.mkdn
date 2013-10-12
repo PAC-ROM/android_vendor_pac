@@ -10,11 +10,13 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2306365">Droid Razr HD (Verizon):    vanquish        Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306377">Droid Razr M (Verizon):    scorpionmini    timpohladthomas</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2301493">Droid Razr (Verizon):    	spyder          surdu_petru</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2176569">Epic 4G:                    epicmtd         Unjustifed Dev.</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2176569">Epic 4G:                    epicmtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2050948">Epic 4G Touch (Sprint):     d710            Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2141573">Evo LTE:                    jewel           jamieg71</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2445143">Exhilarate:		exhilarate		InkSlinger420</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev.</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Showcase:          showcasemtd         Unjustifed Dev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Mesmerize:          mesmerizemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                      find5           apascual89</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1978991">Galaxy Nexus:               maguro          Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306416">Galaxy Nexus:               toro            Bkjolly</a>
