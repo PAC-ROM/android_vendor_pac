@@ -11,6 +11,7 @@ usage()
 	echo -e "    -d  Use dex optimizations"
 	echo -e "    -j# Set jobs"
 	echo -e "    -s  Sync before build"
+	echo -e "    -p  Build using pipe"
 	echo -e ""
 	echo -e ${txtbld}"  Example:"${txtrst}
 	echo -e "    ./build-pac.sh -c mako"
@@ -46,6 +47,7 @@ opt_clean=0
 opt_dex=0
 opt_jobs="$CPUS"
 opt_sync=0
+opt_pipe=0
 
 while getopts "cdj:s" opt; do
 	case "$opt" in
@@ -53,6 +55,7 @@ while getopts "cdj:s" opt; do
 	d) opt_dex=1 ;;
 	j) opt_jobs="$OPTARG" ;;
 	s) opt_sync=1 ;;
+	p) opt_pipe=1 ;;
 	*) usage
 	esac
 done
@@ -120,6 +123,11 @@ echo -e ${bldblu}"Starting compilation"${txtrst}
 if [ "$opt_dex" -ne 0 ]; then
 	export WITH_DEXPREOPT=true
 fi
+
+if [ "$opt_dex" -ne 0 ]; then
+	export TARGET_USE_PIPE=true
+fi
+
 make -j"$opt_jobs" bacon
 echo -e ""
 
