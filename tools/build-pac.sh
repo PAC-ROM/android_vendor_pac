@@ -49,7 +49,7 @@ opt_jobs="$CPUS"
 opt_sync=0
 opt_pipe=0
 
-while getopts "cdj:s" opt; do
+while getopts "cdjp:s" opt; do
 	case "$opt" in
 	c) opt_clean=1 ;;
 	d) opt_dex=1 ;;
@@ -124,7 +124,7 @@ if [ "$opt_dex" -ne 0 ]; then
 	export WITH_DEXPREOPT=true
 fi
 
-if [ "$opt_dex" -ne 0 ]; then
+if [ "$opt_pipe" -ne 0 ]; then
 	export TARGET_USE_PIPE=true
 fi
 
