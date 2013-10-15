@@ -23,4 +23,10 @@
         "target_path":  "vendor/huawei",
         "revision":     "cm10.2"
     },
+    {
+        "account":      "Herna1994",
+        "repository":   "kernel_u8800pro",
+        "target_path":  "kernel/honor",
+        "revision":     "bcm4329"
+    },
 ]
