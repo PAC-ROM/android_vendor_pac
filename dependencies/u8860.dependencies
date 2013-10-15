@@ -21,6 +21,6 @@
         "account":      "ShenduOS",
         "repository":   "android_kernel_huawei_honor",
         "target_path":  "kernel/huawei/msm7x30-common",
-        "revision":     "cm-10.2"
+        "revision":     "jellybean"
     }
 ]
