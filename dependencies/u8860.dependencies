@@ -3,7 +3,7 @@
         "account":      "CyanCom",
         "repository":   "android_device_huawei_u8860",
         "target_path":  "device/huawei/u8860",
-        "revision":     "cm-10.2"
+        "revision":     "pac-4.3"
     },
     {
         "account":      "CyanCom",
@@ -13,20 +13,14 @@
     },
     {
         "account":      "CyanCom",
-        "repository":   "android_kernel_huawei_msm7x30-common",
-        "target_path":  "kernel/huawei/msm7x30-common",
-        "revision":     "cm-10.2"
-    },
-    {
-        "account":      "CyanCom",
         "repository":   "android_vendor_huawei_u8860",
         "target_path":  "vendor/huawei-extra/u8860",
         "revision":     "cm-10.2"
     },
     {
-        "account":      "CyanCom",
-        "repository":   "android_hardware_atheros_wpa_supplicant_libs",
-        "target_path":  "hardware/atheros/wpa_supplicant/libs",
+        "account":      "ShenduOS",
+        "repository":   "android_kernel_huawei_honor",
+        "target_path":  "kernel/huawei/msm7x30-common",
         "revision":     "cm-10.2"
     }
 ]
