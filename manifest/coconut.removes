@@ -8,7 +8,7 @@
         "path":     "hardware/qcom/display-legacy"
     },
     {
-        "name":     "android_hardware_qcom_media-legacy",
+        "name":     "android_hardware_qcom_media_legacy",
         "path":     "hardware/qcom/media-legacy"
     }
 ]
