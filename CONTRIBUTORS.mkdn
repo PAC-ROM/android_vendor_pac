@@ -182,12 +182,12 @@ Samsung:
 * __Galaxy Note (n7000) :__ beerbong
 * __Galaxy Note (quincyatt) :__ AD5GB
 * __Galaxy Note (quincytmo) :__ AD5GB
-* __Galaxy Note 2 (AT&T) (t0lteatt) :__ UtkarshGupta
+* __Galaxy Note 2 (AT&T) (t0lteatt) :__ BLOWNCO, UtkarshGupta
 * __Galaxy Note 2 (GSM) (n7100) :__ abhisahara, Owain94
-* __Galaxy Note 2 (LTE) (t0lte) :__ UtkarshGupta
+* __Galaxy Note 2 (LTE) (t0lte) :__ BLOWNCO, UtkarshGupta
 * __Galaxy Note 2 (Sprint) (l900) :__ BLOWNCO
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ UtkarshGupta
-* __Galaxy Note 2 (US Cellular) (r950) :__ UtkarshGupta
+* __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
 * __Galaxy Note 2 (Verizon) (i605) :__ gchild320
 * __Galaxy Note 8.0 (N5110) :__ iurnait, ryukiri
 * __Galaxy Note 10.1 (N8000) :__ pimpmaneaton
