@@ -78,7 +78,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7:                    Grouper          singhdd93, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 3G:                 Tilapia          singhdd93</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):             Flo             apascual89, zaclimon, goldflame09</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 3G (2013):             Deb             zaclimon, goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 LTE (2013):             Deb             zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2214360">Nexus 10:                   manta           apascual89</a>
 <a href="http://rootzwiki.com/topic/102545-romofficial43pac-man-rom/">Nexus Q:                    steelhead          manelscout4life</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo          berni987654321</a>
