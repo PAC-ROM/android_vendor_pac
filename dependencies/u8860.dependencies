@@ -19,7 +19,7 @@
     },
     {
         "account":      "randomblame",
-        "repository":   "kenel_u8800pro",
+        "repository":   "kernel_u8800pro",
         "target_path":  "kernel/huawei/honor",
         "revision":     "bcm4329"
     }
