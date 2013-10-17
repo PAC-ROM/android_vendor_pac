@@ -196,7 +196,7 @@ Samsung:
 * __Galaxy Player 5.0 (venturi) :__ iurnait
 * __Galaxy R (i9103) :__ Grarak
 * __Galaxy S I (galaxysmtd) :__ aways
-* __Galaxy S LCD (galaxysl) :__ UtkarshGupta
+* __Galaxy S LCD (galaxysl) :__ AndreRaptor
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S I Plus (ariesve) :__ krislibaeer
 * __Galaxy S II (i9100) :__ bluefa1con
