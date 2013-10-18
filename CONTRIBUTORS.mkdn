@@ -123,7 +123,7 @@ HTC:
 
 HUAWEI:
 ---------------------------------------------------------------------
-* __Honor (u8860) :__ nolinuxnoparty
+* __Honor (u8860) :__ herna
 * __Ideos X5 PRO (u8800pro) :__ herna
 
 
@@ -269,7 +269,7 @@ Sony Ericsson:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 154
+Total Devices: 155
 
 Best regards
      szl.kiev
