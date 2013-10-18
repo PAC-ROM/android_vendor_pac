@@ -14,7 +14,7 @@
     {
         "account":      "ModdedPA",
         "repository":   "android_kernel_google_msm",
-        "target_path":  "kernel/google/msm",
+        "target_path":  "kernel/google/msm-flo",
         "revision":     "aosp"
     }
 ]
