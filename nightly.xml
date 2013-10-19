@@ -132,7 +132,7 @@
   <device name="venturi" priority="10" />
   <device name="ville" priority="10" />
   <device name="villec2" priority="10" />
-<!--  <device name="vs920" priority="10" /> -->
+  <device name="vs920" priority="10" />
   <device name="xt897" priority="10" />
   <device name="xt897c" priority="10" />
   <device name="ypg1" priority="10" />
