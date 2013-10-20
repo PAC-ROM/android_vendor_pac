@@ -22,6 +22,13 @@
  },
  {
     "remote": "github",
+    "account": "OliverG96",
+    "repository": "android_device_u8500-common",
+    "target_path": "device/u8500-common",
+    "revision": "cm-10.2"
+ },
+ {
+    "remote": "github",
     "account": "TeamCanjica",
     "repository": "android_hardware_u8500",
     "target_path": "hardware/u8500",
@@ -37,8 +44,8 @@
  {
     "remote": "github",
     "account": "Team-Exhibit",
-    "repository": "proprietary_vendor_samsung",
-    "target_path": "vendor/samsung",
+    "repository": "android_vendor_samsung_codina-common",
+    "target_path": "vendor/samsung/codina-common",
     "revision": "cm-10.2"
   }
 ]

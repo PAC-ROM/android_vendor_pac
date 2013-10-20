@@ -1,9 +1,7 @@
 # Check for target product
 ifeq (pac_codinatmo,$(TARGET_PRODUCT))
 
-# include PAC common configuration
-include vendor/pac/config/pac_common.mk
-include vendor/pac/products/codina-common.mk
+include vendor/pac/products/pac_codina-common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/codinatmo/cm.mk)

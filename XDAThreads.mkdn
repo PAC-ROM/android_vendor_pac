@@ -14,10 +14,11 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2050948">Epic 4G Touch (Sprint):     d710            Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2141573">Evo LTE:                    jewel           jamieg71</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2445143">Exhilarate:		exhilarate		InkSlinger420</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                      find5           apascual89</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Showcase:          showcasemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Mesmerize:          mesmerizemtd         Unjustifed Dev</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                      find5           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=46692620">Galaxy Exibit Variants:          codinaxxx         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1978991">Galaxy Nexus:               maguro          Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306416">Galaxy Nexus:               toro            Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306439">Galaxy Nexus:               toroplus        Bkjolly</a>

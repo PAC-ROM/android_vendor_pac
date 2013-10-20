@@ -96,7 +96,7 @@ add_lunch_combo pac_m7vzw-userdebug
 # Samsung 2010
 add_lunch_combo pac_epicmtd-userdebug
 # Samsung 2013
-add_lunch_combo pac_codinaMetroPCS-userdebug
+add_lunch_combo pac_codinamtr-userdebug
 add_lunch_combo pac_codinavid-userdebug
 add_lunch_combo pac_codinatmo-userdebug
 add_lunch_combo pac_d2att-userdebug
