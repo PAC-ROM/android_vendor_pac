@@ -7,13 +7,6 @@
         "revision":     "cm-10.2"
     },
     {
-        "remote":       "github",
-        "account":      "CyanogenMod",
-        "repository":   "android_device_sample",
-        "target_path":  "device/sample",
-        "revision":     "cm-10.2"
-    },
-    {
        "remote":        "github",
        "account":       "CyanogenMod",
        "repository":    "android_device_samsung_toro",
