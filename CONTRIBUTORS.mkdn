@@ -172,8 +172,6 @@ Samsung:
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
 * __Exhilarate (AT&T) (sgh-1577) :__ InkSlinger420
 * __Fascinate (fascinatemtd) :__ Unjustified Dev
-* __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
-* __Showcase (showcasemtd) :__ Unjustifed Dev
 * __Galaxy Ace (cooper) :__ OldDroid
 * __Galaxy Exibit (Metro PCS) (codinamtr) :__ Unjustifed Dev
 * __Galaxy Exibit (T-Mobile) (codinatmo) :__ Unjustifed Dev
@@ -238,8 +236,10 @@ Samsung:
 * __Galaxy Tab 2 7' (p3100/P3110) :__ Nick0703
 * __Galaxy Tab 2 10' (p5100/P5110) :__ BLOWNCO, pvyParts
 * __Galaxy W (i8150) :__ krislibaeer
+* __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
 * __Nexus S (crespo) :__ berni987654321
 * __Nexus 10 (manta) :__ apascual89
+* __Showcase (showcasemtd) :__ Unjustifed Dev
 
 
 Sony:

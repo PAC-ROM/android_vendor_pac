@@ -15,10 +15,10 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2141573">Evo LTE:                    jewel           jamieg71</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2445143">Exhilarate:		exhilarate		InkSlinger420</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                      find5           apascual89</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=46692620">Galaxy Exibit Variants:          codinaxxx         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Showcase:          showcasemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Mesmerize:          mesmerizemtd         Unjustifed Dev</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=46692620">Galaxy Exibit Variants:          codinaxxx         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1978991">Galaxy Nexus:               maguro          Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306416">Galaxy Nexus:               toro            Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306439">Galaxy Nexus:               toroplus        Bkjolly</a>
@@ -78,6 +78,12 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2347951">Kindle Fire 2:		        otter2         	goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2355103">Kindle Fire HD 7: 	        tate           	goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2356333">Kindle Fire HD 8.9: 	    jem            	goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2195177">LG P760 Optimus L9:                  p760            adamz667</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2452462">LG P970 Optimus Black:                  p970            zaclimon</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=38249397">LG P990 Optimus 2x:                  p990            MetaIIica</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2418933">LG e610 Optimus L5:                  e610            bart452, herna</a>
+<a href="http://www.modaco.com/topic/364229-devromunofficial43pac-man-rom-v43build-1-10-09-13/">Blade3:                  atlaas40            robt77a</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2442316">LG-ls970 Optimus G (Sprint):         ls970           Spleef</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2146879">Nexus 4:               	    mako            vertigo2012, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7:                    Grouper          singhdd93, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 3G:                 Tilapia          singhdd93</a>
@@ -115,10 +121,4 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:         	pollux          bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2406640">Xperia ZL:                  odin            mithun46</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=2195177">LG P760 Optimus L9:                  p760            adamz667</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2452462">LG P970 Optimus Black:                  p970            zaclimon</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=38249397">LG P990 Optimus 2x:                  p990            MetaIIica</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2418933">LG e610 Optimus L5:                  e610            bart452, herna</a>
-<a href="http://www.modaco.com/topic/364229-devromunofficial43pac-man-rom-v43build-1-10-09-13/">Blade3:                  atlaas40            robt77a</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2442316">LG-ls970 Optimus G (Sprint):         ls970           Spleef</a>
 </div>
