@@ -9,7 +9,7 @@
     "account":      "bbelos",
     "repository":   "android_device_samsung_ypg1",
     "target_path":  "device/samsung/ypg1",
-    "revision":     "cm-10.2"
+    "revision":     "pac-4.3"
   },
   {
     "account":      "bbelos",
