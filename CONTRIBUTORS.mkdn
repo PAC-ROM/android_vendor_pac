@@ -139,7 +139,7 @@ LG:
 * __Optimus L9 (p760) :__ adamz667
 * __Optimus LTE (su640) :__ tdm.code
 * __Optimus G (e975) :__ faust93
-* __Optimus G (ls970) (Sprint):__ spleef
+* __Optimus G (ls970) (Sprint):__ spleef, neighborhoodhacker
 * __Optimus One (p500) :__ OldDroid
 * __Spectrum (vs920) :__ tdm.code
 
