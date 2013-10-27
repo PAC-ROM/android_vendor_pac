@@ -83,7 +83,7 @@ ASUS:
 * __Nexus 7 3G (tilapia) :__ singhdd93
 * __Nexus 7 (2013) (flo) :__ apascual89,zaclimon, goldflame09
 * __Nexus 7 LTE (2013) (deb) :__ zaclimon, goldflame09
-* __Transformer Pad (tf300t) :__ gchild320
+* __Transformer Pad (tf300t) :__ gchild320, kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
 
