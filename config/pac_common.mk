@@ -70,8 +70,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 ### PARANOID ###
 # PARANOID Packages
 PRODUCT_PACKAGES += \
-    HALO \
-    Focal
+    HALO
 
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
