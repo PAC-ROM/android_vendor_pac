@@ -11,7 +11,7 @@
         "account": "CyanogenMod",
         "repository": "android_device_lge_ls970-common",
         "target_path": "device/lge/ls970-common",
-        "revision": "cm-10.2
+        "revision": "cm-10.2"
     },
     {
         "remote": "github",
