@@ -45,6 +45,9 @@
   <device name="flo" priority="10" />
   <device name="galaxysl" priority="10" />
   <device name="galaxysmtd" priority="10" />
+  <device name="ghostgsm" priority="10" />
+  <device name="ghosttmo" priority="10" />
+  <device name="ghostvzw" priority="10" />
   <device name="grouper" priority="10" />
 <!--  <device name="hayabusa" priority="10" /> -->
   <device name="hercules" priority="10" />
