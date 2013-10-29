@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_ghostatt,$(TARGET_PRODUCT))
+ifeq (pac_ghosttmo,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_xhdpi
@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/motorola/xt1058/cm.mk)
+$(call inherit-product, device/motorola/xt1053/cm.mk)
 
-PRODUCT_NAME := pac_ghostatt
+PRODUCT_NAME := pac_ghosttmo
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
