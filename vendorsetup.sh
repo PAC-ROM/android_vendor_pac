@@ -170,6 +170,7 @@ add_lunch_combo pac_pollux_windy-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
+add_lunch_combo pac_togari-userdebug
 add_lunch_combo pac_tsubasa-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_yuga-userdebug
