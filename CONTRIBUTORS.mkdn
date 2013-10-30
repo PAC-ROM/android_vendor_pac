@@ -19,6 +19,7 @@ Developers:
 * __Sniper__
 * __szl.kiev__
 * __tdm.code__
+* __timpohladthomas__
 * __wedgess__
 * __xLaMbChOpSx__
 * __zyonee__
