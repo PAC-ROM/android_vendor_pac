@@ -47,7 +47,9 @@ add_lunch_combo pac_vs920-userdebug
 # Motorola
 add_lunch_combo pac_edison-userdebug
 add_lunch_combo pac_ghostatt-userdebug
+add_lunch_combo pac_ghostspr-userdebug
 add_lunch_combo pac_ghosttmo-userdebug
+add_lunch_combo pac_ghostusc-userdebug
 add_lunch_combo pac_ghostvzw-userdebug
 add_lunch_combo pac_mb886-userdebug
 add_lunch_combo pac_maserati-userdebug

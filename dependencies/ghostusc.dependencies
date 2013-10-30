@@ -1,0 +1,38 @@
+[
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_device_motorola_xt1055",
+        "target_path": "device/motorola/xt1055",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "PAC-Motorola",
+        "repository": "android_device_motorola_msm8960dt-common",
+        "target_path": "device/motorola/msm8960dt-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_motorola_qcom-common",
+        "target_path": "device/motorola/qcom-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_kernel_motorola_msm8960dt-common",
+        "target_path": "kernel/motorola/msm8960dt-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "TheMuppets",
+        "repository": "proprietary_vendor_motorola",
+        "target_path": "vendor/motorola",
+        "revision": "cm-10.2"
+    }
+]
+
