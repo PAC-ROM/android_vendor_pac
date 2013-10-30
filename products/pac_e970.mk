@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_ls970,$(TARGET_PRODUCT))
+ifeq (pac_e970,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
@@ -16,15 +16,15 @@ PRODUCT_COPY_FILES += \
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xhdpi/8x/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/lge/ls970/cm.mk)
+$(call inherit-product, device/lge/e970/cm.mk)
 
-PRODUCT_NAME := pac_ls970
+PRODUCT_NAME := pac_e970
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
