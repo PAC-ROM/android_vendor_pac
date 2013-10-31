@@ -111,9 +111,9 @@ HTC:
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ dominos_liberty
-* __One X (endeavoru) :__ razer1224
-* __One X+ (enrc2b) :__ razer1224
-* __One X (evita) :__ jamieg71
+* __One X (endeavoru) :__ P.A.C.
+* __One X+ (enrc2b) :__ P.A.C.
+* __One X (evita) :__ P.A.C.
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Ruby (ruby) :__ Alexander Pohl
