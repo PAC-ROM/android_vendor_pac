@@ -1,6 +1,6 @@
 [
     {
-        "account":      "CyanogenMod",
+        "account":      "atrus5",
         "repository":   "android_device_htc_ville",
         "target_path":  "device/htc/ville",
         "revision":     "cm-10.2"
