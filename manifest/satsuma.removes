@@ -1,9 +1,5 @@
 [
     {
-        "name":     "android_hardware_ti_wpan",
-        "path":     "hardware/ti/wpan"
-    },
-    {
         "name":     "android_hardware_qcom_display-legacy",
         "path":     "hardware/qcom/display-legacy"
     },

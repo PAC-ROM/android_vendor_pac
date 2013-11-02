@@ -1,13 +1,6 @@
 [
     {
         "remote":       "github",
-        "account":      "LegacyXperia",
-        "repository":   "android_hardware_ti_wpan",
-        "target_path":  "hardware/ti/wpan",
-        "revision":     "cm-10.2"
-    },
-    {
-        "remote":       "github",
         "account":      "arco",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
