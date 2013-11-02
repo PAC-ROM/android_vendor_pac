@@ -158,6 +158,7 @@ add_lunch_combo pac_haida-userdebug
 add_lunch_combo pac_hallon-userdebug
 add_lunch_combo pac_hayabusa-userdebug
 add_lunch_combo pac_honami-userdebug
+add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_iyokan-userdebug
 add_lunch_combo pac_kumquat-userdebug
 add_lunch_combo pac_lotus-userdebug
