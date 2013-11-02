@@ -31,6 +31,7 @@
   <device name="d2usc" priority="10" />
   <device name="d2vzw" priority="10" />
   <device name="d710" priority="10" />
+  <device name="d802" priority="10" />
   <device name="deb" priority="10" />
   <device name="dlx" priority="10" />
   <device name="e970" priority="10" />

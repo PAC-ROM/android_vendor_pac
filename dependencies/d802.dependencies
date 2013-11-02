@@ -1,0 +1,38 @@
+[
+ {
+   "account": "CyanogenMod",
+   "repository": "android_device_lge_d802",
+   "target_path": "device/lge/d802",
+   "revision": "cm-10.2"
+ },
+ {
+   "account": "CyanogenMod",
+   "repository": "android_device_lge_g2-common",
+   "target_path": "device/lge/g2-common",
+   "revision": "cm-10.2"
+ },
+ {
+    "account": "CyanogenMod",
+   "repository": "android_hardware_qcom_display-mdss",
+   "target_path": "hardware/qcom/display-mdss",
+   "revision": "cm-10.2"
+ },
+ {
+   "account": "CyanogenMod",
+   "repository": "android_hardware_qcom_media-v4l2",
+   "target_path": "hardware/qcom/media-v4l2",
+   "revision": "cm-10.2"
+ },
+ {
+   "account": "CyanogenMod",
+   "repository": "android_kernel_lge_msm8974",
+   "target_path": "kernel/lge/msm8974",
+   "revision": "cm-10.2"
+ },
+ {
+   "account": "TheMuppets",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "cm-10.2"
+ }
+]

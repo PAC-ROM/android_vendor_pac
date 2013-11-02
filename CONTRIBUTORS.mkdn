@@ -134,7 +134,8 @@ HUAWEI:
 
 LG:
 ---------------------------------------------------------------------
-* __Nexus 4 (mako) :__ kd8bny, zyonee
+* __G2 (d802) :__ gerrett84
+* __Nexus 4 (mako) :__ apascual89, zyonee
 * __Nitro HD (p930) :__ tdm.code
 * __Optimus 2X (p990) :__ metaiiica
 * __Optimus 3D (p920) :__ berni987654321
@@ -148,7 +149,6 @@ LG:
 * __Optimus G (ls970) (Sprint):__ spleef, neighborhoodhacker
 * __Optimus One (p500) :__ OldDroid
 * __Spectrum (vs920) :__ tdm.code
-
 
 Motorola:
 ---------------------------------------------------------------------
