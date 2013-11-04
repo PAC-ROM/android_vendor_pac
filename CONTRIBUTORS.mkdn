@@ -84,7 +84,7 @@ ASUS:
 * __Nexus 7 3G (tilapia) :__ singhdd93
 * __Nexus 7 (2013) (flo) :__ apascual89,zaclimon, goldflame09
 * __Nexus 7 LTE (2013) (deb) :__ zaclimon, goldflame09
-* __Transformer Pad (tf300t) :__ gchild320, kd8bny
+* __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
 
@@ -130,7 +130,7 @@ HUAWEI:
 
 LG:
 ---------------------------------------------------------------------
-* __Nexus 4 (mako) :__ apascual89, zyonee
+* __Nexus 4 (mako) :__ kd8bny, zyonee
 * __Nitro HD (p930) :__ tdm.code
 * __Optimus 2X (p990) :__ metaiiica
 * __Optimus 3D (p920) :__ berni987654321
