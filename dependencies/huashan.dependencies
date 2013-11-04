@@ -36,7 +36,7 @@
  },
  {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "jacknb1ack",
     "repository": "android_kernel_sony_msm8960t",
     "target_path": "kernel/sony/msm8960t",
     "revision": "cm-10.2"
