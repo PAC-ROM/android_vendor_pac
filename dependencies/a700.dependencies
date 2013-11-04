@@ -1,0 +1,26 @@
+[
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_acer_a700",
+    "target_path": "device/acer/a700",
+    "revision":    "cm-10.2"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_acer_t30-common",
+    "target_path": "device/acer/t30-common",
+    "revision":    "cm-10.2"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_kernel_acer_t30",
+    "target_path": "kernel/acer/t30",
+    "revision":    "cm-10.2"
+  },
+  {
+    "account":    "TheMuppets",
+    "repository": "proprietary_vendor_acer",
+    "target_path": "vendor/acer",
+    "revision":    "cm-10.2"
+  }
+]
