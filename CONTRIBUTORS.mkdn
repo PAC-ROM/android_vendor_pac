@@ -117,7 +117,7 @@ HTC:
 * __One S C2 (villec2) :__ dominos_liberty
 * __One X (endeavoru) :__ P.A.C.
 * __One X+ (enrc2b) :__ P.A.C.
-* __One X (evita) :__ P.A.C.
+* __One X (evita) :__ JoseGalRe
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Ruby (ruby) :__ Alexander Pohl
