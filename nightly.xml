@@ -40,7 +40,7 @@
 <!-- device name="endeavoru" priority="10" -->
 <!-- device name="enrc2b" priority="10" -->
   <device name="epicmtd" priority="10" />
-  <!-- device name="evita" priority="10" -->
+  <device name="evita" priority="10" />
   <device name="exhilarate" priority="10" />
   <device name="fascinatemtd" priority="10" />
 <!--  <device name="find5" priority="10" /> -->
