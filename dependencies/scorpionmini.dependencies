@@ -8,10 +8,10 @@
     },
     {
         "remote": "github",
-        "account": "PAC-Motorola",
+        "account": "razrqcom-dev-team",
         "repository": "android_device_motorola_msm8960-common",
         "target_path": "device/motorola/msm8960-common",
-        "revision": "cm-11.0"
+        "revision": "kk"
     },
     {
         "remote": "github",
