@@ -1,0 +1,37 @@
+[
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_lge_gproj-common",
+        "target_path": "device/lge/gproj-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_lge_ls970-common",
+        "target_path": "device/lge/ls970-common",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_lge_e973",
+        "target_path": "device/lge/e973",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "lge-kernel-gproj",
+        "target_path": "kernel/lge/gproj",
+        "revision": "cm-10.2"
+    },
+    {
+        "remote": "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-10.2"
+    }
+]
