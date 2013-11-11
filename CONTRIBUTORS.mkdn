@@ -160,7 +160,7 @@ Motorola:
 * __Droid Razr (GSM) (umts_spyder) :__ surdu_petru
 * __Droid Razr(Verizon) (spyder) :__ surdu_petru
 * __Moto X (GSM) (ghostgsm) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
-* __Moto X (Sprint) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
+* __Moto X (Sprint) (ghostspr) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (T-Mobile) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (US Cellular) (ghostusc) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (Verizon-Developer Edition) (ghostvzw) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
