@@ -65,23 +65,23 @@
         <device FullName="Spectrum" CodeName="vs920"/>
     </vendor>
     <vendor Name="Motorola">
-        <device FullName="Atrix 2" CodeName="mako"/>
-        <device FullName="Atrix HD" CodeName="p930"/>
-        <device FullName="Droid 3" CodeName="p990"/>
-        <device FullName="Droid 4" CodeName="p920"/>
-        <device FullName="Droid Bionic" CodeName="p880"/>
-        <device FullName="Droid Razr" CodeName="p970"/>
-        <device FullName="Droid Razr (Verizon)" CodeName="e610"/>
-        <device FullName="Moto X (GSM)" CodeName="p760"/>
-        <device FullName="Moto X (Sprint)" CodeName="su640"/>
-        <device FullName="Moto X (T-Mobile)" CodeName="e970"/>
-        <device FullName="Moto X (US Celular)" CodeName="e975"/>
-        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ls970"/>
-        <device FullName="Photon Q (Sprint)" CodeName="p500"/>
-        <device FullName="Photon Q (GSM)" CodeName="vs920"/>
-        <device FullName="Razr HD (GSM)" CodeName="p500"/>
-        <device FullName="Razr HD (Verizon)" CodeName="vs920"/>
-        <device FullName="Razr M (Verizon)" CodeName="p500"/>
+        <device FullName="Atrix 2" CodeName="edison"/>
+        <device FullName="Atrix HD" CodeName="mb886"/>
+        <device FullName="Droid 3" CodeName="solana"/>
+        <device FullName="Droid 4" CodeName="maserati"/>
+        <device FullName="Droid Bionic" CodeName="targa"/>
+        <device FullName="Droid Razr" CodeName="umts_spyder"/>
+        <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
+        <device FullName="Moto X (GSM)" CodeName="ghostgsm"/>
+        <device FullName="Moto X (Sprint)" CodeName="ghostspr"/>
+        <device FullName="Moto X (T-Mobile)" CodeName="ghosttmo"/>
+        <device FullName="Moto X (US Celular)" CodeName="ghostusc"/>
+        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghostvzw"/>
+        <device FullName="Photon Q (Sprint)" CodeName="xt897c"/>
+        <device FullName="Photon Q (GSM)" CodeName="xt897"/>
+        <device FullName="Razr HD (GSM)" CodeName="vanquishgsm"/>
+        <device FullName="Razr HD (Verizon)" CodeName="vanquish"/>
+        <device FullName="Razr M (Verizon)" CodeName="scorpionmini"/>
     </vendor>
     <vendor Name="Oppo">
         <device FullName="Find5" CodeName="find5"/>
