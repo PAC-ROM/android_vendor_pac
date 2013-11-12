@@ -59,6 +59,7 @@
         <device FullName="Optimus L9" CodeName="p760"/>
         <device FullName="Optimus LTE" CodeName="su640"/>
         <device FullName="Optimus G" CodeName="e970"/>
+        <device FullName="Optimus G" CodeName="e973"/>
         <device FullName="Optimus G" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
         <device FullName="Optimus One" CodeName="p500"/>
