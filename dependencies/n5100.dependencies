@@ -1,12 +1,12 @@
 [
   {
-    "account":      "iurnait",
-    "repository":   "android_vendor_samsung_n5100",
-    "target_path":  "vendor/samsung-extra/n5100",
+    "account":      "TheMuppets",
+    "repository":   "proprietary_vendor_samsung",
+    "target_path":  "vendor/samsung",
     "revision":     "cm-10.2"
     },
   {
-    "account":      "iurnait",
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_n5100",
     "target_path":  "device/samsung/n5100",
     "revision":     "cm-10.2"
@@ -25,14 +25,20 @@
   },
   {
     "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_kona-common",
+    "target_path":  "device/samsung/kona-common",
+    "revision":     "cm-10.2"
+  },
+  {
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_smdk4412-common",
     "target_path":  "device/samsung/smdk4412-common",
     "revision":     "cm-10.2"
   },
   {
-    "account":      "iurnait",
-    "repository":   "android_kernel_samsung_n5110",
-    "target_path":  "kernel/samsung/n5110",
+    "account":      "CyanogenMod",
+    "repository":   "android_kernel_samsung_smdk4412",
+    "target_path":  "kernel/samsung/smdk4412",
     "revision":     "cm-10.2"
   }
 ]

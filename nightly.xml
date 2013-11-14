@@ -93,8 +93,8 @@
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mb886" priority="10" />
   <device name="mint" priority="10" />
-<!--  <device name="n5100" priority="10" /> -->
-<!--  <device name="n5110" priority="10" /> -->
+  <device name="n5100" priority="10" />
+  <device name="n5110" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="n8000" priority="10" />
