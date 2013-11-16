@@ -1,14 +1,14 @@
 [
     {
         "remote": "github",
-        "account": "razrqcom-dev-team",
+        "account": "CyanogenMod",
         "repository": "android_device_motorola_xt1056",
         "target_path": "device/motorola/xt1056",
         "revision": "cm-11.0"
     },
     {
         "remote": "github",
-        "account": "PAC-Motorola",
+        "account": "CyanogenMod",
         "repository": "android_device_motorola_msm8960dt-common",
         "target_path": "device/motorola/msm8960dt-common",
         "revision": "cm-11.0"
