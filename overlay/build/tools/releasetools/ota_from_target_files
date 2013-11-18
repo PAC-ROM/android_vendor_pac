@@ -175,7 +175,20 @@ class Item:
 
     for line in output.split("\n"):
       if not line: continue
-      name, uid, gid, mode = line.split()
+      columns = line.split()
+      name, uid, gid, mode = columns[:4]
+      selabel = None
+      capabilities = None
+
+      # After the first 4 columns, there are a series of key=value
+      # pairs. Extract out the fields we care about.
+      for element in columns[4:]:
+        key, value = element.split("=")
+        if key == "selabel":
+          selabel = value
+        if key == "capabilities":
+          capabilities = value
+
       i = cls.ITEMS.get(name, None)
       if i is not None:
         i.uid = int(uid)
