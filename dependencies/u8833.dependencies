@@ -1,0 +1,30 @@
+[
+    {
+        "remote":       "github",
+        "account":      "PAC-U8951",
+        "repository":   "android_device_huawei_u8833",
+        "target_path":  "device/huawei/u8833",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "PAC-U8951",
+        "repository":   "android_device_huawei_msm7x27a-common",
+        "target_path":  "device/huawei/msm7x27a-common",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "Dazzozo",
+        "repository":   "huawei-kernel-3.4",
+        "target_path":  "kernel/huawei/huawei-kernel-3.4",
+        "revision":     "jellybean-mr2"
+    },
+    {
+        "remote":       "github",
+        "account":      "Dazzozo",
+        "repository":   "proprietary_vendor_huawei",
+        "target_path":  "vendor/huawei",
+        "revision":     "jellybean-mr2"
+    }
+]

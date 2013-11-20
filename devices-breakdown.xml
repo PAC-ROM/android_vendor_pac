@@ -47,6 +47,8 @@
     <vendor Name="Huawei">
         <device FullName="Honor" CodeName="u8860"/>
         <device FullName="Ideos X5 PRO" CodeName="u8800pro"/>
+        <device FullName="Ascend G510" CodeName="u8951"/>
+        <device FullName="Ascend Y300" CodeName="u8833"/>
     </vendor>
     <vendor Name="LG">
         <device FullName="Nexus 4" CodeName="mako"/>

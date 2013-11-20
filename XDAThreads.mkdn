@@ -131,4 +131,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE: 	    pollux_windy  	bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2406640">Xperia ZL:                  odin            mithun46</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2508281">Xperia Z Ultra:             togari          BLOWNCO</a>
+<a href="http://www.htcmania.com/showthread.php?p=11232130">Huawei Ascend G510:          u8951          eloimuns</a>
+<a href="http://www.htcmania.com/showthread.php?p=11232130">Huawei Ascend Y300:          u8833          eloimuns</a>
 </div>

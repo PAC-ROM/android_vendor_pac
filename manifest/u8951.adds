@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "account":      "legaCyMod",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "androidarmv6",
+        "repository":   "android_frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "Dazzozo",
+        "repository":   "android_hardware_atheros_wifi_ath6kl-huawei",
+        "target_path":  "hardware/atheros/wifi/ath6kl-huawei",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "account":      "legaCyMod",
+        "repository":   "android_hardware_atheros_wlan",
+        "target_path":  "hardware/atheros/wlan",
+        "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "Dazzozo",
+        "repository":   "android_hardware_qcom_display-legacy",
+        "target_path":  "hardware/qcom/display-legacy",
+        "revision":     "jellybean-mr2"
+    },
+    {
+        "remote":       "github",
+        "account":      "Dazzozo",
+        "repository":   "android_hardware_qcom_media-legacy",
+        "target_path":  "hardware/qcom/media-legacy",
+        "revision":     "jellybean-mr2"
+    }
+]

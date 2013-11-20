@@ -24,4 +24,6 @@
   <device name="u8860" priority="10" />
   <device name="urushi" priority="10" />
   <device name="vigor" priority="10" />
+  <device name="u8951" priority="10" />
+  <device name="u8833" priority="10" />
 </manifest>
