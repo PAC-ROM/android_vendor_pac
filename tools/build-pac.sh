@@ -34,6 +34,7 @@ fi
 
 # figure out the output directories
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+thisDIR="${PWD##*/}"
 
 findOUT() {
 if [ -n "${OUT_DIR_COMMON_BASE+x}" ]; then
@@ -45,8 +46,8 @@ findOUT
 RES="$?"
 
 if [ $RES = 1 ];then
- export OUTDIR=$OUT_DIR_COMMON_BASE
- echo "variable is set ($OUT_DIR_COMMON_BASE)"
+ export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
+ echo "variable is set ($OUT_DIR_COMMON_BASE/$thisDIR)"
 elif [ $RES = 0 ];then
  export OUTDIR=$DIR/out
  echo "ignored_deps is not set or is empty"
