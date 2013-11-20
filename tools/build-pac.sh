@@ -35,6 +35,30 @@ if [ ! -d "vendor/pac" ]; then
     exit 1
 fi
 
+# figure out the output directories
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+thisDIR="${PWD##*/}"
+
+findOUT() {
+if [ -n "${OUT_DIR_COMMON_BASE+x}" ]; then
+return 1; else
+return 0
+fi;}
+
+findOUT
+RES="$?"
+
+if [ $RES = 1 ];then
+ export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
+ echo "External out DIR is set ($OUTDIR)"
+elif [ $RES = 0 ];then
+ export OUTDIR=$DIR/out
+ echo "No External out, using default ($OUTDIR)"
+else
+echo "NULL"
+ echo "error wrong results; blame tyler"
+fi
+
 # get OS (linux / Mac OS x)
 IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
@@ -105,7 +129,7 @@ if [ "$opt_sync" -ne 0 ]; then
     echo -e ""
 fi
 
-rm -f out/target/product/$device/obj/KERNEL_OBJ/.version
+rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
 # get time of startup
 t1=$($DATE +%s)
@@ -115,9 +139,9 @@ echo -e ${bldblu}"Setting up environment"${txtrst}
 . build/envsetup.sh
 
 # Remove system folder (this will create a new build.prop with updated build time and date)
-rm -f out/target/product/$device/system/build.prop
-rm -f out/target/product/$device/system/app/*.odex
-rm -f out/target/product/$device/system/framework/*.odex
+rm -f $OUTDIR/target/product/$device/system/build.prop
+rm -f $OUTDIR/target/product/$device/system/app/*.odex
+rm -f $OUTDIR/target/product/$device/system/framework/*.odex
 
 # initlogo
 if [ "$opt_initlogo" -ne 0 ]; then
@@ -167,8 +191,8 @@ echo -e ""
 vendor/pac/tools/squisher
 
 # cleanup unused built
-rm -f out/target/product/$device/cm-*.*
-rm -f out/target/product/$device/pac_*-ota*.zip
+rm -f $OUTDIR/target/product/$device/cm-*.*
+rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
 
 # finished? get elapsed time
 t2=$($DATE +%s)

@@ -101,7 +101,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo          berni987654321</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):              	m7att           MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):               	m7ul            MaDc0w</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):              	m7spr           MallardDuck(Pocker09)</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):              	m7spr           MallardDuck</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2375475">One (T-Mobile):         	m7tmo           MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2455127">One (Verizon):         	m7vzw           Flyhalf205</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2164406">One S:                      ville           atrus5</a>
