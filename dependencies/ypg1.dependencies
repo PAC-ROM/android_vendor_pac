@@ -9,18 +9,18 @@
     "account":      "bbelos",
     "repository":   "android_device_samsung_ypg1",
     "target_path":  "device/samsung/ypg1",
-    "revision":     "pac-4.3"
+    "revision":     "cm-11.0"
   },
   {
     "account":      "bbelos",
     "repository":   "android_kernel_samsung_aries",
     "target_path":  "kernel/samsung/ypg13.0",
-    "revision":     "cm-10.2-ypg1-dev"
+    "revision":     "cm-11.0-ypg1-dev"
   },
   {
     "account":      "CyanogenMod",
     "repository":   "android_hardware_samsung",
     "target_path":  "hardware/samsung",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   }
 ]
