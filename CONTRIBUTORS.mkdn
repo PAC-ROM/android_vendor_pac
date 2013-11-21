@@ -130,8 +130,8 @@ HUAWEI:
 ---------------------------------------------------------------------
 * __Honor (u8860) :__ herna
 * __Ideos X5 PRO (u8800pro) :__ herna
-* __Ascend G510 (u8951) :__ eloimuns
-* __Ascend Y300 (u8833) :__ eloimuns
+* __Ascend G510 (u8951) :__ Dazzozo, eloimuns
+* __Ascend Y300 (u8833) :__ Dazzozo, eloimuns
 
 
 LG:
