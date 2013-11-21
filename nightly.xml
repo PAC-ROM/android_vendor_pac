@@ -52,6 +52,7 @@
   <device name="ghostusc" priority="10" />
   <device name="ghostvzw" priority="10" />
   <device name="grouper" priority="10" />
+<!--  <device name="hammerhead" priority="10" /> -->
 <!--  <device name="hayabusa" priority="10" /> -->
   <device name="hercules" priority="10" />
   <device name="honami" priority="10" />
@@ -61,7 +62,7 @@
   <device name="i9100" priority="10" />
   <device name="i9100g" priority="10" />
   <device name="i9103" priority="10" />
-  <device name="i927" priority="10" /> 
+  <device name="i927" priority="10" />
   <device name="i9300" priority="10" />
   <device name="i9305" priority="10" />
 <!--  <device name="i9500" priority="10" /> -->

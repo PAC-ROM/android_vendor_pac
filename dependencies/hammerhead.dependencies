@@ -1,0 +1,24 @@
+[
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_device_lge_hammerhead",
+        "target_path":  "device/lge/hammerhead",
+        "revision":     "cm-11"
+    },
+    {
+        "remote":       "github",
+        "account":      "Cyanogenmod",
+        "repository":   "android_kernel_lge_hammerhead",
+        "target_path":  "kernel/lge/hammerhead",
+        "revision":     "cm-11"
+    },
+    {
+        "remote":       "github",
+        "account":      "TheMuppets",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-11"
+    }
+]
+

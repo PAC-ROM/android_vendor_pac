@@ -67,6 +67,7 @@ add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
 add_lunch_combo pac_grouper-userdebug
+add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_manta-userdebug
