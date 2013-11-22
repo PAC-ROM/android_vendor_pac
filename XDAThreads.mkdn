@@ -87,7 +87,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2503693">LG-e970 Optimus G (AT&T):         e970           neighborhoodhacker</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2482297">LG-e973 Optimus G (Canada):         e973           Haze028</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501074">LG-ls970 Optimus G (Sprint):         ls970           neighborhoodhacker</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:         d800           gerrett84</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:         d802           gerrett84</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:         vs980           gerrett84</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2146879">Nexus 4:               	    mako            vertigo2012, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto x (Verizon)		       ghostvzw            skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504836">Moto x (T-Mobile)		       ghosttmo            skiwong20</a>
