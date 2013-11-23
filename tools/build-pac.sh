@@ -179,15 +179,9 @@ if [ "$opt_olvl" -eq 1 ]; then
 elif [ "$opt_olvl" -eq 2 ]; then
     export TARGET_USE_O_LEVEL_2=true
     echo -e ""
-    echo -e ${cya}"Using O2 Optimization"${txtrst}
-    echo -e ""
-elif [ "$opt_olvl" -eq 3 ]; then
-    export TARGET_USE_O_LEVEL_3=true
-    echo -e ""
     echo -e ${cya}"Using O3 Optimization"${txtrst}
     echo -e ""
 else
-    export TARGET_USE_O_LEVEL_2=true
     echo -e ""
     echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
     echo -e ""
