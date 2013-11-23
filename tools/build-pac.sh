@@ -49,14 +49,20 @@ findOUT
 RES="$?"
 
 if [ $RES = 1 ];then
- export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
- echo "External out DIR is set ($OUTDIR)"
+    export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
+    echo -e ""
+    echo -e ${cya}"External out DIR is set ($OUTDIR)"${txtrst}
+    echo -e ""
 elif [ $RES = 0 ];then
- export OUTDIR=$DIR/out
- echo "No External out, using default ($OUTDIR)"
+    export OUTDIR=$DIR/out
+    echo -e ""
+    echo -e ${cya}"No External out, using default ($OUTDIR)"${txtrst}
+    echo -e ""
 else
-echo "NULL"
- echo "error wrong results; blame tyler"
+    echo -e ""
+    echo -e ${red}"NULL"${txtrst}
+    echo -e ${red}"Error wrong results; blame tyler"${txtrst}
+    echo -e ""
 fi
 
 # get OS (linux / Mac OS x)
@@ -168,20 +174,23 @@ fi
 if [ "$opt_olvl" -eq 1 ]; then
     export TARGET_USE_O_LEVEL_S=true
     echo -e ""
-    echo -e "Using Os Optimization"
+    echo -e ${cya}"Using Os Optimization"${txtrst}
     echo -e ""
 elif [ "$opt_olvl" -eq 2 ]; then
     export TARGET_USE_O_LEVEL_2=true
     echo -e ""
-    echo -e "Using O2 Optimization"
+    echo -e ${cya}"Using O2 Optimization"${txtrst}
     echo -e ""
 elif [ "$opt_olvl" -eq 3 ]; then
     export TARGET_USE_O_LEVEL_3=true
     echo -e ""
-    echo -e "Using O3 Optimization"
+    echo -e ${cya}"Using O3 Optimization"${txtrst}
     echo -e ""
 else
     export TARGET_USE_O_LEVEL_2=true
+    echo -e ""
+    echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
+    echo -e ""
 fi
 
 make -j"$opt_jobs" bacon
