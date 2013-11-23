@@ -15,7 +15,7 @@ usage()
     echo -e "    -p  Build using pipe"
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
-    echo -e "        1 (Os), 2 (O2), 3 (O3)"
+    echo -e "        1 (Os), 2 (O3)"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
     echo -e "    ./build-pac.sh -c mako"
