@@ -262,7 +262,7 @@ Sony:
 * __Xperia GO (lotus) :__ percy_g2
 * __Xperia P (nypon) :__ percy_g2
 * __Xperia Sola (pepper) :__ percy_g2
-* __Xperia SP (huashan) :__ jacknb1ack
+* __Xperia SP (huashan) :__ jacknb1ack, alivanov79
 * __Xperia T (mint) :__ djpbx
 * __Xperia Tablet Z (pollux) :__ bluefa1con
 * __Xperia Tablet Z LTE (pollux_windy) :__ bluefa1con
