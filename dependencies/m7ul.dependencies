@@ -3,30 +3,30 @@
         "account":      "CyanogenMod",
         "repository":   "android_device_htc_m7-common",
         "target_path":  "device/htc/m7-common",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "CyanogenMod",
         "repository":   "android_device_htc_m7ul",
         "target_path":  "device/htc/m7ul",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "CyanogenMod",
         "repository":   "android_device_htc_msm8960-common",
         "target_path":  "device/htc/msm8960-common",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "CyanogenMod",
         "repository":   "android_kernel_htc_m7",
         "target_path":  "kernel/htc/m7",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     }
 ]
