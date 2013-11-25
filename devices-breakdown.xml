@@ -51,9 +51,9 @@
         <device FullName="Ascend Y300" CodeName="u8833"/>
     </vendor>
     <vendor Name="LG">
-        <device FullName="G2" CodeName="d800"/>
-        <device FullName="G2" CodeName="d802"/>
-        <device FullName="G2" CodeName="vs980"/>
+        <device FullName="G2 (ATT)" CodeName="d800"/>
+        <device FullName="G2 (GSM)" CodeName="d802"/>
+        <device FullName="G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nitro HD" CodeName="p930"/>
         <device FullName="Optimus 2X" CodeName="p990"/>
