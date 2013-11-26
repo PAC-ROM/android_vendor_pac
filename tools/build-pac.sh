@@ -15,7 +15,7 @@ usage()
     echo -e "    -p  Build using pipe"
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
-    echo -e "        1 (Os), 2 (O3)"
+    echo -e "        1 (Os), 3 (O3)"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
     echo -e "    ./build-pac.sh -c mako"
@@ -176,8 +176,8 @@ if [ "$opt_olvl" -eq 1 ]; then
     echo -e ""
     echo -e ${cya}"Using Os Optimization"${txtrst}
     echo -e ""
-elif [ "$opt_olvl" -eq 2 ]; then
-    export TARGET_USE_O_LEVEL_2=true
+elif [ "$opt_olvl" -eq 3 ]; then
+    export TARGET_USE_O_LEVEL_3=true
     echo -e ""
     echo -e ${cya}"Using O3 Optimization"${txtrst}
     echo -e ""
