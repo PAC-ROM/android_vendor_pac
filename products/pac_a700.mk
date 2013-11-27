@@ -2,15 +2,17 @@
 ifeq (pac_a700,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xxhdpi
+OVERLAY_TARGET := pa_a700
 
 # AOKP device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/p3100
+
+# PAC device overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/ldpi
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_1080x1920.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_1920x1200.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
