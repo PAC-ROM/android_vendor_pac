@@ -46,18 +46,21 @@ findOUT
 RES="$?"
 
 if [ $RES = 1 ];then
- export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
- echo "variable is set ($OUT_DIR_COMMON_BASE/$thisDIR)"
+    export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
+    echo -e ""
+    echo -e ${cya}"External out DIR is set ($OUTDIR)"${txtrst}
+    echo -e ""
 elif [ $RES = 0 ];then
- export OUTDIR=$DIR/out
- echo "ignored_deps is not set or is empty"
- echo "set to current dir ($DIR/out)"
+    export OUTDIR=$DIR/out
+    echo -e ""
+    echo -e ${cya}"No External out, using default ($OUTDIR)"${txtrst}
+    echo -e ""
 else
-echo "NULL"
- echo "error wrong results; blame tyler"
+    echo -e ""
+    echo -e ${red}"NULL"${txtrst}
+    echo -e ${red}"Error wrong results; blame tyler"${txtrst}
+    echo -e ""
 fi
-
-echo "The out is located at ($OUTDIR)"
 
 # get OS (linux / Mac OS x)
 IS_DARWIN=$(uname -a | grep Darwin)
