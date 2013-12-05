@@ -1,16 +1,16 @@
 [
     {
         "remote":       "github",
-        "account":      "arco",
+        "account":      "LegacyXperia",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-10.2_old"
+        "revision":     "cm-11.0_old"
     },
     {
         "remote":       "github",
-        "account":      "arco",
+        "account":      "LegacyXperia",
         "repository":   "android_hardware_qcom_media-legacy",
         "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-10.2_old"
+        "revision":     "cm-11.0_old"
     }
 ]
