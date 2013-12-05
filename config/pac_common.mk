@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
     vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
 
+# Prebuilt Apks
+PRODUCT_COPY_FILES +=  \
+    vendor/pac/prebuilt/Chrome.apk:system/app/Chrome.apk
+
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman \
