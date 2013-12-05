@@ -1,20 +1,20 @@
 [
     {
-        "account":      "zaclimon",
+        "account":      "CyanogenMod",
         "repository":   "android_device_asus_flo",
         "target_path":  "device/asus/flo",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_asus",
         "target_path":  "vendor/asus",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
-        "account":      "ModdedPA",
+        "account":      "CyanogenMod",
         "repository":   "android_kernel_google_msm",
         "target_path":  "kernel/google/msm-flo",
-        "revision":     "aosp"
+        "revision":     "cm-11.0"
     }
 ]
