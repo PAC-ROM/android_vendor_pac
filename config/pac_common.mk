@@ -29,21 +29,22 @@ TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/rele
 # T-Mobile theme engine
 include vendor/pac/config/themes_common.mk
 
-# init.d support
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/pac/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-    vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
-    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg
+ # init.d support
+  PRODUCT_COPY_FILES += \
+      vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
+      vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
+      vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
+      vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+      vendor/pac/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+      vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
+      vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
+      vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+      vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
+      vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
+      vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+      vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
+      vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+      vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg
 
 # Added xbin files
 PRODUCT_COPY_FILES += \
