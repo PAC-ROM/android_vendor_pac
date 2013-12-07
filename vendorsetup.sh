@@ -44,6 +44,7 @@ add_lunch_combo pac_p880-userdebug
 add_lunch_combo pac_p930-userdebug
 add_lunch_combo pac_su640-userdebug
 add_lunch_combo pac_vs920-userdebug
+add_lunch_combo pac_vs980-userdebug
 # Motorola
 add_lunch_combo pac_edison-userdebug
 add_lunch_combo pac_ghostatt-userdebug
