@@ -58,6 +58,8 @@ cd $REPACK/ota/system/framework
 $OPTICHARGER framework-res.apk
 cd $REPACK/ota/system/app
 find ./ -name \*.apk | $XARGS $OPTICHARGER
+cd $REPACK/ota/system/priv-app
+find ./ -name \*.apk | $XARGS $OPTICHARGER
 )
 
 # Fix build.prop
