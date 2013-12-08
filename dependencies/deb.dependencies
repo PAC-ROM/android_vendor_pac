@@ -20,7 +20,7 @@
     {
         "account":      "zyonee",
         "repository":   "android_kernel_google_msm",
-        "target_path":  "kernel/google/msm-flo",
+        "target_path":  "kernel/google/msm",
         "revision":     "cm-11.0"
     }
 ]
