@@ -29,22 +29,35 @@ TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/rele
 # T-Mobile theme engine
 include vendor/pac/config/themes_common.mk
 
- # init.d support
-  PRODUCT_COPY_FILES += \
-      vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
-      vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-      vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-      vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-      vendor/pac/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
-      vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-      vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-      vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-      vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-      vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-      vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
-      vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-      vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-      vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
+    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
+    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+    vendor/pac/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
+    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
+    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
+    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
+    vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
+    vendor/pac/prebuilt/common/etc/init.d/12touch:system/etc/init.d/12touch \
+    vendor/pac/prebuilt/common/etc/init.d/13minfree:system/etc/init.d/13minfree \
+    vendor/pac/prebuilt/common/etc/init.d/14gpurender:system/etc/init.d/14gpurender \
+    vendor/pac/prebuilt/common/etc/init.d/15sleepers:system/etc/init.d/15sleepers \
+    vendor/pac/prebuilt/common/etc/init.d/16journalism:system/etc/init.d/16journalism \
+    vendor/pac/prebuilt/common/etc/init.d/17sqlite3:system/etc/init.d/17sqlite3 \
+    vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
+    vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
+    vendor/pac/prebuilt/common/etc/init.d/20setrenice:system/etc/init.d/20setrenice \
+    vendor/pac/prebuilt/common/etc/init.d/21tweaks:system/etc/init.d/21tweaks \
+    vendor/pac/prebuilt/common/etc/init.d/24speedy_modified:system/etc/init.d/24speedy_modified \
+    vendor/pac/prebuilt/common/etc/init.d/25loopy_smoothness_tweak:system/etc/init.d/25loopy_smoothness_tweak \
+    vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
+    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
+    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg
 
 # Added xbin files
 PRODUCT_COPY_FILES += \
