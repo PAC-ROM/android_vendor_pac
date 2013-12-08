@@ -55,7 +55,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GooglePacman \
     PacPapers \
-    PacStats
+    PacStats \
+    Paclauncher
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
