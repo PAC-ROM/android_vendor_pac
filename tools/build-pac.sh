@@ -9,7 +9,8 @@ usage()
     echo -e ${txtbld}"  Options:"${txtrst}
     echo -e "    -c  Clean before build"
     echo -e "    -d  Use dex optimizations"
-    echo -e "    -i  Static initlogo"
+    echo -e "    -f  Fetch cherry-picks"
+    echo -e "    -i  Static Initlogo"
     echo -e "    -j# Set jobs"
     echo -e "    -s  Sync before build"
     echo -e "    -p  Build using pipe"
@@ -76,15 +77,17 @@ export USE_CCACHE=1
 
 opt_clean=0
 opt_dex=0
+opt_fetch=0
 opt_initlogo=0
 opt_jobs="$CPUS"
 opt_sync=0
 opt_pipe=0
 
-while getopts "cdij:ps" opt; do
+while getopts "cdfij:ps" opt; do
     case "$opt" in
     c) opt_clean=1 ;;
     d) opt_dex=1 ;;
+    f) opt_fetch=1 ;;
     i) opt_initlogo=1 ;;
     j) opt_jobs="$OPTARG" ;;
     s) opt_sync=1 ;;
@@ -131,6 +134,11 @@ if [ "$opt_sync" -ne 0 ]; then
 fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
+
+# fetch cherry-picks
+if [ "$opt_fetch" -ne 0 ]; then
+        ./vendor/pac/tools/cherries.sh $device
+fi
 
 # get time of startup
 t1=$($DATE +%s)
