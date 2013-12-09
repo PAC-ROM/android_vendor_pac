@@ -448,15 +448,15 @@ def WriteFullOTAPackage(input_zip, output_zip):
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
 
-  script.Print("Formatting System")
+  script.Print("Formatting system")
   script.FormatPartition("/system")
   script.Mount("/system")
   #script.UnpackPackageDir("recovery", "/system")
-  script.Print("Extracting System Files...")
+  script.Print("Extracting system files...")
   script.UnpackPackageDir("system", "/system")
 
   symlinks = CopySystemFiles(input_zip, output_zip)
-  script.Print("Making Sym Links")
+  script.Print("Making symlinks")
   script.MakeSymlinks(symlinks)
 
   boot_img = common.GetBootableImage("boot.img", "boot.img",
@@ -482,7 +482,7 @@ def WriteFullOTAPackage(input_zip, output_zip):
 
   script.ShowProgress(0.1, 0)
   script.Print("Thanks for choosing PAC-MAN ROMS")
-  script.Print("Enjoy PAC-MAN now")
+  script.Print("Enjoy PAC-man now")
   device_specific.FullOTA_InstallEnd()
 
   if OPTIONS.extra_script is not None:
@@ -505,7 +505,7 @@ def WriteMetadata(metadata, output_zip):
 
 def LoadSystemFiles(z):
   """Load all the files from SYSTEM/... in a given target-files
-  ZipFile, and return a dict of {filename: File object}."""
+  zip file, and return a dict of {filename: File object}."""
   out = {}
   for info in z.infolist():
     if info.filename.startswith("SYSTEM/") and not IsSymlink(info):

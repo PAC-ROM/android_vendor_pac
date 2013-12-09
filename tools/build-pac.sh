@@ -9,7 +9,7 @@ usage()
 	echo -e ${txtbld}"  Options:"${txtrst}
 	echo -e "    -c  Clean before build"
 	echo -e "    -d  Use dex optimizations"
-	echo -e "    -i  Static Initlogo"
+	echo -e "    -i  Static initlogo"
 	echo -e "    -j# Set jobs"
 	echo -e "    -s  Sync before build"
 	echo -e "    -p  Build using pipe"
@@ -53,7 +53,7 @@ if [ $RES = 1 ];then
 elif [ $RES = 0 ];then
     export OUTDIR=$DIR/out
     echo -e ""
-    echo -e ${cya}"No External out, using default ($OUTDIR)"${txtrst}
+    echo -e ${cya}"No external out, using default ($OUTDIR)"${txtrst}
     echo -e ""
 else
     echo -e ""
@@ -184,6 +184,6 @@ tsec=$(( (t2-t1)%60 ))
 
 echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
 echo "************************************************************************"
-echo "${bldylw}Please Remember that this source is currently for Private builds ONLY!${txtrst}"
-echo "${bldylw}Public builds will be welcomed after nightlies begin. Thankyou.${txtrst}"
+echo "${bldylw}Please remember that this source is currently for private builds ONLY!${txtrst}"
+echo "${bldylw}Public builds will be welcomed after nightlies begin. Thank you.${txtrst}"
 echo "************************************************************************"
