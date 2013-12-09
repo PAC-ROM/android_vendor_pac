@@ -1,10 +1,22 @@
 [
     {
-        "name":     "CyanogenMod/android_hardware_qcom_display-caf",
+        "name":     "android_hardware_qcom_display-caf",
         "path":     "hardware/qcom/display-caf"
     },
     {
-        "name":     "CyanogenMod/android_frameworks_native",
+        "name":     "android_hardware_qcom_media-caf",
+        "path":     "hardware/qcom/media-caf"
+    },
+    {
+        "name":     "android_packages_apps_SoundRecorder",
+        "path":     "packages/apps/SoundRecorder"
+    },
+    {
+        "name":     "android_frameworks_native",
         "path":     "frameworks/native"
+    },
+    {
+        "name":     "android_frameworks_av",
+        "path":     "frameworks/av"
     }
 ]

@@ -4,13 +4,34 @@
         "account":      "TeamHackLG",
         "repository":   "android_hardware_qcom_display-caf",
         "target_path":  "hardware/qcom/display-caf",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
         "account":      "TeamHackLG",
-        "repository":   "android_frameworks_native",
-        "target_path":  "frameworks/native",
+        "repository":   "android_hardware_qcom_media-caf",
+        "target_path":  "hardware/qcom/media-caf",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "TeamHackLG",
+        "repository":   "android_packages_apps_SoundRecorder",
+        "target_path":  "packages/apps/SoundRecorder",
         "revision":     "cm-10.2"
+    },
+    {
+        "remote":       "github",
+        "account":      "bart452",
+        "repository":   "frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "kk44"
+    },
+    {
+        "remote":       "github",
+        "account":      "bart452",
+        "repository":   "frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "kk44"
     }
 ]

@@ -5,11 +5,10 @@ ifeq (pac_e610,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_mdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/celox-common
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/e610
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_320x480.rle:root/logo.rle
+# PAC device overlay
+$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_lg-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
