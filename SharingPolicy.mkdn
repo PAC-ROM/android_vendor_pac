@@ -1,7 +1,8 @@
 PAC-man Rom Sharing Policy
 ===========================
 
-As PAC-man Rom has grown exponentially over the last 6 months or so, we have run into
+
+As PAC-man Rom has grown exponentially over the last year, we have run into
 many issues with user/developers asking if they can use the source from PAC-man github
 for their own projects and/or make official/unofficial builds. In this document we will
 try set forth some basic policies to help with any questions.
@@ -57,6 +58,7 @@ this project together and do it yourself.
 I know everyone believes in open source and we do as well. There is a huge difference in picking
 features and adding them to your works and renaming a whole project and calling it your own. We
 hate having to add this in here but it’s a hard lesson learned from the past.
+
 
 
 Rom/Code Policy
