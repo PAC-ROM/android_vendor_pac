@@ -5,7 +5,7 @@ ifeq (pac_p880,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_xhdpi
 
 # PAC device overlay
-$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_lg-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
+#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_lg-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/xhdpi/bootanimation.zip:system/media/bootanimation.zip

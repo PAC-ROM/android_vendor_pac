@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_xhdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/i9305
 
 # PAC device overlay
-$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
+#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

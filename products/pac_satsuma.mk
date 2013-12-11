@@ -9,7 +9,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/satsuma
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
-$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_sony-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
+#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_sony-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

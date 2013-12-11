@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_n80xx
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
 
 # PAC device overlay
-$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
+#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
