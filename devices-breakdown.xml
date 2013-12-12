@@ -41,6 +41,7 @@
         <device FullName="Rezound" CodeName="vigor"/>
         <device FullName="Ruby" CodeName="ruby"/>
         <device FullName="Runnymede" CodeName="runnymede"/>
+	<device FullName="Sensation" CodeName="pyramid"/>
         <device FullName="Vivo" CodeName="vivo"/>
         <device FullName="Wildfire S" CodeName="marvel"/>
     </vendor>

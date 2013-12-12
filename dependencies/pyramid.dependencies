@@ -14,7 +14,7 @@
     {
         "account":      "bilalliberty",
         "repository":   "android_vendor_htc",
-        "target_path":  "vendor/htc-pyramid",
+        "target_path":  "vendor/htc-extra/pyramid",
         "revision":     "cm-11.0"
          }
 ]
