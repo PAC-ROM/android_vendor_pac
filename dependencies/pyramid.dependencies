@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "bilalliberty",
+        "repository":   "android_device_htc_pyramid",
+        "target_path":  "device/htc/pyramid",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "bilalliberty",
+        "repository":   "android_kernel_pyramid",
+        "target_path":  "kernel/htc/pyramid",
+        "revision":     "master"
+    },
+    {
+        "account":      "bilalliberty",
+        "repository":   "android_vendor_htc",
+        "target_path":  "vendor/htc-pyramid",
+        "revision":     "cm-11.0"
+         }
+]

@@ -118,6 +118,7 @@ HTC:
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Ruby (ruby) :__ Alexander Pohl
 * __Runnymede(runnymede) :__ onejay09
+* __Sensation (pyramid) :__ dominos_liberty
 * __Vivo (vivo) :__ blindndumb
 * __Wildfire S (marvel) :__ crossfire77
 
