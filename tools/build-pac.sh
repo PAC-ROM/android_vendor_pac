@@ -104,6 +104,15 @@ VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
 
+echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
+echo -e ${bldred}"************************************************************************"${txtrst}
+echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
+echo -e ${bldylw}"Please remember that this source from pac-4.4 is currently for private builds ONLY!"${txtrst}
+echo -e ${bldylw}"Public builds from pac-4.4 are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
+echo -e ${bldylw}"It will be welcomed after nightlies begin. Thank you, the Developer.${txtrst}"${txtrst}
+echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
+echo -e ${bldred}"************************************************************************"${txtrst}
+
 # PAC device dependencies
 echo -e ""
 echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
@@ -184,6 +193,9 @@ tsec=$(( (t2-t1)%60 ))
 
 echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
 echo -e ${bldred}"************************************************************************"${txtrst}
-echo -e ${bldylw}"Please remember that this source is currently for private builds ONLY!"${txtrst}
-echo -e ${bldylw}"Public builds will be welcomed after nightlies begin. Thank you.${txtrst}"${txtrst}
+echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
+echo -e ${bldylw}"Please remember that this source from pac-4.4 is currently for private builds ONLY!"${txtrst}
+echo -e ${bldylw}"Public builds from pac-4.4 are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
+echo -e ${bldylw}"It will be welcomed after nightlies begin. Thank you, the Developer.${txtrst}"${txtrst}
+echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
 echo -e ${bldred}"************************************************************************"${txtrst}
