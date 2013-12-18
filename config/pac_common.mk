@@ -64,10 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
     vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
 
-# CM/WhisperSystems Packages
-PRODUCT_PACKAGES += \
-    WhisperPush
-
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman \
