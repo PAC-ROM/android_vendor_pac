@@ -2,34 +2,34 @@
 
 usage()
 {
-	echo -e ""
-	echo -e ${txtbld}"Usage:"${txtrst}
-	echo -e "  build-pac.sh [options] device"
-	echo -e ""
-	echo -e ${txtbld}"  Options:"${txtrst}
-	echo -e "    -c  Clean before build"
-	echo -e "    -d  Use dex optimizations"
-	echo -e "    -i  Static initlogo"
-	echo -e "    -j# Set jobs"
-	echo -e "    -s  Sync before build"
-	echo -e "    -p  Build using pipe"
-	echo -e ""
-	echo -e ${txtbld}"  Example:"${txtrst}
-	echo -e "    ./build-pac.sh -c mako"
-	echo -e ""
-	exit 1
+    echo -e ""
+    echo -e ${txtbld}"Usage:"${txtrst}
+    echo -e "  build-pac.sh [options] device"
+    echo -e ""
+    echo -e ${txtbld}"  Options:"${txtrst}
+    echo -e "    -c  Clean before build"
+    echo -e "    -d  Use dex optimizations"
+    echo -e "    -i  Static initlogo"
+    echo -e "    -j# Set jobs"
+    echo -e "    -s  Sync before build"
+    echo -e "    -p  Build using pipe"
+    echo -e ""
+    echo -e ${txtbld}"  Example:"${txtrst}
+    echo -e "    ./build-pac.sh -c mako"
+    echo -e ""
+    exit 1
 }
 
 # colors
 . ./vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
-	echo -e ${red}"No .repo directory found.  Is this an Android build tree?"${txtrst}
-	exit 1
+    echo -e ${red}"No .repo directory found.  Is this an Android build tree?"${txtrst}
+    exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
-	echo -e ${red}"No vendor/pac directory found.  Is this a PAC build tree?"${txtrst}
-	exit 1
+    echo -e ${red}"No vendor/pac directory found.  Is this a PAC build tree?"${txtrst}
+    exit 1
 fi
 
 # figure out the output directories
@@ -65,11 +65,11 @@ fi
 # get OS (linux / Mac OS x)
 IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
-	CPUS=$(sysctl hw.ncpu | awk '{print $2}')
-	DATE=gdate
+    CPUS=$(sysctl hw.ncpu | awk '{print $2}')
+    DATE=gdate
 else
-	CPUS=$(grep "^processor" /proc/cpuinfo | wc -l)
-	DATE=date
+    CPUS=$(grep "^processor" /proc/cpuinfo | wc -l)
+    DATE=date
 fi
 
 export USE_CCACHE=1
@@ -82,19 +82,19 @@ opt_sync=0
 opt_pipe=0
 
 while getopts "cdij:ps" opt; do
-	case "$opt" in
-	c) opt_clean=1 ;;
-	d) opt_dex=1 ;;
-	i) opt_initlogo=1 ;;
-	j) opt_jobs="$OPTARG" ;;
-	s) opt_sync=1 ;;
-	p) opt_pipe=1 ;;
-	*) usage
-	esac
+    case "$opt" in
+    c) opt_clean=1 ;;
+    d) opt_dex=1 ;;
+    i) opt_initlogo=1 ;;
+    j) opt_jobs="$OPTARG" ;;
+    s) opt_sync=1 ;;
+    p) opt_pipe=1 ;;
+    *) usage
+    esac
 done
 shift $((OPTIND-1))
 if [ "$#" -ne 1 ]; then
-	usage
+    usage
 fi
 device="$1"
 
@@ -104,15 +104,6 @@ VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
 
-echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
-echo -e ${bldred}"************************************************************************"${txtrst}
-echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
-echo -e ${bldylw}"Please remember that this source from pac-4.4 is currently for private builds ONLY!"${txtrst}
-echo -e ${bldylw}"Public builds from pac-4.4 are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
-echo -e ${bldylw}"It will be welcomed after nightlies begin. Thank you, the Developer.${txtrst}"${txtrst}
-echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
-echo -e ${bldred}"************************************************************************"${txtrst}
-
 # PAC device dependencies
 echo -e ""
 echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
@@ -120,23 +111,23 @@ vendor/pac/tools/getdependencies.py "$device"
 echo -e "${txtrst}"
 
 if [ "$opt_clean" -ne 0 ]; then
-	make clean >/dev/null
+    make clean >/dev/null
 fi
 
 # download prebuilt files
 if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ]; then
-	echo -e ""
-	echo -e ${bldblu}"Downloading prebuilts"${txtrst}
-	vendor/cm/get-prebuilts
-	echo -e ""
+    echo -e ""
+    echo -e ${bldblu}"Downloading prebuilts"${txtrst}
+    vendor/cm/get-prebuilts
+    echo -e ""
 fi
 
 # sync with latest sources
 if [ "$opt_sync" -ne 0 ]; then
-	echo -e ""
-	echo -e ${bldblu}"Fetching latest sources"${txtrst}
-	repo sync -j"$opt_jobs"
-	echo -e ""
+    echo -e ""
+    echo -e ${bldblu}"Fetching latest sources"${txtrst}
+    repo sync -j"$opt_jobs"
+    echo -e ""
 fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
@@ -155,7 +146,7 @@ rm -f $OUTDIR/target/product/$device/system/framework/*.odex
 
 # initlogo
 if [ "$opt_initlogo" -ne 0 ]; then
-	export BUILD_WITH_STATIC_INITLOGO=true
+    export BUILD_WITH_STATIC_INITLOGO=true
 fi
 
 # lunch device
@@ -168,11 +159,11 @@ echo -e ${bldblu}"Starting compilation"${txtrst}
 
 # start compilation
 if [ "$opt_dex" -ne 0 ]; then
-	export WITH_DEXPREOPT=true
+    export WITH_DEXPREOPT=true
 fi
 
 if [ "$opt_pipe" -ne 0 ]; then
-	export TARGET_USE_PIPE=true
+    export TARGET_USE_PIPE=true
 fi
 
 make -j"$opt_jobs" bacon
@@ -192,10 +183,14 @@ tmin=$(( (t2-t1)/60 ))
 tsec=$(( (t2-t1)%60 ))
 
 echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
-echo -e ${bldred}"************************************************************************"${txtrst}
-echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
-echo -e ${bldylw}"Please remember that this source from pac-4.4 is currently for private builds ONLY!"${txtrst}
-echo -e ${bldylw}"Public builds from pac-4.4 are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
-echo -e ${bldylw}"It will be welcomed after nightlies begin. Thank you, the Developer.${txtrst}"${txtrst}
-echo -e ${bldred}"********************* PLEASE READ THIS!! *******************************"${txtrst}
-echo -e ${bldred}"************************************************************************"${txtrst}
+echo -e ${bldred}"************************************************************************************"${txtrst}
+echo -e ${bldred}"*********************************PLEASE READ THIS!!*********************************"${txtrst}
+echo -e ""
+echo -e ${bldylw}"       Please remember that this source is currently for private builds ONLY!"${txtrst}
+echo -e ""
+echo -e ${bldylw}"         Public builds are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
+echo -e ""
+echo -e ${bldylw}"       It will be welcomed after nightlies begin. Thank you, the Developers.${txtrst}"${txtrst}
+echo -e ""
+echo -e ${bldred}"*********************************PLEASE READ THIS!!*********************************"${txtrst}
+echo -e ${bldred}"************************************************************************************"${txtrst}
