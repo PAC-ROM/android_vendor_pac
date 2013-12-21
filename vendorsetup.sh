@@ -26,6 +26,7 @@ add_lunch_combo pac_m7vzw-userdebug
 add_lunch_combo pac_pico-userdebug
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
+add_lunch_combo pac_ruby-userdebug
 add_lunch_combo pac_runnymede-userdebug
 add_lunch_combo pac_saga-userdebug
 add_lunch_combo pac_shooter-userdebug

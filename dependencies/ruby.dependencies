@@ -1,12 +1,20 @@
 [
-  {
-    "repository": "android_device_htc_msm8660-common",
-    "target_path": "device/htc/msm8660-common",
-    "branch": "cm-10.1"
-  },
-  {
-    "repository": "android_kernel_htc_msm8660",
-    "target_path": "kernel/htc/msm8660",
-    "branch": "cm-10.1"
-  }
+    {
+        "account":      "JoseGalRe",
+        "repository":   "android_device_htc_ruby",
+        "target_path":  "device/htc/ruby",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "JoseGalRe",
+        "repository":   "android_kernel_htc_ruby",
+        "target_path":  "kernel/htc/ruby",
+        "revision":     "cm-10.2"
+    },
+    {
+        "account":      "JoseGalRe",
+        "repository":   "proprietary_vendor_htc_ruby",
+        "target_path":  "vendor/htc-extra/ruby",
+        "revision":     "cm-10.2"
+	}
 ]

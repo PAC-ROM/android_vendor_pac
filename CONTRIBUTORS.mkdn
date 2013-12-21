@@ -100,6 +100,7 @@ GOOGLE:
 
 HTC:
 ---------------------------------------------------------------------
+* __Amaze 4G (ruby) :__ JoseGalRe
 * __Desire HD (ace) :__ blindndumb
 * __Desire S (saga) :__ blindndumb
 * __Droid DNA (dlx) :__ pio_masaki
@@ -121,7 +122,6 @@ HTC:
 * __One XL (evita) :__ JoseGalRe
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
-* __Ruby (ruby) :__ Alexander Pohl
 * __Runnymede(runnymede) :__ onejay09
 * __Vivo (vivo) :__ blindndumb
 * __Wildfire S (marvel) :__ crossfire77
