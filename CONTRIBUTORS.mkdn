@@ -272,15 +272,15 @@ Sony:
 
 Sony Ericsson:
 ---------------------------------------------------------------------
-* __Live With Walkman (coconut) :__ singhdd93
-* __Xperia Active (satsuma) :__ singhdd93
-* __Xperia Arc (anzu) :__ garwedgess, singhdd93
-* __Xperia Mini (smultron) :__ singhdd93
-* __Xperia Mini Pro (mango) :__ szl.kiev, singhdd93
-* __Xperia Neo (hallon) :__ Druboo666, singhdd93
-* __Xperia Neo V (haida) :__ Druboo666, singhdd93
-* __Xperia Pro (iyokan) :__ singhdd93
-* __Xperia Ray (urushi) :__ szl.kiev, singhdd93, Wechy77
+* __Live With Walkman (coconut) :__ Langes
+* __Xperia Active (satsuma) :__ Langes
+* __Xperia Arc (anzu) :__ garwedgess, Langes
+* __Xperia Mini (smultron) :__ Langes
+* __Xperia Mini Pro (mango) :__ szl.kiev, Langes
+* __Xperia Neo (hallon) :__ Druboo666, Langes
+* __Xperia Neo V (haida) :__ Druboo666, Langes
+* __Xperia Pro (iyokan) :__ Langes
+* __Xperia Ray (urushi) :__ szl.kiev, Wechy77, Langes
 * __Xperia Play (zeus) :__ garwedgess
 
 
