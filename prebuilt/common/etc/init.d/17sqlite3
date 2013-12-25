@@ -1,34 +1,30 @@
 #!/system/bin/sh
-if $sqlite3
-for i in \
-`busybox find /data -iname "*.db"`; 
-do \
-	/system/xbin/sqlite3 $i 'VACUUM;'; 
-	/system/xbin/sqlite3 $i 'REINDEX;'; 
-done;
-
-if [ -d "/dbdata" ]; then
-	for i in \
-	`busybox find /dbdata -iname "*.db"`; 
-	do \
-		/system/xbin/sqlite3 $i 'VACUUM;'; 
-		/system/xbin/sqlite3 $i 'REINDEX;'; 
-	done;
+#
+. /system/etc/init.d.cfg
+LOG=/data/PACLogs/sqlite.log
+if [ -e $LOG ]; then
+	rm $LOG;
 fi;
 
-if [ -d "/datadata" ]; then
-	for i in \
-	`busybox find /datadata -iname "*.db"`; 
-	do \
-		/system/xbin/sqlite3 $i 'VACUUM;'; 
-		/system/xbin/sqlite3 $i 'REINDEX;'; 
+if $sqlite3; then
+	echo "SQLite database VACUUM and REINDEX started at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+	for i in `busybox find /d* -iname "*.db"`; do
+		/system/xbin/sqlite3 $i 'VACUUM;';
+		resVac=$?
+		if [ $resVac == 0 ]; then
+			resVac="SUCCESS";
+		else
+			resVac="ERRCODE-$resVac";
+		fi;
+		/system/xbin/sqlite3 $i 'REINDEX;';
+		resIndex=$?
+		if [ $resIndex == 0 ]; then
+			resIndex="SUCCESS";
+		else
+			resIndex="ERRCODE-$resIndex";
+		fi;
+		echo "Database $i:  VACUUM=$resVac  REINDEX=$resIndex" | tee -a $LOG;
 	done;
-fi;
-
-for i in \
-`busybox find /sdcard -iname "*.db"`; 
-do \
-	/system/xbin/sqlite3 $i 'VACUUM;'; 
-	/system/xbin/sqlite3 $i 'REINDEX;'; 
-done;
+	echo "SQLite database VACUUM and REINDEX finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+	echo "SQLite Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

@@ -1,26 +1,15 @@
 #!/system/bin/sh
-if $minfree
-if [ -e /sys/module/lowmemorykiller/parameters/adj ]; then
-	echo "0,1,2,4,6,15" > /sys/module/lowmemorykiller/parameters/adj
-fi
+#
+. /system/etc/init.d.cfg
 
-if [ -e /sys/module/lowmemorykiller/parameters/minfree ]; then
-	echo "2560,4096,6144,12288,14336,18432" > /sys/module/lowmemorykiller/parameters/minfree
-fi
-
-if [ -e /proc/sys/vm/swappiness ]; then
-	echo "10" > /proc/sys/vm/swappiness
-fi
-
-if [ -e /proc/sys/vm/vfs_cache_pressure ]; then
-	echo "50" > /proc/sys/vm/vfs_cache_pressure
-fi
-
-if [ -e /proc/sys/vm/dirty_ratio ]; then
-	echo "22" > /proc/sys/vm/dirty_ratio
-fi
-
-if [ -e /proc/sys/vm/dirty_background_ratio ]; then
-	echo "4" > /proc/sys/vm/dirty_background_ratio
-fi
+if $minfree; then
+	if [ -e /sys/module/lowmemorykiller/parameters ]; then
+		echo "10" > /proc/sys/vm/swappiness;
+		echo "22" > /proc/sys/vm/dirty_ratio;
+		echo "50" > /proc/sys/vm/vfs_cache_pressure;
+		echo "4" > /proc/sys/vm/dirty_background_ratio;
+		echo "0,1,2,4,6,15" > /sys/module/lowmemorykiller/parameters/adj;
+		echo "2560,4096,6144,12288,14336,18432" > /sys/module/lowmemorykiller/parameters/minfree;
+		echo "Minfree Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
+	fi
 fi

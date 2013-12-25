@@ -21,7 +21,7 @@
 . /system/etc/init.d.cfg
 . $script_helpers
 
-if $zipalign_apks
-then
-	zipalign_apks
+if $zipalign_apks; then
+	zipalign_apks;
+	echo "Zipalign Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

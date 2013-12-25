@@ -18,13 +18,22 @@
  =====================================================================
 '
 
+DIR=/data/PACLogs
+LOG=$DIR/tweaks.log
 cfg_file=/system/etc/init.d.cfg
 script_helpers=/system/etc/helpers.sh
 
+if [ ! -e $DIR ]; then
+	mkdir $DIR;
+fi;
+
+if [ -e $LOG ]; then
+	rm $LOG;
+fi;
+
 . $script_helpers
 
-if busybox [ ! -e $cfg_file ]
-then
+if busybox [ ! -e $cfg_file ]; then
 	sysrw
 	cat > $cfg_file << EOF
 # ============ Copyright (C) 2010 Jared Rummler (JRummy16) ============
@@ -48,14 +57,27 @@ then
 script_helpers=/system/etc/helpers.sh
 
 # booleans
-zipalign_apks=true
+zipalign_apks=false
 fix_permissions=false
-enable_sysctl=true
+enable_sysctl=false
 free_mem=false
 clear_data_cache=false
-enable_cron=true
-sd_boost=true
-file_system_speedups=true
+enable_cron=false
+sd_boost=false
+file_system_speedups=false
+battery=false
+touch=false
+minfree=false
+gpurender=false
+sleepers=false
+journalism=false
+sqlite3=false
+wifisleep=false
+iostats=false
+sentrenice=false
+tweaks=false
+speedy_modified=false
+loopy_smoothness_tweak=false
 
 # files
 sysctl_conf=/system/etc/sysctl.conf
@@ -76,4 +98,6 @@ read_ahead_kb=2048
 
 EOF
 	sysro
-fi
+fi;
+
+echo "PACman ROM Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;

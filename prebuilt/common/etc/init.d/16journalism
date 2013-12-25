@@ -1,9 +1,13 @@
 #!/system/bin/sh
-if $journalism
-tune2fs -o journal_data_writeback /block/path/to/system
-tune2fs -O ^has_journal /block/path/to/system
-tune2fs -o journal_data_writeback /block/path/to/cache
-tune2fs -O ^has_journal /block/path/to/cache
-tune2fs -o journal_data_writeback /block/path/to/data
-tune2fs -O ^has_journal /block/path/to/data
+#
+. /system/etc/init.d.cfg
+
+if $journalism; then
+	tune2fs -o journal_data_writeback /block/path/to/system;
+	tune2fs -O ^has_journal /block/path/to/system;
+	tune2fs -o journal_data_writeback /block/path/to/cache;
+	tune2fs -O ^has_journal /block/path/to/cache;
+	tune2fs -o journal_data_writeback /block/path/to/data;
+	tune2fs -O ^has_journal /block/path/to/data;
+	echo "Journalism Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

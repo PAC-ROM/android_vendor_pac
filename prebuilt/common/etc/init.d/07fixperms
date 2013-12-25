@@ -21,7 +21,7 @@
 . /system/etc/init.d.cfg
 . $script_helpers
 
-if $fix_permissions
-then
-	fix_permissions
+if $fix_permissions; then
+	fix_permissions;
+	echo "Fix Permisions Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

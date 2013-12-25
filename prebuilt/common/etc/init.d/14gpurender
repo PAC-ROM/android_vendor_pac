@@ -1,7 +1,11 @@
 #!/system/bin/sh
-if $gpurender
-sysrw
-rm /system/lib/egl/libGLES_android.so
-busybox sed -i '/0 0 android/d' /system/lib/egl/egl.cfg
-sysro
+#
+. /system/etc/init.d.cfg
+
+if $gpurender; then
+	sysrw;
+	rm /system/lib/egl/libGLES_android.so;
+	busybox sed -i '/0 0 android/d' /system/lib/egl/egl.cfg;
+	sysro;
+	echo "GPU Render Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

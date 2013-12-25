@@ -1,8 +1,12 @@
 #!/system/bin/sh
-if $touch
-echo "7025" > /sys/class/touch/switch/set_touchscreen;
-echo "8002" > /sys/class/touch/switch/set_touchscreen;
-echo "11001" > /sys/class/touch/switch/set_touchscreen;
-echo "13030" > /sys/class/touch/switch/set_touchscreen;
-echo "14005" > /sys/class/touch/switch/set_touchscreen;
+#
+. /system/etc/init.d.cfg
+
+if $touch; then
+	echo "7025" > /sys/class/touch/switch/set_touchscreen;
+	echo "8002" > /sys/class/touch/switch/set_touchscreen;
+	echo "11001" > /sys/class/touch/switch/set_touchscreen;
+	echo "13030" > /sys/class/touch/switch/set_touchscreen;
+	echo "14005" > /sys/class/touch/switch/set_touchscreen;
+	echo "Touch Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi

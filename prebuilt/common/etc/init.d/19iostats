@@ -1,7 +1,10 @@
 #!/system/bin/sh
-if $iostats
-if [ -e $i/queue/iostats ];
-	then
+#
+. /system/etc/init.d.cfg
+
+if $iostats; then
+	if [ -e $i/queue/iostats ]; then
 		echo "0" > $i/queue/iostats;
+		echo "IO Stats Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 	fi;
 fi

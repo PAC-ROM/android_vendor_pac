@@ -1,8 +1,10 @@
 #!/system/bin/sh
+#
+. /system/etc/init.d.cfg
 
-if $file_system_speedups
-then
-	busybox mount -o remount,noatime,barrier=0,nobh /system
-	busybox mount -o remount,noatime /data
-	busybox mount -o remount,noatime,barrier=0,nobh /cache
+if $file_system_speedups; then
+	busybox mount -o remount,noatime,barrier=0,nobh /system;
+	busybox mount -o remount,noatime /data;
+	busybox mount -o remount,noatime,barrier=0,nobh /cache;
+	echo "Ext4 Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
 fi
