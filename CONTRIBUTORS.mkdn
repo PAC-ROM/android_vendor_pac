@@ -259,8 +259,8 @@ Sony:
 * __Xperia Sola (pepper) :__ percy_g2
 * __Xperia SP (huashan) :__ jacknb1ack
 * __Xperia T (mint) :__ djpbx
-* __Xperia Tablet Z (pollux) :__ bluefa1con
-* __Xperia Tablet Z LTE (pollux_windy) :__ bluefa1con
+* __Xperia Tablet Z LTE (pollux) :__ bluefa1con
+* __Xperia Tablet Z (pollux_windy) :__ bluefa1con
 * __Xperia TX (hayabusa) :__ djpbx
 * __Xperia U (kumquat) :__ percy_g2
 * __Xperia V (tsubasa) :__ djpbx
