@@ -131,6 +131,8 @@ HUAWEI:
 
 LG:
 ---------------------------------------------------------------------
+* __G2 (d800) :__ gerrett84
+* __G2 (d802) :__ gerrett84
 * __G2 (Verizon) (vs980) :__ tucstwo
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ Owain94, zyonee
