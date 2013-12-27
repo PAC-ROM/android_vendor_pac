@@ -3,24 +3,24 @@
     "account":      "iurnait",
     "repository":   "android_vendor_samsung_venturi",
     "target_path":  "vendor/samsung-extra/venturi",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
     },
   {
     "account":      "iurnait",
     "repository":   "android_device_samsung_venturi",
     "target_path":  "device/samsung/venturi",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   },
   {
     "account":      "iurnait",
     "repository":   "android_kernel_samsung_venturi",
     "target_path":  "kernel/samsung/venturi",
-    "revision":     "3.0Venturi-cm10.2"
+    "revision":     "cm-11.0"
   },
   {
     "account":      "CyanogenMod",
     "repository":   "android_hardware_samsung",
     "target_path":  "hardware/samsung",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   }
 ]
