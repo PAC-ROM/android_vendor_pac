@@ -3,18 +3,18 @@
         "account":      "bilalliberty",
         "repository":   "android_device_htc_villec2",
         "target_path":  "device/htc/villec2",
-        "revision":     "cm10.2"
+        "revision":     "cm-11.0_3.4"
     },
     {
         "account":      "bilalliberty",
-        "repository":   "android_kernel_htc_villec2",
+        "repository":   "android_kernel_htc_liberty-villec2",
         "target_path":  "kernel/htc/villec2",
-        "revision":     "cm10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "bilalliberty",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc-extra/villec2",
-        "revision":     "cm10.2"
+        "revision":     "cm-11.0_3.4"
          }
 ]
