@@ -185,5 +185,7 @@ add_lunch_combo pac_tsubasa-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_zeus-userdebug
+# Xiaomi
+add_lunch_combo pac_aries-userdebug
 # ZTE
 add_lunch_combo pac_atlas40-userdebug
