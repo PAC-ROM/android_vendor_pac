@@ -197,4 +197,7 @@
     <vendor Name="ZTE">
         <device FullName="Blade 3" CodeName="atlas40"/>
     </vendor>
+    <vendor Name="Xiaomi">
+        <device FullName="MI 2" CodeName="aries"/>
+    </vendor>
 </devices>
