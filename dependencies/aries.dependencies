@@ -1,0 +1,24 @@
+[
+    {
+        "remote":       "github",
+        "account":      "M1cha",
+        "repository":   "android_device_xiaomi_aries",
+        "target_path":  "device/xiaomi/aries",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "M1cha",
+        "repository":   "android_kernel_xiaomi_aries",
+        "target_path":  "kernel/xiaomi/aries",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "M1cha",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "cm-11.0"
+    }
+]
+
