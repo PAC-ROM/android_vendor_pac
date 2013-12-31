@@ -1,0 +1,9 @@
+[
+    {
+        "remote":       "github",
+        "account":      "M1cha",
+        "repository":   "android_hardware_qcom_audio-caf",
+        "target_path":  "hardware/qcom/audio-caf",
+        "revision":     "cm-11.0"
+    }
+]

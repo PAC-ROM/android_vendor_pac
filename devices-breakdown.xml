@@ -194,6 +194,9 @@
         <device FullName="Xperia Ray" CodeName="urushi"/>
         <device FullName="Xperia Play" CodeName="zeus"/>
     </vendor>
+    <vendor Name="Xiaomi">
+        <device FullName="MI 2" CodeName="aries"/>
+    </vendor>
     <vendor Name="ZTE">
         <device FullName="Blade 3" CodeName="atlas40"/>
     </vendor>

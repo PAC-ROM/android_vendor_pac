@@ -156,6 +156,8 @@ add_lunch_combo pac_p990-userdebug
 add_lunch_combo pac_p920-userdebug
 add_lunch_combo pac_p970-userdebug
 add_lunch_combo pac_tass-userdebug
+# Xiaomi
+add_lunch_combo pac_aries-userdebug
 # Xperia
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug

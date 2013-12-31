@@ -8,6 +8,7 @@
 <manifest>
   <!-- Add new devices here -->
   <device name="ancora" priority="10" />
+  <device name="aries" priority="10" />
   <device name="ariesve" priority="10" />
   <device name="anzu" priority="10" />
   <device name="atlas40" priority="10" />
