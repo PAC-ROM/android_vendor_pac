@@ -21,7 +21,7 @@
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_elan",
         "target_path":  "vendor/elan",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TheMuppets",

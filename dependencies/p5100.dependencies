@@ -3,30 +3,30 @@
     "account":    "CyanogenMod",
     "repository": "android_device_samsung_p5100",
     "target_path": "device/samsung/p5100",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "CyanogenMod",
     "repository": "android_device_samsung_omap4-common",
     "target_path": "device/samsung/omap4-common",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "CyanogenMod",
     "repository": "android_kernel_samsung_espresso10",
     "target_path": "kernel/samsung/espresso10",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "CyanogenMod",
     "repository": "android_packages_apps_SamsungServiceMode",
     "target_path": "packages/apps/SamsungServiceMode",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "TheMuppets",
     "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   }
 ]

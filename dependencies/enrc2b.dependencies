@@ -4,27 +4,27 @@
         "account":      "CyanogenMod",
         "repository":   "android_device_htc_enrc2b",
         "target_path":  "device/htc/enrc2b",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
         "account":      "CyanogenMod",
         "repository":   "android_device_htc_tegra3-common",
         "target_path":  "device/htc/tegra3-common",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
         "account":      "CyanogenMod",
         "repository":   "android_kernel_htc_enrc2b",
         "target_path":  "kernel/htc/enrc2b",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
         "account":      "TheMuppets",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     }
 ]

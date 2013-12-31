@@ -4,27 +4,27 @@
       "account": "TheMuppets",
       "repository":  "proprietary_vendor_motorola",
       "target_path":  "vendor/motorola",
-      "revision":  "cm-10.2"
+      "revision":  "cm-11.0"
    },
     {
       "remote":  "github",
       "account": "CyanogenMod",
       "repository":  "android_device_motorola_maserati",
       "target_path":  "device/motorola/maserati",
-      "revision":  "cm-10.2"
+      "revision":  "cm-11.0"
    },
     {
       "remote":  "github",
       "account": "PAC-Motorola",
       "repository":  "android_device_motorola_omap4-common",
       "target_path":  "device/motorola/omap4-common",
-      "revision":  "cm-10.2"
+      "revision":  "cm-11.0"
    },
    {
       "remote":  "github",
       "account": "CyanogenMod",
       "repository":  "android_kernel_motorola_omap4-common",
       "target_path":  "kernel/motorola/omap4-common",
-      "revision":  "cm-10.2"
+      "revision":  "cm-11.0"
    }
 ]

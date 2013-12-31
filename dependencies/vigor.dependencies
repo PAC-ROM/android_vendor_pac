@@ -3,24 +3,24 @@
         "account":	"vigor",
         "repository":	"device_htc_vigor",
         "target_path":	"device/htc/vigor",
-        "revision":	"cm-10.2"
+        "revision":	"cm-11.0"
     },
     {
         "account":	"vigor",
         "repository":	"android_device_htc_msm8660-common",
         "target_path":	"device/htc/msm8660-common",
-        "revision":	"cm-10.2"
+        "revision":	"cm-11.0"
     },
     {
         "account":	"vigor",
         "repository":	"vigor_aosp_kernel",
         "target_path":	"kernel/htc/vigor-3.0",
-        "revision":	"cm-10.2"
+        "revision":	"cm-11.0"
     },
     {
         "account":	"vigor",
         "repository":	"vendor_htc_vigor",
         "target_path":	"vendor/htc/vigor",
-        "revision":	"cm-10.2"
+        "revision":	"cm-11.0"
     }
 ]

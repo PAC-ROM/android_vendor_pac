@@ -19,6 +19,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="a700" priority="10" />
   <device name="captivatemtd" priority="10" />
   <device name="crespo" priority="10" />
   <device name="d2att" priority="10" />
@@ -35,8 +36,9 @@
   <device name="deb" priority="10" />
   <device name="dlx" priority="10" />
   <device name="e970" priority="10" />
+  <device name="e973" priority="10" />
   <device name="e975" priority="10" />
-  <device name="edison" priority="10" />
+<!--  <device name="edison" priority="10" /> -->
 <!-- device name="endeavoru" priority="10" -->
 <!-- device name="enrc2b" priority="10" -->
   <device name="epicmtd" priority="10" />
@@ -63,8 +65,8 @@
   <device name="i777" priority="10" />
   <device name="i9100" priority="10" />
   <device name="i9100g" priority="10" />
-  <device name="i9103" priority="10" />
-  <device name="i927" priority="10" />
+<!--  <device name="i9103" priority="10" /> -->
+<!--  <device name="i927" priority="10" /> -->
   <device name="i9300" priority="10" />
   <device name="i9305" priority="10" />
 <!--  <device name="i9500" priority="10" /> -->
@@ -93,8 +95,8 @@
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mb886" priority="10" />
   <device name="mint" priority="10" />
-<!--  <device name="n5100" priority="10" /> -->
-<!--  <device name="n5110" priority="10" /> -->
+  <device name="n5100" priority="10" />
+  <device name="n5110" priority="10" />
   <device name="n7000" priority="10" />
   <device name="n7100" priority="10" />
   <device name="n8000" priority="10" />
@@ -102,8 +104,8 @@
   <device name="odin" priority="10" />
   <device name="otter" priority="10" />
   <device name="otter2" priority="10" />
-  <device name="p760" priority="10" />
-  <device name="p880" priority="10" />
+<!--  <device name="p760" priority="10" /> -->
+<!--  <device name="p880" priority="10" /> -->
 <!--  <device name="p920" priority="10" /> -->
   <device name="p930" priority="10" />
 <!--  <device name="p990" priority="10" /> -->
@@ -122,7 +124,7 @@
   <device name="skyrocket" priority="10" />
 <!--  <device name="solana" priority="10" /> -->
   <device name="spyder" priority="10" />
-  <device name="steelhead" priority="10" />
+<!--  <device name="steelhead" priority="10" /> -->
 <!--  <device name="su640" priority="10" /> -->
   <device name="t0lte" priority="10" />
   <device name="t0lteatt" priority="10" />
@@ -130,7 +132,7 @@
   <device name="t769" priority="10" />
   <device name="targa" priority="10" />
   <device name="tate" priority="10" />
-  <device name="tf201" priority="10" />
+<!--  <device name="tf201" priority="10" /> -->
   <device name="tf300t" priority="10" />
   <device name="tf700t" priority="10" />
   <device name="tilapia" priority="10" />

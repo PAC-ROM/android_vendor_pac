@@ -4,20 +4,20 @@
     "account": "TheMuppets",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
-    "revision": "cm-10.2"
+    "revision": "cm-11.0"
   },
   {
     "remote": "github",
-    "account": "maxwen",
+    "account": "CyanogenMod",
     "repository": "android_device_oppo_find5",
     "target_path": "device/oppo/find5",
-    "revision": "cm-10.2"
+    "revision": "cm-11.0"
   },
   {
     "remote": "github",
-    "account": "maxwen",
+    "account": "CyanogenMod",
     "repository": "android_kernel_oppo_find5",
     "target_path": "kernel/oppo/find5",
-    "revision": "jb-mr2"
+    "revision": "cm-11.0"
  }
 ]

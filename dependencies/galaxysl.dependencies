@@ -3,18 +3,18 @@
     "account":    "dhiru1602",
     "repository": "android_device_samsung_galaxysl",
     "target_path": "device/samsung/galaxysl",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "dhiru1602",
     "repository": "android_kernel_samsung_latona",
     "target_path": "kernel/samsung/latona",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "dhiru1602",
     "repository": "android_vendor_samsung_galaxysl",
     "target_path": "vendor/samsung-extra/galaxysl",
-    "revision":    "cm-10.2"
+    "revision":    "cm-11.0"
   }
 ]

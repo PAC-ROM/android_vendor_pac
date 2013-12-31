@@ -133,6 +133,8 @@ HUAWEI:
 ---------------------------------------------------------------------
 * __Honor (u8860) :__ herna
 * __Ideos X5 PRO (u8800pro) :__ herna
+* __Ascend G510 (u8951) :__ Dazzozo, eloimuns
+* __Ascend Y300 (u8833) :__ Dazzozo, eloimuns
 
 
 LG:
@@ -151,6 +153,7 @@ LG:
 * __Optimus L9 (p760) :__ adamz667
 * __Optimus LTE (su640) :__ tdm.code
 * __Optimus G (e970) :__ neighborhoodhacker
+* __Optimus G (e973) :__ haze028
 * __Optimus G (e975) :__ faust93
 * __Optimus G (ls970) (Sprint):__ spleef, neighborhoodhacker
 * __Optimus One (p500) :__ OldDroid
@@ -296,7 +299,7 @@ ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
-Total Devices: 175
+Total Devices: 176
 
 Best regards
      szl.kiev
