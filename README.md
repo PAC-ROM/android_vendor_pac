@@ -64,7 +64,7 @@ If you happen to mess up, which happens often, please use git commit --amend to 
    - Used to either find your correct overlays already created or create your own
    - If you have added your device to an overlay in the .mk file then you must create your own.
    - We have ones premade for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these
-   
+
 10. Vendor Hack (if needed)
    - Used if your vendor files are not stored on theMuppets
    - Uses these two links to find how the vendor hack is setup
