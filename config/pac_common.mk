@@ -33,6 +33,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
 
+# Host File Manager
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/pac/prebuilt/common/etc/hosts.og:system/etc/hosts.og
+
 # Device Overlays
 ifeq ($(PAC_USE_OVERLAYS),true)
     PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/device/$(TARGET_DEVICE)
