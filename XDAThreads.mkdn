@@ -1,4 +1,5 @@
 <div>
+<a href="http://forum.xda-developers.com/showthread.php?t=2510004">Acer a700:			a700		semhoun</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2256194">Atrix 2:             	    edison          ravikirancg</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2266322">Atrix HD:                   mb886           skeevy420</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306451">Droid 4 (Verizon):         	maserati        Bkjolly</a>

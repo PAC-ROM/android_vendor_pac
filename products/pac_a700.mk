@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_a700
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/ldpi
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
