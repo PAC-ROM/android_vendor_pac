@@ -30,7 +30,7 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "LegacyXperia",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
         "revision":     "cm-10.2"
