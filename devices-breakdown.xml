@@ -18,6 +18,7 @@
         <device FullName="Nexus Q" CodeName="steelhead"/>
     </vendor>
     <vendor Name="HTC">
+        <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Desire HD" CodeName="ace"/>
         <device FullName="Desire S" CodeName="saga"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
@@ -27,6 +28,7 @@
         <device FullName="Evo LTE" CodeName="jewel"/>
         <device FullName="Explorer" CodeName="pico"/>
         <device FullName="Evo V" CodeName="shootervm"/>
+        <device FullName="MyTouch 4G" CodeName="glacier"/>
         <device FullName="One (ATT)" CodeName="m7att"/>
         <device FullName="One (GSM)" CodeName="m7ul"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
@@ -39,9 +41,8 @@
         <device FullName="One XL" CodeName="evita"/>
         <device FullName="One V" CodeName="primo"/>
         <device FullName="Rezound" CodeName="vigor"/>
-        <device FullName="Ruby" CodeName="ruby"/>
         <device FullName="Runnymede" CodeName="runnymede"/>
-	<device FullName="Sensation" CodeName="pyramid"/>
+        <device FullName="Sensation" CodeName="pyramid"/>
         <device FullName="Vivo" CodeName="vivo"/>
         <device FullName="Wildfire S" CodeName="marvel"/>
     </vendor>

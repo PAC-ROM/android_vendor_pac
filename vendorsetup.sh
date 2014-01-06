@@ -14,6 +14,7 @@ add_lunch_combo pac_fireball-userdebug
 add_lunch_combo pac_endeavoru-userdebug
 add_lunch_combo pac_enrc2b-userdebug
 add_lunch_combo pac_evita-userdebug
+add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_marvel-userdebug
 add_lunch_combo pac_m7ul-userdebug
@@ -25,6 +26,7 @@ add_lunch_combo pac_pico-userdebug
 add_lunch_combo pac_primoc-userdebug
 add_lunch_combo pac_primou-userdebug
 add_lunch_combo pac_pyramid-userdebug
+add_lunch_combo pac_ruby-userdebug
 add_lunch_combo pac_runnymede-userdebug
 add_lunch_combo pac_saga-userdebug
 add_lunch_combo pac_shooter-userdebug

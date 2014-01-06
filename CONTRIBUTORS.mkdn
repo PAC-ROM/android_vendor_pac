@@ -102,6 +102,7 @@ GOOGLE:
 
 HTC:
 ---------------------------------------------------------------------
+* __Amaze 4G (ruby) :__ JoseGalRe
 * __Desire HD (ace) :__ blindndumb
 * __Desire S (saga) :__ blindndumb
 * __Droid DNA (dlx) :__ pio_masaki
@@ -111,6 +112,7 @@ HTC:
 * __Evo LTE (jewel) :__ jamieg71
 * __Explorer (pico) :__ NiharG
 * __Evo V (shootervm) :__ cmbaughman
+* __MyTouch 4G (glacier) :__ JoseGalRe
 * __One (AT&T) (m7att) :__ MaDc0w
 * __One (GSM)(m7ul) :__ MaDc0w
 * __One (Sprint) (m7spr) :__ MallardDuck
@@ -120,10 +122,9 @@ HTC:
 * __One S C2 (villec2) :__ dominos_liberty
 * __One X (endeavoru) :__ P.A.C.
 * __One X+ (enrc2b) :__ P.A.C.
-* __One X (evita) :__ P.A.C.
+* __One XL (evita) :__ JoseGalRe
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
-* __Ruby (ruby) :__ Alexander Pohl
 * __Runnymede(runnymede) :__ onejay09
 * __Sensation (pyramid) :__ dominos_liberty
 * __Vivo (vivo) :__ blindndumb
@@ -305,7 +306,7 @@ ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
-Total Devices: 177
+Total Devices: 178
 
 Best regards
      szl.kiev

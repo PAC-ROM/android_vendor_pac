@@ -1,0 +1,37 @@
+[
+	{
+		"remote":       "github",
+		"account":      "Team-Hydra",
+		"repository":   "android_hardware_qcom_audio-caf",
+		"target_path":  "hardware/qcom/audio-caf",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "LegacyXperia",
+		"repository":   "android_hardware_qcom_audio-legacy",
+		"target_path":  "hardware/qcom/audio-legacy",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "Team-Hydra",
+		"repository":   "android_hardware_qcom_display-legacy",
+		"target_path":  "hardware/qcom/display-legacy",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "Team-Hydra",
+		"repository":   "android_hardware_qcom_media-legacy",
+		"target_path":  "hardware/qcom/media-legacy",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "Team-Hydra",
+		"repository":   "android_hardware_qcom_gps-legacy",
+		"target_path":  "hardware/qcom/gps-legacy",
+		"revision":     "cm-11.0"
+	}
+]
