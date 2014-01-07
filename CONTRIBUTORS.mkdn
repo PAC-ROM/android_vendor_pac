@@ -110,6 +110,7 @@ HTC:
 * __Evo LTE (jewel) :__ jamieg71
 * __Explorer (pico) :__ NiharG
 * __Evo V (shootervm) :__ cmbaughman
+* __MyTouch 4G (glacier) :__ JoseGalRe
 * __One (AT&T) (m7att) :__ MaDc0w
 * __One (GSM)(m7ul) :__ MaDc0w
 * __One (Sprint) (m7spr) :__ MallardDuck
@@ -299,7 +300,7 @@ Xiaomi:
 ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
-Total Devices: 174
+Total Devices: 175
 
 Best regards
      szl.kiev

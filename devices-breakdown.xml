@@ -28,6 +28,7 @@
         <device FullName="Evo LTE" CodeName="jewel"/>
         <device FullName="Explorer" CodeName="pico"/>
         <device FullName="Evo V" CodeName="shootervm"/>
+        <device FullName="MyTouch 4G" CodeName="glacier"/>
         <device FullName="One (ATT)" CodeName="m7att"/>
         <device FullName="One (GSM)" CodeName="m7ul"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>

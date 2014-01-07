@@ -1,0 +1,18 @@
+[
+	{
+		"name":     "androidarmv6/android_hardware_qcom_media_legacy",
+		"path":     "hardware/qcom/media-legacy"
+	},
+	{
+		"name":     "androidarmv6/android_hardware_qcom_display-legacy",
+		"path":     "hardware/qcom/display-legacy"
+	},
+	{
+		"name":     "android_hardware_qcom_audio-caf",
+		"path":     "hardware/qcom/audio-caf"
+	},
+	{
+		"name":     "android_hardware_qcom_gps-legacy",
+		"path":     "hardware/qcom/gps-legacy"
+	}
+]
