@@ -103,6 +103,7 @@ add_lunch_combo pac_fascinatemtd-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_galaxysl-userdebug
 add_lunch_combo pac_hercules-userdebug
+add_lunch_combo pac_hltetmo-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i777-userdebug
 add_lunch_combo pac_i927-userdebug
