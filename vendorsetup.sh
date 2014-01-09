@@ -37,8 +37,10 @@ add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_villec2-userdebug
 add_lunch_combo pac_vivo-userdebug
 # Huawei
+add_lunch_combo pac_u8833-userdebug
 add_lunch_combo pac_u8860-userdebug
 add_lunch_combo pac_u8800pro-userdebug
+add_lunch_combo pac_u8951-userdebug
 # LGE
 add_lunch_combo pac_d800-userdebug
 add_lunch_combo pac_d802-userdebug
