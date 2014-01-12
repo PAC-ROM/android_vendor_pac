@@ -60,6 +60,7 @@
 <!--  <device name="hayabusa" priority="10" /> -->
   <device name="hercules" priority="10" />
   <device name="hltetmo" priority="10" />
+  <device name="hltexx" priority="10" />
   <device name="honami" priority="10" />
   <device name="huashan" priority="10" />
   <device name="i605" priority="10" />

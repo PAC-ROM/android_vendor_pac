@@ -121,6 +121,7 @@
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
         <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>
+        <device FullName="Galaxy Note 3 (International)" CodeName="hltexx"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Note 10.1 (GSM)" CodeName="N8013"/>
