@@ -108,6 +108,8 @@
         <device FullName="Galaxy Exibit (Wind/Videotron)" CodeName="codinavid"/>
         <device FullName="Galaxy Fit" CodeName="beni"/>
         <device FullName="Galaxy Gio" CodeName="gio"/>
+        <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
+        <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
         <device FullName="Galaxy Mini" CodeName="tass"/>
         <device FullName="Galaxy Nexus" CodeName="maguro"/>
         <device FullName="Galaxy Nexus" CodeName="toro"/>

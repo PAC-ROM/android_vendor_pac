@@ -94,6 +94,8 @@
   <device name="mako" priority="10" />
   <device name="manta" priority="10" />
   <device name="maserati" priority="10" />
+  <device name="melius3gxx" priority="10" />
+  <device name="meliusltexx" priority="10" />
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mb886" priority="10" />
   <device name="mint" priority="10" />

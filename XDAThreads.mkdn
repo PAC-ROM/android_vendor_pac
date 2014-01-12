@@ -20,6 +20,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:          fascinatemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Showcase:          showcasemtd         Unjustifed Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Mesmerize:          mesmerizemtd         Unjustifed Dev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=xxxxxxx">Galaxy Mega 6.3 (GSM/LTE):               melius3gxx/meliusltexx          Grarak, Silesh.Nair</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1978991">Galaxy Nexus:               maguro          Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306416">Galaxy Nexus:               toro            Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306439">Galaxy Nexus:               toroplus        Bkjolly</a>
