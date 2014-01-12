@@ -1,8 +1,8 @@
 # use AOSP default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-  ro.config.ringtone=Themos.ogg \
-  ro.config.notification_sound=Proxima.ogg \
-  ro.config.alarm_alert=Cesium.ogg
+    ro.config.ringtone=Themos.ogg \
+    ro.config.notification_sound=Proxima.ogg \
+    ro.config.alarm_alert=Cesium.ogg
 
 # Copy specific ROM files
 #PRODUCT_COPY_FILES += \
@@ -10,9 +10,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+    vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
 # Using Custom ReleaseRool
 TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/releasetools/ota_from_target_files
@@ -22,12 +22,14 @@ include vendor/pac/config/themes_common.mk
 
 # Screen recorder
 PRODUCT_PACKAGES += \
-    ScreenRecorder \
-    libscreenrecorder
+    libscreenrecorder \
+    ScreenRecorder
 
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
+    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg \
     vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
     vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
@@ -51,9 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/init.d/24speedy_modified:system/etc/init.d/24speedy_modified \
     vendor/pac/prebuilt/common/etc/init.d/25loopy_smoothness_tweak:system/etc/init.d/25loopy_smoothness_tweak \
     vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
-    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
-    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg
+    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
 # Added xbin files
 PRODUCT_COPY_FILES += \
@@ -63,10 +63,9 @@ PRODUCT_COPY_FILES += \
 # PAC Packages
 PRODUCT_PACKAGES += \
     GooglePacman \
-    PacPapers \
-    PacStats \
+    PacConsole \
     Paclauncher \
-    PacConsole
+    PacPapers
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
