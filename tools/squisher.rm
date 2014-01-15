@@ -2,6 +2,7 @@ system/app/CMAccount.apk
 system/app/CMUpdater.apk
 system/app/CMWallpapers.apk
 system/app/PinyinIME.apk
+system/vendor/etc/audio_effects.conf
 system/etc/init.d/00banner
 system/media/video/AndroidInSpace.240p.mp4
 system/media/video/AndroidInSpace.480p.mp4

@@ -21,8 +21,8 @@ else
 fi
 
 if [ -z "$OUT" -o ! -d "$OUT" ]; then
-	echo -e ${red}"ERROR: $0 only works with a full build environment. $OUT should exist."${txtrst}
-	exit 1
+    echo -e ${red}"ERROR: $0 only works with a full build environment. $OUT should exist."${txtrst}
+    exit 1
 fi
 
 if [ "$TARGET_BUILD_TYPE" = "debug" ]; then
@@ -33,8 +33,8 @@ else
     OTAPACKAGE=$OUT/$TARGET_PRODUCT-ota-$TARGET_BUILD_VARIANT.$USER.zip
 fi
 if [ ! -f "$OTAPACKAGE" ]; then
-	echo -e ${red}"$OTAPACKAGE doesn't exist!"${txtrst};
-	exit 1
+    echo -e ${red}"$OTAPACKAGE doesn't exist!"${txtrst};
+    exit 1
 fi
 
 OPTICHARGER=$ANDROID_BUILD_TOP/vendor/pac/tools/opticharger
@@ -64,22 +64,22 @@ find ./ -name \*.apk | $XARGS $OPTICHARGER
 
 # Fix build.prop
 $SED -i \
-	-e '/ro\.kernel\.android\.checkjni/d' \
-	-e '/ro\.build\.type/s/eng/user/' \
-	$REPACK/ota/system/build.prop
+    -e '/ro\.kernel\.android\.checkjni/d' \
+    -e '/ro\.build\.type/s/eng/user/' \
+    $REPACK/ota/system/build.prop
 
 # Delete PAC specific files
 if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/squisher.rm ]; then
-	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/squisher.rm`; do
-		rm -f $REPACK/ota/$RM_FILE
-	done
+    for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/squisher.rm`; do
+        rm -f $REPACK/ota/$RM_FILE
+    done
 fi
 
 # Delete target product specific files
 if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm ]; then
-	for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm`; do
-		rm -f $REPACK/ota/$RM_FILE
-	done
+    for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm`; do
+        rm -f $REPACK/ota/$RM_FILE
+    done
 fi
 
 # Delete unnecessary binaries
@@ -90,24 +90,32 @@ rm -rf $REPACK/ota/recovery
 
 # Strip modules
 [ -d $REPACK/ota/system/lib/modules ] && \
-	find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
+    find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
 
 # Determine what to name the new signed package
 if [ -z "$CYANOGEN_NIGHTLY" ]; then
-	PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
-	ABIGEN=`grep 'ro.product.cpu.abi=' $REPACK/ota/system/build.prop | sed -e 's/ro.product.cpu.abi=//g'`
-	OUTFILE=$OUT/$PACVERSION.zip
-	echo -e ""; echo -e "${bldgrn}P${bldppl}A${bldblu}C${bldylw}-VERSION${txtrst}:${cya} $PACVERSION"${txtrst}; echo -e ""
+    PACVERSION=`grep 'ro.pacrom.version=' $REPACK/ota/system/build.prop | sed -e 's/ro.pacrom.version=//g'`
+    ABIGEN=`grep 'ro.product.cpu.abi=' $REPACK/ota/system/build.prop | sed -e 's/ro.product.cpu.abi=//g'`
+    OUTFILE=$OUT/$PACVERSION.zip
+    echo -e ""; echo -e "${bldgrn}P${bldppl}A${bldblu}C${bldylw}-VERSION${txtrst}:${cya} $PACVERSION"${txtrst}; echo -e ""
 else
-	OUTFILE=$OUT/update-squished.zip
+    OUTFILE=$OUT/update-squished.zip
 fi
 
-
-
 if [ -n $ABIGEN ]; then
-	echo ${cya}"Packing in Pre-Built Libs for CPU Variant:${ylw}$ABIGEN"${txtrst}
-	cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/libs/$ABIGEN/libbypass.so $REPACK/ota/system/lib/libbypass.so
-	echo ""
+    echo ${cya}"Packing in Pre-Built Libs for CPU Variant:${ylw}$ABIGEN"${txtrst}
+    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/libs/$ABIGEN/libbypass.so $REPACK/ota/system/lib/libbypass.so
+    echo ""
+fi
+
+if [ "$TARGET_PRODUCT" = "pac_hammerhead" ]; then
+    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_hammerhead.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+elif [ "$TARGET_PRODUCT" = "pac_flo" ]; then
+    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_flo.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+elif [ "$TARGET_PRODUCT" = "pac_mako" ]; then
+    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_mako.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+else
+    cp ${ANDROID_BUILD_TOP}/packages/apps/DSPManager/cyanogen-dsp/audio_effects.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
 fi
 
 # Pack it up and sign
@@ -116,9 +124,9 @@ echo -e ${grn}"Zipping package..."${txtrst}
 echo -e ${grn}"Signing package..."${txtrst}
 SECURITYDIR=$ANDROID_BUILD_TOP/build/target/product/security
 java -Xmx1024m \
-	-jar $OUTDIR/host/$OUT_TARGET_HOST/framework/signapk.jar \
-	-w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 \
-	$REPACK/update.zip $OUTFILE
+    -jar $OUTDIR/host/$OUT_TARGET_HOST/framework/signapk.jar \
+    -w $SECURITYDIR/testkey.x509.pem $SECURITYDIR/testkey.pk8 \
+    $REPACK/update.zip $OUTFILE
 echo -e ${grn}"Cleaning up..."${txtrst}
 rm -rf $REPACK
 
