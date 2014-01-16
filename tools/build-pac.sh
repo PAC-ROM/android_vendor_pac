@@ -17,6 +17,7 @@ usage()
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
     echo -e "        1 (Os) or 3 (O3)"
+    echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
     echo -e "    ./build-pac.sh -c mako"
@@ -86,8 +87,9 @@ opt_jobs="$CPUS"
 opt_sync=0
 opt_pipe=0
 opt_olvl=0
+opt_verbose=0
 
-while getopts "cdfij:pso:" opt; do
+while getopts "cdfij:pso:v" opt; do
     case "$opt" in
     c) opt_clean=1 ;;
     d) opt_dex=1 ;;
@@ -97,6 +99,7 @@ while getopts "cdfij:pso:" opt; do
     s) opt_sync=1 ;;
     p) opt_pipe=1 ;;
     o) opt_olvl="$OPTARG" ;;
+    v) opt_verbose=1 ;;
     *) usage
     esac
 done
@@ -195,7 +198,11 @@ else
     echo -e ""
 fi
 
+if [ "$opt_verbose" -ne 0 ]; then
+make -j"$opt_jobs" showcommands bacon
+else
 make -j"$opt_jobs" bacon
+fi
 echo -e ""
 
 # squisher
