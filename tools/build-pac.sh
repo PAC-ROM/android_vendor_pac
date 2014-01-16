@@ -14,6 +14,9 @@ usage()
     echo -e "    -j# Set jobs"
     echo -e "    -s  Sync before build"
     echo -e "    -p  Build using pipe"
+    echo -e "    -o# Select GCC O Level"
+    echo -e "        Valid O Levels are"
+    echo -e "        1 (Os) or 3 (O3)"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
     echo -e "    ./build-pac.sh -c mako"
@@ -82,8 +85,9 @@ opt_initlogo=0
 opt_jobs="$CPUS"
 opt_sync=0
 opt_pipe=0
+opt_olvl=0
 
-while getopts "cdfij:ps" opt; do
+while getopts "cdfij:pso:" opt; do
     case "$opt" in
     c) opt_clean=1 ;;
     d) opt_dex=1 ;;
@@ -92,6 +96,7 @@ while getopts "cdfij:ps" opt; do
     j) opt_jobs="$OPTARG" ;;
     s) opt_sync=1 ;;
     p) opt_pipe=1 ;;
+    o) opt_olvl="$OPTARG" ;;
     *) usage
     esac
 done
@@ -172,6 +177,22 @@ fi
 
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
+fi
+
+if [ "$opt_olvl" -eq 1 ]; then
+    export TARGET_USE_O_LEVEL_S=true
+    echo -e ""
+    echo -e ${bldgrn}"Using Os Optimization"${txtrst}
+    echo -e ""
+elif [ "$opt_olvl" -eq 3 ]; then
+    export TARGET_USE_O_LEVEL_3=true
+    echo -e ""
+    echo -e ${bldgrn}"Using O3 Optimization"${txtrst}
+    echo -e ""
+else
+    echo -e ""
+    echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
+    echo -e ""
 fi
 
 make -j"$opt_jobs" bacon
