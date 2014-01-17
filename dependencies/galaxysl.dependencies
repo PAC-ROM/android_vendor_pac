@@ -12,9 +12,9 @@
     "revision":    "cm-11.0"
   },
   {
-    "account":    "dhiru1602",
-    "repository": "android_vendor_samsung_galaxysl",
-    "target_path": "vendor/samsung-extra/galaxysl",
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "android_vendor_samsung",
+    "target_path": "vendor/samsung",
     "revision":    "cm-11.0"
   }
 ]

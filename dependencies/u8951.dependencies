@@ -29,9 +29,9 @@
     },
     {
         "remote":       "github",
-        "account":      "Dazzozo",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_huawei",
         "target_path":  "vendor/huawei",
-        "revision":     "kitkat"
+        "revision":     "cm-11.0"
     }
 ]

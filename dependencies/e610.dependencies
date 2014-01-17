@@ -18,7 +18,7 @@
         "revision":     "android-msm-3.4-kk-exp"
     },
     {
-        "account":      "TeamHackLG",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "cm-11.0"

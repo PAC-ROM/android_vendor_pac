@@ -12,9 +12,9 @@
         "revision":     "master"
     },
     {
-        "account":      "bilalliberty",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "android_vendor_htc",
-        "target_path":  "vendor/htc-extra/pyramid",
+        "target_path":  "vendor/htc",
         "revision":     "cm-11.0"
          }
 ]

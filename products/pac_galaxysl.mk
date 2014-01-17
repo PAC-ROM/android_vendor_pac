@@ -25,9 +25,6 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/galaxysl/cm.mk)
 
-# vendor hack
-$(call vendor-replace,samsung,galaxysl)
-
 PRODUCT_NAME := pac_galaxysl
 
 # Update local_manifest.xml

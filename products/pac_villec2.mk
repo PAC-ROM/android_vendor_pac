@@ -14,9 +14,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# vendor hack
-$(call vendor-replace,htc,villec2)
-
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 

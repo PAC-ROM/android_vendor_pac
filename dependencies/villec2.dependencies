@@ -12,9 +12,9 @@
         "revision":     "cm-11.0"
     },
     {
-        "account":      "bilalliberty",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_htc",
-        "target_path":  "vendor/htc-extra/villec2",
-        "revision":     "cm-11.0_3.4"
+        "target_path":  "vendor/htc",
+        "revision":     "cm-11.0"
          }
 ]

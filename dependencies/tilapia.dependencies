@@ -6,43 +6,43 @@
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_asus",
         "target_path":  "vendor/asus",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_broadcom",
         "target_path":  "vendor/broadcom",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_elan",
         "target_path":  "vendor/elan",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_invensense",
         "target_path":  "vendor/invensense",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_nvidia",
         "target_path":  "vendor/nvidia",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_nxp",
         "target_path":  "vendor/nxp",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
         "revision":     "cm-11.0"

@@ -19,9 +19,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
-# vendor hack
-$(call vendor-replace,htc,glacier)
-
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 

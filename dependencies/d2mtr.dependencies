@@ -36,7 +36,7 @@
   },
   {
     "remote": "github",
-    "account": "TheMuppets",
+    "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "revision": "cm-11.0"

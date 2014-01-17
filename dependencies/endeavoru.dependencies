@@ -22,7 +22,7 @@
     },
     {
         "remote":       "github",
-        "account":      "TheMuppets",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
         "revision":     "cm-11.0"

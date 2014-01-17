@@ -42,7 +42,7 @@
     "revision":     "cm-11.0"
   },
   {
-    "account":      "TheMuppets",
+    "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-11.0"

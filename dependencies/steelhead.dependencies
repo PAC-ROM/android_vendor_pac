@@ -1,6 +1,6 @@
 [
   {
-    "account":      "TheMuppets",
+    "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_google",
     "target_path":  "vendor/google",
     "revision":     "cm-10.2"

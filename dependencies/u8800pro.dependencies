@@ -18,10 +18,10 @@
         "revision":     "cm10.2"
     },
     {
-        "account":      "Herna1994",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_huawei",
         "target_path":  "vendor/huawei",
-        "revision":     "cm10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "Herna1994",

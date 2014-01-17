@@ -24,9 +24,6 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/i9500/cm.mk)
 
-# vendor hack
-$(call vendor-replace,samsung,i9500)
-
 PRODUCT_NAME := pac_i9500
 
 # Update local_manifest.xml

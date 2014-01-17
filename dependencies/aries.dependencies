@@ -15,10 +15,10 @@
     },
     {
         "remote":       "github",
-        "account":      "M1cha",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi-extra/aries",
-        "revision":     "pac-4.4"
+        "target_path":  "vendor/xiaomi",
+        "revision":     "cm-11.0"
     }
 ]
 

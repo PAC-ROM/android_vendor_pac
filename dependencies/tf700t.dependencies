@@ -12,7 +12,7 @@
       "revision":  "cm-11.0"
    },
    {
-      "account": "TheMuppets",
+      "account": "Pinky-Inky-and-Clyde",
       "repository": "proprietary_vendor_asus",
       "target_path": "vendor/asus",
       "revision": "cm-11.0"

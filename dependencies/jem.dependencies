@@ -1,7 +1,7 @@
 [
   {
     "remote":       "github",
-    "account":      "TheMuppets",
+    "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_amazon",
     "target_path":  "vendor/amazon",
     "revision":     "cm-11.0"

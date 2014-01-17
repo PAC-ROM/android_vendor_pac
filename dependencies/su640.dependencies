@@ -22,7 +22,7 @@
   },
   {
     "remote": "github",
-    "account": "TheMuppets",
+    "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision": "cm-10.1"

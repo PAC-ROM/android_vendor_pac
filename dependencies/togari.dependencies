@@ -2,7 +2,7 @@
 [
   {
     "remote": "github",
-    "account": "TheMuppets",
+    "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_sony",
     "target_path": "vendor/sony",
     "revision": "cm-11.0"

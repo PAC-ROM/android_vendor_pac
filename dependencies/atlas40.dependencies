@@ -3,19 +3,19 @@
         "account":      "KonstaT",
         "repository":   "android_device_zte_atlas40",
         "target_path":  "device/zte/atlas40",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
-        "account":      "KonstaT",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_zte",
-        "target_path":  "vendor/zte/atlas40",
-        "revision":     "cm-10.2"
+        "target_path":  "vendor/zte",
+        "revision":     "cm-11.0"
     }
 
     {
         "account":      "KonstaT",
         "repository":   "android_kernel_zte_msm7x27a",
         "target_path":  "kernel/zte/msm7x27a",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     }
 ]

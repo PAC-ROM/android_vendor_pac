@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "account": "TheMuppets",
+    "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_oppo",
     "target_path": "vendor/oppo",
     "revision": "cm-11.0"

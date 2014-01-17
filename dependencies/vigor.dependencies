@@ -19,8 +19,8 @@
     },
     {
         "account":	"vigor",
-        "repository":	"vendor_htc_vigor",
-        "target_path":	"vendor/htc/vigor",
+        "repository":	"proprietary_vendor_htc",
+        "target_path":	"vendor/htc",
         "revision":	"cm-11.0"
     }
 ]

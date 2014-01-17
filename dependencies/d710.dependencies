@@ -1,12 +1,12 @@
 [
   {
-    "account":      "TheMuppets",
+    "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-11.0"
     },
   {
-    "account":      "Team-Hydra",
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_d710",
     "target_path":  "device/samsung/d710",
     "revision":     "cm-11.0"

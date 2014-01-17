@@ -18,7 +18,7 @@
     "revision":    "cm-11.0"
   },
   {
-    "account":    "TheMuppets",
+    "account":    "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_acer",
     "target_path": "vendor/acer",
     "revision":    "cm-11.0"

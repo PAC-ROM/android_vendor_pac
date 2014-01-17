@@ -7,8 +7,8 @@
     },
     {
         "account":      "AriesVE-DevCon-TEAM",
-        "repository":   "android_vendor_samsung_ariesve",
-        "target_path":  "vendor/samsung-extra/ariesve",
-        "revision":     "cm-10.2"
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-11.0"
     }
 ]

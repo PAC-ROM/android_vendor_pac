@@ -18,9 +18,6 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/huawei/u8860/cm.mk)
 
-# vendor hack
-$(call vendor-replace,huawei,u8860)
-
 PRODUCT_NAME := pac_u8860
 
 endif

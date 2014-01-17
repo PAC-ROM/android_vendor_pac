@@ -12,10 +12,10 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "CyanCom",
-        "repository":   "android_vendor_huawei_u8860",
-        "target_path":  "vendor/huawei-extra/u8860",
-        "revision":     "cm-10.2"
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "android_vendor_huawei",
+        "target_path":  "vendor/huawei",
+        "revision":     "cm-11.0"
     },
     {
         "account":      "randomblame",

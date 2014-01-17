@@ -30,9 +30,9 @@
         "revision":     "jellybean"
     },
     {
-        "account":      "garwedgess",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_semc",
         "target_path":  "vendor/semc",
-        "revision":     "jellybean"
+        "revision":     "cm-11.0"
     }
 ]

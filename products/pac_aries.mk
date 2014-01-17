@@ -24,9 +24,6 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/xiaomi/aries/cm.mk)
 
-# vendor hack
-$(call vendor-replace,xiaomi,aries)
-
 PRODUCT_NAME := pac_aries
 
 # Update local_manifest.xml

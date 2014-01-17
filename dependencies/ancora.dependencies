@@ -6,9 +6,9 @@
         "revision":     "cm-10.2"
     },
     {
-        "account":      "arco",
-        "repository":   "android_vendor_samsung_ancora",
-        "target_path":  "vendor/samsung-extra/ancora",
-        "revision":     "cm-10.1"
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-11.0"
     }
 ]
