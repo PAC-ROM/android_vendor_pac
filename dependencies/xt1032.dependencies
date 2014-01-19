@@ -1,0 +1,59 @@
+[
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_device_motorola_xt1032",
+        "target_path": "device/motorola/xt1032",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_device_motorola_msm8226-common",
+        "target_path": "device/motorola/msm8226-common",
+        "revision": "cm-11.0-caf"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_device_motorola_qcom-common",
+        "target_path": "device/motorola/qcom-common",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_kernel_motorola_msm8226",
+        "target_path": "kernel/motorola/msm8226",
+        "revision": "cm-11.0-caf"
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_hardware_qcom_audio-msm8226",
+        "target_path": "hardware/qcom/audio-msm82266",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_hardware_qcom_display-msm8226",
+        "target_path": "hardware/qcom/display-msm8226",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "razrqcom-dev-team",
+        "repository": "android_hardware_qcom_media-msm8226",
+        "target_path": "hardware/qcom/media-msm8226",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "Pinky-Inky-and-Clyde",
+        "repository": "proprietary_vendor_motorola",
+        "target_path": "vendor/motorola",
+        "revision": "cm-11.0"
+    }
+]
+

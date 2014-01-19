@@ -80,6 +80,8 @@
         <device FullName="Droid Bionic" CodeName="targa"/>
         <device FullName="Droid Razr" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
+        <device FullName="Moto G (Global GSM)" CodeName="xt1032"/>
+        <device FullName="Moto G (Retail US)" CodeName="xt1034"/>
         <device FullName="Moto X (GSM)" CodeName="ghostgsm"/>
         <device FullName="Moto X (Sprint)" CodeName="ghostspr"/>
         <device FullName="Moto X (T-Mobile)" CodeName="ghosttmo"/>

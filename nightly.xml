@@ -149,6 +149,8 @@
   <device name="villec2" priority="10" />
   <device name="vs920" priority="10" />
   <device name="vs980" priority="10" />  
+  <device name="xt1032" priority="10" />
+  <device name="xt1034" priority="10" />
   <device name="xt897" priority="10" />
   <device name="xt897c" priority="10" />
   <device name="ypg1" priority="10" />

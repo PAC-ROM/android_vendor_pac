@@ -171,6 +171,8 @@ Motorola:
 * __Droid Bionic (Verizon) (targa) :__ Bkjolly
 * __Droid Razr (GSM) (umts_spyder) :__ surdu_petru
 * __Droid Razr(Verizon) (spyder) :__ surdu_petru
+* __Moto G (Global GSM) (xt1032) :__ Wechy77
+* __Moto G (Retail US GSM) (xt1034) :__ Wechy77
 * __Moto X (GSM) (ghostgsm) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (Sprint) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (T-Mobile) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
@@ -295,7 +297,7 @@ Sony Ericsson:
 * __Xperia Neo (hallon) :__ Druboo666, Langes
 * __Xperia Neo V (haida) :__ Druboo666, Langes
 * __Xperia Pro (iyokan) :__ Langes
-* __Xperia Ray (urushi) :__ szl.kiev, Wechy77, Langes
+* __Xperia Ray (urushi) :__ szl.kiev, Langes
 * __Xperia Play (zeus) :__ garwedgess
 
 
@@ -308,7 +310,7 @@ ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
-Total Devices: 180
+Total Devices: 182
 
 Best regards
      szl.kiev
