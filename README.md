@@ -23,7 +23,7 @@ If you happen to mess up, which happens often, please use git commit --amend to 
 
 1. Dependencies
    - We use cm dependencies when ever possible. If you must use other remotes please be prepared to answer why and try to limit them as much as possible
-   - We use theMuppets for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If you must use another then please use the vendor hack we have added. We can show you if you can find one, usually on legacy devices.
+   - We use PIC (https://github.com/Pinky-Inky-and-Clyde) for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If your vendor files are not on PIC, please submit your vendor files via pull request to the appropriate repository.
    - Keep the file free of white spaces and formated to look like the rest of the devices dependencies files. Yes we are all OCD
 
 2. Product MK files
@@ -65,12 +65,4 @@ If you happen to mess up, which happens often, please use git commit --amend to 
    - If you have added your device to an overlay in the .mk file then you must create your own.
    - We have ones premade for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these
 
-10. Vendor Hack (if needed)
-   - Used if your vendor files are not stored on theMuppets
-   - Uses these two links to find how the vendor hack is setup
-        - https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/dependencies/villec2.dependencies
-		- https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/products/pac_villec2.mk
-   - in dependencies there is an /extra folder created in the output
-   - in the .mk file there is a #vendor hack section
-
-11. Contact me to be added to the maintainers group hangout cbarlan@gmail.com
+10. Contact me to be added to the maintainers group hangout cbarlan@gmail.com
