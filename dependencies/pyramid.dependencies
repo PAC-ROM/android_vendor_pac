@@ -1,15 +1,15 @@
 [
     {
-        "account":      "bilalliberty",
+        "account":      "Team-SennyC2",
         "repository":   "android_device_htc_pyramid",
         "target_path":  "device/htc/pyramid",
         "revision":     "cm-11.0"
     },
     {
-        "account":      "bilalliberty",
-        "repository":   "android_kernel_pyramid",
+        "account":      "Team-SennyC2",
+        "repository":   "senny_kernel-3.4",
         "target_path":  "kernel/htc/pyramid",
-        "revision":     "master"
+        "revision":     "cm-11.0-caf"
     },
     {
         "account":      "Pinky-Inky-and-Clyde",
