@@ -13,7 +13,7 @@
     },
     {
         "account":      "Pinky-Inky-and-Clyde",
-        "repository":   "android_vendor_huawei",
+        "repository":   "proprietary_vendor_huawei",
         "target_path":  "vendor/huawei",
         "revision":     "cm-11.0"
     },

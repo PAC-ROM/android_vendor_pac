@@ -1,7 +1,7 @@
 [
   {
     "account":      "Pinky-Inky-and-Clyde",
-    "repository":   "android_vendor_samsung",
+    "repository":   "proprietary_vendor_samsung",
     "target_path":  "vendor/samsung",
     "revision":     "cm-11.0"
     },
