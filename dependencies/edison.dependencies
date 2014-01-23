@@ -1,26 +1,26 @@
 [
   {
-    "account":      "TheMuppets",
+    "account":      "Atrix2-Dev-Team",
     "repository":   "proprietary_vendor_motorola",
     "target_path":  "vendor/motorola",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
     },
   {
-    "account":      "CyanogenMod",
+    "account":      "Atrix2-Dev-Team",
     "repository":   "android_device_motorola_edison",
     "target_path":  "device/motorola/edison",
-    "revision":     "cm-10.2"
+    "revision":     "PAC"
   },
   {
-    "account":      "PAC-Motorola",
+    "account":      "Atrix2-Dev-Team",
     "repository":   "android_device_motorola_omap4-common",
     "target_path":  "device/motorola/omap4-common",
-    "revision":     "cm-10.2"
+    "revision":     "pac-4.4"
   },
   {
-    "account":      "CyanogenMod",
+    "account":      "Atrix2-Dev-Team",
     "repository":   "android_kernel_motorola_omap4-common",
     "target_path":  "kernel/motorola/omap4-common",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   }
 ]
