@@ -122,7 +122,7 @@ HTC:
 * __One S C2 (villec2) :__ dominos_liberty
 * __One X (endeavoru) :__ P.A.C.
 * __One X+ (enrc2b) :__ P.A.C.
-* __One XL (evita) :__ JoseGalRe
+* __One XL (evita) :__ JoseGalRe , Techinstein
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Runnymede(runnymede) :__ onejay09
