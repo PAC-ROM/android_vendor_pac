@@ -1,13 +1,6 @@
 [
     {
         "remote":       "github",
-        "account":      "legaCyMod",
-        "repository":   "android_frameworks_av",
-        "target_path":  "frameworks/av",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
         "account":      "Dazzozo",
         "repository":   "android_hardware_atheros_wifi_ath6kl-huawei",
         "target_path":  "hardware/atheros/wifi/ath6kl-huawei",

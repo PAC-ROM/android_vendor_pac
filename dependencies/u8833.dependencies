@@ -2,13 +2,6 @@
     {
         "remote":       "github",
         "account":      "PAC-U8951",
-        "repository":   "android_device_huawei_u8951",
-        "target_path":  "device/huawei/u8951",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "account":      "PAC-U8951",
         "repository":   "android_device_huawei_u8833",
         "target_path":  "device/huawei/u8833",
         "revision":     "cm-11.0"
