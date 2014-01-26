@@ -62,6 +62,14 @@ Graphics Team:
 * __Rinkle McBally__
 * __zooyork0721__
 
+Contributors:
+---------------------
+* __codexc__
+* __DympyDev__
+* __iurnait__
+* __MightyBear007__
+* __Nico60__
+
 
 Devices:        Codename:       Maintainer:
 ---------------------------------------------------------------------
