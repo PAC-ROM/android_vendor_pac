@@ -4,14 +4,10 @@ PAC-man Rom
 
 Developers:
 ----------------
-* __apascual89__
 * __Bkjolly__
-* __BLOWNCO__
 * __bluefa1con__
 * __goldflame09__
-* __gs2usr__
 * __MallardDuck__
-* __metaiiica__
 * __Nick0703__
 * __Owain94__
 * __Papa Smurf151__
@@ -22,7 +18,6 @@ Developers:
 * __tdm.code__
 * __timpohladthomas__
 * __wedgess__
-* __xLaMbChOpSx__
 * __zyonee__
 
 Forum Administrators:
