@@ -50,6 +50,7 @@ else
         vendor/pac/prebuilt/SE-2011/320/3.rle:root/bootlogo/30.rle \
         vendor/pac/prebuilt/SE-2011/320/2.rle:root/bootlogo/31.rle \
         vendor/pac/prebuilt/SE-2011/320/1.rle:root/bootlogo/32.rle
+endif
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
