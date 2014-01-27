@@ -51,6 +51,8 @@ else
         vendor/pac/prebuilt/SE-2011/480/2.rle:root/bootlogo/31.rle \
         vendor/pac/prebuilt/SE-2011/480/1.rle:root/bootlogo/32.rle
 
+endif
+
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/hdpi/6x/bootanimation.zip:system/media/bootanimation.zip
