@@ -1,0 +1,11 @@
+<property name="Stock UI" active="true" image="/system/etc/paranoid/preferences/images/tablet.png" color="#238fcd">
+
+        <description><![CDATA[Hybrid mode <b><font color='green'>on</font></b><br\>Stock workspace]]></description>
+        <setting type="Hybrid" target="%hybrid_mode" value="1"/>
+        <setting type="Hybrid" target="com.android.systemui.dpi" value="%rom_default_dpi"/>
+        <setting type="Hybrid" target="com.android.systemui.layout" value="%rom_default_layout"/>
+        <setting type="Hybrid" target="com.android.settings.dpi" value="%rom_default_dpi"/>
+        <setting type="Hybrid" target="com.android.settings.layout" value="%rom_default_layout"/>
+        <setting type="Android" target="max_notification_icons" value="5"/>
+
+</property>

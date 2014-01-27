@@ -165,6 +165,8 @@
         <device FullName="Galaxy Tab 7" CodeName="p1000"/>
         <device FullName="Galaxy Tab 8.9 (GSM)" CodeName="p5"/>
         <device FullName="Galaxy Tab 8.9 (WiFi)" CodeName="p5wifi"/>
+        <device FullName="Galaxy Tab 10.1 (GSM)" CodeName="p4"/>
+        <device FullName="Galaxy Tab 10.1 (WiFi)" CodeName="p4wifi"/>
         <device FullName="Galaxy Tab 10" CodeName="p7100"/>
         <device FullName="Galaxy Tab 2 7" CodeName="p3100/P3110"/>
         <device FullName="Galaxy Tab 2 10" CodeName="p5100/P5110"/>

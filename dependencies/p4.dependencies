@@ -1,0 +1,23 @@
+[
+	{
+		"remote":       "github",
+		"account":      "Arc-Team",
+		"repository":   "android_device_samsung_p4",
+		"target_path":  "device/samsung/p4",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "Arc-Team",
+		"repository":   "android_kernel_samsung_p4",
+		"target_path":  "kernel/samsung/p4",
+		"revision":     "cm-11.0"
+	},
+	{
+		"remote":       "github",
+		"account":      "Pinky-Inky-and-Clyde",
+		"repository":   "proprietary_vendor_samsung",
+		"target_path":  "vendor/samsung",
+		"revision":     "cm-11.0"
+	}
+]

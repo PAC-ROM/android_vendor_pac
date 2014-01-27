@@ -138,6 +138,8 @@ add_lunch_combo pac_n7100-userdebug
 add_lunch_combo pac_n8000-userdebug
 add_lunch_combo pac_n8013-userdebug
 add_lunch_combo pac_p1-userdebug
+add_lunch_combo pac_p4-userdebug
+add_lunch_combo pac_p4wifi-userdebug
 add_lunch_combo pac_p5-userdebug
 add_lunch_combo pac_p5wifi-userdebug
 add_lunch_combo pac_p3100-userdebug

@@ -125,7 +125,7 @@ HTC:
 * __One S C2 (villec2) :__ dominos_liberty
 * __One X (endeavoru) :__ P.A.C.
 * __One X+ (enrc2b) :__ P.A.C.
-* __One XL (evita) :__ JoseGalRe , Techinstein
+* __One XL (evita) :__ JoseGalRe, Techinstein
 * __One V (primo) :__ Black
 * __Rezound (vigor) :__ IAmTheOneTheyCallNeo
 * __Runnymede(runnymede) :__ onejay09
@@ -264,6 +264,8 @@ Samsung:
 * __Galaxy Tab 7' (p1000) :__ OldDroid
 * __Galaxy Tab 8.9 (GSM) (p5) :__ mithun46
 * __Galaxy Tab 8.9 (Wi-Fi) (p5wifi) :__ mithun46
+* __Galaxy Tab 10.1' (GSM) (p4) :__ JoseGalRe
+* __Galaxy Tab 10.1' (Wi-Fi) (p4wifi) :__ JoseGalRe
 * __Galaxy Tab 10' (p7100) :__ BLOWNCO
 * __Galaxy Tab 2 7' (p3100/P3110) :__ Nick0703
 * __Galaxy Tab 2 10' (p5100/P5110) :__ BLOWNCO, pvyParts
@@ -315,7 +317,9 @@ ZTE:
 ---------------------------------------------------------------------
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
-Total Devices: 188
+
+Total Devices: 190
+
 
 Best regards
-     szl.kiev
+    szl.kiev

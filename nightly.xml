@@ -115,6 +115,8 @@
 <!--  <device name="p990" priority="10" /> -->
   <device name="p3100" priority="10" />
   <device name="p3110" priority="10" />
+  <device name="p4" priority="10" />
+  <device name="p4wifi" priority="10" />
   <device name="p5100" priority="10" />
   <device name="p5110" priority="10" />
   <device name="pollux" priority="10" />
