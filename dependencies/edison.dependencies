@@ -1,6 +1,6 @@
 [
   {
-    "account":      "Atrix2-Dev-Team",
+    "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_motorola",
     "target_path":  "vendor/motorola",
     "revision":     "cm-11.0"
@@ -9,7 +9,7 @@
     "account":      "Atrix2-Dev-Team",
     "repository":   "android_device_motorola_edison",
     "target_path":  "device/motorola/edison",
-    "revision":     "pac-4.4"
+    "revision":     "PAC"
   },
   {
     "account":      "Atrix2-Dev-Team",
