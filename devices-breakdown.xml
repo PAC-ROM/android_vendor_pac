@@ -53,10 +53,6 @@
         <device FullName="Ideos X5 PRO" CodeName="u8800pro"/>
     </vendor>
     <vendor Name="LG">
-        <device FullName="G2 (ATT)" CodeName="d800"/>
-        <device FullName="G2 (GSM)" CodeName="d802"/>
-        <device FullName="G2 (Sprint)" CodeName="ls980" />
-        <device FullName="G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nitro HD" CodeName="p930"/>
         <device FullName="Optimus 2X" CodeName="p990"/>
@@ -66,10 +62,15 @@
         <device FullName="Optimus L5" CodeName="e610"/>
         <device FullName="Optimus L9" CodeName="p760"/>
         <device FullName="Optimus LTE" CodeName="su640"/>
-        <device FullName="Optimus G" CodeName="e970"/>
-        <device FullName="Optimus G" CodeName="e973"/>
-        <device FullName="Optimus G" CodeName="e975"/>
+        <device FullName="Optimus G (ATT)" CodeName="e970"/>
+        <device FullName="Optimus G (Japan)" CodeName="e973"/>
+        <device FullName="Optimus G (Europe)" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
+		<device FullName="Optimus G2 (ATT)" CodeName="d800"/>
+		<device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
+        <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
+        <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
+        <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Optimus One" CodeName="p500"/>
         <device FullName="Spectrum" CodeName="vs920"/>
     </vendor>
@@ -79,7 +80,7 @@
         <device FullName="Droid 3" CodeName="solana"/>
         <device FullName="Droid 4" CodeName="maserati"/>
         <device FullName="Droid Bionic" CodeName="targa"/>
-        <device FullName="Droid Razr" CodeName="umts_spyder"/>
+        <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Moto G (Global GSM)" CodeName="xt1032"/>
         <device FullName="Moto G (Retail US)" CodeName="xt1034"/>
@@ -104,7 +105,7 @@
         <device FullName="Exhilarate (ATT)" CodeName="sgh-1577"/>
         <device FullName="Fascinate" CodeName="fascinatemtd"/>
         <device FullName="Galaxy Ace" CodeName="cooper"/>
-        <device FullName="Galaxy Exibit" CodeName="codinamtr"/>
+        <device FullName="Galaxy Exibit (Metro PCS)" CodeName="codinamtr"/>
         <device FullName="Galaxy Exibit (T-Mobile)" CodeName="codinatmo"/>
         <device FullName="Galaxy Exibit (Wind/Videotron)" CodeName="codinavid"/>
         <device FullName="Galaxy Fit" CodeName="beni"/>
@@ -112,12 +113,12 @@
         <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
         <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
         <device FullName="Galaxy Mini" CodeName="tass"/>
-        <device FullName="Galaxy Nexus" CodeName="maguro"/>
-        <device FullName="Galaxy Nexus" CodeName="toro"/>
-        <device FullName="Galaxy Nexus" CodeName="toroplus"/>
+        <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
+		<device FullName="Galaxy Nexus (Sprint)" CodeName="toroplus"/>
+        <device FullName="Galaxy Nexus (Verizon)" CodeName="toro"/>
         <device FullName="Galaxy Note" CodeName="n7000"/>
-        <device FullName="Galaxy Note" CodeName="quincyatt"/>
-        <device FullName="Galaxy Note" CodeName="quincytmo"/>
+        <device FullName="Galaxy Note (ATT)" CodeName="quincyatt"/>
+        <device FullName="Galaxy Note (T-Mobile)" CodeName="quincytmo"/>
         <device FullName="Galaxy Note 2 (ATT)" CodeName="t0lteatt"/>
         <device FullName="Galaxy Note 2 (GSM)" CodeName="n7100"/>
         <device FullName="Galaxy Note 2 (LTE)" CodeName="t0lte"/>
