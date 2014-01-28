@@ -23,7 +23,7 @@ Developers:
 Forum Administrators:
 -----------------------------
 * __bluefa1con__
-* __metaiiica__
+* __MaDc0w__
 * __Nick0703__
 * __Papa Smurf151__
 * __szl.kiev__
@@ -152,7 +152,7 @@ LG:
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ Owain94, zyonee
 * __Nitro HD (p930) :__ tdm.code
-* __Optimus 2X (p990) :__ metaiiica
+* __Optimus 2X (p990) :
 * __Optimus 3D (p920) :__ berni987654321
 * __Optimus 4X (p880) :__ berni987654321
 * __Optimus Black (p970) :__ zaclimon
@@ -257,7 +257,7 @@ Samsung:
 * __Galaxy S IV (Canada) (jfltecan) :__ Nick0703
 * __Galaxy S IV (Cricket) (jfltecri) :__ BLOWNCO
 * __Galaxy S IV (C-Spire) (jfltecsp) :__ RIPng
-* __Galaxy S IV (GSM) (jfltexx) :__ metaiiica, vertigo2012
+* __Galaxy S IV (GSM) (jfltexx) :__ vertigo2012
 * __Galaxy S IV (Sprint) (jfltespr) :__ Sniper
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ apascual89
 * __Galaxy S IV (US Cellular) (jflteusc) :__ Sniper
