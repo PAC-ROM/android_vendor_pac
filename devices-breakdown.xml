@@ -66,8 +66,8 @@
         <device FullName="Optimus G (Japan)" CodeName="e973"/>
         <device FullName="Optimus G (Europe)" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
-		<device FullName="Optimus G2 (ATT)" CodeName="d800"/>
-		<device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
+        <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
+        <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
@@ -114,7 +114,7 @@
         <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
         <device FullName="Galaxy Mini" CodeName="tass"/>
         <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
-		<device FullName="Galaxy Nexus (Sprint)" CodeName="toroplus"/>
+        <device FullName="Galaxy Nexus (Sprint)" CodeName="toroplus"/>
         <device FullName="Galaxy Nexus (Verizon)" CodeName="toro"/>
         <device FullName="Galaxy Note" CodeName="n7000"/>
         <device FullName="Galaxy Note (ATT)" CodeName="quincyatt"/>
