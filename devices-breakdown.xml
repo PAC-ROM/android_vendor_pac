@@ -55,6 +55,7 @@
     <vendor Name="LG">
         <device FullName="G2 (ATT)" CodeName="d800"/>
         <device FullName="G2 (GSM)" CodeName="d802"/>
+        <device FullName="G2 (Sprint)" CodeName="ls980" />
         <device FullName="G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nitro HD" CodeName="p930"/>

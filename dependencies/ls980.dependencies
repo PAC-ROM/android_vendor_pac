@@ -1,0 +1,26 @@
+[
+ {
+   "account": "CyanogenMod",
+   "repository": "android_device_lge_ls980",
+   "target_path": "device/lge/ls980",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "CyanogenMod",
+   "repository": "android_device_lge_g2-common",
+   "target_path": "device/lge/g2-common",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "CyanogenMod",
+   "repository": "android_kernel_lge_msm8974",
+   "target_path": "kernel/lge/msm8974",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "Pinky-Inky-and-Clyde",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "cm-11.0"
+ }
+]
