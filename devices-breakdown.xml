@@ -29,10 +29,10 @@
         <device FullName="Explorer" CodeName="pico"/>
         <device FullName="Evo V" CodeName="shootervm"/>
         <device FullName="MyTouch 4G" CodeName="glacier"/>
-        <device FullName="One (ATT)" CodeName="m7att"/>
-        <device FullName="One (GSM)" CodeName="m7ul"/>
+        <device FullName="One (ATT)" CodeName="m7"/>
+        <device FullName="One (GSM)" CodeName="m7"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
-        <device FullName="One (T-Mobile)" CodeName="m7tmo"/>
+        <device FullName="One (T-Mobile)" CodeName="m7"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
         <device FullName="One S" CodeName="ville"/>
         <device FullName="One S C2" CodeName="villec2"/>

@@ -116,10 +116,10 @@ HTC:
 * __Explorer (pico) :__ NiharG
 * __Evo V (shootervm) :__ cmbaughman
 * __MyTouch 4G (glacier) :__ JoseGalRe
-* __One (AT&T) (m7att) :__ MaDc0w
-* __One (GSM)(m7ul) :__ MaDc0w
+* __One (AT&T) (m7) :__ MaDc0w
+* __One (GSM)(m7) :__ MaDc0w
 * __One (Sprint) (m7spr) :__ MallardDuck
-* __One (T-Mobile) (m7tmo) :__ MaDc0w
+* __One (T-Mobile) (m7) :__ MaDc0w
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ dominos_liberty
