@@ -19,8 +19,8 @@
     },
     {
         "account":      "CyanogenMod",
-        "repository":   "android_kernel_htc_m7",
-        "target_path":  "kernel/htc/m7",
+        "repository":   "android_kernel_htc_msm8960",
+        "target_path":  "kernel/htc/msm8960",
         "revision":     "cm-11.0"
     },
     {
