@@ -137,7 +137,7 @@ cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
 ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}'`
 echo -e ""; echo -e ${bldgrn}"Package complete:"${txtrst}
-echo -e ${cya}"ZIP:${ylw}  $img"${txtrst}
+echo -e ${cya}"ZIP LOCATION:${ylw}  $OUTFILE"${txtrst}
 echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $1}'`"${txtrst}
 echo -e ${cya}"SIZE:${ylw} $ZIPSIZE"${txtrst}
 MD5VAL=`cat $img.md5sum  | awk '{ print $1 }'`
