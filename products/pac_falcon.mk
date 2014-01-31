@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_xt1034,$(TARGET_PRODUCT))
+ifeq (pac_falcon,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_xhdpi
@@ -22,9 +22,9 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/motorola/xt1034/cm.mk)
+$(call inherit-product, device/motorola/falcon/cm.mk)
 
-PRODUCT_NAME := pac_xt1034
+PRODUCT_NAME := pac_falcon
 
 # Update local_manifest.xml
 GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))

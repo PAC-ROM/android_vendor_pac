@@ -54,6 +54,7 @@ add_lunch_combo pac_vs920-userdebug
 add_lunch_combo pac_vs980-userdebug
 # Motorola
 add_lunch_combo pac_edison-userdebug
+add_lunch_combo pac_falcon-userdebug
 add_lunch_combo pac_ghostatt-userdebug
 add_lunch_combo pac_ghostspr-userdebug
 add_lunch_combo pac_ghosttmo-userdebug
@@ -70,8 +71,6 @@ add_lunch_combo pac_vanquish-userdebug
 add_lunch_combo pac_vanquishgsm-userdebug
 add_lunch_combo pac_xt897-userdebug
 add_lunch_combo pac_xt897c-userdebug
-add_lunch_combo pac_xt1032-userdebug
-add_lunch_combo pac_xt1034-userdebug
 # Nexus
 add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_deb-userdebug

@@ -176,8 +176,8 @@ Motorola:
 * __Droid Bionic (Verizon) (targa) :__ Bkjolly
 * __Droid Razr (GSM) (umts_spyder) :__ surdu_petru
 * __Droid Razr(Verizon) (spyder) :__ surdu_petru
-* __Moto G (Global GSM) (xt1032) :__ Wechy77
-* __Moto G (Retail US GSM) (xt1034) :__ Wechy77
+* __Moto G (Global GSM) (falcon) :__ Wechy77
+* __Moto G (Retail US GSM) (falcon) :__ Wechy77
 * __Moto X (GSM) (ghostgsm) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (Sprint) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
 * __Moto X (T-Mobile) (ghosttmo) :__ All Credit for these builds goto Dhacker29, Bkjolly, Skiwong20
