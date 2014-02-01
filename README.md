@@ -66,3 +66,25 @@ If you happen to mess up, which happens often, please use git commit --amend to 
    - We have ones premade for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these
 
 10. Contact me to be added to the maintainers group hangout cbarlan@gmail.com
+
+PAC-Script Instructions
+====================================
+
+Usage:
+  build-pac.sh [options] device
+
+  Options:
+    -c  Clean before build
+    -d  Use dex optimizations
+    -f  Fetch cherry-picks
+    -i  Static Initlogo
+    -j# Set jobs
+    -s  Sync before build
+    -p  Build using pipe
+    -o# Select GCC O Level
+        Valid O Levels are
+        1 (Os) or 3 (O3)
+    -v  Verbose build output
+
+  Example:
+    ./build-pac.sh -c hammerhead
