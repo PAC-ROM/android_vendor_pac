@@ -12,5 +12,12 @@
         "repository":   "android_hardware_qcom_media-legacy",
         "target_path":  "hardware/qcom/media-legacy",
         "revision":     "cm-11.0_old"
+    },
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_frameworks_webview",
+        "target_path":  "frameworks/webview",
+        "revision":     "cm-11.0"
     }
 ]
