@@ -4,7 +4,7 @@
 		"account":      "Arc-Team",
 		"repository":   "android_device_htc_ruby",
 		"target_path":  "device/htc/ruby",
-		"revision":     "cm-11.0"
+		"revision":     "pac-4.4"
 	},
 	{
 		"remote":       "github",
