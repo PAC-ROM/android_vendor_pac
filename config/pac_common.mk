@@ -15,7 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
 # Using Custom ReleaseRool
-TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/releasetools/ota_from_target_files
+#TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/releasetools/ota_from_target_files
 
 # T-Mobile theme engine
 include vendor/pac/config/themes_common.mk
