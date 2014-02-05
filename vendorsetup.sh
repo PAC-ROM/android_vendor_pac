@@ -132,6 +132,7 @@ add_lunch_combo pac_meliusltexx-userdebug
 add_lunch_combo pac_mesmerizemtd-userdebug
 add_lunch_combo pac_n5100-userdebug
 add_lunch_combo pac_n5110-userdebug
+add_lunch_combo pac_n5120-userdebug
 add_lunch_combo pac_n7000-userdebug
 add_lunch_combo pac_n7100-userdebug
 add_lunch_combo pac_n8000-userdebug

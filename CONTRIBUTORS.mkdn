@@ -226,6 +226,7 @@ Samsung:
 * __Galaxy Note 3 (International) (hltexx) :__ kenzolo
 * __Galaxy Note 8.0 (GSM) (N5100) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ iurnait, ryukiri
+* __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
 * __Galaxy Note 10.1 (N8000) :__ pimpmaneaton
 * __Galaxy Note 10.1 (N8013) :__ pimpmaneaton
 * __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon

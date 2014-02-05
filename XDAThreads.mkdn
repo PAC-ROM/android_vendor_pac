@@ -35,6 +35,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2311152">Galaxy Note 2 (Verizon):   	i605            gchild320</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=2456222">Galaxy Note 8.0 (GSM):           N5100            iurnait, ryukiri/a>
 <a href="http://forum.xda-developers.com/showthread.php?p=2456222">Galaxy Note 8.0 (Wi-Fi):           N5110            iurnait, ryukiri/a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):           N5120            ryukiri/a>
 <a href="http://forum.xda-developers.com/showthread.php?p=45625962">Galaxy Note 10.1:   	N8000/N8013            pimpmaneaton</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 4.0:          ypg1            goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi         iurnait</a>
