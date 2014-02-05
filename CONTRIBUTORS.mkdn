@@ -212,7 +212,7 @@ Samsung:
 * __Galaxy Nexus (maguro) :__ -Jesco-
 * __Galaxy Nexus (toro) :__ Bkjolly
 * __Galaxy Nexus (toroplus) :__ Bkjolly
-* __Galaxy Note (n7000) :__ beerbong
+* __Galaxy Note (n7000) :__ herna
 * __Galaxy Note (quincyatt) :__ AD5GB
 * __Galaxy Note (quincytmo) :__ AD5GB
 * __Galaxy Note 2 (AT&T) (t0lteatt) :__ BLOWNCO, gchild320
