@@ -1,7 +1,7 @@
 [
     {
         "remote": "github",
-        "account": "CyanogenMod",
+        "account": "razrqcom-dev-team",
         "repository": "android_device_motorola_xt1055",
         "target_path": "device/motorola/xt1055",
         "revision": "cm-11.0"
@@ -35,4 +35,3 @@
         "revision": "cm-11.0"
     }
 ]
-
