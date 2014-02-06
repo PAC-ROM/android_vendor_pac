@@ -16,7 +16,6 @@ add_lunch_combo pac_enrc2b-userdebug
 add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_jewel-userdebug
-add_lunch_combo pac_marvel-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7spr-userdebug
 add_lunch_combo pac_m7vzw-userdebug
@@ -175,14 +174,12 @@ add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_haida-userdebug
 add_lunch_combo pac_hallon-userdebug
-add_lunch_combo pac_hayabusa-userdebug
 add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_iyokan-userdebug
 add_lunch_combo pac_kumquat-userdebug
 add_lunch_combo pac_lotus-userdebug
 add_lunch_combo pac_mango-userdebug
-add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_nypon-userdebug
 add_lunch_combo pac_odin-userdebug
 add_lunch_combo pac_pepper-userdebug
@@ -191,7 +188,6 @@ add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_togari-userdebug
-add_lunch_combo pac_tsubasa-userdebug
 add_lunch_combo pac_urushi-userdebug
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_zeus-userdebug

@@ -44,7 +44,6 @@
         <device FullName="Runnymede" CodeName="runnymede"/>
         <device FullName="Sensation" CodeName="pyramid"/>
         <device FullName="Vivo" CodeName="vivo"/>
-        <device FullName="Wildfire S" CodeName="marvel"/>
     </vendor>
     <vendor Name="Huawei">
         <device FullName="Ascend G510" CodeName="u8951"/>
@@ -183,12 +182,9 @@
         <device FullName="Xperia GO" CodeName="lotus"/>
         <device FullName="Xperia P" CodeName="nypon"/>
         <device FullName="Xperia Sola" CodeName="pepper"/>
-        <device FullName="Xperia T" CodeName="mint"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux_windy"/>
-        <device FullName="Xperia TX" CodeName="hayabusa"/>
         <device FullName="Xperia U" CodeName="kumquat"/>
-        <device FullName="Xperia V" CodeName="tsubasa"/>
         <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
         <device FullName="Xperia ZL" CodeName="odin"/>

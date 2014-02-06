@@ -60,7 +60,6 @@
   <device name="ghostvzw" priority="10" />
   <device name="grouper" priority="10" />
 <!--  <device name="hammerhead" priority="10" /> -->
-<!--  <device name="hayabusa" priority="10" /> -->
   <device name="hercules" priority="10" />
   <device name="hltetmo" priority="10" />
   <device name="hltexx" priority="10" />
@@ -100,7 +99,6 @@
   <device name="meliusltexx" priority="10" />
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mb886" priority="10" />
-  <device name="mint" priority="10" />
   <device name="n5100" priority="10" />
   <device name="n5110" priority="10" />
   <device name="n5120" priority="10" />
@@ -148,7 +146,6 @@
   <device name="tilapia" priority="10" />
   <device name="toro" priority="10" />
   <device name="toroplus" priority="10" />
-  <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
   <device name="vanquish" priority="10" />
   <device name="vanquishgsm" priority="10" />
