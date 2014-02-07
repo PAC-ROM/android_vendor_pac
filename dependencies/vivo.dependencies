@@ -18,12 +18,12 @@
         "account":       "blindndumb",
         "repository":    "android_device_htc_vivo",
         "target_path":   "device/htc/vivo",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     },{
         "account":       "szezso",
         "repository":    "proprietary_vendor_vivo",
         "target_path":   "vendor/htc/vivo",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     },{
         "account":       "szezso",
         "repository":    "T.E.S.C.O-kernel_vivo",

@@ -35,7 +35,7 @@ CHANGELOG : (Notable New Features)
 - Added HALO [Sniper & gs2usr]
 - Updated PA to 3.6
 - Removed MDPI/HDPI PA Preferences Hack
-- Updated to CM-10.1-RC5
+- Updated to cm-10.1-RC5
 - TRDS 2.0
 
 ## 22.3.0 -> 22.4.0

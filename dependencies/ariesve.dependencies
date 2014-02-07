@@ -3,7 +3,7 @@
         "account":      "krislibaeer",
         "repository":   "pac_android_device_samsung_ariesve",
         "target_path":  "device/samsung/ariesve",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "AriesVE-DevCon-TEAM",

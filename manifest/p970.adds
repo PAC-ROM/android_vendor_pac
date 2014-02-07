@@ -11,7 +11,7 @@
         "account":      "Evisceration",
         "repository":   "android_device_generic_goldfish",
         "target_path":  "device/generic/goldfish",
-        "revision":     "cm-10.2"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",

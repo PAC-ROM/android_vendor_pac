@@ -18,21 +18,21 @@
         "account":       "blindndumb",
         "repository":    "android_device_htc_ace",
         "target_path":   "device/htc/ace",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     },{
         "account":       "Mustaavalkosta",
         "repository":    "android_vendor_htc_ace",
         "target_path":   "vendor/htc/ace",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     },{
         "account":       "Mustaavalkosta",
         "repository":    "htc7x30-3.0",
         "target_path":   "kernel/htc/htc7x30-3.0",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     },{
         "account":       "Mustaavalkosta",
         "repository":    "android_vendor_qcom_proprietary",
         "target_path":   "vendor/qcom/proprietary",
-        "revision":      "cm-10.1"
+        "revision":      "cm-11.0"
     }
 ]
