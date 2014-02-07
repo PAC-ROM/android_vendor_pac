@@ -23,11 +23,8 @@
         <device FullName="Desire S" CodeName="saga"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
         <device FullName="Droid Incredible 4G" CodeName="fireball"/>
-        <device FullName="Evo 3D" CodeName="shooter"/>
-        <device FullName="Evo 3D" CodeName="shooteru"/>
         <device FullName="Evo LTE" CodeName="jewel"/>
         <device FullName="Explorer" CodeName="pico"/>
-        <device FullName="Evo V" CodeName="shootervm"/>
         <device FullName="MyTouch 4G" CodeName="glacier"/>
         <device FullName="One (ATT)" CodeName="m7"/>
         <device FullName="One (GSM)" CodeName="m7"/>

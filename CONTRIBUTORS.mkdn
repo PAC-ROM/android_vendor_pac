@@ -110,11 +110,8 @@ HTC:
 * __Desire S (saga) :__ blindndumb
 * __Droid DNA (dlx) :__ pio_masaki
 * __Droid Incredible 4G (fireball) :__ jose51197
-* __Evo 3D (shooter) :__ cmbaughman
-* __Evo 3D (GSM)(shooteru) :__ cmbaughman
 * __Evo LTE (jewel) :__ jamieg71
 * __Explorer (pico) :__ NiharG
-* __Evo V (shootervm) :__ cmbaughman
 * __MyTouch 4G (glacier) :__ JoseGalRe
 * __One (AT&T) (m7) :__ MaDc0w
 * __One (GSM)(m7) :__ MaDc0w

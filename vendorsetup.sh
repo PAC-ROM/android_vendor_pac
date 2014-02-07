@@ -26,9 +26,6 @@ add_lunch_combo pac_pyramid-userdebug
 add_lunch_combo pac_ruby-userdebug
 add_lunch_combo pac_runnymede-userdebug
 add_lunch_combo pac_saga-userdebug
-add_lunch_combo pac_shooter-userdebug
-add_lunch_combo pac_shooteru-userdebug
-add_lunch_combo pac_shootervm-userdebug
 add_lunch_combo pac_vigor-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_villec2-userdebug
