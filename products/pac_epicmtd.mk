@@ -9,7 +9,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/epicmtd
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
-#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
@@ -18,9 +17,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/epicmtd/cm.mk)
 
 PRODUCT_NAME := pac_epicmtd
-
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
 endif

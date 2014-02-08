@@ -13,7 +13,6 @@ PRODUCT_COPY_FILES += \
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi
-#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
@@ -22,8 +21,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/samsung/p1/cm.mk)
 
 PRODUCT_NAME := pac_p1
-
-# Update local_manifest.xml
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
 endif

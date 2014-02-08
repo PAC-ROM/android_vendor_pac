@@ -25,8 +25,4 @@ $(call inherit-product, device/asus/tf700t/cm.mk)
 
 PRODUCT_NAME := pac_tf700t
 
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-
 endif

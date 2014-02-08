@@ -9,7 +9,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/d710
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
-#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_samsung-hdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -27,9 +26,5 @@ $(call inherit-product, device/samsung/d710/cm.mk)
 
 PRODUCT_NAME := pac_d710
 DEVICE_RESOLUTION := 480x800
-
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 
 endif

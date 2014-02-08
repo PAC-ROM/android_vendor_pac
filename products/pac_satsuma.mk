@@ -9,7 +9,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/satsuma
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
-#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_sony-mdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
 
 # PAC boot logo
 $(shell rm -rf $(PRODUCT_OUT)/recovery/root/bootlogo)
