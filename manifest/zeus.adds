@@ -18,7 +18,7 @@
         "account":      "garwedgess",
         "repository":   "android_packages_apps_LegacyCamera",
         "target_path":  "packages/apps/LegacyCamera",
-        "revision":     "cm-11.0"
+        "revision":     "cm-10.1"
     },
     {
         "remote":       "github",
@@ -32,6 +32,6 @@
         "account":      "cm42semc",
         "repository":   "android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-11.0"
+        "revision":     "cm-10.1"
     }
 ]

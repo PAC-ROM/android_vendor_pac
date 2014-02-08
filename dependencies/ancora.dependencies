@@ -3,7 +3,7 @@
         "account":      "krislibaeer",
         "repository":   "pac_android_device_samsung_ancora",
         "target_path":  "device/samsung/ancora",
-        "revision":     "cm-11.0"
+        "revision":     "cm-10.2"
     },
     {
         "account":      "Pinky-Inky-and-Clyde",

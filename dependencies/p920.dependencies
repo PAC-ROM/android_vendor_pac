@@ -4,7 +4,7 @@
         "account":	"TheMuppets",
         "repository":	"proprietary_vendor_lge",
         "target_path":	"vendor/lge",
-        "revision":	"cm-11.0"
+        "revision":	"cm-10.1"
     },
     {
         "remote":	"github",
@@ -18,6 +18,6 @@
         "account":	"berni987654321",
         "repository":	"android_device_lge_p920",
         "target_path":	"device/lge/p920",
-        "revision":	"cm-11.0"
+        "revision":	"cm-10.1"
     }
 ]
