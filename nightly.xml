@@ -94,7 +94,7 @@
   <device name="mb886" priority="10" />
   <device name="melius3gxx" priority="10" />
   <device name="meliusltexx" priority="10" />
-  <device name="mesmerizemtd" priority="10" />
+<!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mb886" priority="10" />
   <device name="n5100" priority="10" />
   <device name="n5110" priority="10" />
@@ -123,7 +123,7 @@
   <device name="r950" priority="10" />
   <device name="ruby" priority="10" />
   <device name="scorpionmini" priority="10" />
-  <device name="showcasemtd" priority="10" />
+<!--  <device name="showcasemtd" priority="10" /> -->
   <device name="skyrocket" priority="10" />
   <device name="spyder" priority="10" />
 <!--  <device name="steelhead" priority="10" /> -->
