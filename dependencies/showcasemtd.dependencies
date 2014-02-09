@@ -1,13 +1,13 @@
 [
   {
     "account":    "TeamRegular",
-    "repository": "device_samsung_fascinatemtd",
+    "repository": "android_device_samsung_fascinatemtd",
     "target_path": "device/samsung/fascinatemtd",
     "revision":    "cm-11.0"
   },
   {
     "account":    "TeamRegular",
-    "repository": "device_samsung_showcasemtd",
+    "repository": "android_device_samsung_showcasemtd",
     "target_path": "device/samsung/showcasemtd",
     "revision":    "cm-11.0"
   },
