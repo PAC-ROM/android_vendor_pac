@@ -76,7 +76,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
-    vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
+#    vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
     vendor/pac/CONTRIBUTORS.mkdn:system/etc/PAC-CONTRIBUTORS.txt
 
 # AOKP Overlays
@@ -84,8 +84,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
 ### PARANOID ###
 # PARANOID Packages
-PRODUCT_PACKAGES += \
-    HALO
+#PRODUCT_PACKAGES += \
+#    HALO
 
 # ParanoidAndroid Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
