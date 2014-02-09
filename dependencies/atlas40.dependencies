@@ -10,8 +10,7 @@
         "repository":   "proprietary_vendor_zte",
         "target_path":  "vendor/zte",
         "revision":     "cm-11.0"
-    }
-
+    },
     {
         "account":      "KonstaT",
         "repository":   "android_kernel_zte_msm7x27a",
