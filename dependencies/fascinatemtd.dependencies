@@ -1,7 +1,7 @@
 [
   {
     "account":    "CyanogenMod",
-    "repository": " android_device_samsung_fascinatemtd",
+    "repository": "android_device_samsung_fascinatemtd",
     "target_path": "device/samsung/fascinatemtd",
     "revision":    "cm-11.0"
   },
