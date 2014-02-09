@@ -2,7 +2,7 @@
  {
    "account": "CyanogenMod",
    "repository": "android_device_lge_d801",
-   "target_path": "device/lge/d800",
+   "target_path": "device/lge/d801",
    "revision": "cm-11.0"
  },
  {

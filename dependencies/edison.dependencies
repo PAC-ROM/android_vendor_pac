@@ -12,13 +12,13 @@
     "revision":     "pac-4.4"
   },
   {
-    "account":      "Atrix2-Dev-Team",
+    "account":      "PAC-Motorola",
     "repository":   "android_device_motorola_omap4-common",
     "target_path":  "device/motorola/omap4-common",
     "revision":     "pac-4.4"
   },
   {
-    "account":      "Atrix2-Dev-Team",
+    "account":      "CyanogenMod",
     "repository":   "android_kernel_motorola_omap4-common",
     "target_path":  "kernel/motorola/omap4-common",
     "revision":     "cm-11.0"
