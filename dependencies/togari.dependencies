@@ -41,26 +41,5 @@
     "repository": "android_device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
     "revision": "cm-11.0"
-  },
-  {
-    "remote": "github",
-    "account": "CyanogenMod",
-    "repository": "android_hardware_qcom_audio-bfam",
-    "target_path": "hardware/qcom/audio-bfam",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "github",
-    "account": "CyanogenMod",
-    "repository": "android_hardware_qcom_display-mdss",
-    "target_path": "hardware/qcom/display-mdss",
-    "revision": "cm-11.0"
-  },
-  {
-   "remote": "github",
-    "account": "CyanogenMod",
-    "repository": "android_hardware_qcom_media-v4l2",
-    "target_path": "hardware/qcom/media-v4l2",
-    "revision": "cm-11.0"
   }
 ]
