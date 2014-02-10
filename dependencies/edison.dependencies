@@ -15,7 +15,7 @@
     "account":      "PAC-Motorola",
     "repository":   "android_device_motorola_omap4-common",
     "target_path":  "device/motorola/omap4-common",
-    "revision":     "pac-4.4"
+    "revision":     "cm-11.0"
   },
   {
     "account":      "CyanogenMod",
