@@ -42,6 +42,7 @@
         <device FullName="Ideos X5 PRO" CodeName="u8800pro"/>
     </vendor>
     <vendor Name="LG">
+        <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nitro HD" CodeName="p930"/>
         <device FullName="Optimus 4X" CodeName="p880"/>
@@ -51,6 +52,7 @@
         <device FullName="Optimus G (ATT)" CodeName="e970"/>
         <device FullName="Optimus G (Japan)" CodeName="e973"/>
         <device FullName="Optimus G (Europe)" CodeName="e975"/>
+        <device FullName="Optimus G (Pro)" CodeName="e980"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
         <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
@@ -82,12 +84,14 @@
     </vendor>
     <vendor Name="Oppo">
         <device FullName="Find5" CodeName="find5"/>
+        <device FullName="Find5" CodeName="n1"/>
     </vendor>
     <vendor Name="Samsung">
         <device FullName="Epic 4G" CodeName="epicmtd"/>
         <device FullName="Epic 4G Touch (Sprint)" CodeName="d710"/>
         <device FullName="Exhilarate (ATT)" CodeName="sgh-1577"/>
         <device FullName="Fascinate" CodeName="fascinatemtd"/>
+        <device FullName="Galaxy Express (ATT)" CodeName="expressatt"/>
         <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
         <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
         <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
@@ -103,17 +107,20 @@
         <device FullName="Galaxy Note 2 (T-Mobile)" CodeName="t0ltetmo"/>
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
+        <device FullName="Galaxy Note 3 (Sprint)" CodeName="hltespr"/>
         <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>
-        <device FullName="Galaxy Note 3 (International)" CodeName="hltexx"/>
+        <device FullName="Galaxy Note 3 (International)"CodeName="hltexx"/>
+        <device FullName="Galaxy Note 3 (Verizon)" CodeName="hltevzw"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
         <device FullName="Galaxy Note 10.1 (GSM)" CodeName="N8013"/>
         <device FullName="Galaxy Note 10.1 (Wi-Fi)" CodeName="N8000"/>
+        <device FullName="Galaxy Note 10.1 (Verizon LTE)" CodeName="i925"/>
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
+        <device FullName="Galaxy Premier" CodeName="superior"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
-        <device FullName="Galaxy S LCD" CodeName="galaxysl"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II G" CodeName="i9100G"/>
         <device FullName="Galaxy S II LTE" CodeName="skyrocket"/>
@@ -127,6 +134,7 @@
         <device FullName="Galaxy S III (Sprint)" CodeName="d2spr"/>
         <device FullName="Galaxy S III (C-Spire)" CodeName="d2spi"/>
         <device FullName="Galaxy S III (T-Mobile)" CodeName="d2tmo"/>
+        <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
         <device FullName="Galaxy S III (US Cellular)" CodeName="d2usc"/>
         <device FullName="Galaxy S III (Verizon)" CodeName="d2vzw"/>
         <device FullName="Galaxy S IV (ATT)" CodeName="jflteatt"/>
@@ -138,7 +146,12 @@
         <device FullName="Galaxy S IV (T-Mobile)" CodeName="jfltetmo"/>
         <device FullName="Galaxy S IV (US Cellular)" CodeName="jflteusc"/>
         <device FullName="Galaxy S IV (Verizon)" CodeName="jfltevzw"/>
+        <device FullName="Galaxy S IV Mini (3g)" CodeName="serrano3gxx"/>
+        <device FullName="Galaxy S IV Mini (LTE)" CodeName="serranoltexx"/>
+        <device FullName="Galaxy S B" CodeName="galaxysbmtd"/>
         <device FullName="Galaxy S Blaze 4G (T-Mobile)" CodeName="t769"/>
+        <device FullName="Galaxy S LCD" CodeName="galaxysl"/>
+        <device FullName="Galaxy Tab 7" "(GSM)" CodeName="p1"/>
         <device FullName="Galaxy Tab 10.1 (GSM)" CodeName="p4"/>
         <device FullName="Galaxy Tab 10.1 (WiFi)" CodeName="p4wifi"/>
         <device FullName="Galaxy Tab 10" CodeName="p7100"/>
@@ -151,12 +164,15 @@
         <device FullName="Showcase" CodeName="showcasemtd"/>
     </vendor>
     <vendor Name="Sony">
+        <device FullName="Xperia T" CodeName="mint"/>
+        <device FullName="Xperia v" CodeName="tsubasa"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux_windy"/>
         <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
         <device FullName="Xperia ZL" CodeName="odin"/>
         <device FullName="Xperia Z Ultra" CodeName="togari"/>
+        <device FullName="Xperia Z Ultra GPE" CodeName="togari_gpe"/>
     </vendor>
     <vendor Name="Sony (Legacy)">
         <device FullName="Live With Walkman" CodeName="coconut"/>

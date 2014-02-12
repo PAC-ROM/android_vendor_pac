@@ -1,0 +1,36 @@
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_tsubasa",
+    "target_path": "device/sony/tsubsa",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod", 
+    "repository": "android_device_sony_common",
+    "target_path": "device/sony/common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_qcom-common",
+    "target_path": "device/sony/qcom-common"
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_blue-common",
+    "target_path": "device/sony/blue-common"
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "cm-11.0"
+  }
+]

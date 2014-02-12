@@ -1,0 +1,36 @@
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_device_samsung_superior",
+    "target_path": "device/samsung/superior",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_kernel_samsung_piranha",
+    "target_path": "kernel/samsung/piranha",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
+    "repository": "android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode"m",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-11.0"
+  }
+]
