@@ -205,7 +205,7 @@ Samsung:
 * __Galaxy Note 3 (T-Mobile) (hltespr) :__ OPEN
 * __Galaxy Note 3 (T-Mobile) (hltetmo) :__ apascual89
 * __Galaxy Note 3 (International) (hltexx) :__ kenzolo
-* __Galaxy Note 3 (T-Mobile) (hltevzw) :__ OPEN
+* __Galaxy Note 3 (Verizon) (hltevzw) :__ OPEN
 * __Galaxy Note 8.0 (GSM) (N5100) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
