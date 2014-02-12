@@ -202,7 +202,7 @@ Samsung:
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ gchild320
 * __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
 * __Galaxy Note 2 (Verizon) (i605) :__ gchild320
-* __Galaxy Note 3 (T-Mobile) (hltespr) :__ OPEN
+* __Galaxy Note 3 (Sprint) (hltespr) :__ OPEN
 * __Galaxy Note 3 (T-Mobile) (hltetmo) :__ apascual89
 * __Galaxy Note 3 (International) (hltexx) :__ kenzolo
 * __Galaxy Note 3 (Verizon) (hltevzw) :__ OPEN
