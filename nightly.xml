@@ -23,14 +23,15 @@
   <device name="apexqtmo" priority="10" />
   <device name="captivatemtd" priority="10" />
   <device name="crespo" priority="10" />
-  <device name="d2att" priority="10" />
-  <device name="d2cri" priority="10" />
-  <device name="d2mtr" priority="10" />
-  <device name="d2spr" priority="10" />
-  <device name="d2spi" priority="10" />
-  <device name="d2tmo" priority="10" />
-  <device name="d2usc" priority="10" />
-  <device name="d2vzw" priority="10" />
+<!--  <device name="d2att" priority="10" /> -->
+<!--  <device name="d2cri" priority="10" /> -->
+<!--  <device name="d2mtr" priority="10" /> -->
+<!--  <device name="d2spr" priority="10" /> -->
+<!--  <device name="d2spi" priority="10" /> -->
+<!--  <device name="d2tmo" priority="10" /> -->
+<!--  <device name="d2usc" priority="10" /> -->
+<!--  <device name="d2vzw" priority="10" /> -->
+  <device name="d2lte" priority="10" />
   <device name="d710" priority="10" />
   <device name="d800" priority="10" />
   <device name="d801" priority="10" />
@@ -64,10 +65,11 @@
   <device name="grouper" priority="10" />
   <device name="hammerhead" priority="10" />
   <device name="hercules" priority="10" />
-  <device name="hltespr" priority="10" />
-  <device name="hltetmo" priority="10" />
-  <device name="hltexx" priority="10" />
-  <device name="hltevzw" priority="10" />
+<!--  <device name="hltespr" priority="10" /> -->
+<!--  <device name="hltetmo" priority="10" /> -->
+<!--  <device name="hltexx" priority="10" /> -->
+<!--  <device name="hltevzw" priority="10" /> -->
+  <device name="hlte" priority="10" />
   <device name="honami" priority="10" />
   <device name="huashan" priority="10" />
   <device name="i605" priority="10" />
@@ -79,15 +81,16 @@
   <device name="i9305" priority="10" />
   <device name="jem" priority="10" />
   <device name="jewel" priority="10" />
-  <device name="jflteatt" priority="10" />
-  <device name="jfltecan" priority="10" />
-  <device name="jfltecri" priority="10" />
-  <device name="jfltecsp" priority="10" />
-  <device name="jfltespr" priority="10" />
-  <device name="jfltetmo" priority="10" />
-  <device name="jflteusc" priority="10" />
-  <device name="jfltevzw" priority="10" />
-  <device name="jfltexx" priority="10" />
+<!--  <device name="jflteatt" priority="10" /> -->
+<!--  <device name="jfltecan" priority="10" /> -->
+<!--  <device name="jfltecri" priority="10" /> -->
+<!--  <device name="jfltecsp" priority="10" /> -->
+<!--  <device name="jfltespr" priority="10" /> -->
+<!--  <device name="jfltetmo" priority="10" /> -->
+<!--  <device name="jflteusc" priority="10" /> -->
+<!--  <device name="jfltevzw" priority="10" /> -->
+<!--  <device name="jfltexx" priority="10" /> -->
+  <device name="jflte" priority="10" />
   <device name="l900" priority="10" />
   <device name="ls970" priority="10" />
   <device name="ls980" priority="10" />

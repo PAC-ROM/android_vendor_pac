@@ -107,10 +107,10 @@
         <device FullName="Galaxy Note 2 (T-Mobile)" CodeName="t0ltetmo"/>
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
-        <device FullName="Galaxy Note 3 (Sprint)" CodeName="hltespr"/>
-        <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>
-        <device FullName="Galaxy Note 3 (International)"CodeName="hltexx"/>
-        <device FullName="Galaxy Note 3 (Verizon)" CodeName="hltevzw"/>
+        <device FullName="Galaxy Note 3 (Sprint)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (International)"CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (Verizon)" CodeName="hlte"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
@@ -126,26 +126,26 @@
         <device FullName="Galaxy S II LTE" CodeName="skyrocket"/>
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
         <device FullName="Galaxy S II (ATT)" CodeName="i777"/>
-        <device FullName="Galaxy S III (ATT)" CodeName="d2att"/>
-        <device FullName="Galaxy S III (Cricket)" CodeName="d2cri"/>
+        <device FullName="Galaxy S III (ATT)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (Cricket)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
-        <device FullName="Galaxy S III (Metro PCS)" CodeName="d2mtr"/>
-        <device FullName="Galaxy S III (Sprint)" CodeName="d2spr"/>
-        <device FullName="Galaxy S III (C-Spire)" CodeName="d2spi"/>
-        <device FullName="Galaxy S III (T-Mobile)" CodeName="d2tmo"/>
+        <device FullName="Galaxy S III (Metro PCS)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (Sprint)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (C-Spire)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (T-Mobile)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
-        <device FullName="Galaxy S III (US Cellular)" CodeName="d2usc"/>
-        <device FullName="Galaxy S III (Verizon)" CodeName="d2vzw"/>
-        <device FullName="Galaxy S IV (ATT)" CodeName="jflteatt"/>
-        <device FullName="Galaxy S IV (Canada)" CodeName="jfltecan"/>
-        <device FullName="Galaxy S IV (Cricket)" CodeName="jfltecri"/>
-        <device FullName="Galaxy S IV (C-Spire)" CodeName="jfltecsp"/>
-        <device FullName="Galaxy S IV (GSM)" CodeName="jfltexx"/>
-        <device FullName="Galaxy S IV (Sprint)" CodeName="jfltespr"/>
-        <device FullName="Galaxy S IV (T-Mobile)" CodeName="jfltetmo"/>
-        <device FullName="Galaxy S IV (US Cellular)" CodeName="jflteusc"/>
-        <device FullName="Galaxy S IV (Verizon)" CodeName="jfltevzw"/>
+        <device FullName="Galaxy S III (US Cellular)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (Verizon)" CodeName="d2lte"/>
+        <device FullName="Galaxy S IV (ATT)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (Canada)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (Cricket)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (C-Spire)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (GSM)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (Sprint)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (T-Mobile)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (US Cellular)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV Mini (3g)" CodeName="serrano3gxx"/>
         <device FullName="Galaxy S IV Mini (LTE)" CodeName="serranoltexx"/>
         <device FullName="Galaxy S B" CodeName="galaxysbmtd"/>

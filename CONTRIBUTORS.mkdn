@@ -186,7 +186,7 @@ Samsung:
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
 * __Exhilarate (AT&T) (sgh-1577) :__ InkSlinger420
 * __Fascinate (fascinatemtd) :__ Unjustified Dev
-* __Galaxy Express (ATT) (expressatt) :__ OPEN
+* __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
 * __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ Grarak, Silesh.Nair
 * __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ Grarak, Silesh.Nair
 * __Galaxy Nexus (maguro) :__ -Jesco-
@@ -202,10 +202,10 @@ Samsung:
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ gchild320
 * __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
 * __Galaxy Note 2 (Verizon) (i605) :__ gchild320
-* __Galaxy Note 3 (Sprint) (hltespr) :__ OPEN
-* __Galaxy Note 3 (T-Mobile) (hltetmo) :__ apascual89
-* __Galaxy Note 3 (International) (hltexx) :__ kenzolo
-* __Galaxy Note 3 (Verizon) (hltevzw) :__ OPEN
+* __Galaxy Note 3 (Sprint) (hlte) :__ OPEN
+* __Galaxy Note 3 (T-Mobile) (hlte) :__ apascual89
+* __Galaxy Note 3 (International) (hlte) :__ kenzolo
+* __Galaxy Note 3 (Verizon) (hlte) :__ OPEN
 * __Galaxy Note 8.0 (GSM) (N5100) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
@@ -222,26 +222,26 @@ Samsung:
 * __Galaxy S II LTE (AT&T) (skyrocket) :__ gs2usr
 * __Galaxy S II (T-Mobile) (hercules) :__ ga2usr
 * __Galaxy S II (AT&T) (i777) :__ IngCr3at1on, IconRunner
-* __Galaxy S III (AT&T) (d2att) :__ Papa Smurf151
-* __Galaxy S III (Cricket) (d2cri) :__ Papa Smurf151
+* __Galaxy S III (AT&T) (d2lte) :__ Papa Smurf151
+* __Galaxy S III (Cricket) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (GSM) (i9300) :__ garwedgess
 * __Galaxy S III (LTE) (i9305) :__ MaDc0w
-* __Galaxy S III (Metro PCS) (d2mtr) :__ Papa Smurf151
-* __Galaxy S III (Sprint) (d2spr) :__ Papa Smurf151
-* __Galaxy S III (C-Spire) (d2spi) :__ Papa Smurf151
-* __Galaxy S III (T-Mobile) (d2tmo) :__ Papa Smurf151
+* __Galaxy S III (Metro PCS) (d2lte) :__ Papa Smurf151
+* __Galaxy S III (Sprint) (d2lte) :__ Papa Smurf151
+* __Galaxy S III (C-Spire) (d2lte) :__ Papa Smurf151
+* __Galaxy S III (T-Mobile) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (T-Mobile w/ keyboard) (apexqtmo) :__ Papa Smurf151
-* __Galaxy S III (US Cellular) (d2usc) :__ Papa Smurf151
-* __Galaxy S III (Verizon) (d2vzw) :__ Papa Smurf151
-* __Galaxy S IV (AT&T) (jflteatt) :__ ga2usr
-* __Galaxy S IV (Canada) (jfltecan) :__ Nick0703
-* __Galaxy S IV (Cricket) (jfltecri) :__ Nick0703
-* __Galaxy S IV (C-Spire) (jfltecsp) :__ RIPng
-* __Galaxy S IV (GSM) (jfltexx) :__metaiiica, vertigo2012
-* __Galaxy S IV (Sprint) (jfltespr) :__ Sniper
-* __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703
-* __Galaxy S IV (US Cellular) (jflteusc) :__ Sniper
-* __Galaxy S IV (Verizon) (jfltevzw) :__ RIPng
+* __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
+* __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
+* __Galaxy S IV (AT&T) (jflte) :__ ga2usr
+* __Galaxy S IV (Canada) (jflte) :__ Nick0703
+* __Galaxy S IV (Cricket) (jflte) :__ Nick0703
+* __Galaxy S IV (C-Spire) (jflte) :__ RIPng
+* __Galaxy S IV (GSM) (jflte) :__metaiiica, vertigo2012
+* __Galaxy S IV (Sprint) (jflte) :__ Sniper
+* __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703
+* __Galaxy S IV (US Cellular) (jflte) :__ Sniper
+* __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Mini (3g) (serrano3gxx) :__ OPEN
 * __Galaxy S IV Mini (lte) (serranoltexx) :__ OPEN
 * __Galaxy S B (galaxysbmtd) :__ OPEN
