@@ -7,12 +7,6 @@
   },
   {
     "account":      "CyanogenMod",
-    "repository":   "android_device_samsung_hltespr",
-    "target_path":  "device/samsung/hltespr",
-    "revision":     "cm-11.0"
-  },
-  {
-    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_qcom-common",
     "target_path":  "device/samsung/qcom-common",
     "revision":     "cm-11.0"
@@ -27,6 +21,18 @@
     "account":      "CyanogenMod",
     "repository":   "android_kernel_samsung_hlte",
     "target_path":  "kernel/samsung/hlte",
+    "revision":     "cm-11.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository": "android_hardware_qcom_display-caf-new",
+    "target_path": "hardware/qcom/display-caf-new",
+    "revision":     "cm-11.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository": "android_hardware_qcom_media-caf-new",
+    "target_path": "hardware/qcom/media-caf-new",
     "revision":     "cm-11.0"
   },
   {
