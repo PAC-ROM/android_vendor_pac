@@ -79,6 +79,7 @@
   <device name="i925" priority="10" />
   <device name="i9300" priority="10" />
   <device name="i9305" priority="10" />
+  <device name="i9500" priority="10" />
   <device name="jem" priority="10" />
   <device name="jewel" priority="10" />
 <!--  <device name="jflteatt" priority="10" /> -->

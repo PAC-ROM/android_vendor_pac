@@ -137,11 +137,12 @@
         <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
         <device FullName="Galaxy S III (US Cellular)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (Verizon)" CodeName="d2lte"/>
+	<device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV (ATT)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (Canada)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (Cricket)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (C-Spire)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (GSM)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (LTE)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (Sprint)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (T-Mobile)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (US Cellular)" CodeName="jflte"/>

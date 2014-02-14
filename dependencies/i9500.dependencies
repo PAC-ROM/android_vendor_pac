@@ -1,0 +1,56 @@
+[
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_samsung_i9500",
+        "target_path":  "device/samsung/i9500",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_packages_apps_SamsungServiceMode",
+        "target_path":  "packages/apps/SamsungServiceMode",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_samsung_slsi_exynos",
+        "target_path":  "hardware/samsung_slsi/exynos",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_samsung_slsi_exynos5-insignal",
+        "target_path":  "hardware/samsung_slsi/exynos5-insignal",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_samsung_slsi_exynos5410",
+        "target_path":  "hardware/samsung_slsi/exynos5410",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_samsung_slsi_openmax",
+        "target_path":  "hardware/samsung_slsi/openmax",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_kernel_samsung_exynos5410",
+        "target_path":  "kernel/samsung/exynos5410",
+        "revision":     "cm-11.0"
+    }
+]
