@@ -5,9 +5,10 @@
 #  and makes it possible to add them to the nightlies
 #  currently supported gerrit accounts are:
 #    AOKP - Android Open Kang Project
-#    AOSP - Android Open Kang Project
+#    AOSP - Android Open Source Project
 #    CM   - CyanogenMod
 #    PAC  - pac-rom
+#    LX   - LegacyXperia
 
 device=$1
 
@@ -21,12 +22,8 @@ device=$1
 # Add device specific commits here
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
-        # libstagefright: Add msm7x30 to the legacy alsa audio check
-        cherries+=(56502_CM)
-        # libc: Unbreak build for scorpion
-        cherries+=(56062_CM)
-        #SoftapControllerTI: update parameters for setSoftap
-        cherries+=(55805_CM)
+        # Allow using Classic WebView
+        cherries+=(56054_CM)
     ;;
     some_device_name)
         # some commit name
