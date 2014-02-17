@@ -13,9 +13,9 @@
   },
   {
     "account":      "iurnait",
-    "repository":   "android_kernel_samsung_venturi",
+    "repository":   "sultan-kernel-venturi",
     "target_path":  "kernel/samsung/venturi",
-    "revision":     "cm-11.0"
+    "revision":     "master"
   },
   {
     "account":      "CyanogenMod",
