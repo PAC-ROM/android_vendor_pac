@@ -91,6 +91,7 @@
 <a href="Will Update When 4.4 is Released">Lg G2:        ls980          Goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2542006">LG G2 (Verizon):         vs980           tucstwo</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501074">LG-ls970 Optimus G (Sprint):         ls970           neighborhoodhacker</a>
+<a href="Will Update When 4.4 is Released">Lg G Pad:        v500          darkassain</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2146879">Nexus 4:               	    mako            vertigo2012, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto x (Verizon)		       ghostvzw            skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504836">Moto x (T-Mobile)		       ghosttmo            skiwong20</a>

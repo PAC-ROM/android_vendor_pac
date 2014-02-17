@@ -9,7 +9,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/v500
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_1200x1920.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_1920x1200.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
