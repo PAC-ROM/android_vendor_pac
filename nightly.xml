@@ -23,6 +23,7 @@
   <device name="apexqtmo" priority="10" />
   <device name="captivatemtd" priority="10" />
   <device name="crespo" priority="10" />
+  <device name="d803" priority="10" />
 <!--  <device name="d2att" priority="10" /> -->
 <!--  <device name="d2cri" priority="10" /> -->
 <!--  <device name="d2mtr" priority="10" /> -->

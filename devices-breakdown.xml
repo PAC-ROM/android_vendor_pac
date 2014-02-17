@@ -57,6 +57,7 @@
         <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
+        <device FullName="Optimus G2 (Canadian) CodeName="d803"/>
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Optimus One" CodeName="p500"/>

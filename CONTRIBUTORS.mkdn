@@ -134,6 +134,7 @@ LG:
 * __G2 (d800) :__ gerrett84
 * __G2 (d801) :__ Goldflame09
 * __G2 (d802) :__ gerrett84
+* __G2 (d803) :__ -Jesco-
 * __G2 (ls980) :__ Goldflame09
 * __G2 (Verizon) (vs980) :__ tucstwo, gr33nd3vil
 * __G-Pad (v500) :__ OPEN
