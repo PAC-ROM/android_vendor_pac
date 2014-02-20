@@ -2,7 +2,7 @@
   {
     "remote": "github",
     "account": "CyanogenMod",
-    "repository": "android_device_lge_980",
+    "repository": "android_device_lge_e980",
     "target_path": "device/lge/e980",
     "revision": "cm-11.0"
   },

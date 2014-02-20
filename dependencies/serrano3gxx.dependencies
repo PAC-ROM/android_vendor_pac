@@ -3,7 +3,7 @@
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_device_samsung_serrano3gxx",
-    "target_path": "device/samsung/serranoltexx",
+    "target_path": "device/samsung/serranoltgxx",
     "revision": "cm-11.0"
   },
   {
