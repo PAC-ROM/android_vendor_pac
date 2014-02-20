@@ -50,7 +50,7 @@
   <device name="evita" priority="10" />
   <device name="exhilarate" priority="10" />
   <device name="expressatt" priority="10" />
-<!--  <device name="falcon" priority="10" /> -->
+  <device name="falcon" priority="10" />
 <!--  <device name="fascinatemtd" priority="10" /> -->
   <device name="find5" priority="10" />
   <device name="fireball" priority="10" />
@@ -58,11 +58,6 @@
   <device name="galaxysbmtd" priority="10" />
   <device name="galaxysl" priority="10" />
   <device name="galaxysmtd" priority="10" />
-  <device name="ghostgsm" priority="10" />
-  <device name="ghostspr" priority="10" />
-  <device name="ghosttmo" priority="10" />
-  <device name="ghostusc" priority="10" />
-  <device name="ghostvzw" priority="10" />
   <device name="grouper" priority="10" />
   <device name="hammerhead" priority="10" />
   <device name="hercules" priority="10" />
@@ -109,6 +104,7 @@
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mint" priority="10" />
   <device name="mb886" priority="10" />
+  <device name="moto_msm8960dt" priority="10" />
   <device name="n1" priority="10" />
   <device name="n5100" priority="10" />
   <device name="n5110" priority="10" />
