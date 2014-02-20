@@ -103,7 +103,7 @@
   <device name="meliusltexx" priority="10" />
 <!--  <device name="mesmerizemtd" priority="10" /> -->
   <device name="mint" priority="10" />
-  <device name="mb886" priority="10" />
+  <device name="moto_msm8960" priority="10" />
   <device name="moto_msm8960dt" priority="10" />
   <device name="n1" priority="10" />
   <device name="n5100" priority="10" />
@@ -133,7 +133,6 @@
 <!--  <device name="quincytmo" priority="10" /> -->
   <device name="r950" priority="10" />
   <device name="ruby" priority="10" />
-  <device name="scorpionmini" priority="10" />
   <device name="serrano3gxx" priority="10" />
   <device name="serranoltexx" priority="10" />
 <!--  <device name="showcasemtd" priority="10" /> -->
@@ -158,15 +157,11 @@
   <device name="tsubasa" priority="10" />
   <device name="umts_spyder" priority="10" />
   <device name="v500" priority="10" />
-  <device name="vanquish" priority="10" />
-  <device name="vanquishgsm" priority="10" />
   <device name="venturi" priority="10" />
   <device name="ville" priority="10" />
   <device name="villec2" priority="10" />
   <device name="vs920" priority="10" />
   <device name="vs980" priority="10" />
-  <device name="xt897" priority="10" />
-  <device name="xt897c" priority="10" />
   <device name="ypg1" priority="10" />
   <device name="yuga" priority="10" />
 </manifest>

@@ -15,10 +15,10 @@ Developers:
 * __singhdd93__
 * __Sniper__
 * __szl.kiev__
-* __tdm.code__
 * __timpohladthomas__
 * __wedgess__
 * __zyonee__
+
 
 Forum Administrators:
 -----------------------------
@@ -31,15 +31,33 @@ Forum Administrators:
 
 BuildBot Maintainers:
 ----------------------------
+* __afxefx__
+* __aHcVolle__
+* __Argumentation__
+* __atrus5__
 * __basketthis__
-* __papi92__
-* __tdm.code__
+* __dany20mh__
+* __DympyDev__
+* __Efpophis__
+* __HearMeWhisper__
+* __MaDc0wUSP__
+* __MallardDuck__
+* __metaiiica__
+* __mtsprite__
+* __Nico60__
+* __notzippy__
+* __Papa-Smurf151__
+* __pvyParts__
+* __sfrique__
+* __Techinstein__
+* __zooytork0721__
+
 
 Web Administrators:
 ---------------------------
 * __jeroenqui__
 * __Papa Smurf151__
-* __tdm.code__
+
 
 Gerrit Administrators:
 ------------------------------
@@ -50,17 +68,19 @@ Gerrit Administrators:
 * __singhdd93__
 * __Sniper__
 * __szl.kiev__
-* __tdm.code__
 * __wedgess__
 * __zyonee__
+
 
 Graphics Team:
 ---------------------
 * __ATMOSPH3AR__
+* __jaekar99__
 * __One2thTexan__
 * __pvyParts__
 * __Rinkle McBally__
 * __zooyork0721__
+
 
 Contributors:
 ---------------------
@@ -90,10 +110,10 @@ Amazon:
 ASUS:
 ---------------------------------------------------------------------
 * __Eee Pad Transformer Prime (tf201) :__ jeroenqui
-* __Nexus 7 (grouper) :__ singhdd93, zyonee
+* __Nexus 7 (grouper) :__ singhdd93
 * __Nexus 7 3G (tilapia) :__ singhdd93
-* __Nexus 7 (2013) (flo) :__ zaclimon, goldflame09
-* __Nexus 7 LTE (2013) (deb) :__ zaclimon, goldflame09
+* __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon, zyonee
+* __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon, zyonee
 * __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
@@ -136,7 +156,7 @@ LG:
 * __G2 (d802) :__ gerrett84
 * __G2 (d803) :__ -Jesco-
 * __G2 (ls980) :__ Goldflame09
-* __G2 (Verizon) (vs980) :__ tucstwo, gr33nd3vil
+* __G2 (Verizon) (vs980) :__ gr33nd3vil, tucstwo
 * __G-Pad (v500) :__ darkassain
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ Owain94, zyonee
@@ -149,31 +169,31 @@ LG:
 * __Optimus G (e973) :__ haze028
 * __Optimus G (e975) :__ faust93
 * __Optimus G (e980) :__ OPEN
-* __Optimus G (ls970) (Sprint):__ spleef, neighborhoodhacker
+* __Optimus G (ls970) (Sprint):__ neighborhoodhacker, spleef
 * __Spectrum (vs920) :__ tdm.code
 
 
 Motorola:
 ---------------------------------------------------------------------
 * __Atrix 2 (edison) :__ ravikirancg
-* __Atrix HD (mb886) :__ skeevy420
+* __Atrix HD (moto_msm8960) :__ skeevy420
 * __Droid 4 (Verizon) (maserati) :__ Bkjolly
 * __Droid Bionic (Verizon) (targa) :__ Bkjolly
 * __Droid Razr (GSM) (umts_spyder) :__ surdu_petru
 * __Droid Razr(Verizon) (spyder) :__ surdu_petru
 * __Moto G (Global GSM) (falcon) :__ Wechy77 , herna
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77 , herna
-* __Moto X (GSM) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (Sprint) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (T-Mobile) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (US Cellular) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (Verizon-Developer Edition) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
-* __Photon Q (Sprint) (xt897c) :__ arrrghhh
-* __Photon Q (GSM) (xt897) :__ arrrghhh
-* __Razr HD (GSM) (vanquishgsm) :__ Bkjolly
-* __Razr HD (Verizon) (vanquish) :__ Bkjolly
-* __Razr M (Verizon) (scorpionmini) :__ timpohladthomas
+* __Moto X (GSM) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Moto X (Sprint) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Moto X (T-Mobile) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Moto X (US Cellular) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Moto X (Verizon-Developer Edition) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas
+* __Photon Q (Sprint) (moto_msm8960) :__ arrrghhh
+* __Photon Q (GSM) (moto_msm8960) :__ arrrghhh
+* __Razr HD (GSM) (moto_msm8960) :__ Bkjolly
+* __Razr HD (Verizon) (moto_msm8960) :__ Bkjolly
+* __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
 
 
 Oppo:
@@ -283,11 +303,11 @@ Sony Ericsson:
 * __Xperia Active (satsuma) :__ Langes
 * __Xperia Arc (anzu) :__ garwedgess, Langes
 * __Xperia Mini (smultron) :__ Langes
-* __Xperia Mini Pro (mango) :__ szl.kiev, Langes
+* __Xperia Mini Pro (mango) :__ Langes, szl.kiev
 * __Xperia Neo (hallon) :__ Druboo666, Langes
 * __Xperia Neo V (haida) :__ Druboo666, Langes
 * __Xperia Pro (iyokan) :__ Langes
-* __Xperia Ray (urushi) :__ szl.kiev, Langes
+* __Xperia Ray (urushi) :__ Langes, szl.kiev
 
 
 Xiaomi:

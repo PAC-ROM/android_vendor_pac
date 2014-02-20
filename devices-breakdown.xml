@@ -57,7 +57,7 @@
         <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
-        <device FullName="Optimus G2 (Canadian) CodeName="d803"/>
+        <device FullName="Optimus G2 (Canadian)" CodeName="d803"/>
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="Optimus One" CodeName="p500"/>
@@ -65,23 +65,23 @@
     </vendor>
     <vendor Name="Motorola">
         <device FullName="Atrix 2" CodeName="edison"/>
-        <device FullName="Atrix HD" CodeName="mb886"/>
+        <device FullName="Atrix HD" CodeName="moto_msm8960"/>
         <device FullName="Droid 4" CodeName="maserati"/>
         <device FullName="Droid Bionic" CodeName="targa"/>
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Moto G (Global GSM)" CodeName="falcon"/>
         <device FullName="Moto G (Retail US)" CodeName="falcon"/>
-        <device FullName="Moto X (GSM)" CodeName="ghostgsm"/>
-        <device FullName="Moto X (Sprint)" CodeName="ghostspr"/>
-        <device FullName="Moto X (T-Mobile)" CodeName="ghosttmo"/>
-        <device FullName="Moto X (US Celular)" CodeName="ghostusc"/>
-        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghostvzw"/>
-        <device FullName="Photon Q (Sprint)" CodeName="xt897c"/>
-        <device FullName="Photon Q (GSM)" CodeName="xt897"/>
-        <device FullName="Razr HD (GSM)" CodeName="vanquishgsm"/>
-        <device FullName="Razr HD (Verizon)" CodeName="vanquish"/>
-        <device FullName="Razr M (Verizon)" CodeName="scorpionmini"/>
+        <device FullName="Moto X (GSM)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (Sprint)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (T-Mobile)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (US Celular)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="moto_msm8960dt"/>
+        <device FullName="Photon Q (Sprint)" CodeName="moto_msm8960"/>
+        <device FullName="Photon Q (GSM)" CodeName="moto_msm8960"/>
+        <device FullName="Razr HD (GSM)" CodeName="moto_msm8960"/>
+        <device FullName="Razr HD (Verizon)" CodeName="moto_msm8960"/>
+        <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>
     </vendor>
     <vendor Name="Oppo">
         <device FullName="Find5" CodeName="find5"/>
