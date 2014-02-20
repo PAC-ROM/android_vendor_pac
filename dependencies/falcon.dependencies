@@ -1,14 +1,14 @@
 [
     {
         "remote": "github",
-        "account": "razrqcom-dev-team",
+        "account": "CyanogenMod",
         "repository": "android_device_motorola_falcon",
         "target_path": "device/motorola/falcon",
         "revision": "cm-11.0"
     },
     {
         "remote": "github",
-        "account": "razrqcom-dev-team",
+        "account": "CyanogenMod",
         "repository": "android_device_motorola_msm8226-common",
         "target_path": "device/motorola/msm8226-common",
         "revision": "cm-11.0"
@@ -22,7 +22,7 @@
     },
     {
         "remote": "github",
-        "account": "razrqcom-dev-team",
+        "account": "CyanogenMod",
         "repository": "android_kernel_motorola_msm8226",
         "target_path": "kernel/motorola/msm8226",
         "revision": "cm-11.0"
