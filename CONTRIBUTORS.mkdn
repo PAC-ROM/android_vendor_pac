@@ -163,11 +163,12 @@ Motorola:
 * __Droid Razr(Verizon) (spyder) :__ surdu_petru
 * __Moto G (Global GSM) (falcon) :__ Wechy77 , herna
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77 , herna
-* __Moto X (GSM) (ghostgsm) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (Sprint) (ghosttmo) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (T-Mobile) (ghosttmo) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (US Cellular) (ghostusc) :__ Dhacker29, Bkjolly, Skiwong20
-* __Moto X (Verizon-Developer Edition) (ghostvzw) :__ Dhacker29, Bkjolly, Skiwong20
+* __Moto X (GSM) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
+* __Moto X (Sprint) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
+* __Moto X (T-Mobile) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
+* __Moto X (US Cellular) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
+* __Moto X (Verizon-Developer Edition) (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
+* __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Dhacker29, Bkjolly, Skiwong20
 * __Photon Q (Sprint) (xt897c) :__ arrrghhh
 * __Photon Q (GSM) (xt897) :__ arrrghhh
 * __Razr HD (GSM) (vanquishgsm) :__ Bkjolly
