@@ -54,6 +54,7 @@ add_lunch_combo pac_targa-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_vanquish-userdebug
 add_lunch_combo pac_vanquishgsm-userdebug
+add_lunch_combo pac_xt1031-userdebug
 add_lunch_combo pac_xt897-userdebug
 add_lunch_combo pac_xt897c-userdebug
 # Nexus
@@ -96,8 +97,6 @@ add_lunch_combo pac_i9305-userdebug
 add_lunch_combo pac_i9500-userdebug
 add_lunch_combo pac_jflte-userdebug
 add_lunch_combo pac_l900-userdebug
-add_lunch_combo pac_melius3gxx-userdebug
-add_lunch_combo pac_meliusltexx-userdebug
 add_lunch_combo pac_mesmerizemtd-userdebug
 add_lunch_combo pac_n5100-userdebug
 add_lunch_combo pac_n5110-userdebug
