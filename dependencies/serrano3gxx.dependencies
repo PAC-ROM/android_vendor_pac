@@ -1,3 +1,4 @@
+[
   {
     "remote": "github",
     "account": "CyanogenMod",
@@ -23,7 +24,7 @@
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm"
+    "target_path": "hardware/qcom/fm",
     "revision": "cm-11.0"
   },
   {
