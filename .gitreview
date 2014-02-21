@@ -1,5 +1,5 @@
 [gerrit]
-host=code.nwwn.com
+host=review.pac-rom.com
 port=29418
 project=android_vendor_pac.git
-defaultbranch=cm-10.1
+defaultbranch=cm-11.0
