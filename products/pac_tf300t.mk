@@ -15,7 +15,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/pa_tf300t
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/mdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/1280x800/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
