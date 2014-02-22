@@ -5,7 +5,7 @@ ifeq (pac_moto_msm8960dt,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_nav_xhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/xhdpi
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/xhdpi
 
 # PAC device overlay
 #$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_motorola-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)

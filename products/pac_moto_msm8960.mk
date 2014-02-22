@@ -5,7 +5,7 @@ ifeq (pac_moto_msm8960,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_nav_xhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/xhdpi
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/xhdpi
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

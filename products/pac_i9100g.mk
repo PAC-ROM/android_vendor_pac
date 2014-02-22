@@ -5,7 +5,7 @@ ifeq (pac_i9100g,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800

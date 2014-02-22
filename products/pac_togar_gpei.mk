@@ -5,7 +5,7 @@ ifeq (pac_togari_gpe,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_xxhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/togari
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/togari
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

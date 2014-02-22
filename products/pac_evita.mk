@@ -5,7 +5,7 @@ ifeq (pac_evita,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_evita
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxys2
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

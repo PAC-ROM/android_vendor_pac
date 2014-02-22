@@ -5,7 +5,7 @@ ifeq (pac_galaxysbmtd,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxysbmtd
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/galaxysbmtd
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

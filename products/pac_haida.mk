@@ -5,7 +5,7 @@ ifeq (pac_haida,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/haida
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/haida
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x854

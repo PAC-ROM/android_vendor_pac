@@ -5,7 +5,7 @@ ifeq (pac_u8833,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/huawei-common
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/huawei-common
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800

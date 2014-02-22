@@ -5,7 +5,7 @@ ifeq (pac_coconut,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_mdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/coconut
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/coconut
 
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi

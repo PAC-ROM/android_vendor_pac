@@ -5,7 +5,7 @@ ifeq (pac_p1,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_mdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/p1
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/p1
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

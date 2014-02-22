@@ -5,7 +5,7 @@ ifeq (pac_apexqtmo,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_xhdpi
 
 # AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/apexqtmo
+#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/apexqtmo
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
