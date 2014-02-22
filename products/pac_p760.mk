@@ -8,7 +8,7 @@ OVERLAY_TARGET := pa_hdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/p760
 
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/540x960/bootanimation.zip:system/media/bootanimation.zip
 
 # include ParanoidAndroid common configuration
 include vendor/pac/config/pac_common.mk
