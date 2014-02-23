@@ -1,9 +1,6 @@
 [
     {
-        "remote":       "github",
-        "account":      "JescoWalker",
-        "repository":   "android_kernel_lge_msm8974-1",
-        "target_path":  "kernel/lge/msm8974",
-        "revision":     "cm-11.0"
+        "name":     "android_kernel_lge_msm8974",
+        "path":     "kernel/lge/msm8974"
     }
 ]

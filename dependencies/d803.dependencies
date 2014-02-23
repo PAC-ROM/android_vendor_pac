@@ -12,12 +12,6 @@
    "revision": "cm-11.0"
  },
  {
-   "account": "JescoWalker",
-   "repository": "android_kernel_lge_msm8974-1",
-   "target_path": "kernel/lge/msm8974",
-   "revision": "cm-11.0"
- },
- {
    "account": "Pinky-Inky-and-Clyde",
    "repository": "proprietary_vendor_lge",
    "target_path": "vendor/lge",
