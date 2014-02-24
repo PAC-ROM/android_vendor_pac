@@ -107,7 +107,7 @@
   <device name="p5110" priority="10" />
   <device name="pollux" priority="10" />
   <device name="pollux_windy" priority="10" />
-<!--    <device name="pyramid" priority="10" /> -->
+  <device name="pyramid" priority="10" />
 <!--  <device name="quincyatt" priority="10" /> -->
 <!--  <device name="quincytmo" priority="10" /> -->
   <device name="r950" priority="10" />
