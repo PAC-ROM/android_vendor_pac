@@ -84,7 +84,6 @@ Graphics Team:
 
 Contributors:
 ---------------------
-* __codexc__
 * __DympyDev__
 * __iurnait__
 * __MightyBear007__
