@@ -255,7 +255,7 @@ Samsung:
 * __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
 * __Galaxy S IV (GSM) (i9500) :__ Grarak
-* __Galaxy S IV (AT&T) (jflte) :__ ga2usr
+* __Galaxy S IV (AT&T) (jflte) :__ Nick0703
 * __Galaxy S IV (Canada) (jflte) :__ Nick0703
 * __Galaxy S IV (Cricket) (jflte) :__ Nick0703
 * __Galaxy S IV (C-Spire) (jflte) :__ RIPng
