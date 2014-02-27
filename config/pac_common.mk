@@ -150,8 +150,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.name=PAC-man \
     ro.pacstats.version=$(PAC_VERSION) \
     ro.pacstats.tframe=1
-
-# Disable ADB authentication and set root access to Apps and ADB
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.adb.secure=3 \
-    persist.sys.root_access=3
