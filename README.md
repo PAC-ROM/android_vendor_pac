@@ -69,7 +69,7 @@ If you happen to mess up, which happens often, please use git commit --amend to 
 
 PAC-Script Instructions
 ====================================
-
+```
 Usage:
   build-pac.sh [options] device
 
@@ -88,3 +88,4 @@ Usage:
 
   Example:
     ./build-pac.sh -c hammerhead
+```
