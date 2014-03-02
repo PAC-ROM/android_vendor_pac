@@ -4,10 +4,6 @@ ifeq (pac_tf201,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_tf201
 
-# AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/tf201
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
-
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi
 

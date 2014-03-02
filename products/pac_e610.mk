@@ -4,9 +4,6 @@ ifeq (pac_e610,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_mdpi
 
-# AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/e610
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/320x480/bootanimation.zip:system/media/bootanimation.zip

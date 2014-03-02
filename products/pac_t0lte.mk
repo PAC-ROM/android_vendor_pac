@@ -3,10 +3,6 @@ ifeq (pac_t0lte,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
-
-# AOKP device overlay
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/t0lte
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_720x1280.rle:root/logo.rle

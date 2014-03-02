@@ -4,9 +4,6 @@ ifeq (pac_moto_msm8960,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_nav_hdpi
 
-# AOKP device overlay
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/xhdpi
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle

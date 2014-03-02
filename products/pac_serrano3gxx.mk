@@ -4,9 +4,6 @@ ifeq (pac_serrano3gxx,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_hdpi
 
-# AOKP device overlay
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/device/serrano
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle

@@ -4,9 +4,6 @@ ifeq (pac_steelhead,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_steelhead
 
-# AOKP device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common_tablet
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/xxhdpi/bootanimation.zip:system/media/bootanimation.zip

@@ -1,1 +1,0 @@
-curl http://www.pac-rom.com/jenkins/client/jenkins-install > ~/Downloads/jenkins-install
