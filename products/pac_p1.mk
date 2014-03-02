@@ -6,7 +6,7 @@ OVERLAY_TARGET := pa_mdpi
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_600x1024.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
