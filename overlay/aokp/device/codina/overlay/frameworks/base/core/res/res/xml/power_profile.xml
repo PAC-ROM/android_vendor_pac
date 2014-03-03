@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">86</item>
+    <item name="bluetooth.active">32</item>
+    <item name="bluetooth.on">0.3</item>
+    <item name="screen.full">124</item>
+    <item name="wifi.on">0.3</item>
+    <item name="wifi.active">83</item>
+    <item name="wifi.scan">52</item>
+    <item name="dsp.audio">31</item>
+    <item name="dsp.video">203</item>
+    <item name="radio.active">238</item>
+    <item name="radio.scanning">82</item>
+    <item name="gps.on">1</item>
+    <array name="radio.on">
+        <value>2.7</value>
+        <value>3</value>
+    </array>
+    <array name="cpu.speeds">
+        <value>800000</value>
+        <value>400000</value>
+        <value>200000</value>
+    </array>
+    <item name="cpu.idle">2</item>
+    <array name="cpu.active">
+        <value>203</value>
+        <value>85</value>
+        <value>55</value>
+    </array>
+    <item name="battery.capacity">1500</item>
+</device>

@@ -69,6 +69,8 @@ add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
 # Samsung
 add_lunch_combo pac_apexqtmo-userdebug
+add_lunch_combo pac_janice-userdebug
+add_lunch_combo pac_codina-userdebug
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_d2lte-userdebug
 add_lunch_combo pac_d710-userdebug

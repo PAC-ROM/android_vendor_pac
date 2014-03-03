@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+           http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urnasis:names:tc:xliff:document:1.2 ">
+
+    <!-- Dock Settings -->
+    <bool name="has_dock_settings">true</bool>
+	
+    <!-- Volume Rocker Wake -->
+    <bool name="config_show_volumeRockerWake">true</bool>
+    
+     <!-- Home button Wake Support. Some devices do not support this.
+         Setting to false will disable Home button Wake support -->
+    <bool name="config_show_homeWake">true</bool>
+    
+    <!-- Show Expanded Desktop preference -->
+    <bool name="config_show_expandedDesktop">true</bool>
+    
+    <!-- Processor menu, freq cap files -->
+    <string name="max_cpu_freq_file" translatable="false">/sys/power/cpufreq_max_limit</string>
+    <string name="min_cpu_freq_file" translatable="false">/sys/power/cpufreq_min_limit</string>
+</resources>
