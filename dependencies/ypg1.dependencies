@@ -1,10 +1,10 @@
 [
   {
-    "account":      "bbelos",
-    "repository":   "vendor_samsung_ypg1",
-    "target_path":  "vendor/samsung-extra/ypg1",
-    "revision":     "jellybean"
-    },
+    "account":      "Pinky-Inky-and-Clyde",
+    "repository":   "proprietary_vendor_samsung",
+    "target_path":  "vendor/samsung",
+    "revision":     "cm-11.0"
+  },
   {
     "account":      "bbelos",
     "repository":   "android_device_samsung_ypg1",
