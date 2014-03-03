@@ -44,7 +44,6 @@ BuildBot Maintainers:
 * __MallardDuck__
 * __metaiiica__
 * __mtsprite__
-* __Nico60__
 * __notzippy__
 * __Papa-Smurf151__
 * __pvyParts__
@@ -87,7 +86,6 @@ Contributors:
 * __DympyDev__
 * __iurnait__
 * __MightyBear007__
-* __Nico60__
 
 
 Devices:        Codename:       Maintainer:
@@ -240,8 +238,8 @@ Samsung:
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (i9100G) :__ bluefa1con
-* __Galaxy S II LTE (AT&T) (skyrocket) :__ gs2usr
-* __Galaxy S II (T-Mobile) (hercules) :__ ga2usr
+* __Galaxy S II LTE (AT&T) (skyrocket) :__ TheCybertronian
+* __Galaxy S II (T-Mobile) (hercules) :__ TheCybertronian
 * __Galaxy S II (AT&T) (i777) :__ IngCr3at1on, IconRunner
 * __Galaxy S III (AT&T) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Cricket) (d2lte) :__ Papa Smurf151
