@@ -219,14 +219,3 @@ tmin=$(( (t2-t1)/60 ))
 tsec=$(( (t2-t1)%60 ))
 
 echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
-echo -e ${bldred}"********************************************************************************"${txtrst}
-echo -e ${bldred}"*******************************PLEASE READ THIS!!*******************************"${txtrst}
-echo -e ""
-echo -e ${bldylw}"     Please remember that this source is currently for private builds ONLY!"${txtrst}
-echo -e ""
-echo -e ${bldylw}"       Public builds are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
-echo -e ""
-echo -e ${bldylw}"     It will be welcomed after nightlies begin. Thank you, the Developers.${txtrst}"${txtrst}
-echo -e ""
-echo -e ${bldred}"*******************************PLEASE READ THIS!!*******************************"${txtrst}
-echo -e ${bldred}"********************************************************************************"${txtrst}
