@@ -16,6 +16,13 @@
     {
         "remote":      "github",
         "account":     "CyanogenMod",
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "revision":    "cm-11.0"
+    },
+    {
+        "remote":      "github",
+        "account":     "CyanogenMod",
         "repository":  "android_device_samsung_crespo",
         "target_path": "device/samsung/crespo",
         "revision":    "cm-11.0"
