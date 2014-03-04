@@ -6,7 +6,7 @@ OVERLAY_TARGET := pa_hdpi
 
 # Add bluefa1con bootanim
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/540×960/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/540x960/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
@@ -15,5 +15,5 @@ include vendor/pac/config/pac_common.mk
 $(call inherit-product, device/htc/villec2/cm.mk)
 
 PRODUCT_NAME := pac_villec2
- 
+
 endif
