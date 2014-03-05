@@ -37,6 +37,7 @@
   <device name="e975"/>
   <device name="e980"/>
   <device name="edison"/>
+  <device name="encore"/>
 <!-- device name="endeavoru"-->
 <!-- device name="enrc2b"-->
   <device name="epicmtd"/>
