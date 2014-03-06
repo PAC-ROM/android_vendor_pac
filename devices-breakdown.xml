@@ -92,6 +92,7 @@
         <device FullName="Epic 4G Touch (Sprint)" CodeName="d710"/>
         <device FullName="Exhilarate (ATT)" CodeName="sgh-1577"/>
         <device FullName="Fascinate" CodeName="fascinatemtd"/>
+	<device FullName="Galaxy Ace II" CodeName="codina"/>
         <device FullName="Galaxy Express (ATT)" CodeName="expressatt"/>
         <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
         <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
@@ -121,6 +122,7 @@
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
         <device FullName="Galaxy Premier" CodeName="superior"/>
+	<device FullName="Galaxy S Advance" CodeName="janice"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II G" CodeName="i9100G"/>

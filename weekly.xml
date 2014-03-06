@@ -11,11 +11,13 @@
   <device name="aries" priority="10" />
   <device name="atlas40" priority="10" />
   <device name="coconut" priority="10" />
+  <device name="codina" priority="10" />
   <device name="d803" priority="10" />
   <device name="e610" priority="10" />
   <device name="glacier" priority="10" />
   <device name="haida" priority="10" />
   <device name="hallon" priority="10" />
+  <device name="janice" priority="10" />
   <device name="iyokan" priority="10" />
   <device name="mango" priority="10" />
   <device name="satsuma" priority="10" />

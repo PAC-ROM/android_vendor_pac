@@ -205,6 +205,7 @@ Samsung:
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
 * __Exhilarate (AT&T) (sgh-1577) :__ InkSlinger420
 * __Fascinate (fascinatemtd) :__ Unjustified Dev
+* __Galaxy Ace II (codina) :__ iiD4x
 * __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
 * __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ Grarak, Silesh.Nair
 * __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ Grarak, Silesh.Nair
@@ -234,6 +235,7 @@ Samsung:
 * __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
 * __Galaxy Player 5.0 (venturi) :__ iurnait
 * __Galaxy Premier (superior) :__ OPEN
+* __Galaxy S Advance (janice) :__ iiD4x
 * __Galaxy S I (galaxysmtd) :__ aways
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S II (i9100) :__ bluefa1con
