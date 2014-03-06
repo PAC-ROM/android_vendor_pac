@@ -85,6 +85,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2418933">LG e610 Optimus L5:                  e610            bart452, herna</a>
 <a href="http://www.modaco.com/topic/364229-devromunofficial43pac-man-rom-v43build-1-10-09-13/">Blade3:                  atlaas40            robt77a</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2503693">LG-e970 Optimus G (AT&T):         ls970           neighborhoodhacker</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2671622">LG-e973 Optimus G (Canadian):         ls970           haze028</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:         d800           gerrett84</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669063">Lg G2:        d801          Goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:         d802           gerrett84</a>
