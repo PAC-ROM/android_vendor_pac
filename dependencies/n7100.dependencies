@@ -1,7 +1,7 @@
 [
   {
     "remote":       "github",
-    "account":      "CyanogenMod",
+    "account":      "gchild320",
     "repository":   "android_device_samsung_n7100",
     "target_path":  "device/samsung/n7100",
     "revision":     "cm-11.0"
