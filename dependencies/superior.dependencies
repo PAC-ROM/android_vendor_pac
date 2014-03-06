@@ -9,6 +9,13 @@
   {
     "remote": "github",
     "account": "CyanogenMod",
+    "repository": "android_device_samsung_piranha",
+    "target_path": "device/samsung/piranha",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "CyanogenMod",
     "repository": "android_kernel_samsung_piranha",
     "target_path": "kernel/samsung/piranha",
     "revision": "cm-11.0"
