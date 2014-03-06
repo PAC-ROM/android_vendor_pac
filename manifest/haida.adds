@@ -19,5 +19,12 @@
         "repository":   "android_frameworks_webview",
         "target_path":  "frameworks/webview",
         "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_packages_apps_Browser",
+        "target_path":  "packages/apps/Browser",
+        "revision":     "cm-11.0"
     }
 ]

@@ -10,5 +10,9 @@
     {
         "name":     "android_frameworks_webview",
         "path":     "frameworks/webview"
+    },
+    {
+        "name":     "android_packages_apps_Browser",
+        "path":     "packages/apps/Browser"
     }
 ]
