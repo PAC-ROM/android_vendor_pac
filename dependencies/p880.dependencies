@@ -1,16 +1,16 @@
 [
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "P880-dev",
     "repository": "android_device_lge_p880",
     "target_path": "device/lge/p880",
     "revision": "cm-11.0"
   },
   {
     "remote": "github",
-    "account": "CyanogenMod",
-    "repository": "lge-kernel-p880",
-    "target_path": "kernel/lge/p880",
+    "account": "P880-dev",
+    "repository": "android_kernel_lge_x3",
+    "target_path": "kernel/lge/x3",
     "revision": "cm-11.0"
   },
   {
