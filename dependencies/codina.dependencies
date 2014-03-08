@@ -15,6 +15,13 @@
      },
     {
         "remote":       "github",
+        "account":      "TeamCanjica",
+        "repository":   "android_hardware_u8500",
+        "target_path":  "hardware/u8500",
+        "revision":     "cm-11.0"
+     },
+    {
+        "remote":       "github",
         "account":      "Novathor",
         "repository":   "Samsung_STE_Kernel",
         "target_path":  "kernel/samsung/u8500",
