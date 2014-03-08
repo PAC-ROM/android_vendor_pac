@@ -109,8 +109,8 @@ ASUS:
 * __Eee Pad Transformer Prime (tf201) :__ jeroenqui
 * __Nexus 7 (grouper) :__ singhdd93
 * __Nexus 7 3G (tilapia) :__ singhdd93
-* __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon, zyonee
-* __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon, zyonee
+* __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon
+* __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon
 * __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
@@ -278,7 +278,7 @@ Samsung:
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
 * __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
 * __Nexus S (crespo) :__ berni987654321
-* __Nexus 10 (manta) :__ apascual89
+* __Nexus 10 (manta) :__ apascual89, zyonee
 * __Showcase (showcasemtd) :__ Unjustifed Dev
 
 
