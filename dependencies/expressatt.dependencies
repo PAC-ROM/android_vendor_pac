@@ -17,7 +17,7 @@
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_device_samsung_expressatt",
-    "target_path": "device/samsung/d2spr",
+    "target_path": "device/samsung/expressatt",
     "revision": "cm-11.0"
   },
   {
