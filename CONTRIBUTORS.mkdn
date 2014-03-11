@@ -126,6 +126,7 @@ HTC:
 * __Droid DNA (dlx) :__ pio_masaki
 * __Droid Incredible 4G (fireball) :__ jose51197
 * __Evo LTE (jewel) :__ numel007
+* __Vivid (holiday) :__ WildfireDEV
 * __MyTouch 4G (glacier) :__ JoseGalRe
 * __One (AT&T) (m7) :__ MaDc0w
 * __One (GSM)(m7) :__ MaDc0w

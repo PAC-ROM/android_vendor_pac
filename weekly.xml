@@ -17,6 +17,7 @@
   <device name="glacier" priority="10" />
   <device name="haida" priority="10" />
   <device name="hallon" priority="10" />
+  <device name="holiday" priority="10" />
   <device name="janice" priority="10" />
   <device name="iyokan" priority="10" />
   <device name="mango" priority="10" />

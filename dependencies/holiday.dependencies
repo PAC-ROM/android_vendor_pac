@@ -1,0 +1,33 @@
+[
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_device_htc_msm8660-common",
+        "target_path":  "device/htc/msm8660-common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_device_htc_holiday",
+        "target_path":  "device/htc/holiday",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "Team-Hydra",
+        "repository":   "android_kernel_htc_msm8660",
+        "target_path":  "kernel/htc/msm8660",
+        "revision":     "cm-11.0"
+    },
+    {
+	"account":      "Pinky-Inky-and-Clyde",
+	"repository":   "proprietary_vendor_htc",
+	"target_path":  "vendor/htc",
+	"revision":     "cm-11.0"
+    },
+    {
+        "account":      "Team-Hydra",
+	"repository":   "linaro-arm-cortex-a8",
+	"target_path":  "prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8",
+	"revision":     "cm-11.0"
+    }
+]
+
