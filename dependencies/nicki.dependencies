@@ -1,0 +1,32 @@
+[
+    {
+        "account":      "RonGokhale",
+        "repository":   "android_device_sony_nicki",
+        "target_path":  "device/sony/nicki",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_sony_qcom-common",
+        "target_path":  "device/sony/qcom-common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_sony_common",
+        "target_path":  "device/sony/common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_sony",
+        "target_path":  "vendor/sony",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "RonGokhale",
+        "repository":   "android_Kernel_sony_msm8x27",
+        "target_path":  "kernel/sony/msm8x27",
+        "revision":     "cm-11.0"
+    }
+]

@@ -168,10 +168,11 @@
         <device FullName="Showcase" CodeName="showcasemtd"/>
     </vendor>
     <vendor Name="Sony">
+        <device FullName="Xperia M" CodeName="nicki"/>
         <device FullName="Xperia T" CodeName="mint"/>
-        <device FullName="Xperia v" CodeName="tsubasa"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux_windy"/>
+        <device FullName="Xperia V" CodeName="tsubasa"/>
         <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
         <device FullName="Xperia ZL" CodeName="odin"/>
