@@ -285,7 +285,7 @@ Samsung:
 Sony:
 ---------------------------------------------------------------------
 * __Xperia SP (huashan) :__ jacknb1ack
-* __Xperia T (mint) :__ OPEN
+* __Xperia T (mint) :__ Abhinav1997
 * __Xperia V (tsubasa) :__ OPEN
 * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ bluefa1con
