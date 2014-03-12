@@ -207,8 +207,8 @@ Samsung:
 * __Fascinate (fascinatemtd) :__ Unjustified Dev
 * __Galaxy Ace II (codina) :__ iiD4x
 * __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
-* __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ Grarak, Silesh.Nair
-* __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ Grarak, Silesh.Nair
+* __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ Grarak
+* __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ Grarak
 * __Galaxy Nexus (maguro) :__ -Jesco-
 * __Galaxy Nexus (toro) :__ Bkjolly
 * __Galaxy Nexus (toroplus) :__ Bkjolly
