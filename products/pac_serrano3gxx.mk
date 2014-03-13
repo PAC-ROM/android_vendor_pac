@@ -18,6 +18,6 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/serrano3gxx/cm.mk)
 
-PRODUCT_NAME := pac_serranoltexx
+PRODUCT_NAME := pac_serrano3gxx
 
 endif
