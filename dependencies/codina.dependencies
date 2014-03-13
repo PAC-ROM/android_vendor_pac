@@ -22,7 +22,7 @@
      },
     {
         "remote":       "github",
-        "account":      "Novathor",
+        "account":      "TeamCanjica",
         "repository":   "Samsung_STE_Kernel",
         "target_path":  "kernel/samsung/u8500",
         "revision":     "3.0.31"
