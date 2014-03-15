@@ -69,7 +69,8 @@ PRODUCT_PACKAGES += \
     GooglePacman \
     PacConsole \
     Paclauncher \
-    PacPapers
+    PacPapers \
+    PACPerformance
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
