@@ -78,7 +78,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2396173">Galaxy S IV (GSM):         i9500          Grarak</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2400387">Galaxy S IV (LTE):         jflte         MetaIIica, vertigo2012</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312063">Galaxy S IV (Sprint):      jflte          Sniper</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (T-Mobile):    jflte          Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2668312">Galaxy S IV (T-Mobile):    jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312063">Galaxy S IV (US Cellular): jflte          Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312069">Galaxy S IV (Verizon):     jflte          RIPng</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202854">Galaxy Tab 2 7':           p3100          Nick0703</a>
