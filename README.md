@@ -7,13 +7,14 @@ We will not be accepting pull requests on pac github so please do not send hopin
 Instructions for sending to Gerrit
 ====================================
 
-   sudo apt-get install git-review
-   git clone https://github.com/PAC-man/android_vendor_pac
-   cd android_vendor_pac
-   make your edits to the files below
-   git add -A
-   git commit -m "message"
-   git-review
+
+    sudo apt-get install git-review
+    git clone https://github.com/PAC-man/android_vendor_pac
+    cd android_vendor_pac
+    <make edits>
+    git add -A
+    git commit -m "Message"
+    git-review
 
 
 
