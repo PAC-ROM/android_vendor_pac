@@ -1,17 +1,17 @@
 [
     {
         "remote":       "github",
-        "account":      "TeamCanjica",
+        "account":      "TeamNova",
         "repository":   "android_device_samsung_codina",
         "target_path":  "device/samsung/codina",
         "revision":     "cm-11.0"
      },
     {
         "remote":       "github",
-        "account":      "TeamCanjica",
+        "account":      "TeamNova",
         "repository":   "android_device_samsung_u8500-common",
         "target_path":  "device/samsung/u8500-common",
-        "revision":     "cm-11.0"
+        "revision":     "pac-4.4"
      },
     {
         "remote":       "github",
@@ -22,16 +22,16 @@
      },
     {
         "remote":       "github",
-        "account":      "TeamCanjica",
+        "account":      "TeamNova",
         "repository":   "Samsung_STE_Kernel",
         "target_path":  "kernel/samsung/u8500",
-        "revision":     "3.0.31"
+        "revision":     "3.0.31-plus"
      },
     {
         "remote":       "github",
         "account":      "TeamNova",
         "repository":   "android_vendor_samsung_u8500-common",
-        "target_path":  "vendor/samsung",
+        "target_path":  "vendor/samsung/u8500-common",
         "revision":     "kk"
     }
 ]
