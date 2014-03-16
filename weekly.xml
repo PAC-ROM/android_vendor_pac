@@ -7,23 +7,23 @@
 
 <manifest>
   <!-- Add new devices here -->
-  <device name="anzu" priority="10" />
-  <device name="aries" priority="10" />
-  <device name="atlas40" priority="10" />
-  <device name="coconut" priority="10" />
-  <device name="codina" priority="10" />
-  <device name="d803" priority="10" />
-  <device name="e610" priority="10" />
-  <device name="glacier" priority="10" />
-  <device name="haida" priority="10" />
-  <device name="hallon" priority="10" />
-  <device name="holiday" priority="10" />
-  <device name="janice" priority="10" />
-  <device name="iyokan" priority="10" />
-  <device name="mango" priority="10" />
-  <device name="satsuma" priority="10" />
-  <device name="smultron" priority="10" />
-  <device name="u8833" priority="10" />
-  <device name="u8951" priority="10" />
-  <device name="urushi" priority="10" />
+  <device name="anzu"/>
+  <device name="aries"/>
+  <device name="atlas40"/>
+  <device name="coconut"/>
+  <device name="codina"/>
+  <device name="d803"/>
+  <device name="e610"/>
+  <device name="glacier"/>
+  <device name="haida"/>
+  <device name="hallon"/>
+  <device name="holiday"/>
+  <device name="janice"/>
+  <device name="iyokan"/>
+  <device name="mango"/>
+  <device name="satsuma"/>
+  <device name="smultron"/>
+  <device name="u8833"/>
+  <device name="u8951"/>
+  <device name="urushi"/>
 </manifest>

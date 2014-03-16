@@ -19,129 +19,129 @@
 
 <manifest>
   <!-- Add new devices here -->
-  <device name="a700" priority="10" />
-  <device name="apexqtmo" priority="10" />
-  <device name="captivatemtd" priority="10" />
-  <device name="crespo" priority="10" />
-<!--  <device name="d803" priority="10" /> -->
-  <device name="d2lte" priority="10" />
-  <device name="d710" priority="10" />
-  <device name="d800" priority="10" />
-  <device name="d801" priority="10" />
-  <device name="d802" priority="10" />
-  <device name="deb" priority="10" />
-  <device name="dlx" priority="10" />
-  <device name="e970" priority="10" />
-  <device name="e973" priority="10" />
-  <device name="e975" priority="10" />
-  <device name="e980" priority="10" />
-  <device name="edison" priority="10" />
-<!-- device name="endeavoru" priority="10" -->
-<!-- device name="enrc2b" priority="10" -->
-  <device name="epicmtd" priority="10" />
-  <device name="evita" priority="10" />
-  <device name="exhilarate" priority="10" />
-  <device name="expressatt" priority="10" />
-  <device name="falcon" priority="10" />
-<!--  <device name="fascinatemtd" priority="10" /> -->
-  <device name="find5" priority="10" />
-  <device name="fireball" priority="10" />
-  <device name="flo" priority="10" />
-  <device name="galaxysbmtd" priority="10" />
-  <device name="galaxysl" priority="10" />
-  <device name="galaxysmtd" priority="10" />
-  <device name="grouper" priority="10" />
-  <device name="hammerhead" priority="10" />
-  <device name="hercules" priority="10" />
-  <device name="hlte" priority="10" />
-  <device name="honami" priority="10" />
-  <device name="huashan" priority="10" />
-  <device name="i605" priority="10" />
-  <device name="i777" priority="10" />
-  <device name="i9100" priority="10" />
-  <device name="i9100g" priority="10" />
-  <device name="i925" priority="10" />
-  <device name="i9300" priority="10" />
-  <device name="i9305" priority="10" />
-  <device name="i9500" priority="10" />
-  <device name="jem" priority="10" />
-  <device name="jewel" priority="10" />
-  <device name="jflte" priority="10" />
-  <device name="l900" priority="10" />
-  <device name="ls970" priority="10" />
-  <device name="ls980" priority="10" />
-  <device name="m7" priority="10" />
-  <device name="m7spr" priority="10" />
-  <device name="m7vzw" priority="10" />
-  <device name="maguro" priority="10" />
-  <device name="mako" priority="10" />
-  <device name="manta" priority="10" />
-  <device name="maserati" priority="10" />
-  <device name="mb886" priority="10" />
-  <device name="melius3gxx" priority="10" />
-  <device name="meliusltexx" priority="10" />
-<!--  <device name="mesmerizemtd" priority="10" /> -->
-  <device name="mint" priority="10" />
-  <device name="moto_msm8960" priority="10" />
-  <device name="moto_msm8960dt" priority="10" />
-  <device name="n1" priority="10" />
-  <device name="n5100" priority="10" />
-  <device name="n5110" priority="10" />
-  <device name="n5120" priority="10" />
-  <device name="n7000" priority="10" />
-  <device name="n7100" priority="10" />
-<!--  <device name="n8000" priority="10" /> -->
-<!--  <device name="n8013" priority="10" /> -->
-  <device name="nicki" priority="10" />
-  <device name="odin" priority="10" />
-  <device name="otter" priority="10" />
-  <device name="otter2" priority="10" />
-  <device name="p1" priority="10" />
-<!--  <device name="p760" priority="10" /> -->
-  <device name="p880" priority="10" />
-  <device name="p930" priority="10" />
-  <device name="p3100" priority="10" />
-  <device name="p3110" priority="10" />
-<!--  <device name="p4" priority="10" /> -->
-<!--  <device name="p4wifi" priority="10" /> -->
-  <device name="p5100" priority="10" />
-  <device name="p5110" priority="10" />
-  <device name="pollux" priority="10" />
-  <device name="pollux_windy" priority="10" />
-  <device name="pyramid" priority="10" />
-<!--  <device name="quincyatt" priority="10" /> -->
-<!--  <device name="quincytmo" priority="10" /> -->
-  <device name="r950" priority="10" />
-  <device name="ruby" priority="10" />
-  <device name="serrano3gxx" priority="10" />
-  <device name="serranoltexx" priority="10" />
-<!--  <device name="showcasemtd" priority="10" /> -->
-  <device name="skyrocket" priority="10" />
-  <device name="spyder" priority="10" />
-  <device name="superior" priority="10" />
-<!--  <device name="steelhead" priority="10" /> -->
-  <device name="t0lte" priority="10" />
-  <device name="t0lteatt" priority="10" />
-  <device name="t0ltetmo" priority="10" />
-  <device name="t769" priority="10" />
-  <device name="targa" priority="10" />
-  <device name="tate" priority="10" />
-<!--  <device name="tf201" priority="10" /> -->
-  <device name="tf300t" priority="10" />
-  <device name="tf700t" priority="10" />
-  <device name="tilapia" priority="10" />
-  <device name="togari" priority="10" />
-  <device name="togari_gpe" priority="10" />
-  <device name="toro" priority="10" />
-  <device name="toroplus" priority="10" />
-  <device name="tsubasa" priority="10" />
-  <device name="umts_spyder" priority="10" />
-  <device name="v500" priority="10" />
-  <device name="venturi" priority="10" />
-  <device name="ville" priority="10" />
-  <device name="villec2" priority="10" />
-  <device name="vs920" priority="10" />
-  <device name="vs980" priority="10" />
-  <device name="ypg1" priority="10" />
-  <device name="yuga" priority="10" />
+  <device name="a700"/>
+  <device name="apexqtmo"/>
+  <device name="captivatemtd"/>
+  <device name="crespo"/>
+<!--  <device name="d803"/> -->
+  <device name="d2lte"/>
+  <device name="d710"/>
+  <device name="d800"/>
+  <device name="d801"/>
+  <device name="d802"/>
+  <device name="deb"/>
+  <device name="dlx"/>
+  <device name="e970"/>
+  <device name="e973"/>
+  <device name="e975"/>
+  <device name="e980"/>
+  <device name="edison"/>
+<!-- device name="endeavoru"-->
+<!-- device name="enrc2b"-->
+  <device name="epicmtd"/>
+  <device name="evita"/>
+  <device name="exhilarate"/>
+  <device name="expressatt"/>
+  <device name="falcon"/>
+<!--  <device name="fascinatemtd"/> -->
+  <device name="find5"/>
+  <device name="fireball"/>
+  <device name="flo"/>
+  <device name="galaxysbmtd"/>
+  <device name="galaxysl"/>
+  <device name="galaxysmtd"/>
+  <device name="grouper"/>
+  <device name="hammerhead"/>
+  <device name="hercules"/>
+  <device name="hlte"/>
+  <device name="honami"/>
+  <device name="huashan"/>
+  <device name="i605"/>
+  <device name="i777"/>
+  <device name="i9100"/>
+  <device name="i9100g"/>
+  <device name="i925"/>
+  <device name="i9300"/>
+  <device name="i9305"/>
+  <device name="i9500"/>
+  <device name="jem"/>
+  <device name="jewel"/>
+  <device name="jflte"/>
+  <device name="l900"/>
+  <device name="ls970"/>
+  <device name="ls980"/>
+  <device name="m7"/>
+  <device name="m7spr"/>
+  <device name="m7vzw"/>
+  <device name="maguro"/>
+  <device name="mako"/>
+  <device name="manta"/>
+  <device name="maserati"/>
+  <device name="mb886"/>
+  <device name="melius3gxx"/>
+  <device name="meliusltexx"/>
+<!--  <device name="mesmerizemtd"/> -->
+  <device name="mint"/>
+  <device name="moto_msm8960"/>
+  <device name="moto_msm8960dt"/>
+  <device name="n1"/>
+  <device name="n5100"/>
+  <device name="n5110"/>
+  <device name="n5120"/>
+  <device name="n7000"/>
+  <device name="n7100"/>
+<!--  <device name="n8000"/> -->
+<!--  <device name="n8013"/> -->
+  <device name="nicki"/>
+  <device name="odin"/>
+  <device name="otter"/>
+  <device name="otter2"/>
+  <device name="p1"/>
+<!--  <device name="p760"/> -->
+  <device name="p880"/>
+  <device name="p930"/>
+  <device name="p3100"/>
+  <device name="p3110"/>
+<!--  <device name="p4"/> -->
+<!--  <device name="p4wifi"/> -->
+  <device name="p5100"/>
+  <device name="p5110"/>
+  <device name="pollux"/>
+  <device name="pollux_windy"/>
+  <device name="pyramid"/>
+<!--  <device name="quincyatt"/> -->
+<!--  <device name="quincytmo"/> -->
+  <device name="r950"/>
+  <device name="ruby"/>
+  <device name="serrano3gxx"/>
+  <device name="serranoltexx"/>
+<!--  <device name="showcasemtd"/> -->
+  <device name="skyrocket"/>
+  <device name="spyder"/>
+  <device name="superior"/>
+<!--  <device name="steelhead"/> -->
+  <device name="t0lte"/>
+  <device name="t0lteatt"/>
+  <device name="t0ltetmo"/>
+  <device name="t769"/>
+  <device name="targa"/>
+  <device name="tate"/>
+<!--  <device name="tf201"/> -->
+  <device name="tf300t"/>
+  <device name="tf700t"/>
+  <device name="tilapia"/>
+  <device name="togari"/>
+  <device name="togari_gpe"/>
+  <device name="toro"/>
+  <device name="toroplus"/>
+  <device name="tsubasa"/>
+  <device name="umts_spyder"/>
+  <device name="v500"/>
+  <device name="venturi"/>
+  <device name="ville"/>
+  <device name="villec2"/>
+  <device name="vs920"/>
+  <device name="vs980"/>
+  <device name="ypg1"/>
+  <device name="yuga"/>
 </manifest>
