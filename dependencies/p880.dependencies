@@ -8,7 +8,7 @@
   },
   {
     "remote": "github",
-    "account": "Fluoxetine",
+    "account": "P880-dev",
     "repository": "android_kernel_lge_x3",
     "target_path": "kernel/lge/x3",
     "revision": "cm-11.0"
