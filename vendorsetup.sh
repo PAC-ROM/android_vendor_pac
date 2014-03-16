@@ -23,6 +23,7 @@ add_lunch_combo pac_pyramid-userdebug
 add_lunch_combo pac_ruby-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_villec2-userdebug
+add_lunch_combo pac_vision-userdebug
 # Huawei
 add_lunch_combo pac_u8833-userdebug
 add_lunch_combo pac_u8860-userdebug
