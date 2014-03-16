@@ -19,6 +19,7 @@
     </vendor>
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
+	<device FullName="Desire Z" CodeName="vision"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
         <device FullName="Droid Incredible 4G" CodeName="fireball"/>
         <device FullName="Evo LTE" CodeName="jewel"/>
