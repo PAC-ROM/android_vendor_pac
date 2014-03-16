@@ -1,29 +1,35 @@
 android_vendor_pac
 ==================
 
-PAC-man Vendor repository
-
-Please use the Pac Man Universal Review to push to gerrit all code changes
-
 We will not be accepting pull requests on pac github so please do not send hoping that you will be the exception. You will be contacted and told to use gerrit
 
-Universal Review
 
-http://forum.xda-developers.com/showthread.php?t=2530388
-
-Please use this link to download and get instrutions on how to use
-
-Please ask all questions there about this script as I and a few others monitor it daily
+Instructions for sending to Gerrit
+====================================
 
 
-When sending your devices to PAC-man for review please include the following files to be reviewed in one commit.
+1. sudo apt-get install git-review     (One time install)
 
-If you happen to mess up, which happens often, please use git commit --amend to send a new patchset to gerrit or you can do this in the universal review script provided.
+2. git clone https://github.com/PAC-man/android_vendor_pac
+
+3. cd android_vendor_pac
+
+4. make your edits to the files below
+
+5. git add -A
+
+6. git commit -m "message"         (if you are fixing a mistake after initial commit use git commit --amend )
+
+7. git-review
+
+
+Files to Edit
+==============
 
 
 1. Dependencies
    - We use cm dependencies when ever possible. If you must use other remotes please be prepared to answer why and try to limit them as much as possible
-   - We use PIC (https://github.com/Pinky-Inky-and-Clyde) for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If your vendor files are not on PIC, please submit your vendor files via pull request to the appropriate repository.
+   - We use PIC (https://github.com/Pinky-Inky-and-Clyde) for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If your vendor files are not on PIC, please submit your vendor files via pull request to the appropriate repository. Please keep commit history by using remotes and merges
    - Keep the file free of white spaces and formated to look like the rest of the devices dependencies files. Yes we are all OCD
 
 2. Product MK files
@@ -56,20 +62,29 @@ If you happen to mess up, which happens often, please use git commit --amend to 
    - Found in the manifest directory
    - Used for legacy devices
    - Please try to keep this as clean as possible and only use if you have to
-   - We host a lot of repos and if we do then we can add your code into ours if at all possible
+   - We host a ton of repos so use cherrys.sh option if possible. If ywe dont host it then you can use a add/remove
    - Disqualifies your device for nightlies
 
-9. Overlays
+9. cherrys.sh
+   - Found in tools/
+   - this injects cherry picks for a gerrit commit
+   - if pac hosts the repos then please us this method by adding your patches to our repos and sending a commit to gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the cherrys.sh file to cherrypick during build
+   - very easy to use and understand once you look at the file
+
+10. Overlays
    - Found in the overlay directory.
    - Used to either find your correct overlays already created or create your own
    - If you have added your device to an overlay in the .mk file then you must create your own.
    - We have ones premade for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these
 
-10. Contact me to be added to the maintainers group hangout cbarlan@gmail.com
+11. Contact me to be added to the maintainers group hangout cbarlan@gmail.com
+
+
 
 PAC-Script Instructions
 ====================================
-```
+
+
 Usage:
   build-pac.sh [options] device
 
