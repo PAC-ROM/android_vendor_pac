@@ -195,7 +195,7 @@ Motorola:
 
 Oppo:
 ---------------------------------------------------------------------
-* __Find5 (find5) :__ tdm.code
+* __Find5 (find5) :__ eoghan2t7, tdm.code
 * __N1 (n1) :__ OPEN
 
 
