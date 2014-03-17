@@ -25,7 +25,7 @@
         "account":      "TeamNova",
         "repository":   "Samsung_STE_Kernel",
         "target_path":  "kernel/samsung/u8500",
-        "revision":     "3.0.31-plus"
+        "revision":     "3.0.31"
      },
     {
         "remote":       "github",
