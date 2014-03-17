@@ -8,16 +8,30 @@
   },
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "PAC-Oppo",
     "repository": "android_device_oppo_apq8064-common",
     "target_path": "device/oppo/apq8064-common",
     "revision": "cm-11.0"
   },
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "PAC-Oppo",
     "repository": "android_device_oppo_find5",
     "target_path": "device/oppo/find5",
     "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "PAC-Oppo",
+    "repository": "android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "PAC-Oppo",
+    "repository": "android_kernel_oppo_n1",
+    "target_path": "kernel/oppo/n1",
+    "revision": "cm-11.0-pub"
   }
 ]
