@@ -8,6 +8,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/apk/PacConsole.apk:system/app/PacConsole.apk
 
+#Copy Theme Apks
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/apk/PacX.apk:system/app/PacX.apk
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh \
