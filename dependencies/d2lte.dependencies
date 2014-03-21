@@ -2,13 +2,6 @@
   {
     "remote": "github",
     "account": "CyanogenMod",
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "cm-11.0"
-  },
-  {
-    "remote": "github",
-    "account": "CyanogenMod",
     "repository": "android_device_samsung_d2lte",
     "target_path": "device/samsung/d2lte",
     "revision": "cm-11.0"
