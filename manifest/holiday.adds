@@ -1,11 +1,4 @@
 [
-	{
-		"remote":       "github",
-		"account":      "LegacyXperia",
-		"repository":   "android_hardware_qcom_audio-legacy",
-		"target_path":  "hardware/qcom/audio-legacy",
-		"revision":     "cm-11.0"
-	},
         {
 		"remote":       "github",
 		"account":      "Team-Hydra",
