@@ -11,14 +11,14 @@
     "account": "CyanogenMod",
     "repository": "android_device_samsung_quincy-common",
     "target_path": "device/samsung/quincy-common",
-    "revision": "cm-10.2"
+    "revision": "cm-11.0"
   },
   {
     "remote": "github",
     "account": "CyanogenMod",
     "repository": "android_device_samsung_quincytmo",
     "target_path": "device/samsung/quincytmo",
-    "revision": "cm-10.2"
+    "revision": "cm-11.0"
   },
   {
     "remote": "github",
