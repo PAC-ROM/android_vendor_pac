@@ -109,8 +109,8 @@
   <device name="pollux"/>
   <device name="pollux_windy"/>
   <device name="pyramid"/>
-<!--  <device name="quincyatt"/> -->
-<!--  <device name="quincytmo"/> -->
+  <device name="quincyatt"/>
+  <device name="quincytmo"/>
   <device name="r950"/>
   <device name="ruby"/>
   <device name="serrano3gxx"/>
