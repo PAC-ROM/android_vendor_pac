@@ -4,7 +4,7 @@
         "account":      "TeamNova",
         "repository":   "android_device_samsung_codina",
         "target_path":  "device/samsung/codina",
-        "revision":     "cm-11.0"
+        "revision":     "pac-4.4"
      },
     {
         "remote":       "github",

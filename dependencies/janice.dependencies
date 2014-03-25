@@ -4,7 +4,7 @@
         "account":      "TeamNova",
         "repository":   "android_device_samsung_janice",
         "target_path":  "device/samsung/janice",
-        "revision":     "cm-11.0"
+        "revision":     "pac-4.4"
      },
     {
         "remote":       "github",
