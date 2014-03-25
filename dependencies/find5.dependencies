@@ -32,6 +32,6 @@
     "account": "PAC-Oppo",
     "repository": "android_kernel_oppo_n1",
     "target_path": "kernel/oppo/n1",
-    "revision": "cm-11.0-pub"
+    "revision": "cm-11-pub"
   }
 ]
