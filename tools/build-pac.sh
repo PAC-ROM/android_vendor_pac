@@ -7,7 +7,10 @@ usage()
     echo -e "  build-pac.sh [options] device"
     echo -e ""
     echo -e ${txtbld}"  Options:"${txtrst}
-    echo -e "    -c  Clean before build"
+    echo -e "    -c# Cleanin options before build:"
+    echo -e "        1 - make clean"
+    echo -e "        2 - make dirty"
+    echo -e "        3 - make magicbrownies"
     echo -e "    -d  Use dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -i  Static Initlogo"
@@ -89,9 +92,9 @@ opt_pipe=0
 opt_olvl=0
 opt_verbose=0
 
-while getopts "cdfij:pso:v" opt; do
+while getopts "c:dfij:pso:v" opt; do
     case "$opt" in
-    c) opt_clean=1 ;;
+    c) opt_clean="$OPTARG" ;;
     d) opt_dex=1 ;;
     f) opt_fetch=1 ;;
     i) opt_initlogo=1 ;;
@@ -121,8 +124,21 @@ echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
 vendor/pac/tools/getdependencies.py "$device"
 echo -e "${txtrst}"
 
-if [ "$opt_clean" -ne 0 ]; then
+if [ "$opt_clean" -eq 1 ]; then
     make clean >/dev/null
+    echo -e ""
+    echo -e ${bldblu}"Out is clean"${txtrst}
+    echo -e ""
+elif [ "$opt_clean" -eq 2 ]; then
+    make dirty >/dev/null
+    echo -e ""
+    echo -e ${bldblu}"Out is dirty"${txtrst}
+    echo -e ""
+elif [ "$opt_clean" -eq 3 ]; then
+    make magicbrownies >/dev/null
+    echo -e ""
+    echo -e ${bldblu}"Enjoy your magical adventure"${txtrst}
+    echo -e ""
 fi
 
 # download prebuilt files
