@@ -29,9 +29,9 @@
      },
     {
         "remote":       "github",
-        "account":      "TeamNova",
-        "repository":   "android_vendor_samsung_u8500-common",
-        "target_path":  "vendor/samsung/u8500-common",
-        "revision":     "kk"
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-11.0"
     }
 ]
