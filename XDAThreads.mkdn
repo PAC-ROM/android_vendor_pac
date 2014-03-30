@@ -22,6 +22,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2268850">Find5:                     find5          apascual89</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2671203">Galaxy Ace II:             codina         iiD4x</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=46692620">Galaxy Exibit Variants:   codinaxxx      Unjustified Dev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2676762">Galaxy Grand Duos:         i9082          K2wl</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Fascinate:      fascinatemtd Unjustified Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Showcase:       showcasemtd    Unjustified Dev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2197171">Galaxy S I Mesmerize:      mesmerizemtd   Unjustified Dev</a>

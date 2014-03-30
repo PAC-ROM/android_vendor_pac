@@ -1,0 +1,8 @@
+[
+  {
+    "account":      "k2wl",
+    "repository":   "android_hardware_broadcom_libbt",
+    "target_path":  "hardware/broadcom/libbt",
+    "revision":     "cm-11.0"
+  }
+]

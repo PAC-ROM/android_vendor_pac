@@ -35,10 +35,19 @@ case $device in
         # STE OMX Fix and Fix shutdown/reboot bug
         cherries+=(344_PAC)
     ;;
+
+    i9082)
+        # OMX patch
+        cherries+=(1162_PAC)
+        # native patch
+        cherries+=(1163_PAC)
+    ;;
+
     some_device_name)
         # some commit name
         # cherries+=(1234_AOKP)
     ;;
+
 esac
 
 if [ "$cherries" != "" ]; then

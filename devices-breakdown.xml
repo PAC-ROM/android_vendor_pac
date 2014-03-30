@@ -96,6 +96,7 @@
         <device FullName="Fascinate" CodeName="fascinatemtd"/>
 	<device FullName="Galaxy Ace II" CodeName="codina"/>
         <device FullName="Galaxy Express (ATT)" CodeName="expressatt"/>
+        <device FullName="Galaxy Grand Duos" CodeName="i9082"/>
         <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
         <device FullName="Galaxy Mega (LTE)" CodeName="meliusltexx"/>
         <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>

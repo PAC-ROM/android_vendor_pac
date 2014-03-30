@@ -1,0 +1,23 @@
+[
+  {
+    "remote": "github",
+    "account": "K2wl",
+    "repository": "android_device_samsung_i9082",
+    "target_path": "device/samsung/i9082",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "K2wl",
+    "repository": "android_kernel_samsung_i9082",
+    "target_path": "kernel/samsung/i9082",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-11.0"
+  }
+]

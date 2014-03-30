@@ -87,6 +87,7 @@ add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_hlte-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i777-userdebug
+add_lunch_combo pac_i9082-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_i925-userdebug
