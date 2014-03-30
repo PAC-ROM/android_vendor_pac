@@ -1,0 +1,20 @@
+[
+    {
+        "account":      "krislibaeer",
+        "repository":   "android_device_samsung_ariesve",
+        "target_path":  "device/samsung/ariesve",
+        "revision":     "cm-11.0_ion_pmem_adsp"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "AriesVE-DevCon-TEAM",
+        "repository":   "samsung-kernel-msm7x30",
+        "target_path":  "kernel/samsung/msm7x30",
+        "revision":     "cm-11.0_ion_pmem_adsp"
+    }
+]

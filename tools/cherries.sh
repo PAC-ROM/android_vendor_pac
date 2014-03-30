@@ -35,14 +35,24 @@ case $device in
         # STE OMX Fix and Fix shutdown/reboot bug
         cherries+=(344_PAC)
     ;;
-
     i9082)
         # OMX patch
         cherries+=(1162_PAC)
         # native patch
         cherries+=(1163_PAC)
     ;;
-
+    ariesve)
+        #hwc: Blank and unblank primary on first boot
+        cherries+=(56473_CM)
+        #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
+        cherries+=(58227_CM)
+        #Overlay support for legacy camera libs
+        cherries+=(58228_CM)
+        #sensorservice: Add legacy sensors fusion
+        cherries+=(1164_PAC)
+        #native: add flag to disable legacy sensors fusion
+        cherries+=(1165_PAC)
+    ;;
     some_device_name)
         # some commit name
         # cherries+=(1234_AOKP)

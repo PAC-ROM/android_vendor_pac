@@ -158,6 +158,7 @@
         <device FullName="Galaxy S B" CodeName="galaxysbmtd"/>
         <device FullName="Galaxy S Blaze 4G (T-Mobile)" CodeName="t769"/>
         <device FullName="Galaxy S LCD" CodeName="galaxysl"/>
+        <device FullName="Galaxy S Plus" CodeName="ariesve"/>
         <device FullName="Galaxy Tab 7" "(GSM)" CodeName="p1"/>
         <device FullName="Galaxy Tab 10.1 (GSM)" CodeName="p4"/>
         <device FullName="Galaxy Tab 10.1 (WiFi)" CodeName="p4wifi"/>

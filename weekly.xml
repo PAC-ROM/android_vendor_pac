@@ -9,6 +9,7 @@
   <!-- Add new devices here -->
   <device name="anzu"/>
   <device name="aries"/>
+  <device name="ariesve"/>
   <device name="atlas40"/>
   <device name="coconut"/>
   <device name="codina"/>
