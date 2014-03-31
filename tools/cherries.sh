@@ -53,10 +53,6 @@ case $device in
         #native: add flag to disable legacy sensors fusion
         cherries+=(1165_PAC)
     ;;
-    some_device_name)
-        # some commit name
-        # cherries+=(1234_AOKP)
-    ;;
 
 esac
 
