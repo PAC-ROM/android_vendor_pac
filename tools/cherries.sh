@@ -25,16 +25,6 @@ case $device in
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
-    janice | codina)
-        # STE OMX Fix [1/3]
-        cherries+=(338_PAC)
-        # STE OMX Fix [2/3]
-        cherries+=(339_PAC)
-        # STE OMX Fix [3/3]
-        cherries+=(343_PAC)
-        # STE OMX Fix and Fix shutdown/reboot bug
-        cherries+=(344_PAC)
-    ;;
     i9082)
         # OMX patch
         cherries+=(1162_PAC)
