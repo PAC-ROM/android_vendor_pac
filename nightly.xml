@@ -19,6 +19,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="a510"/>
   <device name="a700"/>
   <device name="apexqtmo"/>
   <device name="captivatemtd"/>

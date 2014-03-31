@@ -1,0 +1,26 @@
+[
+  {
+    "account":    "Shr3ps",
+    "repository": "device_acer_a510",
+    "target_path": "device/acer/a510",
+    "revision":    "cm11"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_acer_t30-common",
+    "target_path": "device/acer/t30-common",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_kernel_acer_t30",
+    "target_path": "kernel/acer/t30",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_acer",
+    "target_path": "vendor/acer",
+    "revision":    "cm-11.0"
+  }
+]

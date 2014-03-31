@@ -1,4 +1,8 @@
 <devices>
+    <vendor Name="Acer">
+        <device FullName="Acer Iconia A510" CodeName="a510"/>
+        <device FullName="Acer Iconia A700" CodeName="a700"/>
+    </vendor>
     <vendor Name="Amazon">
         <device FullName="Kindle Fire" CodeName="otter"/>
         <device FullName="Kindle Fire 2" CodeName="otter2"/>
@@ -114,7 +118,7 @@
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
         <device FullName="Galaxy Note 3 (Sprint)" CodeName="hlte"/>
         <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hlte"/>
-        <device FullName="Galaxy Note 3 (International)"CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>
         <device FullName="Galaxy Note 3 (Verizon)" CodeName="hlte"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
@@ -159,7 +163,7 @@
         <device FullName="Galaxy S Blaze 4G (T-Mobile)" CodeName="t769"/>
         <device FullName="Galaxy S LCD" CodeName="galaxysl"/>
         <device FullName="Galaxy S Plus" CodeName="ariesve"/>
-        <device FullName="Galaxy Tab 7" "(GSM)" CodeName="p1"/>
+        <device FullName="Galaxy Tab 7 (GSM)" CodeName="p1"/>
         <device FullName="Galaxy Tab 10.1 (GSM)" CodeName="p4"/>
         <device FullName="Galaxy Tab 10.1 (WiFi)" CodeName="p4wifi"/>
         <device FullName="Galaxy Tab 10" CodeName="p7100"/>
