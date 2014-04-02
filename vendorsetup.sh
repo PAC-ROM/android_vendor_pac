@@ -10,6 +10,8 @@ add_lunch_combo pac_jem-userdebug
 add_lunch_combo pac_tf201-userdebug
 add_lunch_combo pac_tf300t-userdebug
 add_lunch_combo pac_tf700t-userdebug
+# Barnes & Noble
+add_lunch_combo pac_ovation-userdebug
 # HTC
 add_lunch_combo pac_dlx-userbebug
 add_lunch_combo pac_fireball-userdebug

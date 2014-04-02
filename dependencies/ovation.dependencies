@@ -1,0 +1,34 @@
+        [
+          {
+            "remote":       "github",
+            "account":      "Pinky-Inky-and-Clyde",
+            "repository":   "proprietary_vendor_bn",
+            "target_path":  "vendor/bn",
+            "revision":     "cm-11.0"
+          },
+          {
+            "remote":       "github",
+            "account":      "CyanogenMod",
+            "repository":   "android_device_bn_common",
+            "target_path":  "device/bn/common",
+            "revision":     "cm-11.0"
+          },
+          {
+            "remote":       "github",
+            "account":      "CyanogenMod",
+            "repository":   "android_device_bn_ovation",
+            "target_path":  "device/bn/ovation",
+            "revision":     "cm-11.0"
+          },
+          {
+            "remote":       "github",
+            "account":      "CyanogenMod",
+            "repository":   "android_kernel_bn_omap",
+            "target_path":  "kernel/bn/omap",
+            "revision":     "cm-11.0"
+          }
+        ]
+
+
+
+
