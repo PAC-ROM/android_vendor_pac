@@ -39,7 +39,6 @@
         <device FullName="One X" CodeName="endeavoru"/>
         <device FullName="One X+" CodeName="enrc2b"/>
         <device FullName="One XL" CodeName="evita"/>
-        <device FullName="Sensation" CodeName="pyramid"/>
     </vendor>
     <vendor Name="Huawei">
         <device FullName="Ascend G510" CodeName="u8951"/>
