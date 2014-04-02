@@ -19,7 +19,7 @@
     },
     {
         "account":      "LegacyXperia",
-        "repository":   "msm7x30-3.4.x-nAa",
+        "repository":   "android_kernel_semc_msm7x30",
         "target_path":  "kernel/semc/msm7x30",
         "revision":     "cm-11.0"
     },

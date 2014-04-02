@@ -2,29 +2,22 @@
     {
         "remote":       "github",
         "account":      "LegacyXperia",
-        "repository":   "android_hardware_qcom_display-legacy",
-        "target_path":  "hardware/qcom/display-legacy",
-        "revision":     "cm-11.0_old"
-    },
-    {
-        "remote":       "github",
-        "account":      "LegacyXperia",
-        "repository":   "android_hardware_qcom_media-legacy",
-        "target_path":  "hardware/qcom/media-legacy",
-        "revision":     "cm-11.0_old"
-    },
-    {
-        "remote":       "github",
-        "account":      "LegacyXperia",
-        "repository":   "android_frameworks_webview",
-        "target_path":  "frameworks/webview",
+        "repository":   "android_hardware_qcom_audio-caf",
+        "target_path":  "hardware/qcom/audio-caf",
         "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
         "account":      "LegacyXperia",
-        "repository":   "android_packages_apps_Browser",
-        "target_path":  "packages/apps/Browser",
+        "repository":   "android_hardware_qcom_display-caf",
+        "target_path":  "hardware/qcom/display-caf",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_hardware_qcom_media-caf",
+        "target_path":  "hardware/qcom/media-caf",
         "revision":     "cm-11.0"
     }
 ]

@@ -23,7 +23,7 @@ device=$1
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # Allow using Classic WebView
-        cherries+=(56054_CM)
+        #cherries+=(56054_CM)
     ;;
     i9082)
         # OMX patch

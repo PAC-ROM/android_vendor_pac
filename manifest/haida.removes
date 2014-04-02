@@ -1,18 +1,14 @@
 [
     {
-        "name":     "androidarmv6/android_hardware_qcom_display-legacy",
-        "path":     "hardware/qcom/display-legacy"
+        "name":     "android_hardware_qcom_audio-caf",
+        "path":     "hardware/qcom/audio-caf"
     },
     {
-        "name":     "androidarmv6/android_hardware_qcom_media_legacy",
-        "path":     "hardware/qcom/media-legacy"
+        "name":     "android_hardware_qcom_display-caf",
+        "path":     "hardware/qcom/display-caf"
     },
     {
-        "name":     "android_frameworks_webview",
-        "path":     "frameworks/webview"
-    },
-    {
-        "name":     "android_packages_apps_Browser",
-        "path":     "packages/apps/Browser"
+        "name":     "android_hardware_qcom_media-caf",
+        "path":     "hardware/qcom/media-caf"
     }
 ]
