@@ -57,6 +57,7 @@
         <device FullName="Optimus 4X" CodeName="p880"/>
         <device FullName="Optimus Black" CodeName="p970"/>
         <device FullName="Optimus L5" CodeName="e610"/>
+        <device FullName="Optimus L7" CodeName="p705"/>
         <device FullName="Optimus L9" CodeName="p760"/>
         <device FullName="Optimus G (ATT)" CodeName="e970"/>
         <device FullName="Optimus G (Japan)" CodeName="e973"/>

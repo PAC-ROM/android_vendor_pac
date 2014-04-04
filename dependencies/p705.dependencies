@@ -1,0 +1,26 @@
+[
+    {
+        "account":      "coderzstas",
+        "repository":   "android_device_lge_p705",
+        "target_path":  "device/lge/p705",
+        "revision":     "pac-4.4"
+    },
+    {
+        "account":      "coderzstas",
+        "repository":   "android_device_lge_p705-common",
+        "target_path":  "device/lge/p705-common",
+        "revision":     "pac-4.4"
+    },
+    {
+        "account":      "coderzstas",
+        "repository":   "lge-kernel",
+        "target_path":  "kernel/lge/p705",
+        "revision":     "android-msm-3.4-kk"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-11.0"
+    }
+]

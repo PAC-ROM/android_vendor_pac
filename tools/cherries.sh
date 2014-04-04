@@ -31,6 +31,12 @@ case $device in
         # native patch
         cherries+=(1163_PAC)
     ;;
+    p705)
+        #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
+        cherries+=(1343_PAC)
+        # Allow using Classic WebView
+        cherries+=(56054_CM)
+    ;;
     ariesve)
         #hwc: Blank and unblank primary on first boot
         cherries+=(56473_CM)
