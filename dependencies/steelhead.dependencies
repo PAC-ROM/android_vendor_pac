@@ -3,19 +3,19 @@
     "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_google",
     "target_path":  "vendor/google",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
     },
   {
     "account":      "CyanogenMod",
     "repository":   "android_device_google_steelhead",
     "target_path":  "device/google/steelhead",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   },
   {
-    "account":      "manelscout4life",
+    "account":      "CyanogenMod",
    "repository": "android_kernel_google_steelhead",
    "target_path": "kernel/google/steelhead",
-    "revision":     "cm-10.2"
+    "revision":     "cm-11.0"
   }
 ]
 

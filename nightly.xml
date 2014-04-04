@@ -120,7 +120,7 @@
   <device name="skyrocket"/>
   <device name="spyder"/>
   <device name="superior"/>
-<!--  <device name="steelhead"/> -->
+  <device name="steelhead"/>
   <device name="t0lte"/>
   <device name="t0lteatt"/>
   <device name="t0ltetmo"/>
