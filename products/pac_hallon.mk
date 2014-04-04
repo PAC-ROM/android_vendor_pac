@@ -8,46 +8,8 @@ OVERLAY_TARGET := pa_hdpi
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x854
 
 # PAC boot logo
-$(shell rm -rf $(PRODUCT_OUT)/recovery/root/bootlogo)
-ifeq ($(BUILD_WITH_STATIC_INITLOGO),true)
-    PRODUCT_COPY_FILES += \
-        vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
-else
-    PRODUCT_COPY_FILES += \
-        vendor/pac/prebuilt/SE-2011/480/1.rle:root/bootlogo/1.rle \
-        vendor/pac/prebuilt/SE-2011/480/2.rle:root/bootlogo/2.rle \
-        vendor/pac/prebuilt/SE-2011/480/3.rle:root/bootlogo/3.rle \
-        vendor/pac/prebuilt/SE-2011/480/4.rle:root/bootlogo/4.rle \
-        vendor/pac/prebuilt/SE-2011/480/5.rle:root/bootlogo/5.rle \
-        vendor/pac/prebuilt/SE-2011/480/6.rle:root/bootlogo/6.rle \
-        vendor/pac/prebuilt/SE-2011/480/7.rle:root/bootlogo/7.rle \
-        vendor/pac/prebuilt/SE-2011/480/8.rle:root/bootlogo/8.rle \
-        vendor/pac/prebuilt/SE-2011/480/8.rle:root/bootlogo/9.rle \
-        vendor/pac/prebuilt/SE-2011/480/7.rle:root/bootlogo/10.rle \
-        vendor/pac/prebuilt/SE-2011/480/6.rle:root/bootlogo/11.rle \
-        vendor/pac/prebuilt/SE-2011/480/5.rle:root/bootlogo/12.rle \
-        vendor/pac/prebuilt/SE-2011/480/4.rle:root/bootlogo/13.rle \
-        vendor/pac/prebuilt/SE-2011/480/3.rle:root/bootlogo/14.rle \
-        vendor/pac/prebuilt/SE-2011/480/2.rle:root/bootlogo/15.rle \
-        vendor/pac/prebuilt/SE-2011/480/1.rle:root/bootlogo/16.rle \
-        vendor/pac/prebuilt/SE-2011/480/1.rle:root/bootlogo/17.rle \
-        vendor/pac/prebuilt/SE-2011/480/2.rle:root/bootlogo/18.rle \
-        vendor/pac/prebuilt/SE-2011/480/3.rle:root/bootlogo/19.rle \
-        vendor/pac/prebuilt/SE-2011/480/4.rle:root/bootlogo/20.rle \
-        vendor/pac/prebuilt/SE-2011/480/5.rle:root/bootlogo/21.rle \
-        vendor/pac/prebuilt/SE-2011/480/6.rle:root/bootlogo/22.rle \
-        vendor/pac/prebuilt/SE-2011/480/7.rle:root/bootlogo/23.rle \
-        vendor/pac/prebuilt/SE-2011/480/8.rle:root/bootlogo/24.rle \
-        vendor/pac/prebuilt/SE-2011/480/8.rle:root/bootlogo/25.rle \
-        vendor/pac/prebuilt/SE-2011/480/7.rle:root/bootlogo/26.rle \
-        vendor/pac/prebuilt/SE-2011/480/6.rle:root/bootlogo/27.rle \
-        vendor/pac/prebuilt/SE-2011/480/5.rle:root/bootlogo/28.rle \
-        vendor/pac/prebuilt/SE-2011/480/4.rle:root/bootlogo/29.rle \
-        vendor/pac/prebuilt/SE-2011/480/3.rle:root/bootlogo/30.rle \
-        vendor/pac/prebuilt/SE-2011/480/2.rle:root/bootlogo/31.rle \
-        vendor/pac/prebuilt/SE-2011/480/1.rle:root/bootlogo/32.rle
-
-endif
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x854.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
@@ -61,7 +23,7 @@ $(call inherit-product, device/semc/hallon/cm.mk)
 
 PRODUCT_NAME := pac_hallon
 
-# Additional Syatem Prop
+# Additional System Prop
 # hardware info
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.device.chipset=Qualcomm-Snapdragon-S2-MSM8255 \
