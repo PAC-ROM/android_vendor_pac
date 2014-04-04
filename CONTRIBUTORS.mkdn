@@ -5,21 +5,27 @@ PAC-man Rom
 Developers:
 ----------------
 * __Bkjolly__
-* __bluefa1con__
-* __goldflame09__
-* __MallardDuck__
 * __Nick0703__
 * __Owain94__
 * __Papa Smurf151__
 * __pvyParts__
-* __singhdd93__
-* __Sniper__
 * __szl.kiev__
 * __timpohladthomas__
-* __wedgess__
 * __zyonee__
 * __Grarak__
 
+Contributors:
+---------------------
+* __bluefa1con__
+* __DympyDev__
+* __goldflame09__
+* __iurnait__
+* __MallardDuck__
+* __metaiiica__
+* __MightyBear007__
+* __singhdd93__
+* __Sniper__
+* __wedgess__
 
 Forum Administrators:
 -----------------------------
@@ -66,11 +72,8 @@ Gerrit Administrators:
 * __Owain94__
 * __Papa Smurf151__
 * __pvyParts__
-* __singhdd93__
-* __Sniper__
 * __szl.kiev__
 * __timpohladthomas__
-* __wedgess__
 * __zyonee__
 
 
@@ -82,13 +85,6 @@ Graphics Team:
 * __pvyParts__
 * __Rinkle McBally__
 * __zooyork0721__
-
-
-Contributors:
----------------------
-* __DympyDev__
-* __iurnait__
-* __MightyBear007__
 
 
 Devices:        Codename:       Maintainer:
