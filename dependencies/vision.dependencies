@@ -4,7 +4,7 @@
     "repository":   "android_device_htc_vision",
     "target_path":  "device/htc/vision",
     "revision":     "cm-11.0"
-    },
+  },
   {
     "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_htc",

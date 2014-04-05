@@ -5,7 +5,7 @@ ifeq (pac_vision,$(TARGET_PRODUCT))
 OVERLAY_TARGET := pa_hdpi
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x854
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

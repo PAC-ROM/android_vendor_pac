@@ -11,8 +11,4 @@
         "name":     "android_hardware_qcom_audio-caf",
         "path":     "hardware/qcom/audio-caf"
     }
-    {
-        "name": "android_hardware_qcom_audio-caf",
-        "path": "hardware/qcom/audio-caf"
-    }
 ]
