@@ -139,7 +139,7 @@ add_lunch_combo pac_t769-userdebug
 add_lunch_combo pac_venturi-userdebug
 add_lunch_combo pac_ypg1-userdebug
 # Sony
-dd_lunch_combo pac_amami-userdebug
+add_lunch_combo pac_amami-userdebug
 add_lunch_combo pac_dogo-userdebug
 add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_huashan-userdebug
