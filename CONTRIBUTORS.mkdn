@@ -12,7 +12,6 @@ Developers:
 * __szl.kiev__
 * __timpohladthomas__
 * __zyonee__
-* __Grarak__
 
 Contributors:
 ---------------------
