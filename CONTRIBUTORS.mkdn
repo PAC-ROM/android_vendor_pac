@@ -111,11 +111,13 @@ ASUS:
 * __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon
 * __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon
 * __Transformer Pad (tf300t) :__ kd8bny
+* __Transformer Pad (tf701t) :__ OPEN
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
 
 Barnes & Noble:
 ---------------------------------------------------------------------
+* __Nook (acclaim) :__ OPEN
 * __Nook Color (encore) :__ tdm.code
 * __Nook HD+ (ovation) :__ DarkStarr
 
@@ -134,6 +136,7 @@ HTC:
 * __One (Sprint) (m7spr) :__ MallardDuck
 * __One (T-Mobile) (m7) :__ MaDc0w
 * __One (Verizon) (m7vzw) :__ Flyhalf205
+* __One Mini (m4) :__ OPEN
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ bilal_liberty
 * __One X (endeavoru) :__ Techinstein
@@ -296,7 +299,9 @@ Sony:
 * __Xperia V (tsubasa) :__ Abhinav1997
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
 * __Xperia Z1 (honami) :__ jeroenqui
+* __Xperia Z1 Compact (amami) :__ OPEN
 * __Xperia ZL (odin) :__ havanahjoe
+* __Xperia ZR (dogo) :__ OPEN
 * __Xperia Z Ultra (togari) :__ OPEN
 * __Xperia Z Ultra (Google Play Edition) (togari_gpe) :__ OPEN
 
@@ -324,7 +329,7 @@ ZTE:
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
 
-Total Devices: 168
+Total Devices: 172
 
 Best regards
     szl.kiev

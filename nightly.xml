@@ -21,7 +21,9 @@
   <!-- Add new devices here -->
   <device name="a510"/>
   <device name="a700"/>
+  <device name="acclaim"/>
   <device name="apexqtmo"/>
+  <device name="amami"/>
   <device name="captivatemtd"/>
   <device name="crespo"/>
 <!--  <device name="d803"/> -->
@@ -32,6 +34,7 @@
   <device name="d802"/>
   <device name="deb"/>
   <device name="dlx"/>
+  <device name="dogo"/>
   <device name="e970"/>
   <device name="e973"/>
   <device name="e975"/>
@@ -72,6 +75,7 @@
   <device name="l900"/>
   <device name="ls970"/>
   <device name="ls980"/>
+  <device name="m4"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m7vzw"/>
@@ -131,6 +135,7 @@
 <!--  <device name="tf201"/> -->
   <device name="tf300t"/>
   <device name="tf700t"/>
+  <device name="tf701t"/>
   <device name="tilapia"/>
   <device name="togari"/>
   <device name="togari_gpe"/>

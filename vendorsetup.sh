@@ -10,7 +10,9 @@ add_lunch_combo pac_jem-userdebug
 add_lunch_combo pac_tf201-userdebug
 add_lunch_combo pac_tf300t-userdebug
 add_lunch_combo pac_tf700t-userdebug
+add_lunch_combo pac_tf701t-userdebug
 # Barnes & Noble
+add_lunch_combo pac_acclaim-userdebug
 add_lunch_combo pac_encore-userdebug
 add_lunch_combo pac_ovation-userdebug
 # HTC
@@ -22,6 +24,7 @@ add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_holiday-userdebug
 add_lunch_combo pac_jewel-userdebug
+add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7spr-userdebug
 add_lunch_combo pac_m7vzw-userdebug
@@ -136,6 +139,8 @@ add_lunch_combo pac_t769-userdebug
 add_lunch_combo pac_venturi-userdebug
 add_lunch_combo pac_ypg1-userdebug
 # Sony
+dd_lunch_combo pac_amami-userdebug
+add_lunch_combo pac_dogo-userdebug
 add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_mint-userdebug

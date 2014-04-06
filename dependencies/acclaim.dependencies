@@ -1,0 +1,26 @@
+[
+  {
+    "account":    "CyanogenMod",
+    "repository": "device_bn_acclaim",
+    "target_path": "device/bn/acclaim",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_bn_omap4-common",
+    "target_path": "device/bn/omap4-common",
+	"revision":    "cm-11.0"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_kernel_bn_acclaim",
+    "target_path": "kernel/bn/acclaim",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_bn",
+    "target_path": "vendor/bn",
+    "revision":    "cm-11.0"
+  }
+]

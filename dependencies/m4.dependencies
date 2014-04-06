@@ -1,0 +1,26 @@
+[
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_htc_m4",
+    "target_path": "device/htc/m4",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_kernel_htc_msm8960",
+    "target_path": "kernel/htc/msm8960",
+	"revision":    "cm-11.0"
+  },
+  {
+    "account":    "PAC-HTC",
+    "repository": "android_device_htc_msm8960-common",
+    "target_path": "device/htc/msm8960-common",
+	"revision":    "cm-11.0"
+  },
+  {
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_htc",
+    "target_path": "vendor/htc",
+    "revision":    "cm-11.0"
+  }
+]
