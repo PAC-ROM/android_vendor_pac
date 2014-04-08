@@ -1,7 +1,7 @@
 [
   {
     "account":    "CyanogenMod",
-    "repository": "device_bn_acclaim",
+    "repository": "android_device_bn_acclaim",
     "target_path": "device/bn/acclaim",
     "revision":    "cm-11.0"
   },
