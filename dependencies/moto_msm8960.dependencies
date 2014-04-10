@@ -1,7 +1,7 @@
 [
     {
         "remote": "github",
-        "account": "CyanogenMod",
+        "account": "PAC-Motorola",
         "repository": "android_device_motorola_moto_msm8960",
         "target_path": "device/motorola/moto_msm8960",
         "revision": "cm-11.0"
