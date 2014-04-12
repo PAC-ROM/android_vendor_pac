@@ -29,6 +29,13 @@
      },
     {
         "remote":       "github",
+        "account":      "Cyanogenmod",
+        "repository":   "android_packages_apps_SamsungServiceMode",
+        "target_path":  "packages/apps/SamsungServiceMode",
+        "revision":     "cm-11.0"
+     },
+    {
+        "remote":       "github",
         "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
