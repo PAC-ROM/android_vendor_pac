@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
 #TARGET_RELEASETOOL_OTA_FROM_TARGET_SCRIPT := vendor/pac/overlay/build/tools/releasetools/ota_from_target_files
 
 # T-Mobile theme engine
-include vendor/pa/config/themes_common.mk
+#include vendor/pa/config/themes_common.mk
 
 # Screen recorder
 PRODUCT_PACKAGES += \
