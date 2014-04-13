@@ -6,11 +6,11 @@ OVERLAY_TARGET := pa_tate
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
+    vendor/pac/prebuilt/common/bootlogo/pac_logo_800x1280.rle:root/logo.rle
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/480x800/bootanimation.zip:system/media/bootanimation.zip
+    vendor/pac/prebuilt/800x1280/bootanimation.zip:system/media/bootanimation.zip
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
