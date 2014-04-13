@@ -23,7 +23,7 @@ usage()
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
-    echo -e "    ./build-pac.sh -c hammerhead"
+    echo -e "    ./build-pac.sh -c1 hammerhead"
     echo -e ""
     exit 1
 }
