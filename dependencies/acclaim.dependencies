@@ -9,7 +9,7 @@
     "account":    "CyanogenMod",
     "repository": "android_device_bn_omap4-common",
     "target_path": "device/bn/omap4-common",
-	"revision":    "cm-11.0"
+    "revision":    "cm-11.0"
   },
   {
     "account":    "CyanogenMod",

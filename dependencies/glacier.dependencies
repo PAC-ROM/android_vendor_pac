@@ -1,23 +1,23 @@
 [
-	{
-		"remote":       "github",
-		"account":      "Arc-Team",
-		"repository":   "android_device_htc_glacier",
-		"target_path":  "device/htc/glacier",
-		"revision":     "cm-11.0"
-	},
-	{
-		"remote":       "github",
-		"account":      "Arc-Team",
-		"repository":   "android_kernel_htc_glacier",
-		"target_path":  "kernel/htc/glacier",
-		"revision":     "cm-11.0"
-	},
-	{
-		"remote":       "github",
-		"account":      "Pinky-Inky-and-Clyde",
-		"repository":   "proprietary_vendor_htc",
-		"target_path":  "vendor/htc",
-		"revision":     "cm-11.0"
-	}
+  {
+    "remote":       "github",
+    "account":      "Arc-Team",
+    "repository":   "android_device_htc_glacier",
+    "target_path":  "device/htc/glacier",
+    "revision":     "cm-11.0"
+  },
+  {
+    "remote":       "github",
+    "account":      "Arc-Team",
+    "repository":   "android_kernel_htc_glacier",
+    "target_path":  "kernel/htc/glacier",
+    "revision":     "cm-11.0"
+  },
+  {
+    "remote":       "github",
+    "account":      "Pinky-Inky-and-Clyde",
+    "repository":   "proprietary_vendor_htc",
+    "target_path":  "vendor/htc",
+    "revision":     "cm-11.0"
+  }
 ]
