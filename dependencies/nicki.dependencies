@@ -1,6 +1,6 @@
 [
     {
-        "account":      "RonGokhale",
+        "account":      "freexperia",
         "repository":   "android_device_sony_nicki",
         "target_path":  "device/sony/nicki",
         "revision":     "cm-11.0"
