@@ -15,21 +15,21 @@
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
+    "account":      "CyanogenMod",
     "repository":   "kernel_omap_bowser-common",
     "target_path":  "kernel/amazon/bowser-common",
     "revision":     "cm-11.0"
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
+    "account":      "CyanogenMod",
     "repository":   "android_device_amazon_bowser-common",
     "target_path":  "device/amazon/bowser-common",
     "revision":     "cm-11.0"
   },
   {
     "remote":       "github",
-    "account":      "KFire-Android",
+    "account":      "CyanogenMod",
     "repository":   "android_device_amazon_tate",
     "target_path":  "device/amazon/tate",
     "revision":     "cm-11.0"
