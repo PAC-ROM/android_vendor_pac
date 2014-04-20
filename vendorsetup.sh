@@ -28,6 +28,7 @@ add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7spr-userdebug
 add_lunch_combo pac_m7vzw-userdebug
+add_lunch_combo pac_pyramid-userdebug
 add_lunch_combo pac_ruby-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_villec2-userdebug

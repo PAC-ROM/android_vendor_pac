@@ -142,6 +142,7 @@ HTC:
 * __One X (endeavoru) :__ Techinstein
 * __One X+ (enrc2b) :__  Techinstein
 * __One XL (evita) :__ JoseGalRe, Techinstein
+* __Sensation (pyramid) :__ bilal_liberty
 
 
 HUAWEI:

@@ -117,6 +117,7 @@
   <device name="p5110"/>
   <device name="pollux"/>
   <device name="pollux_windy"/>
+  <device name="pyramid"/>
   <device name="quincyatt"/>
   <device name="quincytmo"/>
   <device name="r950"/>
