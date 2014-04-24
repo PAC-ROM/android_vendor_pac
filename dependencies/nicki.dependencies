@@ -24,7 +24,7 @@
         "revision":     "cm-11.0"
     },
     {
-        "account":      "RonGokhale",
+        "account":      "freexperia",
         "repository":   "android_Kernel_sony_msm8x27",
         "target_path":  "kernel/sony/msm8x27",
         "revision":     "cm-11.0"
