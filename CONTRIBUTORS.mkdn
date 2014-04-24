@@ -286,7 +286,7 @@ Samsung:
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
 * __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
 * __Nexus S (crespo) :__ berni987654321
-* __Nexus 10 (manta) :__ zyonee, apascual89
+* __Nexus 10 (manta) :__ apascual89
 * __Showcase (showcasemtd) :__ Unjustifed Dev
 
 
