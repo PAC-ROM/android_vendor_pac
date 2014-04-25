@@ -1,0 +1,25 @@
+[
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_frameworks_webview",
+        "target_path":  "frameworks/webview",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "androidarmv6",
+        "repository":   "android_bionic",
+        "target_path":  "bionic",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "androidarmv6",
+        "repository":   "android_vendor_cm",
+        "target_path":  "vendor/cm",
+        "revision":     "cm-11.0"
+    }
+]
+
+

@@ -62,6 +62,7 @@
         <device FullName="Optimus L5" CodeName="e610"/>
         <device FullName="Optimus L7" CodeName="p705"/>
         <device FullName="Optimus L9" CodeName="p760"/>
+        <device FullName="Optimus One" CodeName="p500"/>
         <device FullName="Optimus G (ATT)" CodeName="e970"/>
         <device FullName="Optimus G (Japan)" CodeName="e973"/>
         <device FullName="Optimus G (Europe)" CodeName="e975"/>

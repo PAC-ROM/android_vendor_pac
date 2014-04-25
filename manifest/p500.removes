@@ -1,0 +1,10 @@
+[
+    {
+        "name":     "android_bionic",
+        "path":     "bionic"
+    },
+    {
+        "name":     "android_vendor_cm",
+        "path":     "vendor/cm"
+    }
+]
