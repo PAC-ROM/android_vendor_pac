@@ -132,7 +132,7 @@ HTC:
 * __MyTouch 4G (glacier) :__ JoseGalRe
 * __One (AT&T) (m7) :__ MaDc0w
 * __One (GSM)(m7) :__ MaDc0w
-* __One (Sprint) (m7spr) :__ MallardDuck
+* __One (Sprint) (m7spr) :__ tdhite, MallardDuck
 * __One (T-Mobile) (m7) :__ MaDc0w
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One (2014) (m8) :__ Owain94
