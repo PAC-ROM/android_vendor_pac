@@ -19,7 +19,7 @@
 		<device FullName="Transformer Pad" CodeName="tf701t"/>
         <device FullName="Transformer Pad Infinity" CodeName="tf700t"/>
     </vendor>
-    <vendor Name="Barnes & Noble">
+    <vendor Name="Barnes and Noble">
 	    <device FullName="Nook" CodeName="acclaim"/>
         <device FullName="Nook Color" CodeName="encore"/>
         <device FullName="Nook HD+" CodeName="ovation"/>
