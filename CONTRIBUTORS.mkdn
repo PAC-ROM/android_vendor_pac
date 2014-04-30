@@ -268,7 +268,7 @@ Samsung:
 * __Galaxy S IV (Canada) (jflte) :__ Nick0703
 * __Galaxy S IV (Cricket) (jflte) :__ Nick0703
 * __Galaxy S IV (C-Spire) (jflte) :__ RIPng
-* __Galaxy S IV (LTE) (jflte) :__metaiiica, vertigo2012
+* __Galaxy S IV (LTE) (jflte) :__ metaiiica, vertigo2012
 * __Galaxy S IV (Sprint) (jflte) :__ Sniper
 * __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper

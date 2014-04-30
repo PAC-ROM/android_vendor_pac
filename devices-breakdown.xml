@@ -16,11 +16,11 @@
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
         <device FullName="Nexus 7 LTE (2013)" CodeName="deb"/>
         <device FullName="Transformer Pad" CodeName="tf300t"/>
-		<device FullName="Transformer Pad" CodeName="tf701t"/>
+        <device FullName="Transformer Pad" CodeName="tf701t"/>
         <device FullName="Transformer Pad Infinity" CodeName="tf700t"/>
     </vendor>
     <vendor Name="Barnes and Noble">
-	    <device FullName="Nook" CodeName="acclaim"/>
+        <device FullName="Nook" CodeName="acclaim"/>
         <device FullName="Nook Color" CodeName="encore"/>
         <device FullName="Nook HD+" CodeName="ovation"/>
     </vendor>
@@ -29,7 +29,7 @@
     </vendor>
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
-	<device FullName="Desire Z" CodeName="vision"/>
+        <device FullName="Desire Z" CodeName="vision"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
         <device FullName="Droid Incredible 4G" CodeName="fireball"/>
         <device FullName="Evo LTE" CodeName="jewel"/>
@@ -40,7 +40,7 @@
         <device FullName="One (Sprint)" CodeName="m7spr"/>
         <device FullName="One (T-Mobile)" CodeName="m7"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
-		<device FullName="One Mini" CodeName="m4"/>
+        <device FullName="One Mini" CodeName="m4"/>
         <device FullName="One S" CodeName="ville"/>
         <device FullName="One S C2" CodeName="villec2"/>
         <device FullName="One X" CodeName="endeavoru"/>
@@ -106,7 +106,7 @@
         <device FullName="Epic 4G Touch (Sprint)" CodeName="d710"/>
         <device FullName="Exhilarate (ATT)" CodeName="sgh-1577"/>
         <device FullName="Fascinate" CodeName="fascinatemtd"/>
-	<device FullName="Galaxy Ace II" CodeName="codina"/>
+        <device FullName="Galaxy Ace II" CodeName="codina"/>
         <device FullName="Galaxy Express (ATT)" CodeName="expressatt"/>
         <device FullName="Galaxy Grand Duos" CodeName="i9082"/>
         <device FullName="Galaxy Mega (GSM)" CodeName="melius3gxx"/>
@@ -137,7 +137,7 @@
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
         <device FullName="Galaxy Premier" CodeName="superior"/>
-	<device FullName="Galaxy S Advance" CodeName="janice"/>
+        <device FullName="Galaxy S Advance" CodeName="janice"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II G" CodeName="i9100G"/>
@@ -155,7 +155,7 @@
         <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
         <device FullName="Galaxy S III (US Cellular)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (Verizon)" CodeName="d2lte"/>
-	<device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
+        <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV (ATT)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (Canada)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (Cricket)" CodeName="jflte"/>
@@ -191,9 +191,9 @@
         <device FullName="Xperia V" CodeName="tsubasa"/>
         <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
-		<device FullName="Xperia Z1 Compact" CodeName="amami"/>
+        <device FullName="Xperia Z1 Compact" CodeName="amami"/>
         <device FullName="Xperia ZL" CodeName="odin"/>
-		<device FullName="Xperia ZR" CodeName="dogo"/>
+        <device FullName="Xperia ZR" CodeName="dogo"/>
         <device FullName="Xperia Z Ultra" CodeName="togari"/>
         <device FullName="Xperia Z Ultra GPE" CodeName="togari_gpe"/>
     </vendor>
