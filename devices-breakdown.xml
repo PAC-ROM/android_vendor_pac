@@ -184,6 +184,7 @@
         <device FullName="Showcase" CodeName="showcasemtd"/>
     </vendor>
     <vendor Name="Sony">
+        <device FullName="Xperia L" CodeName="taoshan"/>
         <device FullName="Xperia M" CodeName="nicki"/>
         <device FullName="Xperia T" CodeName="mint"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>

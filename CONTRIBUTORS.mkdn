@@ -293,6 +293,7 @@ Samsung:
 
 Sony:
 ---------------------------------------------------------------------
+* __Xperia L (taoshan) :__ Olivier
 * __Xperia M (nicki) :__ Abhinav1997
 * __Xperia SP (huashan) :__ jacknb1ack
 * __Xperia T (mint) :__ Abhinav1997
@@ -331,7 +332,7 @@ ZTE:
 * __Blade 3 (atlas40) :__ KonstaT, robt77
 
 
-Total Devices: 173
+Total Devices: 174
 
 Best regards
     szl.kiev

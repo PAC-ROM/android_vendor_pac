@@ -151,6 +151,7 @@ add_lunch_combo pac_nicki-userdebug
 add_lunch_combo pac_odin-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_pollux_windy-userdebug
+add_lunch_combo pac_taoshan-userdebug
 add_lunch_combo pac_tsubasa-userdebug
 add_lunch_combo pac_togari-userdebug
 add_lunch_combo pac_togari_gpe-userdebug
