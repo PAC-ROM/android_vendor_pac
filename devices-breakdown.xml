@@ -4,7 +4,7 @@
         <device FullName="Acer Iconia A700" CodeName="a700"/>
     </vendor>
     <vendor Name="Amazon">
-        <device FullName="Kindle Fire" CodeName="otter"/>
+        <device FullName="Kindle Fire" CodeName="otter/otterx"/>
         <device FullName="Kindle Fire 2" CodeName="otter2"/>
         <device FullName="Kindle Fire HD 7" CodeName="tate"/>
         <device FullName="Kindle Fire HD 8.9" CodeName="jem"/>

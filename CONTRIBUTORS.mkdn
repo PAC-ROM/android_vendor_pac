@@ -97,7 +97,7 @@ Acer:
 
 Amazon:
 ---------------------------------------------------------------------
-* __Kindle Fire (otter) :__ goldflame09
+* __Kindle Fire (otter/otterx) :__ goldflame09
 * __Kindle Fire 2 (otter2) :__ goldflame09
 * __Kindle Fire HD 7 (tate) :__ goldflame09
 * __Kindle Fire HD 8.9 (jem) :__ goldflame09

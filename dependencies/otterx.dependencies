@@ -1,0 +1,37 @@
+[
+  {
+    "remote":       "github",
+    "account":      "Pinky-Inky-and-Clyde",
+    "repository":   "proprietary_vendor_amazon",
+    "target_path":  "vendor/amazon",
+    "revision":     "cm-11.0"
+    },
+  {
+    "remote":       "github",
+    "account":      "CyanogenMod",
+    "repository":   "android_device_amazon_omap4-common",
+    "target_path":  "device/amazon/omap4-common",
+    "revision":     "cm-11.0"
+  },
+  {
+    "remote":       "github",
+    "account":      "CyanogenMod",
+    "repository":   "android_kernel_amazon_otter-common",
+    "target_path":  "kernel/amazon/otter-common",
+    "revision":     "cm-11.0"
+  },
+  {
+    "remote":       "github",
+    "account":      "CyanogenMod",
+    "repository":   "android_device_amazon_otter-common",
+    "target_path":  "device/amazon/otter-common",
+    "revision":     "cm-11.0"
+  },
+  {
+    "remote":       "github",
+    "account":      "KFire-Android",
+    "repository":   "android_device_amazon_otterx",
+    "target_path":  "device/amazon/otterx",
+    "revision":     "cm-11.0"
+  }
+]

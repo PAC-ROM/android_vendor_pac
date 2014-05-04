@@ -4,6 +4,7 @@ add_lunch_combo pac_a700-userdebug
 # Amazon
 add_lunch_combo pac_otter-userdebug
 add_lunch_combo pac_otter2-userdebug
+add_lunch_combo pac_otterx-userdebug
 add_lunch_combo pac_tate-userdebug
 add_lunch_combo pac_jem-userdebug
 # Asus device
