@@ -1,0 +1,32 @@
+[
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_htc_m8",
+        "target_path":  "device/htc/m8",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_kernel_htc_msm8974",
+        "target_path":  "kernel/htc/msm8974",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_qcom_display-caf-new",
+        "target_path":  "hardware/qcom/display-caf-new",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_htc",
+        "target_path":  "vendor/htc",
+        "revision":     "cm-11.0"
+    }
+]
