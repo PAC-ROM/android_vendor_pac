@@ -21,8 +21,8 @@ Register at [PAC-man Gerrit](http://review.pac-rom.com) and use the username tha
 
 The git-review package will only have to be installed once.
 
-If you are going to make extra additions, just repeat steps, but instead of **git commit -m**
-use **git commit --amend**. Gerrit will recognize it as a new patch-set.
+If you are going to make extra additions, just repeat steps, but instead of using
+ **git commit -m** use **git commit --amend**. Gerrit will recognize it as a new patch-set.
 
 To view the status of your and others patches, visit [PAC-man Code Review](http://review.pac-rom.com/).
 
@@ -59,12 +59,12 @@ Files to Edit
    - Keep it alphabetical.
    - Follow the format.
 
-7. [XDA Forum Thread Template](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/forum-threads/XDA_Forum_4.4_Threads_Templete)
+7. [XDA Forum Thread Template](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/forum-threads/XDA_Forum_4.4_Threads_Template)
    - Just c/p to your thread.
    - Fill in the needed specific device areas.
    - Rom DL link should direct to PAC Forum Thread.
 
-8. [PAC Forum Thread Template](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/forum-threads/Pac_Forum_4.4_threads_Templete)
+8. [PAC Forum Thread Template](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/forum-threads/Pac_Forum_4.4_threads_Template)
    - Just c/p to your thread.
    - Fill in the needed specific device areas.
    - Link to http://pacman.basketbuild.com/index.php?dir=main/(Device_CODENAME)/nightly/.
@@ -74,11 +74,11 @@ Files to Edit
    - Keep alphabetical.
 
 10. [add/removes](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/manifest)
-   - Found in the manifest directory
-   - Used for legacy devices
-   - Please try to keep this as clean as possible and only use if you have to
-   - We host a ton of repos so use cherrys.sh option if possible. If we don't host it then you can use a add/remove
-   - Disqualifies your device for nightlies
+   - Found in the manifest directory.
+   - Used for legacy devices.
+   - Please try to keep this as clean as possible and only use if you have to.
+   - We host a ton of repos so use cherrys.sh option if possible. If we don't host it then you can use a add/remove.
+   - Disqualifies your device for nightlies.
 
 11. [cherrie.sh](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/tools/cherries.sh)
    - Found in [tools](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/tools)/.
