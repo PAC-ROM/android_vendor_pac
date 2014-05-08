@@ -117,7 +117,7 @@ ASUS:
 
 Barnes & Noble:
 ---------------------------------------------------------------------
-* __Nook (acclaim) :__ OPEN
+* __Nook (acclaim) :__ LowEndGeek
 * __Nook Color (encore) :__ tdm.code
 * __Nook HD+ (ovation) :__ DarkStarr
 
