@@ -22,8 +22,24 @@ device=$1
 # Add device specific commits here
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
-        # Allow using Classic WebView
-        #cherries+=(56054_CM)
+        # Workspace: Quad interpolator
+        cherries+=(1898_PAC)
+        # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
+        cherries+=(63203_CM)
+        # telephony: set additional audio parameters for incall audio (2/2)
+        cherries+=(1899_PAC)
+        # bluedroid: increase uhid report buffer size for wiimote
+        cherries+=(63389_CM)
+        # audio: Add A2DP notification support
+        cherries+=(63131_CM)
+        # framework/av: Add Usb AoA v2.0 support
+        cherries+=(63410_CM)
+        # libstagefright: Convert mono to stereo for LPA clips
+        cherries+=(63411_CM)
+        # libstagefright: Stability issue with LPA play back.
+        cherries+=(63412_CM)
+        # libstagefright: LPA playback fails when non-LPA clip is next clip
+        cherries+=(63413_CM)
     ;;
     i9082)
         # OMX patch
