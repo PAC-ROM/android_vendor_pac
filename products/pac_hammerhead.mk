@@ -12,6 +12,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
 
+# Copy QuickBoot.apk
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/device/jflte/apk/QuickBoot.apk:system/app/QuickBoot.apk
+
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
