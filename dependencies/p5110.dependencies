@@ -6,7 +6,7 @@
     "revision":    "cm-11.0"
   },
   {
-    "account":    "CyanogenMod",
+    "account":    "Nick0703",
     "repository": "android_device_samsung_omap4-common",
     "target_path": "device/samsung/omap4-common",
     "revision":    "cm-11.0"
