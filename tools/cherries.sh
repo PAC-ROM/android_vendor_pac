@@ -65,6 +65,10 @@ case $device in
         #native: add flag to disable legacy sensors fusion
         cherries+=(1165_PAC)
     ;;
+    janice | codina)
+        # Swap Storages
+        cherries+=(56515_CM)
+    ;;
 
 esac
 
