@@ -105,7 +105,7 @@
   <device name="odin"/>
   <device name="otter"/>
   <device name="otter2"/>
-  <device name="otterx"/>
+<!--  <device name="otterx"/> -->
 <!--  <device name="ovation"/> -->
   <device name="p1"/>
 <!--  <device name="p760"/> -->
