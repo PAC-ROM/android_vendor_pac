@@ -135,7 +135,7 @@ HTC:
 * __One (Sprint) (m7spr) :__ tdhite, MallardDuck
 * __One (T-Mobile) (m7) :__ MaDc0w
 * __One (Verizon) (m7vzw) :__ Flyhalf205
-* __One (2014) (m8) :__ Owain94
+* __One (2014) (m8) :__ DREWHAMM974, Owain94
 * __One Mini (m4) :__ WildfireDEV
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ bilal_liberty
