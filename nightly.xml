@@ -25,7 +25,6 @@
   <device name="apexqtmo"/>
   <device name="amami"/>
   <device name="captivatemtd"/>
-<!--  <device name="codina"/> -->
   <device name="crespo"/>
 <!--  <device name="d803"/> -->
   <device name="d2lte"/>
@@ -70,7 +69,6 @@
   <device name="i9300"/>
   <device name="i9305"/>
   <device name="i9500"/>
-<!--  <device name="janice"/> -->
   <device name="jem"/>
   <device name="jewel"/>
   <device name="jflte"/>
