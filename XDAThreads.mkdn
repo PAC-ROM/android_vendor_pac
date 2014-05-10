@@ -130,6 +130,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Oppo Find 5:                    find5         eoghan2t7</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=51015692">Oppo N1:                    n1         trialsrider1</a>
 <a href="Will update later">Nook HD+:                   Ovation         DarkStarr</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=52542956">Nook Tablet:                   Acclaim         LowEndGeek</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE            moto_msm8960   arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306365">Razr HD (GSM)              moto_msm8960  Bkjolly</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306365">Razr HD (Verizon)          moto_msm8960  Bkjolly</a>
