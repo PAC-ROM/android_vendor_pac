@@ -108,15 +108,15 @@ if [ -n $ABIGEN ]; then
     echo ""
 fi
 
-if [ "$TARGET_PRODUCT" = "pac_hammerhead" ]; then
-    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_hammerhead.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-elif [ "$TARGET_PRODUCT" = "pac_flo" ]; then
-    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_flo.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-elif [ "$TARGET_PRODUCT" = "pac_mako" ]; then
-    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_mako.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-else
-    cp ${ANDROID_BUILD_TOP}/packages/apps/DSPManager/cyanogen-dsp/audio_effects.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-fi
+#if [ "$TARGET_PRODUCT" = "pac_hammerhead" ]; then
+#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_hammerhead.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+#elif [ "$TARGET_PRODUCT" = "pac_flo" ]; then
+#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_flo.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+#elif [ "$TARGET_PRODUCT" = "pac_mako" ]; then
+#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_mako.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+#else
+#    cp ${ANDROID_BUILD_TOP}/packages/apps/DSPManager/cyanogen-dsp/audio_effects.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
+#fi
 
 # Pack it up and sign
 echo -e ${grn}"Zipping package..."${txtrst}
