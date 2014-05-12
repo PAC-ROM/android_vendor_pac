@@ -133,7 +133,7 @@
   <device name="t0lteatt"/>
   <device name="t0ltetmo"/>
   <device name="t769"/>
-<!--  <device name="taoshan"/> -->
+  <device name="taoshan"/>
   <device name="targa"/>
   <device name="tate"/>
 <!--  <device name="tf201"/> -->
