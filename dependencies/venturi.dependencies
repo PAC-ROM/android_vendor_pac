@@ -13,7 +13,7 @@
   },
   {
     "account":      "iurnait",
-    "repository":   "sultan-kernel-venturi",
+    "repository":   "nutella_kernel_samsung_venturi",
     "target_path":  "kernel/samsung/venturi",
     "revision":     "master"
   },
