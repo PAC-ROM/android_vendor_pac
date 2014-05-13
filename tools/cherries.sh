@@ -26,8 +26,6 @@ case $device in
         cherries+=(1898_PAC)
         # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
         cherries+=(63203_CM)
-        # telephony: set additional audio parameters for incall audio (2/2)
-        cherries+=(1899_PAC)
         # bluedroid: increase uhid report buffer size for wiimote
         cherries+=(63389_CM)
         # audio: Add A2DP notification support
