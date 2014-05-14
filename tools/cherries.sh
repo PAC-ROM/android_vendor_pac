@@ -67,6 +67,10 @@ case $device in
         # Swap Storages
         cherries+=(56515_CM)
     ;;
+    janice)
+        # fix default colors for janice
+        cherries+=(2154_PAC)
+    ;;
 
 esac
 
@@ -76,4 +80,3 @@ if [ "$cherries" != "" ]; then
     echo -e ""
     ./build/tools/repopick.py -b ${cherries[@]}
 fi
-
