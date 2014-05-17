@@ -1,8 +1,8 @@
-# use AOSP default sounds
+# now use pac sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=Themos.ogg \
-    ro.config.notification_sound=Proxima.ogg \
-    ro.config.alarm_alert=Cesium.ogg
+    ro.config.ringtone=PAC-Ringtone.ogg \
+    ro.config.notification_sound=PAC-Notifications.ogg \
+    ro.config.alarm_alert=PAC-Alarm.ogg
 
 # Copy specific ROM files
 #PRODUCT_COPY_FILES += \
@@ -52,6 +52,12 @@ PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/etc/init.d/25loopy_smoothness_tweak:system/etc/init.d/25loopy_smoothness_tweak \
 #    vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
 #    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
+
+# Pac Sounds
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/media/audio/alarms/PAC-Alarm.ogg:system/media/audio/alarms/PAC-Alarm.ogg \
+    vendor/pac/prebuilt/common/media/audio/notifications/PAC-Notifications.ogg:system/media/audio/notifications/PAC-Notifications.ogg \
+    vendor/pac/prebuilt/common/media/audio/ringtones/PAC-Ringtone.ogg:system/media/audio/ringtones/PAC-Ringtone.ogg
 
 # Added xbin files
 #PRODUCT_COPY_FILES += \
