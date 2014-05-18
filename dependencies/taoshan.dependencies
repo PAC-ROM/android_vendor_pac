@@ -1,7 +1,7 @@
 [
     {
-        "account": "varunchitre15",
-        "repository": "android_device_sony_taoshan",
+        "account": "olivieer",
+        "repository": "device_sony_taoshan",
         "target_path": "device/sony/taoshan",
         "revision": "cm-11.0"
     },
