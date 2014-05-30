@@ -99,7 +99,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2542006">LG G2 (Verizon):           vs980         tucstwo</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=38249397">LG Optimus 2x:             p990          MetaIIica</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2174883">LG Nitro HD:               p930          just1nsama</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2666513">LG Optimus 4x:             p880          Fluoxetine</a>
+<a href="Not yet made (Gimme time)">LG Optimus 4x:             p880          Hid3away</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2503693">LG Optimus G (AT&T):       e970          neighborhoodhacker</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2671622">LG Optimus G (Canadian):   e973          haze028</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501074">LG Optimus G (Sprint):     ls970          neighborhoodhacker</a>

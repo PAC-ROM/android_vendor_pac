@@ -164,7 +164,7 @@ LG:
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ Owain94, zyonee
 * __Nitro HD (p930) :__ tdm.code
-* __Optimus 4X (p880) :__ Fluoxetine
+* __Optimus 4X (p880) :__ Hid3away
 * __Optimus Black (p970) :__ zaclimon
 * __Optimus L5 (e610) :__ herna, bart452
 * __Optimus L7 (p705) :__ coderzstas
