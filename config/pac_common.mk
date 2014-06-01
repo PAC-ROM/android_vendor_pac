@@ -64,9 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
-#    GooglePacman \
     PacConsole \
-#    Paclauncher \
     PacPapers
 
 # PAC Overlays
