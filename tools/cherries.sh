@@ -28,16 +28,10 @@ case $device in
         cherries+=(63203_CM)
         # bluedroid: increase uhid report buffer size for wiimote
         cherries+=(63389_CM)
-        # audio: Add A2DP notification support
-        cherries+=(63131_CM)
-        # framework/av: Add Usb AoA v2.0 support
-        cherries+=(63410_CM)
-        # libstagefright: Convert mono to stereo for LPA clips
-        cherries+=(63411_CM)
-        # libstagefright: Stability issue with LPA play back.
-        cherries+=(63412_CM)
-        # libstagefright: LPA playback fails when non-LPA clip is next clip
-        cherries+=(63413_CM)
+        # Add UUID (re-)scan support for vold-mounted volume (1/2)
+        cherries+=(64436_CM)
+        # Add UUID (re-)scan support for vold-mounted volume (2/2)
+        cherries+=(64437_CM)
     ;;
     i9082)
         # OMX patch
