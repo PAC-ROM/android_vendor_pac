@@ -15,6 +15,7 @@ usage()
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -i  Static Initlogo"
     echo -e "    -j# Set jobs"
+    echo -e "    -r  Reset source tree before build"
     echo -e "    -s  Sync before build"
     echo -e "    -p  Build using pipe"
     echo -e "    -o# Select GCC O Level"
@@ -87,18 +88,20 @@ opt_dex=0
 opt_fetch=0
 opt_initlogo=0
 opt_jobs="$CPUS"
+opt_reset=0
 opt_sync=0
 opt_pipe=0
 opt_olvl=0
 opt_verbose=0
 
-while getopts "c:dfij:pso:v" opt; do
+while getopts "c:dfij:prso:v" opt; do
     case "$opt" in
     c) opt_clean="$OPTARG" ;;
     d) opt_dex=1 ;;
     f) opt_fetch=1 ;;
     i) opt_initlogo=1 ;;
     j) opt_jobs="$OPTARG" ;;
+    r) opt_reset=1 ;;
     s) opt_sync=1 ;;
     p) opt_pipe=1 ;;
     o) opt_olvl="$OPTARG" ;;
@@ -146,6 +149,14 @@ if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ]; then
     echo -e ""
     echo -e ${bldblu}"Downloading prebuilts"${txtrst}
     vendor/cm/get-prebuilts
+    echo -e ""
+fi
+
+# reset source tree
+if [ "$opt_reset" -ne 0 ]; then
+    echo -e ""
+    echo -e ${bldblu}"Resetting source tree and removing all uncommitted changes"${txtrst}
+    repo forall -c "git reset --hard HEAD; git clean -qf"
     echo -e ""
 fi
 
