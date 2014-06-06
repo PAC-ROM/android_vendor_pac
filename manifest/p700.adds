@@ -1,0 +1,37 @@
+[
+    {
+        "remote":       "github",
+        "account":      "TeamHackLG",
+        "repository":   "android_hardware_qcom_display-caf",
+        "target_path":  "hardware/qcom/display-caf",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "TeamHackLG",
+        "repository":   "android_hardware_qcom_media-caf",
+        "target_path":  "hardware/qcom/media-caf",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "TeamHackLG",
+        "repository":   "android_packages_apps_SoundRecorder",
+        "target_path":  "packages/apps/SoundRecorder",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_frameworks_webview",
+        "target_path":  "frameworks/webview",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "LegacyXperia",
+        "repository":   "android_packages_apps_Browser",
+        "target_path":  "packages/apps/Browser",
+        "revision":     "cm-11.0"
+    }
+]

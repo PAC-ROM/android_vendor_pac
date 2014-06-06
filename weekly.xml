@@ -15,6 +15,7 @@
   <device name="codina"/>
   <device name="d803"/>
   <device name="e610"/>
+  <device name="p700"/>
   <device name="glacier"/>
   <device name="haida"/>
   <device name="hallon"/>

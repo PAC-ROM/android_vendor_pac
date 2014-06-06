@@ -1,0 +1,26 @@
+[
+    {
+        "account":      "aidasaidas75",
+        "repository":   "android_device_lge_p700",
+        "target_path":  "device/lge/p700",
+        "revision":     "pac-4.4"
+    },
+    {
+        "account":      "aidasaidas75",
+        "repository":   "android_device_lge_msm7x27a-common",
+        "target_path":  "device/lge/msm7x27a-common",
+        "revision":     "pac-4.4"
+    },
+    {
+        "account":      "TeamHackLG",
+        "repository":   "lge-kernel-lproj",
+        "target_path":  "kernel/lge/msm7x27a-common",
+        "revision":     "android-msm-3.4-kk"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-11.0"
+    }
+]
