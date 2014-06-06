@@ -116,7 +116,7 @@ CM_BUILD := $(BOARD)
 PA_VERSION_MAJOR = 4
 PA_VERSION_MINOR = 2
 PA_VERSION_MAINTENANCE =
-PA_PREF_REVISION = BETA3
+PA_PREF_REVISION = BETA4
 VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
 PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
@@ -130,10 +130,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
     ro.pacrom.version=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
     ro.modversion=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
-    ro.pa.family=$(PA_CONF_SOURCE) \
-    ro.pa.version=$(VERSION) \
+    ro.pa.version=$(VERSION)_$(PA_PREF_REVISION) \
     ro.papref.revision=$(PA_PREF_REVISION) \
     ro.aokp.version=$(BOARD)_kitkat
+#   ro.pa.family=$(PA_CONF_SOURCE) \ Disable This for now.
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
