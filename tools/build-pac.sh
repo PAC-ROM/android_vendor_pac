@@ -145,7 +145,8 @@ elif [ "$opt_clean" -eq 3 ]; then
 fi
 
 # download prebuilt files
-if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ]; then
+date=`date '+%d'`
+if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date == 01 ] || [ $date == 15 ]; then
     echo -e ""
     echo -e ${bldblu}"Downloading prebuilts"${txtrst}
     vendor/cm/get-prebuilts
