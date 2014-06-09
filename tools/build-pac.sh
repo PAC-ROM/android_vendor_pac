@@ -14,7 +14,6 @@ usage()
     echo -e "        3 - make magicbrownies"
     echo -e "    -d  Use dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
-    echo -e "    -i  Static Initlogo"
     echo -e "    -j# Set jobs"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s  Sync before build"
@@ -88,7 +87,6 @@ opt_adb=0
 opt_clean=0
 opt_dex=0
 opt_fetch=0
-opt_initlogo=0
 opt_jobs="$CPUS"
 opt_olvl=0
 opt_pipe=0
@@ -96,13 +94,12 @@ opt_reset=0
 opt_sync=0
 opt_verbose=0
 
-while getopts "ac:dfij:o:prsv" opt; do
+while getopts "ac:dfj:o:prsv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_dex=1 ;;
     f) opt_fetch=1 ;;
-    i) opt_initlogo=1 ;;
     j) opt_jobs="$OPTARG" ;;
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
@@ -198,11 +195,6 @@ echo -e ${bldblu}"Setting up environment"${txtrst}
 rm -f $OUTDIR/target/product/$device/system/build.prop
 rm -f $OUTDIR/target/product/$device/system/app/*.odex
 rm -f $OUTDIR/target/product/$device/system/framework/*.odex
-
-# initlogo
-if [ "$opt_initlogo" -ne 0 ]; then
-    export BUILD_WITH_STATIC_INITLOGO=true
-fi
 
 # lunch device
 echo -e ""
