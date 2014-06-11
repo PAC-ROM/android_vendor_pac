@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_n8013,$(TARGET_PRODUCT))
+ifeq (pac_n801x,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_n80xx
@@ -12,8 +12,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/n8013/cm.mk)
+$(call inherit-product, device/samsung/n801x/omni_n801x.mk)
 
-PRODUCT_NAME := pac_n8013
+PRODUCT_NAME := pac_n801x
 
 endif
