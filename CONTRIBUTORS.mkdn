@@ -240,7 +240,7 @@ Samsung:
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
 * __Galaxy Note 10.1 (GSM) (N8000) :__ pimpmaneaton
-* __Galaxy Note 10.1 (WiFi) (N8013) :__ pimpmaneaton
+* __Galaxy Note 10.1 (WiFi) (N801x) :__ pimpmaneaton,eddyctweets
 * __Galaxy Note 10.1 (Verizon LTE) (i925) :__ OPEN
 * __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
 * __Galaxy Player 5.0 (venturi) :__ iurnait
