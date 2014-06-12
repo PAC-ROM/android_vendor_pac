@@ -1,17 +1,17 @@
 [
     {
         "remote":       "github",
-        "account":      "M1cha",
+        "account":      "CyanogenMod",
         "repository":   "android_device_xiaomi_aries",
         "target_path":  "device/xiaomi/aries",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
-        "account":      "M1cha",
+        "account":      "CyanogenMod",
         "repository":   "android_kernel_xiaomi_aries",
         "target_path":  "kernel/xiaomi/aries",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "github",
