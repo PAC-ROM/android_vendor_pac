@@ -116,7 +116,7 @@ fi
 device="$1"
 
 # get current version
-eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ *//g')
+eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ [:=]\+ /=/g' | sed 's/shell //g')
 VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
