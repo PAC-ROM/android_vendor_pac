@@ -133,7 +133,7 @@
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
-        <device FullName="Galaxy Note 10.1 (GSM)" CodeName="N8013"/>
+        <device FullName="Galaxy Note 10.1 (GSM)" CodeName="N801x"/>
         <device FullName="Galaxy Note 10.1 (Wi-Fi)" CodeName="N8000"/>
         <device FullName="Galaxy Note 10.1 (Verizon LTE)" CodeName="i925"/>
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
