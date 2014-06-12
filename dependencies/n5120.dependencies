@@ -6,7 +6,7 @@
     "revision":     "cm-11.0"
     },
   {
-    "account":      "sbrissen",
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_n5120",
     "target_path":  "device/samsung/n5120",
     "revision":     "cm-11.0"
