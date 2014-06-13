@@ -124,7 +124,7 @@
   <device name="r950"/>
   <device name="ruby"/>
 <!--  <device name="serrano3gxx"/> -->
-<!--  <device name="serranoltexx"/> -->
+  <device name="serranoltexx"/>
 <!--  <device name="showcasemtd"/> -->
   <device name="skyrocket"/>
   <device name="spyder"/>

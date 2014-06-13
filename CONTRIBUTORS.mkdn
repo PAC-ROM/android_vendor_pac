@@ -276,7 +276,7 @@ Samsung:
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Mini (3g) (serrano3gxx) :__ OPEN
-* __Galaxy S IV Mini (lte) (serranoltexx) :__ OPEN
+* __Galaxy S IV Mini (lte) (serranoltexx) :__ gremly
 * __Galaxy S B (galaxysbmtd) :__ OPEN
 * __Galaxy S Blaze 4G (T-Mobile) (t769) :__ InkSlinger420
 * __Galaxy S LCD (galaxysl) :__ AndreRaptor
