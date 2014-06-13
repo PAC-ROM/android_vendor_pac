@@ -8,14 +8,14 @@
   },
   {
     "remote": "github",
-    "account": "omnirom",
+    "account": "CyanogenMod",
     "repository": "android_device_samsung_n80xx-common",
     "target_path": "device/samsung/n80xx-common",
-    "revision": "android-4.4"
+    "revision": "cm-11.0"
   },
   {
     "remote": "github",
-    "account": "omnirom",
+    "account": "Goldflame09",
     "repository": "android_device_samsung_n801x",
     "target_path": "device/samsung/n801x",
     "revision": "android-4.4"

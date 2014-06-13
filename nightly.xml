@@ -99,7 +99,7 @@
   <device name="n7000"/>
   <device name="n7100"/>
 <!--  <device name="n8000"/> -->
-<!--  <device name="n8013"/> -->
+<!--  <device name="n801x"/> -->
   <device name="nicki"/>
   <device name="odin"/>
   <device name="otter"/>

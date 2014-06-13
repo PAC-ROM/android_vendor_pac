@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/n801x/omni_n801x.mk)
+$(call inherit-product, device/samsung/n801x/cm.mk)
 
 PRODUCT_NAME := pac_n801x
 
