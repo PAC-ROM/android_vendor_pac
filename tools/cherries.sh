@@ -8,7 +8,7 @@
 #    AOSP - Android Open Source Project
 #    CM   - CyanogenMod
 #    PAC  - pac-rom
-#    LX   - LegacyXperia
+#    PA   - Paranoid Android (AOSPA)
 
 device=$1
 
@@ -22,12 +22,8 @@ device=$1
 # Add device specific commits here
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
-        # Workspace: Quad interpolator
-        cherries+=(1898_PAC)
         # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
         cherries+=(63203_CM)
-        # bluedroid: increase uhid report buffer size for wiimote
-        cherries+=(63389_CM)
         # Add UUID (re-)scan support for vold-mounted volume (1/2)
         cherries+=(64436_CM)
         # Add UUID (re-)scan support for vold-mounted volume (2/2)
