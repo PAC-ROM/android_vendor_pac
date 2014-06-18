@@ -65,6 +65,10 @@ case $device in
         # fix default colors for janice
         cherries+=(2154_PAC)
     ;;
+    tenderloin)
+        # btservice/AdaperState: handle ENABLED_READY in OffState
+        cherries+=(54380_CM)
+    ;;
 
 esac
 
