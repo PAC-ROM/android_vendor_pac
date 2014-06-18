@@ -122,6 +122,11 @@ Barnes & Noble:
 * __Nook HD+ (ovation) :__ DarkStarr
 
 
+HP:
+---------------------------------------------------------------------
+* __Touchpad (tenderloin) :__ shumash
+
+
 HTC:
 ---------------------------------------------------------------------
 * __Amaze 4G (ruby) :__ JoseGalRe

@@ -137,6 +137,7 @@
   <device name="taoshan"/>
   <device name="targa"/>
   <device name="tate"/>
+  <device name="tenderloin"/>
 <!--  <device name="tf201"/> -->
   <device name="tf300t"/>
   <device name="tf700t"/>
