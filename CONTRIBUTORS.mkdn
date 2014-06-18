@@ -283,8 +283,8 @@ Samsung:
 * __Galaxy Tab 7" (p1) :__ OPEN
 * __Galaxy Tab 10.1" (GSM) (p4) :__ JoseGalRe
 * __Galaxy Tab 10.1" (Wi-Fi) (p4wifi) :__ JoseGalRe
-* __Galaxy Tab 2 7" (p3100) :__ Nick0703, Zeetherocker
-* __Galaxy Tab 2 7" (P3110) :__ Nick0703, Zeetherocker
+* __Galaxy Tab 2 7" (p3100) :__ Zeetherocker
+* __Galaxy Tab 2 7" (P3110) :__ Zeetherocker
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
 * __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
