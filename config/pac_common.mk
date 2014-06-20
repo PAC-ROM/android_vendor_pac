@@ -141,7 +141,7 @@ PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 # PAC version
 PAC_VERSION_MAJOR = 4
-PAC_VERSION_MINOR = 4.3
+PAC_VERSION_MINOR = 4.4
 PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else echo "Beta-1.0"; fi)
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
