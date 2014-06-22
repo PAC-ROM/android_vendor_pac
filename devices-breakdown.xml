@@ -142,6 +142,8 @@
         <device FullName="Galaxy S Advance" CodeName="janice"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
+        <device FullName="Galaxy S II Plus" CodeName="s2ve"/>
+        <device FullName="Galaxy S II Plus" CodeName="s2vep"/>
         <device FullName="Galaxy S II G" CodeName="i9100G"/>
         <device FullName="Galaxy S II LTE" CodeName="skyrocket"/>
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
