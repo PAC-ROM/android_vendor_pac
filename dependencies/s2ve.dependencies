@@ -1,0 +1,23 @@
+[
+  {
+    "remote": "github",
+    "account": "luk1337",
+    "repository": "android_device_samsung_s2ve",
+    "target_path": "device/samsung/s2ve",
+    "revision": "pac"
+  },
+  {
+    "remote": "github",
+    "account": "luk1337",
+    "repository": "android_kernel_samsung_galaxys2plus-common",
+    "target_path": "kernel/samsung/galaxys2plus-common",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "SamsungBCM-Cyanogenmod",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision": "cm-11.0"
+  }
+]

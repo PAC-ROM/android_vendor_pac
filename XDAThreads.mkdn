@@ -63,6 +63,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2669087">Galaxy S II LTE (AT&T):    skyrocket     TheCybertronian</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2140110">Galaxy S II (AT&T):        i777           sblood86, IconRunner</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669118">Galaxy S II (T-Mobile):    hercules        TheCybertronian</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2790368">Galaxy S II Plus:          s2ve/s2vep    LuK1337</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2015607">Galaxy S III (AT&T):       d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (Cricket):    d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2400382">Galaxy S III (GSM):        i9300          wedgess</a>

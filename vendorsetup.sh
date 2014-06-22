@@ -132,6 +132,8 @@ add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_quincyatt-userdebug
 add_lunch_combo pac_quincytmo-userdebug
 add_lunch_combo pac_r950-userdebug
+add_lunch_combo pac_s2ve-userdebug
+add_lunch_combo pac_s2vep-userdebug
 add_lunch_combo pac_serrano3gxx-userdebug
 add_lunch_combo pac_serranoltexx-userdebug
 add_lunch_combo pac_showcasemtd-userdebug
