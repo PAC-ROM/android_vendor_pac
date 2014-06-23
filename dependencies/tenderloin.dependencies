@@ -1,0 +1,30 @@
+[
+ {
+    "remote":       "github",
+    "account":      "invisiblek",
+    "repository":   "android_kernel_hp_tenderloin",
+    "target_path":  "kernel/hp/tenderloin",
+    "revision":     "cm-11.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "invisiblek",
+    "repository":   "android_device_hp_tenderloin",
+    "target_path":  "device/hp/tenderloin",
+    "revision":     "cm-11.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "CyanogenMod",
+    "repository":   "android_hardware_atheros_wlan",
+    "target_path":  "hardware/atheros/wlan",
+    "revision":     "cm-11.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "Pinky-Inky-and-Clyde",
+    "repository":   "proprietary_vendor_hp",
+    "target_path":  "vendor/hp",
+    "revision":     "cm-11.0"
+ }
+]
