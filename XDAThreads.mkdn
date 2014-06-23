@@ -86,6 +86,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2202854">Galaxy Tab 2 7':           p3110          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202885">Galaxy Tab 2 10':          p5100          BLOWNCO, pvyParts</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2202885">Galaxy Tab 2 10':          p5110          BLOWNCO, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2779954">HP Touchpad:               tenderloin     shumash</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2407455">Kindle Fire:               otter/otterx           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2347951">Kindle Fire 2:             otter2           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2355103">Kindle Fire HD 7:          tate            goldflame09</a>
