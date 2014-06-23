@@ -1,0 +1,10 @@
+[
+    {
+        "name":     "android_hardware_qcom_media",
+        "path":     "hardware/qcom/media"
+    },
+    {
+        "name":     "android_bootable_recovery",
+        "path":     "bootable/recovery"
+    }
+]

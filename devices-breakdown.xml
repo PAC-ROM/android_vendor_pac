@@ -210,6 +210,7 @@
         <device FullName="Xperia Neo V" CodeName="haida"/>
         <device FullName="Xperia Pro" CodeName="iyokan"/>
         <device FullName="Xperia Ray" CodeName="urushi"/>
+        <device FullName="Xperia S" CodeName="nozomi"/>
     </vendor>
     <vendor Name="Xiaomi">
         <device FullName="MI 2" CodeName="aries"/>
