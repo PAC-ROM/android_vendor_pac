@@ -1,0 +1,18 @@
+[
+    {
+        "remote":       "github",
+        "account":      "OpenSEMC",
+        "repository":   "android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "omnirom",
+        "repository":   "android_bootable_recovery",
+        "target_path":  "bootable/recovery",
+        "revision":     "android-4.4"
+    }
+]
+
+omnirom/android_bootable_recovery" remote="github" revision="android-4.4"/>
