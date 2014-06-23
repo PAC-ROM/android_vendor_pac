@@ -1,5 +1,5 @@
 [gerrit]
 host=review.pac-rom.com
 port=29418
-project=android_vendor_pac.git
+project=vendor_pac.git
 defaultbranch=pac-4.4
