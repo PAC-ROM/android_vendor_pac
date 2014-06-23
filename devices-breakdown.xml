@@ -27,6 +27,9 @@
     <vendor Name="Google">
         <device FullName="Nexus Q" CodeName="steelhead"/>
     </vendor>
+    <vendor Name="HP">
+        <device FullName="Touchpad" CodeName="tenderloin"/>
+    </vendor>
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Desire Z" CodeName="vision"/>
