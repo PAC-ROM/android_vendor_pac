@@ -78,7 +78,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GooglePacman \
     PacConsole \
-    Paclauncher \
     PacPapers
 
 # PAC Overlays
