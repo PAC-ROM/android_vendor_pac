@@ -306,7 +306,7 @@ Sony:
 * __Xperia V (tsubasa) :__ Abhinav1997
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
 * __Xperia Z1 (honami) :__ jeroenqui
-* __Xperia Z1 Compact (amami) :__ OPEN
+* __Xperia Z1 Compact (amami) :__ oshmoun
 * __Xperia ZL (odin) :__ havanahjoe
 * __Xperia ZR (dogo) :__ OPEN
 * __Xperia Z Ultra (togari) :__ OPEN
