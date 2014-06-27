@@ -1,21 +1,21 @@
 [
     {
-        "account":      "bart452",
+        "account":      "aidasaidas75",
         "repository":   "android_device_lge_e610",
         "target_path":  "device/lge/e610",
-        "revision":     "kk44"
+        "revision":     "pac-4.4"
     },
     {
-        "account":      "bart452",
+        "account":      "aidasaidas75",
         "repository":   "android_device_lge_msm7x27a-common",
         "target_path":  "device/lge/msm7x27a-common",
-        "revision":     "kk44"
+        "revision":     "pac-4.4"
     },
     {
         "account":      "TeamHackLG",
         "repository":   "lge-kernel-lproj",
         "target_path":  "kernel/lge/msm7x27a-common",
-        "revision":     "android-msm-3.4-kk-exp"
+        "revision":     "android-msm-3.4-kk"
     },
     {
         "account":      "Pinky-Inky-and-Clyde",
