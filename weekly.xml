@@ -24,6 +24,8 @@
   <device name="nozomi"/>
   <device name="p500"/>
   <device name="p705"/>
+  <device name="s2ve"/>
+  <device name="s2vep"/>
   <device name="satsuma"/>
   <device name="smultron"/>
   <device name="u8833"/>

@@ -146,6 +146,8 @@
         <device FullName="Galaxy S II LTE" CodeName="skyrocket"/>
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
         <device FullName="Galaxy S II (ATT)" CodeName="i777"/>
+        <device FullName="Galaxy S II Plus" CodeName="s2ve"/>
+        <device FullName="Galaxy S II Plus" CodeName="s2vep"/>
         <device FullName="Galaxy S III (ATT)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (Cricket)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
