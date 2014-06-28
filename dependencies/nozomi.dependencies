@@ -1,0 +1,32 @@
+[
+  {
+    "account":    "OpenSEMC",
+    "repository": "android_device_sony_nozomi",
+    "target_path": "device/sony/nozomi",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "deedwar",
+    "repository": "fuji-common",
+    "target_path": "device/sony/fuji-common",
+    "revision":    "pac"
+  },
+  {
+    "account":    "deedwar",
+    "repository": "evolve",
+    "target_path": "kernel/sony/msm8x60",
+    "revision":    "evolve-1.16"
+  },
+  {
+    "account":    "OpenSEMC",
+    "repository": "vendor_broadcom_wlan",
+    "target_path": "vendor/broadcom/wlan",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision":    "cm-11.0"
+  }
+]

@@ -41,6 +41,10 @@ case $device in
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
+    nozomi)
+        #FwNative: Bootlogo and screenshot fix for Xperia S
+        cherries+=(3018_PAC)
+    ;;
     ariesve)
         #hwc: Blank and unblank primary on first boot
         cherries+=(56473_CM)
