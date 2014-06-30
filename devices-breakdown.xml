@@ -40,6 +40,9 @@
         <device FullName="One (T-Mobile)" CodeName="m7"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
         <device FullName="One 2014" CodeName="m8"/>
+        <device FullName="One Max (GSM)" CodeName="t6"/>
+        <device FullName="One Max (Sprint)" CodeName="t6spr"/>
+        <device FullName="One Max (Verizon)" CodeName="t6vzw"/>
         <device FullName="One Mini" CodeName="m4"/>
         <device FullName="One S" CodeName="ville"/>
         <device FullName="One S C2" CodeName="villec2"/>
