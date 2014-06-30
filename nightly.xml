@@ -133,6 +133,9 @@
   <device name="t0lte"/>
   <device name="t0lteatt"/>
   <device name="t0ltetmo"/>
+  <device name="t6"/>
+  <device name="t6spr"/>
+  <device name="t6vzw"/>
   <device name="t769"/>
   <device name="taoshan"/>
   <device name="targa"/>
