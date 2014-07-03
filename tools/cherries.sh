@@ -82,7 +82,7 @@ case $device in
         cherries+=(2154_PAC)
     ;;
     tenderloin)
-        # btservice/AdaperState: handle ENABLED_READY in OffState
+        # btservice/AdaperState:  handle ENABLED_READY in OffState
         cherries+=(54380_CM)
     ;;
 
