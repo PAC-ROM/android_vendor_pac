@@ -2,10 +2,10 @@
 ifeq (pac_tenderloin,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_mdpi
+OVERLAY_TARGET := pa_hdpi
 
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/mdpi
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
