@@ -80,6 +80,8 @@ case $device in
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
         cherries+=(54380_CM)
+	# libhardware_legacy/wifi: add workaround for ath6kl driver
+	cherries+=(3927a_CM)
     ;;
 
 esac
