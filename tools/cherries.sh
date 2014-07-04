@@ -40,12 +40,16 @@ case $device in
         cherries+=(2981_PAC)
         # native patch
         cherries+=(2983_PAC)
+        # mediaprovider patch
+        cherries+=(3459_PAC)
     ;;
     s2vep)
         # av patch
         cherries+=(2981_PAC)
         # native patch
         cherries+=(2983_PAC)
+        # mediaprovider patch
+        cherries+=(3459_PAC)
     ;;
     p705)
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
