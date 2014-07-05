@@ -170,7 +170,7 @@ LG:
 * __G2 (Verizon) (vs980) :__ gr33nd3vil, tucstwo
 * __G-Pad (v500) :__ darkassain
 * __Nexus 4 (mako) :__ kd8bny
-* __Nexus 5 (hammerhead) :__ Owain94, zyonee
+* __Nexus 5 (hammerhead) :__ my95z34, zyonee
 * __Nitro HD (p930) :__ tdm.code
 * __Optimus 4X (p880) :__ Hid3away
 * __Optimus Black (p970) :__ zaclimon
