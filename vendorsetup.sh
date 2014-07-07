@@ -89,6 +89,8 @@ add_lunch_combo pac_toroplus-userdebug
 # Oppo
 add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
+#Oneplus
+add_lunch_combo pac_bacon-userbebug
 # Samsung
 add_lunch_combo pac_apexqtmo-userdebug
 add_lunch_combo pac_ariesve-userdebug

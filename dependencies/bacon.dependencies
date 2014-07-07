@@ -1,0 +1,24 @@
+[
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_device_oneplus_bacon",
+        "target_path":  "device/oneplus/bacon",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_kernel_oneplus_msm8974",
+        "target_path":  "kernel/oneplus/msm8974",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus/bacon",
+        "revision":     "cm-11.0"
+    }
+]
+
