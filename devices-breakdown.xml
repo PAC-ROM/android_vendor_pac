@@ -109,6 +109,9 @@
         <device FullName="Find5" CodeName="find5"/>
         <device FullName="Find5" CodeName="n1"/>
     </vendor>
+    <vendor Name="Oneplus">
+        <device FullName="One" CodeName="bacon"/>
+    </vendor>
     <vendor Name="Samsung">
         <device FullName="Epic 4G" CodeName="epicmtd"/>
         <device FullName="Epic 4G Touch (Sprint)" CodeName="d710"/>
