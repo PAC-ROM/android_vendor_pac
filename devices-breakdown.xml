@@ -105,6 +105,9 @@
         <device FullName="Razr HD (Verizon)" CodeName="moto_msm8960"/>
         <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>
     </vendor>
+    <vendor Name="Oneplus">
+    <device FullName="One" CodeName="bacon"/>
+    </vendor>
     <vendor Name="Oppo">
         <device FullName="Find5" CodeName="find5"/>
         <device FullName="Find5" CodeName="n1"/>

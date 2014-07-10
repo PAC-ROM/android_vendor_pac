@@ -86,6 +86,8 @@ add_lunch_combo pac_steelhead-userdebug
 add_lunch_combo pac_tilapia-userdebug
 add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_toroplus-userdebug
+# OnePlus
+add_lunch_combo pac_bacon-userdebug
 # Oppo
 add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
