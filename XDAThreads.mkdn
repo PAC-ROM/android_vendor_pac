@@ -133,6 +133,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2271635">One S C2:                  villec2     bilal_liberty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2292547">One X:                     endeavoru     razer1224</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2520954">One XL:                    evita         JoseGalRe</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2811990">OnePlus One:               bacon            MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Oppo Find 5:                    find5         eoghan2t7</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=51015692">Oppo N1:                    n1         trialsrider1</a>
 <a href="Will update later">Nook HD+:                   Ovation         DarkStarr</a>
