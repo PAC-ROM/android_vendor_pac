@@ -210,6 +210,11 @@ Motorola:
 * __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
 
 
+OnePlus:
+---------------------------------------------------------------------
+* __One (bacon) :__ MaDc0w, Nick0703
+
+
 Oppo:
 ---------------------------------------------------------------------
 * __Find5 (find5) :__ eoghan2t7, tdm.code
