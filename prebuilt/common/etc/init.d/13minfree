@@ -1,15 +1,33 @@
 #!/system/bin/sh
-#
+: '
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
 . /system/etc/init.d.cfg
 
 if $minfree; then
-	if [ -e /sys/module/lowmemorykiller/parameters ]; then
-		echo "10" > /proc/sys/vm/swappiness;
-		echo "22" > /proc/sys/vm/dirty_ratio;
-		echo "50" > /proc/sys/vm/vfs_cache_pressure;
-		echo "4" > /proc/sys/vm/dirty_background_ratio;
-		echo "0,1,2,4,6,15" > /sys/module/lowmemorykiller/parameters/adj;
-		echo "2560,4096,6144,12288,14336,18432" > /sys/module/lowmemorykiller/parameters/minfree;
-		echo "Minfree Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
-	fi
-fi
+    if [ -e /sys/module/lowmemorykiller/parameters ]; then
+        echo "10" >> /proc/sys/vm/swappiness;
+        echo "22" >> /proc/sys/vm/dirty_ratio;
+        echo "50" >> /proc/sys/vm/vfs_cache_pressure;
+        echo "4" >> /proc/sys/vm/dirty_background_ratio;
+        echo "0,1,2,4,6,15" >> /sys/module/lowmemorykiller/parameters/adj;
+        echo "2560,4096,6144,12288,14336,18432" >> /sys/module/lowmemorykiller/parameters/minfree;
+        echo "* Minfree Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+    fi;
+fi;
