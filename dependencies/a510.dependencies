@@ -3,7 +3,7 @@
     "account":    "Shr3ps",
     "repository": "device_acer_a510",
     "target_path": "device/acer/a510",
-    "revision":    "cm11"
+    "revision":    "cm11-lvm"
   },
   {
     "account":    "CyanogenMod",
