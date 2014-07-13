@@ -1,14 +1,14 @@
 [
  {
     "remote":       "github",
-    "account":      "invisiblek",
+    "account":      "milaq",
     "repository":   "android_kernel_hp_tenderloin",
     "target_path":  "kernel/hp/tenderloin",
     "revision":     "cm-11.0"
  },
  {
     "remote":       "github",
-    "account":      "invisiblek",
+    "account":      "milaq",
     "repository":   "android_device_hp_tenderloin",
     "target_path":  "device/hp/tenderloin",
     "revision":     "cm-11.0"
@@ -19,6 +19,13 @@
     "repository":   "android_hardware_atheros_wlan",
     "target_path":  "hardware/atheros/wlan",
     "revision":     "cm-11.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "milaq",
+    "repository":   "android_external_backports-wireless",
+    "target_path":  "external/backports-wireless",
+    "revision":     "3.10-2"
  },
  {
     "remote":       "github",
