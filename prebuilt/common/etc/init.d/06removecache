@@ -1,27 +1,41 @@
 #!/system/bin/sh
 : '
- ============ Copyright (C) 2010 Jared Rummler (JRummy16) ============
- 
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- 
+
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- 
+
  =====================================================================
-' 
+'
 
 . /system/etc/init.d.cfg
 
 if $clear_data_cache; then
-	log -p i -t boot "Clearing all data cache ...";
-	busybox find /data/data -type d -iname "*cache*" -maxdepth 2 -mindepth 2 -exec busybox rm -rf {} ';';
-	echo "RemoveCache Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
-fi
+    busybox chmod 000 /data/anr/;
+    busybox chmod 000 /data/data/com.google.android.location/files/cache.cell;
+    busybox chmod 000 /data/data/com.google.android.location/files/cache.wifi;
+    busybox chmod 000 /data/system/appusagestats/;
+    busybox chmod 000 /data/system/dropbox/;
+    busybox chmod 000 /data/system/usagestats/;
+    busybox chmod 000 /data/system/userbehavior.db;
+    busybox chmod 000 /data/tombstones/;
+    busybox find /data/data -type d -iname "*cache*" -maxdepth 2 -mindepth 2 -exec busybox rm -rf {} ';';
+    busybox rm -r /data/anr/*;
+    busybox rm -r /data/local/tmp/*;
+    busybox rm -r /data/system/appusagestats/*;
+    busybox rm -r /data/system/dropbox/*;
+    busybox rm -r /data/system/usagestats/*;
+    busybox rm -r /data/tmp/*;
+    busybox rm -r /data/tombstones/*;
+    echo "* RemoveCache Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+fi;

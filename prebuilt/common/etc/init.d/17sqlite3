@@ -1,30 +1,49 @@
 #!/system/bin/sh
-#
+: '
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
 . /system/etc/init.d.cfg
-LOG=/data/PACLogs/sqlite.log
-if [ -e $LOG ]; then
-	rm $LOG;
-fi;
+
+LOG="/data/PACLogs/sqlite.log"
 
 if $sqlite3; then
-	echo "SQLite database VACUUM and REINDEX started at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
-	for i in `busybox find /d* -iname "*.db"`; do
-		/system/xbin/sqlite3 $i 'VACUUM;';
-		resVac=$?
-		if [ $resVac == 0 ]; then
-			resVac="SUCCESS";
-		else
-			resVac="ERRCODE-$resVac";
-		fi;
-		/system/xbin/sqlite3 $i 'REINDEX;';
-		resIndex=$?
-		if [ $resIndex == 0 ]; then
-			resIndex="SUCCESS";
-		else
-			resIndex="ERRCODE-$resIndex";
-		fi;
-		echo "Database $i:  VACUUM=$resVac  REINDEX=$resIndex" | tee -a $LOG;
-	done;
-	echo "SQLite database VACUUM and REINDEX finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
-	echo "SQLite Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a /data/PACLogs/tweaks.log;
-fi
+    if [ -e $LOG ]; then
+        rm $LOG;
+    fi;
+    echo "SQLite database VACUUM and REINDEX started at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+    for i in `busybox find /d* -iname "*.db"`; do
+        /system/xbin/sqlite3 $i 'VACUUM;';
+        resVac=$?
+        if [ $resVac == 0 ]; then
+            resVac="SUCCESS";
+        else
+            resVac="ERRCODE-$resVac";
+        fi;
+        /system/xbin/sqlite3 $i 'REINDEX;';
+        resIndex=$?
+        if [ $resIndex == 0 ]; then
+            resIndex="SUCCESS";
+        else
+            resIndex="ERRCODE-$resIndex";
+        fi;
+        echo "Database $i:  VACUUM=$resVac  REINDEX=$resIndex" | tee -a $LOG;
+    done;
+    echo "SQLite database VACUUM and REINDEX finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+    echo "* SQLite Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+fi;
