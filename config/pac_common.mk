@@ -31,10 +31,12 @@ PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
 #    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
 #    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-#    vendor/pac/prebuilt/common/etc/init.d/03firstboot:system/etc/init.d/03firstboot \
+#    vendor/pac/prebuilt/common/etc/init.d/03setrenice:system/etc/init.d/03setrenice \
+#    vendor/pac/prebuilt/common/etc/init.d/04filesystem:system/etc/init.d/04filesystem \
 #    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
 #    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
 #    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+#    vendor/pac/prebuilt/common/etc/init.d/08tweaks:system/etc/init.d/08tweaks \
 #    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
 #    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
 #    vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
@@ -46,12 +48,19 @@ PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/etc/init.d/17sqlite3:system/etc/init.d/17sqlite3 \
 #    vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
 #    vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
-#    vendor/pac/prebuilt/common/etc/init.d/20setrenice:system/etc/init.d/20setrenice \
-#    vendor/pac/prebuilt/common/etc/init.d/21tweaks:system/etc/init.d/21tweaks \
-#    vendor/pac/prebuilt/common/etc/init.d/24speedy_modified:system/etc/init.d/24speedy_modified \
-#    vendor/pac/prebuilt/common/etc/init.d/25loopy_smoothness_tweak:system/etc/init.d/25loopy_smoothness_tweak \
-#    vendor/pac/prebuilt/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+#    vendor/pac/prebuilt/common/etc/init.d/20loopy:system/etc/init.d/20loopy \
+#    vendor/pac/prebuilt/common/etc/init.d/21speedy:system/etc/init.d/21speedy \
 #    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
+
+# cron support
+#PRODUCT_COPY_FILES += \
+#    vendor/pac/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
+#    vendor/pac/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
+#    vendor/pac/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
+#    vendor/pac/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
+#    vendor/pac/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
+#    vendor/pac/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
+#    vendor/pac/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache
 
 # Pac Sounds
 PRODUCT_COPY_FILES += \

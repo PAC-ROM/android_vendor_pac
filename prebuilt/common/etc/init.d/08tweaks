@@ -1,0 +1,70 @@
+#!/system/bin/sh
+: '
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
+. /system/etc/init.d.cfg
+
+if $tweaks; then
+    chown 0.0 /sys/kernel/mm/ksm/pages_to_scan;
+    chmod 664 /sys/kernel/mm/ksm/pages_to_scan;
+    chown 0.0 /sys/kernel/mm/ksm/sleep_millisecs;
+    chmod 664 /sys/kernel/mm/ksm/sleep_millisecs;
+    chown 0.0 /sys/kernel/mm/ksm/run;
+    chmod 664 /sys/kernel/mm/ksm/run;
+    echo "0" >> /proc/sys/kernel/kernel.sched_child_runs_first;
+    echo "0" >> /proc/sys/vm/laptop_mode;
+    echo "0" >> /proc/sys/vm/mmap_min_addr;
+    echo "0" >> /proc/sys/vm/oom_kill_allocating_task;
+    echo "0" >> /proc/sys/vm/panic_on_oom;
+    echo "0" >> /proc/sys/vm/scan_unevictable_pages;
+    echo "0" >> /proc/sys/vm/swappiness;
+    echo "0" >> /proc/sys/vm/vm.block_dump;
+    echo "1" >> /proc/sys/vm/highmem_is_dirtyable;
+    echo "1" >> /proc/sys/vm/stat_interval;
+    echo "1" >> /proc/sys/vm/vm.oom_dump_tasks;
+    echo "1" >> /sys/kernel/mm/ksm/run;
+    echo "1" >> proc/sys/kernel/kernel.sched_compat_yield;
+    echo "10" >> /proc/sys/fs/fs.lease-break-time;
+    echo "10" >> /proc/sys/fs/lease-break-time;
+    echo "10" >> /proc/sys/vm/vfs_cache_pressure;
+    echo "1000" >> /proc/sys/vm/dirty_expire_centisecs;
+    echo "10240" >> /proc/sys/fs/fs.inotify.max_user_watches;
+    echo "128" >> /proc/sys/kernel/kernel.random.read_wakeup_threshold;
+    echo "12800" >> /sys/kernel/mm/ksm/pages_to_scan;
+    echo "15000" >> /sys/kernel/mm/ksm/sleep_millisecs;
+    echo "15834233" >> /proc/sys/kernel/sched_features;
+    echo "18000000" >> /proc/sys/kernel/kernel.sched_latency_ns;
+    echo "2000" >> /proc/sys/vm/dirty_writeback_centisecs;
+    echo "256" >> /proc/sys/fs/fs.inotify.max_user_instances;
+    echo "256" >> /proc/sys/kernel/kernel.random.write_wakeup_threshold;
+    echo "256000" >> /proc/sys/kernel/kernel.sched_shares_ratelimit;
+    echo "3" >> /proc/sys/vm/drop_caches;
+    echo "32000" >> /proc/sys/fs/fs.inotify.max_queued_events;
+    echo "4096" >> /proc/sys/vm/vm.min_free_kbytes;
+    echo "5" >> /proc/sys/vm/min_free_order_shift;
+    echo "524288" >> /proc/sys/fs/fs.file-max;
+    echo "524288" >> /proc/sys/kernel/kernel.threads-max;
+    echo "64000" >> /proc/sys/kernel/msgmax;
+    echo "64000" >> /proc/sys/kernel/msgmni;
+    echo "65000" >> /proc/sys/kernel/kernel.msgmax;
+    echo "8" >> /proc/sys/vm/page-cluster;
+    echo "85" >> /proc/sys/vm/dirty_background_ratio;
+    echo "90" >> /proc/sys/vm/dirty_ratio;
+    echo "* VM & Kernel Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+fi;
