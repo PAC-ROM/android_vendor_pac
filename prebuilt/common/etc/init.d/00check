@@ -1,70 +1,90 @@
 #!/system/bin/sh
 : '
- ============ Copyright (C) 2010 Jared Rummler (JRummy16) ============
- 
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
- 
+
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- 
+
  =====================================================================
 '
 
-DIR=/data/PACLogs
-LOG=$DIR/tweaks.log
-cfg_file=/system/etc/init.d.cfg
-script_helpers=/system/etc/helpers.sh
+DIR="/data/PACLogs";
+LOG="$DIR/tweaks.log";
+cfg_file="/system/etc/init.d.cfg";
+script_helpers="/system/etc/helpers.sh";
 
+. $script_helpers;
+
+# Fix Permission of cfg_file on boot
+busybox chmod 777 $cfg_file;
+busybox chmod 777 $script_helpers;
+
+# Check if the folder exists
 if [ ! -e $DIR ]; then
-	mkdir $DIR;
+    mkdir $DIR;
 fi;
 
+# Check if the file exists
 if [ -e $LOG ]; then
-	rm $LOG;
+    rm $LOG;
 fi;
 
-. $script_helpers
+# Fisrt Boot
+for x in "/system/xbin" "/data"; do
+    if [ -e ${x}/firstboot.sh ]; then
+        sh ${x}/firstboot.sh;
+        rm -f ${x}/firstboot.sh;
+    fi;
+done;
 
-if busybox [ ! -e $cfg_file ]; then
-	sysrw
-	cat > $cfg_file << EOF
-# ============ Copyright (C) 2010 Jared Rummler (JRummy16) ============
-# 
+if [ ! -e $cfg_file ]; then
+    sysrw;
+    cat >> $cfg_file << EOF
+# ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-# 
+#
 # =====================================================================
 
-# libraries
-script_helpers=/system/etc/helpers.sh
+# Libraries
+paclog="/data/PACLogs/tweaks.log"
+read_ahead_file="/sys/devices/virtual/bdi/179:0/read_ahead_kb"
+script_helpers="/system/etc/helpers.sh"
+sysctl_conf="/system/etc/sysctl.conf"
 
-# booleans
+
+# Booleans
 zipalign_apks=false
-fix_permissions=false
 enable_sysctl=false
+sentrenice=false
+file_system_speedups=false
 free_mem=false
 clear_data_cache=false
+fix_permissions=false
+tweaks=false
 enable_cron=false
 sd_boost=false
-file_system_speedups=false
 battery=false
 touch=false
 minfree=false
@@ -74,15 +94,11 @@ journalism=false
 sqlite3=false
 wifisleep=false
 iostats=false
-sentrenice=false
-tweaks=false
-speedy_modified=false
 loopy_smoothness_tweak=false
+speedy_modified=false
 
-# files
-sysctl_conf=/system/etc/sysctl.conf
 
-# memory thresholds
+# Memory Thresholds
 foreground_app_mem=2048
 visible_app_mem=3072
 perceptible_app_mem=4096
@@ -93,11 +109,12 @@ home_app_mem=6144
 hidden_app_mem=7168
 empty_app_mem=8192
 
-# sd boost value
+
+# SD Boost Value
 read_ahead_kb=2048
 
 EOF
-	sysro
+    sysro;
 fi;
 
-echo "PACman ROM Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+echo "PACman ROM Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )\n\n" | tee -a $LOG;

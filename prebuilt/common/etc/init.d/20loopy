@@ -1,0 +1,114 @@
+#!/system/bin/sh
+: '
+ ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
+. /system/etc/init.d.cfg
+
+if $loopy_smooth; then
+    for n in 1 2; do
+        NUMBER_OF_CHECKS=0; # Total number of rechecks before ending 1st loop
+        SLEEP_TIME=0;       # Number of seconds between rechecking processes
+        PROCESSES_TOTAL=14; # Must be edited to match the number of processes to be checked
+        DEBUG_ECHO=0;       # Debug on/off
+        CHECK_COUNT=0;      # Don't edit
+        P_CHECK=0;          # Don't edit
+        CHECK_OK=0;         # Unused
+
+        # Define Process - You can add all you want example: PROCESS_xx=0;
+        PROCESS_01=0; PROCESS_02=0; PROCESS_03=0; PROCESS_04=0; PROCESS_05=0;
+        PROCESS_06=0; PROCESS_07=0; PROCESS_08=0; PROCESS_09=0;
+
+        if [ $n -eq "1" ]; then
+            if [ $DEBUG_ECHO -eq "1" ]; then
+                echo "";
+                echo "LST Debug: $(date)";
+                echo "LST Debug: Initiate";
+            fi;
+
+            # Pause and then loop until kswapd0 is found, which should be instant anyway
+            sleep 1;
+            SWAP_SLEEP_TIME=3;
+            SWAP_NUMBER_OF_CHECKS=30;
+            SWAP_CHECK_COUNT=0;
+            SWAP_CHECK_COUNT_OK=0;
+
+            while [ $SWAP_CHECK_COUNT -lt $SWAP_NUMBER_OF_CHECKS ]; do
+                if [ `pidof kswapd0` ]; then 
+                    renice 19 `pidof kswapd0`;
+                    SWAP_CHECK_COUNT=$SWAP_NUMBER_OF_CHECKS;
+                    SWAP_CHECK_COUNT_OK=1;
+                else
+                    sleep $SWAP_SLEEP_TIME;
+                fi;
+                SWAP_CHECK_COUNT=`expr $SWAP_CHECK_COUNT + 1`;
+            done;
+
+            if [ $SWAP_CHECK_COUNT_OK -lt 1 ]; then
+                echo "LST Debug: 'kswapd0' expired after `expr $SWAP_CHECK_COUNT \* $SWAP_SLEEP_TIME` seconds";
+            fi;
+
+            if [ $DEBUG_ECHO -eq "1" ]; then
+                echo "LST Debug: $(date)";
+                echo "LST Debug: kswapd0 found";
+            fi;
+        fi;
+
+        # Check briefly one more time
+        if [ $n -eq "2" ]; then
+            if [ $DEBUG_ECHO -eq "1" ]; then
+                echo "LST Debug: 2nd loop";
+            fi;
+            NUMBER_OF_CHECKS=6; # Editing not recommended
+            SLEEP_TIME=5;       # Editing not recommended
+        fi;
+
+        while [ $CHECK_COUNT -lt $NUMBER_OF_CHECKS ]; do
+            # Resident system apps
+            if [ $PROCESS_01 -eq "0" ]; then PNAME="com.android.phone";     NICELEVEL=-20; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_1=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_02 -eq "0" ]; then PNAME="com.android.systemui";  NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_2=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_03 -eq "0" ]; then PNAME="com.android.settings";  NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_3=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_05 -eq "0" ]; then PNAME="com.android.launcher3"; NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_5=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_06 -eq "0" ]; then PNAME="com.android.vending";   NICELEVEL=-18; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_6=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_07 -eq "0" ]; then PNAME="com.android.mms";       NICELEVEL=-19; if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_7=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_08 -eq "0" ]; then PNAME="android.process.acore"; NICELEVEL=-3;  if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_8=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+            if [ $PROCESS_09 -eq "0" ]; then PNAME="android.process.media"; NICELEVEL=-3;  if [ `pidof $PNAME` ]; then renice $NICELEVEL `pidof $PNAME`; PROCESS_9=1; P_CHECK=`expr $P_CHECK + 1`; fi; fi;
+
+            # If all processes are done, loop can finish early
+            if [ $P_CHECK -ge $PROCESSES_TOTAL ]; then CHECK_COUNT=$NUMBER_OF_CHECKS; else sleep $SLEEP_TIME; fi;
+            CHECK_COUNT=`expr $CHECK_COUNT + 1`;
+        done;
+
+        if [ $DEBUG_ECHO -eq "1" ]; then
+            echo "LST Debug: $(date)";
+            if [ $PROCESS_01 -eq "0" ]; then echo "LST Debug: PROCESS_01 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_02 -eq "0" ]; then echo "LST Debug: PROCESS_02 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_03 -eq "0" ]; then echo "LST Debug: PROCESS_03 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_04 -eq "0" ]; then echo "LST Debug: PROCESS_04 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_05 -eq "0" ]; then echo "LST Debug: PROCESS_05 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_06 -eq "0" ]; then echo "LST Debug: PROCESS_06 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_07 -eq "0" ]; then echo "LST Debug: PROCESS_07 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_08 -eq "0" ]; then echo "LST Debug: PROCESS_08 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            if [ $PROCESS_09 -eq "0" ]; then echo "LST Debug: PROCESS_09 expired after `expr $CHECK_COUNT \* $SLEEP_TIME` seconds"; fi;
+            echo "LST Debug: Checking complete";
+        fi;
+    done;
+
+    if [ $DEBUG_ECHO -eq "0" ]; then echo "LST Debug: Done"; echo ""; fi;
+    echo "* Loopy Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+fi;

@@ -18,9 +18,17 @@
  =====================================================================
 '
 
-. /system/etc/cron/cron.conf
+. /system/etc/init.d.cfg
 
-if $daily_drop_caches; then
-    sync;
-    echo 3 > /proc/sys/vm/drop_caches;
+if $setrenice; then
+    renice -20 `pidof com.android.phone`;
+    renice -19 `pidof com.android.inputmethod.latin`;
+    renice -17 `pidof com.android.systemui`;
+    renice -15 `pidof com.android.launcher3`;
+    renice -9 `pidof com.android.settings`;
+    renice -9 `pidof com.android.vending`;
+    renice -6 `pidof com.google.android.apps.maps`;
+    renice -4 `pidof com.google.android.apps.googlevoice`;
+    renice -3 `pidof android.process.media`;
+    echo "* Sentrenice Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;
