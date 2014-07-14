@@ -4,7 +4,7 @@ ifeq (pac_t6spr,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xxhdpi
 
-# Add bluefa1con bootanim
+# Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
 

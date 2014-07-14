@@ -7,7 +7,7 @@ OVERLAY_TARGET := pa_xxhdpi
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/device/m7spr
 
-# Add bluefa1con bootanim
+# Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
 
