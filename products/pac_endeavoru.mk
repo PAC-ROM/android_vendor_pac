@@ -3,7 +3,8 @@ ifeq (pac_endeavoru,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
-# Add bluefa1con bootanim
+
+# Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/720x1280/bootanimation.zip:system/media/bootanimation.zip
 
