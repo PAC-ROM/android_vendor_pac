@@ -24,10 +24,10 @@ case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
         cherries+=(63203_CM)
-        # Add UUID (re-)scan support for vold-mounted volume (1/2)
-        cherries+=(64436_CM)
-        # Add UUID (re-)scan support for vold-mounted volume (2/2)
-        cherries+=(64437_CM)
+        # libstagefright: Allow using camera recording buffer as input for encoder
+        cherries+=(103_PAC)
+        # libstagefright: Fix video encoder input buffer
+        cherries+=(104_PAC)
     ;;
     i9082)
         # OMX patch
