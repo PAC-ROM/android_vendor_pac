@@ -1,7 +1,7 @@
 [
  {
     "remote":       "github",
-    "account":      "milaq",
+    "account":      "shumashv1",
     "repository":   "android_kernel_hp_tenderloin",
     "target_path":  "kernel/hp/tenderloin",
     "revision":     "cm-11.0"
