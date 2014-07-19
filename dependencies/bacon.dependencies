@@ -12,7 +12,7 @@
         "revision":    "cm-11.0"
     },
     {
-        "account":     "PAC-Oppo",
+        "account":     "CyanogenMod",
         "repository":  "android_device_oppo_common",
         "target_path": "device/oppo/common",
         "revision":    "cm-11.0"
