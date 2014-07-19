@@ -111,7 +111,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto_msm8960dt-common Devices      moto_msm8960dt  skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                    falcon        Wechy77, herna</a>
 <a href="http://forum.xda-developers.com/nexus-4/orig-development/rom-pac-version-t2668912">Nexus 4:                   mako          kd8bny</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                   hammerhead    Owain94, zyonee</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                   hammerhead    my95z34, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7:                   grouper       singhdd93, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 3G:                tilapia       singhdd93</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):            flo           apascual89, zaclimon, goldflame09</a>
