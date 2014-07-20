@@ -245,7 +245,7 @@ Samsung:
 * __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ 123sit
 * __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
 * __Galaxy Note 2 (Verizon) (i605) :__ 123sit
-* __Galaxy Note 3 (Sprint) (hlte) :__ OPEN
+* __Galaxy Note 3 (Sprint) (hlte) :__ ZION959
 * __Galaxy Note 3 (T-Mobile) (hlte) :__ ZION959
 * __Galaxy Note 3 (International) (hlte) :__ ZION959
 * __Galaxy Note 3 (Verizon) (hlte) :__ OPEN
