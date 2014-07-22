@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Preamble: Some repos outside of PAC may have commits we need that takes too
+#Preamble: Some repos outside of PAC may have commits we need that take too
 #  long to be merged. Adding these cherry-picks here can automate the process
 #  and makes it possible to add them to the nightlies
 #  currently supported gerrit accounts are:
@@ -9,17 +9,67 @@
 #    CM   - CyanogenMod
 #    PAC  - pac-rom
 #    PA   - Paranoid Android (AOSPA)
+#
+#  in addition, cherry-pick patch files can be created for commits that aren't
+#  available in the above gerrit accounts.
+#
+# ADDED BY SHUMASH 2014-07-22
+# case $device in
+#  <device_name>)
+#    add cherry-pick patches for non-gerrit commits like this:
+#      PATCH=<name of patch without extension>
+#      FOLDER=<name of folder in build tree where patch is to be applied>
+#      patch_it  # this function call is required for each patch file
+#        |
+#      <Repeat for each separate patch>
+#
+#    For gerrit commits, add the cherry-pick(s) in the form:
+#      cherries +=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
+#     e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be cherries+=(250_PAC)
+#        |
+#      <Repeat for each separate cherry-pick>
+#
+#   ;;
+#
+#  All patches must have a .patch extension and stored in the vendor/pac/tool/patches folder
+#  with a prefix name that exactly matches the PATCH name.
+#  Create a patch for the latest or last n patches with this command
+#     git format-patch -n
+#  Go here for a good description of how to create patches:
+#  http://docs.moodle.org/dev/How_to_create_a_patch
+#  Additionally, you can create a patch file from a github commit by going into the URL address
+#  line in your browser and adding ".patch" at the end.  It will immediately be downloaded as 
+#  patch file.
+# ---------------------------------------------------------
 
 device=$1
+BASEDIR=$PWD
 
 # colors
-. ./vendor/pac/tools/colors
+. $BASEDIR/vendor/pac/tools/colors
 
-## Add commits for all devices here
-# Name of commit for maintenance purposes
-#cherries+=(279_PA)
+function patch_it {
+  cp -f $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch $BASEDIR/${FOLDER}
+  cd $BASEDIR/${FOLDER}
+  git am ${PATCH}.patch
 
-# Add device specific commits here
+  if [ -e *.patch ]
+  then
+    rm *.patch
+  fi
+  if [ -e ".git/rebase-apply" ]
+  then
+    git am --abort
+  elif [ -e ".git/CHERRY_PICK_HEAD" ]
+  then
+    git cherry-pick --abort
+  fi
+  cd $BASEDIR
+}
+
+
+# Add device specific commits and patches here
+
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
@@ -72,17 +122,26 @@ case $device in
     janice)
         # fix default colors for janice
         cherries+=(2154_PAC)
-    ;;
+
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
-        cherries+=(54380_CM)
+        PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
+        FOLDER=packages/apps/Bluetooth
+        patch_it #add this function call for each patch
     ;;
 
 esac
 
+if [ "$PATCH" != "" ]; then
+    echo -e ""
+    echo -e ${bldblu}"Completed patching required cherries "${txtrst}
+    echo -e ""
+
+fi
+
 if [ "$cherries" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Picking the required cherries"${txtrst}
+    echo -e ${bldblu}"Now picking the required cherries"${txtrst}
     echo -e ""
     ./build/tools/repopick.py -b ${cherries[@]}
 fi
