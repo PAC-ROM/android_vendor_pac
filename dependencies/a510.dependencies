@@ -1,18 +1,18 @@
 [
   {
-    "account":    "Shr3ps",
-    "repository": "device_acer_a510",
+    "account":    "picasso-m-mf-dev",
+    "repository": "android_device_acer_a510",
     "target_path": "device/acer/a510",
-    "revision":    "cm11-lvm"
+    "revision":    "pac-man"
   },
   {
-    "account":    "CyanogenMod",
+    "account":    "picasso-m-mf-dev",
     "repository": "android_device_acer_t30-common",
     "target_path": "device/acer/t30-common",
     "revision":    "cm-11.0"
   },
   {
-    "account":    "CyanogenMod",
+    "account":    "picasso-m-mf-dev",
     "repository": "android_kernel_acer_t30",
     "target_path": "kernel/acer/t30",
     "revision":    "cm-11.0"
