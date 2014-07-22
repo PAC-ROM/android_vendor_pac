@@ -1,0 +1,39 @@
+From 8a0ffc3dfed12b4663dcbe5fccf6c11215830301 Mon Sep 17 00:00:00 2001
+From: Conn O'Griofa <connogriofa@gmail.com>
+Date: Wed, 7 Nov 2012 19:29:04 -0200
+Subject: [PATCH] libhardware_legacy/wifi: add workaround for ath6kl driver
+
+The ath6kl driver requires the interface to be brought up in order
+for scanning to function. Without this change, the supplicant fails
+on first activation of wifi, and will only connect successfully
+after multiple retries. This workaround is also necessary to fix
+Wi-Fi hotspot mode (in conjunction with another change to
+system/netd).
+---
+ wifi/wifi.c |   10 ++++++++++
+ 1 files changed, 10 insertions(+), 0 deletions(-)
+
+diff --git a/wifi/wifi.c b/wifi/wifi.c
+index 5663c6d..c72a1e9 100644
+--- a/wifi/wifi.c
++++ b/wifi/wifi.c
+@@ -839,6 +839,16 @@ int wifi_start_supplicant(int p2p_supported)
+         serial = __system_property_serial(pi);
+     }
+ #endif
++
++#ifdef WIFI_DRIVER_MODULE_PATH
++    /* The ath6kl driver needs the interface up in order to scan! */
++    if (!strncmp(DRIVER_MODULE_NAME, "ath6kl", 6)) {
++        ifc_init();
++        ifc_up("wlan0");
++        sleep(2);
++    }
++#endif
++
+     property_get("wifi.interface", primary_iface, WIFI_TEST_INTERFACE);
+ 
+     property_set("ctl.start", supplicant_name);
+-- 
+1.7.9
+
