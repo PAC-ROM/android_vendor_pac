@@ -8,7 +8,7 @@
  },
  {
     "remote":       "github",
-    "account":      "milaq",
+    "account":      "shumashv1",
     "repository":   "android_device_hp_tenderloin",
     "target_path":  "device/hp/tenderloin",
     "revision":     "cm-11.0"
