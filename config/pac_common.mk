@@ -74,8 +74,8 @@ PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
 
 #OmniRom Packages
-#PRODUCT_PACKAGES += \
-#    OmniSwitch \
+PRODUCT_PACKAGES += \
+    OmniSwitch \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
