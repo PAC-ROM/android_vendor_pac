@@ -59,7 +59,7 @@ $OPTICHARGER framework-res.apk
 cd $REPACK/ota/system/app
 find ./ -name \*.apk | $XARGS $OPTICHARGER
 cd $REPACK/ota/system/priv-app
-find ./ -name \*.apk | $XARGS $OPTICHARGER
+find ./ ! -name 'CMS.apk' -name \*.apk | $XARGS $OPTICHARGER
 )
 
 # Fix build.prop
