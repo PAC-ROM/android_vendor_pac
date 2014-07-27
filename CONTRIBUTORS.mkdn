@@ -2,9 +2,34 @@ PAC-man Rom
 ===========
 
 
-Developers:
-----------------
-* __Bkjolly__
+Development Team:
+-----------------
+* __bluefa1con__
+* __MaDc0w__
+* __MallardDuck__
+* __Nick0703__
+* __Owain94__
+* __Papa Smurf151__
+* __pvyParts__
+* __szl.kiev__
+* __tdhite__
+* __timpohladthomas__
+* __zyonee__
+
+
+Contributors:
+-------------
+* __DympyDev__
+* __goldflame09__
+* __iurnait__
+* __Langes__
+* __metaiiica__
+* __zeetherocker__
+
+
+Gerrit Administrators:
+----------------------
+* __MaDc0w__
 * __Nick0703__
 * __Owain94__
 * __Papa Smurf151__
@@ -13,21 +38,9 @@ Developers:
 * __timpohladthomas__
 * __zyonee__
 
-Contributors:
----------------------
-* __bluefa1con__
-* __DympyDev__
-* __goldflame09__
-* __iurnait__
-* __MallardDuck__
-* __metaiiica__
-* __MightyBear007__
-* __singhdd93__
-* __Sniper__
-* __wedgess__
 
 Forum Administrators:
------------------------------
+---------------------
 * __bluefa1con__
 * __MaDc0w__
 * __Nick0703__
@@ -35,8 +48,23 @@ Forum Administrators:
 * __szl.kiev__
 
 
+Web Administrators:
+-------------------
+* __MaDc0w__
+* __Papa Smurf151__
+* __pvyParts__
+* __szl.kiev__
+
+
+Jenkins Administrators:
+-----------------------
+* __MaDc0w__
+* __Papa Smurf151__
+* __pvyParts__
+
+
 BuildBot Maintainers:
-----------------------------
+---------------------
 * __123sit__
 * __aHcVolle__
 * __Argumentation__
@@ -58,26 +86,8 @@ BuildBot Maintainers:
 * __zooytork0721__
 
 
-Web Administrators:
----------------------------
-* __jeroenqui__
-* __Papa Smurf151__
-
-
-Gerrit Administrators:
-------------------------------
-* __bluefa1con__
-* __Nick0703__
-* __Owain94__
-* __Papa Smurf151__
-* __pvyParts__
-* __szl.kiev__
-* __timpohladthomas__
-* __zyonee__
-
-
-Graphics Team:
----------------------
+Graphics:
+--------------
 * __ATMOSPH3AR__
 * __jaekar99__
 * __One2thTexan__
