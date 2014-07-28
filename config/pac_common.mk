@@ -10,6 +10,11 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
+
 # Screen recorder
 #PRODUCT_PACKAGES += \
 #    libscreenrecorder \
