@@ -10,11 +10,11 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
-# Chromium prebuilt
-ifeq ($(strip $(PRODUCT_PREBUILT_WEBVIEWCHROMIUM)),)
-    PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
 endif
--include vendor/pac/config/chromium_prebuilt.mk
+
 
 # Screen recorder
 #PRODUCT_PACKAGES += \
