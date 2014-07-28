@@ -1,7 +1,7 @@
 [
     {
-        "account": "varunchitre15",
-        "repository": "android_device_sony_taoshan",
+        "account": "olivieer",
+        "repository": "device_sony_taoshan",
         "target_path": "device/sony/taoshan",
         "revision": "cm-11.0"
     },
@@ -24,9 +24,9 @@
         "revision": "cm-11.0"
     },
     {
-        "account": "varunchitre15",
+        "account": "omnirom",
         "repository": "android_kernel_sony_msm8930",
         "target_path": "kernel/sony/msm8930",
-        "revision": "cm-11.0"
+        "revision": "android-4.4"
     }
 ]
