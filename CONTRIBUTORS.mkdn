@@ -129,7 +129,7 @@ HP:
 
 HTC:
 ---------------------------------------------------------------------
-* __Amaze 4G (ruby) :__ JoseGalRe
+* __Amaze 4G (ruby) :__ JoseGalRe, WildfireDEV
 * __Desire Z (vision) :__ _MarcoMarinho_
 * __Droid DNA (dlx) :__ pio_masaki
 * __Droid Incredible 4G (fireball) :__ jose51197
@@ -151,7 +151,7 @@ HTC:
 * __One X+ (enrc2b) :__  Techinstein
 * __One XL (evita) :__ JoseGalRe, Techinstein
 * __Sensation (pyramid) :__ bilal_liberty
-* __Vivid (holiday) :__ WildfireDEV
+* __Vivid (holiday) :__ WildfireDEV, JoseGalRe
 
 
 HUAWEI:
