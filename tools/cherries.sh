@@ -13,7 +13,8 @@
 #  in addition, cherry-pick patch files can be created for commits that aren't
 #  available in the above gerrit accounts.
 #
-# ADDED BY SHUMASH 2014-07-22
+# PATCH CAPABILITY BY SHUMASH 2014-07-22
+# ONLINE OPTION BY LUKASZ 2014-07-27
 # case $device in
 #  <device_name>)
 #    add cherry-pick patches for non-gerrit commits like this:
@@ -30,11 +31,14 @@
 #      <Repeat for each separate cherry-pick>
 #
 #   ;;
+#  On-line patches can be called by specifying a URL as the PATCH variable and calling the
+#  patch_it function with the parameter 'true', i.e., patch_it true
 #
-#  All patches must have a .patch extension and stored in the vendor/pac/tool/patches folder
-#  with a prefix name that exactly matches the PATCH name.
+#  Any patches stored in the vendor/pac/tool/patches folder must have a .patch extension  
+#  with a prefix name that exactly matches the PATCH name.  See below for examples.
+#  All patches must be in the git format-patch email format for use by git am
 #  Create a patch for the latest or last n patches with this command
-#     git format-patch -n
+#     git format-patch -n (-1 for the last commit, -3 for the last three, etc.)
 #  Go here for a good description of how to create patches:
 #  http://docs.moodle.org/dev/How_to_create_a_patch
 #  Additionally, you can create a patch file from a github commit by going into the URL address
@@ -49,14 +53,13 @@ BASEDIR=$PWD
 . $BASEDIR/vendor/pac/tools/colors
 
 function patch_it {
-  cp -f $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch $BASEDIR/${FOLDER}
   cd $BASEDIR/${FOLDER}
-  git am ${PATCH}.patch
-
-  if [ -e *.patch ]
-  then
-    rm *.patch
+  if [ "$1" = "true" ]; then
+   curl ${PATCH} | git am
+  else
+   git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
   fi
+
   if [ -e ".git/rebase-apply" ]
   then
     git am --abort
