@@ -26,7 +26,7 @@
   <device name="amami"/>
   <device name="aries"/>
   <device name="bacon"/>
-  <device name="captivatemtd"/>
+  <!-- <device name="captivatemtd"/> -->
   <device name="crespo"/>
   <!--  <device name="d803"/> -->
   <device name="d2lte"/>
@@ -54,9 +54,9 @@
   <device name="find5"/>
   <device name="fireball"/>
   <device name="flo"/>
-  <device name="galaxysbmtd"/>
-  <device name="galaxysl"/>
-  <device name="galaxysmtd"/>
+  <!-- <device name="galaxysbmtd"/> -->
+  <!-- <device name="galaxysl"/> -->
+  <!-- <device name="galaxysmtd"/> -->
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hercules"/>
