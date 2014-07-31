@@ -1,0 +1,30 @@
+From dc3cc31c006388ee3c80aa70d30956085f4943ce Mon Sep 17 00:00:00 2001
+From: James Sullins <jcsullins@gmail.com>
+Date: Mon, 25 Nov 2013 13:13:50 +0100
+Subject: [PATCH] btservice/AdaperState: handle ENABLED_READY in OffState
+
+---
+ src/com/android/bluetooth/btservice/AdapterState.java | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/src/com/android/bluetooth/btservice/AdapterState.java b/src/com/android/bluetooth/btservice/AdapterState.java
+index 888e47c..baa4c32 100644
+--- a/src/com/android/bluetooth/btservice/AdapterState.java
++++ b/src/com/android/bluetooth/btservice/AdapterState.java
+@@ -138,6 +138,12 @@ final class AdapterState extends StateMachine {
+                    if (DBG) Log.d(TAG,"CURRENT_STATE=OFF, MESSAGE = USER_TURN_OFF");
+                    //TODO: Handle case of service started and stopped without enable
+                    break;
++               case ENABLED_READY:
++                   if (DBG) Log.d(TAG,"CURRENT_STATE=OFF, MESSAGE = ENABLED_READY");
++                   mAdapterProperties.onBluetoothReady();
++                   transitionTo(mOnState);
++                   notifyAdapterStateChange(BluetoothAdapter.STATE_ON);
++                   break;
+                default:
+                    if (DBG) Log.d(TAG,"ERROR: UNEXPECTED MESSAGE: CURRENT_STATE=OFF, MESSAGE = " + msg.what );
+                    return false;
+-- 
+1.8.3.2
+
+
