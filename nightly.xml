@@ -154,7 +154,7 @@
   <device name="tsubasa"/>
   <device name="umts_spyder"/>
   <device name="v500"/>
-  <device name="venturi"/>
+  <!-- <device name="venturi"/> -->
   <device name="ville"/>
   <device name="villec2"/>
   <device name="vs920"/>
