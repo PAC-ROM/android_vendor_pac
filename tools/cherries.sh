@@ -162,9 +162,6 @@ case $device in
         PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
-        PATCH=libhardware_legacy_ath6kl_wifi
-        FOLDER=hardware/libhardware_legacy
-        patch_it #add this function call for each patch
     ;;
 
 esac
