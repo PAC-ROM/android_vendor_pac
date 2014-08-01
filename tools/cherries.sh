@@ -54,10 +54,22 @@ BASEDIR=$PWD
 
 function patch_it {
   cd $BASEDIR/${FOLDER}
+   LASTCOMMIT=$(git show --format=email | sed -n '4,4p')
+
   if [ "$1" = "true" ]; then
-   curl ${PATCH} | git am
+   THISCOMMIT=$(curl ${PATCH} | sed -n '4,4p')
+
+   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+    curl ${PATCH} | git am
+   fi
+
   else
-   git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+   THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
+
+   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+   fi
+
   fi
 
   if [ -e ".git/rebase-apply" ]
