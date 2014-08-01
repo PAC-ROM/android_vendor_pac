@@ -54,10 +54,23 @@ BASEDIR=$PWD
 
 function patch_it {
   cd $BASEDIR/${FOLDER}
+   LASTCOMMIT=$(git show --format=email | sed -n '4,4p')
+
   if [ "$1" = "true" ]; then
-   curl ${PATCH} | git am
+   PATCH="$(curl -s ${PATCH})"
+   THISCOMMIT=$(echo -e "${PATCH}" | sed -n '4,4p')
+
+   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+    echo -e "${PATCH}" | git am
+   fi
+
   else
-   git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+   THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
+
+   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+   fi
+
   fi
 
   if [ -e ".git/rebase-apply" ]
@@ -140,7 +153,7 @@ case $device in
         PATCH=libhardware_legacy_ath6kl_wifi
         FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
-    ;;
+   ;;
 
 esac
 
