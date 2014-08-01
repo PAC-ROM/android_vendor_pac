@@ -55,9 +55,11 @@ BASEDIR=$PWD
 function patch_it {
   cd $BASEDIR/${FOLDER}
   if [ "$1" = "true" ]; then
-   curl ${PATCH} | git am
+    if [ "$(curl {$PATCH} | git apply --check)" != *"patch failed"* ]; then
+      curl ${PATCH} | git am
+    fi
   else
-   git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
   fi
 
   if [ -e ".git/rebase-apply" ]
