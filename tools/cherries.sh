@@ -101,6 +101,14 @@ case $device in
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-PROVIDERS-MEDIA-MEDIAPROVIDER-PATCH-for-s2ve-s2vep-d.patch"
         FOLDER=packages/providers/MediaProvider
         patch_it true
+        # bluetooth patch
+        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Add-BT-support-for-s2ve-s2vep.patch"
+        FOLDER=hardwware/broadcom/libbt
+        patch_it true
+        # hwc patch
+        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Fix-HWC-for-s2ve-s2vep.patch"
+        FOLDER=external/chromium_org
+        patch_it true
     ;;
     p705)
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
