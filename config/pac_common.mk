@@ -73,14 +73,15 @@ PRODUCT_COPY_FILES += \
 #    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
 #    vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
 
-#OmniRom Packages
+# OmniRom Packages
 PRODUCT_PACKAGES += \
     OmniSwitch \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
     PacConsole \
-    PacPapers
+    PacPapers \
+    PACPerformance
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
