@@ -103,7 +103,7 @@ case $device in
         patch_it true
         # bluetooth patch
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Add-BT-support-for-s2ve-s2vep.patch"
-        FOLDER=hardwware/broadcom/libbt
+        FOLDER=hardware/broadcom/libbt
         patch_it true
         # hwc patch
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Fix-HWC-for-s2ve-s2vep.patch"
