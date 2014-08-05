@@ -92,7 +92,7 @@ Devices:        Codename:       Maintainer:
 Acer:
 ---------------------------------------------------------------------
 * __Iconia Tab A510 (a510) :__ Shreps
-* __Iconia Tab A700 (a700) :__ semhoun
+* __Iconia Tab A700 (a700) :__ Shreps
 
 
 Amazon:
