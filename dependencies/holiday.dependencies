@@ -6,8 +6,8 @@
     "revision":     "pac-4.4"
   },
   {
-    "account":      "Team-Hydra",
-    "repository":   "android_kernel_htc_msm8660",
+    "account":      "Arc-Team",
+    "repository":   "android_kernel_htc_holiday",
     "target_path":  "kernel/htc/holiday",
     "revision":     "cm-11.0"
   },
