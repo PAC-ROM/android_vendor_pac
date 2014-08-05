@@ -82,9 +82,9 @@ Files to Edit
 
 11. [cherrie.sh](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/tools/cherries.sh)
    - Found in [tools](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/tools)/.
-   - this injects cherry picks for a gerrit commit.
+   - this injects cherry picks and patches for gerrit and other commits.
    - if pac hosts the repos then please us this method by adding your patches to our repos and sending a commit to gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the [cherrie.sh](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/tools/cherries.sh) file to cherry-pick during build.
-   - very easy to use and understand once you look at the file.
+   - very easy to use and understand (read the cherries.sh file for detailed instructions)
 
 12. [Overlays](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/overlay)
    - Found in the overlay directory.
