@@ -57,6 +57,7 @@
   <!-- <device name="galaxysbmtd"/> -->
   <!-- <device name="galaxysl"/> -->
   <!-- <device name="galaxysmtd"/> -->
+  <device name="glacier"/>
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hercules"/>
