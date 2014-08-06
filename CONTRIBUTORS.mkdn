@@ -298,8 +298,8 @@ Samsung:
 * __Galaxy Tab 7" (p1) :__ OPEN
 * __Galaxy Tab 10.1" (GSM) (p4) :__ JoseGalRe
 * __Galaxy Tab 10.1" (Wi-Fi) (p4wifi) :__ JoseGalRe
-* __Galaxy Tab 2 7" (p3100) :__ Zeetherocker
-* __Galaxy Tab 2 7" (P3110) :__ Zeetherocker
+* __Galaxy Tab 2 7" (p3100) :__ OPEN
+* __Galaxy Tab 2 7" (P3110) :__ OPEN
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
 * __Mesmerize (mesmerizemtd) :__ Unjustifed Dev
@@ -313,7 +313,7 @@ Sony:
 * __Xperia L (taoshan) :__ Olivier
 * __Xperia M (nicki) :__ Abhinav1997
 * __Xperia SP (huashan) :__ jacknb1ack
-* __Xperia S (nozomi) :__ zeetherocker
+* __Xperia S (nozomi) :__ OPEN
 * __Xperia T (mint) :__ Abhinav1997
 * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ bluefa1con

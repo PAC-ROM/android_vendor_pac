@@ -160,7 +160,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V               haida         Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Pro                 iyokan        Langes, wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray                 urushi         szl.kiev, Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2685822">Xperia S:                   nozomi        zeetherocker</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2685822">Xperia S:                   nozomi        </a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2505385">Xperia SP:                 huashan        jacknb1ack</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2677929">Xperia T:                  mint           Abhinav1997</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:           pollux_windy   bluefa1con</a>

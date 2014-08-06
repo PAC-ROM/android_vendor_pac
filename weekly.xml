@@ -20,7 +20,7 @@
   <device name="i9082"/>
   <device name="iyokan"/>
   <device name="mango"/>
-  <device name="nozomi"/>
+  <!-- <device name="nozomi"/> -->
   <device name="p500"/>
   <device name="p705"/>
   <device name="s2ve"/>
