@@ -130,7 +130,7 @@
   <!--  <device name="serranoltexx"/> -->
   <!--  <device name="showcasemtd"/> -->
   <device name="skyrocket"/>
-  <device name="spyder"/>
+  <!-- <device name="spyder"/> -->
   <device name="superior"/>
   <!--  <device name="steelhead"/> -->
   <device name="t0lte"/>
@@ -153,7 +153,7 @@
   <device name="toro"/>
   <device name="toroplus"/>
   <device name="tsubasa"/>
-  <device name="umts_spyder"/>
+  <!-- <device name="umts_spyder"/> -->
   <device name="v500"/>
   <device name="venturi"/>
   <device name="ville"/>

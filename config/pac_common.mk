@@ -79,6 +79,7 @@ PRODUCT_PACKAGES += \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
+    InsertCoins \
     PacConsole \
     PacPapers \
     PACPerformance
