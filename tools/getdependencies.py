@@ -6,6 +6,8 @@ import json
 import re
 from xml.etree import ElementTree
 
+os.system('rm -f .repo/local_manifests/roomservice.xml')
+
 device = sys.argv[1];
 
 def exists_in_tree(lm, repository):
