@@ -81,7 +81,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PacConsole \
     PacPapers \
-    PACPerformance
+    PACPerformance \
+    InsertCoins
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
