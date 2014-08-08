@@ -98,6 +98,14 @@ case $device in
         cherries+=(103_PAC)
         # libstagefright: Fix video encoder input buffer
         cherries+=(104_PAC)
+        # Squashed revert of SoftapControllerTI changes
+        cherries+=(69352_CM)
+        # netd: Don't reload fw if a single fw is supported
+        cherries+=(69353_CM)
+        # wifi: remove local nl80211 header
+        cherries+=(69354_CM)
+        # New call-in/-back functions for Controller to do vendor-specific shutdown
+        cherries+=(69355_CM)
     ;;
     i9082)
         # OMX patch
