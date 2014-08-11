@@ -157,7 +157,7 @@
   <device name="v500"/>
   <device name="venturi"/>
   <device name="ville"/>
-  <device name="villec2"/>
+  <!--<device name="villec2"/> -->
   <device name="vs920"/>
   <device name="vs980"/>
   <!-- <device name="ypg1"/> -->
