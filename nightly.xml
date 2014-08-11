@@ -92,6 +92,7 @@
   <device name="meliusltexx"/>
   <!--  <device name="mesmerizemtd"/> -->
   <device name="mint"/>
+  <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="moto_msm8960dt"/>
   <device name="n1"/>
