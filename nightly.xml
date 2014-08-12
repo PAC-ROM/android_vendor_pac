@@ -60,7 +60,7 @@
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hercules"/>
-  <!-- <device name="hlte"/> -->
+  <device name="hlte"/>
   <device name="holiday"/>
   <device name="honami"/>
   <!--  <device name="huashan"/> -->
