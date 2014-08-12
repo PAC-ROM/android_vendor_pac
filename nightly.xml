@@ -159,6 +159,6 @@
   <device name="villec2"/>
   <device name="vs920"/>
   <device name="vs980"/>
-  <!-- <device name="ypg1"/> -->
+  <device name="ypg1"/>
   <device name="yuga"/>
 </manifest>
