@@ -193,8 +193,8 @@ Motorola:
 * __Atrix HD (moto_msm8960) :__ skeevy420
 * __Droid 4 (Verizon) (maserati) :__ Bkjolly
 * __Droid Bionic (Verizon) (targa) :__ Bkjolly
-* __Droid Razr (GSM) (umts_spyder) :__ OPEN
-* __Droid Razr(Verizon) (spyder) :__ OPEN
+* __Droid Razr (GSM) (umts_spyder) :__ Skiwong20
+* __Droid Razr(Verizon) (spyder) :__ Skiwong20
 * __Moto G (Global GSM) (falcon) :__ Wechy77 , herna
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77 , herna
 * __Moto X (GSM) (moto_msm8960dt) :__ Bkjolly, Skiwong20, timpohladthomas

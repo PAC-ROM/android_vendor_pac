@@ -61,7 +61,7 @@
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hercules"/>
-  <!-- <device name="hlte"/> -->
+  <device name="hlte"/>
   <device name="holiday"/>
   <device name="honami"/>
   <!--  <device name="huashan"/> -->
@@ -93,6 +93,7 @@
   <device name="meliusltexx"/>
   <!--  <device name="mesmerizemtd"/> -->
   <device name="mint"/>
+  <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="moto_msm8960dt"/>
   <device name="n1"/>
@@ -130,7 +131,7 @@
   <!--  <device name="serranoltexx"/> -->
   <!--  <device name="showcasemtd"/> -->
   <device name="skyrocket"/>
-  <!-- <device name="spyder"/> -->
+  <device name="spyder"/>
   <device name="superior"/>
   <!--  <device name="steelhead"/> -->
   <device name="t0lte"/>
@@ -153,13 +154,13 @@
   <device name="toro"/>
   <device name="toroplus"/>
   <device name="tsubasa"/>
-  <!-- <device name="umts_spyder"/> -->
+  <device name="umts_spyder"/>
   <device name="v500"/>
   <device name="venturi"/>
   <device name="ville"/>
-  <device name="villec2"/>
+  <!--<device name="villec2"/> -->
   <device name="vs920"/>
   <device name="vs980"/>
-  <!-- <device name="ypg1"/> -->
+  <device name="ypg1"/>
   <device name="yuga"/>
 </manifest>

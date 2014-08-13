@@ -95,9 +95,9 @@ case $device in
         # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
         cherries+=(63203_CM)
         # libstagefright: Allow using camera recording buffer as input for encoder
-        cherries+=(103_PAC)
+        cherries+=(66213_CM)
         # libstagefright: Fix video encoder input buffer
-        cherries+=(104_PAC)
+        cherries+=(66214_CM)
         # Squashed revert of SoftapControllerTI changes
         cherries+=(69352_CM)
         # netd: Don't reload fw if a single fw is supported
