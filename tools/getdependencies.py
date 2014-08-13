@@ -6,7 +6,7 @@ import json
 import re
 from xml.etree import ElementTree
 
-if len(sys.argv) = 2:
+if len(sys.argv) > 2:
     os.system('rm -f .repo/local_manifests/roomservice.xml')
 
 device = sys.argv[1];
