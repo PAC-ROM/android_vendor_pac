@@ -15,6 +15,7 @@ usage()
     echo -e "    -d  Use dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
+    echo -e "    -k  Set -k1 to rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s  Sync before build"
     echo -e "    -p  Build using pipe"
@@ -88,19 +89,21 @@ opt_clean=0
 opt_dex=0
 opt_fetch=0
 opt_jobs="$CPUS"
+opt_kr=0
 opt_olvl=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_verbose=0
 
-while getopts "ac:dfj:o:prsv" opt; do
+while getopts "ac:dfj:ko:prsv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_dex=1 ;;
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
+    k) opt_kr=1 ;;
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
@@ -124,7 +127,11 @@ echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${tx
 # PAC device dependencies
 echo -e ""
 echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
-vendor/pac/tools/getdependencies.py "$device"
+if [ "$opt_kr" -ne 0 ]; then
+    vendor/pac/tools/getdependencies.py "$device" "$opt_kr"
+else
+    vendor/pac/tools/getdependencies.py "$device"
+fi
 echo -e "${txtrst}"
 
 if [ "$opt_clean" -eq 1 ]; then
