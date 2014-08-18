@@ -77,9 +77,15 @@ IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
     CPUS=$(sysctl hw.ncpu | awk '{print $2}')
     DATE=gdate
+    if [ ! -e .repo/local_manifests/darwin.xml ]; then
+     cp -f pacman/darwin.xml .repo/local_manifests/
+    fi
 else
     CPUS=$(grep "^processor" /proc/cpuinfo | wc -l)
     DATE=date
+    if [ ! -e .repo/local_manifests/linux.xml ]; then
+     cp -f pacman/linux.xml .repo/local_manifests/
+    fi
 fi
 
 export USE_CCACHE=1
