@@ -138,7 +138,14 @@ $MD5 $img >$img.md5sum
 ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}'`
 echo -e ""; echo -e ${bldgrn}"Package complete:"${txtrst}
 echo -e ${cya}"ZIP LOCATION:${ylw}  $OUTFILE"${txtrst}
-echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $1}'`"${txtrst}
+
+if [ -z "$OUT_TARGET_HOST" ]
+then
+   echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $1}'`"${txtrst}
+else
+   echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $4}'`"${txtrst}
+fi
+
 echo -e ${cya}"SIZE:${ylw} $ZIPSIZE"${txtrst}
 MD5VAL=`cat $img.md5sum  | awk '{ print $1 }'`
 DEVICE=`echo -e $TARGET_PRODUCT | cut -d "_" -f 2`
