@@ -16,16 +16,9 @@
     {
         "remote": "github",
         "account": "CyanogenMod",
-        "repository": "android_device_motorola_qcom-common",
-        "target_path": "device/motorola/qcom-common",
-        "revision": "cm-11.0"
-    },
-    {
-        "remote": "github",
-        "account": "TEAM-Gummy",
         "repository": "android_kernel_motorola_msm8226",
         "target_path": "kernel/motorola/msm8226",
-        "revision": "kk4.4"
+        "revision": "cm-11.0"
     },
     {
         "remote": "github",
