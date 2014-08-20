@@ -104,6 +104,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2503693">LG Optimus G (AT&T):       e970          neighborhoodhacker</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2671622">LG Optimus G (Canadian):   e973          haze028</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501074">LG Optimus G (Sprint):     ls970          neighborhoodhacker</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2852984">LG Optimus G Pro (AT&T):   e980         machinistsWIP</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">LG Optimus L5:             e610         aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">LG Optimus L7:             p700         aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">LG Optimus L7:             p705         coderzs</a>
