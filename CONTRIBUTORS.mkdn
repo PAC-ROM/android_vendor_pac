@@ -186,7 +186,7 @@ LG:
 * __Optimus G (e970) :__ neighborhoodhacker
 * __Optimus G (e973) :__ haze028
 * __Optimus G (e975) :__ faust93
-* __Optimus G (e980) :__ OPEN
+* __Optimus G Pro (e980) :__ machinistsWIP
 * __Optimus G (ls970) (Sprint):__ neighborhoodhacker, spleef
 * __Spectrum (vs920) :__ tdm.code
 
