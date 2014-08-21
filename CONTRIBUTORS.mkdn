@@ -234,8 +234,8 @@ Samsung:
 * __Galaxy Ace II (codina) :__ OPEN
 * __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
 * __Galaxy Grand Duos (GSM) (i9082) :__ K2wl
-* __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ Grarak
-* __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ Grarak
+* __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ OPEN
+* __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ OPEN
 * __Galaxy Nexus (maguro) :__ -Jesco-
 * __Galaxy Nexus (toro) :__ Bkjolly
 * __Galaxy Nexus (toroplus) :__ Bkjolly
