@@ -53,6 +53,7 @@ BASEDIR=$PWD
 . $BASEDIR/vendor/pac/tools/colors
 
 function patch_it {
+  echo ${FOLDER} >> patched.txt
   cd $BASEDIR/${FOLDER}
   LASTCOMMIT=$(git show --format=email | sed -n '4,4p')
 
@@ -60,30 +61,13 @@ function patch_it {
    PATCH="$(curl -s ${PATCH})"
    THISCOMMIT=$(echo -e "${PATCH}" | sed -n '4,4p')
 
-   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    echo -e "${PATCH}" | git am
-   else
-    echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
-   fi
-
+   echo -e "${PATCH}" | git apply
   else
    THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
 
-   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
-   else
-    echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
-   fi
-
+   git apply $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
   fi
 
-  if [ -e ".git/rebase-apply" ]
-  then
-    git am --abort
-  elif [ -e ".git/CHERRY_PICK_HEAD" ]
-  then
-    git cherry-pick --abort
-  fi
   cd $BASEDIR
 }
 

@@ -46,6 +46,18 @@ fi
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 thisDIR="${PWD##*/}"
 
+# reset patched repos if previous build failed
+if [ -f patched.txt ]; then
+   while read repo
+   do
+      cd ${repo}
+      git reset --hard && git clean -fdx
+      cd ${DIR}
+   done < patched.txt
+
+   rm patched.txt
+fi
+
 findOUT() {
 if [ -n "${OUT_DIR_COMMON_BASE+x}" ]; then
 return 1; else

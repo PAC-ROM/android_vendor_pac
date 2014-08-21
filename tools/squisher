@@ -6,6 +6,20 @@
 
 . ${ANDROID_BUILD_TOP}/vendor/pac/tools/colors
 
+if [ -f ${ANDROID_BUILD_TOP}/patched.txt ]; then
+   cd ${ANDROID_BUILD_TOP}
+
+   while read repo
+   do
+      cd ${repo}
+      git reset --hard && git clean -fdx
+      cd ${ANDROID_BUILD_TOP}
+   done < patched.txt
+
+   rm patched.txt
+   cd ${OUT}
+fi
+
 OUT_TARGET_HOST=`uname -a | grep Darwin`
 if [ -z "$OUT_TARGET_HOST" ]
 then
