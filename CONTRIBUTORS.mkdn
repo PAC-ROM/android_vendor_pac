@@ -176,7 +176,7 @@ LG:
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
 * __Nitro HD (p930) :__ tdm.code
-* __Optimus 4X (p880) :__ Hid3away
+* __Optimus 4X HD (p880) :__ Absol, Russell664
 * __Optimus Black (p970) :__ zaclimon
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
