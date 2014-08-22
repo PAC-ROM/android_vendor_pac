@@ -153,7 +153,7 @@ ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}'`
 echo -e ""; echo -e ${bldgrn}"Package complete:"${txtrst}
 echo -e ${cya}"ZIP LOCATION:${ylw}  $OUTFILE"${txtrst}
 
-if [ -z "$OUT_TARGET_HOST" ]
+if [ "$OUT_TARGET_HOST" == "linux-x86" ]
 then
    echo -e ${cya}"MD5: ${ylw} `cat $img.md5sum | awk '{print $1}'`"${txtrst}
 else
