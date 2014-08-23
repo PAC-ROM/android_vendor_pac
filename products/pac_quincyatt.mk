@@ -1,11 +1,8 @@
 # Check for target product
 ifeq (pac_quincyatt,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xhdpi
-
 # PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/device/quincy-common
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/device/quincy-common
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \

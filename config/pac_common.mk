@@ -85,57 +85,13 @@ PRODUCT_PACKAGES += \
     PACPerformance
 
 # PAC Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
-
-# Copy over the changelog to the device
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
-#    vendor/pac/CONTRIBUTORS.mkdn:system/etc/PAC-CONTRIBUTORS.txt
-
-# AOKP Overlays
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
-
-# ParanoidAndroid Overlays
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
-#PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
-
-# Allow device family to add overlays and use a same prop.conf
-#ifneq ($(OVERLAY_TARGET),)
-#    PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(OVERLAY_TARGET)
-#    PA_CONF_SOURCE := $(OVERLAY_TARGET)
-#else
-#    PA_CONF_SOURCE := $(TARGET_PRODUCT)
-#endif
-
-# ParanoidAndroid Proprietary
-#PRODUCT_COPY_FILES += \
-#     vendor/pa/prebuilt/apk/ParanoidPreferences.apk:system/app/ParanoidPreferences.apk \
-#    vendor/pac/prebuilt/pa/$(PA_CONF_SOURCE).conf:system/etc/paranoid/properties.conf \
-#    vendor/pac/prebuilt/pa/$(PA_CONF_SOURCE).conf:system/etc/paranoid/backup.conf
-
-# ParanoidAndroid Images
-# PA_IMAGE_FILES := $(wildcard vendor/pa/prebuilt/preferences/images/*.png)
-# PRODUCT_COPY_FILES += \
-#     $(foreach f,$(PA_IMAGE_FILES),$(f):system/etc/paranoid/preferences/images/$(notdir $(f)))
-
-# ParanoidAndroid Preferences
-#PA_PREF_FILES := $(wildcard vendor/pac/prebuilt/pa/preferences/$(PA_CONF_SOURCE)/*.xml)
-#PRODUCT_COPY_FILES += \
-#    $(foreach f,$(PA_PREF_FILES),$(f):system/etc/paranoid/preferences/$(notdir $(f)))
+PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 
 # Add CM release version
 CM_RELEASE := true
 CM_BUILD := $(BOARD)
-
-# Add PA release version
-PA_VERSION_MAJOR = 4
-PA_VERSION_MINOR = 4
-PA_VERSION_MAINTENANCE =
-PA_PREF_REVISION = BETA1
-VERSION := $(PA_VERSION_MAJOR).$(PA_VERSION_MINOR)$(PA_VERSION_MAINTENANCE)
-PA_VERSION := pa_$(BOARD)-$(VERSION)-$(shell date +%0d%^b%Y-%H%M%S)
 
 # PAC version
 PAC_VERSION_MAJOR = 4
@@ -146,11 +102,7 @@ PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENAN
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pac.version=$(PAC_VERSION) \
     ro.pacrom.version=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
-    ro.modversion=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
-    ro.pa.version=$(VERSION)_$(PA_PREF_REVISION) \
-    ro.papref.revision=$(PA_PREF_REVISION) \
-    ro.aokp.version=$(BOARD)_kitkat
-#   ro.pa.family=$(PA_CONF_SOURCE) \ Disable This for now.
+    ro.modversion=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S)
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \

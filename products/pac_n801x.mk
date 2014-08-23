@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_n801x,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_n80xx
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/1280x800/bootanimation.zip:system/media/bootanimation.zip

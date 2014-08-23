@@ -1,12 +1,6 @@
 # Check for target product
 ifeq (pac_captivatemtd,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
-
-# PAC device overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
