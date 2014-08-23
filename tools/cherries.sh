@@ -122,10 +122,6 @@ case $device in
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-FRAMEWORKS-NATIVE-PATCH-for-s2ve-s2vep-device.patch"
         FOLDER=frameworks/native
         patch_it true
-        # mediaprovider patch
-        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-PROVIDERS-MEDIA-MEDIAPROVIDER-PATCH-for-s2ve-s2vep-d.patch"
-        FOLDER=packages/providers/MediaProvider
-        patch_it true
         # bluetooth patch
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Add-BT-support-for-s2ve-s2vep.patch"
         FOLDER=hardware/broadcom/libbt
