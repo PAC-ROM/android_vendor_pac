@@ -1,12 +1,6 @@
 # Check for target product
 ifeq (pac_moto_msm8960dt,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_nav_xhdpi
-
-# PAC device overlay
-#$(shell cp -f vendor/pac/prebuilt/common/bootanimation_framework/android-logo-mask_motorola-xhdpi.png frameworks/base/core/res/assets/images/android-logo-mask.png)
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_720x1280.rle:root/logo.rle

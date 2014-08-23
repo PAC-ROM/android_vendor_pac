@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_showcasemtd,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_hdpi
-
 # PAC device overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/hdpi_480x800
 

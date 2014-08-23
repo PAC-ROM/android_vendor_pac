@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_acclaim,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_nav_mdpi
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/960x540/bootanimation.zip:system/media/bootanimation.zip
