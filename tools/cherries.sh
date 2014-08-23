@@ -106,6 +106,10 @@ case $device in
         cherries+=(69354_CM)
         # New call-in/-back functions for Controller to do vendor-specific shutdown
         cherries+=(69355_CM)
+        # ti: Add interface_mtu request
+        cherries+=(69839_CM)
+        # Apply IO scheduler settings to all storage devices
+        cherries+=(65599_CM)
     ;;
     i9082)
         # OMX patch
