@@ -92,26 +92,20 @@ function patch_it {
 
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
-        # Revert "wpa_supplicant_8 - Hostapd: Android related changes for sockets"
-        cherries+=(63203_CM)
         # libstagefright: Allow using camera recording buffer as input for encoder
         cherries+=(66213_CM)
         # libstagefright: Fix video encoder input buffer
         cherries+=(66214_CM)
-        # Squashed revert of SoftapControllerTI changes
-        cherries+=(69352_CM)
-        # netd: Don't reload fw if a single fw is supported
-        cherries+=(69353_CM)
-        # wifi: remove local nl80211 header
-        cherries+=(69354_CM)
-        # New call-in/-back functions for Controller to do vendor-specific shutdown
-        cherries+=(69355_CM)
+        # ti: Add interface_mtu request
+        cherries+=(69839_CM)
+        # Apply IO scheduler settings to all storage devices
+        cherries+=(65599_CM)
     ;;
     i9082)
         # OMX patch
-        cherries+=(1162_PAC)
+        #cherries+=(1162_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         # native patch
-        cherries+=(1163_PAC)
+        #cherries+=(1163_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     s2ve | s2vep)
         # av patch
@@ -133,13 +127,13 @@ case $device in
     ;;
     p705)
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
-        cherries+=(1343_PAC)
+        #cherries+=(1343_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
     nozomi)
         #FwNative: Bootlogo and screenshot fix for Xperia S
-        cherries+=(3018_PAC)
+        #cherries+=(3018_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     ariesve)
         #hwc: Blank and unblank primary on first boot
@@ -149,9 +143,9 @@ case $device in
         #Overlay support for legacy camera libs
         cherries+=(58228_CM)
         #sensorservice: Add legacy sensors fusion
-        cherries+=(1164_PAC)
+        #cherries+=(1164_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         #native: add flag to disable legacy sensors fusion
-        cherries+=(1165_PAC)
+        #cherries+=(1165_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     janice | codina)
         # Swap Storages
@@ -159,7 +153,7 @@ case $device in
     ;;
     janice)
         # fix default colors for janice
-        cherries+=(2154_PAC)
+        # cherries+=(2154_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState

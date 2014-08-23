@@ -83,14 +83,11 @@ if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm ]; then
 fi
 
 # Delete unnecessary binaries
-#( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
-
-# No need for recovery
-#rm -rf $REPACK/ota/recovery
+( cd $REPACK/ota/system/bin; echo $DELETE_BINS | xargs rm -f; )
 
 # Strip modules
-#[ -d $REPACK/ota/system/lib/modules ] && \
-#    find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
+[ -d $REPACK/ota/system/lib/modules ] && \
+    find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
 
 # Determine what to name the new signed package
 if [ -z "$CYANOGEN_NIGHTLY" ]; then
@@ -102,21 +99,11 @@ else
     OUTFILE=$OUT/update-squished.zip
 fi
 
-#if [ -n $ABIGEN ]; then
-#    echo ${cya}"Packing in Pre-Built Libs for CPU Variant:${ylw}$ABIGEN"${txtrst}
-#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/libs/$ABIGEN/libbypass.so $REPACK/ota/system/lib/libbypass.so
-#    echo ""
-#fi
-
-#if [ "$TARGET_PRODUCT" = "pac_hammerhead" ]; then
-#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_hammerhead.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-#elif [ "$TARGET_PRODUCT" = "pac_flo" ]; then
-#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_flo.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-#elif [ "$TARGET_PRODUCT" = "pac_mako" ]; then
-#    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/common/etc/audio_effects_mako.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-#else
-#    cp ${ANDROID_BUILD_TOP}/packages/apps/DSPManager/cyanogen-dsp/audio_effects.conf $REPACK/ota/system/vendor/etc/audio_effects.conf
-#fi
+if [ -n $ABIGEN ]; then
+    echo ${cya}"Packing in Pre-Built Libs for CPU Variant:${ylw}$ABIGEN"${txtrst}
+    cp ${ANDROID_BUILD_TOP}/vendor/pac/prebuilt/libs/$ABIGEN/libbypass.so $REPACK/ota/system/lib/libbypass.so
+    echo ""
+fi
 
 # Pack it up and sign
 echo -e ${grn}"Zipping package..."${txtrst}

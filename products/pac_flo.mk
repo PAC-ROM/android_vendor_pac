@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_flo,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_flo
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/1200x1920/bootanimation.zip:system/media/bootanimation.zip

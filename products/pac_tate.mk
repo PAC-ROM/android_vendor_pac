@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_tate,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_tate
-
 # PAC boot logo
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_800x1280.rle:root/logo.rle
