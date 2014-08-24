@@ -67,6 +67,7 @@ BuildBot Maintainers:
 * __123sit__
 * __aHcVolle__
 * __Argumentation__
+* __draexo__
 * __DympyDev__
 * __ktkintner__
 * __Langes72__
@@ -74,6 +75,7 @@ BuildBot Maintainers:
 * __MaDc0wUSP__
 * __MallardDuck__
 * __metaiiica__
+* __my95z34__
 * __Papa-Smurf151__
 * __pvyParts__
 * __the-octagon__
