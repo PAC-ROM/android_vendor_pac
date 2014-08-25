@@ -49,7 +49,7 @@
   <device name="evita"/>
   <device name="exhilarate"/>
   <device name="expressatt"/>
-  <device name="falcon"/>
+  <!--  <device name="falcon"/> -->
   <!--  <device name="fascinatemtd"/> -->
   <device name="find5"/>
   <device name="fireball"/>
