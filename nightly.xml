@@ -19,12 +19,12 @@
   <!-- <device name="apexqtmo"/> -->
   <device name="bacon"/>
   <device name="d2lte"/>
-  <!-- <device name="d801"/> -->
-  <!-- <device name="deb"/> -->
+  <device name="d801"/>
+  <device name="deb"/>
   <device name="e980"/>
   <device name="expressatt"/>
   <!-- <device name="find5"/> -->
-  <!-- <device name="flo"/> -->
+  <device name="flo"/>
   <device name="hammerhead"/>
   <!-- <device name="hlte"/> -->
   <!-- <device name="i605"/> -->
@@ -33,9 +33,10 @@
   <!-- <device name="i9300"/> -->
   <!-- <device name="i9305"/> -->
   <!-- <device name="i9500"/> -->
-  <!-- <device name="jem"/> -->
+  <device name="jem"/>
   <device name="jflte"/>
   <!-- <device name="l900"/> -->
+  <device name="ls980"/>
   <!-- <device name="m4"/> -->
   <device name="m7"/>
   <device name="m7spr"/>
@@ -49,8 +50,8 @@
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
-  <!-- <device name="otter"/> -->
-  <!-- <device name="otter2"/> -->
+  <device name="otter"/>
+  <device name="otter2"/>
   <device name="p5100"/>
   <device name="p5110"/>
   <!-- <device name="r950"/> -->
@@ -59,6 +60,7 @@
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->
   <!-- <device name="taoshan"/> -->
+  <device name="tate"/>
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
   <device name="venturi"/>
