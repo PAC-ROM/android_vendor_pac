@@ -112,15 +112,15 @@ zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501869">Transformer Pad Infinity:  tf700t         SectorAndroidRD</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2677301">Vivid                      holiday        WildfireDEV</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc                 anzu          Langes, wedgess</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=50939230">Xperia Active              satsuma       Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2675370">Xperia Active              satsuma       Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?p=52600121">Xperia L                   taoshan       Olivier</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=50939230">Xperia LWW                 coconut       Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2675370">Xperia LWW                 coconut       Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2678107">Xperia M:                   nicki           Abhinav1997</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=50939230">Xperia Mini                smultron      Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?p=50939230">Xperia Mini Pro            mango         Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2173958">Xperia Neo                 hallon        Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2675370">Xperia Mini                smultron      Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?p=2675370">Xperia Mini Pro            mango         Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo                 hallon        Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V               haida         Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Pro                 iyokan        Langes, wedgess</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro                 iyokan        Langes, wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray                 urushi         szl.kiev, Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2677929">Xperia T:                  mint           Abhinav1997</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:           pollux_windy   bluefa1con</a>

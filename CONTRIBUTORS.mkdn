@@ -340,8 +340,8 @@ Sony Ericsson:
 * __Xperia Arc (anzu) :__ garwedgess, Langes
 * __Xperia Mini (smultron) :__ Langes
 * __Xperia Mini Pro (mango) :__ Langes, szl.kiev
-* __Xperia Neo (hallon) :__ OPEN
-* __Xperia Neo V (haida) :__ OPEN
+* __Xperia Neo (hallon) :__ Langes
+* __Xperia Neo V (haida) :__ Langes
 * __Xperia Pro (iyokan) :__ Langes
 * __Xperia Ray (urushi) :__ Langes, szl.kiev
 
