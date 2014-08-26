@@ -22,6 +22,7 @@
   <!-- <device name="d801"/> -->
   <!-- <device name="deb"/> -->
   <device name="e980"/>
+  <device name="evita"/>
   <device name="expressatt"/>
   <!-- <device name="find5"/> -->
   <!-- <device name="flo"/> -->
@@ -54,7 +55,7 @@
   <device name="p5100"/>
   <device name="p5110"/>
   <!-- <device name="r950"/> -->
-  <!-- <device name="ruby"/> -->
+  <device name="ruby"/>
   <!-- <device name="t0lte"/> -->
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->
