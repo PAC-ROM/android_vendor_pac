@@ -27,6 +27,7 @@
   <!-- <device name="flo"/> -->
   <device name="hammerhead"/>
   <!-- <device name="hlte"/> -->
+  <device name="honami"/>
   <!-- <device name="i605"/> -->
   <!-- <device name="i9100"/> -->
   <!-- <device name="i9100g"/> -->
