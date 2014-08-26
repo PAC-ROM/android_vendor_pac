@@ -1,6 +1,7 @@
 system/app/CMWallpapers.apk
 system/app/PinyinIME.apk
 system/priv-app/CMUpdater.apk
+system/etc/CHANGELOG-CM.txt
 system/etc/init.d/00banner
 system/media/video/AndroidInSpace.240p.mp4
 system/media/video/AndroidInSpace.480p.mp4
