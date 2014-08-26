@@ -17,6 +17,7 @@
   <!-- Add new devices here -->
   <!-- <device name="acclaim"/> -->
   <!-- <device name="apexqtmo"/> -->
+  <device name="amami"/>
   <device name="bacon"/>
   <device name="d2lte"/>
   <!-- <device name="d801"/> -->
