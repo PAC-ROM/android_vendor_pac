@@ -356,7 +356,8 @@ ZTE:
 * __Blade 3 (atlas40) :__ OPEN
 
 
-Total Devices: 177
+Total Devices: 197
+Total Devices Open: 65
 
 Best regards
     szl.kiev
