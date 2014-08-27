@@ -38,7 +38,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2015607">Galaxy S III (AT&T):       d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (Cricket):    d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2400382">Galaxy S III (GSM):        i9300          wedgess</a>
-<a href="http://forum.xda-developers.com/galaxy-s3/development-i9305/rom-pac-4-4-t2669707">Galaxy S III (LTE):        i9305          MaDc0w</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2361286">Galaxy S III (LTE):        i9305          MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351024">Galaxy S III (Metro PCS):  d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2032843">Galaxy S III (Sprint):     d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2015525">Galaxy S III (T-Mobile):   d2lte          Papa Smurf151</a>
