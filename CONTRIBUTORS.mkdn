@@ -239,7 +239,7 @@ Samsung:
 * __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ OPEN
 * __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ OPEN
 * __Galaxy Nexus (maguro) :__ -Jesco-
-* __Galaxy Nexus (toro) :__ OPEN
+* __Galaxy Nexus (toro) :__ my95z34
 * __Galaxy Nexus (toroplus) :__ OPEN
 * __Galaxy Note (n7000) :__ OPEN
 * __Galaxy Note (quincyatt) :__ OPEN
