@@ -1,166 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  This file describes which devices are to be built nightly and their
-  priority.  Higher numerical priority gets preference at build time.
+  This file used to enable nightly builds for eligible devices.
 
-  The priority for a device is a base value that is modified at build
-  time, as follows:
+    import vendor.pac.Device;
+    import vendor.pac.Maintainers;
+    import vendor.pac.Threads;
 
-  1. Priority is increased by 10 for each day that the device has not
-     been built.
+    if (!device.getThreads() || !device.getMaintainers()) {
+      devices.runNightly=false;
+    }
 
-  2. Priority is cut in half if the previous device build failed.
-
-  Example: a device has base priority 20, has not built in 3 days, and
-  the previous build failed.  Its priority at build time would be:
-    (20 + 3*10) / 2 = 25
 -->
 
 <manifest>
   <!-- Add new devices here -->
-  <device name="a510"/>
-  <device name="a700"/>
-  <device name="acclaim"/>
-  <device name="apexqtmo"/>
+  <!-- <device name="acclaim"/> -->
+  <!-- <device name="apexqtmo"/> -->
   <device name="amami"/>
-  <device name="aries"/>
   <device name="bacon"/>
-  <!-- <device name="captivatemtd"/> -->
-  <device name="crespo"/>
-  <!--  <device name="d803"/> -->
   <device name="d2lte"/>
-  <!--  <device name="d710"/> -->
-  <device name="d800"/>
-  <device name="d801"/>
-  <device name="d802"/>
-  <device name="deb"/>
-  <device name="dlx"/>
-  <device name="dogo"/>
-  <device name="e970"/>
-  <device name="e973"/>
-  <device name="e975"/>
+  <!-- <device name="d801"/> -->
+  <!-- <device name="deb"/> -->
   <device name="e980"/>
-  <device name="edison"/>
-  <device name="encore"/>
-  <!-- device name="endeavoru"-->
-  <!-- device name="enrc2b"-->
-  <device name="epicmtd"/>
   <device name="evita"/>
-  <device name="exhilarate"/>
   <device name="expressatt"/>
-  <device name="falcon"/>
-  <!--  <device name="fascinatemtd"/> -->
-  <device name="find5"/>
-  <device name="fireball"/>
-  <device name="flo"/>
-  <!-- <device name="galaxysbmtd"/> -->
-  <!-- <device name="galaxysl"/> -->
-  <!-- <device name="galaxysmtd"/> -->
+  <!-- <device name="find5"/> -->
+  <!-- <device name="flo"/> -->
   <device name="glacier"/>
-  <device name="grouper"/>
   <device name="hammerhead"/>
-  <device name="hercules"/>
-  <device name="hlte"/>
-  <device name="holiday"/>
+  <!-- <device name="hlte"/> -->
   <device name="honami"/>
-  <!--  <device name="huashan"/> -->
-  <device name="i605"/>
-  <device name="i777"/>
-  <device name="i9100"/>
-  <device name="i9100g"/>
-  <device name="i925"/>
-  <device name="i9300"/>
+  <!-- <device name="i605"/> -->
+  <!-- <device name="i9100"/> -->
+  <!-- <device name="i9100g"/> -->
+  <!-- <device name="i9300"/> -->
   <device name="i9305"/>
-  <device name="i9500"/>
-  <device name="jem"/>
-  <device name="jewel"/>
+  <!-- <device name="i9500"/> -->
+  <!-- <device name="jem"/> -->
   <device name="jflte"/>
-  <device name="l900"/>
-  <device name="ls970"/>
-  <device name="ls980"/>
-  <device name="m4"/>
+  <!-- <device name="l900"/> -->
+  <!-- <device name="m4"/> -->
   <device name="m7"/>
   <device name="m7spr"/>
-  <device name="m7vzw"/>
   <device name="m8"/>
-  <device name="maguro"/>
-  <device name="mako"/>
+  <!-- <device name="maguro"/> -->
+  <!-- <device name="mako"/> -->
   <device name="manta"/>
-  <device name="maserati"/>
-  <!-- <device name="mb886"/> -->
-  <device name="melius3gxx"/>
-  <device name="meliusltexx"/>
-  <!--  <device name="mesmerizemtd"/> -->
-  <device name="mint"/>
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="moto_msm8960dt"/>
-  <device name="n1"/>
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
-  <device name="n7000"/>
-  <device name="n7100"/>
-  <!--  <device name="n8000"/> -->
-  <!--  <device name="n8013"/> -->
-  <device name="nicki"/>
-  <device name="odin"/>
-  <device name="otter"/>
-  <device name="otter2"/>
-  <!--  <device name="otterx"/> -->
-  <device name="ovation"/>
-  <device name="p1"/>
-  <!--  <device name="p760"/> -->
-  <device name="p880"/>
-  <device name="p930"/>
-  <!-- <device name="p3100"/> -->
-  <!-- <device name="p3110"/> -->
-  <!--  <device name="p4"/> -->
-  <!--  <device name="p4wifi"/> -->
+  <!-- <device name="otter"/> -->
+  <!-- <device name="otter2"/> -->
   <device name="p5100"/>
   <device name="p5110"/>
-  <device name="pollux"/>
-  <device name="pollux_windy"/>
-  <device name="pyramid"/>
-  <device name="quincyatt"/>
-  <device name="quincytmo"/>
-  <device name="r950"/>
+  <!-- <device name="r950"/> -->
   <device name="ruby"/>
-  <!--  <device name="serrano3gxx"/> -->
-  <!--  <device name="serranoltexx"/> -->
-  <!--  <device name="showcasemtd"/> -->
-  <device name="skyrocket"/>
-  <device name="spyder"/>
-  <device name="superior"/>
-  <!--  <device name="steelhead"/> -->
-  <device name="t0lte"/>
-  <device name="t0lteatt"/>
-  <device name="t0ltetmo"/>
-  <device name="t6"/>
-  <device name="t6spr"/>
-  <device name="t6vzw"/>
-  <device name="t769"/>
-  <device name="taoshan"/>
-  <device name="targa"/>
-  <device name="tate"/>
-  <!--  <device name="tf201"/> -->
-  <device name="tf300t"/>
-  <device name="tf700t"/>
-  <device name="tf701t"/>
-  <device name="tilapia"/>
-  <device name="togari"/>
-  <device name="togari_gpe"/>
-  <device name="toro"/>
-  <device name="toroplus"/>
-  <device name="tsubasa"/>
-  <device name="umts_spyder"/>
-  <device name="v500"/>
+  <!-- <device name="t0lte"/> -->
+  <!-- <device name="t0lteatt"/> -->
+  <!-- <device name="t0ltetmo"/> -->
+  <!-- <device name="taoshan"/> -->
+  <!-- <device name="tf300t"/> -->
+  <!-- <device name="tf700t"/> -->
   <device name="venturi"/>
-  <device name="ville"/>
-  <!--<device name="villec2"/> -->
-  <device name="vs920"/>
-  <device name="vs980"/>
   <device name="ypg1"/>
   <device name="yuga"/>
 </manifest>
