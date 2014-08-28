@@ -4,14 +4,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=PAC-Notifications.ogg \
     ro.config.alarm_alert=PAC-Alarm.ogg
 
-# Copy specific ROM files
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/apk/PacConsole.apk:system/app/PacConsole.apk
-
-#Copy Theme Apks
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/apk/PacX.apk:system/app/PacX.apk
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh \
@@ -24,43 +16,43 @@ PRODUCT_COPY_FILES += \
 #    ScreenRecorder
 
 # init.d support
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
-#    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-#    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg \
-#    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-#    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-#    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-#    vendor/pac/prebuilt/common/etc/init.d/03setrenice:system/etc/init.d/03setrenice \
-#    vendor/pac/prebuilt/common/etc/init.d/04filesystem:system/etc/init.d/04filesystem \
-#    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-#    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-#    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-#    vendor/pac/prebuilt/common/etc/init.d/08tweaks:system/etc/init.d/08tweaks \
-#    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-#    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-#    vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
-#    vendor/pac/prebuilt/common/etc/init.d/12touch:system/etc/init.d/12touch \
-#    vendor/pac/prebuilt/common/etc/init.d/13minfree:system/etc/init.d/13minfree \
-#    vendor/pac/prebuilt/common/etc/init.d/14gpurender:system/etc/init.d/14gpurender \
-#    vendor/pac/prebuilt/common/etc/init.d/15sleepers:system/etc/init.d/15sleepers \
-#    vendor/pac/prebuilt/common/etc/init.d/16journalism:system/etc/init.d/16journalism \
-#    vendor/pac/prebuilt/common/etc/init.d/17sqlite3:system/etc/init.d/17sqlite3 \
-#    vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
-#    vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
-#    vendor/pac/prebuilt/common/etc/init.d/20loopy:system/etc/init.d/20loopy \
-#    vendor/pac/prebuilt/common/etc/init.d/21speedy:system/etc/init.d/21speedy \
-#    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
+    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
+    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg \
+    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
+    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
+    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
+    vendor/pac/prebuilt/common/etc/init.d/03setrenice:system/etc/init.d/03setrenice \
+    vendor/pac/prebuilt/common/etc/init.d/04filesystem:system/etc/init.d/04filesystem \
+    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
+    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
+    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
+    vendor/pac/prebuilt/common/etc/init.d/08tweaks:system/etc/init.d/08tweaks \
+    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
+    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
+    vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
+    vendor/pac/prebuilt/common/etc/init.d/12touch:system/etc/init.d/12touch \
+    vendor/pac/prebuilt/common/etc/init.d/13minfree:system/etc/init.d/13minfree \
+    vendor/pac/prebuilt/common/etc/init.d/14gpurender:system/etc/init.d/14gpurender \
+    vendor/pac/prebuilt/common/etc/init.d/15sleepers:system/etc/init.d/15sleepers \
+    vendor/pac/prebuilt/common/etc/init.d/16journalism:system/etc/init.d/16journalism \
+    vendor/pac/prebuilt/common/etc/init.d/17sqlite3:system/etc/init.d/17sqlite3 \
+    vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
+    vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
+    vendor/pac/prebuilt/common/etc/init.d/20loopy:system/etc/init.d/20loopy \
+    vendor/pac/prebuilt/common/etc/init.d/21speedy:system/etc/init.d/21speedy \
+    vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
 # cron support
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
-#    vendor/pac/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
-#    vendor/pac/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
-#    vendor/pac/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
-#    vendor/pac/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
-#    vendor/pac/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
-#    vendor/pac/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
+    vendor/pac/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
+    vendor/pac/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
+    vendor/pac/prebuilt/common/etc/cron/cron.hourly/00drop_caches:system/etc/cron/cron.hourly/00drop_caches \
+    vendor/pac/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
+    vendor/pac/prebuilt/common/etc/cron/cron.weekly/00drop_caches:system/etc/cron/cron.weekly/00drop_caches \
+    vendor/pac/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache
 
 # Pac Sounds
 PRODUCT_COPY_FILES += \
@@ -69,9 +61,9 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/media/audio/ringtones/PAC-Ringtone.ogg:system/media/audio/ringtones/PAC-Ringtone.ogg
 
 # Added xbin files
-#PRODUCT_COPY_FILES += \
-#    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
-#    vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
+    vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
 
 # OmniRom Packages
 PRODUCT_PACKAGES += \
