@@ -31,5 +31,6 @@
   <device name="u8833"/>
   <device name="u8951"/>
   <device name="urushi"/>
+  <device name="ville"/>
   <device name="vision" />
 </manifest>
