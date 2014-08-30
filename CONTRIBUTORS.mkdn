@@ -134,10 +134,10 @@ HTC:
 * __Amaze 4G (ruby) :__ JoseGalRe, WildfireDEV
 * __Droid DNA (dlx) :__ pio_masaki
 * __MyTouch 4G (glacier) :__ JoseGalRe
-* __One (AT&T) (m7) :__ MaDc0w
-* __One (GSM)(m7) :__ MaDc0w
+* __One (AT&T) (m7) :__ MaDc0w, WildfireDEV
+* __One (GSM)(m7) :__ MaDc0w, WildfireDEV
 * __One (Sprint) (m7spr) :__ tdhite, MallardDuck
-* __One (T-Mobile) (m7) :__ MaDc0w
+* __One (T-Mobile) (m7) :__ MaDc0w, WildfireDEV
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One (2014) (m8) :__ DREWHAMM974, Owain94
 * __One Max (GSM)(t6) :__ awidawad
