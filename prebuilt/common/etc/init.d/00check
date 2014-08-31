@@ -77,7 +77,7 @@ sysctl_conf="/system/etc/sysctl.conf"
 # Booleans
 zipalign_apks=false
 enable_sysctl=false
-sentrenice=false
+setrenice=false
 file_system_speedups=false
 free_mem=false
 clear_data_cache=false

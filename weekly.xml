@@ -9,7 +9,6 @@
   <!-- Add new devices here -->
   <device name="anzu"/>
   <device name="ariesve"/>
-  <device name="atlas40"/>
   <device name="coconut"/>
   <device name="d803"/>
   <device name="e610"/>
@@ -19,16 +18,15 @@
   <device name="i9082"/>
   <device name="iyokan"/>
   <device name="mango"/>
-  <!-- <device name="nozomi"/> -->
-  <device name="p500"/>
   <device name="p705"/>
   <device name="s2ve"/>
   <device name="s2vep"/>
   <device name="satsuma"/>
   <device name="smultron"/>
   <device name="tenderloin"/>
+  <device name="toro"/>
   <device name="u8833"/>
   <device name="u8951"/>
   <device name="urushi"/>
-  <device name="vision" />
+  <device name="ville"/>
 </manifest>

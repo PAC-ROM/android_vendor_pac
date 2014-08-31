@@ -111,20 +111,16 @@ Amazon:
 
 ASUS:
 ---------------------------------------------------------------------
-* __Eee Pad Transformer Prime (tf201) :__ OPEN
 * __Nexus 7 (grouper) :__ OPEN
-* __Nexus 7 3G (tilapia) :__ OPEN
 * __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon
 * __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon
 * __Transformer Pad (tf300t) :__ kd8bny
-* __Transformer Pad (tf701t) :__ OPEN
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
 
 Barnes & Noble:
 ---------------------------------------------------------------------
 * __Nook (acclaim) :__ LowEndGeek
-* __Nook Color (encore) :__ OPEN
 * __Nook HD+ (ovation) :__ DarkStarr
 
 
@@ -136,15 +132,12 @@ HP:
 HTC:
 ---------------------------------------------------------------------
 * __Amaze 4G (ruby) :__ JoseGalRe, WildfireDEV
-* __Desire Z (vision) :__ OPEN
 * __Droid DNA (dlx) :__ pio_masaki
-* __Droid Incredible 4G (fireball) :__ OPEN
-* __Evo LTE (jewel) :__ OPEN
 * __MyTouch 4G (glacier) :__ JoseGalRe
-* __One (AT&T) (m7) :__ MaDc0w
-* __One (GSM)(m7) :__ MaDc0w
+* __One (AT&T) (m7) :__ MaDc0w, WildfireDEV
+* __One (GSM)(m7) :__ MaDc0w, WildfireDEV
 * __One (Sprint) (m7spr) :__ tdhite, MallardDuck
-* __One (T-Mobile) (m7) :__ MaDc0w
+* __One (T-Mobile) (m7) :__ MaDc0w, WildfireDEV
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One (2014) (m8) :__ DREWHAMM974, Owain94
 * __One Max (GSM)(t6) :__ awidawad
@@ -153,8 +146,6 @@ HTC:
 * __One Mini (m4) :__ WildfireDEV
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ bilal_liberty
-* __One X (endeavoru) :__ OPEN
-* __One X+ (enrc2b) :__  OPEN
 * __One XL (evita) :__ JoseGalRe
 * __Sensation (pyramid) :__ bilal_liberty
 * __Vivid (holiday) :__ WildfireDEV, JoseGalRe
@@ -177,32 +168,18 @@ LG:
 * __G-Pad (v500) :__ darkassain
 * __Nexus 4 (mako) :__ kd8bny
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
-* __Nitro HD (p930) :__ OPEN
 * __Optimus 4X (p880) :__ Hid3away
-* __Optimus Black (p970) :__ OPEN
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
-* __Optimus L9 (p760) :__ OPEN
-* __Optimus One (p500) :__ OPEN
-* __Optimus G (e970) :__ OPEN
-* __Optimus G (e973) :__ OPEN
-* __Optimus G (e975) :__ OPEN
 * __Optimus G Pro (e980) :__ machinistsWIP
-* __Optimus G (ls970) (Sprint):__ OPEN
-* __Spectrum (vs920) :__ OPEN
-
 
 Motorola:
 ---------------------------------------------------------------------
-* __Atrix 2 (edison) :__ OPEN
-* __Atrix HD (moto_msm8960) :__ OPEN
-* __Droid 4 (Verizon) (maserati) :__ OPEN
-* __Droid Bionic (Verizon) (targa) :__ OPEN
 * __Droid Razr (GSM) (umts_spyder) :__ Skiwong20
 * __Droid Razr(Verizon) (spyder) :__ Skiwong20
-* __Moto G (Global GSM) (falcon) :__ Wechy77 , herna
-* __Moto G (Retail US GSM) (falcon) :__ Wechy77 , herna
+* __Moto G (Global GSM) (falcon) :__ Wechy77
+* __Moto G (Retail US GSM) (falcon) :__ Wechy77
 * __Moto X (GSM) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
 * __Moto X (Sprint) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
 * __Moto X (T-Mobile) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
@@ -211,8 +188,6 @@ Motorola:
 * __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Skiwong20, timpohladthomas
 * __Photon Q (Sprint) (moto_msm8960) :__ arrrghhh
 * __Photon Q (GSM) (moto_msm8960) :__ arrrghhh
-* __Razr HD (GSM) (moto_msm8960) :__ OPEN
-* __Razr HD (Verizon) (moto_msm8960) :__ OPEN
 * __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
 
 
@@ -223,27 +198,16 @@ OnePlus:
 
 Oppo:
 ---------------------------------------------------------------------
-* __Find5 (find5) :__ eoghan2t7, tdm.code
-* __N1 (n1) :__ OPEN
+* __Find5 (find5) :__ eoghan2t7
 
 
 Samsung:
 ---------------------------------------------------------------------
-* __Epic 4G (epicmtd) :__ OPEN
 * __Epic 4G Touch (Sprint) (d710) :__ Sniper
-* __Exhilarate (AT&T) (sgh-1577) :__ OPEN
-* __Fascinate (fascinatemtd) :__ OPEN
-* __Galaxy Ace II (codina) :__ OPEN
 * __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
 * __Galaxy Grand Duos (GSM) (i9082) :__ K2wl
-* __Galaxy Mega 6.3 (GSM) (melius3gxx) :__ OPEN
-* __Galaxy Mega 6.3 (LTE) (meliusltexx) :__ OPEN
 * __Galaxy Nexus (maguro) :__ -Jesco-
-* __Galaxy Nexus (toro) :__ OPEN
-* __Galaxy Nexus (toroplus) :__ OPEN
-* __Galaxy Note (n7000) :__ OPEN
-* __Galaxy Note (quincyatt) :__ OPEN
-* __Galaxy Note (quincytmo) :__ OPEN
+* __Galaxy Nexus (toro) :__ my95z34
 * __Galaxy Note 2 (AT&T) (t0lteatt) :__ 123sit
 * __Galaxy Note 2 (GSM) (n7100) :__ 123sit
 * __Galaxy Note 2 (LTE) (t0lte) :__ 123sit
@@ -258,21 +222,14 @@ Samsung:
 * __Galaxy Note 8.0 (GSM) (N5100) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ iurnait, ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
-* __Galaxy Note 10.1 (GSM) (N8000) :__ OPEN
-* __Galaxy Note 10.1 (WiFi) (N801x) :__ OPEN
-* __Galaxy Note 10.1 (Verizon LTE) (i925) :__ OPEN
 * __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
 * __Galaxy Player 5.0 (venturi) :__ iurnait
-* __Galaxy Premier (superior) :__ OPEN
-* __Galaxy S Advance (janice) :__ OPEN
-* __Galaxy S I (galaxysmtd) :__ OPEN
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S I Plus (ariesve) :__ krislibaeer
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (i9100G) :__ bluefa1con
 * __Galaxy S II LTE (AT&T) (skyrocket) :__ TheCybertronian
 * __Galaxy S II (T-Mobile) (hercules) :__ TheCybertronian
-* __Galaxy S II (AT&T) (i777) :__ OPEN
 * __Galaxy S II Plus (s2ve) :__ LuK1337
 * __Galaxy S II Plus (s2vep) :__ LuK1337
 * __Galaxy S III (AT&T) (d2lte) :__ Papa Smurf151
@@ -296,30 +253,15 @@ Samsung:
 * __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
-* __Galaxy S IV Mini (3g) (serrano3gxx) :__ OPEN
-* __Galaxy S IV Mini (lte) (serranoltexx) :__ OPEN
-* __Galaxy S B (galaxysbmtd) :__ OPEN
-* __Galaxy S Blaze 4G (T-Mobile) (t769) :__ OPEN
-* __Galaxy S LCD (galaxysl) :__ OPEN
-* __Galaxy Tab 7" (p1) :__ OPEN
-* __Galaxy Tab 10.1" (GSM) (p4) :__ OPEN
-* __Galaxy Tab 10.1" (Wi-Fi) (p4wifi) :__ OPEN
-* __Galaxy Tab 2 7" (p3100) :__ OPEN
-* __Galaxy Tab 2 7" (P3110) :__ OPEN
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
-* __Mesmerize (mesmerizemtd) :__ OPEN
 * __Nexus S (crespo) :__ berni987654321
-* __Nexus 10 (manta) :__ OPEN
-* __Showcase (showcasemtd) :__ OPEN
 
 
 Sony:
 ---------------------------------------------------------------------
 * __Xperia L (taoshan) :__ Olivier
 * __Xperia M (nicki) :__ Abhinav1997
-* __Xperia SP (huashan) :__ OPEN
-* __Xperia S (nozomi) :__ OPEN
 * __Xperia T (mint) :__ Abhinav1997
 * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ bluefa1con
@@ -327,10 +269,6 @@ Sony:
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
 * __Xperia Z1 (honami) :__ jeroenqui, Langes
 * __Xperia Z1 Compact (amami) :__ oshmoun
-* __Xperia ZL (odin) :__ OPEN
-* __Xperia ZR (dogo) :__ OPEN
-* __Xperia Z Ultra (togari) :__ OPEN
-* __Xperia Z Ultra (Google Play Edition) (togari_gpe) :__ OPEN
 
 
 Sony Ericsson:
@@ -351,12 +289,8 @@ Xiaomi:
 * __MI 2 (aries) :__ M1cha
 
 
-ZTE:
----------------------------------------------------------------------
-* __Blade 3 (atlas40) :__ OPEN
 
-
-Total Devices: 177
+Total Devices: 135
 
 Best regards
     szl.kiev

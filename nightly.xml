@@ -30,6 +30,7 @@
   <device name="glacier"/>
   <device name="hammerhead"/>
   <!-- <device name="hlte"/> -->
+  <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
   <!-- <device name="i9100"/> -->
@@ -40,7 +41,7 @@
   <!-- <device name="jem"/> -->
   <device name="jflte"/>
   <!-- <device name="l900"/> -->
-  <!-- <device name="m4"/> -->
+  <device name="m4"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m8"/>
