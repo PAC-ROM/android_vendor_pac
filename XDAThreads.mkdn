@@ -61,6 +61,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2347951">Kindle Fire 2:              otter2         goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2355103">Kindle Fire HD 7:           tate           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2356333">Kindle Fire HD 8.9:         jem            goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2863083">LG Optimus G (Canadian):     e973           ShorelineDroid</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2668112">Lg G Pad:                   v500           darkassain</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2500030">LG G2:                      d800           gerrett84</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669063">Lg G2:                      d801           goldflame09</a>
