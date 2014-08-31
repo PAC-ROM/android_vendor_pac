@@ -6,7 +6,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh \
+    vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
