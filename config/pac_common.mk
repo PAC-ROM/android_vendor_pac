@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg \
+    vendor/pac/prebuilt/common/etc/init.d.cfg:data/local/init.d.cfg \
     vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
     vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \

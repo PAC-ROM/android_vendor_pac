@@ -20,14 +20,14 @@
 
 DIR="/data/PACLogs";
 LOG="$DIR/tweaks.log";
-cfg_file="/system/etc/init.d.cfg";
+cfg_file="/data/local/init.d.cfg";
 script_helpers="/system/etc/helpers.sh";
 
 . $script_helpers;
 
 # Fix Permission of cfg_file on boot
-busybox chmod 777 $cfg_file;
-busybox chmod 777 $script_helpers;
+busybox chmod 644 $cfg_file;
+busybox chmod 644 $script_helpers;
 
 # Check if the folder exists
 if [ ! -e $DIR ]; then
