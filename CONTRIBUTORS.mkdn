@@ -172,6 +172,7 @@ LG:
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
+* __Optimus G  (e973) :__ ShoreDroid
 * __Optimus G Pro (e980) :__ machinistsWIP
 
 Motorola:
