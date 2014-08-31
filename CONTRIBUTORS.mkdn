@@ -186,7 +186,7 @@ LG:
 * __Optimus L9 (p760) :__ OPEN
 * __Optimus One (p500) :__ OPEN
 * __Optimus G (e970) :__ OPEN
-* __Optimus G (e973) :__ OPEN
+* __Optimus G (e973) :__ ShoreDroid
 * __Optimus G (e975) :__ OPEN
 * __Optimus G Pro (e980) :__ machinistsWIP
 * __Optimus G (ls970) (Sprint):__ OPEN
