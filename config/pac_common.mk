@@ -108,6 +108,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.version=$(PAC_VERSION) \
     ro.pacstats.tframe=1
 
+# Enable 2-way call recording in supported countries
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.call_recording.src=4
+
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
     ADDITIONAL_DEFAULT_PROPERTIES += \
