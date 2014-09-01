@@ -98,6 +98,7 @@ else
     DATE=date
 fi
 
+export USE_PREBUILT_CHROMIUM=1
 export USE_CCACHE=1
 
 opt_adb=0
