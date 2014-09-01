@@ -46,7 +46,6 @@
   <device name="m8"/>
   <!-- <device name="maguro"/> -->
   <!-- <device name="mako"/> -->
-  <device name="manta"/>
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="moto_msm8960dt"/>
