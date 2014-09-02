@@ -36,7 +36,7 @@
   <!-- <device name="i605"/> -->
   <!-- <device name="i9100"/> -->
   <!-- <device name="i9100g"/> -->
-  <!-- <device name="i9300"/> -->
+  <device name="i9300"/>
   <device name="i9305"/>
   <device name="i9500"/>
   <!-- <device name="jem"/> -->

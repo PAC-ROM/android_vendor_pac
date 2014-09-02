@@ -35,7 +35,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2790368">Galaxy S II Plus:           s2ve/s2vep     LuK1337</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2015607">Galaxy S III (AT&T):        d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (Cricket):     d2lte          Papa Smurf151</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2400382">Galaxy S III (GSM):         i9300          wedgess</a>
+<a href="http://forum.xda-developers.com/showpost.php?p=50779334"> Galaxy S III (GSM):         i9300          wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2361286">Galaxy S III (LTE):         i9305          MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351024">Galaxy S III (Metro PCS):   d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2032843">Galaxy S III (Sprint):      d2lte          Papa Smurf151</a>
@@ -76,7 +76,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                     falcon         Wechy77, herna</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                    hammerhead     my95z34, zyonee</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 (2012):             grouper            iurnait</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 (2012):             grouper        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 LTE (2013):         deb            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo         berni987654321</a>
