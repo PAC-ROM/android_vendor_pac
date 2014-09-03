@@ -1,0 +1,50 @@
+[
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_device_lge_p500",
+        "target_path":  "device/lge/p500",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_device_lge_msm7x27-common",
+        "target_path":  "device/lge/msm7x27-common",
+        "revision":     "pac-4.4"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_kernel_lge_msm7x27-3.0.x",
+        "target_path":  "kernel/lge/msm7x27-3.0.x",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_device_qcom_msm7x27",
+        "target_path":  "device/qcom/msm7x27",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_vendor_qcom_msm7x27",
+        "target_path":  "vendor/qcom/msm7x27",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_device_mdpi-common",
+        "target_path":  "device/mdpi-common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "androidarmv6",
+        "repository":   "android_vendor_google",
+        "target_path":  "vendor/google",
+        "revision":     "cm-11.0"
+    }
+]

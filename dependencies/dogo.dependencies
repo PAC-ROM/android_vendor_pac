@@ -1,0 +1,44 @@
+[
+  {
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_dogo",
+    "target_path": "device/sony/dogo",
+    "revision": "cm-11.0"
+  },
+  {
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_common",
+    "target_path": "device/sony/common",
+    "revision": "cm-11.0"
+  },
+  {
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_qcom-common",
+    "target_path": "device/sony/qcom-common",
+    "revision": "cm-11.0"
+ },
+ {
+    "account": "CyanogenMod",
+    "repository": "android_device_sony_fusion3-common",
+    "target_path": "device/sony/fusion3-common",
+    "revision": "cm-11.0"
+ },
+ {
+    "account": "CyanogenMod",
+    "repository": "android_kernel_sony_apq8064",
+    "target_path": "kernel/sony/apq8064",
+    "revision": "cm-11.0"
+ },
+ {
+    "account": "CyanogenMod",
+    "repository": "android_hardware_sony_DASH",
+    "target_path": "hardware/sony/DASH",
+    "revision": "cm-11.0"
+  },
+  {
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "cm-11.0"
+  }
+]

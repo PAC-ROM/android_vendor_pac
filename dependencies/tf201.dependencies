@@ -1,0 +1,20 @@
+[
+   {
+      "account": "namidairo",
+      "repository":  "android_device_asus_tf201",
+      "target_path":  "device/asus/tf201",
+      "revision":  "cm-11.0"
+   },
+   {
+      "account": "namidairo",
+      "repository": "android_kernel_asus_tf201",
+      "target_path": "kernel/asus/tf201",
+      "revision": "cm-11.0"
+   },
+   {
+      "account": "Pinky-Inky-and-Clyde",
+      "repository": "proprietary_vendor_asus",
+      "target_path": "vendor/asus",
+      "revision": "cm-11.0"
+   }
+]
