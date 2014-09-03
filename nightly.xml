@@ -31,7 +31,7 @@
   <!-- <device name="flo"/> -->
   <device name="grouper"/>
   <device name="hammerhead"/>
-  <!-- <device name="hlte"/> -->
+  <device name="hlte"/>
   <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
