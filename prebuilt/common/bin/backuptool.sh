@@ -97,8 +97,8 @@ case "$1" in
         fi
     fi
     check_blacklist system
-    preserve_addon_d
     xposed_backup
+    preserve_addon_d
     run_stage pre-backup
     run_stage backup
     run_stage post-backup
