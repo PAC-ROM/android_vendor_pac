@@ -1,0 +1,58 @@
+From 1da744ea4bac38f802240881b2f319a46de22923 Mon Sep 17 00:00:00 2001
+From: bagyusz <phelyx92@gmail.com>
+Date: Sun, 27 Apr 2014 01:39:07 +0200
+Subject: [PATCH] [REVERT] mm-video: venc: Correct a typo in variable name A
+ kernel variable was to be defined as unsigned long but it is mistakenly
+ defined as unsigned only, the space is missing after long. This bug is silent
+ because unsigned is also a valid data type by itself. Corresponding to kernel
+ fix, similar correction is done in userspace code.
+
+Change-Id: Ie58f275149dc9c85553f75e02594113b1a03ddcf
+CRs-fixed: 556771
+---
+ mm-video/vidc/venc/src/video_encoder_device.cpp | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/mm-video/vidc/venc/src/video_encoder_device.cpp b/mm-video/vidc/venc/src/video_encoder_device.cpp
+index a9451cd..359ab96 100644
+--- a/mm-video/vidc/venc/src/video_encoder_device.cpp
++++ b/mm-video/vidc/venc/src/video_encoder_device.cpp
+@@ -1617,7 +1617,7 @@ void venc_dev::venc_config_print()
+                    multislice.mslice_size);
+
+   DEBUG_PRINT_HIGH("\nENC_CONFIG: EntropyMode: %d, CabacModel: %d",
+-                   entropy.entropysel, entropy.cabacmodel);
++                   entropy.longentropysel, entropy.cabacmodel);
+
+   DEBUG_PRINT_HIGH("\nENC_CONFIG: DB-Mode: %d, alpha: %d, Beta: %d\n",
+                    dbkfilter.db_mode, dbkfilter.slicealpha_offset,
+@@ -2451,7 +2451,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
+   DEBUG_PRINT_LOW("\n venc_set_entropy_config: CABAC = %u level: %u", enable, i_cabac_level);
+
+   if(enable &&(codec_profile.profile != VEN_PROFILE_H264_BASELINE)){
+-    entropy_cfg.entropysel = VEN_ENTROPY_MODEL_CABAC;
++    entropy_cfg.longentropysel = VEN_ENTROPY_MODEL_CABAC;
+       if (i_cabac_level == 0) {
+          entropy_cfg.cabacmodel = VEN_CABAC_MODEL_0;
+       }
+@@ -2471,7 +2471,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
+ #endif
+   }
+   else if(!enable){
+-    entropy_cfg.entropysel = VEN_ENTROPY_MODEL_CAVLC;
++    entropy_cfg.longentropysel = VEN_ENTROPY_MODEL_CAVLC;
+     }
+   else{
+     DEBUG_PRINT_ERROR("\nInvalid Entropy mode for Baseline Profile");
+@@ -2485,7 +2485,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
+     DEBUG_PRINT_ERROR("\nERROR: Request for setting entropy config failed");
+     return false;
+   }
+-  entropy.entropysel = entropy_cfg.entropysel;
++  entropy.longentropysel = entropy_cfg.longentropysel;
+   entropy.cabacmodel  = entropy_cfg.cabacmodel;
+   return true;
+ }
+--
+1.8.1.2
+
