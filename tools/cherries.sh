@@ -148,8 +148,6 @@ case $device in
         #cherries+=(1165_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     janice | codina)
-        # Swap Storages
-        cherries+=(56515_CM)
     ;;
     janice)
         # fix default colors for janice
@@ -160,6 +158,8 @@ case $device in
         PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
+        # DownloadProvider: allow non-removable secondary storage
+        cherries+=(72425_CM)
     ;;
 
 esac
