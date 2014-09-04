@@ -1,0 +1,77 @@
+From bbaad51dadefb1535e78a2c4b6a23b6b2da314ee Mon Sep 17 00:00:00 2001
+From: bagyusz <phelyx92@gmail.com>
+Date: Sat, 29 Mar 2014 06:33:45 +0100
+Subject: [PATCH] 12.1.A.0.266-kernel-some-folders-can-not-be-used
+
+Change-Id: I250e2986c0de4c11e5dbc94129cd1e87f2083e41
+---
+ power/Android.mk |  5 -----
+ power/power.c    | 13 +------------
+ 2 files changed, 1 insertion(+), 17 deletions(-)
+
+diff --git a/power/Android.mk b/power/Android.mk
+index 40c8657..2fe7bfb 100644
+--- a/power/Android.mk
++++ b/power/Android.mk
+@@ -29,11 +29,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
+ LOCAL_SHARED_LIBRARIES := liblog libcutils
+ LOCAL_SRC_FILES := power.c
+ 
+-ifneq ($(TARGET_POWERHAL_SET_INTERACTIVE_EXT),)
+-LOCAL_CFLAGS += -DSET_INTERACTIVE_EXT
+-LOCAL_SRC_FILES += ../../../$(TARGET_POWERHAL_SET_INTERACTIVE_EXT)
+-endif
+-
+ ifeq ($(CM_POWERHAL_EXTENSION),)
+ LOCAL_MODULE := power.$(TARGET_BOARD_PLATFORM)
+ else
+diff --git a/power/power.c b/power/power.c
+index c347f5c..2101b73 100644
+--- a/power/power.c
++++ b/power/power.c
+@@ -29,7 +29,6 @@
+ #define SCALING_GOVERNOR_PATH "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
+ #define BOOSTPULSE_ONDEMAND "/sys/devices/system/cpu/cpufreq/ondemand/boostpulse"
+ #define BOOSTPULSE_INTERACTIVE "/sys/devices/system/cpu/cpufreq/interactive/boostpulse"
+-#define NOTIFY_ON_MIGRATE "/dev/cpuctl/apps/cpu.notify_on_migrate"
+ 
+ struct cm_power_module {
+     struct power_module base;
+@@ -106,16 +105,9 @@ static int get_scaling_governor() {
+     return 0;
+ }
+ 
+-#ifdef SET_INTERACTIVE_EXT
+-extern void cm_power_set_interactive_ext(int on);
+-#endif
+-
+ static void cm_power_set_interactive(struct power_module *module, int on)
+ {
+-    sysfs_write(NOTIFY_ON_MIGRATE, on ? "1" : "0");
+-#ifdef SET_INTERACTIVE_EXT
+-    cm_power_set_interactive_ext(on);
+-#endif
++    return;
+ }
+ 
+ 
+@@ -129,16 +121,13 @@ static void configure_governor()
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor", "2");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential", "10");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_multi_core", "70");
+-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential_multi_core", "3");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/optimal_freq", "918000");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sync_freq", "1026000");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_any_cpu_load", "80");
+-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/input_boost", "1134000");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_rate", "50000");
+ 
+     } else if (strncmp(governor, "interactive", 11) == 0) {
+         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/min_sample_time", "90000");
+-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/io_is_busy", "1");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq", "1134000");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay", "30000");
+         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/timer_rate", "30000");
+-- 
+1.8.1.2
+
