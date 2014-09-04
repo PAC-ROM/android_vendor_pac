@@ -1,0 +1,424 @@
+From ec77e1c5b8915383f398c2fbd08c49feeaffc830 Mon Sep 17 00:00:00 2001
+From: neXusPRIME <yasir.elec@gmail.com>
+Date: Thu, 4 Sep 2014 12:45:20 +0500
+Subject: [PATCH] Add PAC Official Support for Xperia SP
+
+Change-Id: I641812eb5df2b72e2758a9702d04364e4e3a74d6
+---
+ CONTRIBUTORS.mkdn                                  |   1 +
+ dependencies/huashan.dependencies                  |  38 +++++++
+ nightly.xml                                        |   1 +
+ products/pac_huashan.mk                            |  21 ++++
+ tools/cherries.sh                                  |  14 +++
+ ...lay-Add-support-for-interleaved-YUY2-and-.patch | 113 +++++++++++++++++++++
+ ...ideo-venc-Correct-a-typo-in-variable-name.patch |  58 +++++++++++
+ .../kernel-some-folders-can-not-be-used.patch      |  77 ++++++++++++++
+ vendorsetup.sh                                     |   1 +
+ 9 files changed, 324 insertions(+)
+ create mode 100644 dependencies/huashan.dependencies
+ create mode 100644 products/pac_huashan.mk
+ create mode 100644 tools/patches/0001-REVERT-display-Add-support-for-interleaved-YUY2-and-.patch
+ create mode 100644 tools/patches/0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name.patch
+ create mode 100644 tools/patches/kernel-some-folders-can-not-be-used.patch
+
+diff --git a/CONTRIBUTORS.mkdn b/CONTRIBUTORS.mkdn
+index a63c0ed..38bdca7 100644
+--- a/CONTRIBUTORS.mkdn
++++ b/CONTRIBUTORS.mkdn
+@@ -263,6 +263,7 @@ Sony:
+ ---------------------------------------------------------------------
+ * __Xperia L (taoshan) :__ Olivier
+ * __Xperia M (nicki) :__ Abhinav1997
++* __Xperia SP (huashan) :__ neXusPRIME
+ * __Xperia T (mint) :__ Abhinav1997
+ * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
+ * __Xperia Tablet Z (pollux_windy) :__ bluefa1con
+diff --git a/dependencies/huashan.dependencies b/dependencies/huashan.dependencies
+new file mode 100644
+index 0000000..fbf8176
+--- /dev/null
++++ b/dependencies/huashan.dependencies
+@@ -0,0 +1,38 @@
++[
++  {
++    "account":     "neXusPRIME",
++    "repository":  "android_device_sony_huashan",
++    "target_path": "device/sony/huashan",
++    "revision":    "pacman"
++  },
++  {
++    "account":     "CyanogenMod",
++    "repository":  "android_device_sony_qcom-common",
++    "target_path": "device/sony/qcom-common",
++    "revision":    "cm-11.0"
++  },
++  {
++    "account":     "DooMLoRD",
++    "repository":  "android_kernel_sony_msm8974",
++    "target_path": "kernel/sony/msm8960t",
++    "revision":    "sony_sources"
++  },
++  {
++    "account":     "CyanogenMod",
++    "repository":  "android_device_sony_common",
++    "target_path": "device/sony/common",
++    "revision":    "cm-11.0"
++  },
++  {
++    "account":     "CyanogenMod",
++    "repository":  "android_hardware_sony_DASH",
++    "target_path": "hardware/sony/DASH",
++    "revision":    "cm-11.0"
++  },
++  {
++    "account":     "neXusPRIME",
++    "repository":  "android_vendor_sony",
++    "target_path": "vendor/sony",
++    "revision":    "master"
++  }
++]
+diff --git a/nightly.xml b/nightly.xml
+index 659db9c..2905bb2 100644
+--- a/nightly.xml
++++ b/nightly.xml
+@@ -61,6 +61,7 @@
+   <device name="p5110"/>
+   <!-- <device name="r950"/> -->
+   <device name="ruby"/>
++  <device name="huashan"/>
+   <!-- <device name="t0lte"/> -->
+   <!-- <device name="t0lteatt"/> -->
+   <!-- <device name="t0ltetmo"/> -->
+diff --git a/products/pac_huashan.mk b/products/pac_huashan.mk
+new file mode 100644
+index 0000000..a2a96ff
+--- /dev/null
++++ b/products/pac_huashan.mk
+@@ -0,0 +1,21 @@
++# Check for target product
++ifeq (pac_huashan,$(TARGET_PRODUCT))
++
++# PAC boot logo
++PRODUCT_COPY_FILES += \
++    vendor/pac/prebuilt/common/bootlogo/pac_logo_720x1280.rle:root/logo.rle
++
++# Copy bootanimation
++PRODUCT_COPY_FILES += \
++    vendor/pac/prebuilt/720x1280/bootanimation.zip:system/media/bootanimation.zip
++
++# include PAC common configuration
++include vendor/pac/config/pac_common.mk
++
++# Inherit CM device configuration
++$(call inherit-product, device/sony/huashan/cm.mk)
++
++PRODUCT_NAME := pac_huashan
++DEVICE_RESOLUTION := 720x1280
++
++endif
+diff --git a/tools/cherries.sh b/tools/cherries.sh
+index d48a973..22c800e 100755
+--- a/tools/cherries.sh
++++ b/tools/cherries.sh
+@@ -161,6 +161,20 @@ case $device in
+         FOLDER=packages/apps/Bluetooth
+         patch_it #add this function call for each patch
+     ;;
++    huashan)
++        # kernel-some-folders-can-not-be-used
++        PATCH=kernel-some-folders-can-not-be-used
++        FOLDER=hardware/cm
++        patch_it #add this function call for each patch
++        # display-Add-support-for-interleaved-YUY2
++        PATCH=0001-REVERT-display-Add-support-for-interleaved-YUY2
++        FOLDER=hardware/qcom/display-caf
++        patch_it #add this function call for each patch
++        # mm-video-venc-Correct-a-typo-in-variable-name
++        PATCH=0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name
++        FOLDER=hardware/qcom/media-caf
++        patch_it #add this function call for each patch
++    ;;
+ 
+ esac
+ 
+diff --git a/tools/patches/0001-REVERT-display-Add-support-for-interleaved-YUY2-and-.patch b/tools/patches/0001-REVERT-display-Add-support-for-interleaved-YUY2-and-.patch
+new file mode 100644
+index 0000000..9a84129
+--- /dev/null
++++ b/tools/patches/0001-REVERT-display-Add-support-for-interleaved-YUY2-and-.patch
+@@ -0,0 +1,113 @@
++From 12f9ad5d591416405f0f75697c4efc954a75e81a Mon Sep 17 00:00:00 2001
++From: bagyusz <phelyx92@gmail.com>
++Date: Thu, 24 Apr 2014 20:18:27 +0200
++Subject: [PATCH] [REVERT]:"display: Add support for interleaved YUY2 and YUYV
++ format. Add support for interleaved HAL_PIXEL_FORMAT_YCbCr_422_I and
++ HAL_PIXEL_FORMAT_YCrCb_422_I format in display HAL.
++
++Change-Id: Ib87d9bf481c20bf6a92293dd04746719b1d928c1"
++---
++ libcopybit/copybit.cpp          | 2 --
++ libgralloc/alloc_controller.cpp | 4 ----
++ libgralloc/gralloc_priv.h       | 1 -
++ liboverlay/overlayUtils.cpp     | 8 --------
++ liboverlay/overlayUtils.h       | 3 ---
++ 5 files changed, 18 deletions(-)
++
++diff --git a/libcopybit/copybit.cpp b/libcopybit/copybit.cpp
++index 905b162..ca4a08c 100644
++--- a/libcopybit/copybit.cpp
+++++ b/libcopybit/copybit.cpp
++@@ -127,8 +127,6 @@ static int get_format(int format) {
++         case HAL_PIXEL_FORMAT_RGB_888:       return MDP_RGB_888;
++         case HAL_PIXEL_FORMAT_RGBA_8888:     return MDP_RGBA_8888;
++         case HAL_PIXEL_FORMAT_BGRA_8888:     return MDP_BGRA_8888;
++-        case HAL_PIXEL_FORMAT_YCrCb_422_I:   return MDP_YCRYCB_H2V1;
++-        case HAL_PIXEL_FORMAT_YCbCr_422_I:   return MDP_YCBYCR_H2V1;
++         case HAL_PIXEL_FORMAT_YCrCb_422_SP:  return MDP_Y_CRCB_H2V1;
++         case HAL_PIXEL_FORMAT_YCrCb_420_SP:  return MDP_Y_CRCB_H2V2;
++         case HAL_PIXEL_FORMAT_YCbCr_422_SP:  return MDP_Y_CBCR_H2V1;
++diff --git a/libgralloc/alloc_controller.cpp b/libgralloc/alloc_controller.cpp
++index 46f6f9b..d995dfb 100644
++--- a/libgralloc/alloc_controller.cpp
+++++ b/libgralloc/alloc_controller.cpp
++@@ -146,8 +146,6 @@ int AdrenoMemInfo::getStride(int width, int format)
++             case HAL_PIXEL_FORMAT_YV12:
++             case HAL_PIXEL_FORMAT_YCbCr_422_SP:
++             case HAL_PIXEL_FORMAT_YCrCb_422_SP:
++-            case HAL_PIXEL_FORMAT_YCbCr_422_I:
++-            case HAL_PIXEL_FORMAT_YCrCb_422_I:
++                 stride = ALIGN(width, 16);
++                 break;
++             case HAL_PIXEL_FORMAT_YCbCr_420_SP_VENUS:
++@@ -357,8 +355,6 @@ size_t getBufferSizeAndDimensions(int width, int height, int format,
++             break;
++         case HAL_PIXEL_FORMAT_YCbCr_422_SP:
++         case HAL_PIXEL_FORMAT_YCrCb_422_SP:
++-        case HAL_PIXEL_FORMAT_YCbCr_422_I:
++-        case HAL_PIXEL_FORMAT_YCrCb_422_I:
++             if(width & 1) {
++                 ALOGE("width is odd for the YUV422_SP format");
++                 return -EINVAL;
++diff --git a/libgralloc/gralloc_priv.h b/libgralloc/gralloc_priv.h
++index 58fc898..7d3f983 100644
++--- a/libgralloc/gralloc_priv.h
+++++ b/libgralloc/gralloc_priv.h
++@@ -104,7 +104,6 @@ enum {
++     HAL_PIXEL_FORMAT_RG_88                  = 0x10E,
++     HAL_PIXEL_FORMAT_YCbCr_444_SP           = 0x10F,
++     HAL_PIXEL_FORMAT_YCrCb_444_SP           = 0x110,
++-    HAL_PIXEL_FORMAT_YCrCb_422_I            = 0x111,
++     HAL_PIXEL_FORMAT_NV21_ZSL               = 0x112,
++     HAL_PIXEL_FORMAT_INTERLACE              = 0x180,
++ 
++diff --git a/liboverlay/overlayUtils.cpp b/liboverlay/overlayUtils.cpp
++index 64a0bb6..af68cb9 100644
++--- a/liboverlay/overlayUtils.cpp
+++++ b/liboverlay/overlayUtils.cpp
++@@ -114,10 +114,6 @@ int getMdpFormat(int format) {
++             return MDP_Y_CBCR_H2V2;
++         case HAL_PIXEL_FORMAT_YCrCb_422_SP:
++             return MDP_Y_CRCB_H2V1;
++-        case HAL_PIXEL_FORMAT_YCbCr_422_I:
++-            return MDP_YCBYCR_H2V1;
++-        case HAL_PIXEL_FORMAT_YCrCb_422_I:
++-            return MDP_YCRYCB_H2V1;
++         case HAL_PIXEL_FORMAT_YCbCr_444_SP:
++             return MDP_Y_CBCR_H1V1;
++         case HAL_PIXEL_FORMAT_YCrCb_444_SP:
++@@ -170,10 +166,6 @@ int getHALFormat(int mdpFormat) {
++             return HAL_PIXEL_FORMAT_YCbCr_420_SP;
++         case MDP_Y_CRCB_H2V1:
++             return HAL_PIXEL_FORMAT_YCrCb_422_SP;
++-        case MDP_YCBYCR_H2V1:
++-            return HAL_PIXEL_FORMAT_YCbCr_422_I;
++-        case MDP_YCRYCB_H2V1:
++-            return HAL_PIXEL_FORMAT_YCrCb_422_I;
++          case MDP_Y_CBCR_H1V1:
++             return HAL_PIXEL_FORMAT_YCbCr_444_SP;
++         case MDP_Y_CRCB_H1V1:
++diff --git a/liboverlay/overlayUtils.h b/liboverlay/overlayUtils.h
++index 231887c..ad4dd87 100644
++--- a/liboverlay/overlayUtils.h
+++++ b/liboverlay/overlayUtils.h
++@@ -483,8 +483,6 @@ inline bool isYuv(uint32_t format) {
++         case MDP_Y_CR_CB_H2V2:
++         case MDP_Y_CR_CB_GH2V2:
++         case MDP_Y_CBCR_H2V2_VENUS:
++-        case MDP_YCBYCR_H2V1:
++-        case MDP_YCRYCB_H2V1:
++             return true;
++         default:
++             return false;
++@@ -514,7 +512,6 @@ inline const char* getFormatString(int format){
++         "MDP_ARGB_8888",
++         "MDP_RGB_888",
++         "MDP_Y_CRCB_H2V2",
++-        "MDP_YCBYCR_H2V1",
++         "MDP_YCRYCB_H2V1",
++         "MDP_Y_CRCB_H2V1",
++         "MDP_Y_CBCR_H2V1",
++-- 
++1.8.1.2
++
+diff --git a/tools/patches/0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name.patch b/tools/patches/0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name.patch
+new file mode 100644
+index 0000000..67edbc7
+--- /dev/null
++++ b/tools/patches/0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name.patch
+@@ -0,0 +1,58 @@
++From 1da744ea4bac38f802240881b2f319a46de22923 Mon Sep 17 00:00:00 2001
++From: bagyusz <phelyx92@gmail.com>
++Date: Sun, 27 Apr 2014 01:39:07 +0200
++Subject: [PATCH] [REVERT] mm-video: venc: Correct a typo in variable name A
++ kernel variable was to be defined as unsigned long but it is mistakenly
++ defined as unsigned only, the space is missing after long. This bug is silent
++ because unsigned is also a valid data type by itself. Corresponding to kernel
++ fix, similar correction is done in userspace code.
++
++Change-Id: Ie58f275149dc9c85553f75e02594113b1a03ddcf
++CRs-fixed: 556771
++---
++ mm-video/vidc/venc/src/video_encoder_device.cpp | 8 ++++----
++ 1 file changed, 4 insertions(+), 4 deletions(-)
++
++diff --git a/mm-video/vidc/venc/src/video_encoder_device.cpp b/mm-video/vidc/venc/src/video_encoder_device.cpp
++index a9451cd..359ab96 100644
++--- a/mm-video/vidc/venc/src/video_encoder_device.cpp
+++++ b/mm-video/vidc/venc/src/video_encoder_device.cpp
++@@ -1617,7 +1617,7 @@ void venc_dev::venc_config_print()
++                    multislice.mslice_size);
++ 
++   DEBUG_PRINT_HIGH("\nENC_CONFIG: EntropyMode: %d, CabacModel: %d",
++-                   entropy.entropysel, entropy.cabacmodel);
+++                   entropy.longentropysel, entropy.cabacmodel);
++ 
++   DEBUG_PRINT_HIGH("\nENC_CONFIG: DB-Mode: %d, alpha: %d, Beta: %d\n",
++                    dbkfilter.db_mode, dbkfilter.slicealpha_offset,
++@@ -2451,7 +2451,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
++   DEBUG_PRINT_LOW("\n venc_set_entropy_config: CABAC = %u level: %u", enable, i_cabac_level);
++ 
++   if(enable &&(codec_profile.profile != VEN_PROFILE_H264_BASELINE)){
++-    entropy_cfg.entropysel = VEN_ENTROPY_MODEL_CABAC;
+++    entropy_cfg.longentropysel = VEN_ENTROPY_MODEL_CABAC;
++       if (i_cabac_level == 0) {
++          entropy_cfg.cabacmodel = VEN_CABAC_MODEL_0;
++       }
++@@ -2471,7 +2471,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
++ #endif
++   }
++   else if(!enable){
++-    entropy_cfg.entropysel = VEN_ENTROPY_MODEL_CAVLC;
+++    entropy_cfg.longentropysel = VEN_ENTROPY_MODEL_CAVLC;
++     }
++   else{
++     DEBUG_PRINT_ERROR("\nInvalid Entropy mode for Baseline Profile");
++@@ -2485,7 +2485,7 @@ bool venc_dev::venc_set_entropy_config(OMX_BOOL enable, OMX_U32 i_cabac_level)
++     DEBUG_PRINT_ERROR("\nERROR: Request for setting entropy config failed");
++     return false;
++   }
++-  entropy.entropysel = entropy_cfg.entropysel;
+++  entropy.longentropysel = entropy_cfg.longentropysel;
++   entropy.cabacmodel  = entropy_cfg.cabacmodel;
++   return true;
++ }
++-- 
++1.8.1.2
++
+diff --git a/tools/patches/kernel-some-folders-can-not-be-used.patch b/tools/patches/kernel-some-folders-can-not-be-used.patch
+new file mode 100644
+index 0000000..133efde
+--- /dev/null
++++ b/tools/patches/kernel-some-folders-can-not-be-used.patch
+@@ -0,0 +1,77 @@
++From bbaad51dadefb1535e78a2c4b6a23b6b2da314ee Mon Sep 17 00:00:00 2001
++From: bagyusz <phelyx92@gmail.com>
++Date: Sat, 29 Mar 2014 06:33:45 +0100
++Subject: [PATCH] 12.1.A.0.266-kernel-some-folders-can-not-be-used
++
++Change-Id: I250e2986c0de4c11e5dbc94129cd1e87f2083e41
++---
++ power/Android.mk |  5 -----
++ power/power.c    | 13 +------------
++ 2 files changed, 1 insertion(+), 17 deletions(-)
++
++diff --git a/power/Android.mk b/power/Android.mk
++index 40c8657..2fe7bfb 100644
++--- a/power/Android.mk
+++++ b/power/Android.mk
++@@ -29,11 +29,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
++ LOCAL_SHARED_LIBRARIES := liblog libcutils
++ LOCAL_SRC_FILES := power.c
++ 
++-ifneq ($(TARGET_POWERHAL_SET_INTERACTIVE_EXT),)
++-LOCAL_CFLAGS += -DSET_INTERACTIVE_EXT
++-LOCAL_SRC_FILES += ../../../$(TARGET_POWERHAL_SET_INTERACTIVE_EXT)
++-endif
++-
++ ifeq ($(CM_POWERHAL_EXTENSION),)
++ LOCAL_MODULE := power.$(TARGET_BOARD_PLATFORM)
++ else
++diff --git a/power/power.c b/power/power.c
++index c347f5c..2101b73 100644
++--- a/power/power.c
+++++ b/power/power.c
++@@ -29,7 +29,6 @@
++ #define SCALING_GOVERNOR_PATH "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
++ #define BOOSTPULSE_ONDEMAND "/sys/devices/system/cpu/cpufreq/ondemand/boostpulse"
++ #define BOOSTPULSE_INTERACTIVE "/sys/devices/system/cpu/cpufreq/interactive/boostpulse"
++-#define NOTIFY_ON_MIGRATE "/dev/cpuctl/apps/cpu.notify_on_migrate"
++ 
++ struct cm_power_module {
++     struct power_module base;
++@@ -106,16 +105,9 @@ static int get_scaling_governor() {
++     return 0;
++ }
++ 
++-#ifdef SET_INTERACTIVE_EXT
++-extern void cm_power_set_interactive_ext(int on);
++-#endif
++-
++ static void cm_power_set_interactive(struct power_module *module, int on)
++ {
++-    sysfs_write(NOTIFY_ON_MIGRATE, on ? "1" : "0");
++-#ifdef SET_INTERACTIVE_EXT
++-    cm_power_set_interactive_ext(on);
++-#endif
+++    return;
++ }
++ 
++ 
++@@ -129,16 +121,13 @@ static void configure_governor()
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor", "2");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential", "10");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_multi_core", "70");
++-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/down_differential_multi_core", "3");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/optimal_freq", "918000");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sync_freq", "1026000");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/up_threshold_any_cpu_load", "80");
++-        sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/input_boost", "1134000");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/ondemand/sampling_rate", "50000");
++ 
++     } else if (strncmp(governor, "interactive", 11) == 0) {
++         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/min_sample_time", "90000");
++-        sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/io_is_busy", "1");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/hispeed_freq", "1134000");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay", "30000");
++         sysfs_write("/sys/devices/system/cpu/cpufreq/interactive/timer_rate", "30000");
++-- 
++1.8.1.2
++
+diff --git a/vendorsetup.sh b/vendorsetup.sh
+index a453319..bfef503 100644
+--- a/vendorsetup.sh
++++ b/vendorsetup.sh
+@@ -108,6 +108,7 @@ add_lunch_combo pac_ypg1-userdebug
+ # Sony
+ add_lunch_combo pac_amami-userdebug
+ add_lunch_combo pac_honami-userdebug
++add_lunch_combo pac_huashan-userdebug
+ add_lunch_combo pac_mint-userdebug
+ add_lunch_combo pac_nicki-userdebug
+ add_lunch_combo pac_pollux-userdebug
+-- 
+1.9.1
+
