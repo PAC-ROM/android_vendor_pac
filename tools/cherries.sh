@@ -160,6 +160,8 @@ case $device in
         PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
+        # DownloadProvider: allow non-removable secondary storage
+        cherries+=(72425_CM)
     ;;
 
 esac
