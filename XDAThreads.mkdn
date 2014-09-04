@@ -68,6 +68,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2669074">Lg G2:                      ls980          goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2542006">LG G2 (Verizon):            vs980          tucstwo</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2863083">LG Optimus G (Canadian):    e973           ShorelineDroid</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2866844">LG Optimus G (Int.):    e975           ShorelineDroid</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2852984">LG Optimus G Pro (AT&T):    e980           machinistsWIP</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">LG Optimus L5:              e610           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">LG Optimus L7:              p700           aidasaidas75</a>

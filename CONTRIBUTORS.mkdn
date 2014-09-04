@@ -173,6 +173,7 @@ LG:
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
 * __Optimus G  (e973) :__ ShoreDroid
+* __Optimus G  (e975) :__ ShoreDroid
 * __Optimus G Pro (e980) :__ machinistsWIP
 
 Motorola:
@@ -291,7 +292,7 @@ Xiaomi:
 
 
 
-Total Devices: 135
+Total Devices: 136
 
 Best regards
     szl.kiev
