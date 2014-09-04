@@ -16,9 +16,9 @@ ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
 endif
 
 # Screen recorder
-#PRODUCT_PACKAGES += \
-#    libscreenrecorder \
-#    ScreenRecorder
+PRODUCT_PACKAGES += \
+    libscreenrecorder \
+    ScreenRecorder
 
 # init.d support
 PRODUCT_COPY_FILES += \
