@@ -61,6 +61,7 @@
   <device name="p5110"/>
   <!-- <device name="r950"/> -->
   <device name="ruby"/>
+  <device name="huashan"/>
   <!-- <device name="t0lte"/> -->
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->

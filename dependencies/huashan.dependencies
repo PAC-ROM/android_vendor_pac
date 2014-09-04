@@ -1,0 +1,38 @@
+[
+  {
+    "account":     "neXusPRIME",
+    "repository":  "android_device_sony_huashan",
+    "target_path": "device/sony/huashan",
+    "revision":    "pacman"
+  },
+  {
+    "account":     "CyanogenMod",
+    "repository":  "android_device_sony_qcom-common",
+    "target_path": "device/sony/qcom-common",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":     "DooMLoRD",
+    "repository":  "android_kernel_sony_msm8960t",
+    "target_path": "kernel/sony/msm8960t",
+    "revision":    "sony_sources"
+  },
+  {
+    "account":     "CyanogenMod",
+    "repository":  "android_device_sony_common",
+    "target_path": "device/sony/common",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":     "CyanogenMod",
+    "repository":  "android_hardware_sony_DASH",
+    "target_path": "hardware/sony/DASH",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":     "neXusPRIME",
+    "repository":  "android_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision":    "master"
+  }
+]
