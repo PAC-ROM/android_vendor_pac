@@ -18,7 +18,7 @@
  =====================================================================
 '
 
-. /system/etc/init.d.cfg
+. /data/local/init.d.cfg
 
 if $clear_data_cache; then
     busybox chmod 000 /data/anr/;
