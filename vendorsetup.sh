@@ -51,10 +51,8 @@ add_lunch_combo pac_d801-userdebug
 add_lunch_combo pac_d802-userdebug
 add_lunch_combo pac_d803-userdebug
 add_lunch_combo pac_e973-userdebug
-<<<<<<< HEAD
 =======
 add_lunch_combo pac_e975-userdebug
->>>>>>> parent of f688ef3... Cleanup: Part 4
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_ls970-userdebug
 add_lunch_combo pac_ls980-userdebug
