@@ -15,6 +15,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="a510"/>
   <!-- <device name="acclaim"/> -->
   <!-- <device name="apexqtmo"/> -->
   <device name="amami"/>
@@ -22,22 +23,24 @@
   <device name="d2lte"/>
   <!-- <device name="d801"/> -->
   <!-- <device name="deb"/> -->
+  <device name="e973"/>
   <device name="e980"/>
   <device name="evita"/>
   <device name="expressatt"/>
   <!-- <device name="find5"/> -->
   <!-- <device name="flo"/> -->
   <device name="glacier"/>
+  <device name="grouper"/>
   <device name="hammerhead"/>
-  <!-- <device name="hlte"/> -->
+  <device name="hlte"/>
   <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
   <!-- <device name="i9100"/> -->
   <!-- <device name="i9100g"/> -->
-  <!-- <device name="i9300"/> -->
+  <device name="i9300"/>
   <device name="i9305"/>
-  <!-- <device name="i9500"/> -->
+  <device name="i9500"/>
   <!-- <device name="jem"/> -->
   <device name="jflte"/>
   <!-- <device name="l900"/> -->
@@ -47,7 +50,6 @@
   <device name="m8"/>
   <!-- <device name="maguro"/> -->
   <!-- <device name="mako"/> -->
-  <device name="manta"/>
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="moto_msm8960dt"/>

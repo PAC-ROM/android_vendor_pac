@@ -1,7 +1,7 @@
 #!/sbin/sh
 #
-# /system/addon.d/50-cm.sh
-# During a ROM upgrade, this script backs up /system/etc/hosts,
+# /system/addon.d/50-backup-script.sh
+# During a ROM upgrade, this script backs up /system/etc/hosts and /system/etc/init.d.cfg,
 # /system is formatted and reinstalled, then the file is restored.
 #
 
@@ -10,17 +10,8 @@
 list_files() {
 cat <<EOF
 etc/hosts
-etc/paranoid/properties.conf
-etc/init.d.cfg
+data/local/init.d.cfg
 EOF
-}
-
-check_prereq() {
-export V=  grep revision system/etc/paranoid/properties.conf | cut -c11
-if ( ! grep -q "^ro.papref.revision=$V" /system/build.prop ); then
-  echo "Not backing up files from incompatible version."
-  exit 127
-fi
 }
 
 case "$1" in

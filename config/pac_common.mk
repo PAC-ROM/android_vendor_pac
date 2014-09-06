@@ -6,20 +6,25 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh \
+    vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
+
 # Screen recorder
-#PRODUCT_PACKAGES += \
-#    libscreenrecorder \
-#    ScreenRecorder
+PRODUCT_PACKAGES += \
+    libscreenrecorder \
+    ScreenRecorder
 
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-    vendor/pac/prebuilt/common/etc/init.d.cfg:system/etc/init.d.cfg \
+    vendor/pac/prebuilt/common/etc/init.d.cfg:data/local/init.d.cfg \
     vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
     vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
