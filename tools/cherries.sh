@@ -2,7 +2,7 @@
 
 #Preamble: Some repos outside of PAC may have commits we need that take too
 #  long to be merged. Adding these cherry-picks here can automate the process
-#  and makes it possible to add them to the nightlies
+#  and makes it possible to add them to the weeklies but not the nightlies.
 #  currently supported gerrit accounts are:
 #    AOKP - Android Open Kang Project
 #    AOSP - Android Open Source Project
@@ -87,19 +87,45 @@ function patch_it {
   cd $BASEDIR
 }
 
-
 # Add device specific commits and patches here
 
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
+        # Apply IO scheduler settings to all storage devices
+        cherries+=(65599_CM)
         # libstagefright: Allow using camera recording buffer as input for encoder
         cherries+=(66213_CM)
         # libstagefright: Fix video encoder input buffer
         cherries+=(66214_CM)
-        # ti: Add interface_mtu request
-        cherries+=(69839_CM)
-        # Apply IO scheduler settings to all storage devices
-        cherries+=(65599_CM)
+        # Destroy client handles after they're closed
+        cherries+=(71199_CM)
+        # mm-core: Enable HW mp3 decoder for msm7x30
+        cherries+=(70946_CM)
+        # Camera2: Headset button shutter
+        cherries+=(72185_CM)
+        # Bluetooth : Handling case: close comes before rxthread
+        cherries+=(70334_CM)
+        # a2dp: disable music autoplay on connect based on settings
+        cherries+=(71674_CM)
+        # sensors: as3676: Allow disabling hardware ALS switch
+        PATCH=14-09-14_sensors-as3676-Allow-disabling-hardware-ALS-switch
+        FOLDER=hardware/sony/DASH
+        patch_it
+        ## move apps to SD patches
+        # Enable moving applications to an external volume
+        cherries+=(1736_PAC)
+        # Add app moving setting to the menu in Settings -> Apps
+        cherries+=(1730_PAC)
+        # Framework changes for moving applications to external volume
+        cherries+=(1741_PAC)
+        # frameworks: Add class for changing app moving
+        cherries+=(1742_PAC)
+        PATCH=20140915-vold-Allow-ASEC-containers-on-an-external-volume-whe
+        FOLDER=system/vold
+        patch_it
+        PATCH=20140915-msm7x30-enable-moving-apps-to-sdcard1
+        FOLDER=device/semc/msm7x30-common
+        patch_it
     ;;
     i9082)
         # OMX patch
@@ -161,7 +187,26 @@ case $device in
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
         # DownloadProvider: allow non-removable secondary storage
-        cherries+=(72425_CM)
+        cherries+=(72481_CM)
+    ;;
+    huashan)
+        # kernel-some-folders-can-not-be-used
+        PATCH=kernel-some-folders-can-not-be-used
+        FOLDER=hardware/cm
+        patch_it #add this function call for each patch
+        # display-Add-support-for-interleaved-YUY2
+        PATCH=0001-REVERT-display-Add-support-for-interleaved-YUY2-and-
+        FOLDER=hardware/qcom/display-caf
+        patch_it #add this function call for each patch
+        # mm-video-venc-Correct-a-typo-in-variable-name
+        PATCH=0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name
+        FOLDER=hardware/qcom/media-caf
+        patch_it #add this function call for each patch
+    ;;
+    wx_na_wf)
+        # fix wifi
+        cherries+=(71804_CM)
+        cherries+=(71802_CM)
     ;;
 
 esac
