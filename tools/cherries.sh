@@ -163,6 +163,24 @@ case $device in
         # DownloadProvider: allow non-removable secondary storage
         cherries+=(72425_CM)
     ;;
+    wx_na_wf)
+        # Fix Wifi
+        PATCH="https://raw.githubusercontent.com/joshuabg/android_hardware_libhardware_legacy/pac-4.4/0001-wifi-remove-local-nl80211-header.patch"
+        FOLDER=hardware/libhardware_legacy
+        patch_it true
+        PATCH="https://raw.githubusercontent.com/joshuabg/android_hardware_libhardware_legacy/pac-4.4/0002-audio_policy-Prevent-dumping-string-NULL-termination.patch"
+        FOLDER=hardware/libhardware_legacy
+        patch_it true
+        PATCH="https://raw.githubusercontent.com/joshuabg/android_hardware_libhardware_legacy/pac-4.4/0003-wifi-get-wifi-driver-fw_path-from-system-property.patch"
+        FOLDER=hardware/libhardware_legacy
+        patch_it true
+        PATCH="https://raw.githubusercontent.com/joshuabg/android_external_wpa_supplicant_8/cm-11.0/0001-Revert-wpa_supplicant_8-Hostapd-Android-related-chan.patch"
+        FOLDER=external/wpa_supplicant_8
+        patch_it true
+        PATCH="https://raw.githubusercontent.com/joshuabg/android_external_wpa_supplicant_8/cm-11.0/0002-read-p2p-config-file-name.patch"
+        FOLDER=xternal/wpa_supplicant_8
+        patch_it true
+    ;;
 
 esac
 
