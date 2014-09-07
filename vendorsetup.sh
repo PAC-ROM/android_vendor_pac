@@ -43,6 +43,7 @@ add_lunch_combo pac_d801-userdebug
 add_lunch_combo pac_d802-userdebug
 add_lunch_combo pac_d803-userdebug
 add_lunch_combo pac_e973-userdebug
+add_lunch_combo pac_e610-userdebug
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_ls980-userdebug
 add_lunch_combo pac_p700-userdebug

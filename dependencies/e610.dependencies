@@ -1,15 +1,15 @@
 [
     {
-        "account":      "aidasaidas75",
+        "account":      "TeamHackLG",
         "repository":   "android_device_lge_e610",
         "target_path":  "device/lge/e610",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
-        "account":      "aidasaidas75",
+        "account":      "TeamHackLG",
         "repository":   "android_device_lge_msm7x27a-common",
         "target_path":  "device/lge/msm7x27a-common",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TeamHackLG",
@@ -18,7 +18,7 @@
         "revision":     "android-msm-3.4-kk"
     },
     {
-        "account":      "Pinky-Inky-and-Clyde",
+        "account":      "TeamHackLG",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "cm-11.0"
