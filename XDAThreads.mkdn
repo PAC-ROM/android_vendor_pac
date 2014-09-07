@@ -5,7 +5,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2270188">Droid DNA:                  dlx            pio_masaki</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670349">Droid Razr (GSM):           umtsspyder     skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306377">Droid Razr M (Verizon):     moto_msm8960   timpohladthomas</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2301493">Droid Razr (Verizon):       spyder         skiwong20</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2670349">Droid Razr (Verizon):       spyder         skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2050948">Epic 4G Touch (Sprint):     d710           Sniper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Find5:                      find5          eoghan2t7</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2676762">Galaxy Grand Duos:          i9082          k2wl</a>
