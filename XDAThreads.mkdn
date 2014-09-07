@@ -99,6 +99,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306377">Razr M (Verizon):           moto_msm8960   timpohladthomas</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670076">Sensation:                  pyramid        bilal_liberty</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2867597">Shield Tablet:              wx_na_wf       joshuabg</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501869">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501869">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2677301">Vivid:                      holiday        WildfireDEV, JoseGalRe</a>
