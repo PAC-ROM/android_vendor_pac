@@ -251,7 +251,7 @@ Samsung:
 * __Galaxy S IV (C-Spire) (jflte) :__ RIPng
 * __Galaxy S IV (LTE) (jflte) :__ metaiiica, vertigo2012
 * __Galaxy S IV (Sprint) (jflte) :__ Sniper
-* __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703
+* __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
