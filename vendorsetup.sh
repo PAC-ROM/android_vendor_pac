@@ -66,6 +66,9 @@ add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_toro-userdebug
+add_lunch combo pac_wx_na_wf-userdebug
+# Nvidia
+add_lunch_combo pac_wx_na_wf
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo
