@@ -68,6 +68,7 @@
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
   <device name="venturi"/>
+  <device name="wx_na_wf"/>
   <device name="ypg1"/>
   <device name="yuga"/>
 </manifest>
