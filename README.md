@@ -50,8 +50,8 @@ Files to Edit
    - Don't forget to change the total devices at the bottom.
 
 5. [Nightly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/nightly.xml)/[Weekly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/weekly.xml).xml
-   - [Nightly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/nightly.xml) - If your device qualifies (no add/remove files needed) add your device here.
-   - [Weekly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/weekly.xml) - If your device uses the add/removes (mostly legacy devices) add your device here.
+   - [Nightly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/nightly.xml) - If your device qualifies (no add/remove files/cherries needed) add your device here.
+   - [Weekly](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/weekly.xml) - If your device uses the add/removes/cherries (mostly legacy devices) add your device here.
    - Keep alphabetical.
 
 6. [XDAThreads](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/XDAThreads.mkdn)
@@ -85,6 +85,7 @@ Files to Edit
    - this injects cherry picks and patches for gerrit and other commits.
    - if pac hosts the repos then please use this method by adding your patches to our repos and sending a commit to gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the [cherries.sh](https://github.com/PAC-man/android_vendor_pac/blob/pac-4.4/tools/cherries.sh) file to cherry-pick during build.
    - very easy to use and understand (read the cherries.sh file for detailed instructions)
+   - Disqualifies your device for nightlies.
 
 12. [Overlays](https://github.com/PAC-man/android_vendor_pac/tree/pac-4.4/overlay)
    - Found in the overlay directory.

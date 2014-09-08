@@ -2,7 +2,7 @@
 
 #Preamble: Some repos outside of PAC may have commits we need that take too
 #  long to be merged. Adding these cherry-picks here can automate the process
-#  and makes it possible to add them to the nightlies
+#  and makes it possible to add them to the weeklies but not the nightlies.
 #  currently supported gerrit accounts are:
 #    AOKP - Android Open Kang Project
 #    AOSP - Android Open Source Project
