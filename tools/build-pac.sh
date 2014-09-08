@@ -17,7 +17,9 @@ usage()
     echo -e "    -j# Set jobs"
     echo -e "    -k  Set -k1 to rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
-    echo -e "    -s  Sync before build"
+    echo -e "    -s#  Sync options before build"
+    echo -e "        1 - normal sync"
+    echo -e "        2 - restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
@@ -97,7 +99,7 @@ opt_reset=0
 opt_sync=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prsv" opt; do
+while getopts "ac:dfj:ko:prs:v" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -108,7 +110,7 @@ while getopts "ac:dfj:ko:prsv" opt; do
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
-    s) opt_sync=1 ;;
+    s) opt_sync="$OPTARG" ;;
     v) opt_verbose=1 ;;
     *) usage
     esac
@@ -177,12 +179,37 @@ if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
 fi
 
-# sync with latest sources
-if [ "$opt_sync" -ne 0 ]; then
+# take snapshot of current sources
+repo manifest -o snapshot.xml -r
+
+if [ "$opt_sync" -eq 1 ]; then
+    # sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Fetching latest sources"${txtrst}
     repo sync -j"$opt_jobs"
     echo -e ""
+elif [ "$opt_sync" -eq 2 ]; then
+    # restore snapshot tree, then sync with latest sources
+    echo -e ""
+    echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
+    echo -e ""
+    cp snapshot.xml .repo/manifests/
+  
+    #prevent duplicate projects
+    cd .repo/local_manifests
+      for file in *.xml ; do mv $file `echo $file | sed 's/\(.*\.\)xml/\1xmlback/'` ; done
+
+    cd $DIR
+    repo init -m snapshot.xml
+    echo -e ""
+    echo -e ${bldblu}"Fetching snapshot sources"${txtrst}
+    repo sync -d -j"$opt_jobs"
+    cd .repo/local_manifests
+      for file in *.xmlback ; do mv $file `echo $file | sed 's/\(.*\.\)xmlback/\1xml/'` ; done
+    echo -e ""
+    cd $DIR
+    rm -f .repo/manifests/snapshot.xml
+    repo init
 fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
