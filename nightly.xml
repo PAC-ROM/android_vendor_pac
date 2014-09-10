@@ -19,6 +19,7 @@
   <!-- <device name="acclaim"/> -->
   <!-- <device name="apexqtmo"/> -->
   <device name="amami"/>
+  <device name="aries"/>
   <device name="bacon"/>
   <device name="d2lte"/>
   <device name="d801"/>
