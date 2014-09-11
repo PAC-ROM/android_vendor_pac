@@ -29,6 +29,7 @@
   <device name="e980"/>
   <device name="evita"/>
   <device name="expressatt"/>
+  <device name="falcon"/>
   <!-- <device name="find5"/> -->
   <device name="flo"/>
   <device name="grouper"/>
