@@ -24,7 +24,7 @@ index 888e47c..baa4c32 100644
                 default:
                     if (DBG) Log.d(TAG,"ERROR: UNEXPECTED MESSAGE: CURRENT_STATE=OFF, MESSAGE = " + msg.what );
                     return false;
--- 
+--
 1.8.3.2
 
 

@@ -181,6 +181,21 @@ case $device in
         # DownloadProvider: allow non-removable secondary storage
         cherries+=(72425_CM)
     ;;
+    huashan)
+        # kernel-some-folders-can-not-be-used
+        PATCH=kernel-some-folders-can-not-be-used
+        FOLDER=hardware/cm
+        patch_it #add this function call for each patch
+        # display-Add-support-for-interleaved-YUY2
+        PATCH=0001-REVERT-display-Add-support-for-interleaved-YUY2-and-
+        FOLDER=hardware/qcom/display-caf
+        patch_it #add this function call for each patch
+        # mm-video-venc-Correct-a-typo-in-variable-name
+        PATCH=0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name
+        FOLDER=hardware/qcom/media-caf
+        patch_it #add this function call for each patch
+    ;;
+
 esac
 
 if [ "$PATCH" != "" ]; then

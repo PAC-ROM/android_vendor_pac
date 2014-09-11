@@ -264,6 +264,7 @@ Sony:
 ---------------------------------------------------------------------
 * __Xperia L (taoshan) :__ Olivier
 * __Xperia M (nicki) :__ Abhinav1997
+* __Xperia SP (huashan) :__ neXusPRIME
 * __Xperia T (mint) :__ Abhinav1997
 * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ bluefa1con
