@@ -114,6 +114,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V:               haida          Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Langes, wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Langes, szl.kiev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2835662">Xperia SP:                  huashan        neXusPRIME</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2677929">Xperia T:                   mint           Abhinav2</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:            pollux_windy   bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE:        pollux         bluefa1con</a>

@@ -144,6 +144,7 @@
     <vendor Name="Sony">
         <device FullName="Xperia L" CodeName="taoshan"/>
         <device FullName="Xperia M" CodeName="nicki"/>
+        <device FullName="Xperia SP" CodeName="huashan"/>
         <device FullName="Xperia T" CodeName="mint"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux_windy"/>

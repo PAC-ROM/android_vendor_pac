@@ -109,6 +109,7 @@ add_lunch_combo pac_ypg1-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
 add_lunch_combo pac_honami-userdebug
+add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_mint-userdebug
 add_lunch_combo pac_nicki-userdebug
 add_lunch_combo pac_pollux-userdebug
