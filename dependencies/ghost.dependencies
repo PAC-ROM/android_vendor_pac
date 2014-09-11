@@ -2,7 +2,7 @@
     {
         "remote": "github",
         "account": "CyanogenMod",
-        "repository": "android_device_motorola_moto_msm8960dt",
+        "repository": "android_device_motorola_ghost",
         "target_path": "device/motorola/moto_msm8960dt",
         "revision": "cm-11.0"
     },
@@ -23,7 +23,7 @@
     {
         "remote": "github",
         "account": "CyanogenMod",
-        "repository": "android_kernel_motorola_msm8960dt-common",
+        "repository": "android_kernel_motorola_ghost",
         "target_path": "kernel/motorola/msm8960dt-common",
         "revision": "cm-11.0"
     },
