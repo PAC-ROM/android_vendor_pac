@@ -179,7 +179,7 @@ case $device in
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
         # DownloadProvider: allow non-removable secondary storage
-        cherries+=(72425_CM)
+        cherries+=(72481_CM)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
