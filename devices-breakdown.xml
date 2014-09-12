@@ -71,11 +71,11 @@
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Moto G (Global GSM)" CodeName="falcon"/>
         <device FullName="Moto G (Retail US)" CodeName="falcon"/>
-        <device FullName="Moto X (GSM)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (Sprint)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (T-Mobile)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (US Celular)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (GSM)" CodeName="ghost"/>
+        <device FullName="Moto X (Sprint)" CodeName="ghost"/>
+        <device FullName="Moto X (T-Mobile)" CodeName="ghost"/>
+        <device FullName="Moto X (US Celular)" CodeName="ghost"/>
+        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Photon Q (Sprint)" CodeName="moto_msm8960"/>
         <device FullName="Photon Q (GSM)" CodeName="moto_msm8960"/>
         <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>

@@ -182,12 +182,12 @@ Motorola:
 * __Droid Razr(Verizon) (spyder) :__ Skiwong20
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
-* __Moto X (GSM) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (Sprint) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (T-Mobile) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (US Cellular) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (Verizon-Developer Edition) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Skiwong20, timpohladthomas
+* __Moto X (GSM) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (Sprint) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (T-Mobile) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (US Cellular) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20, timpohladthomas
+* __Droid Maxx (Verizon-Developer Edition (ghost) :__ Skiwong20, timpohladthomas
 * __Photon Q (Sprint) (moto_msm8960) :__ arrrghhh
 * __Photon Q (GSM) (moto_msm8960) :__ arrrghhh
 * __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas

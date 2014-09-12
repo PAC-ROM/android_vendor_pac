@@ -33,6 +33,7 @@
   <!-- <device name="find5"/> -->
   <device name="flo"/>
   <device name="grouper"/>
+  <device name="ghost"/>
   <device name="hammerhead"/>
   <device name="hlte"/>
   <device name="holiday"/>
@@ -55,7 +56,6 @@
   <!-- <device name="mako"/> -->
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
-  <device name="moto_msm8960dt"/>
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
