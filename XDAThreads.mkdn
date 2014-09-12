@@ -122,4 +122,5 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2208249">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2478003">Xperia Z1:                  honami         jeroenqui, Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>
 </div>
