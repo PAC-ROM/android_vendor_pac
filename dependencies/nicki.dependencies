@@ -1,8 +1,14 @@
 [
     {
-        "account":      "freexperia",
+        "account":      "CyanogenMod",
         "repository":   "android_device_sony_nicki",
         "target_path":  "device/sony/nicki",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
         "revision":     "cm-11.0"
     },
     {
@@ -24,7 +30,7 @@
         "revision":     "cm-11.0"
     },
     {
-        "account":      "freexperia",
+        "account":      "CyanogenMod",
         "repository":   "android_Kernel_sony_msm8x27",
         "target_path":  "kernel/sony/msm8x27",
         "revision":     "cm-11.0"

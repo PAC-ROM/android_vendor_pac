@@ -59,6 +59,7 @@
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
+  <device name="nicki" />
   <device name="p5100"/>
   <device name="p5110"/>
   <!-- <device name="r950"/> -->
