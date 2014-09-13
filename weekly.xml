@@ -15,9 +15,13 @@
   <device name="p700"/>
   <device name="haida"/>
   <device name="hallon"/>
+  <device name="huashan"/>
   <device name="i9082"/>
   <device name="iyokan"/>
   <device name="mango"/>
+  <device name="otter"/>
+  <device name="otter2"/>
+  <device name="otterx"/>
   <device name="p705"/>
   <device name="s2ve"/>
   <device name="s2vep"/>
@@ -29,4 +33,5 @@
   <device name="u8951"/>
   <device name="urushi"/>
   <device name="ville"/>
+  <device name="ypg1"/>
 </manifest>

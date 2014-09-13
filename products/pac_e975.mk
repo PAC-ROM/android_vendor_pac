@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_moto_msm8960dt,$(TARGET_PRODUCT))
+ifeq (pac_e975,$(TARGET_PRODUCT))
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -13,12 +13,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/motorola/moto_msm8960dt/cm.mk)
+$(call inherit-product, device/lge/e975/cm.mk)
 
-PRODUCT_NAME := pac_moto_msm8960dt
-
-# Update local_manifest.xml
-GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
-GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
+PRODUCT_NAME := pac_e975
 
 endif

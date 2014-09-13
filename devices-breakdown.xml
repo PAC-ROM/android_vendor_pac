@@ -56,6 +56,7 @@
         <device FullName="Optimus L7" CodeName="p700"/>
         <device FullName="Optimus L7" CodeName="p705"/>
         <device FullName="Optimus G (Canadian)" CodeName="e973"/>
+	<device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G (Pro)" CodeName="e980"/>
         <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
@@ -70,11 +71,11 @@
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Moto G (Global GSM)" CodeName="falcon"/>
         <device FullName="Moto G (Retail US)" CodeName="falcon"/>
-        <device FullName="Moto X (GSM)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (Sprint)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (T-Mobile)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (US Celular)" CodeName="moto_msm8960dt"/>
-        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="moto_msm8960dt"/>
+        <device FullName="Moto X (GSM)" CodeName="ghost"/>
+        <device FullName="Moto X (Sprint)" CodeName="ghost"/>
+        <device FullName="Moto X (T-Mobile)" CodeName="ghost"/>
+        <device FullName="Moto X (US Celular)" CodeName="ghost"/>
+        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Photon Q (Sprint)" CodeName="moto_msm8960"/>
         <device FullName="Photon Q (GSM)" CodeName="moto_msm8960"/>
         <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>
@@ -143,6 +144,7 @@
     <vendor Name="Sony">
         <device FullName="Xperia L" CodeName="taoshan"/>
         <device FullName="Xperia M" CodeName="nicki"/>
+        <device FullName="Xperia SP" CodeName="huashan"/>
         <device FullName="Xperia T" CodeName="mint"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux_windy"/>

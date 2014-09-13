@@ -173,6 +173,7 @@ LG:
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
 * __Optimus G  (e973) :__ ShoreDroid
+* __Optimus G  (e975) :__ ShoreDroid
 * __Optimus G Pro (e980) :__ machinistsWIP
 
 Motorola:
@@ -181,12 +182,12 @@ Motorola:
 * __Droid Razr(Verizon) (spyder) :__ Skiwong20
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
-* __Moto X (GSM) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (Sprint) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (T-Mobile) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (US Cellular) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Moto X (Verizon-Developer Edition) (moto_msm8960dt) :__ Skiwong20, timpohladthomas
-* __Droid Maxx (Verizon-Developer Edition (moto_msm8960dt) :__ Skiwong20, timpohladthomas
+* __Moto X (GSM) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (Sprint) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (T-Mobile) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (US Cellular) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20, timpohladthomas
+* __Droid Maxx (Verizon-Developer Edition (ghost) :__ Skiwong20, timpohladthomas
 * __Photon Q (Sprint) (moto_msm8960) :__ arrrghhh
 * __Photon Q (GSM) (moto_msm8960) :__ arrrghhh
 * __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
@@ -251,7 +252,7 @@ Samsung:
 * __Galaxy S IV (C-Spire) (jflte) :__ RIPng
 * __Galaxy S IV (LTE) (jflte) :__ metaiiica, vertigo2012
 * __Galaxy S IV (Sprint) (jflte) :__ Sniper
-* __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703
+* __Galaxy S IV (T-Mobile) (jflte) :__ JoseGalRe, Nick0703
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
@@ -263,6 +264,7 @@ Sony:
 ---------------------------------------------------------------------
 * __Xperia L (taoshan) :__ Olivier
 * __Xperia M (nicki) :__ Abhinav1997
+* __Xperia SP (huashan) :__ neXusPRIME
 * __Xperia T (mint) :__ Abhinav1997
 * __Xperia Tablet Z LTE (pollux) :__ bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ bluefa1con
@@ -291,7 +293,7 @@ Xiaomi:
 
 
 
-Total Devices: 135
+Total Devices: 136
 
 Best regards
     szl.kiev

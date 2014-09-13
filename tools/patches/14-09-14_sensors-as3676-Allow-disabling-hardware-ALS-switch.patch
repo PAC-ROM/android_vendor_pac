@@ -1,0 +1,59 @@
+From 075a5d9af7014057f45c939e6bb3e367ec35d77e Mon Sep 17 00:00:00 2001
+From: Michael Bestas <mikeioannina@gmail.com>
+Date: Mon, 8 Sep 2014 21:45:53 +0300
+Subject: [PATCH] sensors: as3676: Allow disabling hardware ALS switch
+
+Some older devices like 2011 xperias don't behave correctly when the
+hardware ALS switch is enabled (the panel starts flickering at low brightness).
+
+The als_on switch is also not present in the SEMC version of the
+AS3676 kernel driver, which is used in msm7x30 & msm8660 devices.
+
+Change-Id: Ie5b7bc2e0aff757448d9b66545f88cbfd73c4c24
+---
+ sensors/Sensors.mk   |    3 +++
+ sensors/as3676_als.c |    5 ++++-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+diff --git a/sensors/Sensors.mk b/sensors/Sensors.mk
+index 479d997..36c0c3a 100644
+--- a/sensors/Sensors.mk
++++ b/sensors/Sensors.mk
+@@ -75,6 +75,9 @@ $(SOMC_CFG_SENSORS_LIGHT_AS3676)-cflags += \
+ ifneq ($(SOMC_CFG_SENSORS_LIGHT_AS3676_PATH),)
+ $(SOMC_CFG_SENSORS_LIGHT_AS3676)-cflags += -DALS_PATH=\"$(SOMC_CFG_SENSORS_LIGHT_AS3676_PATH)\"
+ endif
++ifeq ($(SOMC_CFG_SENSORS_LIGHT_AS3676_DISABLE_ALS_SWITCH),yes)
++$(SOMC_CFG_SENSORS_LIGHT_AS3676)-cflags += -DDISABLE_ALS_SWITCH
++endif
+ 
+ $(SOMC_CFG_SENSORS_LIGHT_LM3533)-files += lm3533_als.c
+ 
+diff --git a/sensors/as3676_als.c b/sensors/as3676_als.c
+index 8586cd4..172b041 100644
+--- a/sensors/as3676_als.c
++++ b/sensors/as3676_als.c
+@@ -74,8 +74,9 @@ static int light_activate(struct sensor_api_t *s, int enable)
+     struct sensor_desc *d = container_of(s, struct sensor_desc, api);
+ 
+     if (enable) {
++#ifndef DISABLE_ALS_SWITCH
+         d->sysfs.write_int(&d->sysfs, "als_on", 1);
+-
++#endif
+         count = snprintf(result_path, sizeof(result_path), "%s/%s",
+              AS3676_DEV, "adc_als_value");
+         if ((count < 0) || (count >= (int)sizeof(result_path))) {
+@@ -96,7 +97,9 @@ static int light_activate(struct sensor_api_t *s, int enable)
+         d->worker.suspend(&d->worker);
+         close(d->fd);
+         d->fd = -1;
++#ifndef DISABLE_ALS_SWITCH
+         d->sysfs.write_int(&d->sysfs, "als_on", 0);
++#endif
+     }
+ 
+     return 0;
+-- 
+1.7.9.5
+
