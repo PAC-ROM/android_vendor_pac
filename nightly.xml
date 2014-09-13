@@ -35,7 +35,7 @@
   <device name="grouper"/>
   <device name="ghost"/>
   <device name="hammerhead"/>
-  <device name="hlte"/>
+  <!-- <device name="hlte"/> -->
   <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
@@ -71,7 +71,7 @@
   <device name="tate"/>
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
-  <device name="umts_spyder "/>
+  <!-- <device name="umts_spyder "/> -->
   <device name="venturi"/>
   <device name="yuga"/>
 </manifest>
