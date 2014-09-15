@@ -66,7 +66,6 @@ add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_mako-userdebug
-add_lunch_combo pac_toro-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo

@@ -10,7 +10,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Find5:                      find5          eoghan2t7</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2676762">Galaxy Grand Duos:          i9082          k2wl</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2409090">Galaxy Nexus:               maguro         -Jesco-</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2860219">Galaxy Nexus (Verizon):     toro           my95z34
 <a href="http://forum.xda-developers.com/showthread.php?t=2667763">Galaxy Note 2 (AT&T):       t0lteatt       123SIT</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667751">Galaxy Note 2 (GSM):        n7100          123SIT</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2449424">Galaxy Note 2 (LTE):        t0lte          123SIT</a>
