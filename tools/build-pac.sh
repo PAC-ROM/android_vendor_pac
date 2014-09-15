@@ -24,6 +24,7 @@ usage()
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
     echo -e "        1 (Os) or 3 (O3)"
+    echo -e "    -t  Build TWRP Recovery (Your device must be configured for TWRP)"
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
@@ -85,6 +86,7 @@ else
 fi
 
 export USE_PREBUILT_CHROMIUM=1
+export RECOVERY_VARIANT=cm
 export USE_CCACHE=1
 
 opt_adb=0
@@ -97,9 +99,10 @@ opt_olvl=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
+opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prs:v" opt; do
+while getopts "ac:dfj:ko:prs:tv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -111,6 +114,7 @@ while getopts "ac:dfj:ko:prs:v" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
+    t) opt_twrp=1 ;;
     v) opt_verbose=1 ;;
     *) usage
     esac
@@ -160,6 +164,14 @@ if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date =
     echo -e ""
     echo -e ${bldblu}"Downloading prebuilts"${txtrst}
     vendor/cm/get-prebuilts
+    echo -e ""
+fi
+
+# TWRP Recovery
+if [ "$opt_twrp" -ne 0 ]; then
+    echo -e ""
+    echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
+    export RECOVERY_VARIANT=twrp
     echo -e ""
 fi
 
