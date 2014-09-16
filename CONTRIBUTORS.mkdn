@@ -209,7 +209,6 @@ Samsung:
 * __Galaxy Express (ATT) (expressatt) :__ Papa Smurf151
 * __Galaxy Grand Duos (GSM) (i9082) :__ K2wl
 * __Galaxy Nexus (maguro) :__ -Jesco-
-* __Galaxy Nexus (toro) :__ my95z34
 * __Galaxy Note 2 (AT&T) (t0lteatt) :__ 123sit
 * __Galaxy Note 2 (GSM) (n7100) :__ 123sit
 * __Galaxy Note 2 (LTE) (t0lte) :__ 123sit
