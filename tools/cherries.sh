@@ -101,11 +101,7 @@ case $device in
         cherries+=(71199_CM)
         # mm-core: Enable HW mp3 decoder for msm7x30
         cherries+=(70946_CM)
-        # Camera2: Prevent propogating CancelAutoFocus during Video Recording
-        cherries+=(71477_CM)
-        # Camera: Move out TimeLapse option from global list
-        cherries+=(72046_CM)
-        # camera2: Kate Upton mode
+        # Camera2: Headset button shutter
         cherries+=(72185_CM)
         # Add Screen Off option for buttons double-tap/long press (1 of 2)
         cherries+=(69163_CM)
@@ -114,9 +110,25 @@ case $device in
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
-        cherries+=(71674_CM)        # sensors: as3676: Allow disabling hardware ALS switch
+        cherries+=(71674_CM)
+        # sensors: as3676: Allow disabling hardware ALS switch
         PATCH=14-09-14_sensors-as3676-Allow-disabling-hardware-ALS-switch
         FOLDER=hardware/sony/DASH
+        patch_it
+        ## move apps to SD patches
+        # Enable moving applications to an external volume
+        cherries+=(1736_PAC)
+        # Add app moving setting to the menu in Settings -> Apps
+        cherries+=(1730_PAC)
+        # Framework changes for moving applications to external volume
+        cherries+=(1741_PAC)
+        # frameworks: Add class for changing app moving
+        cherries+=(1742_PAC)
+        PATCH=20140915-vold-Allow-ASEC-containers-on-an-external-volume-whe
+        FOLDER=system/vold
+        patch_it
+        PATCH=20140915-msm7x30-enable-moving-apps-to-sdcard1
+        FOLDER=device/semc/msm7x30-common
         patch_it
     ;;
     i9082)
