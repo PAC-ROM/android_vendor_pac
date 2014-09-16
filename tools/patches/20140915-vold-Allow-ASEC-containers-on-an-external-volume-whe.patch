@@ -1,0 +1,216 @@
+From 65ba943b42f27f7c0d624e0fd997c0a6017fc054 Mon Sep 17 00:00:00 2001
+From: Xiao-Long Chen <chenxiaolong@cxl.epac.to>
+Date: Sun, 25 Aug 2013 22:28:41 -0400
+Subject: [PATCH] vold: Allow ASEC containers on an external volume when
+ internal is emulated
+
+Thanks to Pierre-Hugues Husson for the idea in this patch! The initial
+implementation called createBindMounts() on all mount points regardless
+of whether or not it was the SD card.
+
+Change-Id: Ic2c45d275179099065a10e1e664a08efea66acf1
+---
+ Android.mk          |    6 +++++-
+ CommandListener.cpp |    5 ++++-
+ Volume.cpp          |   25 ++++++++++++++++++++++---
+ Volume.h            |    1 +
+ VolumeManager.cpp   |   13 ++++++++-----
+ cryptfs.h           |    1 +
+ main.cpp            |    8 ++++++++
+ 7 files changed, 49 insertions(+), 10 deletions(-)
+
+diff --git a/Android.mk b/Android.mk
+index 8c9d3d6..c94563a 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -20,6 +20,10 @@ ifeq ($(BOARD_VOLD_CRYPTFS_MIGRATE), true)
+ common_cflags += -DCRYPTFS_MIGRATE
+ endif
+ 
++ifneq ($(TARGET_EXTERNAL_APPS),)
++common_cflags += -DEXTERNAL_APPS_DEVICE_LABEL=\"$(TARGET_EXTERNAL_APPS)\"
++endif
++
+ common_cflags += -Werror
+ 
+ common_src_files := \
+@@ -105,7 +109,7 @@ include $(CLEAR_VARS)
+ LOCAL_SRC_FILES:= vdc.c
+ LOCAL_MODULE:= vdc
+ LOCAL_C_INCLUDES := $(KERNEL_HEADERS)
+-LOCAL_CFLAGS := 
++LOCAL_CFLAGS :=
+ LOCAL_SHARED_LIBRARIES := libcutils
+ include $(BUILD_EXECUTABLE)
+ 
+diff --git a/CommandListener.cpp b/CommandListener.cpp
+index 70fe24d..dc8cdad 100644
+--- a/CommandListener.cpp
++++ b/CommandListener.cpp
+@@ -314,7 +314,10 @@ void CommandListener::AsecCmd::listAsecsInDirectory(SocketClient *cli, const cha
+     while (!readdir_r(d, dent, &result) && result != NULL) {
+         if (dent->d_name[0] == '.')
+             continue;
+-        if (dent->d_type != DT_REG)
++        // For whatever reason, the exFAT fuse driver reports DT_UNKNOWN for
++        // the .asec files, so we'll have to allow that to make external apps
++        // work properly.
++        if (dent->d_type != DT_REG && dent->d_type != DT_UNKNOWN)
+             continue;
+         size_t name_len = strlen(dent->d_name);
+         if (name_len > 5 && name_len < 260 &&
+diff --git a/Volume.cpp b/Volume.cpp
+index c6fb130..c0b454c 100644
+--- a/Volume.cpp
++++ b/Volume.cpp
+@@ -217,6 +217,22 @@ void Volume::setUserLabel(const char* userLabel) {
+             msg, false);
+ }
+ 
++bool Volume::isExternalAppsEnabled() {
++    const char* disablePath = "/data/system/no-external-apps";
++
++    int flags = getFlags();
++    bool externalApps = (flags & VOL_EXTERNAL_APPS) != 0;
++
++    if (externalApps) {
++        if (access(disablePath, F_OK) != -1) {
++            SLOGV("Application moving disabled; will not touch ASEC\n");
++            return false;
++        }
++        return true;
++    }
++    return false;
++}
++
+ void Volume::setState(int state) {
+     char msg[255];
+     int oldState = mState;
+@@ -379,6 +395,7 @@ int Volume::mountVol() {
+ 
+     int flags = getFlags();
+     bool providesAsec = (flags & VOL_PROVIDES_ASEC) != 0;
++    bool externalApps = (flags & VOL_EXTERNAL_APPS) != 0 && isExternalAppsEnabled();
+ 
+     // TODO: handle "bind" style mounts, for emulated storage
+ 
+@@ -583,7 +600,8 @@ int Volume::mountVol() {
+         extractMetadata(devicePath);
+ 
+ #ifndef MINIVOLD
+-        if (providesAsec && mountAsecExternal() != 0) {
++        // Create android_secure on external SD
++        if ((externalApps || providesAsec) && mountAsecExternal() != 0) {
+             SLOGE("Failed to mount secure area (%s)", strerror(errno));
+             umount(getMountpoint());
+             setState(Volume::State_Idle);
+@@ -671,6 +689,7 @@ int Volume::doUnmount(const char *path, bool force) {
+ int Volume::unmountVol(bool force, bool revert) {
+     int flags = getFlags();
+     bool providesAsec = (flags & VOL_PROVIDES_ASEC) != 0;
++    bool externalApps = (flags & VOL_EXTERNAL_APPS) != 0 && isExternalAppsEnabled();
+ 
+     if (getState() != Volume::State_Mounted) {
+         SLOGE("Volume %s unmount request when not mounted", getLabel());
+@@ -689,7 +708,7 @@ int Volume::unmountVol(bool force, bool revert) {
+ 
+     // TODO: determine failure mode if FUSE times out
+ 
+-    if (providesAsec && doUnmount(Volume::SEC_ASECDIR_EXT, force) != 0) {
++    if ((externalApps || providesAsec) && doUnmount(Volume::SEC_ASECDIR_EXT, force) != 0) {
+         SLOGE("Failed to unmount secure area on %s (%s)", getMountpoint(), strerror(errno));
+         goto out_mounted;
+     }
+@@ -725,7 +744,7 @@ int Volume::unmountVol(bool force, bool revert) {
+     return 0;
+ 
+ fail_remount_secure:
+-    if (providesAsec && mountAsecExternal() != 0) {
++    if ((externalApps || providesAsec) && mountAsecExternal() != 0) {
+         SLOGE("Failed to remount secure area (%s)", strerror(errno));
+         goto out_nomedia;
+     }
+diff --git a/Volume.h b/Volume.h
+index c1be400..a0b6d50 100644
+--- a/Volume.h
++++ b/Volume.h
+@@ -79,6 +79,7 @@ public:
+     const char* getLabel() { return mLabel; }
+     const char* getUuid() { return mUuid; }
+     const char* getUserLabel() { return mUserLabel; }
++    bool isExternalAppsEnabled();
+     int getState() { return mState; }
+     int getFlags() { return mFlags; };
+ 
+diff --git a/VolumeManager.cpp b/VolumeManager.cpp
+index cb23d95..ffc20ae 100644
+--- a/VolumeManager.cpp
++++ b/VolumeManager.cpp
+@@ -1704,11 +1704,6 @@ bool VolumeManager::isMountpointMounted(const char *mp)
+ }
+ 
+ int VolumeManager::cleanupAsec(Volume *v, bool force) {
+-    // Only primary storage needs ASEC cleanup
+-    if (!(v->getFlags() & VOL_PROVIDES_ASEC)) {
+-        return 0;
+-    }
+-
+     int rc = 0;
+ 
+     char asecFileName[255];
+@@ -1716,6 +1711,14 @@ int VolumeManager::cleanupAsec(Volume *v, bool force) {
+     AsecIdCollection removeAsec;
+     AsecIdCollection removeObb;
+ 
++    // Continue for the primary storage (VOL_PROVIDES_ASEC) and for the
++    // external apps volume (VOL_EXTERNAL_APPS) if app moving is enabled
++    if ((v->getFlags() & VOL_PROVIDES_ASEC) == 0
++                && ((v->getFlags() & VOL_EXTERNAL_APPS) == 0
++                        || !v->isExternalAppsEnabled())) {
++        return 0;
++    }
++
+     for (AsecIdCollection::iterator it = mActiveContainers->begin(); it != mActiveContainers->end();
+             ++it) {
+         ContainerData* cd = *it;
+diff --git a/cryptfs.h b/cryptfs.h
+index 162159e..4e318b8 100644
+--- a/cryptfs.h
++++ b/cryptfs.h
+@@ -131,6 +131,7 @@ struct volume_info {
+ #define VOL_ENCRYPTABLE    0x2
+ #define VOL_PRIMARY        0x4
+ #define VOL_PROVIDES_ASEC  0x8
++#define VOL_EXTERNAL_APPS  0x10
+ 
+ #ifdef __cplusplus
+ extern "C" {
+diff --git a/main.cpp b/main.cpp
+index 22bae40..5197b35 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -36,6 +36,10 @@
+ #include "DirectVolume.h"
+ #include "cryptfs.h"
+ 
++#ifndef EXTERNAL_APPS_DEVICE_LABEL
++#define EXTERNAL_APPS_DEVICE_LABEL ""
++#endif
++
+ static int process_config(VolumeManager *vm);
+ static void coldboot(const char *path);
+ 
+@@ -184,6 +188,10 @@ static int process_config(VolumeManager *vm)
+             if (fs_mgr_is_noemulatedsd(&fstab->recs[i])) {
+                 flags |= VOL_PROVIDES_ASEC;
+             }
++            /* Set this flag if the storage device supports having external apps */
++            if (strcmp(fstab->recs[i].label, EXTERNAL_APPS_DEVICE_LABEL) == 0) {
++                flags |= VOL_EXTERNAL_APPS;
++            }
+             dv = new DirectVolume(vm, &(fstab->recs[i]), flags);
+ 
+             if (dv->addPath(fstab->recs[i].blk_device)) {
+-- 
+1.7.9.5
+
