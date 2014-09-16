@@ -67,7 +67,7 @@
   <!-- <device name="t0lte"/> -->
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->
-  <!-- <device name="taoshan"/> -->
+  <device name="taoshan"/>
   <device name="tate"/>
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
