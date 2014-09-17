@@ -92,7 +92,6 @@
         <device FullName="Galaxy Express (ATT)" CodeName="expressatt"/>
         <device FullName="Galaxy Grand Duos" CodeName="i9082"/>
         <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
-        <device FullName="Galaxy Nexus (Verizon)" CodeName="toro"/>
         <device FullName="Galaxy Note 2 (ATT)" CodeName="t0lteatt"/>
         <device FullName="Galaxy Note 2 (GSM)" CodeName="n7100"/>
         <device FullName="Galaxy Note 2 (LTE)" CodeName="t0lte"/>

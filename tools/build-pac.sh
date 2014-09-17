@@ -17,11 +17,15 @@ usage()
     echo -e "    -j# Set jobs"
     echo -e "    -k  Set -k1 to rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
-    echo -e "    -s  Sync before build"
+    echo -e "    -s#  Sync options before build"
+    echo -e "        1 - normal sync"
+    echo -e "        2 - restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
     echo -e "        1 (Os) or 3 (O3)"
+    echo -e "    -t  Build TWRP Recovery (extreme caution, ONLY for developers)"
+    echo -e "        (this may produce invalid recovery. Use only if you have the correct settings for TWRP)"
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
@@ -83,6 +87,7 @@ else
 fi
 
 export USE_PREBUILT_CHROMIUM=1
+export RECOVERY_VARIANT=cm
 export USE_CCACHE=1
 
 opt_adb=0
@@ -95,9 +100,10 @@ opt_olvl=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
+opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prsv" opt; do
+while getopts "ac:dfj:ko:prs:tv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -108,7 +114,8 @@ while getopts "ac:dfj:ko:prsv" opt; do
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
-    s) opt_sync=1 ;;
+    s) opt_sync="$OPTARG" ;;
+    t) opt_twrp=1 ;;
     v) opt_verbose=1 ;;
     *) usage
     esac
@@ -161,6 +168,14 @@ if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date =
     echo -e ""
 fi
 
+# TWRP Recovery
+if [ "$opt_twrp" -ne 0 ]; then
+    echo -e ""
+    echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
+    export RECOVERY_VARIANT=twrp
+    echo -e ""
+fi
+
 # Disable ADB authentication and set root access to Apps and ADB
 if [ "$opt_adb" -ne 0 ]; then
     echo -e ""
@@ -177,12 +192,37 @@ if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
 fi
 
-# sync with latest sources
-if [ "$opt_sync" -ne 0 ]; then
+# take snapshot of current sources
+repo manifest -o snapshot-$device.xml -r
+
+if [ "$opt_sync" -eq 1 ]; then
+    # sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Fetching latest sources"${txtrst}
     repo sync -j"$opt_jobs"
     echo -e ""
+elif [ "$opt_sync" -eq 2 ]; then
+    # restore snapshot tree, then sync with latest sources
+    echo -e ""
+    echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
+    echo -e ""
+    cp snapshot-$device.xml .repo/manifests/
+
+    #prevent duplicate projects
+    cd .repo/local_manifests
+      for file in *.xml ; do mv $file `echo $file | sed 's/\(.*\.\)xml/\1xmlback/'` ; done
+
+    cd $DIR
+    repo init -m snapshot-$device.xml
+    echo -e ""
+    echo -e ${bldblu}"Fetching snapshot sources"${txtrst}
+    repo sync -d -j"$opt_jobs"
+    cd .repo/local_manifests
+      for file in *.xmlback ; do mv $file `echo $file | sed 's/\(.*\.\)xmlback/\1xml/'` ; done
+    echo -e ""
+    cd $DIR
+    rm -f .repo/manifests/snapshot-$device.xml
+    repo init
 fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version

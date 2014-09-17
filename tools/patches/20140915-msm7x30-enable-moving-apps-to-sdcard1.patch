@@ -1,0 +1,36 @@
+From a8c47253dc6797e343fea525354ffcb59052325e Mon Sep 17 00:00:00 2001
+From: Langes72 <langes72@gmail.com>
+Date: Mon, 15 Sep 2014 23:06:25 +0200
+Subject: [PATCH] enable moving apps to sdcard1
+
+---
+ BoardConfigCommon.mk                               |    3 +++
+ .../base/core/res/res/xml/storage_list.xml         |    1 +
+ 2 files changed, 4 insertions(+)
+
+diff --git a/BoardConfigCommon.mk b/BoardConfigCommon.mk
+index 00f021e..2a64e40 100644
+--- a/BoardConfigCommon.mk
++++ b/BoardConfigCommon.mk
+@@ -110,3 +110,6 @@ SOMC_CFG_SENSORS_LIGHT_AS3676_DISABLE_ALS_SWITCH := yes
+ 
+ # CM Hardware tunables
+ BOARD_HARDWARE_CLASS := device/semc/msm7x30-common/cmhw
++
++# External apps on SD
++TARGET_EXTERNAL_APPS = sdcard1
+diff --git a/overlay/frameworks/base/core/res/res/xml/storage_list.xml b/overlay/frameworks/base/core/res/res/xml/storage_list.xml
+index 66c9eb2..8c814a5 100644
+--- a/overlay/frameworks/base/core/res/res/xml/storage_list.xml
++++ b/overlay/frameworks/base/core/res/res/xml/storage_list.xml
+@@ -40,6 +40,7 @@
+         android:primary="true"
+         android:allowMassStorage="true"
+         android:removable="true"
++        android:externalApps="true"
+         android:maxFileSize="4096" />
+ 
+     <storage android:mountPoint="/storage/usbdisk"
+-- 
+1.7.9.5
+
