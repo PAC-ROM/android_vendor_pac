@@ -48,6 +48,7 @@
   <device name="jem"/>
   <device name="jflte"/>
   <!-- <device name="l900"/> -->
+  <device name="ls970"/>
   <device name="ls980"/>
   <device name="m4"/>
   <device name="m7"/>
