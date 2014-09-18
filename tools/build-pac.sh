@@ -180,10 +180,6 @@ elif [ "$opt_recovery" -eq 2 ]; then
     echo -e ${bldblu}"CM Recovery will be built"${txtrst}
     export RECOVERY_VARIANT=cwm
     echo -e ""
-else
-    echo -e ""
-    echo -e ${bldblu}"CWM Recovery will be built"${txtrst}
-    echo -e ""
 fi
 
 # Disable ADB authentication and set root access to Apps and ADB
@@ -204,6 +200,7 @@ fi
 
 # take snapshot of current sources
 repo manifest -o snapshot-$device.xml -r
+echo -e ""
 
 if [ "$opt_sync" -eq 1 ]; then
     # sync with latest sources
