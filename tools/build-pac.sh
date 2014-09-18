@@ -87,7 +87,7 @@ else
 fi
 
 export USE_PREBUILT_CHROMIUM=1
-export RECOVERY_VARIANT=cm
+export RECOVERY_VARIANT=cwm
 export USE_CCACHE=1
 
 opt_adb=0
