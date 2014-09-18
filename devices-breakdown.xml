@@ -56,8 +56,9 @@
         <device FullName="Optimus L7" CodeName="p700"/>
         <device FullName="Optimus L7" CodeName="p705"/>
         <device FullName="Optimus G (Canadian)" CodeName="e973"/>
-	<device FullName="Optimus G (International)" CodeName="e975"/>
+        <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G (Pro)" CodeName="e980"/>
+        <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
         <device FullName="Optimus G2 (ATT)" CodeName="d800"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
