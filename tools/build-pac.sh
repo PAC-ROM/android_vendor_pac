@@ -24,8 +24,10 @@ usage()
     echo -e "    -o# Select GCC O Level"
     echo -e "        Valid O Levels are"
     echo -e "        1 (Os) or 3 (O3)"
-    echo -e "    -t  Build TWRP Recovery (extreme caution, ONLY for developers)"
-    echo -e "        (this may produce invalid recovery. Use only if you have the correct settings for TWRP)"
+    echo -e "    -t# Build with a different Recovery (extreme caution, ONLY for developers)"
+    echo -e "        1 - Build TWRP Recovery (extreme caution, ONLY for developers)"
+    echo -e "        2 - Build CM Recovery (extreme caution, ONLY for developers)"
+    echo -e "        (this may produce invalid recovery. Use only if you have the correct settings for these)"
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
@@ -87,7 +89,6 @@ else
 fi
 
 export USE_PREBUILT_CHROMIUM=1
-export RECOVERY_VARIANT=cm
 export USE_CCACHE=1
 
 opt_adb=0
@@ -103,7 +104,7 @@ opt_sync=0
 opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prs:tv" opt; do
+while getopts "ac:dfj:ko:prs:t:v" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -115,7 +116,7 @@ while getopts "ac:dfj:ko:prs:tv" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;
+    t) opt_twrp="$OPTARG" ;;
     v) opt_verbose=1 ;;
     *) usage
     esac
@@ -169,10 +170,15 @@ if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date =
 fi
 
 # TWRP Recovery
-if [ "$opt_twrp" -ne 0 ]; then
+if [ "$opt_twrp" -eq 1 ]; then
     echo -e ""
     echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
     export RECOVERY_VARIANT=twrp
+    echo -e ""
+elif [ "$opt_twrp" -eq 2 ]; then
+    echo -e ""
+    echo -e ${bldblu}"CM Recovery will be built"${txtrst}
+    export RECOVERY_VARIANT=cwm
     echo -e ""
 fi
 
