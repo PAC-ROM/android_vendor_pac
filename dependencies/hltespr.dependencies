@@ -31,7 +31,7 @@
   },
   {
     "account":      "CyanogenMod",
-    "repository":   "android_device_samsung_hlte",
+    "repository":   "android_device_samsung_hltespr",
     "target_path":  "device/samsung/hlte",
     "revision":     "cm-11.0"
   },

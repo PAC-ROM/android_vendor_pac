@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_hlte,$(TARGET_PRODUCT))
+ifeq (pac_hlteusc,$(TARGET_PRODUCT))
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -13,9 +13,9 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/hlte/cm.mk)
+$(call inherit-product, device/samsung/hlteusc/cm.mk)
 
-PRODUCT_NAME := pac_hlte
+PRODUCT_NAME := pac_hlteusc
 
 endif
 

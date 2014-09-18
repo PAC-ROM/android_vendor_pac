@@ -45,7 +45,6 @@ add_lunch_combo pac_d803-userdebug
 add_lunch_combo pac_e973-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
-add_lunch_combo pac_ls970-userdebug
 add_lunch_combo pac_ls980-userdebug
 add_lunch_combo pac_p700-userdebug
 add_lunch_combo pac_p705-userdebug
@@ -67,6 +66,7 @@ add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_mako-userdebug
+add_lunch_combo pac_toro-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo
@@ -82,6 +82,9 @@ add_lunch_combo pac_exhilarate-userdebug
 add_lunch_combo pac_expressatt-userdebug
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_hlte-userdebug
+add_lunch_combo pac_hltespr-userdebug
+add_lunch_combo pac_hltevzw-userdebug
+add_lunch_combo pac_hlteusc-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i9082-userdebug
 add_lunch_combo pac_i9100-userdebug

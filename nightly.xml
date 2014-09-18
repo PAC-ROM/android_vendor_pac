@@ -35,7 +35,10 @@
   <device name="grouper"/>
   <device name="ghost"/>
   <device name="hammerhead"/>
-  <!-- <device name="hlte"/> -->
+  <device name="hlte"/>
+  <device name="hltespr"/>
+  <device name="hltevzw"/>
+  <device name="hlteusc"/>
   <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
