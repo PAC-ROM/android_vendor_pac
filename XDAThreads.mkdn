@@ -1,6 +1,6 @@
 <div>
-<a href="http://forum.xda-developers.com/showthread.php?t=2699971">Acer A510/A511:             a510/a511      Shreps</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2510004">Acer A700/A701:             a700/a701      semhoun</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2699971">Acer A510/A511:             a510/a511      Shreps, Elibl</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2881725">Acer A700/A701:             a700/a701      Shreps, Elibl</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669292">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2270188">Droid DNA:                  dlx            pio_masaki</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670349">Droid Razr (GSM):           umtsspyder     skiwong20</a>
