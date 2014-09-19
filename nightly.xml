@@ -16,6 +16,7 @@
 <manifest>
   <!-- Add new devices here -->
   <device name="a510"/>
+  <device name="a700"/>
   <!-- <device name="acclaim"/> -->
   <!-- <device name="apexqtmo"/> -->
   <device name="amami"/>
