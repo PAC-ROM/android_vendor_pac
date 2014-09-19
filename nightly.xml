@@ -54,7 +54,7 @@
   <device name="m7spr"/>
   <device name="m8"/>
   <!-- <device name="maguro"/> -->
-  <!-- <device name="mako"/> -->
+  <device name="mako"/>
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
   <device name="n5100"/>
