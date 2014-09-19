@@ -178,7 +178,12 @@ if [ "$opt_recovery" -eq 1 ]; then
 elif [ "$opt_recovery" -eq 2 ]; then
     echo -e ""
     echo -e ${bldblu}"CM Recovery will be built"${txtrst}
-    export RECOVERY_VARIANT=cwm
+    export RECOVERY_VARIANT=cm
+    echo -e ""
+else
+    echo -e ""
+    echo -e ${bldblu}"CWM Recovery will be built"${txtrst}
+    unset RECOVERY_VARIANT
     echo -e ""
 fi
 
