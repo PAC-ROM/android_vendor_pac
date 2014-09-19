@@ -75,7 +75,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">LG Optimus L7:              p705           coderzs</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto (Unified):             ghost          skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                     falcon         Wechy77, herna</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny, jereksel</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                    hammerhead     my95z34, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 (2012):             grouper        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>

@@ -166,7 +166,7 @@ LG:
 * __G2 (ls980) :__ Goldflame09
 * __G2 (Verizon) (vs980) :__ gr33nd3vil, tucstwo
 * __G-Pad (v500) :__ darkassain
-* __Nexus 4 (mako) :__ kd8bny
+* __Nexus 4 (mako) :__ kd8bny, jereksel
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
 * __Optimus 4X (p880) :__ Hid3away
 * __Optimus L5 (e610) :__ aidasaidas75
