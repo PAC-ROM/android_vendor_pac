@@ -31,14 +31,14 @@
   },
   {
     "account":      "CyanogenMod",
-    "repository":   "android_device_samsung_hlte",
+    "repository":   "android_device_samsung_hltevzw",
     "target_path":  "device/samsung/hlte",
     "revision":     "cm-11.0"
   },
   {
     "account":      "CyanogenMod",
     "repository":   "android_device_samsung_hlte-common",
-    "target_path":  "device/samsung/hlte-common",
+    "target_path":  "device/samsung/hlte",
     "revision":     "cm-11.0"
   },
   {
