@@ -121,7 +121,7 @@ ASUS:
 Barnes & Noble:
 ---------------------------------------------------------------------
 * __Nook (acclaim) :__ LowEndGeek
-* __Nook HD+ (ovation) :__ DarkStarr
+* __Nook HD+ (ovation) :__ deadcat
 
 
 HP:
