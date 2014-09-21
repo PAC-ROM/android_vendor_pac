@@ -81,6 +81,10 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 LTE (2013):         deb            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo         berni987654321</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2746417">Nook:                       acclaim        
+LowEndGeek</a>
+<a href="http://forum.xda-developers.com/nook-hd/development/rom-pac-4-4-4-rc-1-t2883064">Nook HD+: ovation
+iPzard</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):                  m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):               m7spr          tdhite, MallardDuck</a>
@@ -96,7 +100,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2668282">One XL:                     evita          JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2811990">OnePlus One:                bacon          MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Oppo Find 5:                find5          eoghan2t7</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2746417">Nook Tablet:                acclaim        LowEndGeek</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306377">Razr M (Verizon):           moto_msm8960   timpohladthomas</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670076">Sensation:                  pyramid        bilal_liberty</a>
