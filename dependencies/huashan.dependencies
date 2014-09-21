@@ -25,6 +25,12 @@
   },
   {
     "account":     "CyanogenMod",
+    "repository":  "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":     "CyanogenMod",
     "repository":  "android_hardware_sony_DASH",
     "target_path": "hardware/sony/DASH",
     "revision":    "cm-11.0"
