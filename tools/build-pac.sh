@@ -201,6 +201,7 @@ if [ "$opt_reset" -ne 0 ]; then
 fi
 
 # take snapshot of current sources
+echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
 repo manifest -o snapshot-$device.xml -r
 echo -e ""
 
