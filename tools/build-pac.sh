@@ -190,6 +190,8 @@ if [ "$opt_adb" -ne 0 ]; then
     echo -e ${bldblu}"Disabling ADB authentication and setting root access to Apps and ADB"${txtrst}
     export DISABLE_ADB_AUTH=true
     echo -e ""
+else
+    unset DISABLE_ADB_AUTH
 fi
 
 # reset source tree
@@ -265,10 +267,14 @@ echo -e ${bldblu}"Starting compilation"${txtrst}
 # start compilation
 if [ "$opt_dex" -ne 0 ]; then
     export WITH_DEXPREOPT=true
+else
+    unset WITH_DEXPREOPT
 fi
 
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
+else
+    unset TARGET_USE_PIPE
 fi
 
 if [ "$opt_olvl" -eq 1 ]; then
@@ -282,6 +288,8 @@ elif [ "$opt_olvl" -eq 3 ]; then
     echo -e ${bldgrn}"Using O3 Optimization"${txtrst}
     echo -e ""
 else
+    unset TARGET_USE_O_LEVEL_S
+    unset TARGET_USE_O_LEVEL_3
     echo -e ""
     echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
     echo -e ""
