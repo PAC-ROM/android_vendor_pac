@@ -20,9 +20,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2834390">Galaxy Note 3 (Sprint):     hlte           ZION959</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2834376">Galaxy Note 3 (T-Mobile):   hlte           ZION959</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2834397">Galaxy Note 3 (Verizon):    hlte           ZION959</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          iurnait, ryukiri/a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          iurnait, ryukiri/a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri/a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          iurnait, ryukiri</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          iurnait, ryukiri</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 4.0:          ypg1           goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2173726">Galaxy S I Captivate:       captivatemtd   Nick0703</a>
