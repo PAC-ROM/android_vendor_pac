@@ -103,10 +103,6 @@ case $device in
         cherries+=(70946_CM)
         # Camera2: Headset button shutter
         cherries+=(72185_CM)
-        # Add Screen Off option for buttons double-tap/long press (1 of 2)
-        cherries+=(69163_CM)
-        # Add Screen Off option for buttons double-tap/long press (2 of 2)
-        cherries+=(69164_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
