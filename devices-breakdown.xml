@@ -68,9 +68,25 @@
     <vendor Name="Motorola">
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
+<<<<<<< HEAD
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Photon Q (Sprint, GSM), Razr M (Verizon)" CodeName="moto_msm8960"/>
+=======
+        <device FullName="Moto G (Global GSM)" CodeName="falcon"/>
+        <device FullName="Moto G (Retail US)" CodeName="falcon"/>
+        <device FullName="Moto X (GSM)" CodeName="ghost"/>
+        <device FullName="Moto X (Sprint)" CodeName="ghost"/>
+        <device FullName="Moto X (T-Mobile)" CodeName="ghost"/>
+        <device FullName="Moto X (US Celular)" CodeName="ghost"/>
+        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghost"/>
+        <device FullName="Photon Q (Sprint)" CodeName="moto_msm8960"/>
+        <device FullName="Photon Q (GSM)" CodeName="moto_msm8960"/>
+        <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>
+    <vendor Name="Nvidia">
+        <device FullName="Shield Tablet" CodeName="wx_na_wf"/>
+    </vendor>
+>>>>>>> Add support for wx_na_wf (Shield Tablet)
     </vendor>
     <vendor Name="OnePlus">
     <device FullName="One" CodeName="bacon"/>
