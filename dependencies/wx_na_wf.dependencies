@@ -1,0 +1,30 @@
+[
+  {
+    "remote": "github",
+    "account": "TeamRegular",
+    "repository": "android_device_nvidia_wx_na_wf",
+    "target_path": "device/nvidia/wx_na_wf",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "TeamRegular",
+    "repository": "android_device_nvidia_shieldtablet",
+    "target_path": "device/nvidia/shieldtablet",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "TeamRegular",
+    "repository": "android_kernel_nvidia_shieldtablet",
+    "target_path": "kernel/nvidia/shieldtablet",
+    "revision": "cm-11.0"
+  },
+  {
+    "remote": "github",
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_nvidia",
+    "target_path": "vendor/nvidia",
+    "revision": "cm-11.0"
+  }
+]
