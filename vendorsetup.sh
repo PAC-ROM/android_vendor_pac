@@ -67,6 +67,8 @@ add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_mako-userdebug
+# Nvidia
+add_lunch_combo pac_wx_na_wf-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo
@@ -92,6 +94,7 @@ add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_i9305-userdebug
 add_lunch_combo pac_i9500-userdebug
+add_lunch_combo pac_jactivelte-userdebug
 add_lunch_combo pac_jflte-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_n5100-userdebug

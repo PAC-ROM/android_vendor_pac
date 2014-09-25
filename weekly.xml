@@ -7,6 +7,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="a700"/>
   <device name="anzu"/>
   <device name="ariesve"/>
   <device name="coconut"/>
@@ -34,4 +35,5 @@
   <device name="urushi"/>
   <device name="ville"/>
   <device name="ypg1"/>
+  <device name="wx_na_wf"/>
 </manifest>

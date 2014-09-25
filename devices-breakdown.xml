@@ -4,7 +4,7 @@
         <device FullName="Acer Iconia A700" CodeName="a700"/>
     </vendor>
     <vendor Name="Amazon">
-        <device FullName="Kindle Fire" CodeName="otter/otterx"/>
+        <device FullName="Kindle Fire" CodeName="otter"/>
         <device FullName="Kindle Fire 2" CodeName="otter2"/>
         <device FullName="Kindle Fire HD 7" CodeName="tate"/>
         <device FullName="Kindle Fire HD 8.9" CodeName="jem"/>
@@ -27,10 +27,8 @@
         <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
         <device FullName="MyTouch 4G" CodeName="glacier"/>
-        <device FullName="One (ATT)" CodeName="m7"/>
-        <device FullName="One (GSM)" CodeName="m7"/>
+        <device FullName="One (ATT, GSM, T-Mobile)" CodeName="m7"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
-        <device FullName="One (T-Mobile)" CodeName="m7"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
         <device FullName="One 2014" CodeName="m8"/>
         <device FullName="One Max (GSM)" CodeName="t6"/>
@@ -70,16 +68,12 @@
     <vendor Name="Motorola">
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
-        <device FullName="Moto G (Global GSM)" CodeName="falcon"/>
-        <device FullName="Moto G (Retail US)" CodeName="falcon"/>
-        <device FullName="Moto X (GSM)" CodeName="ghost"/>
-        <device FullName="Moto X (Sprint)" CodeName="ghost"/>
-        <device FullName="Moto X (T-Mobile)" CodeName="ghost"/>
-        <device FullName="Moto X (US Celular)" CodeName="ghost"/>
-        <device FullName="Moto X (Verizon-Developer Edition)" CodeName="ghost"/>
-        <device FullName="Photon Q (Sprint)" CodeName="moto_msm8960"/>
-        <device FullName="Photon Q (GSM)" CodeName="moto_msm8960"/>
-        <device FullName="Razr M (Verizon)" CodeName="moto_msm8960"/>
+        <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
+        <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
+        <device FullName="Photon Q (Sprint, GSM), Razr M (Verizon)" CodeName="moto_msm8960"/>
+    </vendor>
+    <vendor Name="Nvidia">
+        <device FullName="Shield Tablet" CodeName="wx_na_wf"/>
     </vendor>
     <vendor Name="OnePlus">
     <device FullName="One" CodeName="bacon"/>
@@ -100,10 +94,7 @@
         <device FullName="Galaxy Note 2 (T-Mobile)" CodeName="t0ltetmo"/>
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
-        <device FullName="Galaxy Note 3 (Sprint)" CodeName="hlte"/>
-        <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hlte"/>
-        <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>
-        <device FullName="Galaxy Note 3 (Verizon)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 3 (International, Sprint, T-Mobile, Verizon)" CodeName="hlte"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
@@ -115,27 +106,13 @@
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
         <device FullName="Galaxy S II Plus" CodeName="s2ve"/>
         <device FullName="Galaxy S II Plus" CodeName="s2vep"/>
-        <device FullName="Galaxy S III (ATT)" CodeName="d2lte"/>
-        <device FullName="Galaxy S III (Cricket)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (ATT, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
-        <device FullName="Galaxy S III (Metro PCS)" CodeName="d2lte"/>
-        <device FullName="Galaxy S III (Sprint)" CodeName="d2lte"/>
-        <device FullName="Galaxy S III (C-Spire)" CodeName="d2lte"/>
-        <device FullName="Galaxy S III (T-Mobile)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
-        <device FullName="Galaxy S III (US Cellular)" CodeName="d2lte"/>
-        <device FullName="Galaxy S III (Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
-        <device FullName="Galaxy S IV (ATT)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (Canada)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (Cricket)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (C-Spire)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (LTE)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (Sprint)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (T-Mobile)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (US Cellular)" CodeName="jflte"/>
-        <device FullName="Galaxy S IV (Verizon)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
+        <device FullName="Galaxy S IV (ATT, C-Spire, Canada, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S Plus" CodeName="ariesve"/>
         <device FullName="Galaxy Tab 2 10" CodeName="p5100/P5110"/>
         <device FullName="Galaxy W" CodeName="i8150"/>
