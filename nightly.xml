@@ -42,7 +42,7 @@
   <device name="holiday"/>
   <device name="honami"/>
   <!-- <device name="i605"/> -->
-  <!-- <device name="i9100"/> -->
+  <device name="i9100"/>
   <!-- <device name="i9100g"/> -->
   <device name="i9300"/>
   <device name="i9305"/>
