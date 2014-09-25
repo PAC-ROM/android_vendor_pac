@@ -191,6 +191,11 @@ case $device in
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
     ;;
+    wx_na_wf)
+        # fix wifi
+        cherries+=(71804_CM)
+        cherries+=(71802_CM)
+    ;;
 
 esac
 
