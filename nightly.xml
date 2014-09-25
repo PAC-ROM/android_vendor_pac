@@ -16,9 +16,6 @@
 <manifest>
   <!-- Add new devices here -->
   <device name="a510"/>
-  <device name="a700"/>
-  <!-- <device name="acclaim"/> -->
-  <!-- <device name="apexqtmo"/> -->
   <device name="amami"/>
   <device name="aries"/>
   <device name="bacon"/>
@@ -31,7 +28,6 @@
   <device name="evita"/>
   <device name="expressatt"/>
   <device name="falcon"/>
-  <!-- <device name="find5"/> -->
   <device name="flo"/>
   <device name="grouper"/>
   <device name="ghost"/>
@@ -42,22 +38,18 @@
   <device name="hlteusc"/>
   <device name="holiday"/>
   <device name="honami"/>
-  <!-- <device name="i605"/> -->
   <device name="i9100"/>
-  <!-- <device name="i9100g"/> -->
   <device name="i9300"/>
   <device name="i9305"/>
   <device name="i9500"/>
   <device name="jem"/>
   <device name="jflte"/>
-  <!-- <device name="l900"/> -->
   <device name="ls970"/>
   <device name="ls980"/>
   <device name="m4"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m8"/>
-  <!-- <device name="maguro"/> -->
   <device name="mako"/>
   <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
@@ -68,17 +60,10 @@
   <device name="p5110"/>
   <device name="pollux"/>
   <device name="pollux_windy"/>
-  <!-- <device name="r950"/> -->
   <device name="ruby"/>
   <device name="spyder"/>
-  <!-- <device name="t0lte"/> -->
-  <!-- <device name="t0lteatt"/> -->
-  <!-- <device name="t0ltetmo"/> -->
   <device name="taoshan"/>
   <device name="tate"/>
-  <!-- <device name="tf300t"/> -->
-  <!-- <device name="tf700t"/> -->
-  <!-- <device name="umts_spyder "/> -->
   <device name="venturi"/>
   <device name="yuga"/>
 </manifest>
