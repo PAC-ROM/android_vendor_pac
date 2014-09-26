@@ -92,6 +92,7 @@ add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_i9305-userdebug
 add_lunch_combo pac_i9500-userdebug
+add_lunch_combo pac_jactivelte-userdebug
 add_lunch_combo pac_jflte-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_n5100-userdebug

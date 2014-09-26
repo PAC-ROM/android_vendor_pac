@@ -108,6 +108,7 @@
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
         <device FullName="Galaxy S III (T-Mobile w/ Keyboard)" CodeName="apexqtmo"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
+        <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
         <device FullName="Galaxy S IV (ATT, C-Spire, Canada, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S Plus" CodeName="ariesve"/>
         <device FullName="Galaxy Tab 2 10" CodeName="p5100/P5110"/>
