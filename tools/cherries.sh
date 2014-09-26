@@ -30,6 +30,12 @@
 #        |
 #      <Repeat for each separate cherry-pick>
 #
+#    For gerrit topics, add the topics(s) in the form:
+#      cherries +=(TOPIC_GERRIT-ACCOUNT)
+#     e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be topics+=(CREncoder_PAC)
+#        |
+#      <Repeat for each separate topic>
+#
 #   ;;
 #  On-line patches can be called by specifying a URL as the PATCH variable and calling the
 #  patch_it function with the parameter 'true', i.e., patch_it true
@@ -206,4 +212,11 @@ if [ "$cherries" != "" ]; then
     echo -e ${bldblu}"Now picking the required cherries"${txtrst}
     echo -e ""
     ./build/tools/repopick.py -b ${cherries[@]}
+fi
+
+if [ "$topics" != "" ]; then
+    echo -e ""
+    echo -e ${bldblu}"Now picking the required topics"${txtrst}
+    echo -e ""
+    ./build/tools/repopick.py -i -t ${topics[@]}
 fi
