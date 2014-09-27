@@ -76,6 +76,7 @@ PRODUCT_PACKAGES += \
 
 # PAC Packages
 PRODUCT_PACKAGES += \
+    HALO \
     InsertCoins \
     PacConsole \
     PacPapers \

@@ -181,9 +181,7 @@ elif [ "$opt_recovery" -eq 2 ]; then
     export RECOVERY_VARIANT=cm
     echo -e ""
 else
-    echo -e ""
-    echo -e ${bldblu}"CWM Recovery will be built"${txtrst}
-    echo -e ""
+    unset RECOVERY_VARIANT
 fi
 
 # Disable ADB authentication and set root access to Apps and ADB
@@ -192,6 +190,8 @@ if [ "$opt_adb" -ne 0 ]; then
     echo -e ${bldblu}"Disabling ADB authentication and setting root access to Apps and ADB"${txtrst}
     export DISABLE_ADB_AUTH=true
     echo -e ""
+else
+    unset DISABLE_ADB_AUTH
 fi
 
 # reset source tree
@@ -203,7 +203,9 @@ if [ "$opt_reset" -ne 0 ]; then
 fi
 
 # take snapshot of current sources
+echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
 repo manifest -o snapshot-$device.xml -r
+echo -e ""
 
 if [ "$opt_sync" -eq 1 ]; then
     # sync with latest sources
@@ -265,10 +267,14 @@ echo -e ${bldblu}"Starting compilation"${txtrst}
 # start compilation
 if [ "$opt_dex" -ne 0 ]; then
     export WITH_DEXPREOPT=true
+else
+    unset WITH_DEXPREOPT
 fi
 
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
+else
+    unset TARGET_USE_PIPE
 fi
 
 if [ "$opt_olvl" -eq 1 ]; then
@@ -282,6 +288,8 @@ elif [ "$opt_olvl" -eq 3 ]; then
     echo -e ${bldgrn}"Using O3 Optimization"${txtrst}
     echo -e ""
 else
+    unset TARGET_USE_O_LEVEL_S
+    unset TARGET_USE_O_LEVEL_3
     echo -e ""
     echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
     echo -e ""

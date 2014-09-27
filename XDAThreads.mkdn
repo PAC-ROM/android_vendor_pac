@@ -1,6 +1,6 @@
 <div>
-<a href="http://forum.xda-developers.com/showthread.php?t=2699971">Acer A510/A511:             a510/a511      Shreps</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2510004">Acer A700/A701:             a700/a701      semhoun</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2699971">Acer A510/A511:             a510/a511      Shreps, Elibl</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2881725">Acer A700/A701:             a700/a701      Shreps, Elibl</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669292">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2270188">Droid DNA:                  dlx            pio_masaki</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670349">Droid Razr (GSM):           umtsspyder     skiwong20</a>
@@ -20,9 +20,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2834390">Galaxy Note 3 (Sprint):     hlte           ZION959</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2834376">Galaxy Note 3 (T-Mobile):   hlte           ZION959</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2834397">Galaxy Note 3 (Verizon):    hlte           ZION959</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          iurnait, ryukiri/a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          iurnait, ryukiri/a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri/a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          iurnait, ryukiri</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          iurnait, ryukiri</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 4.0:          ypg1           goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2387504">Galaxy Player 5.0:          venturi        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2173726">Galaxy S I Captivate:       captivatemtd   Nick0703</a>
@@ -41,6 +41,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2015525">Galaxy S III (T-Mobile):    d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2351025">Galaxy S III (US Cellular): d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2028443">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2821017">Galaxy S IV Active (GSM):   jactivelte     mythi</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (AT&T):         jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Canada):       jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Cricket):      jflte          Nick0703</a>
@@ -75,12 +76,14 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">LG Optimus L7:              p705           coderzs</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto (Unified):             ghost          skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                     falcon         Wechy77, herna</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny, jereksel</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                    hammerhead     my95z34, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7 (2012):             grouper        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408829">Nexus 7 LTE (2013):         deb            zaclimon, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2190031">Nexus S:                    crespo         berni987654321</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2746417">Nook:                       acclaim        LowEndGeek</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2883064">Nook HD+:                   ovation        iPzard</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):                  m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):               m7spr          tdhite, MallardDuck</a>
@@ -96,7 +99,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2668282">One XL:                     evita          JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2811990">OnePlus One:                bacon          MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2678702">Oppo Find 5:                find5          eoghan2t7</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2746417">Nook Tablet:                acclaim        LowEndGeek</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2415997">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2306377">Razr M (Verizon):           moto_msm8960   timpohladthomas</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670076">Sensation:                  pyramid        bilal_liberty</a>
@@ -107,7 +109,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Active:              satsuma        Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2749055">Xperia L:                   taoshan        Olivier</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia LWW:                 coconut        Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2678107">Xperia M:                   nicki          Abhinav2</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini:                smultron       Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini Pro:            mango          Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo:                 hallon         Langes</a>
@@ -115,10 +116,8 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Langes, wedgess</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Langes, szl.kiev</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2835662">Xperia SP:                  huashan        neXusPRIME</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2677929">Xperia T:                   mint           Abhinav2</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z:            pollux_windy   bluefa1con</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2334047">Xperia Tablet Z LTE:        pollux         bluefa1con</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2678111">Xperia V:                   tsubasa        Abhinav2</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2883011">Xperia Tablet Z:            pollux_windy   skiwong20, bluefa1con</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2883011">Xperia Tablet Z LTE:        pollux         skiwong20, bluefa1con</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2208249">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2478003">Xperia Z1:                  honami         jeroenqui, Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>

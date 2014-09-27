@@ -103,10 +103,6 @@ case $device in
         cherries+=(70946_CM)
         # Camera2: Headset button shutter
         cherries+=(72185_CM)
-        # Add Screen Off option for buttons double-tap/long press (1 of 2)
-        cherries+=(69163_CM)
-        # Add Screen Off option for buttons double-tap/long press (2 of 2)
-        cherries+=(69164_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
@@ -161,10 +157,6 @@ case $device in
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
-    nozomi)
-        #FwNative: Bootlogo and screenshot fix for Xperia S
-        #cherries+=(3018_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-    ;;
     ariesve)
         #hwc: Blank and unblank primary on first boot
         cherries+=(56473_CM)
@@ -176,14 +168,6 @@ case $device in
         #cherries+=(1164_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         #native: add flag to disable legacy sensors fusion
         #cherries+=(1165_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-    ;;
-    janice | codina)
-        # Swap Storages
-        cherries+=(56515_CM)
-    ;;
-    janice)
-        # fix default colors for janice
-        # cherries+=(2154_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState

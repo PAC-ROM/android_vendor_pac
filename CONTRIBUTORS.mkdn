@@ -97,8 +97,8 @@ Devices:        Codename:       Maintainer:
 
 Acer:
 ---------------------------------------------------------------------
-* __Iconia Tab A510 (a510) :__ Shreps
-* __Iconia Tab A700 (a700) :__ Shreps
+* __Iconia Tab A510/A511 (a510/a511) :__ Shreps, Elibl
+* __Iconia Tab A700/A701 (a700/a701) :__ Shreps, Elibl
 
 
 Amazon:
@@ -121,7 +121,7 @@ ASUS:
 Barnes & Noble:
 ---------------------------------------------------------------------
 * __Nook (acclaim) :__ LowEndGeek
-* __Nook HD+ (ovation) :__ DarkStarr
+* __Nook HD+ (ovation) :__ iPzard
 
 
 HP:
@@ -166,7 +166,7 @@ LG:
 * __G2 (ls980) :__ Goldflame09
 * __G2 (Verizon) (vs980) :__ gr33nd3vil, tucstwo
 * __G-Pad (v500) :__ darkassain
-* __Nexus 4 (mako) :__ kd8bny
+* __Nexus 4 (mako) :__ kd8bny, jereksel
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
 * __Optimus 4X (p880) :__ Hid3away
 * __Optimus L5 (e610) :__ aidasaidas75
@@ -246,6 +246,7 @@ Samsung:
 * __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
 * __Galaxy S IV (GSM) (i9500) :__ Grarak
+* __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
 * __Galaxy S IV (AT&T) (jflte) :__ Nick0703
 * __Galaxy S IV (Canada) (jflte) :__ Nick0703
 * __Galaxy S IV (Cricket) (jflte) :__ Nick0703
@@ -263,12 +264,9 @@ Samsung:
 Sony:
 ---------------------------------------------------------------------
 * __Xperia L (taoshan) :__ Olivier
-* __Xperia M (nicki) :__ Abhinav1997
 * __Xperia SP (huashan) :__ neXusPRIME
-* __Xperia T (mint) :__ Abhinav1997
-* __Xperia Tablet Z LTE (pollux) :__ bluefa1con
-* __Xperia Tablet Z (pollux_windy) :__ bluefa1con
-* __Xperia V (tsubasa) :__ Abhinav1997
+* __Xperia Tablet Z LTE (pollux) :__ skiwong20, bluefa1con
+* __Xperia Tablet Z (pollux_windy) :__ skiwong20, bluefa1con
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
 * __Xperia Z1 (honami) :__ jeroenqui, Langes
 * __Xperia Z1 Compact (amami) :__ oshmoun
@@ -293,7 +291,7 @@ Xiaomi:
 
 
 
-Total Devices: 137
+Total Devices: 135
 
 Best regards
     szl.kiev

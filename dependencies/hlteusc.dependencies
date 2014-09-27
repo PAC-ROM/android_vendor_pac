@@ -7,8 +7,8 @@
   },
   {
     "account":      "CyanogenMod",
-    "repository":   "android_device_samsung_hlte",
-    "target_path":  "device/samsung/hlte",
+    "repository":   "android_device_samsung_hlteusc",
+    "target_path":  "device/samsung/hlteusc",
     "revision":     "cm-11.0"
   },
   {
