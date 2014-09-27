@@ -7,7 +7,7 @@
     import vendor.pac.Maintainers;
     import vendor.pac.Threads;
 
-    if (!device.getThreads() || !device.getMaintainers()) {
+    if (!device.getThreads() && !device.getMaintainers() && !device.downloadsPerWeek > 35) {
       devices.runNightly=false;
     }
 
@@ -15,18 +15,13 @@
 
 <manifest>
   <!-- Add new devices here -->
-  <device name="a510"/>
   <device name="amami"/>
   <device name="aries"/>
   <device name="bacon"/>
   <device name="d2lte"/>
-  <device name="d801"/>
-  <device name="deb"/>
   <device name="e973"/>
   <device name="e975"/>
-  <device name="e980"/>
   <device name="evita"/>
-  <device name="expressatt"/>
   <device name="falcon"/>
   <device name="flo"/>
   <device name="grouper"/>
@@ -43,11 +38,7 @@
   <device name="i9305"/>
   <device name="i9500"/>
   <device name="jactivelte"/>
-  <device name="jem"/>
   <device name="jflte"/>
-  <device name="ls970"/>
-  <device name="ls980"/>
-  <device name="m4"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m8"/>
@@ -59,12 +50,8 @@
   <device name="n5120"/>
   <device name="p5100"/>
   <device name="p5110"/>
-  <device name="pollux"/>
-  <device name="pollux_windy"/>
-  <device name="ruby"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
-  <device name="venturi"/>
   <device name="yuga"/>
 </manifest>

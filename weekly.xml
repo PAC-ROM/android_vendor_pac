@@ -2,29 +2,42 @@
 
 <!--
   This file describes which devices are to be built weekly. These devices include legacy devices that use our add/remove options found in
-  the manifest folder of the vendor_pac repo. The will run once a week and that is it. This is to save needed resources.
+  the manifest folder of the vendor_pac repo and low activity devices (less than 35 downloads per week). 
+  The will run once a week and that is it. This is to save needed resources.
 -->
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="a510"/>
   <device name="a700"/>
   <device name="anzu"/>
   <device name="ariesve"/>
   <device name="coconut"/>
+  <device name="d801"/>
   <device name="d803"/>
+  <device name="deb"/>
   <device name="e610"/>
-  <device name="p700"/>
+  <device name="e980"/>
+  <device name="expressatt"/>
   <device name="glacier"/>
   <device name="haida"/>
   <device name="hallon"/>
   <device name="huashan"/>
   <device name="i9082"/>
   <device name="iyokan"/>
+  <device name="jem"/>
+  <device name="ls970"/>
+  <device name="ls980"/>
+  <device name="m4"/>
   <device name="mango"/>
   <device name="otter"/>
   <device name="otter2"/>
   <device name="otterx"/>
+  <device name="p700"/>
   <device name="p705"/>
+  <device name="pollux"/>
+  <device name="pollux_windy"/>
+  <device name="ruby"/>
   <device name="s2ve"/>
   <device name="s2vep"/>
   <device name="satsuma"/>
@@ -33,6 +46,7 @@
   <device name="u8833"/>
   <device name="u8951"/>
   <device name="urushi"/>
+  <device name="venturi"/>
   <device name="ville"/>
   <device name="ypg1"/>
 </manifest>
