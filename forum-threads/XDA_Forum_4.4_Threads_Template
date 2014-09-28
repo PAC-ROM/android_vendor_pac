@@ -1,10 +1,12 @@
-THREAD TITLE: [ROM][OFFICIAL][KitKat 4.4.4][YOUR_DEVICE_CODENAME] PAC-man 4.4.4.RC-1
+THREAD TITLE:
+
+[ROM][OFFICIAL][KitKat 4.4.4][YOUR_DEVICE_CODENAME] PAC-ROM 4.4.4.RC-1
 
 THREAD:
 
 [CENTER][IMG]http://pac-rom.com/images/threads/thread_title_glass/Header_Glass.png[/IMG]
 
-[B]PAC-man ROM is a ROM built with our own tweaks and options, including picks and features from the best ROMs out there!
+[B]PAC-ROM is built with our own tweaks and options, including picks and features from the best ROMs out there!
 
 Why choose among ROMs, when you have All-in-One !!
 
@@ -71,7 +73,7 @@ Why choose among ROMs, when you have All-in-One !!
 
 * [COLOR="#5997b7"]Reboot your phone[/COLOR]
 
-* [COLOR="#5997b7"]Enjoy the latest version of PAC-man[/COLOR]
+* [COLOR="#5997b7"]Enjoy the latest version of PAC-ROM[/COLOR]
 
 [/INDENT]
 
@@ -82,7 +84,7 @@ Why choose among ROMs, when you have All-in-One !!
 
 [INDENT]
 
-* [URL="http://code.google.com/p/pac-man-development/"][COLOR="#5997b7"]Submit a bug[/COLOR][/URL]
+* [URL="http://jira.pac-rom.com/"][COLOR="#5997b7"]Submit a bug[/COLOR][/URL]
 
 * [URL="http://review.pac-rom.com/"][COLOR="#5997b7"]Submit a patch[/COLOR][/URL]
 
@@ -106,7 +108,7 @@ Why choose among ROMs, when you have All-in-One !!
 
 [INDENT]
 
-* [URL="INSERT_YOUR_PAC_FORUMS_LINK_HERE"][COLOR="#5997b7"]PAC-man ROM Downloads[/COLOR][/URL]
+* [URL="INSERT_YOUR_PAC_FORUMS_LINK_HERE"][COLOR="#5997b7"]PAC-ROM Downloads[/COLOR][/URL]
 
 * [URL="https://s.basketbuild.com/gapps"][COLOR="#5997b7"]GApps[/COLOR][/URL]
 
@@ -119,35 +121,33 @@ Why choose among ROMs, when you have All-in-One !!
 
 [INDENT]
 
-* [URL="http://pac-rom.com/#SharingPolicy"][COLOR="#9cce38"]PAC-man Rom Sharing Policy[/COLOR][/URL]
+* [URL="http://pac-rom.com/#SharingPolicy"][COLOR="#9cce38"]PAC-ROM Sharing Policy[/COLOR][/URL]
 
-* [URL="http://pac-rom.com/#Home"][COLOR="#9cce38"]PAC-Rom Site[/COLOR][/URL]
+* [URL="http://pac-rom.com/#Home"][COLOR="#9cce38"]PAC-ROM Site[/COLOR][/URL]
 
-* [URL="http://forum.pac-rom.com/"][COLOR="#9cce38"]PAC Forum[/COLOR][/URL]
+* [URL="http://forum.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Forum[/COLOR][/URL]
 
-* [URL="http://review.pac-rom.com/"][COLOR="#9cce38"]PAC Gerrit[/COLOR][/URL]
+* [URL="http://review.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Gerrit[/COLOR][/URL]
 
-* [URL="http://changelog.pac-rom.com/"][COLOR="#9cce38"]PAC Changelog[/COLOR][/URL]
+* [URL="http://changelog.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Changelog[/COLOR][/URL]
 
-* [URL="http://jenkins.pac-rom.com/"][COLOR="#9cce38"]PAC JENKINS[/COLOR][/URL]
+* [URL="http://jenkins.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM JENKINS[/COLOR][/URL]
 
-* [URL="http://code.google.com/p/pac-man-development/"][COLOR="#9cce38"]PAC Bug Reports[/COLOR][/URL]
+* [URL="http://jira.pac.rom.com/"][COLOR="#9cce38"]PAC-ROM Bug Reports/Feature Requests[/COLOR][/URL]
 
-* [URL="https://github.com/PAC-man"][COLOR="#9cce38"]PAC Github[/COLOR][/URL]
+* [URL="https://github.com/PAC-man"][COLOR="#9cce38"]PAC-ROM Github[/COLOR][/URL]
 
-* [URL="http://pac-rom.com/#Stats"][COLOR="#9cce38"]PAC Stats[/COLOR][/URL]
+* [URL="http://pac-rom.com/#Stats"][COLOR="#9cce38"]PAC-ROM Stats[/COLOR][/URL]
 
-* [URL="https://plus.google.com/102557242936341392082/posts"][COLOR="#9cce38"]PAC Google+[/COLOR][/URL]
+* [URL="https://plus.google.com/102557242936341392082/"][COLOR="#9cce38"]PAC-ROM Google+[/COLOR][/URL]
 
-* [URL="https://www.facebook.com/PACmanROMS"][COLOR="#9cce38"]PAC Facebook[/COLOR][/URL]
+* [URL="https://www.facebook.com/PACmanROMS"][COLOR="#9cce38"]PAC-ROM Facebook[/COLOR][/URL]
 
-* [URL="https://twitter.com/PACmanROM"][COLOR="#9cce38"]PAC Twitter[/COLOR][/URL]
+* [URL="https://twitter.com/pacroms"][COLOR="#9cce38"]PAC-ROM Twitter[/COLOR][/URL]
 
-* [URL="http://pac-rom.com/#BecomeAMaintainer"][COLOR="#9cce38"]Want to help Dev or Maintain for PAC-man[/COLOR][/URL]
+* [URL="http://pac-rom.com/#BecomeAMaintainer"][COLOR="#9cce38"]Want to become a device Maintainer for PAC-ROM?[/COLOR][/URL]
 
-* [URL="http://forum.xda-developers.com/showthread.php?t=2530388"][COLOR="#9cce38"]Try out PAC's Universal Gerrit Review Script[/COLOR][/URL]
-
-* [URL="http://forum.xda-developers.com/pac-rom"][COLOR="#9cce38"]PAC-Rom Central----Questions and Features broken down and seen by all PAC Devs on XDA[/COLOR][/URL]
+* [URL="http://forum.xda-developers.com/pac-rom"][COLOR="#9cce38"]PAC-ROM Central - Questions and Features broken down and seen by all PAC Devs on XDA[/COLOR][/URL]
 
 [/INDENT]
 
@@ -164,7 +164,7 @@ Why choose among ROMs, when you have All-in-One !!
 
 * [URL="https://github.com/AOSPA"][COLOR="#9cce38"]Paranoid Android[/COLOR][/URL]
 
-* [URL="https://github.com/PAC-man"][COLOR="#ebee00"]PAC-man Team[/COLOR][/URL]
+* [URL="https://github.com/PAC-man"][COLOR="#ebee00"]PAC-ROM Team[/COLOR][/URL]
 
 * [URL="https://github.com/SlimRoms"][COLOR="#9cce38"]SlimRoms[/COLOR][/URL]
 
@@ -197,8 +197,8 @@ Why choose among ROMs, when you have All-in-One !!
 
 [COLOR="#9cce38"][U]Support us with these banners:[/U][/COLOR]
 
-[IMG]http://pac-rom.com/images/banners/pac_banner_2.png[/IMG]
-
 [IMG]http://pac-rom.com/images/banners/pac_user_banner.png[/IMG]
+
+[IMG]http://pac-rom.com/images/banners/pac_poweredby_banner.png[/IMG]
 
 [/B][/CENTER]
