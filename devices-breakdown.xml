@@ -72,6 +72,9 @@
         <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Photon Q (Sprint, GSM), Razr M (Verizon)" CodeName="moto_msm8960"/>
     </vendor>
+    <vendor Name="Nvidia">
+        <device FullName="Shield Tablet" CodeName="wx_na_wf"/>
+    </vendor>
     <vendor Name="OnePlus">
     <device FullName="One" CodeName="bacon"/>
     </vendor>

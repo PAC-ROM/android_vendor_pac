@@ -49,4 +49,5 @@
   <device name="venturi"/>
   <device name="ville"/>
   <device name="ypg1"/>
+  <device name="wx_na_wf"/>
 </manifest>
