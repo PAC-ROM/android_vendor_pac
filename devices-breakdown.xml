@@ -80,7 +80,7 @@
     </vendor>
     <vendor Name="Oppo">
         <device FullName="Find5" CodeName="find5"/>
-        <device FullName="Find5" CodeName="n1"/>
+        <device FullName="N1" CodeName="n1"/>
     </vendor>
     <vendor Name="Samsung">
         <device FullName="Epic 4G Touch (Sprint)" CodeName="d710"/>
