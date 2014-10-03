@@ -6,16 +6,16 @@
     "revision":     "cm-11.0"
   },
   {
-    "account":      "bbelos",
+    "account":      "CyanogenMod",
     "repository":   "android_device_samsung_ypg1",
     "target_path":  "device/samsung/ypg1",
     "revision":     "cm-11.0"
   },
   {
-    "account":      "bbelos",
+    "account":      "CyanogenMod",
     "repository":   "android_kernel_samsung_aries",
-    "target_path":  "kernel/samsung/ypg13.0",
-    "revision":     "cm-11.0-ypg1-dev"
+    "target_path":  "kernel/samsung/ypg1",
+    "revision":     "cm-11.0"
   },
   {
     "account":      "CyanogenMod",

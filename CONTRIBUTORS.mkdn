@@ -193,6 +193,9 @@ Motorola:
 * __Photon Q (GSM) (moto_msm8960) :__ arrrghhh
 * __Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
 
+Nvidia:
+---------------------------------------------------------------------
+* __Shield Tablet (wx_na_wf) :__ joshuabg
 
 OnePlus:
 ---------------------------------------------------------------------
@@ -202,7 +205,7 @@ OnePlus:
 Oppo:
 ---------------------------------------------------------------------
 * __Find5 (find5) :__ eoghan2t7
-
+* __N1 (n1) :__ Trialsrider1
 
 Samsung:
 ---------------------------------------------------------------------
@@ -291,7 +294,7 @@ Xiaomi:
 
 
 
-Total Devices: 135
+Total Devices: 137
 
 Best regards
     szl.kiev

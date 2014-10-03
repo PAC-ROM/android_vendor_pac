@@ -3,7 +3,7 @@
         "remote":      "github",
         "account":     "CyanogenMod",
         "repository":  "android_device_samsung_jactivelte",
-        "target_path": "device/samsung/jflte",
+        "target_path": "device/samsung/jactivelte",
         "revision":    "cm-11.0"
     },
     {
