@@ -101,8 +101,6 @@ case $device in
         cherries+=(71199_CM)
         # mm-core: Enable HW mp3 decoder for msm7x30
         cherries+=(70946_CM)
-        # Camera2: Headset button shutter
-        cherries+=(72185_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
