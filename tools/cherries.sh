@@ -169,9 +169,15 @@ case $device in
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
-        PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
+        PATCH=tenderloin_13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
+        # Only-read-next-buffer-if-current-buffer-is-not-empty
+        PATCH=tenderloin_Only-read-next-buffer-if-current-buffer-is-not-empty
+        FOLDER=external/stagefright-plugins
         patch_it #add this function call for each patch
+        # Skip-PrepareforAdaptivePlayback-check
+        PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
+        FOLDER=hardware/qcom/media-caf
         # DownloadProvider: allow non-removable secondary storage
         cherries+=(72481_CM)
     ;;
