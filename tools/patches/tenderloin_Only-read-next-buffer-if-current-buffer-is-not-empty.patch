@@ -1,0 +1,28 @@
+From 6be2d791aedbfb0dda5dcd816606ef6cc6102add Mon Sep 17 00:00:00 2001
+From: shumash <shumashgeely@gmail.com>
+Date: Sat, 4 Oct 2014 15:55:43 -0600
+Subject: [PATCH] Only read next buffer if current buffer is not empty
+
+Change-Id: Iee6e0dac04221304c5a425afd5e7508c21f3061b
+AUTHOR: jcsullins
+---
+ utils/ffmpeg_source.cpp |    3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/utils/ffmpeg_source.cpp b/utils/ffmpeg_source.cpp
+index 5aaee53..7c1b648 100644
+--- a/utils/ffmpeg_source.cpp
++++ b/utils/ffmpeg_source.cpp
+@@ -79,8 +79,7 @@ int FFSource::read(unsigned char *buf, size_t size)
+         ALOGE("FFSource readAt failed");
+         return AVERROR(errno);
+     }
+-    assert(n >= 0);
+-    mOffset += n;
++    if (n > 0) mOffset += n;
+
+     return n;
+ }
+--
+1.7.9.5
+

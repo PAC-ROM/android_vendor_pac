@@ -1,0 +1,33 @@
+From ecf5d33391e3ade8e0f4f0ff1b0d535e91714cbb Mon Sep 17 00:00:00 2001
+From: shumash <shumashgeely@gmail.com>
+Date: Sat, 4 Oct 2014 16:12:56 -0600
+Subject: [PATCH] Skip PrepareforAdaptivePlayback check
+
+Change-Id: I0c4fdf6e4347e37aeffd859b7406824c86851e30
+AUTHOR: jcsullins
+---
+ mm-video/vidc/vdec/src/omx_vdec.cpp |    4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/mm-video/vidc/vdec/src/omx_vdec.cpp b/mm-video/vidc/vdec/src/omx_vdec.cpp
+index 2433aa8..bedf29a 100644
+--- a/mm-video/vidc/vdec/src/omx_vdec.cpp
++++ b/mm-video/vidc/vdec/src/omx_vdec.cpp
+@@ -4348,11 +4348,13 @@ OMX_ERRORTYPE  omx_vdec::get_extension_index(OMX_IN OMX_HANDLETYPE      hComp,
+     else if(!strncmp(paramName,"OMX.google.android.index.getAndroidNativeBufferUsage", sizeof("OMX.google.android.index.getAndroidNativeBufferUsage") - 1)) {
+         *indexType = (OMX_INDEXTYPE)OMX_GoogleAndroidIndexGetAndroidNativeBufferUsage;
+     }
++#if 0
+     else if(!strncmp(paramName,"OMX.google.android.index.prepareForAdaptivePlayback", sizeof("OMX.google.android.index.prepareForAdaptivePlayback") - 1)) {
+         *indexType = (OMX_INDEXTYPE)OMX_GoogleAndroidIndexPrepareForAdaptivePlayback;
+     }
+ #endif
+-	else {
++#endif
++    else {
+         DEBUG_PRINT_ERROR("Extension: %s not implemented\n", paramName);
+         return OMX_ErrorNotImplemented;
+     }
+--
+1.7.9.5
+
