@@ -1,6 +1,6 @@
-How to build in Ubuntu 14.04
-============================
-This guide applies to all variations of Ubuntu 14.04 64 bit. Do not use the 32 Bit version
+How to Prepare Your Machine For Build in Ubuntu 14.04 or 14.10
+==============================================================
+This guide applies to all variations of Ubuntu 14.04 or 14.10 (Mate, Kubuntu, Lubuntu, Xubuntu) or Linux Mint 17, ONLY 64 bit. Do not use the 32 Bit version
 
 General Instruction:
 --------------------
