@@ -20,7 +20,7 @@
 
 . /data/local/init.d.cfg
 
-if $loopy_smooth; then
+if $loopy_smoothness_tweak; then
     for n in 1 2; do
         NUMBER_OF_CHECKS=0; # Total number of rechecks before ending 1st loop
         SLEEP_TIME=0;       # Number of seconds between rechecking processes
