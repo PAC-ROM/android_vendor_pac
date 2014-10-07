@@ -1,6 +1,6 @@
-How to build in Ubuntu 14.04
-============================
-This guide applies to all variations of Ubuntu 14.04 64 bit. Do not use the 32 Bit version
+How to Prepare Your Machine For Build in Ubuntu 14.10
+=====================================================
+This guide applies to all variations of Ubuntu 14.10 (Mate, Kubuntu, Lubuntu, Xubuntu) or Linux Mint 17, ONLY 64 bit. Do not use the 32 Bit version
 
 General Instruction:
 --------------------
@@ -32,7 +32,7 @@ Note: When you copy and paste the command, please do not copy the $, This symbol
 
 3 - Now install all the tools to build:
 
-    $ sudo apt install bison build-essential bzip2 curl dpkg-dev flex g++-multilib git git-review gnupg gperf lib32bz2-1.0 lib32bz2-dev lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libbz2-1.0 libbz2-dev libc6-dev libghc-bzlib-dev libgl1-mesa-dev libgl1-mesa-glx:i386 libncurses5-dev libreadline6-dev libreadline6-dev:i386 libx11-dev:i386 libxml2-utils lzop mingw32 pngcrush python-markdown schedtool squashfs-tools tofrodos x11proto-core-dev xsltproc zip zlib1g-dev zlib1g-dev:i386
+    $ sudo apt install bison build-essential bzip2 curl dpkg-dev flex g++-multilib git git-review gnupg gperf lib32bz2-1.0 lib32bz2-dev lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libbz2-1.0 libbz2-dev libc6-dev libghc-bzlib-dev libgl1-mesa-dev libgl1-mesa-glx:i386 libncurses5-dev libreadline6-dev libreadline6-dev:i386 libx11-dev:i386 libxml2-utils lzop mingw32 pngcrush python-markdown schedtool squashfs-tools x11proto-core-dev xsltproc zip zlib1g-dev:i386
 
 4 - When finished installing the tools, we will create a symbolic link of libGL.so.1:
 
