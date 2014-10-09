@@ -15,6 +15,9 @@ ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
 -include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
 endif
 
+# Hardware information
+-include vendor/pac/config/hardware_info.mk
+
 # Screen recorder
 PRODUCT_PACKAGES += \
     libscreenrecorder \
