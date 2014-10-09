@@ -1,0 +1,751 @@
+#!/bin/bash
+# Hardware Info
+
+# You need to add the following values:
+#
+#     echo "ro.device.chipset=value"
+#     echo "ro.device.cpu_info=value"
+#     echo "ro.device.gpu=value"
+#     echo "ro.device.rear_cam=value"
+#     echo "ro.device.front_cam=value"
+#     echo "ro.device.screen_res=value"
+#
+
+# Acer
+# Iconia A510A511 "a510a511"
+if [ "$TARGET_DEVICE" == "a510" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra 3"
+    echo "ro.device.cpu_info=Quad-core 1.3 GHz Cortex-A9"
+    echo "ro.device.gpu=ULP GeForce"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1 MP (1280x960)"
+    echo "ro.device.screen_res=10.1' 1280x800 pixels (~149 ppi)"
+fi
+
+# Iconia A700A701 "a700a701"
+if [ "$TARGET_DEVICE" == "a700" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra 3"
+    echo "ro.device.cpu_info=Quad-core 1.3 GHz Cortex-A9"
+    echo "ro.device.gpu=ULP GeForce"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1 MP (1280x960)"
+    echo "ro.device.screen_res=10.1' 1920x1200 pixels (~244 ppi)"
+fi
+
+# Amazon
+# Kindle Fire "otter"
+if [ "$TARGET_DEVICE" == "otter" ] ; then
+    echo "ro.device.chipset=TI OMAP 4430"
+    echo "ro.device.cpu_info=Dual-core 1 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=No"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=7' 1024x600 pixels (~170 ppi)"
+fi
+
+# Kindle Fire 2 "otter2"
+if [ "$TARGET_DEVICE" == "otter2" ] ; then
+    echo "ro.device.chipset=TI OMAP 4430"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=No"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=7' 1024x600 pixels (~170 ppi)"
+fi
+
+# Kindle Fire HD 7 "tate"
+if [ "$TARGET_DEVICE" == "tate" ] ; then
+    echo "ro.device.chipset=TI OMAP 4460"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=1.2 MP (1280x1024)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=7' 1280x800 pixels (~216 ppi)"
+fi
+
+# Kindle Fire HD 8.9 "jem"
+if [ "$TARGET_DEVICE" == "jem" ] ; then
+    echo "ro.device.chipset=TI OMAP 4470"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX544"
+    echo "ro.device.rear_cam=1.2 MP (1280x1024)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=8.9' 1920x1200 pixels (~254 ppi)"
+fi
+
+# Asus
+# Nexus 7 "grouper"
+if [ "$TARGET_DEVICE" == "grouper" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra 3"
+    echo "ro.device.cpu_info=Quad-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=ULP GeForce"
+    echo "ro.device.rear_cam=1.2 MP (1280x960)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=7' 1280x800 pixels (~216 ppi)"
+fi
+
+# Nexus 7 (2013) "flo", LTE "deb"
+if [ "$TARGET_DEVICE" == "flo" ] || [ "$TARGET_DEVICE" == "deb" ]; then
+    echo "ro.device.chipset=Qualcomm Snapdragon S4Pro"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1.2 MP (1280x960)"
+    echo "ro.device.screen_res=7' 1920x1200 pixels (~323 ppi)"
+fi
+
+# Transformer Pad "tf300t"
+if [ "$TARGET_DEVICE" == "tf300t" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra 3 T30L"
+    echo "ro.device.cpu_info=Quad-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=ULP GeForce"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.2 MP (1280x960)"
+    echo "ro.device.screen_res=10.1' 1280x800 pixels (~149 ppi)"
+fi
+
+# Transformer Pad Infinity "tf700t"
+if [ "$TARGET_DEVICE" == "tf700t" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra 3 T33"
+    echo "ro.device.cpu_info=Quad-core 1.6 GHz Cortex-A9"
+    echo "ro.device.gpu=ULP GeForce"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=10.1' 1920x1080 pixels (~224 ppi)"
+fi
+
+# Barnes and Noble
+# Nook "acclaim"
+if [ "$TARGET_DEVICE" == "acclaim" ] ; then
+    echo "ro.device.chipset=TI OMAP4470"
+    echo "ro.device.cpu_info=Dual-core 1.3 GHz Cortex-A9"
+    echo "ro.device.gpu=POWERVR SGX544"
+    echo "ro.device.front_cam=?"
+    echo "ro.device.front_cam=?"
+    echo "ro.device.screen_res=7' 1440x900 pixels (~243 ppi)"
+fi
+
+# Nook HD+ "ovation"
+if [ "$TARGET_DEVICE" == "ovation" ] ; then
+    echo "ro.device.chipset=TI OMAP4470"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Cortex-A9"
+    echo "ro.device.gpu=POWERVR SGX544"
+    echo "ro.device.front_cam=?"
+    echo "ro.device.front_cam=?"
+    echo "ro.device.screen_res=9.7' 1920x1280 pixels (~256 ppi)"
+fi
+
+# HP
+# Touchpad "tenderloin"
+if [ "$TARGET_DEVICE" == "tenderloin" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8060 Snapdragon"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.front_cam=1.3 MP (1280x1024)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=9.7' 1024x768 pixels (~132 ppi)"
+fi
+
+# HTC
+# Amaze 4G "ruby"
+if [ "$TARGET_DEVICE" == "ruby" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8660 Snapdragon S3"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# Droid DNA "dlx"
+if [ "$TARGET_DEVICE" == "dlx" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon S4"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# One (AT&T, GSM, T-Mobile, Sprint, Verizon) "m7"
+if [ "$TARGET_DEVICE" == "m7" ] || [ "$TARGET_DEVICE" == "m7spr" ] || [ "$TARGET_DEVICE" == "m7vzw" ]; then
+    echo "ro.device.chipset=Qualcomm APQ8064T Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.9 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=4 MP (2688x1520)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=4.7' 1920x1080 pixels (~469 ppi)"
+fi
+
+# One (2014) "m8"
+if [ "$TARGET_DEVICE" == "m8" ]; then
+    echo "ro.device.chipset=Qualcomm MSM8974AB Snapdragon 801"
+    echo "ro.device.cpu_info=Quad-core 2.3 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=4 MP (2688x1520)"
+    echo "ro.device.front_cam=5 MP (2592x1944)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# One Max (GSM, Sprint, Verizon) "t6"
+if [ "$TARGET_DEVICE" == "t6" ] || [ "$TARGET_DEVICE" == "t6spr" ] || [ "$TARGET_DEVICE" == "t6vzw" ]; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.7 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=4 MP (2688x1520)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=5.9' 1920x1080 pixels (~373 ppi)"
+fi
+
+# One Mini "m4"
+if [ "$TARGET_DEVICE" == "m4" ]; then
+    echo "ro.device.chipset=Qualcomm Snapdragon 400"
+    echo "ro.device.cpu_info=Dual-core 1.4 GHz Krait 200"
+    echo "ro.device.gpu=Adreno 305"
+    echo "ro.device.rear_cam=4 MP (2688x1520)"
+    echo "ro.device.front_cam=1.6 MP (1280x960)"
+    echo "ro.device.screen_res=5.3' 1280x720 pixels (~342 ppi)"
+fi
+
+# One S "ville"
+if [ "$TARGET_DEVICE" == "ville" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8960 Snapdragon S4"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 225"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# One XL "evita"
+if [ "$TARGET_DEVICE" == "evita" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8960 Snapdragon S4"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 225"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.7' 1280x720 pixels (~312 ppi)"
+fi
+
+# Sensation "pyramid"
+if [ "$TARGET_DEVICE" == "pyramid" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8260 Snapdragon S3"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# Vivid "holiday"
+if [ "$TARGET_DEVICE" == "holiday" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8660 Snapdragon S3"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# LG
+# G-Pad "v500"
+if [ "$TARGET_DEVICE" == "v500" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Pro Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.7 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=8.3' 1920x1200 pixels (~273 ppi)"
+fi
+
+# Nexus 4 "mako"
+if [ "$TARGET_DEVICE" == "mako" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.7' 1280x768 pixels (~318 ppi)"
+fi
+
+# Nexus 5 "hammerhead"
+if [ "$TARGET_DEVICE" == "hammerhead" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8974 Snapdragon 800"
+    echo "ro.device.cpu_info=Quad-core 2.3 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~445 ppi)"
+fi
+
+# Optimus G (Canadian) "e973", (International) "e975"
+if [ "$TARGET_DEVICE" == "e973" ] || [ "$TARGET_DEVICE" == "e975" ] ; then
+    echo "ro.device.chipset=Qualcomm MDM9615/APQ8064"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.7' 1280x768 pixels (~318 ppi)"
+fi
+
+# Optimus G (Sprint) "ls970"
+if [ "$TARGET_DEVICE" == "ls970" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon S4"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.7' 1280x768 pixels (~318 ppi)"
+fi
+
+# Optimus G Pro "e980"
+if [ "$TARGET_DEVICE" == "e980" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064T Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.7 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=5.5' 1920x1080 pixels (~401 ppi)"
+fi
+
+# Optimus G2 (AT&T) "d800", (GSM) "d802", (Canadian) "d803", (Sprint) "ls980", (Verizon) "vs980", (T-Mobile) "d801"
+if [ "$TARGET_DEVICE" == "d800" ] || [ "$TARGET_DEVICE" == "d802" ] || [ "$TARGET_DEVICE" == "d803" ]
+                                  || [ "$TARGET_DEVICE" == "d801" ] || [ "$TARGET_DEVICE" == "vs980" ]
+                                  || [ "$TARGET_DEVICE" == "ls980" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8974 Snapdragon 800"
+    echo "ro.device.cpu_info=Quad-core 2.26 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=5.2' 1920x1080 pixels (~424 ppi)"
+fi
+
+# Optimus L5 "e610"
+if [ "$TARGET_DEVICE" == "e610" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM7227A Snapdragon S2"
+    echo "ro.device.cpu_info=Single-core 800 MHz Cortex-A5"
+    echo "ro.device.gpu=Adreno 20O"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=4' 480x320 pixels (~144 ppi)"
+fi
+
+# Optimus L7 "p700", "p705"
+if [ "$TARGET_DEVICE" == "p700" ] || [ "$TARGET_DEVICE" == "p705" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM7227A Snapdragon S2"
+    echo "ro.device.cpu_info=Single-core 1 GHz Cortex-A5"
+    echo "ro.device.gpu=Adreno 20O"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4.3' 800x480 pixels (~217 ppi)"
+fi
+
+# Motorola
+# Droid Maxx (Verizon-Developer Edition), Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition) "ghost"
+if [ "$TARGET_DEVICE" == "ghost" ] ; then
+    echo "ro.device.chipset=Qualcomm Snapdragon S4Pro"
+    echo "ro.device.cpu_info=Dual-core 1.7 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=10 MP (320x2432)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1280x720 pixels (~294 ppi)"
+fi
+
+# Droid Razr (GSM) "umts_spyder", (Verizon) "spyder"
+if [ "$TARGET_DEVICE" == "umts_spyder" ] || [ "$TARGET_DEVICE" == "spyder" ] ; then
+    echo "ro.device.chipset=TI OMAP 4430"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# Droid Razr M (Verizon), Photon Q 4G LTE "moto_msm8960"
+if [ "$TARGET_DEVICE" == "moto_msm8960" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8960"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 225"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# Moto E (Global GSM, Retail US) "condor"
+if [ "$TARGET_DEVICE" == "condor" ] ; then
+    echo "ro.device.chipset=Qualcomm Snapdragon 200"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A7"
+    echo "ro.device.gpu=Adreno 302"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=4.3' 960x540 pixels (~256 ppi)"
+fi
+
+# Moto G (Global GSM, Retail US) "falcon"
+if [ "$TARGET_DEVICE" == "falcon" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8226 Snapdragon 400"
+    echo "ro.device.cpu_info=Quad-core 1.2 GHz Cortex-A7"
+    echo "ro.device.gpu=Adreno 305"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.5' 1280x720 pixels (~326 ppi)"
+fi
+
+# Nvidia
+# Shield Tablet "wx_na_wf"
+if [ "$TARGET_DEVICE" == "wx_na_wf" ] ; then
+    echo "ro.device.chipset=Nvidia Tegra K1"
+    echo "ro.device.cpu_info=Quad-core 2.2 GHz Cortex-A15"
+    echo "ro.device.gpu=ULP GeForce Kepler (192 cores)"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=5 MP (2592х1944)"
+    echo "ro.device.screen_res=8' 1920x1200 pixels (~283 ppi)"
+fi
+
+# OnePlus
+# One "bacon"
+if [ "$TARGET_DEVICE" == "bacon" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801"
+    echo "ro.device.cpu_info=Quad-core 2.5 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=5 MP (2592х1944)"
+    echo "ro.device.screen_res=5.5' 1920x1080 pixels (~401 ppi)"
+fi
+
+# Oppo
+# Find5 "find5"
+if [ "$TARGET_DEVICE" == "find5" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=1.9 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# N1 "n1"
+if [ "$TARGET_DEVICE" == "n1" ] ; then
+    echo "ro.device.chipset=Qualcomm Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.7 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=13 MP (4128x3096)"
+    echo "ro.device.screen_res=5.9' 1920x1080 pixels (~373 ppi)"
+fi
+
+# Samsung
+# Galaxy Nexus (GSM) "maguro"
+if [ "$TARGET_DEVICE" == "maguro" ] ; then
+    echo "ro.device.chipset=TI OMAP 4460"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=4.65' 1280x720 pixels (~316 ppi)"
+fi
+
+# Galaxy Note 2 (AT&T) "t0lteatt", (GSM) "n7100", (LTE) "t0lte", (Sprint) "l900", (T-Mobile) "t0ltetmo", (US Cellular) "r950", (Verizon) "i605"
+if [ "$TARGET_DEVICE" == "t0lteatt" ] || [ "$TARGET_DEVICE" == "n7100" ] || [ "$TARGET_DEVICE" == "t0lte" ]
+                                      || [ "$TARGET_DEVICE" == "l900" ]  || [ "$TARGET_DEVICE" == "t0ltetmo" ]
+                                      || [ "$TARGET_DEVICE" == "r950" ]  || [ "$TARGET_DEVICE" == "i605" ] ; then
+    echo "ro.device.chipset=Samsung Exynos 4412 Quad"
+    echo "ro.device.cpu_info=Quad-core 1.6 GHz Cortex-A9"
+    echo "ro.device.gpu=Mali-400MP4"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.9 MP (1600x1200)"
+    echo "ro.device.screen_res=5.5' 1280x720 pixels (~267 ppi)"
+fi
+
+# Galaxy Note 3 (International, Sprint, T-Mobile, Verizon) "hlte"
+if [ "$TARGET_DEVICE" == "hlte" ] ; then
+    echo "ro.device.chipset=Qualcomm Snapdragon 800"
+    echo "ro.device.cpu_info=Quad-core 2.3 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=5.7' 1920x1080 pixels (~386 ppi)"
+fi
+
+# Galaxy Note 8.0 (GSM) "N5100", (LTE) "N5120", (Wi-Fi) "N5110"
+if [ "$TARGET_DEVICE" == "N5100" ] || [ "$TARGET_DEVICE" == "N5120" ] || [ "$TARGET_DEVICE" == "N5110" ] ; then
+    echo "ro.device.chipset=Samsung Exynos 4412 Quad"
+    echo "ro.device.cpu_info=Quad-core 1.6 GHz Cortex-A9"
+    echo "ro.device.gpu=Mali-400MP4"
+    echo "ro.device.rear_cam=5 MP (2592х1944)"
+    echo "ro.device.front_cam=1.3 MP (1280x960)"
+    echo "ro.device.screen_res=8' 1280x800 pixels (~189 ppi)"
+fi
+
+# Galaxy Player 4.0 "ypg1"
+if [ "$TARGET_DEVICE" == "ypg1" ] ; then
+    echo "ro.device.chipset=Samsung Hummingbird"
+    echo "ro.device.cpu_info=Single-core 1 GHz S5P-C111"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=3.15 MP (2048x1536)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4' 480x800 pixels (~233 ppi)"
+fi
+
+# Galaxy Player 5.0 "venturi"
+if [ "$TARGET_DEVICE" == "venturi" ] ; then
+    echo "ro.device.chipset=Samsung Hummingbird"
+    echo "ro.device.cpu_info=Single-core 1 GHz S5P-C111"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=3.15 MP (2048x1536)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=5' 480x800 pixels (~187 ppi)"
+fi
+
+# Galaxy S I Captivate "captivatemtd"
+if [ "$TARGET_DEVICE" == "captivatemtd" ] ; then
+    echo "ro.device.chipset=Samsung Hummingbird"
+    echo "ro.device.cpu_info=Single-core 1 GHz Cortex-A8"
+    echo "ro.device.gpu=PowerVR SGX540"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=4' 480x800 pixels (~233 ppi)"
+fi
+
+# Galaxy S II "i9100"
+if [ "$TARGET_DEVICE" == "i9100" ] ; then
+    echo "ro.device.chipset=Samsung Exynos 4210 Dual"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz Cortex-A9"
+    echo "ro.device.gpu=Mali-400"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 480x800 pixels (~217 ppi)"
+fi
+
+# Galaxy S II (AT&T) "skyrocket"
+if [ "$TARGET_DEVICE" == "skyrocket" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8260 Snapdragon"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.5' 480x800 pixels (~207 ppi)"
+fi
+
+# Galaxy S II (T-Mobile) "hercules"
+if [ "$TARGET_DEVICE" == "hercules" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8060 Snapdragon"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 220"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.52' 480x800 pixels (~206 ppi)"
+fi
+
+# Galaxy S II Plus "s2ve", NFC "s2vep"
+if [ "$TARGET_DEVICE" == "s2ve" ] || [ "$TARGET_DEVICE" == "s2vep" ] ; then
+    echo "ro.device.chipset=Broadcom BC28155"
+    echo "ro.device.cpu_info=Dual-core 1.2 GHz"
+    echo "ro.device.gpu=Broadcom VideoCore IV"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 480x800 pixels (~217 ppi)"
+fi
+
+# Galaxy S III (AT&T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon) "d2lte"
+if [ "$TARGET_DEVICE" == "d2lte" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8960 Snapdragon"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz"
+    echo "ro.device.gpu=Adreno 225"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=4.8' 1280x720 pixels (~306 ppi)"
+fi
+
+# Galaxy S III (GSM) "i9300", (LTE) "i9305"
+if [ "$TARGET_DEVICE" == "i9300" ] || [ "$TARGET_DEVICE" == "i9305" ] ; then
+    echo "ro.device.chipset=Samsung Exynos 4412 Quad"
+    echo "ro.device.cpu_info=Quad-core 1.4 GHz Cortex-A9"
+    echo "ro.device.gpu=Mali-400MP4"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2.1 MP (1600x1200)"
+    echo "ro.device.screen_res=4.8' 1280x720 pixels (~306 ppi)"
+fi
+
+# Galaxy S IV (AT&T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon) "jflte", and (GSM) "jactivelte"
+if [ "$TARGET_DEVICE" == "jflte" ] || [ "$TARGET_DEVICE" == "jactivelte" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064T Snapdragon 600"
+    echo "ro.device.cpu_info=Quad-core 1.9 GHz Krait 300"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# Galaxy S IV (GSM) "i9500"
+if [ "$TARGET_DEVICE" == "i9500" ] ; then
+    echo "ro.device.chipset=Samsung Exynos 5 Octa 5410"
+    echo "ro.device.cpu_info=Quad-core 1.6 GHz Cortex-A15 & quad-core 1.2 GHz Cortex-A7"
+    echo "ro.device.gpu=PowerVR SGX544MP3"
+    echo "ro.device.rear_cam=13 MP (4128x3096)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# Sony
+# Xperia L "taoshan"
+if [ "$TARGET_DEVICE" == "taoshan" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8230 Snapdragon"
+    echo "ro.device.cpu_info=Dual-core Single-core 1 GHz"
+    echo "ro.device.gpu=Adreno 305"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4.3' 854x480 pixels (~228 ppi)"
+fi
+
+# Xperia SP "huashan"
+if [ "$TARGET_DEVICE" == "huashan" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8960T Snapdragon"
+    echo "ro.device.cpu_info=Dual-core 1.7 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=4.6' 1280x720 pixels (~319 ppi)"
+fi
+
+# Xperia Tablet Z "pollux_windy", LTE "pollux"
+if [ "$TARGET_DEVICE" == "pollux_windy" ] || [ "$TARGET_DEVICE" == "pollux" ] ; then
+    echo "ro.device.chipset=Qualcomm Snapdragon APQ8064"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2.2 MP (1600x1200)"
+    echo "ro.device.screen_res=10.1' 1920x1080 pixels (~224 ppi)"
+fi
+
+# Xperia Z "yuga"
+if [ "$TARGET_DEVICE" == "yuga" ] ; then
+    echo "ro.device.chipset=Qualcomm MDM9215M/APQ8064"
+    echo "ro.device.cpu_info=Dual-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=13.1 MP (4128x3096)"
+    echo "ro.device.front_cam=2.2 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# Xperia Z1 "honami"
+if [ "$TARGET_DEVICE" == "honami" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8974 Snapdragon 800"
+    echo "ro.device.cpu_info=Quad-core 2.2 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=20.7 MP (5248х3936)"
+    echo "ro.device.front_cam=2.2 MP (1600x1200)"
+    echo "ro.device.screen_res=5' 1920x1080 pixels (~441 ppi)"
+fi
+
+# Xperia Z1 Compact "amami"
+if [ "$TARGET_DEVICE" == "amami" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8974 Snapdragon 800"
+    echo "ro.device.cpu_info=Quad-core 2.2 GHz Krait 400"
+    echo "ro.device.gpu=Adreno 330"
+    echo "ro.device.rear_cam=20.7 MP (5248х3936)"
+    echo "ro.device.front_cam=2.2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 1280x720 pixels (~342 ppi)"
+fi
+
+# Sony Ericsson
+# Live With Walkman "coconut"
+if [ "$TARGET_DEVICE" == "coconut" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=3.2' 480x320 pixels (~180 ppi)"
+fi
+
+# Xperia Active "satsuma"
+if [ "$TARGET_DEVICE" == "satsuma" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=3' 480x320 pixels (~192 ppi)"
+fi
+
+# Xperia Arc "anzu"
+if [ "$TARGET_DEVICE" == "anzu" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=4.2' 854x480 pixels (~233 ppi)"
+fi
+
+# Xperia Mini "smultron"
+if [ "$TARGET_DEVICE" == "smultron" ] ; then
+    echo "ro.device.chipset=Qualcomm QSD8255 Snapdragon"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=No"
+    echo "ro.device.screen_res=3' 480x320 pixels (~192 ppi)"
+fi
+
+# Xperia Mini Pro "mango"
+if [ "$TARGET_DEVICE" == "mango" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=3' 480x320 pixels (~192 ppi)"
+fi
+
+# Xperia Neo "hallon", Xperia Pro "iyokan"
+if [ "$TARGET_DEVICE" == "hallon" ] || [ "$TARGET_DEVICE" == "iyokan" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=3.7' 854x480 pixels (~265 ppi)"
+fi
+
+# Xperia Neo V "haida"
+if [ "$TARGET_DEVICE" == "haida" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=5 MP (2592x1944)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=3.7' 854x480 pixels (~265 ppi)"
+fi
+
+# Xperia Ray "urushi"
+if [ "$TARGET_DEVICE" == "urushi" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8255 Snapdragon S3"
+    echo "ro.device.cpu_info=Single-core 1 GHz Scorpion"
+    echo "ro.device.gpu=Adreno 205"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=VGA (640x480)"
+    echo "ro.device.screen_res=3.3' 854x480 pixels (~297 ppi)"
+fi
+
+# Xiaomi
+# MI 2 "aries"
+if [ "$TARGET_DEVICE" == "aries" ] ; then
+    echo "ro.device.chipset=Qualcomm APQ8064 Snapdragon"
+    echo "ro.device.cpu_info=Quad-core 1.5 GHz Krait"
+    echo "ro.device.gpu=Adreno 320"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=2 MP (1600x1200)"
+    echo "ro.device.screen_res=4.3' 1280x720 pixels (~342 ppi)"
+fi
+
+# Redmi 1S "armani"
+if [ "$TARGET_DEVICE" == "armani" ] ; then
+    echo "ro.device.chipset=Qualcomm MSM8228 Snapdragon"
+    echo "ro.device.cpu_info=Quad-core 1.6 GHz Cortex-A7"
+    echo "ro.device.gpu=Adreno 305"
+    echo "ro.device.rear_cam=8 MP (3264x2448)"
+    echo "ro.device.front_cam=1.6 MP (1600x1200)"
+    echo "ro.device.screen_res=4.7' 1280x720 pixels (~312 ppi)"
+fi
