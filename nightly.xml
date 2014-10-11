@@ -39,6 +39,7 @@
   <device name="i9500"/>
   <device name="jactivelte"/>
   <device name="jflte"/>
+  <device name="ls980"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m8"/>
@@ -50,6 +51,7 @@
   <device name="n5120"/>
   <device name="p5100"/>
   <device name="p5110"/>
+  <device name="ruby"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>

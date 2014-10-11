@@ -101,8 +101,6 @@ case $device in
         cherries+=(71199_CM)
         # mm-core: Enable HW mp3 decoder for msm7x30
         cherries+=(70946_CM)
-        # Camera2: Headset button shutter
-        cherries+=(72185_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
@@ -171,8 +169,16 @@ case $device in
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
-        PATCH=13-11-25_btservice-AdaperState-handle-ENABLED_READY
+        PATCH=tenderloin_13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
+        patch_it #add this function call for each patch
+        # Only-read-next-buffer-if-current-buffer-is-not-empty
+        PATCH=tenderloin_Only-read-next-buffer-if-current-buffer-is-not-empty
+        FOLDER=external/stagefright-plugins
+        patch_it #add this function call for each patch
+        # Skip-PrepareforAdaptivePlayback-check
+        PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
+        FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
         # DownloadProvider: allow non-removable secondary storage
         cherries+=(72481_CM)
