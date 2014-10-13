@@ -16,6 +16,14 @@ Instructions for sending to Gerrit
     git commit -m "Message"
     git-review
 
+OR you can use the convential method:
+
+    cd <project>
+    <make edits>
+    git add -A
+    git commit -m "Message"
+    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-4.4
+
 
 Register at [PAC-man Gerrit](http://review.pac-rom.com) and use the username that you registered under with git-review. Make sure to add your ssh keys to your Gerrit profile.
 
