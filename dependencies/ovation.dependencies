@@ -8,7 +8,7 @@
           },
           {
             "remote":       "github",
-            "account":      "DarkStarr",
+            "account":      "CyanogenMod",
             "repository":   "android_device_bn_common",
             "target_path":  "device/bn/common",
             "revision":     "cm-11.0"
