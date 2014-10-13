@@ -92,21 +92,17 @@ CM_RELEASE := true
 CM_BUILD := $(BOARD)
 
 # PAC version
-PAC_VERSION_MAJOR = 4
-PAC_VERSION_MINOR = 4.4
-PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else echo "RC-2"; fi)
-PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
+PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$//;s/ /./g')
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pac.version=$(PAC_VERSION) \
-    ro.pacrom.version=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S) \
-    ro.modversion=pac_$(BOARD)_$(PAC_VERSION)_$(shell date +%Y%m%d-%H%M%S)
+    ro.pacrom.version=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S) \
+    ro.modversion=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.url=http://stats.pac-rom.com \
     ro.pacstats.name=PAC-man \
-    ro.pacstats.version=$(PAC_VERSION) \
+    ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
 
 # Disable ADB authentication and set root access to Apps and ADB
