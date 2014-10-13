@@ -1,5 +1,19 @@
 #!/bin/bash
 
+#Pac version
+export PAC_VERSION_MAJOR="KK"
+export PAC_VERSION_MINOR="RC-2"
+export PAC_VERSION_MAINTENANCE="dev"
+# Acceptible maitenance versions are; Stable, Dev, Nightly
+
+# pac Version Logic
+if [ -s ~/PACname ]; then
+    export PAC_MAINTENANCE=$(cat ~/PACname)
+else
+    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
+fi
+export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+
 usage()
 {
     echo -e ""
