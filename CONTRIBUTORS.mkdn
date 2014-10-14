@@ -85,6 +85,7 @@ Graphics:
 --------------
 * __ATMOSPH3AR__
 * __DarkStarr__
+* __GeneralTK1__
 * __jaekar99__
 * __One2thTexan__
 * __pvyParts__
