@@ -52,6 +52,7 @@ add_lunch_combo pac_p705-userdebug
 add_lunch_combo pac_p880-userdebug
 add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs980-userdebug
+add_lunch_combo pac_w7-userdebug
 # Motorola
 add_lunch_combo pac_falcon-userdebug
 add_lunch_combo pac_ghost-userdebug
