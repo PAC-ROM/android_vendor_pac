@@ -6,10 +6,10 @@
     "revision":    "pacman"
   },
   {
-    "account":     "CyanogenMod",
-    "repository":  "android_device_sony_qcom-common",
+    "account":     "neXusPRIME",
+    "repository":  "android_device_sony_lbqcom-common",
     "target_path": "device/sony/qcom-common",
-    "revision":    "cm-11.0"
+    "revision":    "master"
   },
   {
     "account":     "DooMLoRD",
@@ -18,10 +18,10 @@
     "revision":    "sony_sources"
   },
   {
-    "account":     "CyanogenMod",
-    "repository":  "android_device_sony_common",
+    "account":     "neXusPRIME",
+    "repository":  "android_device_sony_lbcommon",
     "target_path": "device/sony/common",
-    "revision":    "cm-11.0"
+    "revision":    "master"
   },
   {
     "account":     "CyanogenMod",
