@@ -12,10 +12,10 @@
     "revision":    "master"
   },
   {
-    "account":     "DooMLoRD",
-    "repository":  "android_kernel_sony_msm8960t",
+    "account":     "neXusPRIME",
+    "repository":  "android_kernel_sony_msm8960t_pac",
     "target_path": "kernel/sony/msm8960t",
-    "revision":    "sony_sources"
+    "revision":    "master"
   },
   {
     "account":     "neXusPRIME",
