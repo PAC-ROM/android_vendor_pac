@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -48,9 +48,8 @@ for x in "/system/xbin" "/data"; do
 done;
 
 if [ ! -e $cfg_file ]; then
-    sysrw;
     cat >> $cfg_file << EOF
-# ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+# ================ Copyright (C) 2014 PAC-Roms Project ================
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -72,6 +71,16 @@ paclog="/data/PACLogs/tweaks.log"
 read_ahead_file="/sys/devices/virtual/bdi/179:0/read_ahead_kb"
 script_helpers="/system/etc/helpers.sh"
 sysctl_conf="/system/etc/sysctl.conf"
+
+
+# MISC
+STL=`ls -d /sys/block/stl*`
+BML=`ls -d /sys/block/bml*`
+MMC=`ls -d /sys/block/mmc*`
+MEM=`busybox free|grep Mem | awk '{print $2}'`
+SQL=`busybox find /d* -iname "*.db"`
+TSC="/sys/class/touch/switch/set_touchscreen"
+KERNEL="/sys/kernel/debug/sched_features"
 
 
 # Booleans
@@ -114,7 +123,6 @@ empty_app_mem=8192
 read_ahead_kb=2048
 
 EOF
-    sysro;
 fi;
 
 echo "PACman ROM Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )\n\n" | tee -a $LOG;
