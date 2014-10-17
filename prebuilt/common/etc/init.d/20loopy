@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,9 +18,9 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init/init.cfg
 
-if $loopy_smoothness_tweak; then
+if $vm; then
     for n in 1 2; do
         NUMBER_OF_CHECKS=0; # Total number of rechecks before ending 1st loop
         SLEEP_TIME=0;       # Number of seconds between rechecking processes

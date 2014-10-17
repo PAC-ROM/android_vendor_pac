@@ -6,7 +6,6 @@
 export C=/tmp/backupdir
 export S=/system
 export V=4.4
-export cfg_file="/data/local/init.d.cfg"
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
@@ -74,13 +73,6 @@ xposed_restore() {
     fi;
 }
 
-# Fix Permission of cfg_file
-fix_init() {
-    if [ -e $cfg_file ]; then
-        chmod 644 $cfg_file
-    fi;
-}
-
 # Execute /system/addon.d/*.sh scripts with $1 parameter
 run_stage() {
 for script in $(find /tmp/addon.d/ -name '*.sh' |sort -n); do
@@ -111,7 +103,6 @@ case "$1" in
     fi
     check_blacklist tmp
     xposed_restore
-    fix_init
     run_stage pre-restore
     run_stage restore
     run_stage post-restore

@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,17 +18,15 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
-
-x="/sys/class/touch/switch/set_touchscreen"
+. /data/pac/init/init.cfg
 
 if $touch; then
-    if [ -e $x ]; then
-        echo "7025" >> $x;
-        echo "8002" >> $x;
-        echo "11001" >> $x;
-        echo "13030" >> $x;
-        echo "14005" >> $x;
+    if [ -e $TSC ]; then
+        echo "7025" >> $TSC;
+        echo "8002" >> $TSC;
+        echo "11001" >> $TSC;
+        echo "13030" >> $TSC;
+        echo "14005" >> $TSC;
         echo "* Touch Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
     else
         echo "* ERROR - Touch Tweaks is not supported by your device, we are sorry" | tee -a $paclog;

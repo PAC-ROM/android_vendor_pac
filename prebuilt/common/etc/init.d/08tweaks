@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,7 +18,7 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init/init.cfg
 
 if $tweaks; then
     chown 0.0 /sys/kernel/mm/ksm/pages_to_scan;
@@ -27,7 +27,11 @@ if $tweaks; then
     chmod 664 /sys/kernel/mm/ksm/sleep_millisecs;
     chown 0.0 /sys/kernel/mm/ksm/run;
     chmod 664 /sys/kernel/mm/ksm/run;
+    echo "0" >> /proc/sys/kernel/hung_task_timeout_secs;
     echo "0" >> /proc/sys/kernel/kernel.sched_child_runs_first;
+    echo "0" >> /proc/sys/kernel/panic;
+    echo "0" >> /proc/sys/kernel/panic_on_oops;
+    echo "0" >> /proc/sys/kernel/softlockup_panic;
     echo "0" >> /proc/sys/vm/laptop_mode;
     echo "0" >> /proc/sys/vm/mmap_min_addr;
     echo "0" >> /proc/sys/vm/oom_kill_allocating_task;
@@ -44,6 +48,7 @@ if $tweaks; then
     echo "10" >> /proc/sys/fs/lease-break-time;
     echo "10" >> /proc/sys/vm/vfs_cache_pressure;
     echo "1000" >> /proc/sys/vm/dirty_expire_centisecs;
+    echo "100000" >> /proc/sys/kernel/kernel.sched_wakeup_granularity_ns;
     echo "10240" >> /proc/sys/fs/fs.inotify.max_user_watches;
     echo "128" >> /proc/sys/kernel/kernel.random.read_wakeup_threshold;
     echo "12800" >> /sys/kernel/mm/ksm/pages_to_scan;
@@ -51,11 +56,13 @@ if $tweaks; then
     echo "15834233" >> /proc/sys/kernel/sched_features;
     echo "18000000" >> /proc/sys/kernel/kernel.sched_latency_ns;
     echo "2000" >> /proc/sys/vm/dirty_writeback_centisecs;
+    echo "200000" >> /proc/sys/kernel/kernel.sched_min_granularity_ns;
     echo "256" >> /proc/sys/fs/fs.inotify.max_user_instances;
     echo "256" >> /proc/sys/kernel/kernel.random.write_wakeup_threshold;
     echo "256000" >> /proc/sys/kernel/kernel.sched_shares_ratelimit;
     echo "3" >> /proc/sys/vm/drop_caches;
     echo "32000" >> /proc/sys/fs/fs.inotify.max_queued_events;
+    echo "400000" >> /proc/sys/kernel/kernel.sched_latency_ns;
     echo "4096" >> /proc/sys/vm/vm.min_free_kbytes;
     echo "5" >> /proc/sys/vm/min_free_order_shift;
     echo "524288" >> /proc/sys/fs/fs.file-max;
@@ -64,7 +71,20 @@ if $tweaks; then
     echo "64000" >> /proc/sys/kernel/msgmni;
     echo "65000" >> /proc/sys/kernel/kernel.msgmax;
     echo "8" >> /proc/sys/vm/page-cluster;
-    echo "85" >> /proc/sys/vm/dirty_background_ratio;
-    echo "90" >> /proc/sys/vm/dirty_ratio;
+
+    if [ "$MEM" -lt 512000 ]; then
+       echo "15" >> /proc/sys/vm/dirty_background_ratio;
+       echo "30" >> /proc/sys/vm/dirty_ratio;
+       echo "0" >> /proc/sys/net/ipv4/tcp_timestamps;
+    elif [ "$MEM" -lt 1024000 ]; then
+       echo "10" >> /proc/sys/vm/dirty_background_ratio;
+       echo "20" >> /proc/sys/vm/dirty_ratio;
+       echo "1" >> /proc/sys/net/ipv4/tcp_timestamps;
+    else
+       echo "5" >> /proc/sys/vm/dirty_background_ratio;
+       echo "10" >> /proc/sys/vm/dirty_ratio;
+       echo "1" >> /proc/sys/net/ipv4/tcp_timestamps;
+    fi;
+
     echo "* VM & Kernel Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;

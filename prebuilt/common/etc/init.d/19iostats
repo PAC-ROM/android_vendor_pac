@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,14 +18,20 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init/init.cfg
 
 if $iostats; then
-    for X in "/sys/block/mmc*"; do
-        if [ -e ${X}/queue ]; then
-            busybox chmod 644 ${X}/queue/*;
-            echo "0" >> ${X}/queue/iostats;
-        fi;
+    for X in $STL $BML $MMC; do
+        busybox chmod 644 ${X}/queue/*;
+        echo "0" >> ${X}/queue/iostats;
+        echo "0" >> ${X}/queue/rotational;
+        echo "1" >> ${X}/queue/iosched/back_seek_penalty;
+        echo "1" >> ${X}/queue/iosched/fifo_batch;
+        echo "1" >> ${X}/queue/iosched/low_latency;
+        echo "1" >> ${X}/queue/iosched/writes_starved;
+        echo "3" >> ${X}/queue/iosched/slice_idle;
+        echo "16" >> ${X}/queue/iosched/quantum;
+        echo "8192" >> ${X}/queue/nr_requests;
         echo "* IO Stats Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
     done;
 fi;

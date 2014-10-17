@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,9 +18,9 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init/init.cfg
 
-if $sd_boost && [ -e $read_ahead_file ]; then
-    echo $read_ahead_kb >> $read_ahead_file;
+if $sdboost && [ -e $aheadfile ]; then
+    echo $ahead >> $aheadfile;
     echo "* SDCard Boost Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;

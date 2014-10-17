@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,16 +18,16 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init/init.cfg
 
-LOG="/data/PACLogs/sqlite.log"
+LOG="/data/pac/init/sqlite.log"
 
 if $sqlite3; then
     if [ -e $LOG ]; then
         rm $LOG;
     fi;
     echo "SQLite database VACUUM and REINDEX started at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
-    for i in `busybox find /d* -iname "*.db"`; do
+    for i in $SQL ; do
         /system/xbin/sqlite3 $i 'VACUUM;';
         resVac=$?
         if [ $resVac == 0 ]; then

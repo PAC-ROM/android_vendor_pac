@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,10 +18,10 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
-. $script_helpers
+. /data/pac/init/init.cfg
+. $SCP
 
-if $fix_permissions; then
+if $permissions; then
     fix_permissions;
     echo "* Fix Permisions Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;

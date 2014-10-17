@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,39 +18,38 @@
  =====================================================================
 '
 
-DIR="/data/PACLogs";
+DIR="/data/pac/init";
 LOG="$DIR/tweaks.log";
-cfg_file="/data/local/init.d.cfg";
-script_helpers="/system/etc/helpers.sh";
+CFG="$DIR/init.cfg";
+SCP="/system/etc/helpers.sh";
 
-. $script_helpers;
+. $SCP;
 
-# Fix Permission of cfg_file on boot
-busybox chmod 644 $cfg_file;
-busybox chmod 644 $script_helpers;
+# Fix Permissions
+busybox chmod 644 $CFG;
+busybox chmod 644 $SCP;
 
 # Check if the folder exists
-if [ ! -e $DIR ]; then
+if [ ! -d $DIR ]; then
     mkdir $DIR;
 fi;
 
 # Check if the file exists
-if [ -e $LOG ]; then
+if [ -f $LOG ]; then
     rm $LOG;
 fi;
 
 # Fisrt Boot
 for x in "/system/xbin" "/data"; do
-    if [ -e ${x}/firstboot.sh ]; then
+    if [ -f ${x}/firstboot.sh ]; then
         sh ${x}/firstboot.sh;
         rm -f ${x}/firstboot.sh;
     fi;
 done;
 
-if [ ! -e $cfg_file ]; then
-    sysrw;
-    cat >> $cfg_file << EOF
-# ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+if [ ! -f $CFG ]; then
+    cat >> $CFG << EOF
+# ================ Copyright (C) 2014 PAC-Roms Project ================
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -68,53 +67,45 @@ if [ ! -e $cfg_file ]; then
 # =====================================================================
 
 # Libraries
-paclog="/data/PACLogs/tweaks.log"
-read_ahead_file="/sys/devices/virtual/bdi/179:0/read_ahead_kb"
-script_helpers="/system/etc/helpers.sh"
+paclog="/data/pac/init/tweaks.log"
+aheadfile="/sys/devices/virtual/bdi/179:0/read_ahead_kb"
+SCP="/system/etc/helpers.sh"
 sysctl_conf="/system/etc/sysctl.conf"
 
 
+# MISC
+STL=`ls -d /sys/block/stl*`
+BML=`ls -d /sys/block/bml*`
+MMC=`ls -d /sys/block/mmc*`
+MEM=`busybox free|grep Mem | awk '{print $2}'`
+SQL=`busybox find /d* -iname "*.db"`
+TSC="/sys/class/touch/switch/set_touchscreen"
+KERNEL="/sys/kernel/debug/sched_features"
+
+
 # Booleans
-zipalign_apks=false
-enable_sysctl=false
-setrenice=false
-file_system_speedups=false
-free_mem=false
-clear_data_cache=false
-fix_permissions=false
-tweaks=false
-enable_cron=false
-sd_boost=false
+zipalign=false
+permissions=false
+sysctl=false
+cache=false
+cron=false
+filesystem=false
 battery=false
 touch=false
-minfree=false
 gpurender=false
 sleepers=false
 journalism=false
 sqlite3=false
 wifisleep=false
 iostats=false
-loopy_smoothness_tweak=false
-speedy_modified=false
-
-
-# Memory Thresholds
-foreground_app_mem=2048
-visible_app_mem=3072
-perceptible_app_mem=4096
-heavy_weight_app_mem=4096
-secondary_server_mem=6144
-backup_app_mem=6144
-home_app_mem=6144
-hidden_app_mem=7168
-empty_app_mem=8192
-
-
-# SD Boost Value
-read_ahead_kb=2048
+sdboost=false
+ahead=2048
+setrenice=false
+kernel=false
+vm=false
+net=false
 
 EOF
-    sysro;
 fi;
 
 echo "PACman ROM Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )\n\n" | tee -a $LOG;
