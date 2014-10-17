@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -21,21 +21,18 @@
 . /data/local/init.d.cfg
 
 if $clear_data_cache; then
-    busybox chmod 000 /data/anr/;
-    busybox chmod 000 /data/data/com.google.android.location/files/cache.cell;
-    busybox chmod 000 /data/data/com.google.android.location/files/cache.wifi;
-    busybox chmod 000 /data/system/appusagestats/;
-    busybox chmod 000 /data/system/dropbox/;
-    busybox chmod 000 /data/system/usagestats/;
-    busybox chmod 000 /data/system/userbehavior.db;
-    busybox chmod 000 /data/tombstones/;
     busybox find /data/data -type d -iname "*cache*" -maxdepth 2 -mindepth 2 -exec busybox rm -rf {} ';';
-    busybox rm -r /data/anr/*;
+    busybox rm -f /data/anr/*.*;
+    busybox rm -f /data/cache/*.*;
+    busybox rm -f /data/log/*.*;
+    busybox rm -f /data/mlog/*;
+    busybox rm -f /data/tombstones/*;
+    busybox rm -f /data/backup/pending/*;
     busybox rm -r /data/local/tmp/*;
     busybox rm -r /data/system/appusagestats/*;
     busybox rm -r /data/system/dropbox/*;
-    busybox rm -r /data/system/usagestats/*;
-    busybox rm -r /data/tmp/*;
-    busybox rm -r /data/tombstones/*;
+    busybox rm -f /data/system/usagestats/*;
+    busybox chmod 700 /data/system/dropbox;
+    busybox chmod 700 /data/system/usagestats;
     echo "* RemoveCache Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;
