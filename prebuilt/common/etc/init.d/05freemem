@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -18,11 +18,10 @@
  =====================================================================
 '
 
-. /data/local/init.d.cfg
+. /data/pac/init.cfg
 
-minfree="/sys/module/lowmemorykiller/parameters/minfree"
-
-if $free_mem && busybox [ -e $minfree ]; then
+if $freemem && [ -e $minfree ]; then
+    echo "0,1,2,4,6,15" >> $adj;
     echo $foreground_app_mem,$visible_app_mem,$perceptible_app_mem,$secondary_server_mem,$hidden_app_mem,$empty_app_mem >> $minfree;
     setprop ro.FOREGROUND_APP_MEM $foreground_app_mem;
     setprop ro.VISIBLE_APP_MEM $visible_app_mem;
