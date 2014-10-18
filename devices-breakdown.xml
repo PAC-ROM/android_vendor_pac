@@ -141,5 +141,6 @@
     </vendor>
     <vendor Name="Xiaomi">
         <device FullName="MI 2" CodeName="aries"/>
+        <device FullName="Redmi 1S" CodeName="armani"/>
     </vendor>
 </devices>
