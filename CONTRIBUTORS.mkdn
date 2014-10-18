@@ -292,10 +292,11 @@ Sony Ericsson:
 Xiaomi:
 ---------------------------------------------------------------------
 * __MI 2 (aries) :__ M1cha
+* __HM 1S (armani) :__ Dark_Nightmare, Kra1o5, fefifofum
 
 
 
-Total Devices: 137
+Total Devices: 138
 
 Best regards
     szl.kiev

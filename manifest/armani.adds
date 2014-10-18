@@ -1,0 +1,9 @@
+[
+    {
+        "remote":       "github",
+        "account":      "armani-dev",
+        "repository":   "android_hardware_libhardware_legacy",
+        "target_path":  "hardware/libhardware_legacy",
+        "revision":     "cm-11.0"
+    }
+]
