@@ -94,7 +94,7 @@ CM_BUILD := $(BOARD)
 # PAC version
 PAC_VERSION_MAJOR = 4
 PAC_VERSION_MINOR = 4.4
-PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else echo "RC-1"; fi)
+PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else echo "RC-2"; fi)
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -187,7 +187,7 @@ echo -e ${ylwrev}"                                   LINK                       
 echo -e ${cya}"http://pac-rom.com/ota/?device=$DEVICE&version=$PACVERSION&md5=$MD5VAL"${txtrst}
 echo -e ${ylwrev}"                                 END LINK                                       "${txtrst}
 echo -e "Make sure you use a direct linkable host, got problems"
-echo -e "with the OTA? Contact ${txtbld}pvyParts${txtrst} in hangouts."
+echo -e "with the OTA? Contact ${txtbld}MaDc0w, Nick0703 or pvyParts${txtrst} in hangouts."
 echo -e ""
 )
 
