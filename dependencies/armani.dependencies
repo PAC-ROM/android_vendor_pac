@@ -1,0 +1,30 @@
+[
+    {
+        "remote":       "github",
+        "account":      "darknightmare",
+        "repository":   "android_device_xiaomi_armani",
+        "target_path":  "device/xiaomi/armani",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "CyanogenMod",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "armani-dev",
+        "repository":   "android_kernel_xiaomi_armani",
+        "target_path":  "kernel/xiaomi/armani",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "cm-11.0"
+    }
+]
