@@ -24,6 +24,12 @@
         "revision":     "cm-11.0"
     },
     {
+        "account":      "CyanogenMod",
+        "repository":   "android_hardware_qcom_fm",
+        "target_path":  "hardware/qcom/fm",
+        "revision":     "cm-11.0"
+    },
+    {
         "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
