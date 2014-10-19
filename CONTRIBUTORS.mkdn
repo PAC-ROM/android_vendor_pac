@@ -141,9 +141,9 @@ HTC:
 * __One (T-Mobile) (m7) :__ MaDc0w, WildfireDEV
 * __One (Verizon) (m7vzw) :__ Flyhalf205
 * __One (2014) (m8) :__ DREWHAMM974, Owain94
-* __One Max (GSM)(t6) :__ awidawad
-* __One Max (Sprint)(t6spr) :__ awidawad
-* __One Max (Verizon)(t6vzw) :__ awidawad
+* __One Max (GSM)(t6) :__ awidawad, Flyhalf205
+* __One Max (Sprint)(t6spr) :__ awidawad, Flyhalf205
+* __One Max (Verizon)(t6vzw) :__ awidawad, Flyhalf205
 * __One Mini (m4) :__ WildfireDEV
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ bilal_liberty

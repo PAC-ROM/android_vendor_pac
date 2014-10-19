@@ -43,6 +43,9 @@
   <device name="s2vep"/>
   <device name="satsuma"/>
   <device name="smultron"/>
+  <device name="t6"/>
+  <device name="t6spr"/>
+  <device name="t6vzw"/>
   <device name="tenderloin"/>
   <device name="u8833"/>
   <device name="u8951"/>

@@ -41,6 +41,7 @@
   <device name="ls980"/>
   <device name="m7"/>
   <device name="m7spr"/>
+  <device name="m7vzw"/>
   <device name="m8"/>
   <device name="mako"/>
   <device name="moto_msm8960_jbbl"/>
