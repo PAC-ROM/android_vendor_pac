@@ -107,14 +107,16 @@ case $device in
         cherries+=(71199_CM)
         # mm-core: Enable HW mp3 decoder for msm7x30
         cherries+=(70946_CM)
+        # ti: Add interface_mtu request
+        cherries+=(69839_CM)
+        # libbt-vendor: Cleanup handling of all commands
+        cherries+=(73157_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
         cherries+=(71674_CM)
-        # sensors: as3676: Allow disabling hardware ALS switch
-        PATCH=14-09-14_sensors-as3676-Allow-disabling-hardware-ALS-switch
-        FOLDER=hardware/sony/DASH
-        patch_it
+        # linearlayout: fix measurement of childrens when parent and childrens have exactly the same pixels
+        cherries+=(74436_CM)
         ## move apps to SD patches
         # Enable moving applications to an external volume
         cherries+=(1736_PAC)
