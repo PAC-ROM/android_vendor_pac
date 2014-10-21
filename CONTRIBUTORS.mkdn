@@ -182,6 +182,8 @@ Motorola:
 ---------------------------------------------------------------------
 * __Droid Razr (GSM) (umts_spyder) :__ Skiwong20
 * __Droid Razr(Verizon) (spyder) :__ Skiwong20
+* __Moto E (Global GSM) (condor) :__ ashwin007
+* __Moto E (Retail US GSM) (condor) :__ ashwin007
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
 * __Moto X (GSM) (ghost) :__ Skiwong20, timpohladthomas
@@ -295,7 +297,7 @@ Xiaomi:
 
 
 
-Total Devices: 137
+Total Devices: 139
 
 Best regards
     szl.kiev

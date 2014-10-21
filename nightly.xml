@@ -18,6 +18,7 @@
   <device name="amami"/>
   <device name="aries"/>
   <device name="bacon"/>
+  <device name="condor"/>
   <device name="d2lte"/>
   <device name="e973"/>
   <device name="e975"/>
