@@ -1,0 +1,10 @@
+[
+{
+"remote": "github",
+"account": "CyanogenMod",
+"repository": "android_hardware_qcom_display",
+"target_path": "hardware/qcom/display",
+"revision": "cm-11.0"
+}
+]
+
