@@ -2,7 +2,7 @@
 
 #Pac version
 export PAC_VERSION_MAJOR="KK"
-export PAC_VERSION_MINOR="RC-2"
+export PAC_VERSION_MINOR="RC-3"
 export PAC_VERSION_MAINTENANCE="dev"
 # Acceptible maitenance versions are; Stable, Dev, Nightly
 
@@ -141,11 +141,7 @@ if [ "$#" -ne 1 ]; then
 fi
 device="$1"
 
-# get current version
-eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ [:=]\+ /=/g' | sed 's/shell //g')
-VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
-
-echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
+echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
 
 # PAC device dependencies
 echo -e ""
