@@ -1,0 +1,31 @@
+[
+    {
+        "remote": "github",
+        "account": "percy-g2",
+        "repository": "android_device_motorola_condor",
+        "target_path": "device/motorola/condor",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "percy-g2",
+        "repository": "android_kernel_motorola_msm8610",
+        "target_path": "kernel/motorola/msm8610",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "CyanogenMod",
+        "repository": "android_hardware_qcom_fm",
+        "target_path": "hardware/qcom/fm",
+        "revision": "cm-11.0"
+    },
+    {
+        "remote": "github",
+        "account": "Pinky-Inky-and-Clyde",
+        "repository": "proprietary_vendor_motorola",
+        "target_path": "vendor/motorola",
+        "revision": "cm-11.0"
+    }
+]
+
