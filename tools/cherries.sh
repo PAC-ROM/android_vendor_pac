@@ -137,6 +137,12 @@ case $device in
         # native patch
         #cherries+=(1163_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
+    condor)
+        # display patch
+        PATCH=0001-display-add-msm8610
+        FOLDER=hardware/qcom/display
+        patch_it true    
+    ;;
     s2ve | s2vep)
         # av patch
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-FRAMEWORKS-AV-PATCH-for-s2ve-s2vep-device.patch"
