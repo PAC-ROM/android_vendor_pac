@@ -2,7 +2,7 @@
 
 #Pac version
 export PAC_VERSION_MAJOR="KK"
-export PAC_VERSION_MINOR="RC-2"
+export PAC_VERSION_MINOR="RC-3"
 export PAC_VERSION_MAINTENANCE="dev"
 # Acceptible maitenance versions are; Stable, Dev, Nightly
 
