@@ -1,0 +1,19 @@
+commit bd5e9183032c93da73c1a34b6d303680bac4fa4c
+Author: Percy Gahlot <gahlotpercy@gmail.com>
+Date:   Sat Sep 6 00:16:06 2014 +0530
+
+    add msm8610
+
+diff --git a/Android.mk b/Android.mk
+index cb904ac..4e09d30 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -3,7 +3,7 @@ ifneq ($(filter msm8974 msm8x74,$(TARGET_BOARD_PLATFORM)),)
+     #This is for 8974 based platforms
+     include $(call all-named-subdir-makefiles,msm8974)
+ else
+-ifneq ($(filter msm8226,$(TARGET_BOARD_PLATFORM)),)
++ifneq ($(filter msm8610 msm8226,$(TARGET_BOARD_PLATFORM)),)
+     #This is for 8226 based platforms
+     include $(call all-named-subdir-makefiles,msm8974)
+ else
