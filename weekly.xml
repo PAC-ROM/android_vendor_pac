@@ -12,7 +12,9 @@
   <device name="a700"/>
   <device name="anzu"/>
   <device name="ariesve"/>
+  <device name="armani"/>
   <device name="coconut"/>
+  <device name="condor"/>
   <device name="d801"/>
   <device name="d803"/>
   <device name="deb"/>
@@ -41,6 +43,9 @@
   <device name="s2vep"/>
   <device name="satsuma"/>
   <device name="smultron"/>
+  <device name="t6"/>
+  <device name="t6spr"/>
+  <device name="t6vzw"/>
   <device name="tenderloin"/>
   <device name="u8833"/>
   <device name="u8951"/>

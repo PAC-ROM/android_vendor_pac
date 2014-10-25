@@ -75,6 +75,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">LG Optimus L7:              p700           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">LG Optimus L7:              p705           coderzs</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2504830">Moto (Unified):             ghost          skiwong20</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2886058">Moto E:                     condor         ashwin007</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2667834">Moto G:                     falcon         Wechy77, herna</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           kd8bny, jereksel</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                    hammerhead     my95z34, zyonee</a>
@@ -90,9 +91,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2375475">One (T-Mobile):             m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2455127">One (Verizon):              m7vzw          Flyhalf205</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2746553">One (2014):                 m8             DREWHAMM974, Owain94</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (GSM):              t6             awidawad</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Sprint):           t6spr          awidawad</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Verizon):          t6vzw          awidawad</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (GSM):              t6             awidawad, Flyhalf205</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Sprint):           t6spr          awidawad, Flyhalf205</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Verizon):          t6vzw          awidawad, Flyhalf205</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2741847">One Mini:                   m4             WildfireDEV</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2164406">One S:                      ville          atrus5</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2271635">One S C2:                   villec2        bilal_liberty</a>
@@ -124,4 +125,5 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2478003">Xperia Z1:                  honami         jeroenqui, Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2910535">Xiaomi Redmi 1S:            armani         Dark-Nightmare</a>
 </div>

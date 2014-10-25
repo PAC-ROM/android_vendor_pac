@@ -30,6 +30,12 @@
 #        |
 #      <Repeat for each separate cherry-pick>
 #
+#    For gerrit topics, add the topics(s) in the form:
+#      cherries +=(TOPIC_GERRIT-ACCOUNT)
+#     e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be topics+=(CREncoder_PAC)
+#        |
+#      <Repeat for each separate topic>
+#
 #   ;;
 #  On-line patches can be called by specifying a URL as the PATCH variable and calling the
 #  patch_it function with the parameter 'true', i.e., patch_it true
@@ -101,14 +107,16 @@ case $device in
         cherries+=(71199_CM)
         # mm-core: Enable HW mp3 decoder for msm7x30
         cherries+=(70946_CM)
+        # ti: Add interface_mtu request
+        cherries+=(69839_CM)
+        # libbt-vendor: Cleanup handling of all commands
+        cherries+=(73157_CM)
         # Bluetooth : Handling case: close comes before rxthread
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
         cherries+=(71674_CM)
-        # sensors: as3676: Allow disabling hardware ALS switch
-        PATCH=14-09-14_sensors-as3676-Allow-disabling-hardware-ALS-switch
-        FOLDER=hardware/sony/DASH
-        patch_it
+        # linearlayout: fix measurement of childrens when parent and childrens have exactly the same pixels
+        cherries+=(74436_CM)
         ## move apps to SD patches
         # Enable moving applications to an external volume
         cherries+=(1736_PAC)
@@ -130,6 +138,12 @@ case $device in
         #cherries+=(1162_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         # native patch
         #cherries+=(1163_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
+    ;;
+    condor)
+        # display patch
+        PATCH=0001-display-add-msm8610
+        FOLDER=hardware/qcom/display
+        patch_it true
     ;;
     s2ve | s2vep)
         # av patch
@@ -217,4 +231,11 @@ if [ "$cherries" != "" ]; then
     echo -e ${bldblu}"Now picking the required cherries"${txtrst}
     echo -e ""
     ./build/tools/repopick.py -b ${cherries[@]}
+fi
+
+if [ "$topics" != "" ]; then
+    echo -e ""
+    echo -e ${bldblu}"Now picking the required topics"${txtrst}
+    echo -e ""
+    ./build/tools/repopick.py -i -t ${topics[@]}
 fi
