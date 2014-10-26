@@ -27,5 +27,5 @@ if $file_system_speedups; then
     busybox mount -o remount,noatime,barrier=0,nodiratime /system;
     busybox mount -o remount,noatime,barrier=0,nodiratime,noauto_da_alloc,nodev,nobh,rw,data=writeback /data
     busybox mount -o remount,noatime,barrier=0,nodiratime,noauto_da_alloc,nodev,nobh,rw,data=writeback /cache
-    echo "* Ext4 Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | $paclog;
+    echo "* Ext4 Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;
