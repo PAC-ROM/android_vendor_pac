@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -20,32 +20,33 @@
 
 . /data/local/init.d.cfg
 
-KERNEL="/sys/kernel/debug/sched_features"
-
 if $sleepers; then
-    busybox mount -t debugfs none /sys/kernel/debug;
+    echo "* Sleepers Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
+
+    busybox mount -t debugfs none /sys/kernel/debug
     if [ -e $KERNEL ]; then
-        echo "NO_AFFINE_WAKEUPS" >> $KERNEL;
-        echo "NO_ARCH_POWER" >> $KERNEL;
-        echo "NO_CACHE_HOT_BUDDY" >> $KERNEL;
-        echo "NO_DOUBLE_TICK" >> $KERNEL;
-        echo "NO_FORCE_SD_OVERLAP" >> $KERNEL;
-        echo "NO_GENTLE_FAIR_SLEEPERS" >> $KERNEL;
-        echo "NO_HRTICK" >> $KERNEL;
-        echo "NO_LAST_BUDDY" >> $KERNEL;
-        echo "NO_LB_BIAS" >> $KERNEL;
-        echo "NO_LB_MIN" >> $KERNEL;
-        echo "NO_NEW_FAIR_SLEEPERS" >> $KERNEL;
-        echo "NO_NEXT_BUDDY" >> $KERNEL;
-        echo "NO_NONTASK_POWER" >> $KERNEL;
-        echo "NO_NORMALIZED_SLEEPERS" >> $KERNEL;
-        echo "NO_OWNER_SPIN" >> $KERNEL;
-        echo "NO_RT_RUNTIME_SHARE" >> $KERNEL;
-        echo "NO_START_DEBIT" >> $KERNEL;
-        echo "NO_TTWU_QUEUE" >> $KERNEL;
-        echo "* Sleepers Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+        echo "NO_AFFINE_WAKEUPS" >> $KERNEL
+        echo "NO_ARCH_POWER" >> $KERNEL
+        echo "NO_CACHE_HOT_BUDDY" >> $KERNEL
+        echo "NO_DOUBLE_TICK" >> $KERNEL
+        echo "NO_FORCE_SD_OVERLAP" >> $KERNEL
+        echo "NO_GENTLE_FAIR_SLEEPERS" >> $KERNEL
+        echo "NO_HRTICK" >> $KERNEL
+        echo "NO_LAST_BUDDY" >> $KERNEL
+        echo "NO_LB_BIAS" >> $KERNEL
+        echo "NO_LB_MIN" >> $KERNEL
+        echo "NO_NEW_FAIR_SLEEPERS" >> $KERNEL
+        echo "NO_NEXT_BUDDY" >> $KERNEL
+        echo "NO_NONTASK_POWER" >> $KERNEL
+        echo "NO_NORMALIZED_SLEEPERS" >> $KERNEL
+        echo "NO_OWNER_SPIN" >> $KERNEL
+        echo "NO_RT_RUNTIME_SHARE" >> $KERNEL
+        echo "NO_START_DEBIT" >> $KERNEL
+        echo "NO_TTWU_QUEUE" >> $KERNEL
     else
-        echo "* ERROR - Sleepers Tweaks is not supported by your device, we are sorry" | tee -a $paclog;
-    fi;
-    busybox umount /sys/kernel/debug;
-fi;
+        echo "  ** ERROR - Sleepers Tweaks is not supported by your device, we are sorry" | tee -a $PACLOG
+    fi
+    busybox umount /sys/kernel/debug
+
+    echo "* Sleepers Tweaks Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
+fi

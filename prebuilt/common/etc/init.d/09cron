@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -23,46 +23,49 @@
 symlink_system_bin() {
     # crond has "/bin/sh" hardcoded
     if busybox [ ! -h /bin ]; then
-        mount -o remount,rw rootfs /;
-        busybox ln -s /system/bin /bin;
-        mount -o remount,ro rootfs /;
-    fi;
+        mount -o remount,rw rootfs /
+        busybox ln -s /system/bin /bin
+        mount -o remount,ro rootfs /
+    fi
 }
 
 export_timezone() {
     # set timezone (if you're not between -0500 and -0800 you get PST)
     # todo - support other timezones
-    timezone=`date +%z`;
+    timezone=`date +%z`
     if busybox [ $timezone = "-0800" ]; then
-        TZ=PST8PDT;
+        TZ=PST8PDT
     elif busybox [ $timezone = "-0700" ]; then
-        TZ=MST7MDT;
+        TZ=MST7MDT
     elif busybox [ $timezone = "-0600" ]; then
-        TZ=CST6CDT;
+        TZ=CST6CDT
     elif busybox [ $timezone = "-0500" ]; then
-        TZ=EST5EDT;
+        TZ=EST5EDT
     else
-        TZ=PST8PDT;
-    fi;
-    export TZ;
+        TZ=PST8PDT
+    fi
+    export TZ
 }
 
 set_crontab() {
     # use /data/cron, call the crontab file "root"
     if busybox [ -e /data/cron/root ]; then
-        mkdir -p /data/cron;
+        mkdir -p /data/cron
         cat >> /data/cron/root << EOF
 01 * * * * busybox run-parts /system/etc/cron/cron.hourly
 02 4 * * * busybox run-parts /system/etc/cron/cron.daily
 22 4 * * 0 busybox run-parts /system/etc/cron/cron.weekly
 EOF
-    fi;
-    busybox crond -c /data/cron;
+    fi
+    busybox crond -c /data/cron
 }
 
-if $enable_cron -a is_busybox_applet_available crond; then
-    symlink_system_bin;
-    export_timezone;
-    set_crontab;
-    echo "* Cron Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
-fi;
+if $cron; then
+    echo "* Cron Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
+
+    symlink_system_bin
+    export_timezone
+    set_crontab
+
+    echo "* Cron Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
+fi
