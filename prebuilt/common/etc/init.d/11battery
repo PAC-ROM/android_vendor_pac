@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -23,5 +23,5 @@
 if $battery; then
     echo "1000" >> /proc/sys/vm/dirty_expire_centisecs;
     echo "2000" >> /proc/sys/vm/dirty_writeback_centisecs;
-    echo "* Baterry Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+    echo "* Baterry Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG;
 fi;

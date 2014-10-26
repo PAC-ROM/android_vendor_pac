@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -19,8 +19,6 @@
 '
 
 . /data/local/init.d.cfg
-
-KERNEL="/sys/kernel/debug/sched_features"
 
 if $sleepers; then
     busybox mount -t debugfs none /sys/kernel/debug;
@@ -43,9 +41,9 @@ if $sleepers; then
         echo "NO_RT_RUNTIME_SHARE" >> $KERNEL;
         echo "NO_START_DEBIT" >> $KERNEL;
         echo "NO_TTWU_QUEUE" >> $KERNEL;
-        echo "* Sleepers Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+        echo "* Sleepers Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG;
     else
-        echo "* ERROR - Sleepers Tweaks is not supported by your device, we are sorry" | tee -a $paclog;
+        echo "* ERROR - Sleepers Tweaks is not supported by your device, we are sorry" | tee -a $PACLOG;
     fi;
     busybox umount /sys/kernel/debug;
 fi;

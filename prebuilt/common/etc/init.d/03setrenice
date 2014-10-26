@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -30,5 +30,5 @@ if $setrenice; then
     renice -6 `pidof com.google.android.apps.maps`;
     renice -4 `pidof com.google.android.apps.googlevoice`;
     renice -3 `pidof android.process.media`;
-    echo "* Sentrenice Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+    echo "* Sentrenice Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG;
 fi;

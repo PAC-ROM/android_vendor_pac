@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -19,9 +19,29 @@
 '
 
 . /data/local/init.d.cfg
-. $script_helpers
+LOG="$DIR/zipalign.log"
 
-if $zipalign_apks; then
-    zipalign_apks;
-    echo "* ZipAlign Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
+if $zipalign; then
+    if [ -e $LOG ]; then
+        rm $LOG;
+    fi;
+    echo "Starting Automatic ZipAlign $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+    for apk in /data/app/*.apk ; do
+        /system/xbin/zipalign -c 4 $apk;
+        ZIPCHECK=$?;
+        if [ $ZIPCHECK -eq 1 ]; then
+            echo ZipAligning $(basename $apk)  | tee -a $LOG;
+            /system/xbin/zipalign -f 4 $apk /cache/$(basename $apk);
+            if [ -e /cache/$(basename $apk) ]; then
+                cp -f -p /cache/$(basename $apk) $apk  | tee -a $LOG;
+                rm /cache/$(basename $apk);
+            else
+                echo ZipAligning $(basename $apk) Failed  | tee -a $LOG;
+            fi;
+        else
+            echo ZipAlign already completed on $apk  | tee -a $LOG;
+        fi;
+    done;
+    echo "Finished Automatic ZipAlign at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+    echo "* ZipAlign Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG;
 fi;
