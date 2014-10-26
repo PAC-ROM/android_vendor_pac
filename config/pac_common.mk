@@ -20,11 +20,9 @@ PRODUCT_PACKAGES += \
     libscreenrecorder \
     ScreenRecorder
 
-# init.d support
+# InitD
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/pac/prebuilt/common/etc/helpers.sh:system/etc/helpers.sh \
-    vendor/pac/prebuilt/common/etc/init.d.cfg:data/local/init.d.cfg \
     vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
     vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
     vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
@@ -33,23 +31,21 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
     vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
     vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-    vendor/pac/prebuilt/common/etc/init.d/08tweaks:system/etc/init.d/08tweaks \
+    vendor/pac/prebuilt/common/etc/init.d/08kernel:system/etc/init.d/08kernel \
     vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
     vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
     vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
     vendor/pac/prebuilt/common/etc/init.d/12touch:system/etc/init.d/12touch \
-    vendor/pac/prebuilt/common/etc/init.d/13minfree:system/etc/init.d/13minfree \
-    vendor/pac/prebuilt/common/etc/init.d/14gpurender:system/etc/init.d/14gpurender \
+    vendor/pac/prebuilt/common/etc/init.d/13vm:system/etc/init.d/13vm \
+    vendor/pac/prebuilt/common/etc/init.d/14net:system/etc/init.d/14net \
     vendor/pac/prebuilt/common/etc/init.d/15sleepers:system/etc/init.d/15sleepers \
     vendor/pac/prebuilt/common/etc/init.d/16journalism:system/etc/init.d/16journalism \
-    vendor/pac/prebuilt/common/etc/init.d/17sqlite3:system/etc/init.d/17sqlite3 \
+    vendor/pac/prebuilt/common/etc/init.d/17sqlite:system/etc/init.d/17sqlite \
     vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
     vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
-    vendor/pac/prebuilt/common/etc/init.d/20loopy:system/etc/init.d/20loopy \
-    vendor/pac/prebuilt/common/etc/init.d/21speedy:system/etc/init.d/21speedy \
     vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
-# cron support
+# Cron
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/cron/cron.conf:system/etc/cron/cron.conf \
     vendor/pac/prebuilt/common/etc/cron/cron.daily/00drop_caches:system/etc/cron/cron.daily/00drop_caches \
