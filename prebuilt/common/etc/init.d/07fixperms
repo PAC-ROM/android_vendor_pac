@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -19,9 +19,17 @@
 '
 
 . /data/local/init.d.cfg
-. $script_helpers
+LOG="/data/local/PACLogs/fixperm.log"
 
-if $fix_permissions; then
-    fix_permissions;
+if $permissions; then
+    if [ -e $LOG ]; then
+        rm $LOG;
+    fi;
+    echo "Fix Permission started at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
+    for file in /data/app/* ; do
+        echo "Setting permissions (644) for $file" | tee -a $LOG;
+        chmod 644 $file;
+    done;
+    echo "Fix Permission finished at $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $LOG;
     echo "* Fix Permisions Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
 fi;
