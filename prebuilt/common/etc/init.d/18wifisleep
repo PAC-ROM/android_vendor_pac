@@ -1,6 +1,6 @@
 #!/system/bin/sh
 : '
- ========= Copyright (C) 2014 The PAC-man Team (The AIO Rom) =========
+ ================ Copyright (C) 2014 PAC-Roms Project ================
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -19,28 +19,27 @@
 '
 
 . /data/local/init.d.cfg
-
-LOG="/data/PACLogs/wifisleep.log"
+LOG="$LOGDIR/wifisleep.log"
 
 if $wifisleep; then
-    if [ -e $LOG ]; then
-        rm $LOG;
-    fi;
-    time=10000;
-    sql=/system/xbin/sqlite3;
-    old=$($sql /data/data/com.android.providers.settings/databases/settings.db "select value from secure where name='wifi_idle_ms'");
+    echo "* Wifi Sleep Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
 
-    echo "$( date +"%m-%d-%Y %H:%M:%S" ) DeepSleep tweak started" | tee -a $LOG;
-    echo "Old wifi_idle_ms value was $old" | tee -a $LOG;
+    time=10000
+    sql=/system/xbin/sqlite3
+    old=$($sql /data/data/com.android.providers.settings/databases/settings.db "select value from secure where name='wifi_idle_ms'")
+
+    echo "$( date +"%m-%d-%Y %H:%M:%S" ) DeepSleep tweak started" | tee $LOG
+    echo "Old wifi_idle_ms value was $old" | tee -a $LOG
 
     if [ $old="" ]; then
-        $sql /data/data/com.android.providers.settings/databases/settings.db "insert into secure (name, value) values ('wifi_idle_ms', $time )";
-    fi;
+        $sql /data/data/com.android.providers.settings/databases/settings.db "insert into secure (name, value) values ('wifi_idle_ms', $time )"
+    fi
 
-    $sql /data/data/com.android.providers.settings/databases/settings.db "update secure set value=$time where name='wifi_idle_ms'";
-    new=$($sql /data/data/com.android.providers.settings/databases/settings.db "select value from secure where name='wifi_idle_ms'");
+    $sql /data/data/com.android.providers.settings/databases/settings.db "update secure set value=$time where name='wifi_idle_ms'"
+    new=$($sql /data/data/com.android.providers.settings/databases/settings.db "select value from secure where name='wifi_idle_ms'")
 
-    echo "Current wifi_idle_ms value is $new" | tee -a $LOG;
-    echo "$( date +"%m-%d-%Y %H:%M:%S" ) DeepSleep tweak ended" | tee -a $LOG;
-    echo "* Wifi Sleep Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $paclog;
-fi;
+    echo "Current wifi_idle_ms value is $new" | tee -a $LOG
+    echo "$( date +"%m-%d-%Y %H:%M:%S" ) DeepSleep tweak ended" | tee -a $LOG
+
+    echo "* Wifi Sleep Tweaks Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
+fi
