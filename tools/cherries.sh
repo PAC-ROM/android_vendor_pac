@@ -133,12 +133,6 @@ case $device in
         FOLDER=device/semc/msm7x30-common
         patch_it
     ;;
-    i9082)
-        # OMX patch
-        #cherries+=(1162_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-        # native patch
-        #cherries+=(1163_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-    ;;
     condor)
         # display patch
         PATCH=0001-display-add-msm8610
