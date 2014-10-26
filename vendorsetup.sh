@@ -3,11 +3,14 @@ add_lunch_combo pac_a510-userdebug
 add_lunch_combo pac_a700-userdebug
 # Amazon
 add_lunch_combo pac_otter-userdebug
-add_lunch_combo pac_otter2-userdebug
 add_lunch_combo pac_otterx-userdebug
-add_lunch_combo pac_tate-userdebug
+add_lunch_combo pac_otter2-userdebug
 add_lunch_combo pac_jem-userdebug
-# Asus device
+add_lunch_combo pac_tate-userdebug
+# Asus
+add_lunch_combo pac_deb-userdebug
+add_lunch_combo pac_flo-userdebug
+add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_tf300t-userdebug
 add_lunch_combo pac_tf700t-userdebug
 # Barnes & Noble
@@ -18,7 +21,6 @@ add_lunch_combo pac_tenderloin-userdebug
 # HTC
 add_lunch_combo pac_dlx-userbebug
 add_lunch_combo pac_evita-userdebug
-add_lunch_combo pac_glacier-userdebug
 add_lunch_combo pac_holiday-userdebug
 add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
@@ -32,12 +34,7 @@ add_lunch_combo pac_t6spr-userdebug
 add_lunch_combo pac_t6vzw-userdebug
 add_lunch_combo pac_ville-userdebug
 add_lunch_combo pac_villec2-userdebug
-# Huawei
-add_lunch_combo pac_u8833-userdebug
-add_lunch_combo pac_u8860-userdebug
-add_lunch_combo pac_u8800pro-userdebug
-add_lunch_combo pac_u8951-userdebug
-# LGE
+# LG
 add_lunch_combo pac_d800-userdebug
 add_lunch_combo pac_d801-userdebug
 add_lunch_combo pac_d802-userdebug
@@ -45,11 +42,12 @@ add_lunch_combo pac_d803-userdebug
 add_lunch_combo pac_e973-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
+add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_ls970-userdebug
 add_lunch_combo pac_ls980-userdebug
+add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_p700-userdebug
 add_lunch_combo pac_p705-userdebug
-add_lunch_combo pac_p880-userdebug
 add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs980-userdebug
 # Motorola
@@ -60,14 +58,6 @@ add_lunch_combo pac_moto_msm8960-userdebug
 add_lunch_combo pac_moto_msm8960_jbbl-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
-# Nexus
-add_lunch_combo pac_crespo-userdebug
-add_lunch_combo pac_deb-userdebug
-add_lunch_combo pac_flo-userdebug
-add_lunch_combo pac_grouper-userdebug
-add_lunch_combo pac_hammerhead-userdebug
-add_lunch_combo pac_maguro-userdebug
-add_lunch_combo pac_mako-userdebug
 # Nvidia
 add_lunch_combo pac_wx_na_wf-userdebug
 # OnePlus
@@ -76,34 +66,26 @@ add_lunch_combo pac_bacon-userdebug
 add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
 # Samsung
-add_lunch_combo pac_apexqtmo-userdebug
 add_lunch_combo pac_ariesve-userdebug
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_d2lte-userdebug
-add_lunch_combo pac_d710-userdebug
-add_lunch_combo pac_exhilarate-userdebug
-add_lunch_combo pac_expressatt-userdebug
+
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_hlte-userdebug
-add_lunch_combo pac_hltespr-userdebug
-add_lunch_combo pac_hltevzw-userdebug
-add_lunch_combo pac_hlteusc-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i9082-userdebug
 add_lunch_combo pac_i9100-userdebug
-add_lunch_combo pac_i9100g-userdebug
 add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_i9305-userdebug
 add_lunch_combo pac_i9500-userdebug
 add_lunch_combo pac_jactivelte-userdebug
 add_lunch_combo pac_jflte-userdebug
 add_lunch_combo pac_l900-userdebug
+add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_n5100-userdebug
 add_lunch_combo pac_n5110-userdebug
 add_lunch_combo pac_n5120-userdebug
 add_lunch_combo pac_n7100-userdebug
-add_lunch_combo pac_p5100-userdebug
-add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_r950-userdebug
 add_lunch_combo pac_s2ve-userdebug
 add_lunch_combo pac_s2vep-userdebug
@@ -121,7 +103,7 @@ add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_pollux_windy-userdebug
 add_lunch_combo pac_taoshan-userdebug
 add_lunch_combo pac_yuga-userdebug
-# Sony Ericsson:
+# Sony Ericsson
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_haida-userdebug
