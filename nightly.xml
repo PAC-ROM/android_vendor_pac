@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  This file used to enable nightly builds for eligible devices.
+  This file is used to enable nightly builds for eligible devices.
 
     import vendor.pac.Device;
     import vendor.pac.Maintainers;
@@ -24,12 +24,10 @@
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>
-  <device name="grouper"/>
   <device name="ghost"/>
+  <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hlte"/>
-  <device name="hltespr"/>
-  <device name="hltevzw"/>
   <device name="holiday"/>
   <device name="honami"/>
   <device name="i9100"/>
@@ -44,13 +42,11 @@
   <device name="m7vzw"/>
   <device name="m8"/>
   <device name="mako"/>
-  <device name="moto_msm8960_jbbl"/>
   <device name="moto_msm8960"/>
+  <device name="moto_msm8960_jbbl"/>
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
-  <device name="p5100"/>
-  <device name="p5110"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
