@@ -28,8 +28,6 @@
   <device name="ghost"/>
   <device name="hammerhead"/>
   <device name="hlte"/>
-  <device name="hltespr"/>
-  <device name="hltevzw"/>
   <device name="holiday"/>
   <device name="honami"/>
   <device name="i9100"/>
@@ -49,8 +47,6 @@
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
-  <device name="p5100"/>
-  <device name="p5110"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
