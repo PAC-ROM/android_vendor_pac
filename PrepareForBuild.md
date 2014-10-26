@@ -12,10 +12,10 @@ Note: When you copy and paste the command, please do not copy the $, This symbol
 
     $ sudo apt purge openjdk-\* icedtea-\* icedtea6-\*
 
-2 - Install JDK 6:
+2 - Install JDK 7:
 
     $ sudo add-apt-repository ppa:webupd8team/java
-    $ sudo apt update && sudo apt install oracle-java6-installer
+    $ sudo apt update && sudo apt install oracle-java7-installer
 
     You must accept the agreement to continue with the installation
     once installed, make sure the version of jdk is correct:
@@ -24,9 +24,9 @@ Note: When you copy and paste the command, please do not copy the $, This symbol
 
     You should see something like:
 
-        java version "1.6.0_45"
-        Java(TM) SE Runtime Environment (build 1.6.0_45-b06)
-        Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode)
+        java version "1.7.0_72"
+        Java(TM) SE Runtime Environment (build 1.7.0_72-b14)
+        Java HotSpot(TM) 64-Bit Server VM (build 24.72-b04, mixed mode)
 
     Continue to Step 3
 
