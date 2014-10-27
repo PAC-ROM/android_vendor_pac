@@ -6,10 +6,10 @@
         "revision":     "pac-4.4"
     },
     {
-        "account":      "aidasaidas75",
+        "account":      "TeamHackLG",
         "repository":   "android_device_lge_msm7x27a-common",
         "target_path":  "device/lge/msm7x27a-common",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TeamHackLG",
