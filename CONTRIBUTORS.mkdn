@@ -148,7 +148,7 @@ HTC:
 * __One S (ville) :__ atrus5
 * __One S C2 (villec2) :__ bilal_liberty
 * __One XL (evita) :__ JoseGalRe
-* __Sensation (pyramid) :__ bilal_liberty
+* __Sensation (pyramid) :__ luk1337, MaDc0w
 * __Vivid (holiday) :__ WildfireDEV, JoseGalRe
 
 

@@ -51,6 +51,7 @@
   <device name="n5120"/>
   <device name="p5100"/>
   <device name="p5110"/>
+  <device name="pyramid"/>
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
