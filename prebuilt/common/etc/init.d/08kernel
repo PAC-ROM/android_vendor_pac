@@ -29,26 +29,26 @@ if $kernel; then
     chmod 664 /sys/kernel/mm/ksm/sleep_millisecs
     chown 0.0 /sys/kernel/mm/ksm/run
     chmod 664 /sys/kernel/mm/ksm/run
-    echo "0" >> /proc/sys/kernel/hung_task_timeout_secs
-    echo "0" >> /proc/sys/kernel/panic
-    echo "0" >> /proc/sys/kernel/panic_on_oops
-    echo "0" >> /proc/sys/kernel/sched_child_runs_first
-    echo "0" >> /proc/sys/kernel/softlockup_panic
-    echo "1" >> /sys/kernel/mm/ksm/run
-    echo "1" >> proc/sys/kernel/sched_compat_yield
-    echo "100000" >> /proc/sys/kernel/sched_wakeup_granularity_ns
-    echo "128" >> /proc/sys/kernel/kernel/random/read_wakeup_threshold
-    echo "12800" >> /sys/kernel/mm/ksm/pages_to_scan
-    echo "15000" >> /sys/kernel/mm/ksm/sleep_millisecs
-    echo "15834233" >> /proc/sys/kernel/sched_features
-    echo "18000000" >> /proc/sys/kernel/sched_latency_ns
-    echo "200000" >> /proc/sys/kernel/sched_min_granularity_ns
-    echo "256" >> /proc/sys/kernel/kernel/random/write_wakeup_threshold
-    echo "256000" >> /proc/sys/kernel/sched_shares_ratelimit
-    echo "400000" >> /proc/sys/kernel/sched_latency_ns
-    echo "524288" >> /proc/sys/kernel/threads-max
-    echo "64000" >> /proc/sys/kernel/msgmni
-    echo "65000" >> /proc/sys/kernel/msgmax
+    echo "0" > /proc/sys/kernel/hung_task_timeout_secs
+    echo "0" > /proc/sys/kernel/panic
+    echo "0" > /proc/sys/kernel/panic_on_oops
+    echo "0" > /proc/sys/kernel/sched_child_runs_first
+    echo "0" > /proc/sys/kernel/softlockup_panic
+    echo "1" > /sys/kernel/mm/ksm/run
+    echo "1" > /proc/sys/kernel/sched_compat_yield
+    echo "100000" > /proc/sys/kernel/sched_wakeup_granularity_ns
+    echo "128" > /proc/sys/kernel/kernel/random/read_wakeup_threshold
+    echo "12800" > /sys/kernel/mm/ksm/pages_to_scan
+    echo "15000" > /sys/kernel/mm/ksm/sleep_millisecs
+    echo "15834233" > /proc/sys/kernel/sched_features
+    echo "18000000" > /proc/sys/kernel/sched_latency_ns
+    echo "200000" > /proc/sys/kernel/sched_min_granularity_ns
+    echo "256" > /proc/sys/kernel/kernel/random/write_wakeup_threshold
+    echo "256000" > /proc/sys/kernel/sched_shares_ratelimit
+    echo "400000" > /proc/sys/kernel/sched_latency_ns
+    echo "524288" > /proc/sys/kernel/threads-max
+    echo "64000" > /proc/sys/kernel/msgmni
+    echo "65000" > /proc/sys/kernel/msgmax
 
     echo "* VM & Kernel Tweaks Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
 fi

@@ -23,11 +23,11 @@
 if $touch; then
     echo "* Touch Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
     if [ -e $TSC ]; then
-        echo "7025" >> $TSC
-        echo "8002" >> $TSC
-        echo "11001" >> $TSC
-        echo "13030" >> $TSC
-        echo "14005" >> $TSC
+        echo "7025" > $TSC
+        echo "8002" > $TSC
+        echo "11001" > $TSC
+        echo "13030" > $TSC
+        echo "14005" > $TSC
     else
         echo " ** ERROR - Touch Tweaks is not supported by your device, we are sorry" | tee -a $PACLOG
     fi
