@@ -262,6 +262,8 @@ Samsung:
 * __Galaxy S IV (T-Mobile) (jflte) :__ JoseGalRe, Nick0703
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
+* __Galaxy S IV mini(LTE) (serranoltexx) :__ lsdty
+* __Galaxy S IV mini (3G) (serrano3gxx) :__ lsdty
 * __Galaxy Tab 2 10" (p5100) :__ pvyParts
 * __Galaxy Tab 2 10" (P5110) :__ pvyParts
 * __Nexus S (crespo) :__ berni987654321
