@@ -22,7 +22,7 @@
 
 if $battery; then
     echo "* Battery Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
-    echo "1000" >> /proc/sys/vm/dirty_expire_centisecs
-    echo "2000" >> /proc/sys/vm/dirty_writeback_centisecs
+    echo "1000" > /proc/sys/vm/dirty_expire_centisecs
+    echo "2000" > /proc/sys/vm/dirty_writeback_centisecs
     echo "* Battery Tweaks Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
 fi

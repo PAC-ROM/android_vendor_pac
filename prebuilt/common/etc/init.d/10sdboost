@@ -22,6 +22,6 @@
 
 if $sdboost && [ -e $AHF ]; then
     echo "* SDCard Boost Tweaks Starting At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
-    echo $ahead >> $AHF
+    echo $ahead > $AHF
     echo "* SDCard Boost Tweaks Finished At $( date +"%m-%d-%Y %H:%M:%S" )" | tee -a $PACLOG
 fi
