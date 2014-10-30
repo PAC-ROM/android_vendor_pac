@@ -194,8 +194,6 @@ case $device in
         PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
-        # DownloadProvider: allow non-removable secondary storage
-        cherries+=(72481_CM)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
