@@ -229,5 +229,5 @@ if [ "$topics" != "" ]; then
     echo -e ""
     echo -e ${bldblu}"Now picking the required topics"${txtrst}
     echo -e ""
-    ./build/tools/repopick.py -i -t ${topics[@]}
+    ./build/tools/repopick.py -is auto -t ${topics[@]}
 fi
