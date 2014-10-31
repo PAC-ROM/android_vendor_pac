@@ -92,6 +92,9 @@ add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
 add_lunch_combo pac_venturi-userdebug
 add_lunch_combo pac_ypg1-userdebug
+add_lunch_combo pac_serranoltexx-userdebug
+add_lunch_combo pac_serrano3gxx-userdebug
+add_lunch_combo pac_serranodsdd-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
 add_lunch_combo pac_honami-userdebug
