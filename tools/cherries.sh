@@ -103,10 +103,6 @@ case $device in
         cherries+=(66213_CM)
         # libstagefright: Fix video encoder input buffer
         cherries+=(66214_CM)
-        # Destroy client handles after they're closed
-        cherries+=(71199_CM)
-        # mm-core: Enable HW mp3 decoder for msm7x30
-        cherries+=(70946_CM)
         # ti: Add interface_mtu request
         cherries+=(69839_CM)
         # libbt-vendor: Cleanup handling of all commands
@@ -115,8 +111,6 @@ case $device in
         cherries+=(70334_CM)
         # a2dp: disable music autoplay on connect based on settings
         cherries+=(71674_CM)
-        # linearlayout: fix measurement of childrens when parent and childrens have exactly the same pixels
-        cherries+=(74436_CM)
         ## move apps to SD patches
         # Enable moving applications to an external volume
         cherries+=(1736_PAC)
