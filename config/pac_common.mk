@@ -23,26 +23,25 @@ PRODUCT_PACKAGES += \
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/sysinit:system/bin/sysinit \
-    vendor/pac/prebuilt/common/etc/init.d/00check:system/etc/init.d/00check \
-    vendor/pac/prebuilt/common/etc/init.d/01zipalign:system/etc/init.d/01zipalign \
-    vendor/pac/prebuilt/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/pac/prebuilt/common/etc/init.d/03setrenice:system/etc/init.d/03setrenice \
-    vendor/pac/prebuilt/common/etc/init.d/04filesystem:system/etc/init.d/04filesystem \
-    vendor/pac/prebuilt/common/etc/init.d/05freemem:system/etc/init.d/05freemem \
-    vendor/pac/prebuilt/common/etc/init.d/06removecache:system/etc/init.d/06removecache \
-    vendor/pac/prebuilt/common/etc/init.d/07fixperms:system/etc/init.d/07fixperms \
-    vendor/pac/prebuilt/common/etc/init.d/08kernel:system/etc/init.d/08kernel \
-    vendor/pac/prebuilt/common/etc/init.d/09cron:system/etc/init.d/09cron \
-    vendor/pac/prebuilt/common/etc/init.d/10sdboost:system/etc/init.d/10sdboost \
-    vendor/pac/prebuilt/common/etc/init.d/11battery:system/etc/init.d/11battery \
-    vendor/pac/prebuilt/common/etc/init.d/12touch:system/etc/init.d/12touch \
-    vendor/pac/prebuilt/common/etc/init.d/13vm:system/etc/init.d/13vm \
-    vendor/pac/prebuilt/common/etc/init.d/14net:system/etc/init.d/14net \
-    vendor/pac/prebuilt/common/etc/init.d/15sleepers:system/etc/init.d/15sleepers \
-    vendor/pac/prebuilt/common/etc/init.d/16journalism:system/etc/init.d/16journalism \
-    vendor/pac/prebuilt/common/etc/init.d/17sqlite:system/etc/init.d/17sqlite \
-    vendor/pac/prebuilt/common/etc/init.d/18wifisleep:system/etc/init.d/18wifisleep \
-    vendor/pac/prebuilt/common/etc/init.d/19iostats:system/etc/init.d/19iostats \
+    vendor/pac/prebuilt/common/etc/init.d/80check:system/etc/init.d/80check \
+    vendor/pac/prebuilt/common/etc/init.d/81sysctl:system/etc/init.d/81sysctl \
+    vendor/pac/prebuilt/common/etc/init.d/81setrenice:system/etc/init.d/81setrenice \
+    vendor/pac/prebuilt/common/etc/init.d/81filesystem:system/etc/init.d/81filesystem \
+    vendor/pac/prebuilt/common/etc/init.d/81freemem:system/etc/init.d/81freemem \
+    vendor/pac/prebuilt/common/etc/init.d/81removecache:system/etc/init.d/81removecache \
+    vendor/pac/prebuilt/common/etc/init.d/81fixperms:system/etc/init.d/81fixperms \
+    vendor/pac/prebuilt/common/etc/init.d/81kernel:system/etc/init.d/81kernel \
+    vendor/pac/prebuilt/common/etc/init.d/81cron:system/etc/init.d/81cron \
+    vendor/pac/prebuilt/common/etc/init.d/81sdboost:system/etc/init.d/81sdboost \
+    vendor/pac/prebuilt/common/etc/init.d/81battery:system/etc/init.d/81battery \
+    vendor/pac/prebuilt/common/etc/init.d/81touch:system/etc/init.d/81touch \
+    vendor/pac/prebuilt/common/etc/init.d/81vm:system/etc/init.d/81vm \
+    vendor/pac/prebuilt/common/etc/init.d/81net:system/etc/init.d/81net \
+    vendor/pac/prebuilt/common/etc/init.d/81sleepers:system/etc/init.d/81sleepers \
+    vendor/pac/prebuilt/common/etc/init.d/81journalism:system/etc/init.d/81journalism \
+    vendor/pac/prebuilt/common/etc/init.d/81sqlite:system/etc/init.d/81sqlite \
+    vendor/pac/prebuilt/common/etc/init.d/81wifisleep:system/etc/init.d/81wifisleep \
+    vendor/pac/prebuilt/common/etc/init.d/81iostats:system/etc/init.d/81iostats \
     vendor/pac/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf
 
 # Cron
@@ -63,8 +62,7 @@ PRODUCT_COPY_FILES += \
 
 # Added xbin files
 PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip \
-    vendor/pac/prebuilt/common/xbin/zipalign:system/xbin/zipalign
+    vendor/pac/prebuilt/common/xbin/zip:system/xbin/zip
 
 # OmniRom Packages
 PRODUCT_PACKAGES += \

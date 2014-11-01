@@ -72,7 +72,6 @@ KERNEL="/sys/kernel/debug/sched_features"
 
 
 # Booleans
-zipalign=false
 sysctl=false
 setrenice=false
 filesystem=false
