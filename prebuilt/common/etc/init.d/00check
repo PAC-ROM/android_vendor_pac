@@ -21,7 +21,12 @@
 PACDIR="/data/local"
 LOGDIR="$PACDIR/PACLogs"
 LOG="$LOGDIR/tweaks.log"
-CFG="$PACDIR/init.d.cfg"
+CFG="$PACDIR/init.d.cfg
+
+busybox mount -o rw,remount /system;
+
+# Fix Permission of cfg_file on boot
+busybox chmod -urwx -grw -or $cfg;
 
 # Check if the folder exists
 if [ ! -d $LOGDIR ]; then
@@ -108,7 +113,6 @@ empty_app_mem=16384
 EOF
 fi
 
-# Fix Permissions
-busybox chmod 644 $CFG
+busybox mount -o ro,remount /system;
 
 echo "PACman ROM Tweaks Check Finished At $( date +"%m-%d-%Y %H:%M:%S" )\n\n" | tee -a $LOG
