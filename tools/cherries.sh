@@ -99,10 +99,13 @@ case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # Apply IO scheduler settings to all storage devices
         cherries+=(65599_CM)
-        # libstagefright: Allow using camera recording buffer as input for encoder
-        cherries+=(66213_CM)
-        # libstagefright: Fix video encoder input buffer
-        cherries+=(66214_CM)
+        # semc_ics_camera
+        PATCH=semc_ics_camera_1
+        FOLDER=frameworks/av
+        patch_it
+        PATCH=semc_ics_camera_2
+        FOLDER=frameworks/av
+        patch_it
         # ti: Add interface_mtu request
         cherries+=(69839_CM)
         # libbt-vendor: Cleanup handling of all commands
