@@ -26,7 +26,7 @@
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
-        <device FullName="One (AT&T, GSM, T-Mobile)" CodeName="m7"/>
+        <device FullName="One (AT&amp;T, GSM, T-Mobile)" CodeName="m7"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
         <device FullName="One (Verizon)" CodeName="m7vzw"/>
         <device FullName="One (2014)" CodeName="m8"/>
@@ -47,7 +47,7 @@
         <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
         <device FullName="Optimus G Pro" CodeName="e980"/>
-        <device FullName="Optimus G2 (AT&T)" CodeName="d800"/>
+        <device FullName="Optimus G2 (AT&amp;T)" CodeName="d800"/>
         <device FullName="Optimus G2 (Canadian)" CodeName="d803"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
@@ -77,7 +77,7 @@
     </vendor>
     <vendor Name="Samsung">
         <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
-        <device FullName="Galaxy Note 2 (AT&T)" CodeName="t0lteatt"/>
+        <device FullName="Galaxy Note 2 (AT&amp;T)" CodeName="t0lteatt"/>
         <device FullName="Galaxy Note 2 (GSM)" CodeName="n7100"/>
         <device FullName="Galaxy Note 2 (LTE)" CodeName="t0lte"/>
         <device FullName="Galaxy Note 2 (Sprint)" CodeName="l900"/>
@@ -92,14 +92,14 @@
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
         <device FullName="Galaxy S I Captivate" CodeName="captivatemtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
-        <device FullName="Galaxy S II (AT&T)" CodeName="skyrocket"/>
+        <device FullName="Galaxy S II (AT&amp;T)" CodeName="skyrocket"/>
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
         <device FullName="Galaxy S II Plus" CodeName="s2ve"/>
         <device FullName="Galaxy S II Plus NFC" CodeName="s2vep"/>
-        <device FullName="Galaxy S III (AT&T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
+        <device FullName="Galaxy S III (AT&amp;T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
-        <device FullName="Galaxy S IV (AT&T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
     </vendor>
