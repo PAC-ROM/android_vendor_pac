@@ -5,7 +5,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V=4.4
+export V="KK"
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
@@ -22,7 +22,7 @@ restore_addon_d() {
 
 # Proceed only if /system is the expected major and minor version
 check_prereq() {
-if ( ! grep -q "^ro.pac.version=$V.*" /system/build.prop ); then
+if ( ! grep -q "^ro.pac.version=$V*" /system/build.prop ); then
   echo "Not backing up files from incompatible version: $V"
   return 0
 fi
@@ -62,7 +62,7 @@ check_whitelist() {
 xposed_backup() {
     if [ -f /system/bin/app_process.orig ]; then
         cp /system/bin/app_process /tmp/backup/
-    fi;
+    fi
 }
 
 # Restore Xposed Framework (bin/app_process)
@@ -70,7 +70,7 @@ xposed_restore() {
     if [ -f /tmp/backup/app_process ]; then
         mv /system/bin/app_process /system/bin/app_process.orig
         cp /tmp/backup/app_process /system/bin/
-    fi;
+    fi
 }
 
 # Execute /system/addon.d/*.sh scripts with $1 parameter
