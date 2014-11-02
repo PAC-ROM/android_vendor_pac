@@ -5,7 +5,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V="KK"
+export V='KK|4.4'
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
@@ -22,11 +22,18 @@ restore_addon_d() {
 
 # Proceed only if /system is the expected major and minor version
 check_prereq() {
-if ( ! grep -q "^ro.pac.version=$V*" /system/build.prop ); then
-  echo "Not backing up files from incompatible version: $V"
-  return 0
-fi
-return 1
+  retval=1
+  ver=$(awk "/ro.pac.version=($V)/ {print \"KK\"}" /system/build.prop)
+  case "$ver" in
+    KK)
+      echo "Not backing up files from incompatible version: $V"
+      retval=0
+      ;;
+    *)
+      echo "Found compatible version, backing up files."
+      ;;
+  esac
+  return $retval
 }
 
 check_blacklist() {
