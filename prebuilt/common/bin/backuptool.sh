@@ -26,11 +26,11 @@ check_prereq() {
   ver=$(awk "/ro.pac.version=($V)/ {print \"KK\"}" /system/build.prop)
   case "$ver" in
     KK)
-      echo "Not backing up files from incompatible version: $V"
-      retval=0
+      echo "Found compatible version, backing up files."
       ;;
     *)
-      echo "Found compatible version, backing up files."
+      echo "Not backing up files from incompatible version: $V"
+      retval=0
       ;;
   esac
   return $retval
