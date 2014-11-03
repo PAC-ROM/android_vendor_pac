@@ -25,13 +25,13 @@
 #      <Repeat for each separate patch>
 #
 #    For gerrit commits, add the cherry-pick(s) in the form:
-#      cherries +=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
+#      cherries+=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
 #     e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be cherries+=(250_PAC)
 #        |
 #      <Repeat for each separate cherry-pick>
 #
 #    For gerrit topics, add the topics(s) in the form:
-#      cherries +=(TOPIC_GERRIT-ACCOUNT)
+#      topics+=(TOPIC_GERRIT-ACCOUNT)
 #     e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be topics+=(CREncoder_PAC)
 #        |
 #      <Repeat for each separate topic>
