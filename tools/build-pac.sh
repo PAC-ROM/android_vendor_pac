@@ -29,7 +29,7 @@ usage()
     echo -e "    -d  Use dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
-    echo -e "    -k  Set -k1 to rewrite roomservice after dependencies update"
+    echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s#  Sync options before build"
     echo -e "        1 - normal sync"
