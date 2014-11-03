@@ -1,19 +1,5 @@
 #!/bin/bash
 
-#Pac version
-export PAC_VERSION_MAJOR="KK"
-export PAC_VERSION_MINOR="RC-3"
-export PAC_VERSION_MAINTENANCE="dev"
-# Acceptible maitenance versions are; Stable, Dev, Nightly
-
-# pac Version Logic
-if [ -s ~/PACname ]; then
-    export PAC_MAINTENANCE=$(cat ~/PACname)
-else
-    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
-fi
-export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
-
 usage()
 {
     echo -e ""
@@ -30,6 +16,9 @@ usage()
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
     echo -e "    -k  Set -k1 to rewrite roomservice after dependencies update"
+    echo -e "    -m# Maintenance version: If you do not select this option, the default will be (Dev)"
+    echo -e "        1 - Nightly"
+    echo -e "        2 - Stable"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s#  Sync options before build"
     echo -e "        1 - normal sync"
@@ -111,6 +100,7 @@ opt_dex=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_maintenance=0
 opt_olvl=0
 opt_pipe=0
 opt_reset=0
@@ -118,7 +108,7 @@ opt_sync=0
 opt_recovery=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prs:t:v" opt; do
+while getopts "ac:dfj:km:o:prs:t:v" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -126,6 +116,7 @@ while getopts "ac:dfj:ko:prs:t:v" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    m) opt_maintenance="$OPTARG" ;;
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
@@ -140,6 +131,26 @@ if [ "$#" -ne 1 ]; then
     usage
 fi
 device="$1"
+
+# Pac version
+export PAC_VERSION_MAJOR="KK"
+export PAC_VERSION_MINOR="RC-3"
+
+if [ "$opt_maintenance" -eq 1 ]; then
+    export PAC_VERSION_MAINTENANCE="Nightly"
+elif [ "$opt_maintenance" -eq 2 ]; then
+    export PAC_VERSION_MAINTENANCE="Stable"
+else
+    export PAC_VERSION_MAINTENANCE="Dev"
+fi
+
+# Pac Version Logic
+if [ -s ~/PACname ]; then
+    export PAC_MAINTENANCE=$(cat ~/PACname)
+else
+    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
+fi
+export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
 
