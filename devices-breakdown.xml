@@ -102,6 +102,8 @@
         <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
+        <device FullName="Galaxy S IV Mini (GSM)" CodeName="serrano3gxx"/>
+        <device FullName="Galaxy S IV Mini (LTE)" CodeName="serranoltexx"/>
     </vendor>
     <vendor Name="Sony">
         <device FullName="Xperia L" CodeName="taoshan"/>
