@@ -31,6 +31,12 @@
   },
   {
     "account":     "CyanogenMod",
+    "repository":  "android_device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":     "CyanogenMod",
     "repository":  "android_device_sony_qcom-common",
     "target_path": "device/sony/qcom-common",
     "revision":    "cm-11.0"
