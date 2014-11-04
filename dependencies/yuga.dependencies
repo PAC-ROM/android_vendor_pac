@@ -37,6 +37,13 @@
  {
     "remote": "github",
     "account": "CyanogenMod",
+    "repository": "android_device_sony_msm8960-common",
+    "target_path": "device/sony/msm8960-common",
+    "revision": "cm-11.0"
+ },
+ {
+    "remote": "github",
+    "account": "CyanogenMod",
     "repository": "android_kernel_sony_apq8064",
     "target_path": "kernel/sony/apq8064",
     "revision": "cm-11.0"
