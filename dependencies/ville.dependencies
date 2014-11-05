@@ -19,6 +19,12 @@
     },
     {
         "account":      "CyanogenMod",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "account":      "CyanogenMod",
         "repository":   "android_device_htc_s4-common",
         "target_path":  "device/htc/s4-common",
         "revision":     "cm-11.0"
