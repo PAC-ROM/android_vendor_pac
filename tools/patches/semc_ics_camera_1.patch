@@ -1,8 +1,8 @@
-From e4be15311bc2e51d9913bfc8438f938f38d60f18 Mon Sep 17 00:00:00 2001
+From db972b6c97719b2f87ca75d06e6f3ee3ba0bce31 Mon Sep 17 00:00:00 2001
 From: ZoliN <zltnngy@gmail.com>
 Date: Sun, 1 Jun 2014 22:03:15 +0200
-Subject: [PATCH 1/2] libstagefright: Allow using camera recording buffer as
- input for encoder
+Subject: [PATCH] libstagefright: Allow using camera recording buffer as input
+ for encoder
 
 Can be enabled with global cflag SEMC_ICS_CAMERA_BLOB
 
@@ -180,7 +180,7 @@ index 694be23..db5207f 100644
      // a) not request a seek
      // b) not be late, i.e. lateness_us = 0
 diff --git a/include/media/stagefright/OMXCodec.h b/include/media/stagefright/OMXCodec.h
-index b392042..3c138a9 100644
+index 9b7a656..89d3078 100644
 --- a/include/media/stagefright/OMXCodec.h
 +++ b/include/media/stagefright/OMXCodec.h
 @@ -103,6 +103,9 @@ struct OMXCodec : public MediaSource,
@@ -336,7 +336,7 @@ index fb87de0..41f2d25 100644
          node_id node, OMX_U32 port_index,
          const sp<GraphicBuffer> &graphicBuffer, buffer_id *buffer) {
 diff --git a/media/libstagefright/OMXCodec.cpp b/media/libstagefright/OMXCodec.cpp
-index 7baede4..7073251 100644
+index 269028a..25e0f24 100644
 --- a/media/libstagefright/OMXCodec.cpp
 +++ b/media/libstagefright/OMXCodec.cpp
 @@ -80,6 +80,13 @@
@@ -353,7 +353,7 @@ index 7baede4..7073251 100644
  namespace android {
  
  #ifdef USE_SAMSUNG_COLORFORMAT
-@@ -2167,6 +2174,15 @@ status_t OMXCodec::allocateBuffersOnPort(OMX_U32 portIndex) {
+@@ -2163,6 +2170,15 @@ status_t OMXCodec::allocateBuffersOnPort(OMX_U32 portIndex) {
      size_t totalSize = def.nBufferCountActual * def.nBufferSize;
      mDealer[portIndex] = new MemoryDealer(totalSize, "OMXCodec");
  
@@ -369,7 +369,7 @@ index 7baede4..7073251 100644
      for (OMX_U32 i = 0; i < def.nBufferCountActual; ++i) {
          sp<IMemory> mem = mDealer[portIndex]->allocate(def.nBufferSize);
          CHECK(mem.get() != NULL);
-@@ -2201,6 +2217,18 @@ status_t OMXCodec::allocateBuffersOnPort(OMX_U32 portIndex) {
+@@ -2197,6 +2213,18 @@ status_t OMXCodec::allocateBuffersOnPort(OMX_U32 portIndex) {
                  err = mOMX->allocateBufferWithBackup(
                          mNode, portIndex, mem, &buffer);
              }
@@ -388,7 +388,7 @@ index 7baede4..7073251 100644
          } else {
              err = mOMX->useBuffer(mNode, portIndex, mem, &buffer);
          }
-@@ -3837,6 +3865,19 @@ bool OMXCodec::drainInputBuffer(BufferInfo *info) {
+@@ -3844,6 +3872,19 @@ bool OMXCodec::drainInputBuffer(BufferInfo *info) {
                  releaseBuffer = false;
                  info->mMediaBuffer = srcBuffer;
  #endif
@@ -408,7 +408,7 @@ index 7baede4..7073251 100644
          } else {
  #ifdef USE_SAMSUNG_COLORFORMAT
              OMX_PARAM_PORTDEFINITIONTYPE def;
-@@ -3968,7 +4009,7 @@ bool OMXCodec::drainInputBuffer(BufferInfo *info) {
+@@ -3975,7 +4016,7 @@ bool OMXCodec::drainInputBuffer(BufferInfo *info) {
  
      // This component does not ever signal the EOS flag on output buffers,
      // Thanks for nothing.
@@ -417,7 +417,7 @@ index 7baede4..7073251 100644
                            !strcmp(mComponentName, "OMX.TI.720P.Encoder"))) {
          mNoMoreOutputData = true;
          mBufferFilled.signal();
-@@ -6009,6 +6050,24 @@ void OMXCodec::initOutputFormat(const sp<MetaData> &inputFormat) {
+@@ -6044,6 +6085,24 @@ void OMXCodec::initOutputFormat(const sp<MetaData> &inputFormat) {
  #ifdef QCOM_HARDWARE
              } else {
                  ExtendedUtils::HFR::copyHFRParams(inputFormat, mOutputFormat);
