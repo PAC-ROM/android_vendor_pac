@@ -250,6 +250,8 @@ Samsung:
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
+* __Galaxy S IV mini (LTE) (serranoltexx) :__ lsdty	
+* __Galaxy S IV mini (3G) (serrano3gxx) :__ lsdty
 
 
 Sony:
