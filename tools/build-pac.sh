@@ -31,6 +31,7 @@ usage()
     echo -e "    -e# Extra build output options:"
     echo -e "        1 - Verbose build output"
     echo -e "        2 - Quiet build output"
+    echo -e "        3 - Write warnings and errors to a log file"
     echo -e "    -f  Fetch extras"
     echo -e "    -j# Set number of jobs"
     echo -e "    -l  Optimizations for devices with low-RAM"
@@ -136,7 +137,7 @@ while getopts "ab:c:e:fj:klo:prs:t" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;      
+    t) opt_twrp=1 ;;
     *) usage
     esac
 done
@@ -287,6 +288,8 @@ else
         make -j"$opt_jobs" showcommands bacon
     elif [ "$opt_extra" -eq 2 ]; then
         make -j"$opt_jobs" -s bacon
+    elif [ "$opt_extra" -eq 3 ]; then
+        make -j"$opt_jobs" bacon 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a warn.log)
     else
         make -j"$opt_jobs" bacon
     fi
