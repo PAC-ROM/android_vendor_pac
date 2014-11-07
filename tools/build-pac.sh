@@ -46,6 +46,7 @@ usage()
     echo -e "    -p  Build using pipe"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -w  Write warnings and errors to a log file"
     echo -e ""
     echo -e "${bldwhi}  Example:${rst}"
     echo -e "    ./build-pac.sh -c1 hammerhead"
@@ -121,8 +122,9 @@ opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
+opt_log=0
 
-while getopts "ab:c:e:fj:klo:prs:t" opt; do
+while getopts "ab:c:e:fj:klo:prs:tw" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -136,7 +138,8 @@ while getopts "ab:c:e:fj:klo:prs:t" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;      
+    t) opt_twrp=1 ;;
+    w) opt_log=1 ;;
     *) usage
     esac
 done
@@ -283,12 +286,23 @@ elif [ "$opt_only" -eq 2 ]; then
 else
     echo -e "${bldcya}Starting compilation${rst}"
     echo -e ""
-    if [ "$opt_extra" -eq 1 ]; then
-        make -j"$opt_jobs" showcommands bacon
-    elif [ "$opt_extra" -eq 2 ]; then
-        make -j"$opt_jobs" -s bacon
+    if [ "$opt_log" -ne 0 ]; then
+        rm -rf warn.log
+        if [ "$opt_extra" -eq 1 ]; then
+            make -j"$opt_jobs" showcommands bacon 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a warn.log)
+        elif [ "$opt_extra" -eq 2 ]; then
+            make -j"$opt_jobs" -s bacon 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a warn.log)
+        else
+            make -j"$opt_jobs" bacon 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a warn.log)
+        fi
     else
-        make -j"$opt_jobs" bacon
+        if [ "$opt_extra" -eq 1 ]; then
+            make -j"$opt_jobs" showcommands bacon
+        elif [ "$opt_extra" -eq 2 ]; then
+            make -j"$opt_jobs" -s bacon
+        else
+            make -j"$opt_jobs" bacon
+        fi
     fi
 fi
 
