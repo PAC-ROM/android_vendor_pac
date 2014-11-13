@@ -15,6 +15,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <device name="vs985"/>
   <device name="amami"/>
   <device name="aries"/>
   <device name="bacon"/>

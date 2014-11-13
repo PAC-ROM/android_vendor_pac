@@ -53,7 +53,8 @@
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
-        <device FullName="Optimus L5" CodeName="e610"/>
+        <device FullName="Optimus G3 (Verizon)" Codename="vs985"/>
+	<device FullName="Optimus L5" CodeName="e610"/>
         <device FullName="Optimus L7" CodeName="p700"/>
         <device FullName="Optimus L7" CodeName="p705"/>
     </vendor>
