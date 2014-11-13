@@ -165,6 +165,7 @@ LG:
 * __Optimus G2 (T-Mobile) (d801) :__ Goldflame09
 * __Optimus G2 (Sprint) (ls980) :__ Goldflame09
 * __Optimus G2 (Verizon) (vs980) :__ tucstwo
+* __Optimus G3 (Verizon) (vs985) :__ tucstwo
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
