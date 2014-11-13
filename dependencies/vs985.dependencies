@@ -1,0 +1,26 @@
+[
+ {
+   "account": "cyanogenmod",
+   "repository": "android_device_lge_vs985",
+   "target_path": "device/lge/vs985",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "cyanogenmod",
+   "repository": "android_device_lge_g3-common",
+   "target_path": "device/lge/g3-common",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "cyanogenmod",
+   "repository": "android_kernel_lge_g3",
+   "target_path": "kernel/lge/g3",
+   "revision": "cm-11.0"
+ },
+ {
+   "account": "Pinky-Inky-and-Clyde",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "cm-11.0"
+ }
+]
