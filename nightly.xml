@@ -51,5 +51,6 @@
   <device name="spyder"/>
   <device name="taoshan"/>
   <device name="tate"/>
+  <device name="vs985"/>
   <!-- <device name="yuga"/> -->
 </manifest>
