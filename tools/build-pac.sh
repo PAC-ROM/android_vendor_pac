@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Pac version
-export PAC_VERSION_MAJOR="KK"
-export PAC_VERSION_MINOR="RC-3"
-export PAC_VERSION_MAINTENANCE="dev"
+export PAC_VERSION_MAJOR="LP"
+export PAC_VERSION_MINOR="0"
+export PAC_VERSION_MAINTENANCE="0"
 # Acceptible maitenance versions are; Stable, Dev, Nightly
 
 # pac Version Logic
