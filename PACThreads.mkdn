@@ -20,6 +20,9 @@
 <a href="http://forum.pac-rom.com/thread-885.html">Nook:                       acclaim        LowEndGeek</a>
 <a href="http://forum.pac-rom.com/thread-1151.html">Nook HD+:                  ovation        iPzard</a>
 <br>
+<h3>Google</h3>
+<a href="http://forum.pac-rom.com/thread-1259.html">Android One:               sprout         Kunal.Kene.1797</a>
+<br>
 <h3>HP</h3>
 <a href="http://forum.pac-rom.com/thread-947.html">Touchpad:                   tenderloin     shumash</a>
 <br>
