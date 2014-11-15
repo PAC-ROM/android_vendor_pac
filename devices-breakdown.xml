@@ -20,6 +20,9 @@
         <device FullName="Nook" CodeName="acclaim"/>
         <device FullName="Nook HD+" CodeName="ovation"/>
     </vendor>
+    <vendor Name="Google">
+        <device FullName="Android One" CodeName="sprout"/>
+    </vendor>
     <vendor Name="HP">
         <device FullName="Touchpad" CodeName="tenderloin"/>
     </vendor>

@@ -1,0 +1,24 @@
+[
+    {
+        "remote":       "github",
+        "account":      "KunalKene1797",
+        "repository":   "android_device_google_sprout",
+        "target_path":  "device/google/sprout",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "KunalKene1797",
+        "repository":   "android_kernel_mediatek_sprout",
+        "target_path":  "kernel/google/sprout",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_google/sprout",
+        "target_path":  "vendor/google/sprout",
+        "revision":     "cm-11.0"
+    }
+]
+
