@@ -20,6 +20,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2746417">Nook:                       acclaim        LowEndGeek</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2883064">Nook HD+:                   ovation        iPzard</a>
 <br>
+<h3>Google</h3>
+<a href="http://forum.xda-developers.com/showthread.php?t=2910603">Android One:                sprout         Kunal.Kene.1797</a>
+<br>
 <h3>HP</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2779954">Touchpad:                   tenderloin     shumash</a>
 <br>
