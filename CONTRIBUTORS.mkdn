@@ -284,7 +284,7 @@ Xiaomi:
 
 
 
-Total Devices: 129
+Total Devices: 130
 
 Best regards
     szl.kiev
