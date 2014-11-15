@@ -125,6 +125,11 @@ Barnes & Noble:
 * __Nook HD+ (ovation) :__ iPzard
 
 
+Google:
+---------------------------------------------------------------------
+* __Android One (sprout) :__ Kunal.Kene.1797
+
+
 HP:
 ---------------------------------------------------------------------
 * __Touchpad (tenderloin) :__ shumash
@@ -284,7 +289,7 @@ Xiaomi:
 
 
 
-Total Devices: 130
+Total Devices: 131
 
 Best regards
     szl.kiev
