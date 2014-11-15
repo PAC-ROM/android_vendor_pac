@@ -251,6 +251,8 @@ Samsung:
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
+* __Galaxy Tab 2 7"(GSM) (p3100) :__ ashwin007
+* __Galaxy Tab 2 7" (Wi-Fi) (p3110) :__ ashwin007
 
 
 Sony:
@@ -284,7 +286,11 @@ Xiaomi:
 
 
 
+<<<<<<< HEAD
 Total Devices: 130
+=======
+Total Devices: 132
+>>>>>>> Add support for Galaxy Tab 2 7" family
 
 Best regards
     szl.kiev
