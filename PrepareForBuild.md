@@ -60,7 +60,7 @@ Note: When you copy and paste the command, please do not copy the $, This symbol
 
 Congratulations
 ---------------
-Your machine is now ready to build, for download the source code and build you must follow the steps [here](https://github.com/PAC-man/pacman/blob/pac-4.4/README.md)
+Your machine is now ready to build, for download the source code and build you must follow the steps [here](https://github.com/PAC-man/pacman/blob/pac-5.0/README.md)
 
 
 OPTIONAL! Configure ccache, this is used to build more quickly:
