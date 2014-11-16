@@ -4,28 +4,35 @@
         "account": "CyanogenMod",
         "repository": "android_device_motorola_ghost",
         "target_path": "device/motorola/ghost",
-        "revision": "cm-11.0"
+        "revision": "cm-12.0"
     },
     {
         "remote": "github",
         "account": "CyanogenMod",
         "repository": "android_device_qcom_common",
         "target_path": "device/qcom/common",
-        "revision": "cm-11.0"
+        "revision": "cm-12.0"
     },
     {
         "remote": "github",
         "account": "CyanogenMod",
+        "repository": "android_device_qcom_sepolicy",
+        "target_path": "device/qcom/sepolicy"
+	"revision": "cm-12.0"
+   },
+   {
+        "remote": "github",
+        "account": "CyanogenMod",
         "repository": "android_kernel_motorola_ghost",
         "target_path": "kernel/motorola/ghost",
-        "revision": "cm-11.0"
+        "revision": "cm-12.0"
     },
     {
         "remote": "github",
         "account": "Pinky-Inky-and-Clyde",
         "repository": "proprietary_vendor_motorola",
         "target_path": "vendor/motorola",
-        "revision": "cm-11.0"
+        "revision": "cm-12.0"
     }
 ]
 
