@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#Pac version
+# PAC version
 export PAC_VERSION_MAJOR="LP"
-export PAC_VERSION_MINOR="0"
-export PAC_VERSION_MAINTENANCE="0"
-# Acceptible maitenance versions are; Stable, Dev, Nightly
+export PAC_VERSION_MINOR="Alpha-1"
+export PAC_VERSION_MAINTENANCE="dev"
+# Acceptible maitenance versions are; stable, dev, nightly
 
-# pac Version Logic
+# PAC version logic
 if [ -s ~/PACname ]; then
     export PAC_MAINTENANCE=$(cat ~/PACname)
 else
@@ -26,7 +26,7 @@ usage()
     echo -e "        1 - make clean"
     echo -e "        2 - make dirty"
     echo -e "        3 - make magicbrownies"
-    echo -e "    -d  Use dex optimizations"
+    echo -e "    -d  Use Dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
@@ -50,19 +50,19 @@ usage()
     exit 1
 }
 
-# colors
+# Colors
 . ./vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
-    echo -e ${red}"No .repo directory found.  Is this an Android build tree?"${txtrst}
+    echo -e ${red}"No .repo directory found. Is this an Android build tree?"${txtrst}
     exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
-    echo -e ${red}"No vendor/pac directory found.  Is this a PAC build tree?"${txtrst}
+    echo -e ${red}"No vendor/pac directory found. Is this a PAC build tree?"${txtrst}
     exit 1
 fi
 
-# figure out the output directories
+# Figure out the output directories
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 thisDIR="${PWD##*/}"
 
@@ -88,11 +88,11 @@ elif [ $RES = 0 ];then
 else
     echo -e ""
     echo -e ${red}"NULL"${txtrst}
-    echo -e ${red}"Error wrong results; blame tyler"${txtrst}
+    echo -e ${red}"Error wrong results; blame the split screen"${txtrst}
     echo -e ""
 fi
 
-# get OS (linux / Mac OS x)
+# Get OS (Linux / Mac OS X)
 IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
     CPUS=$(sysctl hw.ncpu | awk '{print $2}')
@@ -170,7 +170,7 @@ elif [ "$opt_clean" -eq 3 ]; then
     echo -e ""
 fi
 
-# download prebuilt files
+# Download prebuilt files
 date=`date '+%d'`
 if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date == 01 ] || [ $date == 15 ]; then
     echo -e ""
@@ -204,7 +204,7 @@ else
     unset DISABLE_ADB_AUTH
 fi
 
-# reset source tree
+# Reset source tree
 if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
     echo -e ${bldblu}"Resetting source tree and removing all uncommitted changes"${txtrst}
@@ -212,25 +212,25 @@ if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
 fi
 
-# take snapshot of current sources
+# Take snapshot of current sources
 echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
 repo manifest -o snapshot-$device.xml -r
 echo -e ""
 
 if [ "$opt_sync" -eq 1 ]; then
-    # sync with latest sources
+    # Sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Fetching latest sources"${txtrst}
     repo sync -j"$opt_jobs"
     echo -e ""
 elif [ "$opt_sync" -eq 2 ]; then
-    # restore snapshot tree, then sync with latest sources
+    # Restore snapshot tree, then sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
     echo -e ""
     cp snapshot-$device.xml .repo/manifests/
 
-    #prevent duplicate projects
+    # Prevent duplicate projects
     cd .repo/local_manifests
       for file in *.xml ; do mv $file `echo $file | sed 's/\(.*\.\)xml/\1xmlback/'` ; done
 
@@ -249,15 +249,15 @@ fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
-# fetch cherry-picks
+# Fetch cherry-picks
 if [ "$opt_fetch" -ne 0 ]; then
         ./vendor/pac/tools/cherries.sh $device
 fi
 
-# get time of startup
+# Get time of startup
 t1=$($DATE +%s)
 
-# setup environment
+# Setup environment
 echo -e ${bldblu}"Setting up environment"${txtrst}
 . build/envsetup.sh
 
@@ -266,7 +266,7 @@ rm -f $OUTDIR/target/product/$device/system/build.prop
 rm -f $OUTDIR/target/product/$device/system/app/*.odex
 rm -f $OUTDIR/target/product/$device/system/framework/*.odex
 
-# lunch device
+# Lunch device
 echo -e ""
 echo -e ${bldblu}"Lunching device"${txtrst}
 lunch "pac_$device-userdebug";
@@ -274,7 +274,7 @@ lunch "pac_$device-userdebug";
 echo -e ""
 echo -e ${bldblu}"Starting compilation"${txtrst}
 
-# start compilation
+# Start compilation
 if [ "$opt_dex" -ne 0 ]; then
     export WITH_DEXPREOPT=true
 else
@@ -312,14 +312,14 @@ make -j"$opt_jobs" bacon
 fi
 echo -e ""
 
-# squisher
+# Squisher
 vendor/pac/tools/squisher
 
-# cleanup unused built
+# Cleanup unused built
 rm -f $OUTDIR/target/product/$device/cm-*.*
 rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
 
-# finished? get elapsed time
+# Fnished! Get elapsed time
 t2=$($DATE +%s)
 
 tmin=$(( (t2-t1)/60 ))
