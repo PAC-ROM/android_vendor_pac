@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#Pac version
+# PAC version
 export PAC_VERSION_MAJOR="LP"
-export PAC_VERSION_MINOR="Alpha"
-export PAC_VERSION_MAINTENANCE="0"
-# Acceptible maitenance versions are; Stable, Dev, Nightly
+export PAC_VERSION_MINOR="Alpha-1"
+export PAC_VERSION_MAINTENANCE="dev"
+# Acceptible maintenance versions are; stable, dev, nightly
 
-# pac Version Logic
+# PAC version logic
 if [ -s ~/PACname ]; then
     export PAC_MAINTENANCE=$(cat ~/PACname)
 else
@@ -23,21 +23,21 @@ usage()
     echo -e ${txtbld}"  Options:"${txtrst}
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
     echo -e "    -c# Cleaning options before build:"
-    echo -e "        1 - make clean"
-    echo -e "        2 - make installclean"
+    echo -e "        1 - Run make clean"
+    echo -e "        2 - Run make installclean"
     echo -e "    -f  Fetch cherry-picks"
-    echo -e "    -j# Set jobs"
+    echo -e "    -j# Set number of jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
-    echo -e "    -s#  Sync options before build"
-    echo -e "        1 - normal sync"
-    echo -e "        2 - make snapshot"
-    echo -e "        3 - restore previous snapshot, then snapshot sync"
+    echo -e "    -s# Sync options before build:"
+    echo -e "        1 - Normal sync"
+    echo -e "        2 - Make snapshot"
+    echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
-    echo -e "    -t# Build with a different Recovery (extreme caution, ONLY for developers)"
-    echo -e "        1 - Build TWRP Recovery (extreme caution, ONLY for developers)"
-    echo -e "        2 - Build CM Recovery (extreme caution, ONLY for developers)"
-    echo -e "        (this may produce invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -t# Build with a different recovery: (Extreme caution, ONLY for developers)"
+    echo -e "        1 - Build TWRP Recovery (Extreme caution, ONLY for developers)"
+    echo -e "        2 - Build CM Recovery (Extreme caution, ONLY for developers)"
+    echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
@@ -46,7 +46,7 @@ usage()
     exit 1
 }
 
-# colors
+# Colors
 . ./vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
@@ -58,7 +58,7 @@ if [ ! -d "vendor/pac" ]; then
     exit 1
 fi
 
-# figure out the output directories
+# Figure out the output directories
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 thisDIR="${PWD##*/}"
 
@@ -74,21 +74,21 @@ RES="$?"
 if [ $RES = 1 ];then
     export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
     echo -e ""
-    echo -e ${cya}"External out DIR is set ($OUTDIR)"${txtrst}
+    echo -e ${cya}"External out directory is set to: ($OUTDIR)"${txtrst}
     echo -e ""
 elif [ $RES = 0 ];then
     export OUTDIR=$DIR/out
     echo -e ""
-    echo -e ${cya}"No external out, using default ($OUTDIR)"${txtrst}
+    echo -e ${cya}"No external out, using default: ($OUTDIR)"${txtrst}
     echo -e ""
 else
     echo -e ""
     echo -e ${red}"NULL"${txtrst}
-    echo -e ${red}"Error wrong results; blame tyler"${txtrst}
+    echo -e ${red}"Error, wrong results! Blame the split screen!"${txtrst}
     echo -e ""
 fi
 
-# get OS (linux / Mac OS x)
+# Get OS (Linux / Mac OS X)
 IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
     CPUS=$(sysctl hw.ncpu | awk '{print $2}')
@@ -182,7 +182,7 @@ else
     unset DISABLE_ADB_AUTH
 fi
 
-# reset source tree
+# Reset source tree
 if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
     echo -e ${bldblu}"Resetting source tree and removing all uncommitted changes"${txtrst}
@@ -190,26 +190,26 @@ if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
 fi
 
-# repo sync/snapshot
+# Repo sync/snapshot
 if [ "$opt_sync" -eq 1 ]; then
-    # sync with latest sources
+    # Sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Fetching latest sources"${txtrst}
     repo sync -j"$opt_jobs"
     echo -e ""
 elif [ "$opt_sync" -eq 2 ]; then
-    # take snapshot of current sources
+    # Take snapshot of current sources
     echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
     repo manifest -o snapshot-$device.xml -r
     echo -e ""
 elif [ "$opt_sync" -eq 3 ]; then
-    # restore snapshot tree, then sync with latest sources
+    # Restore snapshot tree, then sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
     echo -e ""
     cp snapshot-$device.xml .repo/manifests/
 
-    #prevent duplicate projects
+    # Prevent duplicate projects
     cd .repo/local_manifests
       for file in *.xml ; do mv $file `echo $file | sed 's/\(.*\.\)xml/\1xmlback/'` ; done
 
@@ -228,22 +228,22 @@ fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
-# fetch cherry-picks
+# Fetch cherry-picks
 if [ "$opt_fetch" -ne 0 ]; then
         ./vendor/pac/tools/cherries.sh $device
 fi
 
-# get time of startup
+# Get time of startup
 t1=$($DATE +%s)
 
-# setup environment
+# Setup environment
 echo -e ${bldblu}"Setting up environment"${txtrst}
 . build/envsetup.sh
 
-# Remove system folder (this will create a new build.prop with updated build time and date)
+# Remove system folder (This will create a new build.prop with updated build time and date)
 rm -f $OUTDIR/target/product/$device/system/build.prop
 
-# lunch device
+# Lunch device
 echo -e ""
 echo -e ${bldblu}"Lunching device"${txtrst}
 lunch "pac_$device-userdebug";
@@ -251,7 +251,7 @@ lunch "pac_$device-userdebug";
 echo -e ""
 echo -e ${bldblu}"Starting compilation"${txtrst}
 
-# start compilation
+# Start compilation
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
 else
@@ -265,11 +265,11 @@ make -j"$opt_jobs" bacon
 fi
 echo -e ""
 
-# cleanup unused built
+# Cleanup unused built
 rm -f $OUTDIR/target/product/$device/cm-*.*
 rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
 
-# finished? get elapsed time
+# Finished! Get elapsed time
 t2=$($DATE +%s)
 
 tmin=$(( (t2-t1)/60 ))
