@@ -16,9 +16,8 @@
     {
         "remote":       "github",
         "account":      "Pinky-Inky-and-Clyde",
-        "repository":   "proprietary_vendor_google/sprout",
-        "target_path":  "vendor/google/sprout",
+        "repository":   "proprietary_vendor_google",
+        "target_path":  "vendor/google",
         "revision":     "cm-11.0"
     }
 ]
-
