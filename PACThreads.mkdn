@@ -48,6 +48,7 @@
 <a href="http://forum.pac-rom.com/thread-539.html">G Pad:                      v500           darkassain</a>
 <a href="http://forum.pac-rom.com/thread-1141.html">Nexus 4:                   mako           jereksel</a>
 <a href="http://forum.pac-rom.com/thread-984.html">Nexus 5:                    hammerhead     my95z34, zyonee</a>
+<a href="http://forum.pac-rom.com/thread-1263.html">Optimus G (AT&T):          e970           Trialsrider1</a>
 <a href="http://forum.pac-rom.com/thread-1084.html">Optimus G (Canadian):      e973           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1092.html">Optimus G (Intern.):       e975           ShorelineDroid</a>
 <a href="http://forum.pac-rom.com/thread-1129.html">Optimus G (Sprint):        ls970          rectec</a>
