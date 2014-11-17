@@ -160,6 +160,7 @@ LG:
 * __G-Pad (v500) :__ darkassain
 * __Nexus 4 (mako) :__ jereksel
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
+* __Optimus G (AT&T) (e970) :__ Trialsrider1
 * __Optimus G (Canadian) (e973) :__ ShoreDroid
 * __Optimus G (International) (e975) :__ ShoreDroid
 * __Optimus G (Sprint) (ls970) :__ rectec
@@ -289,7 +290,7 @@ Xiaomi:
 
 
 
-Total Devices: 131
+Total Devices: 132
 
 Best regards
     szl.kiev
