@@ -126,8 +126,8 @@
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (US Cellular):  jflte          Sniper</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (Verizon):      jflte          RIPng</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
-<a href="http://forum.pac-rom.com/forum-518.html">Galaxy S IV mini (GSM):      serrano3g      lsdty</a>
-<a href="http://forum.pac-rom.com/forum-518.html">Galaxy S IV mini (lte):      serranolte     lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (GSM):    serrano3g      lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranolte     lsdty</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        Olivier</a>
