@@ -1,19 +1,5 @@
 #!/bin/bash
 
-#Pac version
-export PAC_VERSION_MAJOR="LP"
-export PAC_VERSION_MINOR="0"
-export PAC_VERSION_MAINTENANCE="0"
-# Acceptible maitenance versions are; Stable, Dev, Nightly
-
-# pac Version Logic
-if [ -s ~/PACname ]; then
-    export PAC_MAINTENANCE=$(cat ~/PACname)
-else
-    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
-fi
-export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
-
 usage()
 {
     echo -e ""
@@ -26,7 +12,6 @@ usage()
     echo -e "        1 - make clean"
     echo -e "        2 - make dirty"
     echo -e "        3 - make magicbrownies"
-    echo -e "    -d  Use dex optimizations"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
@@ -35,9 +20,6 @@ usage()
     echo -e "        1 - normal sync"
     echo -e "        2 - restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
-    echo -e "    -o# Select GCC O Level"
-    echo -e "        Valid O Levels are"
-    echo -e "        1 (Os) or 3 (O3)"
     echo -e "    -t# Build with a different Recovery (extreme caution, ONLY for developers)"
     echo -e "        1 - Build TWRP Recovery (extreme caution, ONLY for developers)"
     echo -e "        2 - Build CM Recovery (extreme caution, ONLY for developers)"
@@ -102,16 +84,13 @@ else
     DATE=date
 fi
 
-export USE_PREBUILT_CHROMIUM=1
 export USE_CCACHE=1
 
 opt_adb=0
 opt_clean=0
-opt_dex=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
-opt_olvl=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
@@ -122,11 +101,9 @@ while getopts "ac:dfj:ko:prs:t:v" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
-    d) opt_dex=1 ;;
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
-    o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
@@ -141,7 +118,11 @@ if [ "$#" -ne 1 ]; then
 fi
 device="$1"
 
-echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
+# get current version
+eval $(grep "^PAC_VERSION_" vendor/pac/config/pac_common.mk | sed 's/ [:=]\+ /=/g' | sed 's/shell //g')
+VERSION="$PAC_VERSION_MAJOR.$PAC_VERSION_MINOR.$PAC_VERSION_MAINTENANCE"
+
+echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}v$VERSION"${txtrst}
 
 # PAC device dependencies
 echo -e ""
@@ -263,8 +244,6 @@ echo -e ${bldblu}"Setting up environment"${txtrst}
 
 # Remove system folder (this will create a new build.prop with updated build time and date)
 rm -f $OUTDIR/target/product/$device/system/build.prop
-rm -f $OUTDIR/target/product/$device/system/app/*.odex
-rm -f $OUTDIR/target/product/$device/system/framework/*.odex
 
 # lunch device
 echo -e ""
@@ -275,34 +254,10 @@ echo -e ""
 echo -e ${bldblu}"Starting compilation"${txtrst}
 
 # start compilation
-if [ "$opt_dex" -ne 0 ]; then
-    export WITH_DEXPREOPT=true
-else
-    unset WITH_DEXPREOPT
-fi
-
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
 else
     unset TARGET_USE_PIPE
-fi
-
-if [ "$opt_olvl" -eq 1 ]; then
-    export TARGET_USE_O_LEVEL_S=true
-    echo -e ""
-    echo -e ${bldgrn}"Using Os Optimization"${txtrst}
-    echo -e ""
-elif [ "$opt_olvl" -eq 3 ]; then
-    export TARGET_USE_O_LEVEL_3=true
-    echo -e ""
-    echo -e ${bldgrn}"Using O3 Optimization"${txtrst}
-    echo -e ""
-else
-    unset TARGET_USE_O_LEVEL_S
-    unset TARGET_USE_O_LEVEL_3
-    echo -e ""
-    echo -e ${bldgrn}"Using the default GCC Optimization Level, O2"${txtrst}
-    echo -e ""
 fi
 
 if [ "$opt_verbose" -ne 0 ]; then
@@ -312,11 +267,6 @@ make -j"$opt_jobs" bacon
 fi
 echo -e ""
 
-# squisher
-vendor/pac/tools/squisher
-
-# cleanup unused built
-rm -f $OUTDIR/target/product/$device/cm-*.*
 rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
 
 # finished? get elapsed time
