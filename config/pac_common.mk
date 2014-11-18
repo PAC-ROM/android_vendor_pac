@@ -86,7 +86,10 @@ CM_RELEASE := true
 CM_BUILD := $(BOARD)
 
 # PAC version
-PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
+PAC_VERSION_MAJOR = LP
+PAC_VERSION_MINOR = Alpha
+PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else echo "0"; fi)
+PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacrom.version=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S) \
