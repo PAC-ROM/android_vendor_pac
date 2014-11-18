@@ -46,6 +46,7 @@
         <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nexus 5" CodeName="hammerhead"/>
+        <device FullName="Optimus G (AT&amp;T)" CodeName="e970"/>
         <device FullName="Optimus G (Canadian)" CodeName="e973"/>
         <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
@@ -94,6 +95,7 @@
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
+        <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S I Captivate" CodeName="captivatemtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II (AT&amp;T)" CodeName="skyrocket"/>
@@ -106,6 +108,9 @@
         <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
+        <device FullName="Galaxy S IV mini (GSM)" CodeName="serrano3g"/>
+        <device FullName="Galaxy S IV mini (LTE)" CodeName="serranolte"/>
+        <device FullName="Nexus 10" CodeName="manta"/>
     </vendor>
     <vendor Name="Sony">
         <device FullName="Xperia L" CodeName="taoshan"/>
