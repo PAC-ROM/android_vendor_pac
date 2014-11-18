@@ -31,12 +31,6 @@
     },
     {
         "account":     "CyanogenMod",
-        "repository":  "android_device_qcom_sepolicy",
-        "target_path": "device/qcom/sepolicy",
-        "revision":    "cm-12.0"
-    },
-    {
-        "account":     "CyanogenMod",
         "repository":  "android_frameworks_opt_connectivity",
         "target_path": "frameworks/opt/connectivity",
         "revision":    "cm-12.0"
