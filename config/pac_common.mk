@@ -37,8 +37,7 @@ PAC_VERSION_MAINTENANCE := $(shell if [ -s ~/PACname ]; then cat ~/PACname; else
 PAC_VERSION := $(PAC_VERSION_MAJOR).$(PAC_VERSION_MINOR).$(PAC_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pacrom.version=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S) \
-    ro.modversion=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
+    ro.pac.version=pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
