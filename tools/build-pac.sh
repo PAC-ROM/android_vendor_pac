@@ -30,6 +30,7 @@ usage()
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -l  Write warnings and errors to a log file"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s#  Sync options before build"
     echo -e "        1 - normal sync"
@@ -111,6 +112,7 @@ opt_dex=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_log=0
 opt_olvl=0
 opt_pipe=0
 opt_reset=0
@@ -118,7 +120,7 @@ opt_sync=0
 opt_recovery=0
 opt_verbose=0
 
-while getopts "ac:dfj:ko:prs:t:v" opt; do
+while getopts "ac:dfj:klo:prs:t:v" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -126,6 +128,7 @@ while getopts "ac:dfj:ko:prs:t:v" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    l) opt_log=1 ;;
     o) opt_olvl="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
@@ -251,7 +254,7 @@ rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
 # fetch cherry-picks
 if [ "$opt_fetch" -ne 0 ]; then
-        ./vendor/pac/tools/cherries.sh $device
+    ./vendor/pac/tools/cherries.sh $device
 fi
 
 # get time of startup
@@ -306,9 +309,13 @@ else
 fi
 
 if [ "$opt_verbose" -ne 0 ]; then
-make -j"$opt_jobs" showcommands bacon
+    make -j"$opt_jobs" showcommands bacon
 else
-make -j"$opt_jobs" bacon
+    if [ "$opt_log" -ne 0 ]; then
+        make -j"$opt_jobs" bacon 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a warn.log)
+    else
+        make -j"$opt_jobs" bacon
+    fi
 fi
 echo -e ""
 
