@@ -24,8 +24,7 @@ usage()
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - make clean"
-    echo -e "        2 - make dirty"
-    echo -e "        3 - make magicbrownies"
+    echo -e "        2 - make installclean"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
@@ -150,14 +149,10 @@ if [ "$opt_clean" -eq 1 ]; then
     echo -e ${bldblu}"Out is clean"${txtrst}
     echo -e ""
 elif [ "$opt_clean" -eq 2 ]; then
-    make dirty >/dev/null
+    . build/envsetup.sh && lunch "pac_$device-userdebug";
+    make installclean >/dev/null
     echo -e ""
     echo -e ${bldblu}"Out is dirty"${txtrst}
-    echo -e ""
-elif [ "$opt_clean" -eq 3 ]; then
-    make magicbrownies >/dev/null
-    echo -e ""
-    echo -e ${bldblu}"Enjoy your magical adventure"${txtrst}
     echo -e ""
 fi
 
