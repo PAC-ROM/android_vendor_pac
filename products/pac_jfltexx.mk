@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_jflte,$(TARGET_PRODUCT))
+ifeq (pac_jfltexx,$(TARGET_PRODUCT))
 
 # PAC boot logo
 PRODUCT_COPY_FILES += \
@@ -18,11 +18,11 @@ include vendor/pac/config/pac_common.mk
 
 # Device Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/pac/overlay/device/jflte
+    vendor/pac/overlay/device/jfltexx
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/jflte/cm.mk)
+$(call inherit-product, device/samsung/jfltexx/cm.mk)
 
-PRODUCT_NAME := pac_jflte
+PRODUCT_NAME := pac_jfltexx
 
 endif
