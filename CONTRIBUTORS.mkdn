@@ -245,12 +245,12 @@ Samsung:
 * __Galaxy S IV (Cricket) (jflte) :__ Nick0703
 * __Galaxy S IV (GSM) (i9500) :__ Grarak
 * __Galaxy S IV (LTE) (jflte) :__ metaiiica
+* __Galaxy S IV (LTE) (jfltexx) :__ metaiiica
 * __Galaxy S IV (Sprint) (jflte) :__ Sniper
 * __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
-* __Nexus 10 (manta) :__ Volle
 
 
 Sony:
@@ -284,7 +284,7 @@ Xiaomi:
 
 
 
-Total Devices: 130
+Total Devices: 129
 
 Best regards
     szl.kiev
