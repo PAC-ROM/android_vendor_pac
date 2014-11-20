@@ -116,7 +116,7 @@
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Canadian):     jflte          Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Cricket):      jflte          Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-609.html">Galaxy S IV (GSM):          i9500          Grarak</a>
-<a href="http://forum.pac-rom.com/thread-580.html">Galaxy S IV (LTE):          jflte          metaiiica</a>
+<a href="http://forum.pac-rom.com/thread-580.html">Galaxy S IV (LTE):          jfltexx        metaiiica</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (Sprint):       jflte          Sniper</a>
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (T-Mobile):     jflte          Nick0703, josegalre</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (US Cellular):  jflte          Sniper</a>
