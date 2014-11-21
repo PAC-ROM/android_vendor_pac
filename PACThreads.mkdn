@@ -127,6 +127,7 @@
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (US Cellular):  jflte          Sniper</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Galaxy S IV (Verizon):      jflte          RIPng</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
+<a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        Olivier</a>
