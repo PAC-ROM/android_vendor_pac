@@ -25,6 +25,7 @@
   <device name="e610"/>
   <device name="e980"/>
   <!-- <device name="find5"/> -->
+  <device name="galaxysmtd"/>
   <device name="haida"/>
   <device name="hallon"/>
   <!-- <device name="hercules"/> -->
