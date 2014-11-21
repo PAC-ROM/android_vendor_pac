@@ -1,0 +1,20 @@
+[
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_device_samsung_manta",
+    "target_path": "device/samsung/manta",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "CyanogenMod",
+    "repository": "android_kernel_samsung_manta",
+    "target_path": "kernel/samsung/manta",
+    "revision":    "cm-11.0"
+  },
+  {
+    "account":    "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "revision":    "cm-11.0"
+  }
+]
