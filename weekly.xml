@@ -39,6 +39,7 @@
   <device name="m4" hasextras="0"/>
   <!-- <device name="maguro"/> -->
   <device name="mango" hasextras="1"/>
+  <device name="manta" hasextras="0"/>
   <device name="n1" hasextras="0"/>
   <!-- <device name="n7100"/> -->
   <device name="otter" hasextras="0"/>
