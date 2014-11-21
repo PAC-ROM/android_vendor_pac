@@ -95,6 +95,7 @@
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
         <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
+        <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S I Captivate" CodeName="captivatemtd"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II (AT&amp;T)" CodeName="skyrocket"/>
