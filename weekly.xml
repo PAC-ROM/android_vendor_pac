@@ -4,71 +4,73 @@
   This file describes which devices are to be built weekly. These devices include legacy devices that use our add/remove options found in
   the manifest folder of the vendor_pac repo and low activity devices (less than 35 downloads per week).
   The will run once a week and that is it. This is to save needed resources.
+  The "hasextras" variable is set to 1 if the device has adds/removes or cherries, thereby triggering a resync of the build machine
+  source after the build of the weekly device.
 -->
 
 <manifest>
   <!-- Add new devices here -->
-  <device name="a510"/>
-  <device name="a700"/>
+  <device name="a510" hasextras="0"/>
+  <device name="a700" hasextras="0"/>
   <!-- <device name="acclaim"/> -->
-  <device name="anzu"/>
-  <device name="armani"/>
-  <device name="captivatemtd"/>
-  <device name="coconut"/>
-  <device name="condor"/>
-  <device name="d800"/>
+  <device name="anzu" hasextras="1"/>
+  <device name="armani" hasextras="1"/>
+  <device name="captivatemtd" hasextras="0"/>
+  <device name="coconut" hasextras="1"/>
+  <device name="condor" hasextras="1"/>
+  <device name="d800" hasextras="0"/>
   <!-- <device name="d801"/> -->
   <!-- <device name="d802"/> -->
   <!-- <device name="d803"/> -->
-  <device name="deb"/>
-  <device name="dlx"/>
-  <device name="e610"/>
-  <device name="e980"/>
+  <device name="deb" hasextras="0"/>
+  <device name="dlx" hasextras="0"/>
+  <device name="e610" hasextras="1"/>
+  <device name="e980" hasextras="0"/>
   <!-- <device name="find5"/> -->
-  <device name="haida"/>
-  <device name="hallon"/>
+  <device name="haida" hasextras="1"/>
+  <device name="hallon" hasextras="1"/>
   <!-- <device name="hercules"/> -->
-  <device name="huashan"/>
+  <device name="huashan" hasextras="1"/>
   <!-- <device name="i605"/> -->
-  <device name="iyokan"/>
-  <device name="jem"/>
+  <device name="iyokan" hasextras="1"/>
+  <device name="jem" hasextras="0"/>
   <!-- <device name="l900"/> -->
-  <device name="ls970"/>
-  <device name="m4"/>
+  <device name="ls970" hasextras="0"/>
+  <device name="m4" hasextras="0"/>
   <!-- <device name="maguro"/> -->
-  <device name="mango"/>
-  <device name="n1"/>
+  <device name="mango" hasextras="1"/>
+  <device name="n1" hasextras="0"/>
   <!-- <device name="n7100"/> -->
-  <device name="otter"/>
-  <device name="otterx"/>
-  <device name="otter2"/>
-  <device name="ovation"/>
-  <device name="p700"/>
+  <device name="otter" hasextras="0"/>
+  <device name="otterx" hasextras="0"/>
+  <device name="otter2" hasextras="0"/>
+  <device name="ovation" hasextras="0"/>
+  <device name="p700" hasextras="1"/>
   <!-- <device name="p705"/> -->
-  <device name="pollux"/>
-  <device name="pollux_windy"/>
+  <device name="pollux" hasextras="0"/>
+  <device name="pollux_windy" hasextras="0"/>
   <!-- <device name="r950"/> -->
-  <device name="ruby"/>
-  <device name="s2ve"/>
-  <device name="s2vep"/>
-  <device name="satsuma"/>
+  <device name="ruby" hasextras="0"/>
+  <device name="s2ve" hasextras="1"/>
+  <device name="s2vep" hasextras="1"/>
+  <device name="satsuma" hasextras="1"/>
   <!-- <device name="skyrocket"/> -->
-  <device name="smultron"/>
+  <device name="smultron" hasextras="1"/>
   <!-- <device name="t0lte"/> -->
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->
-  <device name="t6"/>
-  <device name="t6spr"/>
-  <device name="t6vzw"/>
-  <device name="tenderloin"/>
+  <device name="t6" hasextras="0"/>
+  <device name="t6spr" hasextras="0"/>
+  <device name="t6vzw" hasextras="0"/>
+  <device name="tenderloin" hasextras="1"/>
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
-  <device name="umts_spyder"/>
-  <device name="urushi"/>
+  <device name="umts_spyder" hasextras="0"/>
+  <device name="urushi" hasextras="1"/>
   <!-- <device name="v500"/> -->
-  <device name="venturi"/>
-  <device name="ville"/>
-  <device name="vs980"/>
-  <device name="wx_na_wf"/>
-  <device name="ypg1"/>
+  <device name="venturi" hasextras="0"/>
+  <device name="ville" hasextras="0"/>
+  <device name="vs980" hasextras="0"/>
+  <device name="wx_na_wf" hasextras="1"/>
+  <device name="ypg1" hasextras="0"/>
 </manifest>
