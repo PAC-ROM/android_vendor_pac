@@ -258,6 +258,7 @@ Samsung:
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
+* __Nexus 10 (manta) :__ Volle
 
 
 Sony:
@@ -291,7 +292,7 @@ Xiaomi:
 
 
 
-Total Devices: 132
+Total Devices: 133
 
 Best regards
     szl.kiev
