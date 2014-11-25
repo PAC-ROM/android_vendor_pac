@@ -45,6 +45,16 @@ def is_in_manifest(projectname):
             return 1
 
     try:
+        lm = ElementTree.parse(".repo/local_manifests/device.xml")
+        lm = lm.getroot()
+    except:
+        lm = ElementTree.Element("manifest")
+
+    for localpath in lm.findall("project"):
+        if localpath.get("name") == projectname:
+            return 1
+
+    try:
         mm = ElementTree.parse(".repo/manifest.xml")
         mm = mm.getroot()
     except:
