@@ -31,7 +31,8 @@ usage()
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s#  Sync options before build"
     echo -e "        1 - normal sync"
-    echo -e "        2 - restore previous snapshot, then snapshot sync"
+    echo -e "        2 - make snapshot"
+    echo -e "        3 - restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
     echo -e "    -t# Build with a different Recovery (extreme caution, ONLY for developers)"
     echo -e "        1 - Build TWRP Recovery (extreme caution, ONLY for developers)"
@@ -198,11 +199,7 @@ if [ "$opt_reset" -ne 0 ]; then
     echo -e ""
 fi
 
-# take snapshot of current sources
-echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
-repo manifest -o snapshot-$device.xml -r
-echo -e ""
-
+# repo sync/snapshot
 if [ "$opt_sync" -eq 1 ]; then
     # sync with latest sources
     echo -e ""
@@ -210,6 +207,11 @@ if [ "$opt_sync" -eq 1 ]; then
     repo sync -j"$opt_jobs"
     echo -e ""
 elif [ "$opt_sync" -eq 2 ]; then
+    # take snapshot of current sources
+    echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
+    repo manifest -o snapshot-$device.xml -r
+    echo -e ""
+elif [ "$opt_sync" -eq 3 ]; then
     # restore snapshot tree, then sync with latest sources
     echo -e ""
     echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
