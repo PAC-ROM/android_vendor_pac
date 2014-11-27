@@ -108,6 +108,8 @@
         <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, LTE, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
+        <device FullName="Galaxy Tab 2 7.0 (GSM)" CodeName="p3100"/>
+        <device FullName="Galaxy Tab 2 7.0 (Wi-Fi)" CodeName="p3110"/>
         <device FullName="Nexus 10" CodeName="manta"/>
     </vendor>
     <vendor Name="Sony">
