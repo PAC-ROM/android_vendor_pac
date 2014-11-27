@@ -258,6 +258,8 @@ Samsung:
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
+* __Galaxy Tab 2 7" (GSM) (p3100) :__ ashwin007
+* __Galaxy Tab 2 7" (Wi-Fi) (p3110) :__ ashwin007
 * __Nexus 10 (manta) :__ Volle
 
 
@@ -292,7 +294,7 @@ Xiaomi:
 
 
 
-Total Devices: 133
+Total Devices: 135
 
 Best regards
     szl.kiev
