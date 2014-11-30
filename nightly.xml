@@ -48,8 +48,8 @@
   <device name="n5100"/>
   <device name="n5110"/>
   <device name="n5120"/>
-  <device name="p3100"/>
-  <device name="p3110"/>
+  <!-- device name="p3100"/-->
+  <!-- device name="p3110"/-->
   <device name="pyramid"/>
   <device name="sprout"/>
   <device name="spyder"/>
