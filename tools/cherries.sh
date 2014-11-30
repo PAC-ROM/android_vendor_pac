@@ -127,7 +127,7 @@ case $device in
         # display patch
         PATCH=0001-display-add-msm8610
         FOLDER=hardware/qcom/display
-        patch_it true
+        patch_it
     ;;
     s2ve | s2vep)
         # av patch
