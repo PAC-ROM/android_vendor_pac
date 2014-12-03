@@ -30,12 +30,6 @@
         "revision":    "cm-12.0"
     },
     {
-        "account":     "CyanogenMod",
-        "repository":  "android_frameworks_opt_connectivity",
-        "target_path": "frameworks/opt/connectivity",
-        "revision":    "cm-12.0"
-    },
-    {
         "account":     "Pinky-Inky-and-Clyde",
         "repository":  "proprietary_vendor_oppo",
         "target_path": "vendor/oppo",
