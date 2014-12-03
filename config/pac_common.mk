@@ -1,9 +1,3 @@
-# now use pac sounds
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=PAC-Ringtone.ogg \
-    ro.config.notification_sound=PAC-Notifications.ogg \
-    ro.config.alarm_alert=PAC-Alarm.ogg
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
@@ -72,8 +66,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     HALO \
     InsertCoins \
-    PacConsole \
-    PacPapers \
+    PACConsole \
+    PACPapers \
     PACPerformance
 
 # PAC Overlays
