@@ -4,6 +4,10 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
 
+# Proprietary latinime lib needed for Keyboard swyping
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
 # Pac Sounds
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/media/audio/alarms/PAC-Alarm.ogg:system/media/audio/alarms/PAC-Alarm.ogg \
