@@ -223,6 +223,7 @@ Samsung:
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
 * __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
 * __Galaxy Player 5.0 (venturi) :__ iurnait
+* __Galaxy S I (galaxysmtd) :__ Volle
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (AT&T) (skyrocket) :__ TheCybertronian
