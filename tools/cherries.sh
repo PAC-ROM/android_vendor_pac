@@ -97,31 +97,18 @@ function patch_it {
 
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
-        # Apply IO scheduler settings to all storage devices
-        cherries+=(65599_CM)
-        # semc_ics_camera
-        PATCH=semc_ics_camera_1
-        FOLDER=frameworks/av
-        patch_it
-        PATCH=semc_ics_camera_2
-        FOLDER=frameworks/av
-        patch_it
-        # ti: Add interface_mtu request
-        cherries+=(69839_CM)
-        # libbt-vendor: Cleanup handling of all commands
-        cherries+=(73157_CM)
-        # Bluetooth : Handling case: close comes before rxthread
-        cherries+=(70334_CM)
-        # a2dp: disable music autoplay on connect based on settings
-        cherries+=(71674_CM)
-        ## move apps to SD patches
-        topics+=(a2sd_PAC)
-        PATCH=20140915-vold-Allow-ASEC-containers-on-an-external-volume-whe
-        FOLDER=system/vold
-        patch_it
-        PATCH=20140915-msm7x30-enable-moving-apps-to-sdcard1
-        FOLDER=device/semc/msm7x30-common
-        patch_it
+        # build: Add option to disable block-based ota
+        cherries+=(78849_CM)
+        # recovery: Always include ext4 stuff
+        cherries+=(79803_CM)
+        # Android: driver_nl80211: implement NoA/p2p_ps/set_wps_ie stubs
+        cherries+=(78120_CM)
+        # Android: driver_nl80211: implement NoA/p2p_ps/set_wps_ie stubs
+        cherries+=(78853_CM)
+        # Revert "Revert "Reenable support for non-PIE executables""
+        cherries+=(79136_CM)
+        # libutils: refbase: jellybean mr1 compat
+        cherries+=(79142_CM)
     ;;
     condor)
         # display patch
