@@ -1,10 +1,6 @@
 # Check for target product
 ifeq (pac_ruby,$(TARGET_PRODUCT))
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_480x800.rle:root/logo.rle
-
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/540x960/bootanimation.zip:system/media/bootanimation.zip
