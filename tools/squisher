@@ -8,15 +8,15 @@
 OUT_TARGET_HOST=`uname -s`
 if [ x"$OUT_TARGET_HOST" = x"Linux" ]
 then
-   OUT_TARGET_HOST=linux-x86
-   XARGS="xargs --max-args=1 --max-procs `grep 'processor' /proc/cpuinfo|wc -l`"
+    OUT_TARGET_HOST=linux-x86
+    XARGS="xargs --max-args=1 --max-procs `grep 'processor' /proc/cpuinfo|wc -l`"
 elif [ x"$OUT_TARGET_HOST" = x"Darwin" ]
 then
-   OUT_TARGET_HOST=darwin-x86
-   XARGS="xargs -n 1 -P `sysctl hw.ncpu | awk '{print $2}'`"
+    OUT_TARGET_HOST=darwin-x86
+    XARGS="xargs -n 1 -P `sysctl hw.ncpu | awk '{print $2}'`"
 else
-   echo -e ${red}"ERROR: unknown/unsupported host OS!"${txtrst}
-   exit 1
+    echo -e ${red}"ERROR: unknown/unsupported host OS!"${txtrst}
+    exit 1
 fi
 
 if [ -z "$OUT" -o ! -d "$OUT" ]; then
@@ -27,6 +27,20 @@ fi
 OPTICHARGER=$ANDROID_BUILD_TOP/vendor/pac/tools/opticharger
 QUIET=-q
 DELETE_BINS="applypatch applypatch_static check_prereq recovery updater"
+
+# Delete PAC specific files
+if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/squisher.rm ]; then
+    for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/squisher.rm`; do
+        rm -rf $OUT/$RM_FILE
+    done
+fi
+
+# Delete target product specific files
+if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm ]; then
+    for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm`; do
+        rm -rf $OUT/$RM_FILE
+    done
+fi
 
 # Optimize PNG resources in APKs
 ( cd $OUT/system; find framework/ app/ priv-app/ -name \*.apk -print | $XARGS $OPTICHARGER; )
