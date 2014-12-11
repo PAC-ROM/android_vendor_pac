@@ -1,0 +1,6 @@
+# PerformanceControl
+allow system_server sysfs_lowmemorykiller:file rw_file_perms;
+allow system_server sysfs_devices_system_cpu:file rw_file_perms;
+allow system_app sysfs_lowmemorykiller:file rw_file_perms;
+allow system_app sysfs_devices_system_cpu:file rw_file_perms;
+allow system_app sysfs_writable:file rw_file_perms;
