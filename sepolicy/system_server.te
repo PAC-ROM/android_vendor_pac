@@ -1,0 +1,6 @@
+###########################
+# OmniROM common sepolicy
+#
+
+allow system_server sysfs_lowmemorykiller:file rw_file_perms;
+allow system_server sysfs_devices_system_cpu:file rw_file_perms;

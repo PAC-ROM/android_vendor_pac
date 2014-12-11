@@ -16,6 +16,14 @@ PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTA
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
+# SELinux
+BOARD_SEPOLICY_IGNORE += vendor/cm/sepolicy/file_contexts
+BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy
+BOARD_SEPOLICY_UNION += \
+    file_contexts \
+    system_app.te \
+    system_server.te
+
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 
 # Add CM release version
