@@ -1,6 +1,12 @@
 [
     {
         "account":      "LegacyXperia",
+        "repository":   "android_device_qcom_msm7x30-common",
+        "target_path":  "device/qcom/msm7x30-common",
+        "revision":     "cm-12.0"
+    },
+    {
+        "account":      "LegacyXperia",
         "repository":   "android_device_semc_satsuma",
         "target_path":  "device/semc/satsuma",
         "revision":     "cm-12.0"
