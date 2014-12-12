@@ -13,10 +13,6 @@ PRODUCT_COPY_FILES += \
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
-# PAC Packages
-PRODUCT_PACKAGES += \
-    PACPerformance
-
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 
 # Add CM release version
