@@ -37,6 +37,7 @@
   <device name="jactivelte"/>
   <device name="jflte"/>
   <device name="jfltexx"/>
+  <device name="jfltetmo"/>
   <device name="ls980"/>
   <device name="m7"/>
   <device name="m7spr"/>
