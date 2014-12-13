@@ -67,8 +67,7 @@ PRODUCT_PACKAGES += \
     HALO \
     InsertCoins \
     PACConsole \
-    PACPapers \
-    PACPerformance
+    PACPapers
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
