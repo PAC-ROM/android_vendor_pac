@@ -79,6 +79,7 @@ add_lunch_combo pac_i9500-userdebug
 add_lunch_combo pac_jactivelte-userdebug
 add_lunch_combo pac_jflte-userdebug
 add_lunch_combo pac_jfltexx-userdebug
+add_lunch_combo pac_jfltetmo-userdebug
 add_lunch_combo pac_l900-userdebug
 add_lunch_combo pac_maguro-userdebug
 add_lunch_combo pac_manta-userdebug

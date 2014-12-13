@@ -247,7 +247,7 @@ Samsung:
 * __Galaxy S IV (GSM) (i9500) :__ Grarak
 * __Galaxy S IV (LTE) (jfltexx) :__ metaiiica
 * __Galaxy S IV (Sprint) (jflte) :__ Sniper
-* __Galaxy S IV (T-Mobile) (jflte) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (US Cellular) (jflte) :__ Sniper
 * __Galaxy S IV (Verizon) (jflte) :__ RIPng
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi

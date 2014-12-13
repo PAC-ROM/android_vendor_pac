@@ -100,8 +100,9 @@
         <device FullName="Galaxy S III (AT&amp;T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
-        <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="jflte"/>
+        <device FullName="Galaxy S IV (AT&amp;T, C-Spire, Canadian, Cricket, Sprint, US Cellular, Verizon)" CodeName="jflte"/>
         <device FullName="Galaxy S IV (LTE)" CodeName="jfltexx"/>
+		<device FullName="Galaxy S IV (T-Mobile)" CodeName="jfltetmo"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
         <device FullName="Nexus 10" CodeName="manta"/>
