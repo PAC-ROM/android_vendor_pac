@@ -2,8 +2,7 @@
 ifeq (pac_tf300t,$(TARGET_PRODUCT))
 
 # Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/800x1280/bootanimation.zip:system/media/bootanimation.zip
+PAC_BOOTANIMATION_NAME := 800
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
