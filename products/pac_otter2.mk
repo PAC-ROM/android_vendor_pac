@@ -6,8 +6,7 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bootlogo/pac_logo_600x1024.rle:root/logo.rle
 
 # Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/600x1024/bootanimation.zip:system/media/bootanimation.zip
+PAC_BOOTANIMATION_NAME := 600
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
