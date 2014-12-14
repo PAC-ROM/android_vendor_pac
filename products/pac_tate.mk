@@ -1,9 +1,6 @@
 # Check for target product
 ifeq (pac_tate,$(TARGET_PRODUCT))
 
-# PAC boot logo
-PAC_BOOTANIMATION_NAME := 800
-
 # Copy bootanimation
 PAC_BOOTANIMATION_NAME := 800
 

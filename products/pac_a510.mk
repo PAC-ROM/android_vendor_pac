@@ -1,10 +1,6 @@
 # Check for target product
 ifeq (pac_a510,$(TARGET_PRODUCT))
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_800x1280.rle:root/logo.rle
-
 # Copy bootanimation
 PAC_BOOTANIMATION_NAME := 800
 
