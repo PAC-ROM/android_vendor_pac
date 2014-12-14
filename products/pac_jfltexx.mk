@@ -2,8 +2,7 @@
 ifeq (pac_jfltexx,$(TARGET_PRODUCT))
 
 # Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
+PAC_BOOTANIMATION_NAME := 1080
 
 # Copy QuickBoot.apk
 PRODUCT_COPY_FILES += \
