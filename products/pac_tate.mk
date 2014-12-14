@@ -1,13 +1,10 @@
 # Check for target product
 ifeq (pac_tate,$(TARGET_PRODUCT))
 
-# PAC boot logo
+# Bootanimation
 PAC_BOOTANIMATION_NAME := 800
 
-# Copy bootanimation
-PAC_BOOTANIMATION_NAME := 800
-
-# include PAC common configuration
+# Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
