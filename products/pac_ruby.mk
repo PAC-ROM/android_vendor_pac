@@ -2,8 +2,7 @@
 ifeq (pac_ruby,$(TARGET_PRODUCT))
 
 # Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/540x960/bootanimation.zip:system/media/bootanimation.zip
+PAC_BOOTANIMATION_NAME := 540
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk

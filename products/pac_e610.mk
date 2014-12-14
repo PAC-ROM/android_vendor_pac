@@ -2,8 +2,7 @@
 ifeq (pac_e610,$(TARGET_PRODUCT))
 
 # Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/320x480/bootanimation.zip:system/media/bootanimation.zip
+PAC_BOOTANIMATION_NAME := 320
 
 # include PAC common configuration
 include vendor/pac/config/pac_common.mk
