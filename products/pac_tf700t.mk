@@ -1,11 +1,10 @@
 # Check for target product
 ifeq (pac_tf700t,$(TARGET_PRODUCT))
 
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/1920x1200/bootanimation.zip:system/media/bootanimation.zip
+# Bootanimation
+PAC_BOOTANIMATION_NAME := 1920
 
-# include PAC common configuration
+# Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration

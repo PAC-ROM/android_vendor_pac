@@ -1,13 +1,8 @@
 # Check for target product
 ifeq (pac_jactivelte,$(TARGET_PRODUCT))
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_1080x1920.rle:root/logo.rle
-
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/1080x1920/bootanimation.zip:system/media/bootanimation.zip
+# Bootanimation
+PAC_BOOTANIMATION_NAME := 1080
 
 # Copy QuickBoot.apk
 PRODUCT_COPY_FILES += \
