@@ -39,3 +39,9 @@ ifeq ($(DISABLE_ADB_AUTH),true)
         ro.adb.secure=3 \
         persist.sys.root_access=3
 endif
+
+# Add and Remove
+ifeq ($(PAC_USE_ADDREMOVE),true)
+    GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
+    GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
+endif
