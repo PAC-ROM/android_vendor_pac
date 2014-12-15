@@ -117,15 +117,15 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2015607">Galaxy S III (US Cellular): d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2028443">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (AT&T):         jflte          Nick0703</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2412589">Galaxy S IV (C-Spire):      jflte          RIPng</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (C-Spire):      jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Canadian):     jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Cricket):      jflte          Nick0703</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2396173">Galaxy S IV (GSM):          i9500          Grarak</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2400387">Galaxy S IV (LTE):          jflte          metaiiica</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2312063">Galaxy S IV (Sprint):       jflte          Sniper</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2396173">Galaxy S IV (GSM):          i9500          OPEN</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (LTE):          jflte          Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Sprint):       jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2668312">Galaxy S IV (T-Mobile):     jflte          Nick0703, josegalre</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2312131">Galaxy S IV (US Cellular):  jflte          Sniper</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2312069">Galaxy S IV (Verizon):      jflte          RIPng</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (US Cellular):  jflte          Nick0703</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Verizon):      jflte          Nick0703</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2821017">Galaxy S IV Active (GSM):   jactivelte     mythi</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2942109">Galaxy Tab 2 7" (GSM):      p3100          ashwin007</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2942109">Galaxy Tab 2 7" (Wi-Fi):    p3110          ashwin007</a>
