@@ -1,15 +1,10 @@
 # Check for target product
 ifeq (pac_otter,$(TARGET_PRODUCT))
 
-# PAC boot logo
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bootlogo/pac_logo_600x1024.rle:root/logo.rle
+# Bootanimation
+PAC_BOOTANIMATION_NAME := 600
 
-# Copy bootanimation
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/600x1024/bootanimation.zip:system/media/bootanimation.zip
-
-# include PAC common configuration
+# Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
