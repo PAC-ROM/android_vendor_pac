@@ -1,12 +1,11 @@
 # Check for target product
 ifeq (pac_jfltevzw,$(TARGET_PRODUCT))
 
-# Copy bootanimation
+# Bootanimation
 PAC_BOOTANIMATION_NAME := 1080
 
-# Copy QuickBoot.apk
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/apk/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk
+# QuickBoot
+PAC_USE_QUICKBOOT := true
 
 # Include PAC common configuration
 include vendor/pac/config/pac_common.mk
