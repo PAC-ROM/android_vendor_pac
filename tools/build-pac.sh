@@ -157,15 +157,6 @@ elif [ "$opt_clean" -eq 2 ]; then
     echo -e ""
 fi
 
-# download prebuilt files
-date=`date '+%d'`
-if [ -x "vendor/cm/get-prebuilts" -a ! -d "vendor/cm/proprietary" ] || [ $date == 01 ] || [ $date == 15 ]; then
-    echo -e ""
-    echo -e ${bldblu}"Downloading prebuilts"${txtrst}
-    vendor/cm/get-prebuilts
-    echo -e ""
-fi
-
 # TWRP Recovery
 if [ "$opt_recovery" -eq 1 ]; then
     echo -e ""
