@@ -22,8 +22,8 @@ Contributors:
 * __DympyDev__
 * __goldflame09__
 * __iurnait__
+* __JoseGalRe__
 * __Langes__
-* __metaiiica__
 
 
 Gerrit Administrators:
@@ -40,11 +40,9 @@ Gerrit Administrators:
 
 Forum Administrators:
 ---------------------
-* __bluefa1con__
 * __MaDc0w__
 * __Nick0703__
 * __Papa Smurf151__
-* __szl.kiev__
 
 
 Web Administrators:
@@ -58,6 +56,7 @@ Web Administrators:
 Jenkins Administrators:
 -----------------------
 * __MaDc0w__
+* __Nick0703__
 * __Papa Smurf151__
 * __pvyParts__
 
@@ -74,7 +73,6 @@ BuildBot Maintainers:
 * __Lilmacaco__
 * __MaDc0wUSP__
 * __MallardDuck__
-* __metaiiica__
 * __my95z34__
 * __Papa-Smurf151__
 * __pvyParts__
@@ -241,22 +239,22 @@ Samsung:
 * __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
 * __Galaxy S IV (AT&T) (jflte) :__ Nick0703
-* __Galaxy S IV (C-Spire) (jflte) :__ RIPng
+* __Galaxy S IV (C-Spire) (jflte) :__ Nick0703
 * __Galaxy S IV (Canadian) (jflte) :__ Nick0703
 * __Galaxy S IV (Cricket) (jflte) :__ Nick0703
-* __Galaxy S IV (GSM) (i9500) :__ Grarak
-* __Galaxy S IV (LTE) (jfltexx) :__ metaiiica
-* __Galaxy S IV (Sprint) (jflte) :__ Sniper
+* __Galaxy S IV (GSM) (i9500) :__ OPEN
+* __Galaxy S IV (LTE) (jfltexx) :__ Nick0703
+* __Galaxy S IV (Sprint) (jflte) :__ Nick0703
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (US Cellular) (jflte) :__ Sniper
-* __Galaxy S IV (Verizon) (jflte) :__ RIPng
+* __Galaxy S IV (US Cellular) (jflte) :__ Nick0703
+* __Galaxy S IV (Verizon) (jflte) :__ Nick0703
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
 * __Nexus 10 (manta) :__ Volle
 
 
 Sony:
 ---------------------------------------------------------------------
-* __Xperia L (taoshan) :__ Olivier
+* __Xperia L (taoshan) :__ Open
 * __Xperia SP (huashan) :__ neXusPRIME
 * __Xperia Tablet Z LTE (pollux) :__ skiwong20, bluefa1con
 * __Xperia Tablet Z (pollux_windy) :__ skiwong20, bluefa1con
