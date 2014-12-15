@@ -33,9 +33,26 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
 
+# Device Overlays
+ifeq ($(PAC_USE_OVERLAYS),true)
+    PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/device/$(TARGET_DEVICE)
+endif
+
+# QuickBoot
+# WARNING: This is only for supported devices
+ifeq ($(PAC_USE_QUICKBOOT),true)
+    PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/apk/QuickBoot.apk:system/app/QuickBoot/QuickBoot.apk
+endif
+
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
     ADDITIONAL_DEFAULT_PROPERTIES += \
         ro.adb.secure=3 \
         persist.sys.root_access=3
+endif
+
+# Add and Remove
+ifeq ($(PAC_USE_ADDREMOVE),true)
+    GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
+    GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 endif
