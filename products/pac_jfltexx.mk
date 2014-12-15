@@ -1,7 +1,7 @@
 # Check for target product
 ifeq (pac_jfltexx,$(TARGET_PRODUCT))
 
-# Copy bootanimation
+# Bootanimation
 PAC_BOOTANIMATION_NAME := 1080
 
 # Copy QuickBoot.apk
