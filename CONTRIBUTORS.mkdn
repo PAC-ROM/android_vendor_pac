@@ -238,16 +238,15 @@ Samsung:
 * __Galaxy S III (T-Mobile) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
-* __Galaxy S IV (AT&T) (jflte) :__ Nick0703
-* __Galaxy S IV (C-Spire) (jflte) :__ Nick0703
-* __Galaxy S IV (Canadian) (jflte) :__ Nick0703
-* __Galaxy S IV (Cricket) (jflte) :__ Nick0703
+* __Galaxy S IV (AT&T) (jflteatt) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (C-Spire) (jfltecsp) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (Canadian) (jfltecan) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (Cricket) (jfltecri) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (GSM) (i9500) :__ OPEN
-* __Galaxy S IV (LTE) (jfltexx) :__ Nick0703
-* __Galaxy S IV (Sprint) (jflte) :__ Nick0703
+* __Galaxy S IV (Sprint) (jfltespr) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (US Cellular) (jflte) :__ Nick0703
-* __Galaxy S IV (Verizon) (jflte) :__ Nick0703
+* __Galaxy S IV (US Cellular) (jflteusc) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (Verizon) (jfltevzw) :__ Nick0703, JoseGalRe
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
 * __Nexus 10 (manta) :__ Volle
 
