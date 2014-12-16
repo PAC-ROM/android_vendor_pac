@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_jflte,$(TARGET_PRODUCT))
+ifeq (pac_jflteusc,$(TARGET_PRODUCT))
 
 # Copy bootanimation
 PRODUCT_COPY_FILES += \
@@ -13,8 +13,8 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/jflte/cm.mk)
+$(call inherit-product, device/samsung/jflteusc/cm.mk)
 
-PRODUCT_NAME := pac_jflte
+PRODUCT_NAME := pac_jflteusc
 
 endif
