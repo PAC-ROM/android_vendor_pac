@@ -112,16 +112,15 @@
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (T-Mobile):    d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-531.html">Galaxy S III (US Cellular): d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (AT&T):         jflte          Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (C-Spire):      jflte          Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Canadian):     jflte          Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Cricket):      jflte          Nick0703</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (AT&T):         jflteatt       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (C-Spire):      jfltecsp       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Canadian):     jfltecan       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Cricket):      jfltecri       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-609.html">Galaxy S IV (GSM):          i9500          OPEN</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (LTE):          jfltexx        Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Sprint):       jflte          Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (T-Mobile):     jfltetmo       Nick0703, josegalre</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (US Cellular):  jflte          Nick0703</a>
-<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Verizon):      jflte          Nick0703</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Sprint):       jfltespr       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (T-Mobile):     jfltetmo       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (US Cellular):  jflteusc       Nick0703, JoseGalRe</a>
+<a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Verizon):      jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
 <a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
 <br>
