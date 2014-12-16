@@ -1,0 +1,9 @@
+# Make recovery domain permissive so we can set SELinux permissive
+#
+# This change makes the recovery domain permissive so that we can
+# use the recovery selabel in the init.rc to set SELinux permissive
+# in recovery.
+recovery_only(`
+  # Allow recovery to set permissive mode
+  permissive recovery;
+')
