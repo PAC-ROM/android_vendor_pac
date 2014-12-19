@@ -128,6 +128,8 @@
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (US Cellular):  jflte          Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Verizon):      jflte          Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1261.html">Galaxy Tab 2 7" (GSM):     p3100          ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-1261.html">Galaxy Tab 2 7" (Wi-Fi):   p3110          ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
