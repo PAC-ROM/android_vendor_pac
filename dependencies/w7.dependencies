@@ -1,38 +1,38 @@
 [
-	{
-		"account": "CyanogenMod",
-		"repository": "android_device_qcom_common",
-		"target_path": "device/qcom/common",
-		"revision": "cm-11.0"
-	},
-	{
-		"account": "CyanogenMod",
-		"repository": "android_hardware_qcom_display-caf-new",
-		"target_path": "hardware/qcom/display-caf-new",
-		"revision": "cm-11.0"
-	},
-	{
-		"account": "CyanogenMod",
-		"repository": "android_hardware_qcom_media-caf-new",
-		"target_path": "hardware/qcom/media-caf-new",
-		"revision": "cm-11.0"
-	},
-	{
-		"account": "Pinky-Inky-and-Clyde",
-		"repository": "proprietary_vendor_lge",
-		"target_path": "vendor/lge",
-		"revision": "cm-11.0"
-	},
-	{
-		"account": "demonslayer12349",
-		"repository": pac-rom_lge_w7-d415",
-		"target_path": "device/lge/w7",
-		"revision": "master"
-	},
-	{
-		"account": "demonslayer12349",
-		"repository": "android_kernel_lge_msm8226",
-		"target_path": "kernel/lge/msm8226",
-		"revision": "master"
-	}
+  {
+       "account": "CyanogenMod",
+       "repository": "android_device_qcom_common",
+       "target_path": "device/qcom/common",
+       "revision": "cm-11.0"
+   },
+   {
+       "account": "CyanogenMod",
+       "repository": "android_hardware_qcom_display-caf-new",
+       "target_path": "hardware/qcom/display-caf-new",
+       "revision": "cm-11.0"
+   },
+   {
+       "account": "CyanogenMod",
+       "repository": "android_hardware_qcom_media-caf-new",
+       "target_path": "hardware/qcom/media-caf-new",
+       "revision": "cm-11.0"
+   },
+   {
+       "account": "Pinky-Inky-and-Clyde",
+       "repository": "proprietary_vendor_lge",
+       "target_path": "vendor/lge",
+       "revision": "cm-11.0"
+    },
+    {
+       "account": "demonslayer12349",
+       "repository": pac-rom_lge_w7-d415",
+       "target_path": "device/lge/w7",
+       "revision": "master"
+    },
+    {
+        "account": "demonslayer12349",
+        "repository": "android_kernel_lge_msm8226",
+        "target_path": "kernel/lge/msm8226",
+        "revision": "master"
+    }
 ]
