@@ -63,6 +63,7 @@
 <a href="http://forum.pac-rom.com/thread-964.html">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-922.html">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus L7:                 p705           coderzs</a>
+<a href="http://forum.pac-rom.com/thread-1304.html">Optimus L90:               w7             demonslayer12349</a>
 <br>
 <h3>Motorola</h3>
 <a href="http://forum.pac-rom.com/thread-1038.html">Droid Razr (GSM):          umtsspyder     skiwong20</a>
