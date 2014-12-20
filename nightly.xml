@@ -52,4 +52,5 @@
   <device name="spyder"/>
   <device name="tate"/>
   <device name="vs985"/>
+  <device name="w7" />
 </manifest>

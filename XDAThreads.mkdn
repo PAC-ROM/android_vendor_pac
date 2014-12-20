@@ -63,6 +63,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">Optimus L7:                 p705           coderzs</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2849625">Optimus L90:                 w7          demonslayer12349</a>
 <br>
 <h3>Motorola</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670349">Droid Razr (GSM):           umtsspyder     skiwong20</a>

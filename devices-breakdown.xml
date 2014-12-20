@@ -61,6 +61,7 @@
         <device FullName="Optimus L5" CodeName="e610"/>
         <device FullName="Optimus L7" CodeName="p700"/>
         <device FullName="Optimus L7" CodeName="p705"/>
+    	<device FullName="optimus L90" CodeName="w7" />
     </vendor>
     <vendor Name="Motorola">
         <device FullName="Droid Maxx (Verizon-Developer Edition), Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
