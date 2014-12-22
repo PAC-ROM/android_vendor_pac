@@ -48,6 +48,7 @@
   <device name="n5110"/>
   <device name="n5120"/>
   <device name="pyramid"/>
+  <device name="shamu"/>
   <device name="spyder"/>
   <device name="tate"/>
 </manifest>
