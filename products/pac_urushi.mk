@@ -4,9 +4,6 @@ ifeq (pac_urushi,$(TARGET_PRODUCT))
 # Bootanimation
 PAC_BOOTANIMATION_NAME := 480
 
-# Use Add-Remove
-PAC_USE_ADDREMOVE := true
-
 # Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 

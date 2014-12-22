@@ -4,9 +4,6 @@ ifeq (pac_satsuma,$(TARGET_PRODUCT))
 # Bootanimation
 PAC_BOOTANIMATION_NAME := 320
 
-# Use Add-Remove
-PAC_USE_ADDREMOVE := true
-
 # Include PAC common configuration
 include vendor/pac/config/pac_common.mk
 
