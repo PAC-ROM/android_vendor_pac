@@ -1,0 +1,23 @@
+[
+   {
+      "remote":  "github",
+      "account": "Pinky-Inky-and-Clyde",
+      "repository":  "proprietary_vendor_motorola",
+      "target_path":  "vendor/motorola",
+      "revision":  "cm-12.0"
+   },
+    {
+      "remote":  "github",
+      "account": "N6-Dev-Team",
+      "repository":  "android_device_moto_shamu",
+      "target_path":  "device/moto/shamu",
+      "revision":  "aod"
+   },
+    {
+      "remote":  "github",
+      "account": "N6-Dev-Team",
+      "repository":  "android_kernel_moto_shamu",
+      "target_path":  "kernel/moto/shamu",
+      "revision":  "aod"
+   }
+]
