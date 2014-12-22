@@ -183,6 +183,7 @@ Motorola:
 * __Moto X (T-Mobile) (ghost) :__ Skiwong20, timpohladthomas
 * __Moto X (US Cellular) (ghost) :__ Skiwong20, timpohladthomas
 * __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20, timpohladthomas
+* __Nexus 6 (shamu) :__ Bkjolly, One200ne, Skiwong20, zyonee
 * __Photon Q 4G LTE (moto_msm8960) :__ arrrghhh
 
 
@@ -283,7 +284,7 @@ Xiaomi:
 
 
 
-Total Devices: 130
+Total Devices: 131
 
 Best regards
     szl.kiev
