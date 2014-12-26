@@ -97,6 +97,10 @@ function patch_it {
 
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
+        # temporarily disable gcc warnings
+        PATCH=TEMP-disable-gcc-wrapper
+        FOLDER=kernel/semc/msm7x30
+        patch_it
         # semc_ics_camera
         PATCH=semc_ics_camera_1
         FOLDER=frameworks/av
