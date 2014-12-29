@@ -335,7 +335,7 @@ case "$TARGET_DEVICE" in
         echo 'ro.device.screen_res=8" 1920x1200 pixels (~283 ppi)'
     ;;
 # OnePlus
-    bacon ) # One 'bacon'
+    bacon | A0001 ) # One 'bacon'
         echo 'ro.device.chipset=Qualcomm MSM8974AC Snapdragon 801'
         echo 'ro.device.cpu_info=Quad-core 2.5 GHz Krait 400'
         echo 'ro.device.gpu=Adreno 330'
