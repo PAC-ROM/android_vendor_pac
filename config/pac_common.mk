@@ -10,11 +10,19 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/media/audio/notifications/PAC-Notifications.ogg:system/media/audio/notifications/PAC-Notifications.ogg \
     vendor/pac/prebuilt/common/media/audio/ringtones/PAC-Ringtone.ogg:system/media/audio/ringtones/PAC-Ringtone.ogg
 
+# Permissions for Performance Control
+PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/etc/init.d/00init:system/etc/init.d/00init
+
 # Bootanimation
 PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
+
+# SELinux
+BOARD_SEPOLICY_IGNORE += vendor/cm/sepolicy/file_contexts
+BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy
+BOARD_SEPOLICY_UNION += file_contexts
 
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 

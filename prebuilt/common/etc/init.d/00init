@@ -1,0 +1,35 @@
+#!/system/bin/sh
+: '
+ ================ Copyright (C) 2014 PAC-Roms Project ================
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ =====================================================================
+'
+
+# Need for OMNI's PerformanceControl
+chown system system /sys/block/mmcblk0/queue/scheduler
+chmod 0664 /sys/block/mmcblk0/queue/scheduler
+
+chown system system /sys/block/mmcblk0/queue/read_ahead_kb
+chmod 0664 /sys/block/mmcblk0/queue/read_ahead_kb
+
+chown system system /sys/block/mmcblk1/queue/scheduler
+chmod 0664 /sys/block/mmcblk1/queue/scheduler
+
+chown system system /sys/block/mmcblk1/queue/read_ahead_kb
+chmod 0664 /sys/block/mmcblk1/queue/read_ahead_kb
+
+chown system system /sys/module/lowmemorykiller/parameters/minfree
+chmod 0664 /sys/module/lowmemorykiller/parameters/minfree
