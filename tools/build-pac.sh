@@ -271,6 +271,7 @@ elif [ "$opt_only" -eq 2 ]; then
     make -j"$opt_jobs" recoveryimage
 else
     echo -e ${bldblu}"Starting compilation"${txtrst}
+    echo -e ""
     if [ "$opt_verbose" -ne 0 ]; then
         make -j"$opt_jobs" showcommands bacon
     else
