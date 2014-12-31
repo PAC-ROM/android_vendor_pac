@@ -22,6 +22,9 @@ usage()
     echo -e ""
     echo -e ${txtbld}"  Options:"${txtrst}
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
+    echo -e "    -b# Prebuilt Chromium options:"
+    echo -e "        1 - Remove"
+    echo -e "        2 - No Prebuilt Chromium"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
@@ -100,6 +103,7 @@ export USE_PREBUILT_CHROMIUM=1
 export USE_CCACHE=1
 
 opt_adb=0
+opt_chromium=0
 opt_clean=0
 opt_fetch=0
 opt_jobs="$CPUS"
@@ -110,9 +114,10 @@ opt_sync=0
 opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:fj:kprs:tv" opt; do
+while getopts "ab:c:fj:kprs:tv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
+    b) opt_chromium="$OPTARG" ;;
     c) opt_clean="$OPTARG" ;;
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
@@ -132,6 +137,16 @@ fi
 device="$1"
 
 echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
+
+if [ "$opt_chromium" -eq 1 ]; then
+    rm -rf prebuilts/chromium/$device
+    echo -e ""
+    echo -e ${bldblu}"Prebuilt Chromium for $device removed"${txtrst}
+elif [ "$opt_chromium" -eq 2 ]; then
+    unset USE_PREBUILT_CHROMIUM
+    echo -e ""
+    echo -e ${bldblu}"Prebuilt Chromium will not be used"${txtrst}
+fi
 
 # PAC device dependencies
 echo -e ""
