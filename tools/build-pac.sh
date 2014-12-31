@@ -34,9 +34,7 @@ usage()
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -p  Build using pipe"
-    echo -e "    -t# Build with a different recovery: (Extreme caution, ONLY for developers)"
-    echo -e "        1 - Build TWRP Recovery (Extreme caution, ONLY for developers)"
-    echo -e "        2 - Build CM Recovery (Extreme caution, ONLY for developers)"
+    echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e "    -v  Verbose build output"
     echo -e ""
@@ -109,10 +107,10 @@ opt_kr=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
-opt_recovery=0
+opt_twrp=0
 opt_verbose=0
 
-while getopts "ac:fj:kprs:t:v" opt; do
+while getopts "ac:fj:kprs:tv" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -122,7 +120,7 @@ while getopts "ac:fj:kprs:t:v" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_recovery="$OPTARG" ;;
+    t) opt_twrp=1 ;;
     v) opt_verbose=1 ;;
     *) usage
     esac
@@ -159,18 +157,13 @@ elif [ "$opt_clean" -eq 2 ]; then
 fi
 
 # TWRP Recovery
-if [ "$opt_recovery" -eq 1 ]; then
+if [ "$opt_twrp" -eq 1 ]; then
     echo -e ""
     echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
     export RECOVERY_VARIANT=twrp
     echo -e ""
-elif [ "$opt_recovery" -eq 2 ]; then
-    echo -e ""
-    echo -e ${bldblu}"CM Recovery will be built"${txtrst}
-    export RECOVERY_VARIANT=cm
-    echo -e ""
 else
-    unset RECOVERY_VARIANT
+    export RECOVERY_VARIANT=cwm
 fi
 
 # Disable ADB authentication and set root access to Apps and ADB
