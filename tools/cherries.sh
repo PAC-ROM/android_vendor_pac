@@ -99,14 +99,14 @@ case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # build: Add option to disable block-based ota
         cherries+=(78849_CM)
-        # recovery: Always include ext4 stuff
-        cherries+=(79803_CM)
-        # capabilities ERANG error fix
-        cherries+=(78853_CM)
         # Revert "Revert "Reenable support for non-PIE executables""
         cherries+=(79136_CM)
-        # libutils: refbase: jellybean mr1 compat
-        cherries+=(79142_CM)
+        # arm: Allow disabling PIE for dynamically linked executables
+        cherries+=(81758_CM)
+        # nl80211: Add unhandled attributes from wpa_supplicant
+        cherries+=(81764_CM)
+        # bcmdhd: workaround for driver compiled as a module
+        cherries+=(82598_CM)
     ;;
     condor)
         # display patch
