@@ -19,6 +19,9 @@ on boot
     chmod 0664 /sys/kernel/mm/ksm/sleep_millisecs
     chown root system /sys/kernel/mm/ksm/run
     chmod 0664 /sys/kernel/mm/ksm/run
+    write /sys/kernel/mm/ksm/sleep_millisecs 500
+    write /sys/kernel/mm/ksm/pages_to_scan 100
+    write /sys/kernel/mm/ksm/deferred_timer 1
 
     # set permission to notify_on_migrate node (used by power hal)
     chown system system /dev/cpuctl/apps/cpu.notify_on_migrate
