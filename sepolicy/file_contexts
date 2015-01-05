@@ -1,35 +1,37 @@
+# Dalvik-Cache
+/cache/dalvik-cache(/.*)? u:object_r:dalvikcache_data_file:s0
+
 # Auditd is a logging daemon. Put it into logd's context
-/system/bin/auditd          u:object_r:logd_exec:s0
-/data/misc/audit(/.*)?      u:object_r:auditd_log:s0
+/system/bin/auditd        u:object_r:logd_exec:s0
+/data/misc/audit(/.*)?    u:object_r:auditd_log:s0
 
 # Themes
-/data/system/theme(/.*)?    u:object_r:theme_data_file:s0
+/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
 
 # Init
-/system/bin/sysinit         u:object_r:sysinit_exec:s0
+/system/bin/sysinit       u:object_r:sysinit_exec:s0
 
 # For minivold in recovery
-/sbin/minivold              u:object_r:vold_exec:s0
+/sbin/minivold            u:object_r:vold_exec:s0
 
 # Performance Control
-/sys/kernel/mm/ksm(/.*)?    u:object_r:sysfs_writable:s0
-/sys/block/mmcblk(/.*)?     u:object_r:sysfs_writable:s0
-/sys/block/zram(/.*)?       u:object_r:sysfs_writable:s0
+/sys/block/mmcblk(/.*)?                    u:object_r:sysfs_writable:s0
+/sys/block/mmcblk0/queue/scheduler         u:object_r:sysfs_writable:s0
+/sys/block/zram(/.*)?                      u:object_r:sysfs_writable:s0
+/sys/devices/system/cpu.*/cpufreq(/.*)?    u:object_r:sysfs_writable:s0
+/sys/kernel/mm/ksm(/.*)?                   u:object_r:sysfs_writable:s0
 
 # Wireless
-/data/hostapd(/.*)?         u:object_r:wifi_data_file:s0
+/data/hostapd(/.*)?       u:object_r:wifi_data_file:s0
 
 # Radio
-/data/misc/radio(/.*)?      u:object_r:radio_data_file:s0
+/data/misc/radio(/.*)?    u:object_r:radio_data_file:s0
 
 # Superuser's control sockets
 /dev/socket/su-daemon(/.*)?   u:object_r:superuser_device:s0
 
 # Expansion of these hooks is a bit unconventional
-/cache/com.cyanogenmod.keyhandler.dex    u:object_r:dalvikcache_data_file:s0
+/cache/com.cyanogenmod.keyhandler.dex   u:object_r:dalvikcache_data_file:s0
 
 # Lockscreen wallpaper
-/data/system/users/[0-9]+/keyguard_wallpaper    u:object_r:wallpaper_file:s0
-
-# Dalvik-Cache
-/cache/dalvik-cache(/.*)?    u:object_r:dalvikcache_data_file:s0
+/data/system/users/[0-9]+/keyguard_wallpaper   u:object_r:wallpaper_file:s0
