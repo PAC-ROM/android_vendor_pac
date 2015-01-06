@@ -50,4 +50,5 @@
   <device name="pyramid"/>
   <device name="spyder"/>
   <device name="tate"/>
+  <device name="umts_spyder"/>
 </manifest>
