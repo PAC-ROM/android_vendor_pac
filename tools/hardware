@@ -409,6 +409,14 @@ case "$TARGET_DEVICE" in
         echo 'ro.device.front_cam=VGA (640x480)'
         echo 'ro.device.screen_res=5" 480x800 pixels (~187 ppi)'
     ;;
+    galaxysmtd ) # Galaxy S I 'galaxysmtd'
+        echo 'ro.device.chipset=Samsung Exynos 3110'
+        echo 'ro.device.cpu_info=Single-core 1 GHz Cortex-A8'
+        echo 'ro.device.gpu=PowerVR SGX540'
+        echo 'ro.device.rear_cam=5 MP (2592x1944)'
+        echo 'ro.device.front_cam=0.3 MP (640x480)'
+        echo 'ro.device.screen_res=4" 480x800 pixels (~233 ppi)'
+    ;;
     captivatemtd ) # Galaxy S I Captivate 'captivatemtd'
         echo 'ro.device.chipset=Samsung Hummingbird'
         echo 'ro.device.cpu_info=Single-core 1 GHz Cortex-A8'
