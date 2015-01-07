@@ -489,6 +489,14 @@ case "$TARGET_DEVICE" in
         echo 'ro.device.front_cam=2 MP (1600x1200)'
         echo 'ro.device.screen_res=5" 1920x1080 pixels (~441 ppi)'
     ;;
+    manta ) # Nexus 10
+        echo 'ro.device.chipset=Samsung Exynos 5250'
+        echo 'ro.device.cpu_info=Dual-core 1.7 GHz Cortex-A15'
+        echo 'ro.device.gpu=Mali-T604'
+        echo 'ro.device.rear_cam=5 MP (2560x1920)'
+        echo 'ro.device.front_cam=1.9 MP (720p)'
+        echo 'ro.device.screen_res=10.1" 2560x1600 pixels (~300 ppi)'
+    ;;
 # Sony
     taoshan ) # Xperia L 'taoshan'
         echo 'ro.device.chipset=Qualcomm MSM8230 Snapdragon'
