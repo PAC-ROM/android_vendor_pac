@@ -122,6 +122,8 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (US Cellular):  jflteusc       Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312069">Galaxy S IV (Verizon):      jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2821017">Galaxy S IV Active (GSM):   jactivelte     mythi</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2944807">Galaxy S IV mini (GSM):     serrano3gxx    lsdty</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2944807">Galaxy S IV mini (lte):     serranoltexx   lsdty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2948457">Nexus 10:                   manta          aHcVolle</a>
 <br>
 <h3>Sony</h3>
