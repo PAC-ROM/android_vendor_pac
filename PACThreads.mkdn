@@ -123,6 +123,8 @@
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (US Cellular):  jflteusc       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-530.html">Galaxy S IV (Verizon):      jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1169.html">Galaxy S IV Active (GSM):  jactivelte     mythi</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>
