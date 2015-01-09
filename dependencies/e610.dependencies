@@ -3,7 +3,7 @@
         "account":      "aidasaidas75",
         "repository":   "android_device_lge_e610",
         "target_path":  "device/lge/e610",
-        "revision":     "pac-4.4"
+        "revision":     "cm-11.0"
     },
     {
         "account":      "TeamHackLG",
