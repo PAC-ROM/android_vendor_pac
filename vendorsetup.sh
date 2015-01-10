@@ -97,6 +97,7 @@ add_lunch_combo pac_r950-userdebug
 add_lunch_combo pac_s2ve-userdebug
 add_lunch_combo pac_s2vep-userdebug
 add_lunch_combo pac_serrano3gxx-userdebug
+add_lunch_combo pac_serranodsdd-userdebug
 add_lunch_combo pac_serranoltexx-userdebug
 add_lunch_combo pac_skyrocket-userdebug
 add_lunch_combo pac_t0lte-userdebug
