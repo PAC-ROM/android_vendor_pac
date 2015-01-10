@@ -111,6 +111,7 @@
         <device FullName="Galaxy S IV (US Cellular)" CodeName="jflteusc"/>
         <device FullName="Galaxy S IV (Verizon)" CodeName="jfltevzw"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
+        <device FullName="Galaxy S IV mini (DUOS)" CodeName="serranodsdd"/>
         <device FullName="Galaxy S IV mini (GSM)" CodeName="serrano3gxx"/>
         <device FullName="Galaxy S IV mini (LTE)" CodeName="serranoltexx"/>
         <device FullName="Nexus 10" CodeName="manta"/>
