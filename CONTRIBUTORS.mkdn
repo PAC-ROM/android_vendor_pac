@@ -250,6 +250,7 @@ Samsung:
 * __Galaxy S IV (Verizon) (jfltevzw) :__ Nick0703, JoseGalRe
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
 * __Galaxy S IV mini (GSM) (serrano3gxx) :__ lsdty
+* __Galaxy S IV mini (GSM) (serranodsdd) :__ lsdty
 * __Galaxy S IV mini (LTE) (serranoltexx) :__ lsdty
 * __Nexus 10 (manta) :__ Volle
 
@@ -285,7 +286,7 @@ Xiaomi:
 
 
 
-Total Devices: 132
+Total Devices: 133
 
 Best regards
     szl.kiev
