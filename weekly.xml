@@ -56,6 +56,7 @@
   <device name="s2ve" hasextras="1"/>
   <device name="s2vep" hasextras="1"/>
   <device name="serrano3gxx" hasextras="0"/>
+  <device name="serranodsdd" hasextras="0"/>
   <device name="serranoltexx" hasextras="0"/>
   <device name="satsuma" hasextras="1"/>
   <!-- <device name="skyrocket"/> -->
