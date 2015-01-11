@@ -4,13 +4,17 @@ on boot
     # I/O scheduler
     chown system system /sys/block/mmcblk0/queue/scheduler
     chmod 0664 /sys/block/mmcblk0/queue/scheduler
+    restorecon /sys/block/mmcblk0/queue/scheduler
     chown system system /sys/block/mmcblk0/queue/read_ahead_kb
     chmod 0664 /sys/block/mmcblk0/queue/read_ahead_kb
+    restorecon /sys/block/mmcblk0/queue/read_ahead_kb
 
     chown system system /sys/block/mmcblk1/queue/scheduler
     chmod 0664 /sys/block/mmcblk1/queue/scheduler
+    restorecon /sys/block/mmcblk1/queue/scheduler
     chown system system /sys/block/mmcblk1/queue/read_ahead_kb
     chmod 0664 /sys/block/mmcblk1/queue/read_ahead_kb
+    restorecon /sys/block/mmcblk1/queue/read_ahead_kb
 
     # allow system to modify ksm control files
     chown root system /sys/kernel/mm/ksm/pages_to_scan
