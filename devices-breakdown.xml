@@ -64,6 +64,7 @@
         <device FullName="Droid Razr M (Verizon), Photon Q 4G LTE" CodeName="moto_msm8960"/>
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
+        <device FullName="Moto G (LTE)" CodeName="peregrine"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
     <vendor Name="Nvidia">
