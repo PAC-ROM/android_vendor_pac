@@ -15,11 +15,11 @@
 /sbin/minivold            u:object_r:vold_exec:s0
 
 # Performance Control
-/sys/block/mmcblk(/.*)?                    u:object_r:sysfs_writable:s0
+/sys/block/mmcblk[0-2]/queue(/.*)          u:object_r:sysfs_ioscheduler:s0
 /sys/block/mmcblk0/queue/scheduler         u:object_r:sysfs_writable:s0
-/sys/block/zram(/.*)?                      u:object_r:sysfs_writable:s0
+/sys/block/zram(/.*)?                      u:object_r:sysfs_zram:s0
 /sys/devices/system/cpu.*/cpufreq(/.*)?    u:object_r:sysfs_writable:s0
-/sys/kernel/mm/ksm(/.*)?                   u:object_r:sysfs_writable:s0
+/sys/kernel/mm/ksm(/.*)?                   u:object_r:sysfs_ksm:s0
 
 # Wireless
 /data/hostapd(/.*)?       u:object_r:wifi_data_file:s0
