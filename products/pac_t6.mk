@@ -5,11 +5,10 @@ ifeq (pac_t6,$(TARGET_PRODUCT))
 PAC_BOOTANIMATION_NAME := 1080
 
 # Include PAC common configuration
+PRODUCT_NAME := pac_t6
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/htc/t6/cm.mk)
-
-PRODUCT_NAME := pac_t6
 
 endif

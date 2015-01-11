@@ -8,11 +8,10 @@ PAC_BOOTANIMATION_NAME := 1080
 PAC_USE_OVERLAYS := true
 
 # Include PAC common configuration
+PRODUCT_NAME := pac_bacon
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/oneplus/bacon/cm.mk)
-
-PRODUCT_NAME := pac_bacon
 
 endif

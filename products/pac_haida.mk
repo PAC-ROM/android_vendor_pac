@@ -5,11 +5,10 @@ ifeq (pac_haida,$(TARGET_PRODUCT))
 PAC_BOOTANIMATION_NAME := 480
 
 # Include PAC common configuration
+PRODUCT_NAME := pac_haida
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/semc/haida/cm.mk)
-
-PRODUCT_NAME := pac_haida
 
 endif

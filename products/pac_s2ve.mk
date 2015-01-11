@@ -8,11 +8,10 @@ PAC_BOOTANIMATION_NAME := 480
 PAC_USE_ADDREMOVE := true
 
 # Include PAC common configuration
+PRODUCT_NAME := pac_s2ve
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/samsung/s2ve/cm.mk)
-
-PRODUCT_NAME := pac_s2ve
 
 endif
