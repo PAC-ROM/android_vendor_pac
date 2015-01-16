@@ -1,8 +1,8 @@
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
-    vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
+    vendor/pac/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/pac/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh
 
 # Pac Sounds
 PRODUCT_COPY_FILES += \
