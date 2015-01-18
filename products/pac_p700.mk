@@ -8,11 +8,10 @@ PAC_BOOTANIMATION_NAME := 480
 PAC_USE_ADDREMOVE := true
 
 # Include PAC common configuration
+PRODUCT_NAME := pac_p700
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/lge/p700/cm.mk)
-
-PRODUCT_NAME := pac_p700
 
 endif
