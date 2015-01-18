@@ -160,6 +160,7 @@ LG:
 * __Optimus G2 (T-Mobile) (d801) :__ OPEN
 * __Optimus G2 (Sprint) (ls980) :__ OPEN
 * __Optimus G2 (Verizon) (vs980) :__ tucstwo
+* __G3 (Sprint) (ls990) :__ MallardDuck
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas
@@ -279,7 +280,7 @@ Xiaomi:
 
 
 
-Total Devices: 125
+Total Devices: 126
 
 Best regards
     szl.kiev
