@@ -1,0 +1,14 @@
+[
+    {
+        "account":      "joshuabg",
+        "repository":   "android_device_htc_flounder",
+        "target_path":  "device/htc/flounder",
+        "revision":     "cm-12.0"
+    },
+    {
+        "account":      "joshuabg",
+        "repository":   "android_kernel_htc_flounder",
+        "target_path":  "kernel/htc/flounder",
+        "revision":     "cm-12.0"
+    }
+]
