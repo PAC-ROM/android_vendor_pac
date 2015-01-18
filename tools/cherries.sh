@@ -183,7 +183,10 @@ case $device in
         cherries+=(71804_CM)
         cherries+=(71802_CM)
     ;;
-
+    flounder)
+        # Fix build
+        cherries+=(83064_CM)
+    ;;
 esac
 
 if [ "$PATCH" != "" ]; then
