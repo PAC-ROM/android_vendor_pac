@@ -52,5 +52,6 @@
   <device name="sprout"/>
   <device name="spyder"/>
   <device name="tate"/>
+  <device name="v500"/>
   <device name="vs985"/>
 </manifest>
