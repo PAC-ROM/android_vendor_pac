@@ -33,6 +33,7 @@
   <device name="hallon" hasextras="1"/>
   <!-- <device name="hercules"/> -->
   <device name="huashan" hasextras="1"/>
+  <device name="i9300" hasextras="1"/>
   <!-- <device name="i605"/> -->
   <device name="iyokan" hasextras="1"/>
   <device name="jem" hasextras="0"/>
