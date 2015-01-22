@@ -1,0 +1,68 @@
+From 1e76b4de9ed43ee9381256c8cbdc63e79f33648e Mon Sep 17 00:00:00 2001
+From: Dheeraj CVR <cvr.dheeraj@gmail.com>
+Date: Sun, 21 Dec 2014 21:26:27 +0530
+Subject: [PATCH] smdk4412-common: remove unrecognized flags from keylayout
+ files
+
+Change-Id: If303aa9b8ceab9b9ecafcaccf403de1b87d1437a
+---
+ .../proprietary/system/usr/keylayout/gpio-keys.kl  |  8 +++----
+ .../system/usr/keylayout/sii9234_rcp.kl            | 28 +++++++++++-----------
+ 2 files changed, 18 insertions(+), 18 deletions(-)
+
+diff --git a/smdk4412-common/proprietary/system/usr/keylayout/gpio-keys.kl b/smdk4412-common/proprietary/system/usr/keylayout/gpio-keys.kl
+index 7014d5c..64e0a2f 100644
+--- a/smdk4412-common/proprietary/system/usr/keylayout/gpio-keys.kl
++++ b/smdk4412-common/proprietary/system/usr/keylayout/gpio-keys.kl
+@@ -1,4 +1,4 @@
+-key 115   VOLUME_UP         WAKE
+-key 114   VOLUME_DOWN       WAKE
+-key 116   POWER             WAKE
+-key 172   HOME              WAKE
++key 115   VOLUME_UP
++key 114   VOLUME_DOWN
++key 116   POWER
++key 172   HOME
+diff --git a/smdk4412-common/proprietary/system/usr/keylayout/sii9234_rcp.kl b/smdk4412-common/proprietary/system/usr/keylayout/sii9234_rcp.kl
+index ae6c6a2..16685cc 100644
+--- a/smdk4412-common/proprietary/system/usr/keylayout/sii9234_rcp.kl
++++ b/smdk4412-common/proprietary/system/usr/keylayout/sii9234_rcp.kl
+@@ -1,10 +1,10 @@
+-key 1     ENTER             WAKE_DROPPED
+-key 2     DPAD_UP           WAKE_DROPPED
+-key 3     DPAD_DOWN         WAKE_DROPPED
+-key 4     DPAD_LEFT         WAKE_DROPPED
+-key 5     DPAD_RIGHT        WAKE_DROPPED
+-key 10    MENU              WAKE_DROPPED
+-key 14    BACK              WAKE_DROPPED
++key 1     ENTER
++key 2     DPAD_UP
++key 3     DPAD_DOWN
++key 4     DPAD_LEFT
++key 5     DPAD_RIGHT
++key 10    MENU
++key 14    BACK
+ 
+ key 33    0
+ key 34    1
+@@ -19,10 +19,10 @@ key 42    9
+ 
+ key 45    DEL
+ 
+-key 69    MEDIA_PLAY_PAUSE	WAKE
+-key 70    MEDIA_STOP          	WAKE
+-key 71    MEDIA_PLAY_PAUSE	WAKE
+-key 73    MEDIA_REWIND          WAKE
+-key 74    MEDIA_FAST_FORWARD	WAKE
+-key 76    MEDIA_NEXT		WAKE
+-key 77    MEDIA_PREVIOUS	WAKE
++key 69    MEDIA_PLAY_PAUSE
++key 70    MEDIA_STOP
++key 71    MEDIA_PLAY_PAUSE
++key 73    MEDIA_REWIND
++key 74    MEDIA_FAST_FORWARD
++key 76    MEDIA_NEXT
++key 77    MEDIA_PREVIOUS
+-- 
+1.9.1
+
