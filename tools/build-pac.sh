@@ -180,7 +180,7 @@ if [ "$opt_twrp" -eq 1 ]; then
     export RECOVERY_VARIANT=twrp
     echo -e ""
 else
-    export RECOVERY_VARIANT=cwm
+    unset RECOVERY_VARIANT
 fi
 
 # Disable ADB authentication and set root access to Apps and ADB
