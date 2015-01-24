@@ -1,14 +1,14 @@
 [
     {
         "name":   "android_device_samsung_smdk4412-common",
-        "path":  "device/samsung/smdk4412-common"
+        "path":   "device/samsung/smdk4412-common"
     },
     {
         "name":   "android_hardware_samsung",
-        "path":  "hardware/samsung"
+        "path":   "hardware/samsung"
     },
     {
         "name":   "android_kernel_samsung_smdk4412",
-        "path":  "kernel/samsung/smdk4412"
+        "path":   "kernel/samsung/smdk4412"
     }
 ]
