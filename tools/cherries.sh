@@ -187,6 +187,32 @@ case $device in
         # Fix build
         cherries+=(83064_CM)
     ;;
+    i9300)
+        # smdk4412-common-open-source-libUMP
+        PATCH=smdk4412-common-open-source-libUMP
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+        # smdk4412-common-remove-unrecognized-flags-from-keylayout
+        PATCH=smdk4412-common-remove-unrecognized-flags-from-keylayout
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+        # smdk4412-common-update-Mali-blobs-from-N7100-kitkat
+        PATCH=smdk4412-common-update-Mali-blobs-from-N7100-kitkat
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+        # smdk4412-common-use-proprietary-hwcomposer
+        PATCH=smdk4412-common-use-proprietary-hwcomposer
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+        # smdk4412-common-we-like-opensource
+        PATCH=smdk4412-common-we-like-opensource
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+        # smdk4412-update-drm-libs
+        PATCH=smdk4412-update-drm-libs
+        FOLDER=vendor/samsung
+        patch_it #add this function call for each patch
+    ;;
 esac
 
 if [ "$PATCH" != "" ]; then
