@@ -28,11 +28,29 @@
     "repository":   "android_kernel_samsung_msm8930-common",
     "target_path":  "kernel/samsung/msm8930-common",
     "revision":     "cm-12.0"
-  }
-{
+  },
+  {
     "account":      "CyanogenMod",
     "repository":   "android_hardware_qcom_fm",
     "target_path":  "hardware/qcom/fm",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_qcom-common",
+    "target_path":  "device/samsung/qcom-common",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_msm8930-common",
+    "target_path":  "device/samsung/msm8930-common",
     "revision":     "cm-12.0"
   }
 ]
