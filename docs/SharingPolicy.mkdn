@@ -1,5 +1,5 @@
 PAC-man Rom Sharing Policy
-===========================
+==========================
 
 
 As PAC-man Rom has grown exponentially over the last year, we have run into
@@ -30,7 +30,7 @@ reported and possibly removed. (This is a respect thing)
 
 
 Winzipped ROMS
----------------
+--------------
 We do not allow any winzipped Roms of any kind when it comes to PAC-man. We do not allow ports from 
 one device to another. We only allow source built Roms and that is it. Any winzipped Roms under the
 PAC-man Rom name will be reported.
@@ -39,7 +39,7 @@ PAC-man Rom name will be reported.
 
 
 Cherry-Picking
----------------
+--------------
 PAC-man Roms are open source and as we cherry picked a lot of features from many different sources we
 encourage you to do the same. Either from us or from the direct source. We ask that you keep the
 Author of the original commit within your cherry-pick and give credits where credits are due. We
@@ -49,7 +49,7 @@ all work very hard on all our projects and everyone is owed that respect.
 
 
 Rebasing
----------
+--------
 The use of PAC-man Roms as a base for your Rom is forbidden. This includes...forking all our repos,
 changing a few apks, changing the wallpaper and boot animation, and then renaming our work to a new name.
 If you wish to use or Rom as a base I suggest you spend the days, weeks, and months it took to put
@@ -62,7 +62,7 @@ hate having to add this in here but it’s a hard lesson learned from the past.
 
 
 Rom/Code Policy
-----------------
+---------------
 Everyone is free to add code to PAC-man Rom. Please do so via gerrit. Once an official thread is created
 for PAC-man Roms we ask that it stay an official thread...this means that if for some reason you decide
 to leave the PAC team that you either close your thread and let another member take over the official 
