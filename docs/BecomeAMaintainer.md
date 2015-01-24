@@ -1,5 +1,4 @@
-Files to edit
-=============
+###Files to edit
 
 1.  [Dependencies] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/dependencies/)
     - We use CM dependencies whenever possible. If you must use other remotes, please be prepared to answer why and try to limit them as much as possible.
@@ -24,22 +23,22 @@ Files to edit
     - [Weekly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/weekly.xml) - If your device uses the adds/removes/cherries (mostly legacy devices) add your device here.
     - Keep alphabetical.
 
-6.  [XDA Threads] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/XDAThreads.mkdn)
+6.  [XDA Threads] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/XDAThreads.mkdn)
     - Add your thread links here.
     - Keep it alphabetical.
     - Follow the format.
 
-7.  [PAC Threads] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/PACThreads.mkdn)
+7.  [PAC Threads] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PACThreads.mkdn)
     - Add your thread links here.
     - Keep it alphabetical.
     - Follow the format.
 
-8.  [XDA Forum Thread Template] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/forum-threads/XDA_Forum_5.0_Threads_Template)
+8.  [XDA Forum Thread Template] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/docs/XDAForumThreadTemplate)
     - Just c/p to your thread.
     - Fill in the needed specific device areas.
     - PAC-ROM Downloads link should direct to PAC Forum Thread.
 
-9.  [PAC Forum Thread Template] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/forum-threads/Pac_Forum_5.0_threads_Template)
+9.  [PAC Forum Thread Template] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/docs/PACForumThreadTemplate)
     - Just c/p to your thread.
     - Fill in the needed specific device areas.
     - Link to https://s.basketbuild.com/devs/pacman/DEVICE_CODENAME/.
@@ -101,4 +100,4 @@ As a Maintainer you are expected to:
 
     5. This page is subject to change without notice! Check back regularly here for changes.
 
-!!Failure to maintain your device properly will result in it being removed from nightly/weekly, and/or suspended/removed from being built!!
+**!!Failure to maintain your device properly will result in it being removed from nightly/weekly, and/or suspended/removed from being built!!**
