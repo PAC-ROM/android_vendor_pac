@@ -176,7 +176,6 @@ case $device in
     ;;
     wx_na_wf)
         # fix wifi
-        cherries+=(71804_CM)
         cherries+=(71802_CM)
     ;;
     flounder)
