@@ -34,6 +34,7 @@ usage()
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set number of jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -i  Ignore minor errors during build"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
@@ -114,13 +115,14 @@ opt_extra=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_ignore=0
 opt_only=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
 
-while getopts "ab:c:e:fj:ko:prs:t" opt; do
+while getopts "ab:c:e:fj:kio:prs:t" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -129,6 +131,7 @@ while getopts "ab:c:e:fj:ko:prs:t" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    i) opt_ignore=1 ;;
     o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
@@ -275,12 +278,15 @@ else
     echo -e ${bldblu}"Starting compilation"${txtrst}
     echo -e ""
     if [ "$opt_extra" -eq 1 ]; then
-        make -j"$opt_jobs" showcommands bacon
+        opt_v=showcommands
     elif [ "$opt_extra" -eq 2 ]; then
-        make -j"$opt_jobs" -s bacon
-    else
-        make -j"$opt_jobs" bacon
+        opt_v=-s
     fi
+    if [ "$opt_ignore" -ne 0 ]; then
+        opt_i=-k
+    fi
+
+    make -j"$opt_jobs" "$opt_v" "$opt_i" bacon
 fi
 echo -e ""
 
@@ -295,3 +301,4 @@ tmin=$(( (t2-t1)/60 ))
 tsec=$(( (t2-t1)%60 ))
 
 echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
+
