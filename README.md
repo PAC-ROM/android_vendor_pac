@@ -1,6 +1,6 @@
 [![Alt text](http://wiki.pac-rom.com/images/3/39/Pac.png)](http://www.pac-rom.com)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Alt text](http://wiki.pac-rom.com/images/2/24/Jenkins.png "Jenkins Builds ")](http://www.pvyparts.com/php-tester/jenkinsBuilds.php)
 [![Alt text](http://wiki.pac-rom.com/images/c/c9/Logo.png "Jenkins ")](https://jenkins.pac-rom.com)
 [![Alt text](http://wiki.pac-rom.com/images/a/aa/Stats.png "Stats ")](http://pac-rom.com/#Stats)
@@ -21,6 +21,6 @@
 
 **Sharing Policy [Please Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/SharingPolicy.md)**
 
-**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildLinux.md) [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildMac.md)**
+**Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildMac.md)**
 
 **Device Maintainers: Guidelines and submitting [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/BecomeAMaintainer.md)**
