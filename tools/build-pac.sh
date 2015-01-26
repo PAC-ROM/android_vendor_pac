@@ -28,6 +28,9 @@ usage()
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
+    echo -e "    -e# Extra build output options:"
+    echo -e "        1 - Verbose build output"
+    echo -e "        2 - Quiet build output"
     echo -e "    -f  Fetch cherry-picks"
     echo -e "    -j# Set number of jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
@@ -42,7 +45,6 @@ usage()
     echo -e "    -p  Build using pipe"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
-    echo -e "    -v  Verbose build output"
     echo -e ""
     echo -e ${txtbld}"  Example:"${txtrst}
     echo -e "    ./build-pac.sh -c1 hammerhead"
@@ -108,6 +110,7 @@ export USE_CCACHE=1
 opt_adb=0
 opt_chromium=0
 opt_clean=0
+opt_extra=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
@@ -116,13 +119,13 @@ opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
-opt_verbose=0
 
-while getopts "ab:c:fj:ko:prs:tv" opt; do
+while getopts "ab:c:e:fj:ko:prs:t" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
     c) opt_clean="$OPTARG" ;;
+    e) opt_extra="$OPTARG" ;;
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
@@ -130,8 +133,7 @@ while getopts "ab:c:fj:ko:prs:tv" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;
-    v) opt_verbose=1 ;;
+    t) opt_twrp=1 ;;      
     *) usage
     esac
 done
@@ -272,8 +274,10 @@ elif [ "$opt_only" -eq 2 ]; then
 else
     echo -e ${bldblu}"Starting compilation"${txtrst}
     echo -e ""
-    if [ "$opt_verbose" -ne 0 ]; then
+    if [ "$opt_extra" -eq 1 ]; then
         make -j"$opt_jobs" showcommands bacon
+    elif [ "$opt_extra" -eq 2 ]; then
+        make -j"$opt_jobs" -s bacon
     else
         make -j"$opt_jobs" bacon
     fi
