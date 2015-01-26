@@ -149,7 +149,9 @@ You can change this setting anytime with the value you want.
         -p  Build using pipe
         -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)
                 (This may produce an invalid recovery. Use only if you have the correct settings for these)
-        -v  Verbose build output
+        -e# Extra build output options"
+              1 - Verbose build output
+              2 - Quiet build output
 
     Example:
         ./build-pac.sh -c1 hammerhead
