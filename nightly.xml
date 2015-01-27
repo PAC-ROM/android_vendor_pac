@@ -50,5 +50,7 @@
   <device name="shamu"/>
   <device name="spyder"/>
   <device name="tate"/>
+  <device name="trltespr"/>
+  <device name="trltetmo"/>
   <device name="v500"/>
 </manifest>
