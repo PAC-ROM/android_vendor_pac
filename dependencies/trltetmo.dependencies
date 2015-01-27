@@ -1,0 +1,50 @@
+[
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_hardware_samsung",
+    "target_path":  "hardware/samsung",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_trltetmo",
+    "target_path":  "device/samsung/trltetmo",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_kernel_samsung_trlte",
+    "target_path":  "kernel/samsung/trlte",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_trlte-common",
+    "target_path":  "device/samsung/trlte-common",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "CyanogenMod",
+    "repository":   "android_device_samsung_qcom-common",
+    "target_path":  "device/samsung/qcom-common",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "Pinky-Inky-and-Clyde",
+    "repository":   "proprietary_vendor_samsung",
+    "target_path":  "vendor/samsung",
+    "revision":     "cm-12.0"
+  },
+  {
+    "account":      "spleef",
+    "repository":   "android_external_mm-dash",
+    "target_path":  "external/mm-dash",
+    "revision":     "cm-12.0"
+  }
+]
