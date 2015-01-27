@@ -87,6 +87,8 @@
         <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
         <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
         <device FullName="Galaxy Note 3 (International, Sprint, T-Mobile, Verizon)" CodeName="hlte"/>
+        <device FullName="Galaxy Note 4 (Sprint)" CodeName="trltespr"/>
+        <device FullName="Galaxy Note 4 (T-Mobile)" CodeName="trltetmo"/>
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
