@@ -159,7 +159,7 @@ LG:
 * __Optimus G (Sprint) (ls970) :__ rectec
 * __Optimus G Pro (e980) :__ machinistsWIP
 * __Optimus G2 (AT&T) (d800) :__ aidasaidas75
-* __Optimus G2 (Canadian) (d803) :__ -Jesco-
+* __Optimus G2 (Canadian) (d803) :__ aidasaidas75
 * __Optimus G2 (GSM) (d802) :__ aidasaidas75
 * __Optimus G2 (T-Mobile) (d801) :__ Goldflame09
 * __Optimus G2 (Sprint) (ls980) :__ Goldflame09
