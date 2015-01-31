@@ -15,7 +15,7 @@
     },
     {
         "remote":       "github",
-        "account":      "Pinky-Inky-and-Clyde",
+        "account":      "darknightmare",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "cm-11.0"
