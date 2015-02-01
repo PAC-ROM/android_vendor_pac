@@ -3,6 +3,9 @@
         <device FullName="Iconia A510/A511" CodeName="a510/a511"/>
         <device FullName="Iconia A700/A701" CodeName="a700/a701"/>
     </vendor>
+    <vendor Name="Amazon">
+        <device FullName="Kindle Fire" CodeName="otterx"/>
+    </vendor>
     <vendor Name="Asus">
         <device FullName="Nexus 7" CodeName="grouper"/>
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
