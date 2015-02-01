@@ -74,6 +74,5 @@
   <!-- <device name="v500"/> -->
   <device name="venturi" hasextras="0"/>
   <device name="ville" hasextras="0"/>
-  <device name="vs980" hasextras="0"/>
-  <device name="wx_na_wf" hasextras="1"/>
+  <device name="vs980" hasextras="0"/>  
 </manifest>
