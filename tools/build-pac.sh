@@ -1,26 +1,26 @@
 #!/bin/bash
+: '
+ ================ Copyright (C) 2015 PAC-Roms Project ================
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
 
-# PAC version
-export PAC_VERSION_MAJOR="LP"
-export PAC_VERSION_MINOR="Beta-1"
-export PAC_VERSION_MAINTENANCE="Unofficial"
-# Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
 
-# PAC version logic
-if [ -s ~/PACname ]; then
-    export PAC_MAINTENANCE=$(cat ~/PACname)
-else
-    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
-fi
-export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ =====================================================================
+'
 
-usage()
-{
-    echo -e ""
-    echo -e "${bldwhi}Usage:${rst}"
+usage(){
+    echo -e "${bldblu}Usage:${bldcya}"
     echo -e "  build-pac.sh [options] device"
     echo -e ""
-    echo -e "${bldwhi}  Options:${rst}"
+    echo -e "${bldblu}  Options:${bldcya}"
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
     echo -e "    -b# Prebuilt Chromium options:"
     echo -e "        1 - Remove"
@@ -47,66 +47,85 @@ usage()
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e ""
-    echo -e "${bldwhi}  Example:${rst}"
+    echo -e "${bldblu}  Example:${bldcya}"
     echo -e "    ./build-pac.sh -c1 hammerhead"
-    echo -e ""
+    echo -e "${rst}"
     exit 1
 }
+
 
 # Colors
 . ./vendor/pac/tools/colors
 
+
+# PAC version
+export PAC_VERSION_MAJOR="LP"
+export PAC_VERSION_MINOR="Beta-1"
+export PAC_VERSION_MAINTENANCE="Unofficial"    # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
+
+
+# Maintenance logic
+if [ -s ~/PACname ]; then
+    export PAC_MAINTENANCE=$(cat ~/PACname)
+else
+    export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
+fi
+export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+
+
+# Check directories
 if [ ! -d ".repo" ]; then
     echo -e "${bldred}No .repo directory found.  Is this an Android build tree?${rst}"
+    echo -e ""
     exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
     echo -e "${bldred}No vendor/pac directory found.  Is this a PAC build tree?${rst}"
+    echo -e ""
     exit 1
 fi
+
 
 # Figure out the output directories
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 thisDIR="${PWD##*/}"
 
 findOUT() {
-if [ -n "${OUT_DIR_COMMON_BASE+x}" ]; then
-return 1; else
-return 0
-fi;}
+    if [ -n "${OUT_DIR_COMMON_BASE+x}" ]; then
+        return 1
+    else
+        return 0
+    fi
+}
 
 findOUT
 RES="$?"
 
 if [ $RES = 1 ];then
     export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
-    echo -e ""
-    echo -e "${cya}External out directory is set to: ($OUTDIR)${rst}"
-    echo -e ""
+    echo -e "${bldcya}External out directory is set to: ${bldgrn}($OUTDIR)"
 elif [ $RES = 0 ];then
     export OUTDIR=$DIR/out
-    echo -e ""
-    echo -e "${cya}No external out, using default: ($OUTDIR)${rst}"
-    echo -e ""
+    echo -e "${bldcya}No external out, using default: ${bldgrn}($OUTDIR)"
 else
-    echo -e ""
-    echo -e "${bldred}NULL${rst}"
-    echo -e "${bldred}Error, wrong results! Blame the split screen!${rst}"
-    echo -e ""
+    echo -e "${bldred}NULL"
+    echo -e "$Error, wrong results! Blame the split screen!"
 fi
+echo -e "${rst}"
+
 
 # Get OS (Linux / Mac OS X)
 IS_DARWIN=$(uname -a | grep Darwin)
 if [ -n "$IS_DARWIN" ]; then
     CPUS=$(sysctl hw.ncpu | awk '{print $2}')
-    DATE=gdate
 else
-    CPUS=$(grep "^processor" /proc/cpuinfo | wc -l)
-    DATE=date
+    CPUS=$(grep "^processor" /proc/cpuinfo -c)
 fi
 
-export USE_PREBUILT_CHROMIUM=1
+
+# Use Ccache
 export USE_CCACHE=1
+
 
 opt_adb=0
 opt_chromium=0
@@ -140,27 +159,30 @@ while getopts "ab:c:e:fj:klo:prs:t" opt; do
     *) usage
     esac
 done
+
 shift $((OPTIND-1))
 if [ "$#" -ne 1 ]; then
     usage
 fi
 device="$1"
 
-echo -e "$Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR${rst} ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
 
+# Chromium options
 if [ "$opt_chromium" -eq 1 ]; then
-    rm -rf prebuilts/chromium/$device
+    rm -rf prebuilts/chromium/"$device"
     echo -e ""
     echo -e "${bldcya}Prebuilt Chromium for $device removed${rst}"
 elif [ "$opt_chromium" -eq 2 ]; then
     unset USE_PREBUILT_CHROMIUM
     echo -e ""
     echo -e "${bldcya}Prebuilt Chromium will not be used${rst}"
+else
+    export USE_PREBUILT_CHROMIUM=1
 fi
 
+
 # PAC device dependencies
-echo -e ""
-echo -e "${bldcya}Looking for PAC product dependencies${rst}${cya}"
+echo -e "${bldcya}Looking for PAC product dependencies${cya}"
 if [ "$opt_kr" -ne 0 ]; then
     vendor/pac/tools/getdependencies.py "$device" "$opt_kr"
 else
@@ -168,16 +190,25 @@ else
 fi
 echo -e "${rst}"
 
+
+# Cleaning out directory
 if [ "$opt_clean" -eq 1 ]; then
     make clean >/dev/null
-    echo -e "${bldcya}Out is clean${rst}"
-    echo -e ""
+    echo -e "${bldcya}Output directory is: ${bldgrn}Clean"
 elif [ "$opt_clean" -eq 2 ]; then
-    . build/envsetup.sh && lunch "pac_$device-userdebug";
+    . build/envsetup.sh
+    lunch "pac_$device-userdebug"
     make installclean >/dev/null
-    echo -e "${bldcya}Out is dirty${rst}"
-    echo -e ""
+    echo -e "${bldcya}output directory is: ${bldred}Dirty"
+else
+    if [ -d "$OUTDIR/target" ]; then
+        echo -e "${bldcya}Output directory is: ${bldylw}Untouched"
+    else
+        echo -e "${bldcya}Output directory is: ${bldgrn}Clean"
+    fi
 fi
+echo -e "${rst}"
+
 
 # TWRP Recovery
 if [ "$opt_twrp" -eq 1 ]; then
@@ -188,7 +219,8 @@ else
     unset RECOVERY_VARIANT
 fi
 
-# Disable ADB authentication and set root access to Apps and ADB
+
+# Disable ADB authentication
 if [ "$opt_adb" -ne 0 ]; then
     echo -e "${bldcya}Disabling ADB authentication and setting root access to Apps and ADB${rst}"
     export DISABLE_ADB_AUTH=true
@@ -197,14 +229,16 @@ else
     unset DISABLE_ADB_AUTH
 fi
 
+
 # Lower RAM devices
 if [ "$opt_lrd" -ne 0 ]; then
-    echo -e ${bldblu}"Applying optimizations for devices with low RAM"${txtrst}
+    echo -e "${bldcya}Applying optimizations for devices with low RAM${rst}"
     export PAC_LOW_RAM_DEVICE=true
     echo -e ""
 else
     unset PAC_LOW_RAM_DEVICE
 fi
+
 
 # Reset source tree
 if [ "$opt_reset" -ne 0 ]; then
@@ -212,6 +246,7 @@ if [ "$opt_reset" -ne 0 ]; then
     repo forall -c "git reset --hard HEAD; git clean -qf"
     echo -e ""
 fi
+
 
 # Repo sync/snapshot
 if [ "$opt_sync" -eq 1 ]; then
@@ -222,56 +257,73 @@ if [ "$opt_sync" -eq 1 ]; then
 elif [ "$opt_sync" -eq 2 ]; then
     # Take snapshot of current sources
     echo -e "${bldcya}Making a snapshot of the repo${rst}"
-    repo manifest -o snapshot-$device.xml -r
+    repo manifest -o snapshot-"$device".xml -r
     echo -e ""
 elif [ "$opt_sync" -eq 3 ]; then
     # Restore snapshot tree, then sync with latest sources
     echo -e "${bldcya}Restoring last snapshot of sources${rst}"
     echo -e ""
-    cp snapshot-$device.xml .repo/manifests/
+    cp snapshot-"$device".xml .repo/manifests/
 
     # Prevent duplicate projects
     cd .repo/local_manifests
-      for file in *.xml ; do mv $file `echo $file | sed 's/\(.*\.\)xml/\1xmlback/'` ; done
+    for file in *.xml; do
+        mv "$file" "$(echo $file | sed 's/\(.*\.\)xml/\1xmlback/')"
+    done
 
-    cd $DIR
-    repo init -m snapshot-$device.xml
+    # Start snapshot file
+    cd "$DIR"
+    repo init -m snapshot-"$device".xml
     echo -e "${bldcya}Fetching snapshot sources${rst}"
-    repo sync -d -j"$opt_jobs"
-    cd .repo/local_manifests
-      for file in *.xmlback ; do mv $file `echo $file | sed 's/\(.*\.\)xmlback/\1xml/'` ; done
     echo -e ""
-    cd $DIR
-    rm -f .repo/manifests/snapshot-$device.xml
+    repo sync -d -j"$opt_jobs"
+
+    # Prevent duplicate backups
+    cd .repo/local_manifests
+    for file in *.xmlback; do
+        mv "$file" "$(echo $file | sed 's/\(.*\.\)xmlback/\1xml/')"
+    done
+
+    # Remove snapshot file
+    cd "$DIR"
+    rm -f .repo/manifests/snapshot-"$device".xml
     repo init
 fi
 
-rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
 # Fetch extras
 if [ "$opt_fetch" -ne 0 ]; then
-    ./vendor/pac/tools/extras.sh $device
+    ./vendor/pac/tools/extras.sh "$device"
 fi
+
 
 # Setup environment
 echo -e "${bldcya}Setting up environment${rst}"
 . build/envsetup.sh
 
-# Remove system folder (This will create a new build.prop with updated build time and date)
-rm -f $OUTDIR/target/product/$device/system/build.prop
+
+# This will create a new build.prop with updated build time and date
+rm -f "$OUTDIR"/target/product/"$device"/system/build.prop
+
+# This will create a new .version for kernel version is maintained on one
+rm -f "$OUTDIR"/target/product/"$device"/obj/KERNEL_OBJ/.version
+
 
 # Lunch device
 echo -e ""
 echo -e "${bldcya}Lunching device${rst}"
-lunch "pac_$device-userdebug";
+lunch "pac_$device-userdebug"
 
-# Start compilation
+
+# Pipe option
 if [ "$opt_pipe" -ne 0 ]; then
     export TARGET_USE_PIPE=true
 else
     unset TARGET_USE_PIPE
 fi
 
+
+# Start compilation
 if [ "$opt_only" -eq 1 ]; then
     echo -e "${bldcya}Starting compilation: ${cya}Only will be built Boot Image${rst}"
     echo -e ""
@@ -281,7 +333,7 @@ elif [ "$opt_only" -eq 2 ]; then
     echo -e ""
     make -j"$opt_jobs" recoveryimage
 else
-    echo -e "${bldcya}Starting compilation${rst}"
+    echo -e "${bldcya}Starting compilation: ${cya}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
     echo -e ""
     if [ "$opt_extra" -eq 1 ]; then
         make -j"$opt_jobs" showcommands bacon
@@ -292,6 +344,7 @@ else
     fi
 fi
 
+
 # Cleanup unused built
-rm -f $OUTDIR/target/product/$device/cm-*.*
-rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
+rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
+rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
