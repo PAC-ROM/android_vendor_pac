@@ -179,11 +179,6 @@ Motorola:
 * __Photon Q 4G LTE (moto_msm8960) :__ arrrghhh
 
 
-Nvidia:
----------------------------------------------------------------------
-* __Shield Tablet (wx_na_wf) :__ joshuabg
-
-
 OnePlus:
 ---------------------------------------------------------------------
 * __One (bacon) :__ MaDc0w, Nick0703

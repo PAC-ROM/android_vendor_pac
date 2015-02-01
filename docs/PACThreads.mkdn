@@ -68,9 +68,6 @@
 <a href="http://forum.pac-rom.com/thread-536.html">Moto G:                     falcon         Wechy77</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
-<h3>Nvidia</h3>
-<a href="http://forum.pac-rom.com/thread-1171.html">Shield Tablet:             wx_na_wf       joshuabg</a>
-<br>
 <h3>OnePlus</h3>
 <a href="http://forum.pac-rom.com/thread-992.html">One:                        bacon          MaDc0w, Nick0703</a>
 <br>
