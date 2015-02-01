@@ -13,10 +13,10 @@
   <device name="a510" hasextras="0"/>
   <device name="a700" hasextras="0"/>
   <!-- <device name="acclaim"/> -->
-  <device name="anzu" hasextras="1"/>
+  <!-- <device name="anzu" hasextras="1"/> -->
   <device name="armani" hasextras="1"/>
   <device name="captivatemtd" hasextras="0"/>
-  <device name="coconut" hasextras="1"/>
+  <!-- <device name="coconut" hasextras="1"/> -->
   <device name="condor" hasextras="1"/>
   <device name="d800" hasextras="0"/>
   <!-- <device name="d801"/> -->
@@ -29,19 +29,19 @@
   <!-- <device name="find5"/> -->
   <device name="flounder" hasextras="1"/>
   <device name="galaxysmtd" hasextras="0"/>
-  <device name="haida" hasextras="1"/>
-  <device name="hallon" hasextras="1"/>
+  <!-- <device name="haida" hasextras="1"/> -->
+  <!-- <device name="hallon" hasextras="1"/> -->
   <!-- <device name="hercules"/> -->
   <device name="huashan" hasextras="1"/>
   <device name="i9300" hasextras="1"/>
   <!-- <device name="i605"/> -->
-  <device name="iyokan" hasextras="1"/>
+  <!-- <device name="iyokan" hasextras="1"/> -->
   <device name="jem" hasextras="0"/>
   <!-- <device name="l900"/> -->
   <device name="ls970" hasextras="0"/>
   <device name="m4" hasextras="0"/>
   <!-- <device name="maguro"/> -->
-  <device name="mango" hasextras="1"/>
+  <!-- <device name="mango" hasextras="1"/> -->
   <device name="manta" hasextras="0"/>
   <device name="n1" hasextras="0"/>
   <!-- <device name="n7100"/> -->
@@ -60,9 +60,9 @@
   <device name="serrano3gxx" hasextras="0"/>
   <device name="serranodsdd" hasextras="0"/>
   <device name="serranoltexx" hasextras="0"/>
-  <device name="satsuma" hasextras="1"/>
+  <!-- <device name="satsuma" hasextras="1"/> -->
   <!-- <device name="skyrocket"/> -->
-  <device name="smultron" hasextras="1"/>
+  <!-- <device name="smultron" hasextras="1"/> -->
   <!-- <device name="t0lte"/> -->
   <!-- <device name="t0lteatt"/> -->
   <!-- <device name="t0ltetmo"/> -->
@@ -73,7 +73,7 @@
   <!-- <device name="tf300t"/> -->
   <!-- <device name="tf700t"/> -->
   <device name="umts_spyder" hasextras="0"/>
-  <device name="urushi" hasextras="1"/>
+  <!-- <device name="urushi" hasextras="1"/> -->
   <!-- <device name="v500"/> -->
   <device name="venturi" hasextras="0"/>
   <device name="ville" hasextras="0"/>
