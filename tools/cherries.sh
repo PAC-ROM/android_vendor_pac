@@ -103,10 +103,6 @@ case $device in
         cherries+=(79136_CM)
         # arm: Allow disabling PIE for dynamically linked executables
         cherries+=(81758_CM)
-        # nl80211: Add unhandled attributes from wpa_supplicant
-        cherries+=(81764_CM)
-        # bcmdhd: workaround for driver compiled as a module
-        cherries+=(82598_CM)
     ;;
     condor)
         # display patch
