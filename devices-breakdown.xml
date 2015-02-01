@@ -64,9 +64,6 @@
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
-    <vendor Name="Nvidia">
-        <device FullName="Shield Tablet" CodeName="wx_na_wf"/>
-    </vendor>
     <vendor Name="OnePlus">
         <device FullName="One" CodeName="bacon"/>
     </vendor>
