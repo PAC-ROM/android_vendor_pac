@@ -1,6 +1,8 @@
 # Acer
 add_lunch_combo pac_a510-userdebug
 add_lunch_combo pac_a700-userdebug
+# Amazon
+add_lunch_combo pac_otterx-userdebug
 # Asus
 add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
