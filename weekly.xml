@@ -36,7 +36,6 @@
   <device name="i9300" hasextras="1"/>
   <!-- <device name="i605"/> -->
   <!-- <device name="iyokan" hasextras="1"/> -->
-  <device name="jem" hasextras="0"/>
   <!-- <device name="l900"/> -->
   <device name="ls970" hasextras="0"/>
   <device name="m4" hasextras="0"/>
@@ -45,9 +44,6 @@
   <device name="manta" hasextras="0"/>
   <device name="n1" hasextras="0"/>
   <!-- <device name="n7100"/> -->
-  <device name="otter" hasextras="0"/>
-  <device name="otterx" hasextras="0"/>
-  <device name="otter2" hasextras="0"/>
   <device name="ovation" hasextras="0"/>
   <device name="p700" hasextras="1"/>
   <!-- <device name="p705"/> -->
@@ -79,5 +75,4 @@
   <device name="ville" hasextras="0"/>
   <device name="vs980" hasextras="0"/>
   <device name="wx_na_wf" hasextras="1"/>
-  <device name="ypg1" hasextras="0"/>
 </manifest>

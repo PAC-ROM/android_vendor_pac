@@ -3,12 +3,6 @@
         <device FullName="Iconia A510/A511" CodeName="a510/a511"/>
         <device FullName="Iconia A700/A701" CodeName="a700/a701"/>
     </vendor>
-    <vendor Name="Amazon">
-        <device FullName="Kindle Fire" CodeName="otter"/>
-        <device FullName="Kindle Fire 2" CodeName="otter2"/>
-        <device FullName="Kindle Fire HD 7" CodeName="tate"/>
-        <device FullName="Kindle Fire HD 8.9" CodeName="jem"/>
-    </vendor>
     <vendor Name="Asus">
         <device FullName="Nexus 7" CodeName="grouper"/>
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
@@ -90,7 +84,6 @@
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
-        <device FullName="Galaxy Player 4.0" CodeName="ypg1"/>
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S I Captivate" CodeName="captivatemtd"/>

@@ -20,7 +20,6 @@ Development Team:
 Contributors:
 -------------
 * __DympyDev__
-* __goldflame09__
 * __iurnait__
 * __JoseGalRe__
 * __Langes__
@@ -100,19 +99,11 @@ Acer:
 * __Iconia A700/A701 (a700/a701) :__ Shreps, Elibl
 
 
-Amazon:
----------------------------------------------------------------------
-* __Kindle Fire (otter/otterx) :__ goldflame09
-* __Kindle Fire 2 (otter2) :__ goldflame09
-* __Kindle Fire HD 7 (tate) :__ goldflame09
-* __Kindle Fire HD 8.9 (jem) :__ goldflame09
-
-
 ASUS:
 ---------------------------------------------------------------------
 * __Nexus 7 (grouper) :__ iurnait
-* __Nexus 7 (2013) (flo) :__ goldflame09, zaclimon
-* __Nexus 7 LTE (2013) (deb) :__ goldflame09, zaclimon
+* __Nexus 7 (2013) (flo) :__ zaclimon
+* __Nexus 7 LTE (2013) (deb) :__ zaclimon
 * __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
@@ -161,8 +152,8 @@ LG:
 * __Optimus G2 (AT&T) (d800) :__ gerrett84
 * __Optimus G2 (Canadian) (d803) :__ -Jesco-
 * __Optimus G2 (GSM) (d802) :__ gerrett84
-* __Optimus G2 (T-Mobile) (d801) :__ Goldflame09
-* __Optimus G2 (Sprint) (ls980) :__ Goldflame09
+* __Optimus G2 (T-Mobile) (d801) :__ OPEN
+* __Optimus G2 (Sprint) (ls980) :__ OPEN
 * __Optimus G2 (Verizon) (vs980) :__ tucstwo
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
@@ -221,7 +212,6 @@ Samsung:
 * __Galaxy Note 8.0 (GSM) (N5100) :__ ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
-* __Galaxy Player 4.0 (ypg1) :__ goldflame09, iurnait, zaclimon
 * __Galaxy Player 5.0 (venturi) :__ iurnait
 * __Galaxy S I (galaxysmtd) :__ Volle
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703

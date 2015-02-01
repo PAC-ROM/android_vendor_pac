@@ -1,12 +1,6 @@
 # Acer
 add_lunch_combo pac_a510-userdebug
 add_lunch_combo pac_a700-userdebug
-# Amazon
-add_lunch_combo pac_otter-userdebug
-add_lunch_combo pac_otterx-userdebug
-add_lunch_combo pac_otter2-userdebug
-add_lunch_combo pac_jem-userdebug
-add_lunch_combo pac_tate-userdebug
 # Asus
 add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
@@ -106,7 +100,6 @@ add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
 add_lunch_combo pac_venturi-userdebug
-add_lunch_combo pac_ypg1-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
 add_lunch_combo pac_honami-userdebug
