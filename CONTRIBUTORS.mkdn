@@ -99,6 +99,11 @@ Acer:
 * __Iconia A700/A701 (a700/a701) :__ Shreps, Elibl
 
 
+Amazon:
+---------------------------------------------------------------------
+* __Kindle Fire (otterx) :__ joshuabg
+
+
 ASUS:
 ---------------------------------------------------------------------
 * __Nexus 7 (grouper) :__ iurnait
@@ -270,7 +275,7 @@ Xiaomi:
 
 
 
-Total Devices: 125
+Total Devices: 126
 
 Best regards
     szl.kiev
