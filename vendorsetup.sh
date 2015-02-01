@@ -54,6 +54,7 @@ add_lunch_combo pac_moto_msm8960_jbbl-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
+add_lunch_combo pac_titan-userdebug
 # Nvidia
 add_lunch_combo pac_wx_na_wf-userdebug
 # OnePlus
