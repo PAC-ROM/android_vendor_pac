@@ -170,6 +170,7 @@ Motorola:
 * __Moto E (Retail US GSM) (condor) :__ ashwin007
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
+* __Moto G 2014 (titan) :__ LuK1337
 * __Moto X (GSM) (ghost) :__ Skiwong20, timpohladthomas
 * __Moto X (Sprint) (ghost) :__ Skiwong20, timpohladthomas
 * __Moto X (T-Mobile) (ghost) :__ Skiwong20, timpohladthomas
@@ -270,7 +271,7 @@ Xiaomi:
 
 
 
-Total Devices: 125
+Total Devices: 126
 
 Best regards
     szl.kiev
