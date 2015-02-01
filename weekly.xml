@@ -44,6 +44,7 @@
   <device name="manta" hasextras="0"/>
   <device name="n1" hasextras="0"/>
   <!-- <device name="n7100"/> -->
+  <device name="otterx" hasextras="0"/>
   <device name="ovation" hasextras="0"/>
   <device name="p700" hasextras="1"/>
   <!-- <device name="p705"/> -->
