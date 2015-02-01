@@ -1,107 +1,111 @@
 #!/bin/bash
+: '
+ ================ Copyright (C) 2015 PAC-Roms Project ================
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
 
-#Preamble: Some repos outside of PAC may have commits we need that take too
-#  long to be merged. Adding these cherry-picks here can automate the process
-#  and makes it possible to add them to the weeklies but not the nightlies.
-#  currently supported gerrit accounts are:
-#    AOKP - Android Open Kang Project
-#    AOSP - Android Open Source Project
-#    CM   - CyanogenMod
-#    PAC  - pac-rom
-#    PA   - Paranoid Android (AOSPA)
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ =====================================================================
+'
+# Preamble: 
+# Some repos outside of PAC may have commits we need that take too
+# long to be merged. Adding these cherry-picks here can automate the process
+# and makes it possible to add them to the weeklies but not the nightlies.
+# currently supported gerrit accounts are:
+#     AOKP - Android Open Kang Project
+#     AOSP - Android Open Source Project
+#     CM   - CyanogenMod
+#     PAC  - PAC-Rom
+#     PA   - Paranoid Android (AOSPA)
 #
-#  in addition, cherry-pick patch files can be created for commits that aren't
-#  available in the above gerrit accounts.
+# in addition, cherry-pick patch files can be created for commits that aren't
+# available in the above gerrit accounts.
 #
 # PATCH CAPABILITY BY SHUMASH 2014-07-22
 # ONLINE OPTION BY LUKASZ 2014-07-27
+#
 # case $device in
-#  <device_name>)
-#    add cherry-pick patches for non-gerrit commits like this:
-#      PATCH=<name of patch without extension>
-#      FOLDER=<name of folder in build tree where patch is to be applied>
-#      patch_it  # this function call is required for each patch file
-#        |
-#      <Repeat for each separate patch>
+#     <device_name>)
+#         # For cherry-pick patches for non-gerrit commits like this:
+#         PATCH=<name of patch without extension>
+#         FOLDER=<name of folder in build tree where patch is to be applied>
+#         patch_it # this function call is required for each patch file
+#         # NOTE: Repeat for each separate patch
 #
-#    For gerrit commits, add the cherry-pick(s) in the form:
-#      cherries+=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
-#     e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be cherries+=(250_PAC)
-#        |
-#      <Repeat for each separate cherry-pick>
+#         # For gerrit commits, add the cherry-pick(s) in the form:
+#         cherries+=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
+#             e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be:
+#                  cherries+=(250_PAC)
 #
-#    For gerrit topics, add the topics(s) in the form:
-#      topics+=(TOPIC_GERRIT-ACCOUNT)
-#     e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be topics+=(CREncoder_PAC)
-#        |
-#      <Repeat for each separate topic>
+#         # For gerrit topics, add the topics(s) in the form:
+#         topics+=(TOPIC_GERRIT-ACCOUNT)
+#             e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be:
+#                  topics+=(CREncoder_PAC)
 #
-#    For gerrit queries, add the query(s) in the form:
-#      queriess+=(QUERY_GERRIT-ACCOUNT)
-#     e.g. queries+=(status:open+project:CyanogenMod/android_packages_apps_Nfc+branch:cm-11.0_CM)
-#            NB: use full e-mail addresses for owners, no usernames with spaces
- #       |
-#      <Repeat for each separate query>
+#         # For gerrit queries, add the query(s) in the form:
+#         queriess+=(QUERY_GERRIT-ACCOUNT)
+#             e.g. queries+=(status:open+project:CyanogenMod/android_packages_apps_Nfc+branch:cm-11.0_CM)
+#             NB: use full e-mail addresses for owners, no usernames with spaces
 #
-#   ;;
+# ;;
 #  On-line patches can be called by specifying a URL as the PATCH variable and calling the
 #  patch_it function with the parameter 'true', i.e., patch_it true
 #
-#  Any patches stored in the vendor/pac/tool/patches folder must have a .patch extension
-#  with a prefix name that exactly matches the PATCH name.  See below for examples.
-#  All patches must be in the git format-patch email format for use by git am
-#  Create a patch for the latest or last n patches with this command
+# Any patches stored in the vendor/pac/tool/patches folder must have a .patch extension
+# with a prefix name that exactly matches the PATCH name.  See below for examples.
+# All patches must be in the git format-patch email format for use by git am
+# Create a patch for the latest or last n patches with this command
 #     git format-patch -n (-1 for the last commit, -3 for the last three, etc.)
-#  Go here for a good description of how to create patches:
-#  http://docs.moodle.org/dev/How_to_create_a_patch
-#  Additionally, you can create a patch file from a github commit by going into the URL address
-#  line in your browser and adding ".patch" at the end.  It will immediately be downloaded as
-#  patch file.
-# ---------------------------------------------------------
+#
+# Go here for a good description of how to create patches:
+# http://docs.moodle.org/dev/How_to_create_a_patch
+# Additionally, you can create a patch file from a github commit by going into the URL address
+# line in your browser and adding ".patch" at the end.  It will immediately be downloaded as patch file.
 
 device=$1
 BASEDIR=$PWD
 
-# colors
-. $BASEDIR/vendor/pac/tools/colors
+# Import colors
+. ./vendor/pac/tools/colors
 
 function patch_it {
-  cd $BASEDIR/${FOLDER}
-  LASTCOMMIT=$(git show --format=email | sed -n '4,4p')
+    cd "$BASEDIR/${FOLDER}"
+    LASTCOMMIT=$(git show --format=email | sed -n '4,4p')
 
-  if [ "$1" = "true" ]; then
-   PATCH="$(curl -s ${PATCH})"
-   THISCOMMIT=$(echo -e "${PATCH}" | sed -n '4,4p')
+    if [ "$1" = "true" ]; then
+        PATCH="$(curl -s ${PATCH})"
+        THISCOMMIT=$(echo -e "${PATCH}" | sed -n '4,4p')
+        if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+            echo -e "${PATCH}" | git am
+        else
+            echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
+        fi
+    else
+        THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
+        if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
+            git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+        else
+            echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
+        fi
+    fi
 
-   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    echo -e "${PATCH}" | git am
-   else
-    echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
-   fi
-
-  else
-   THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
-
-   if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
-   else
-    echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
-   fi
-
-  fi
-
-  if [ -e ".git/rebase-apply" ]
-  then
-    git am --abort
-  elif [ -e ".git/CHERRY_PICK_HEAD" ]
-  then
-    git cherry-pick --abort
-  fi
-  cd $BASEDIR
+    if [ -e ".git/rebase-apply" ]; then
+        git am --abort
+    elif [ -e ".git/CHERRY_PICK_HEAD" ]; then
+        git cherry-pick --abort
+    fi
+    cd $BASEDIR
 }
 
 # Add device specific commits and patches here
-
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # build: Add option to disable block-based ota
@@ -211,28 +215,28 @@ esac
 
 if [ "$PATCH" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Done applying the specified patches "${txtrst}
+    echo -e "${bldblu}Done applying the specified patches${txtrst}"
     echo -e ""
 
 fi
 
 if [ "$cherries" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Now cherry-picking the specified cherries"${txtrst}
+    echo -e "${bldblu}Now cherry-picking the specified cherries${txtrst}"
     echo -e ""
-    ./build/tools/repopick.py -b ${cherries[@]}
+    ./build/tools/repopick.py -b "${cherries[@]}"
 fi
 
 if [ "$topics" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Now cherry-picking the specified topics"${txtrst}
+    echo -e "${bldblu}Now cherry-picking the specified topics${txtrst}"
     echo -e ""
-    ./build/tools/repopick.py -is auto -t ${topics[@]}
+    ./build/tools/repopick.py -is auto -t "${topics[@]}"
 fi
 
 if [ "$queries" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Now cherry-picking based on the specified queries"${txtrst}
+    echo -e "${bldblu}Now cherry-picking based on the specified queries${txtrst}"
     echo -e ""
-    ./build/tools/repopick.py -is auto -Q ${queries[@]}
+    ./build/tools/repopick.py -is auto -Q "${queries[@]}"
 fi
