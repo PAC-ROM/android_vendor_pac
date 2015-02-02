@@ -179,10 +179,6 @@ case $device in
         cherries+=(71804_CM)
         cherries+=(71802_CM)
     ;;
-    flounder)
-        # Fix build
-        cherries+=(83064_CM)
-    ;;
     i9300)
         # smdk4412-common-we-like-opensource
         PATCH=smdk4412-common-we-like-opensource
