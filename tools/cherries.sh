@@ -174,10 +174,6 @@ case $device in
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
     ;;
-    flounder)
-        # Fix build
-        cherries+=(83064_CM)
-    ;;
     i9300)
         # smdk4412-common-we-like-opensource
         PATCH=smdk4412-common-we-like-opensource
