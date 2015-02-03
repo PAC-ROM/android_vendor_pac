@@ -33,12 +33,12 @@
         "account":     "Pinky-Inky-and-Clyde",
         "repository":  "proprietary_vendor_oppo",
         "target_path": "vendor/oppo",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     },
     {
         "account":     "Pinky-Inky-and-Clyde",
         "repository":  "proprietary_vendor_oneplus",
         "target_path": "vendor/oneplus",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     }
 ]

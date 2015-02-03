@@ -15,7 +15,7 @@
         "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_asus",
         "target_path":  "vendor/asus",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.0"
     },
     {
         "account":      "CyanogenMod",

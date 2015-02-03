@@ -45,6 +45,6 @@
     "account":     "Pinky-Inky-and-Clyde",
     "repository":  "proprietary_vendor_sony",
     "target_path": "vendor/sony",
-    "revision":    "cm-12.0"
+    "revision":    "pac-5.0"
   }
 ]
