@@ -1,37 +1,43 @@
 [
   {
-    "account":    "CyanogenMod",
-    "repository": "android_device_samsung_manta",
+    "remote":      "github",
+    "account":     "Split-Screen",
+    "repository":  "android_device_samsung_manta",
     "target_path": "device/samsung/manta",
-    "revision":    "cm-12.0"
+    "revision":    "pac-5.0"
   },
   {
-    "account":    "CyanogenMod",
-    "repository": "android_kernel_samsung_manta",
+    "remote":      "github",
+    "account":     "Split-Screen",
+    "repository":  "android_kernel_samsung_manta",
     "target_path": "kernel/samsung/manta",
-    "revision":    "cm-12.0"
+    "revision":    "pac-5.0"
   },
   {
-    "account":    "Pinky-Inky-and-Clyde",
-    "repository": "proprietary_vendor_samsung",
+    "remote":      "github",
+    "account":     "Pinky-Inky-and-Clyde",
+    "repository":  "proprietary_vendor_samsung",
     "target_path": "vendor/samsung",
     "revision":    "cm-12.0"
   },
   {
-    "account":    "Pinky-Inky-and-Clyde",
-    "repository": "proprietary_vendor_broadcom",
+    "remote":      "github",
+    "account":     "Pinky-Inky-and-Clyde",
+    "repository":  "proprietary_vendor_broadcom",
     "target_path": "vendor/broadcom",
     "revision":    "cm-12.0"
   },
   {
-    "account":    "Pinky-Inky-and-Clyde",
-    "repository": "proprietary_vendor_widevine",
+    "remote":      "github",
+    "account":     "Pinky-Inky-and-Clyde",
+    "repository":  "proprietary_vendor_widevine",
     "target_path": "vendor/widevine",
     "revision":    "cm-12.0"
   },
   {
-    "account":    "Pinky-Inky-and-Clyde",
-    "repository": "proprietary_vendor_audience",
+    "remote":      "github",
+    "account":     "Pinky-Inky-and-Clyde",
+    "repository":  "proprietary_vendor_audience",
     "target_path": "vendor/audience",
     "revision":    "cm-12.0"
   }
