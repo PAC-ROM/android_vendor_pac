@@ -25,6 +25,6 @@
     "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "revision": "cm-12.0"
+    "revision": "pac-5.0"
   }
 ]

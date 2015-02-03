@@ -39,7 +39,7 @@
         "account": "Pinky-Inky-and-Clyde",
         "repository": "proprietary_vendor_motorola",
         "target_path": "vendor/motorola",
-        "revision": "cm-12.0"
+        "revision": "pac-5.0"
     }
 ]
 
