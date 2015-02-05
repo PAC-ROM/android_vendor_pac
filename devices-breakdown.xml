@@ -93,9 +93,7 @@
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
         <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
         <device FullName="Galaxy S IV (AT&amp;T)" CodeName="jflteatt"/>
-        <device FullName="Galaxy S IV (C-Spire)" CodeName="jfltecsp"/>
         <device FullName="Galaxy S IV (Canadian)" CodeName="jfltecan"/>
-        <device FullName="Galaxy S IV (Cricket)" CodeName="jfltecri"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
         <device FullName="Galaxy S IV (LTE)" CodeName="jfltexx"/>
         <device FullName="Galaxy S IV (Sprint)" CodeName="jfltespr"/>
