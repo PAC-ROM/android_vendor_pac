@@ -1,9 +1,9 @@
 [
     {
-        "account":     "CyanogenMod",
+        "account":     "Split-Screen",
         "repository":  "android_device_oneplus_bacon",
         "target_path": "device/oneplus/bacon",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     },
     {
         "account":     "Nick0703",
@@ -12,22 +12,22 @@
         "revision":    "cm-12.0"
     },
     {
-        "account":     "CyanogenMod",
+        "account":     "Split-Screen",
         "repository":  "android_device_oppo_msm8974-common",
         "target_path": "device/oppo/msm8974-common",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     },
     {
-        "account":     "CyanogenMod",
+        "account":     "Split-Screen",
         "repository":  "android_device_oppo_common",
         "target_path": "device/oppo/common",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     },
     {
-        "account":     "CyanogenMod",
+        "account":     "Split-Screen",
         "repository":  "android_device_qcom_common",
         "target_path": "device/qcom/common",
-        "revision":    "cm-12.0"
+        "revision":    "pac-5.0"
     },
     {
         "account":     "Pinky-Inky-and-Clyde",
