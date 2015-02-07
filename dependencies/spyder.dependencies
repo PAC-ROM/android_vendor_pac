@@ -8,23 +8,23 @@
    },
     {
       "remote":  "github",
-      "account": "CyanogenMod",
+      "account": "Split-Screen",
       "repository":  "android_device_motorola_spyder",
       "target_path":  "device/motorola/spyder",
-      "revision":  "cm-12.0"
+      "revision":  "pac-5.0"
    },
     {
       "remote":  "github",
-      "account": "PAC-Motorola",
+      "account": "Split-Screen",
       "repository":  "android_device_motorola_omap4-common",
       "target_path":  "device/motorola/omap4-common",
-      "revision":  "cm-12.0"
+      "revision":  "pac-5.0"
    },
    {
       "remote":  "github",
-      "account": "CyanogenMod",
+      "account": "Split-Screen",
       "repository":  "android_kernel_motorola_omap4-common",
       "target_path":  "kernel/motorola/omap4-common",
-      "revision":  "cm-12.0"
+      "revision":  "pac-5.0"
    }
 ]
