@@ -1,9 +1,9 @@
 [
     {
-        "account":      "CyanogenMod",
+        "account":      "Split-Screen",
         "repository":   "android_device_asus_flo",
         "target_path":  "device/asus/flo",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.0"
     },
     {
         "account":      "Pinky-Inky-and-Clyde",
@@ -12,9 +12,9 @@
         "revision":     "cm-12.0"
     },
     {
-        "account":      "CyanogenMod",
+        "account":      "Split-Screen",
         "repository":   "android_kernel_google_msm",
         "target_path":  "kernel/google/msm",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.0"
     }
 ]
