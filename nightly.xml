@@ -24,6 +24,7 @@
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>
+  <device name="flounder"/>
   <device name="ghost"/>
   <device name="grouper"/>
   <device name="hammerhead"/>
