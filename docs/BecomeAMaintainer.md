@@ -1,7 +1,8 @@
 ###Files to edit
 
 1.  [Dependencies] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/dependencies/)
-    - We use CM dependencies whenever possible. If you must use other remotes, please be prepared to answer why and try to limit them as much as possible.
+    - We use Split-Screen (https://github.com/Split-Screen/) for dependencies. You must push ALL device and kernel repos for the device to Split-Screen. Other remotes will not be accepted.
+    - The main branch should be pac-5.0 and legacy devices that can not be brought up to Android 5.x will also not be accepted.
     - We use PIC (https://github.com/Pinky-Inky-and-Clyde/) for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If your vendor files are not on PIC, please submit your vendor files via pull request to the appropriate repository. Please keep commit history by using remotes and merges.
     - Keep the file free of white spaces and formated to look like the rest of the devices dependencies files. Yes we are all OCD.
 
@@ -68,16 +69,19 @@
     - If you have added your device to an overlay in the .mk file, then you must create your own.
     - We have ones pre-made for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these.
 
-14. Contact either Jaaga (madc0w.undergroundz@googlemail.com), Lokesh (lokesh.c703@gmail.com) or Chad (cbarlan@gmail.com) to be added to the maintainers group hangout.
+14. Please fill out our [Application/Info Form] (https://docs.google.com/forms/d/1NyzSpd0AMigrUimAKAadRnvl3Lvwb0KfFc7POUG0Fis/viewform) BEFORE you commit your device and contact either Jaaga (madc0w.undergroundz@googlemail.com), Lokesh (lokesh.c703@gmail.com) or Chad (cbarlan@gmail.com) to be added to the maintainers group hangout.
 
-!!Your submission will not be accepted until your patchset and threads comply to our guidelines!!
+!!Your submission will not be accepted until ALL requirements according to our guidelines have been met!!
 
 As a Maintainer you are expected to:
+
+5. Abandoned, unsupported, not upkept devices or devices where the Maintainer has sold. broken, lost or doesn't have anymore nor will be replacing it will have a grace period of 4 weeks or the device will be removed. It can be resubmitted later new.
 
     1. Be able to build for your device and provide users with regular builds.
         a. You must own the device you wish to maintain. Blind builds and ports are NOT allowed!
         b. Exceptions may be made (family/friend's devices with direct access and variants of devices etc) and are to be requested BEFORE submitting your patchset to Gerrit!
         c. A Co-Maintainer may be elected for your device by you if wanted. He/she must follow the same rules as you and submit their own commit to Gerrit.
+        d.  Maintainers will have merge permissions to their device and kernel specific repositories and are expected to keep their device in working order. Whether this done by; doing basic upkeep with upstream changes for fixes and updates, starting for an upstream base and doing original work (pushing upstream when you can), or a mixture of both. The main concern is following proper procedure and keeping your device(s) functioning. Additionally, common and shared repositories will be worked on together by the Maintainers; they will still be controlled and merged by the PAC Team. In this respect, teamwork among Maintainers with common devices will not only be encouraged, in some cases, it may be necessary.
 
     2. Threads are to be compared to our templates regularly for updated topic and content changes.
         a. Templates are to be used exactly as they are with NO alterations aside the forseen places like Titel, Installation, Updating, Not working, Other info, and additional credits below the current list if any, unless permitted otherwise.
@@ -87,17 +91,21 @@ As a Maintainer you are expected to:
         e. The PAC-ROM Dev Team may change, remove, disable, or tell you to delete ANY custom additions or infringing content for any reason, at any time, in our sole discretion.
         f. If unsure, ask the reviewer you contacted.
 
-    3. Be fair to the users, if you can not maintain the device anymore for whatever reason, please try to find a follow up maintainer, have them submit their take over changes to Gerrit, and have your threads transferred if possible. If this is not possible, please remove the device and submit your cleanup to Gerrit.
+    3. Maintainers MUST create an account on our JIRA. Users will be able to submit issues and find contact information on the Maintainer for their device such as PAC/XDA Threads. Maintainers will be required to upkeep their JIRA support.
 
-    4. As a Maintainer, you will be able to:
+    4. To maintain proper support and device usability across the PAC-ROM community, if a device is: abandoned, unsupported, unkempt, or devices where the Maintainer has; sold, broken, lost, no longer has and will not be replacing [within the grace period of 4 weeks], or no longer cares to maintain the device for PAC, then the device will be removed. Remember, if the device is removed and it gets further support, from someone else, then it can be resubmitted later as new.
 
-        * Get official, clean built ,and automated nightly/weekly builds from Jenkins.
+        a. Be fair to the users, if you can not maintain the device anymore for whatever reason, please try to find a follow up maintainer, have them submit their take over changes to Gerrit, and have your threads transferred if possible. If this is not possible, please remove the device and submit your cleanup to Gerrit.
+
+    5. As a Maintainer, you will be able to:
+
+        * Get official, clean built, and automated nightly/weekly builds from Jenkins.
         * Use our file hosting for nightly/custom/dev builds.
         * Use our OTA for pushing your own builds.
         * Join in on our discussions, get support from the Dev Team and other Maintainers.
         * There is no cake, it's a lie!
         * Devices that get less than 35 downloads a week are considered low activity and will be moved to weekly.xml.
 
-    5. This page is subject to change without notice! Check back regularly here for changes.
+    6. This page is subject to change without notice! Check back regularly here for changes.
 
 **!!Failure to maintain your device properly will result in it being removed from nightly/weekly, and/or suspended/removed from being built!!**
