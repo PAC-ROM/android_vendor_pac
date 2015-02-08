@@ -36,6 +36,13 @@
 #        |
 #      <Repeat for each separate topic>
 #
+#    For gerrit queries, add the query(s) in the form:
+#      queriess+=(QUERY_GERRIT-ACCOUNT)
+#     e.g. queries+=(status:open+project:CyanogenMod/android_packages_apps_Nfc+branch:cm-11.0_CM)
+#            NB: use full e-mail addresses for owners, no usernames with spaces
+ #       |
+#      <Repeat for each separate query>
+#
 #   ;;
 #  On-line patches can be called by specifying a URL as the PATCH variable and calling the
 #  patch_it function with the parameter 'true', i.e., patch_it true
@@ -204,21 +211,28 @@ esac
 
 if [ "$PATCH" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Completed patching required cherries "${txtrst}
+    echo -e ${bldblu}"Done applying the specified patches "${txtrst}
     echo -e ""
 
 fi
 
 if [ "$cherries" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Now picking the required cherries"${txtrst}
+    echo -e ${bldblu}"Now cherry-picking the specified cherries"${txtrst}
     echo -e ""
     ./build/tools/repopick.py -b ${cherries[@]}
 fi
 
 if [ "$topics" != "" ]; then
     echo -e ""
-    echo -e ${bldblu}"Now picking the required topics"${txtrst}
+    echo -e ${bldblu}"Now cherry-picking the specified topics"${txtrst}
     echo -e ""
     ./build/tools/repopick.py -is auto -t ${topics[@]}
+fi
+
+if [ "$queries" != "" ]; then
+    echo -e ""
+    echo -e ${bldblu}"Now cherry-picking based on the specified queries"${txtrst}
+    echo -e ""
+    ./build/tools/repopick.py -is auto -Q ${queries[@]}
 fi
