@@ -1,204 +1,113 @@
-THREAD TITLE:
+THREAD_TITLE:
 
-[ROM][OFFICIAL][Lollipop 5.0][YOUR_DEVICE_CODENAME] PAC-ROM LP Alpha-1
+[ROM][OFFICIAL][Lollipop 5.0][YOUR_DEVICE_CODENAME] PAC-ROM LP Beta-1
 
-THREAD:
+THREAD_CONTENT:
 
-[CENTER][IMG]http://pac-rom.com/images/threads/thread_title_glass/Header_Glass.png[/IMG]
-
-[B]PAC-ROM is built with our own tweaks and options, including picks and features from the best ROMs out there!
-
-Why choose among ROMs, when you have All-in-One !!
+[CENTER][IMG]http://pac-rom.com/images/threads/forum_threads/Header.png[/IMG]
 
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Screenshots_Glass.png[/IMG]
+[URL=http://www.pac-rom.com][IMG="PAC Homepage"]http://www.pac-rom.com/images/linksbar/pac.png[/IMG][/URL][URL=https://github.com/PAC-man][IMG="ROM Source"]http://www.pac-rom.com/images/linksbar/17.png[/IMG][/URL][URL=https://github.com/Pinky-Inky-and-Clyde][IMG="Vendor Repositories"]http://www.pac-rom.com/images/linksbar/19.png[/IMG][/URL][URL=https://github.com/Split-Screen][IMG="Device and Kernel Repositories"]http://www.pac-rom.com/images/linksbar/18.png[/IMG][/URL][URL=http://review.pac-rom.com][IMG="Gerrit Review"]http://www.pac-rom.com/images/linksbar/6.png[/IMG][/URL][URL=http://jenkins.pac-rom.com][IMG="Jenkins Buildsystem"]http://www.pac-rom.com/images/linksbar/9.png[/IMG][/URL][URL=http://build.pac-rom.com][IMG="Jenkins Builds and Stats"]http://www.pac-rom.com/images/linksbar/10.png[/IMG][/URL][URL=https://crowdin.com/project/pac-rom][IMG="Crowdin Translations"]http://www.pac-rom.com/images/linksbar/2.png[/IMG][/URL][URL=http://changelog.pac-rom.com][IMG="Changelogs"]http://www.pac-rom.com/images/linksbar/1.png[/IMG][/URL][URL=http://jira.pac-rom.com][IMG="JIRA Bugs and Issues Reporting"]http://www.pac-rom.com/images/linksbar/11.png[/IMG][/URL][URL=http://wiki.pac-rom.com][IMG="Wiki - Tutorials and Info"]http://www.pac-rom.com/images/linksbar/16.png[/IMG][/URL][URL=http://forum.pac-rom.com][IMG="Discussion and Support Forum"]http://www.pac-rom.com/images/linksbar/5.png[/IMG][/URL][URL=http://download.pac-rom.com][IMG="Downloads"]http://www.pac-rom.com/images/linksbar/3.png[/IMG][/URL][URL=http://pac-rom.com/#SharingPolicy][IMG="Sharing Policy"]http://www.pac-rom.com/images/linksbar/13.png[/IMG][/URL][URL=http://pac-rom.com/#BecomeAMaintainer][IMG="Become a Maintainer"]http://www.pac-rom.com/images/linksbar/12.png[/IMG][/URL][URL=http://pac-rom.com/#Stats][IMG="PAC-ROM Stats"]http://www.pac-rom.com/images/linksbar/14.png[/IMG][/URL][URL=https://plus.google.com/102557242936341392082][IMG="Google Plus"]http://www.pac-rom.com/images/linksbar/7.png[/IMG][/URL][URL=https://plus.google.com/communities/103029729817409918322][IMG="Google Plus Community"]http://www.pac-rom.com/images/linksbar/8.png[/IMG][/URL][URL=https://twitter.com/PACROMS][IMG="Twitter"]http://www.pac-rom.com/images/linksbar/15.png[/IMG][/URL][URL=https://www.facebook.com/PACmanROMS][IMG="Facebook"]http://www.pac-rom.com/images/linksbar/4.png[/IMG][/URL]
 
+
+[B][SIZE="4"]PAC-ROM is built with our own tweaks and options, including picks and features from the best ROMs out there!
+
+Why choose among ROMs, when you have All-in-One !![/SIZE]
+
+
+
+[IMG]http://pac-rom.com/images/threads/forum_threads/Screenshots.png[/IMG]
 
 [IMG]http://www.pac-rom.com/images/PAC_man_slider.gif[/IMG]
 
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Features_Glass.png[/IMG]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Features.png[/IMG]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Features_List.png[/IMG]
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Features.png[/IMG]
 
+[IMG]http://pac-rom.com/images/threads/forum_threads/Disclaimer.png[/IMG]
+[INDENT][SIZE="3"]* [COLOR="red"]By flashing this, you automatically void your warranty![/COLOR] *
 
+* [COLOR="red"]If your phone breaks, blows up or runs away from you, do not cry to us![/COLOR] *
 
+* [COLOR="red"]Do not ask for ETAs!![/COLOR] *[/SIZE][/INDENT]
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Disclaimer_Glass.png[/IMG]
 
-[INDENT]
+[IMG]http://pac-rom.com/images/threads/forum_threads/How_to_Install.png[/IMG]
+[INDENT][SIZE="3"]* [COLOR="#f784ec"]Download the ROM and GApps[/COLOR] *
 
-* [COLOR="red"]By flashing this, you automatically void your warranty![/COLOR]
+* [COLOR="#f784ec"]Reboot to recovery[/COLOR] *
 
-* [COLOR="red"]If your phone breaks, blows up or runs away from you, do not cry to us![/COLOR]
+* [COLOR="#f784ec"]Wipe data/factory reset[/COLOR] *
 
-* [COLOR="red"]Do not ask for ETAs!![/COLOR]
+* [COLOR="#f784ec"]Flash the ROM and then GApps[/COLOR] *
 
-[/INDENT]
+* [COLOR="#f784ec"]Reboot your phone[/COLOR] *
 
+* [COLOR="#f784ec"]Enjoy[/COLOR] *[/SIZE][/INDENT]
 
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/How_to_Install_Glass.png[/IMG]
+[IMG]http://pac-rom.com/images/threads/forum_threads/How_to_Update.png[/IMG]
+[INDENT][SIZE="3"]* [COLOR="#5997b7"]Download the latest version[/COLOR] *
 
-[INDENT]
+* [COLOR="#5997b7"]Reboot to recovery[/COLOR] *
 
-* [COLOR="#f784ec"]Download the ROM and GApps[/COLOR]
+* [COLOR="#5997b7"]Flash the ROM[/COLOR] *
 
-* [COLOR="#f784ec"]Reboot to recovery[/COLOR]
+* [COLOR="#5997b7"]Wipe both dalvik cache and cache[/COLOR] *
 
-* [COLOR="#f784ec"]Wipe data/factory reset[/COLOR]
+* [COLOR="#5997b7"]Reboot your phone[/COLOR] *
 
-* [COLOR="#f784ec"]Flash the ROM and then GApps[/COLOR]
+* [COLOR="#5997b7"]Enjoy the latest version of PAC-ROM[/COLOR] *[/SIZE][/INDENT]
 
-* [COLOR="#f784ec"]Reboot your phone[/COLOR]
 
-* [COLOR="#f784ec"]Enjoy[/COLOR]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Not_Working.png[/IMG]
+[INDENT][SIZE="3"]* [URL="http://jira.pac-rom.com/"][COLOR="#5997b7"]Submit a bug report[/COLOR][/URL] *
 
-[/INDENT]
+* [URL="http://review.pac-rom.com/"][COLOR="#5997b7"]Submit a patch[/COLOR][/URL] *[/SIZE][/INDENT]
 
 
+[IMG]http://pac-rom.com/images/threads/forum_threads/Other_Info.png[/IMG]
+[INDENT][SIZE="3"]* [COLOR="red"]None for now[/COLOR] *[/SIZE][/INDENT]
 
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/How_to_Update_Glass.png[/IMG]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Download.png[/IMG]
+[INDENT][SIZE="3"]* [URL="INSERT_YOUR_PAC_FORUMS_LINK_HERE"][COLOR="#5997b7"]PAC-ROM Downloads[/COLOR][/URL] *
 
-[INDENT]
+* [URL="https://s.basketbuild.com/gapps"][COLOR="#5997b7"]GApps[/COLOR][/URL] *[/SIZE][/INDENT]
 
-* [COLOR="#5997b7"]Download the latest version[/COLOR]
 
-* [COLOR="#5997b7"]Reboot to recovery[/COLOR]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Credits.png[/IMG]
+[INDENT][SIZE="3"]* [URL="https://github.com/PAC-man"][COLOR="#ebee00"]PAC-ROM Team[/COLOR][/URL] *
 
-* [COLOR="#5997b7"]Flash the ROM[/COLOR]
+* [URL="https://github.com/CyanogenMod"][COLOR="#5997b7"]Cyanogen Team[/COLOR][/URL] *
 
-* [COLOR="#5997b7"]Wipe both dalvik cache and cache[/COLOR]
+* [URL="https://github.com/AOKP"][COLOR="#f784ec"]AOKP Team[/COLOR][/URL] *
 
-* [COLOR="#5997b7"]Reboot your phone[/COLOR]
+* [URL="https://github.com/DirtyUnicorns"][COLOR="#9cce38"]DirtyUnicorns[/COLOR][/URL] *
 
-* [COLOR="#5997b7"]Enjoy the latest version of PAC-ROM[/COLOR]
+* [URL="https://github.com/SlimRoms"][COLOR="#5997b7"]SlimRoms[/COLOR][/URL] *
 
-[/INDENT]
+* [URL="https://github.com/VanirAOSP"][COLOR="#f784ec"]Vanir[/COLOR][/URL] *
 
+* [URL="https://github.com/Omnirom"][COLOR="#9cce38"]Omnirom[/COLOR][/URL] *
 
+* [COLOR="#5997b7"]Special thanks to all our Build Bot Providers (see Contributors list for all names)[/COLOR] *
 
+* [COLOR=#f784ec]PAC Graphix Team - Graphics, logos and images (see Contributors list for all names)[/COLOR] *
 
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Not_Working_Glass.png[/IMG]
+* [COLOR=#ebee00]And of course, thank you for your love and support![/COLOR] *[/SIZE][/INDENT]
 
-[INDENT]
 
-* [URL="http://jira.pac-rom.com/"][COLOR="#5997b7"]Submit a bug report[/COLOR][/URL]
+[IMG]http://pac-rom.com/images/threads/forum_threads/Support.png[/IMG]
 
-* [URL="http://review.pac-rom.com/"][COLOR="#5997b7"]Submit a patch[/COLOR][/URL]
-
-[/INDENT]
-
-
-
-
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Other_Info_Glass.png[/IMG]
-
-[INDENT]
-
-* [COLOR="red"]None for now[/COLOR]
-
-[/INDENT]
-
-
-
-
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Download_Glass.png[/IMG]
-
-[INDENT]
-
-* [URL="INSERT_YOUR_PAC_FORUMS_LINK_HERE"][COLOR="#5997b7"]PAC-ROM Downloads[/COLOR][/URL]
-
-* [URL="https://s.basketbuild.com/gapps"][COLOR="#5997b7"]GApps[/COLOR][/URL]
-
-[/INDENT]
-
-
-
-
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Websites_Glass.png[/IMG]
-
-[INDENT]
-
-* [URL="http://pac-rom.com/#SharingPolicy"][COLOR="#9cce38"]PAC-ROM Sharing Policy[/COLOR][/URL]
-
-* [URL="http://pac-rom.com/#Home"][COLOR="#9cce38"]PAC-ROM Site[/COLOR][/URL]
-
-* [URL="http://forum.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Forum[/COLOR][/URL]
-
-* [URL="http://review.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Gerrit[/COLOR][/URL]
-
-* [URL="http://changelog.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM Changelog[/COLOR][/URL]
-
-* [URL="http://jenkins.pac-rom.com/"][COLOR="#9cce38"]PAC-ROM JENKINS[/COLOR][/URL]
-
-* [URL="http://jira.pac.rom.com/"][COLOR="#9cce38"]PAC-ROM Bug Reports/Feature Requests[/COLOR][/URL]
-
-* [URL="https://github.com/PAC-man"][COLOR="#9cce38"]PAC-ROM Github[/COLOR][/URL]
-
-* [URL="http://pac-rom.com/#Stats"][COLOR="#9cce38"]PAC-ROM Stats[/COLOR][/URL]
-
-* [URL="https://plus.google.com/102557242936341392082/"][COLOR="#9cce38"]PAC-ROM Google+[/COLOR][/URL]
-
-* [URL="https://www.facebook.com/PACmanROMS"][COLOR="#9cce38"]PAC-ROM Facebook[/COLOR][/URL]
-
-* [URL="https://twitter.com/pacroms"][COLOR="#9cce38"]PAC-ROM Twitter[/COLOR][/URL]
-
-* [URL="http://pac-rom.com/#BecomeAMaintainer"][COLOR="#9cce38"]Want to become a device Maintainer for PAC-ROM?[/COLOR][/URL]
-
-* [URL="http://forum.xda-developers.com/pac-rom"][COLOR="#9cce38"]PAC-ROM Central - Questions and Features broken down and seen by all PAC Devs on XDA[/COLOR][/URL]
-
-[/INDENT]
-
-
-
-
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Credits_Glass.png[/IMG]
-
-[INDENT]
-
-* [URL="https://github.com/PAC-man"][COLOR="#ebee00"]PAC-ROM Team[/COLOR][/URL]
-
-* [URL="https://github.com/CyanogenMod"][COLOR="#5997b7"]Cyanogen Team[/COLOR][/URL]
-
-* [URL="https://github.com/AOKP"][COLOR="#f784ec"]AOKP Team[/COLOR][/URL]
-
-* [URL="https://github.com/AOSPA"][COLOR="#9cce38"]Paranoid Android[/COLOR][/URL]
-
-* [URL="https://github.com/SlimRoms"][COLOR="#5997b7"]SlimRoms[/COLOR][/URL]
-
-* [URL="https://github.com/Root-Box"][COLOR="#f784ec"]RootBox[/COLOR][/URL]
-
-* [URL="https://github.com/CarbonDev"][COLOR="#9cce38"]Carbon ROM[/COLOR][/URL]
-
-* [URL="https://github.com/VanirAOSP"][COLOR="#5997b7"]Vanir[/COLOR][/URL]
-
-* [URL="https://github.com/ChameleonOS"][COLOR="#f784ec"]ChameleonOS[/COLOR][/URL]
-
-* [URL="https://github.com/Omnirom"][COLOR="#9cce38"]Omnirom[/COLOR][/URL]
-
-* [URL="https://github.com/AOSPAL"][COLOR="#5997b7"]Paranoid SaberDroid[/COLOR][/URL]
-
-* [COLOR="#f784ec"]Special thanks to all our Build Bot Providers (see Contributors list for all names)[/COLOR]
-
-* [COLOR=#9cce38]PAC Graphix Team - Graphics, logos and images (see Contributors list for all names)[/COLOR]
-
-* [COLOR=#ebee00]And of course, thank you for your love and support![/COLOR]
-
-[/INDENT]
-
-
-[IMG]http://pac-rom.com/images/threads/thread_title_glass/Support_Glass.png[/IMG]
-
-[COLOR="#9cce38"][U]Help with server costs[/U][/COLOR]
-[URL="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=LP4KC5BKJUK7L&lc=US&item_name=PAC%2dman%20Roms&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"][IMG]http://pac-rom.com/images/donate.png[/IMG][/URL]
-
-
-[COLOR="#9cce38"][U]Support us with these banners:[/U][/COLOR]
+[SIZE="4"][COLOR="#ffcc33"][U]Support us with these banners:[/U][/COLOR]
 
 [IMG]http://pac-rom.com/images/banners/pac_user_banner.png[/IMG]
 
 [IMG]http://pac-rom.com/images/banners/pac_poweredby_banner.png[/IMG]
 
-[/B][/CENTER]
+[COLOR="#ffcc33"][U]Help with server costs[/U][/COLOR]
+
+[IMG]http://pac-rom.com/images/donate.gif[/IMG]
+[URL="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=LP4KC5BKJUK7L&lc=US&item_name=PAC%2dman%20Roms&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"][IMG]http://pac-rom.com/images/donate.png[/IMG][/URL][/SIZE][/B][/CENTER]
