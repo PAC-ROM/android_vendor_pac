@@ -65,6 +65,9 @@
         <device FullName="Moto G 2014" CodeName="titan"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
+    <vendor Name="Nvidia">
+        <device FullName="Shield Tablet (LTE)" CodeName="wx_na_do"/>
+    </vendor>
     <vendor Name="OnePlus">
         <device FullName="One" CodeName="bacon"/>
     </vendor>
