@@ -70,6 +70,9 @@
 <a href="http://forum.pac-rom.com/thread-{creating}.html">Moto G 2014:         titan          LuK1337</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
+<h3>Nvidia</h3>
+<a href="http://forum.pac-rom.com/thread-1352.html">Shield Tablet (LTE):       wx_na_do       berryman13</a>
+<br>
 <h3>OnePlus</h3>
 <a href="http://forum.pac-rom.com/thread-992.html">One:                        bacon          MaDc0w, Nick0703</a>
 <br>
