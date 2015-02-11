@@ -10,6 +10,7 @@
 
 <manifest>
   <!-- Add new devices here -->
+  <!-- <device name="vs985" hasextras="0"/> -->  
   <!-- <device name="a510" hasextras="0"/> -->
   <!-- <device name="a700" hasextras="0"/> -->
   <!-- <device name="acclaim"/> -->
