@@ -27,13 +27,13 @@
     "account":     "Split-Screen",
     "repository":  "android_device_sony_common",
     "target_path": "device/sony/common",
-    "revision":    "cm-12.0"
+    "revision":    "pac-5.0"
   },
   {
     "account":     "Split-Screen",
     "repository":  "android_device_sony_msm8974-common",
     "target_path": "device/sony/msm8974-common",
-    "revision":    "cm-12.0"
+    "revision":    "pac-5.0"
   },
   {
     "account":     "Split-Screen",
