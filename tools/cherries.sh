@@ -47,7 +47,7 @@
 #  On-line patches can be called by specifying a URL as the PATCH variable and calling the
 #  patch_it function with the parameter 'true', i.e., patch_it true
 #
-#  Any patches stored in the vendor/pac/tool/patches folder must have a .patch extension
+#  Any patches stored in the vendor/pac/extras/patches folder must have a .patch extension
 #  with a prefix name that exactly matches the PATCH name.  See below for examples.
 #  All patches must be in the git format-patch email format for use by git am
 #  Create a patch for the latest or last n patches with this command
@@ -80,10 +80,10 @@ function patch_it {
    fi
 
   else
-   THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
+   THISCOMMIT=$(cat $BASEDIR/vendor/pac/extras/patches/${PATCH}.patch | sed -n '4,4p')
 
    if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+    git am $BASEDIR/vendor/pac/extras/patches/${PATCH}.patch
    else
     echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
    fi
