@@ -83,7 +83,7 @@ def add_to_manifest(repositories):
 
 def process_removes(def_file):
     print 'Looking for remove projects entries'
-    projects_path = 'vendor/pac/manifest/' + def_file
+    projects_path = 'vendor/pac/extras/addremove/' + def_file
 
     if os.path.exists(projects_path):
         projects_file = open(projects_path, 'r')

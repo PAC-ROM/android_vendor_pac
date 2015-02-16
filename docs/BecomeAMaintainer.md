@@ -48,8 +48,8 @@
     - Used for our dynamic changelog.
     - Keep alphabetical.
 
-11. [Adds/Removes] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/manifest/)
-    - Found in the manifest directory.
+11. [Adds/Removes] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/extras/addremove/)
+    - Found in the [extras/addremove] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/extras/addremove/) folder.
     - Used for legacy devices.
     - Please try to keep this as clean as possible and only use if you have to.
     - We host a ton of repos, so use cherries.sh option if possible. If we don't host it, then you can use adds/removes.
@@ -57,7 +57,7 @@
 
 12. [Cherries] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/cherries.sh)
     - Found in [tools] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/tools/).
-    - You can save patches in the [patches] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/tools/patches/) folder.
+    - You can save patches in the [extras/patches] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/extras/patches/) folder.
     - This injects cherry picks and patches for Gerrit and other commits.
     - If PAC hosts the repos, then please use this method by adding your patches to our repos and sending a commit to Gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the [cherries.sh] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/cherries.sh) file to cherry-pick during build.
     - Very easy to use and understand. (read the cherries.sh file for detailed instructions)
