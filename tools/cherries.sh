@@ -80,10 +80,10 @@ function patch_it {
    fi
 
   else
-   THISCOMMIT=$(cat $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch | sed -n '4,4p')
+   THISCOMMIT=$(cat $BASEDIR/vendor/pac/extras/patches/${PATCH}.patch | sed -n '4,4p')
 
    if [ "$LASTCOMMIT" != "$THISCOMMIT" ] ; then  #Patch if not already applied
-    git am $BASEDIR/vendor/pac/tools/patches/${PATCH}.patch
+    git am $BASEDIR/vendor/pac/extras/patches/${PATCH}.patch
    else
     echo -e "skipped $(echo $THISCOMMIT | sed -r 's/^.{9}//')"
    fi
