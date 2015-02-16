@@ -32,8 +32,8 @@
   <!-- <device name="hallon" hasextras="1"/> -->
   <!-- <device name="hercules"/> -->
   <!-- <device name="huashan" hasextras="1"/> -->
-  <!-- <device name="i9300" hasextras="1"/> -->
   <!-- <device name="i605"/> -->
+  <!-- <device name="i9300" hasextras="1"/> -->
   <!-- <device name="iyokan" hasextras="1"/> -->
   <!-- <device name="l900"/> -->
   <!-- <device name="ls970" hasextras="0"/> -->
@@ -53,10 +53,10 @@
   <!-- <device name="ruby" hasextras="0"/> -->
   <!-- <device name="s2ve" hasextras="1"/> -->
   <!-- <device name="s2vep" hasextras="1"/> -->
+  <!-- <device name="satsuma" hasextras="1"/> -->
   <!-- <device name="serrano3gxx" hasextras="0"/> -->
   <!-- <device name="serranodsdd" hasextras="0"/> -->
   <!-- <device name="serranoltexx" hasextras="0"/> -->
-  <!-- <device name="satsuma" hasextras="1"/> -->
   <!-- <device name="skyrocket"/> -->
   <!-- <device name="smultron" hasextras="1"/> -->
   <!-- <device name="t0lte"/> -->
