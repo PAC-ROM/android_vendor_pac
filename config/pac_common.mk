@@ -25,6 +25,13 @@ PRODUCT_NAME := $(TARGET_PRODUCT)
 # Set the board version
 CM_BUILD := $(BOARD)
 
+# Lower RAM devices
+ifeq ($(PAC_LOW_RAM_DEVICE),true)
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.config.low_ram=true \
+        dalvik.vm.jit.codecachesize=0
+endif
+
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.url=http://stats.pac-rom.com \
