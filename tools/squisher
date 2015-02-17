@@ -42,6 +42,15 @@ if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/$TARGET_PRODUCT-squisher.rm ]; then
     done
 fi
 
+# Delete specific files for lower ram devices
+if [ "$PAC_LOW_RAM_DEVICE" = "true" ]; then
+    if [ -f $ANDROID_BUILD_TOP/vendor/pac/tools/squisher-lrd.rm ]; then
+        for RM_FILE in `cat $ANDROID_BUILD_TOP/vendor/pac/tools/squisher-lrd.rm`; do
+            rm -rf $OUT/$RM_FILE
+        done
+    fi
+fi
+
 # Optimize PNG resources in APKs
 ( cd $OUT/system; find framework/ app/ priv-app/ -name \*.apk -print | $XARGS $OPTICHARGER; )
 
