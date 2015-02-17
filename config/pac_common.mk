@@ -34,6 +34,13 @@ CM_BUILD := $(BOARD)
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
 PAC_BUILD_VERSION := pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
 
+# Lower RAM devices
+ifeq ($(PAC_LOW_RAM_DEVICE),true)
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.config.low_ram=true \
+        dalvik.vm.jit.codecachesize=0
+endif
+
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.url=http://stats.pac-rom.com \
