@@ -17,9 +17,9 @@
         "remote": "github",
         "account": "Split-Screen",
         "repository": "android_device_motorola_msm8960dt-common",
-        "target_path": "device/motorola/msm8960dt-common"
+        "target_path": "device/motorola/msm8960dt-common",
         "revision": "pac-5.0"
-    }
+    },
     {
         "remote": "github",
         "account": "Split-Screen",
