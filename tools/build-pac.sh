@@ -33,6 +33,7 @@ usage()
     echo -e "        2 - Quiet build output"
     echo -e "    -f  Fetch extras"
     echo -e "    -j# Set number of jobs"
+    echo -e "    -l  Optimizations for devices with low-RAM"
     echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
@@ -114,13 +115,14 @@ opt_extra=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_lrd=0
 opt_only=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
 
-while getopts "ab:c:e:fj:ko:prs:t" opt; do
+while getopts "ab:c:e:fj:klo:prs:t" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -129,6 +131,7 @@ while getopts "ab:c:e:fj:ko:prs:t" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
@@ -192,6 +195,15 @@ if [ "$opt_adb" -ne 0 ]; then
     echo -e ""
 else
     unset DISABLE_ADB_AUTH
+fi
+
+# Lower RAM devices
+if [ "$opt_lrd" -ne 0 ]; then
+    echo -e ${bldblu}"Applying optimizations for devices with low RAM"${txtrst}
+    export PAC_LOW_RAM_DEVICE=true
+    echo -e ""
+else
+    unset PAC_LOW_RAM_DEVICE
 fi
 
 # Reset source tree
