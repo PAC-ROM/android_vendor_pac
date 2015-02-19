@@ -47,6 +47,7 @@ add_lunch_combo pac_p700-userdebug
 add_lunch_combo pac_p705-userdebug
 add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs980-userdebug
+add_lunch_combo pac_vs985-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug
@@ -57,8 +58,6 @@ add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_titan-userdebug
-# Nvidia
-add_lunch_combo pac_wx_na_do-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Oppo
