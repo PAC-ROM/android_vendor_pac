@@ -3,8 +3,8 @@
 # PAC version
 export PAC_VERSION_MAJOR="LP"
 export PAC_VERSION_MINOR="Alpha-1"
-export PAC_VERSION_MAINTENANCE="dev"
-# Acceptible maintenance versions are; stable, dev, nightly
+export PAC_VERSION_MAINTENANCE="Unofficial"
+# Acceptible maintenance versions are; Stable, Dev, Nightly or Unofficial
 
 # PAC version logic
 if [ -s ~/PACname ]; then
