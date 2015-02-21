@@ -1,8 +1,14 @@
 [
     {
-        "account":      "CyanogenMod",
+        "account":      "Split-Screen",
         "repository":   "android_device_asus_grouper",
         "target_path":  "device/asus/grouper",
+        "revision":     "cm-12.0"
+    },
+    {
+        "account":      "Split-Screen",
+        "repository":   "android_kernel_asus_grouper",
+        "target_path":  "kernel/asus/grouper",
         "revision":     "cm-12.0"
     },
     {
@@ -45,12 +51,6 @@
         "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
-        "revision":     "cm-12.0"
-    },
-    {
-        "account":      "CyanogenMod",
-        "repository":   "android_kernel_asus_grouper",
-        "target_path":  "kernel/asus/grouper",
         "revision":     "cm-12.0"
     }
 ]
