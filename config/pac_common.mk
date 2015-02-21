@@ -24,15 +24,13 @@ BOARD_SEPOLICY_IGNORE += vendor/cm/sepolicy/file_contexts
 BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy
 BOARD_SEPOLICY_UNION += file_contexts
 
-BOARD := $(subst pac_,,$(TARGET_PRODUCT))
-
-# Add CM release version
-CM_RELEASE := true
-CM_BUILD := $(BOARD)
-
 # PAC version
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
+BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 PAC_BUILD_VERSION := pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
+
+# Set the board version
+CM_BUILD := $(BOARD)
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
