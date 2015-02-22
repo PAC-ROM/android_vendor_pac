@@ -229,7 +229,6 @@ Samsung:
 * __Galaxy S III (C-Spire) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Cricket) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (GSM) (i9300) :__ garwedgess
-* __Galaxy S III (LTE) (i9305) :__ MaDc0w
 * __Galaxy S III (Metro PCS) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (Sprint) (d2lte) :__ Papa Smurf151
 * __Galaxy S III (T-Mobile) (d2lte) :__ Papa Smurf151
