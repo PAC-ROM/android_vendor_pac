@@ -25,8 +25,6 @@
 
 **How to use Gerrit [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/HowToUseGerrit.md)**
 
-**Sharing Policy [Please Read] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/SharingPolicy.md)**
-
 **Getting Started: Preparing and building [Linux Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildLinux.md) or [Mac OS Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/PrepareForBuildMac.md)**
 
 **Device Maintainers: Guidelines and submitting [Guide] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/BecomeAMaintainer.md)**
