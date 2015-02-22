@@ -98,7 +98,6 @@
         <device FullName="Galaxy S II Plus NFC" CodeName="s2vep"/>
         <device FullName="Galaxy S III (AT&amp;T, C-Spire, Cricket, Metro PCS, Sprint, T-Mobile, US Cellular, Verizon)" CodeName="d2lte"/>
         <device FullName="Galaxy S III (GSM)" CodeName="i9300"/>
-        <device FullName="Galaxy S III (LTE)" CodeName="i9305"/>
         <device FullName="Galaxy S IV (AT&amp;T)" CodeName="jflteatt"/>
         <device FullName="Galaxy S IV (Canadian)" CodeName="jfltecan"/>
         <device FullName="Galaxy S IV (GSM)" CodeName="i9500"/>
