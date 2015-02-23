@@ -153,7 +153,7 @@ LG:
 * __Optimus G (Canadian) (e973) :__ ShoreDroid
 * __Optimus G (International) (e975) :__ ShoreDroid
 * __Optimus G (Sprint) (ls970) :__ rectec
-* __Optimus G Pro (e980) :__ machinistsWIP
+* __Optimus G Pro (e980) :__ zamajalo
 * __Optimus G2 (AT&T) (d800) :__ gerrett84
 * __Optimus G2 (Canadian) (d803) :__ -Jesco-
 * __Optimus G2 (GSM) (d802) :__ gerrett84

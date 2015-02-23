@@ -1,30 +1,30 @@
 [
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "Split-Screen",
     "repository": "android_device_lge_e980",
     "target_path": "device/lge/e980",
-    "revision": "cm-12.0"
+    "revision": "pac-5.0"
   },
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "Split-Screen",
     "repository": "android_device_lge_gproj-common",
    "target_path": "device/lge/gproj-common",
-    "revision": "cm-12.0"
+    "revision": "pac-5.0"
   },
   {
     "remote": "github",
-    "account": "CyanogenMod",
+    "account": "Split-Screen",
     "repository": "lge-kernel-gproj",
     "target_path": "kernel/lge/gproj",
-    "revision": "cm-12.0"
+    "revision": "pac-5.0"
   },
   {
     "remote": "github",
     "account": "Pinky-Inky-and-Clyde",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "revision": "cm-12.0"
+    "revision": "pac-5.0"
   }
 ]
