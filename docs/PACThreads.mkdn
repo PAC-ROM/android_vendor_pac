@@ -99,6 +99,7 @@
 <a href="http://forum.pac-rom.com/thread-523.html">Galaxy Player 5.0:          venturi        iurnait</a>
 <a href="http://forum.pac-rom.com/thread-1271.html">Galaxy S I:                galaxysmtd     Volle</a>
 <a href="http://forum.pac-rom.com/thread-598.html">Galaxy S I Captivate:       captivatemtd   Nick0703</a>
+<a href="http://forum.pac-rom.com/thread-1362.html">Galaxy S I Plus:           ariesve        K_TECH</a>
 <a href="http://forum.pac-rom.com/thread-632.html">Galaxy S II:                i9100          bluefa1con</a>
 <a href="http://forum.pac-rom.com/thread-564.html">Galaxy S II (AT&T):         skyrocket      TheCybertronian</a>
 <a href="http://forum.pac-rom.com/thread-565.html">Galaxy S II (T-Mobile):     hercules       TheCybertronian</a>
@@ -124,6 +125,7 @@
 <a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (GSM):    serrano3gxx    lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (DUOS):   serranodsdd    lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
+<a href="http://forum.pac-rom.com/thread-1361.html">Galaxy W:                  ancora         K_TECH</a>
 <a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>

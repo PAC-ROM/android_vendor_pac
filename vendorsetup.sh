@@ -65,6 +65,8 @@ add_lunch_combo pac_bacon-userdebug
 add_lunch_combo pac_find5-userdebug
 add_lunch_combo pac_n1-userdebug
 # Samsung
+add_lunch_combo pac_ancora-userdebug
+add_lunch_combo pac_ariesve-userdebug
 add_lunch_combo pac_captivatemtd-userdebug
 add_lunch_combo pac_d2lte-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
