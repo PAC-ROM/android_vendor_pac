@@ -141,17 +141,11 @@ case $device in
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
-    ariesve)
-        #hwc: Blank and unblank primary on first boot
-        cherries+=(56473_CM)
+    ariesve | ancora)
         #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
         cherries+=(58227_CM)
         #Overlay support for legacy camera libs
         cherries+=(58228_CM)
-        #sensorservice: Add legacy sensors fusion
-        #cherries+=(1164_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-        #native: add flag to disable legacy sensors fusion
-        #cherries+=(1165_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState

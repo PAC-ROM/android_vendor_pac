@@ -1,0 +1,64 @@
+From fa453cc51ff8bff5eeb57236f3207986309525bf Mon Sep 17 00:00:00 2001
+From: CastagnaIT <whiteflash@email.it>
+Date: Mon, 3 Mar 2014 14:36:34 +0100
+Subject: [PATCH] native: add flag to disable legacy sensors fusion
+
+Causes problems on all p31xx devices.
+http://pastebin.com/PabjFVWP
+
+Change-Id: I12df77c5bca2c67447ced1e3d32b405009d9e3aa
+
+Conflicts:
+	services/sensorservice/Android.mk
+---
+ services/sensorservice/Android.mk        | 4 ++++
+ services/sensorservice/SensorService.cpp | 4 ++++
+ 2 files changed, 8 insertions(+)
+
+diff --git a/services/sensorservice/Android.mk b/services/sensorservice/Android.mk
+index 072fd70..415a6a0 100644
+--- a/services/sensorservice/Android.mk
++++ b/services/sensorservice/Android.mk
+@@ -35,6 +35,10 @@ LOCAL_SHARED_LIBRARIES := \
+ 	libui \
+ 	libgui
+ 
++ifneq ($(BOARD_USE_LEGACY_SENSORS_FUSION),false)
++    LOCAL_CFLAGS += -DUSE_LEGACY_SENSORS_FUSION
++endif
++
+ LOCAL_MODULE:= libsensorservice
+ 
+ include $(BUILD_SHARED_LIBRARY)
+diff --git a/services/sensorservice/SensorService.cpp b/services/sensorservice/SensorService.cpp
+index b5ee1d3..7103e06 100644
+--- a/services/sensorservice/SensorService.cpp
++++ b/services/sensorservice/SensorService.cpp
+@@ -50,9 +50,11 @@
+ #include "RotationVectorSensor.h"
+ #include "SensorFusion.h"
+ #include "SensorService.h"
++#ifdef USE_LEGACY_SENSORS_FUSION
+ #include "legacy/LegacyGravitySensor.h"
+ #include "legacy/LegacyLinearAccelerationSensor.h"
+ #include "legacy/LegacyRotationVectorSensor.h"
++#endif
+ 
+ namespace android {
+ // ---------------------------------------------------------------------------
+@@ -163,6 +165,7 @@ void SensorService::onFirstRef()
+                 registerVirtualSensor( new CorrectedGyroSensor(list, count) );
+                 registerVirtualSensor( new GyroDriftSensor() );
+             }
++#ifdef USE_LEGACY_SENSORS_FUSION
+             else
+             {
+                 Sensor aSensor;
+@@ -185,6 +188,7 @@ void SensorService::onFirstRef()
+                     mUserSensorList.add(aSensor);
+                 }
+             }
++#endif
+ 
+             // debugging sensor list
+             mUserSensorListDebug = mSensorList;

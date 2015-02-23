@@ -1,0 +1,816 @@
+From 806b7adad26831ae0d4df25c37b728854a8828f8 Mon Sep 17 00:00:00 2001
+From: CastagnaIT <whiteflash@email.it>
+Date: Mon, 3 Mar 2014 14:57:02 +0100
+Subject: [PATCH] sensorservice: Add legacy sensors fusion.
+
+This change allows devices with accelerometer & magnetometer but
+without gyroscope to still get virtual sensors such as Gravity,
+Linear Acceleration and Rotation Vector.
+
+Ported from: http://review.cyanogenmod.org/#/c/31329/
+
+Change-Id: Ifa702cb0383ea1fd84511539fb67ec69ce9a558a
+---
+ services/sensorservice/Android.mk                  |   7 +
+ services/sensorservice/SensorService.cpp           |  25 ++++
+ .../sensorservice/legacy/LegacyGravitySensor.cpp   | 102 ++++++++++++++
+ .../sensorservice/legacy/LegacyGravitySensor.h     |  57 ++++++++
+ .../legacy/LegacyLinearAccelerationSensor.cpp      |  84 +++++++++++
+ .../legacy/LegacyLinearAccelerationSensor.h        |  53 +++++++
+ .../legacy/LegacyRotationVectorSensor.cpp          | 156 +++++++++++++++++++++
+ .../legacy/LegacyRotationVectorSensor.h            |  60 ++++++++
+ .../legacy/SecondOrderLowPassFilter.cpp            |  89 ++++++++++++
+ .../legacy/SecondOrderLowPassFilter.h              |  73 ++++++++++
+ 10 files changed, 706 insertions(+)
+ create mode 100644 services/sensorservice/legacy/LegacyGravitySensor.cpp
+ create mode 100644 services/sensorservice/legacy/LegacyGravitySensor.h
+ create mode 100644 services/sensorservice/legacy/LegacyLinearAccelerationSensor.cpp
+ create mode 100644 services/sensorservice/legacy/LegacyLinearAccelerationSensor.h
+ create mode 100644 services/sensorservice/legacy/LegacyRotationVectorSensor.cpp
+ create mode 100644 services/sensorservice/legacy/LegacyRotationVectorSensor.h
+ create mode 100644 services/sensorservice/legacy/SecondOrderLowPassFilter.cpp
+ create mode 100644 services/sensorservice/legacy/SecondOrderLowPassFilter.h
+
+diff --git a/services/sensorservice/Android.mk b/services/sensorservice/Android.mk
+index 4f24ddc..072fd70 100644
+--- a/services/sensorservice/Android.mk
++++ b/services/sensorservice/Android.mk
+@@ -14,6 +14,13 @@ LOCAL_SRC_FILES:= \
+     SensorInterface.cpp \
+     SensorService.cpp
+ 
++# Legacy virtual sensors used in combination from accelerometer & magnetometer.
++LOCAL_SRC_FILES += \
++	legacy/SecondOrderLowPassFilter.cpp \
++	legacy/LegacyGravitySensor.cpp \
++	legacy/LegacyLinearAccelerationSensor.cpp \
++	legacy/LegacyRotationVectorSensor.cpp
++
+ LOCAL_CFLAGS:= -DLOG_TAG=\"SensorService\"
+ 
+ LOCAL_CFLAGS += -fvisibility=hidden
+diff --git a/services/sensorservice/SensorService.cpp b/services/sensorservice/SensorService.cpp
+index 5953c2a..b5ee1d3 100644
+--- a/services/sensorservice/SensorService.cpp
++++ b/services/sensorservice/SensorService.cpp
+@@ -50,6 +50,9 @@
+ #include "RotationVectorSensor.h"
+ #include "SensorFusion.h"
+ #include "SensorService.h"
++#include "legacy/LegacyGravitySensor.h"
++#include "legacy/LegacyLinearAccelerationSensor.h"
++#include "legacy/LegacyRotationVectorSensor.h"
+ 
+ namespace android {
+ // ---------------------------------------------------------------------------
+@@ -160,6 +163,28 @@ void SensorService::onFirstRef()
+                 registerVirtualSensor( new CorrectedGyroSensor(list, count) );
+                 registerVirtualSensor( new GyroDriftSensor() );
+             }
++            else
++            {
++                Sensor aSensor;
++
++                // Add Android virtual sensors if they're not already
++                // available in the HAL
++
++                aSensor = registerVirtualSensor( new LegacyRotationVectorSensor() );
++                if (virtualSensorsNeeds & (1<<SENSOR_TYPE_ROTATION_VECTOR)) {
++                    mUserSensorList.add(aSensor);
++                }
++
++                aSensor = registerVirtualSensor( new LegacyGravitySensor(list, count) );
++                if (virtualSensorsNeeds & (1<<SENSOR_TYPE_GRAVITY)) {
++                    mUserSensorList.add(aSensor);
++                }
++
++                aSensor = registerVirtualSensor( new LegacyLinearAccelerationSensor(list, count) );
++                if (virtualSensorsNeeds & (1<<SENSOR_TYPE_LINEAR_ACCELERATION)) {
++                    mUserSensorList.add(aSensor);
++                }
++            }
+ 
+             // debugging sensor list
+             mUserSensorListDebug = mSensorList;
+diff --git a/services/sensorservice/legacy/LegacyGravitySensor.cpp b/services/sensorservice/legacy/LegacyGravitySensor.cpp
+new file mode 100644
+index 0000000..e600e6a
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyGravitySensor.cpp
+@@ -0,0 +1,102 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#include <stdint.h>
++#include <math.h>
++#include <sys/types.h>
++
++#include <utils/Errors.h>
++
++#include <hardware/sensors.h>
++
++#include "LegacyGravitySensor.h"
++#include "SensorDevice.h"
++#include "SensorFusion.h"
++
++namespace android {
++// ---------------------------------------------------------------------------
++
++LegacyGravitySensor::LegacyGravitySensor(sensor_t const* list, size_t count)
++    : mSensorDevice(SensorDevice::getInstance()),
++      mSensorFusion(SensorFusion::getInstance()),
++      mAccTime(0),
++      mLowPass(M_SQRT1_2, 1.5f),
++      mX(mLowPass), mY(mLowPass), mZ(mLowPass)
++{
++    for (size_t i=0 ; i<count ; i++) {
++        if (list[i].type == SENSOR_TYPE_ACCELEROMETER) {
++            mAccelerometer = Sensor(list + i);
++            break;
++        }
++    }
++}
++
++bool LegacyGravitySensor::process(sensors_event_t* outEvent,
++        const sensors_event_t& event)
++{
++    const static double NS2S = 1.0 / 1000000000.0;
++    if (event.type == SENSOR_TYPE_ACCELEROMETER) {
++        float x, y, z;
++        const double now = event.timestamp * NS2S;
++        if (mAccTime == 0) {
++            x = mX.init(event.acceleration.x);
++            y = mY.init(event.acceleration.y);
++            z = mZ.init(event.acceleration.z);
++        } else {
++            double dT = now - mAccTime;
++            mLowPass.setSamplingPeriod(dT);
++            x = mX(event.acceleration.x);
++            y = mY(event.acceleration.y);
++            z = mZ(event.acceleration.z);
++        }
++        mAccTime = now;
++        *outEvent = event;
++        outEvent->data[0] = x;
++        outEvent->data[1] = y;
++        outEvent->data[2] = z;
++        outEvent->sensor = '_grv';
++        outEvent->type = SENSOR_TYPE_GRAVITY;
++        return true;
++    }
++    return false;
++}
++
++status_t LegacyGravitySensor::activate(void* ident, bool enabled) {
++    return mSensorFusion.activate(this, enabled);
++}
++
++status_t LegacyGravitySensor::setDelay(void* ident, int handle, int64_t ns) {
++    return mSensorFusion.setDelay(this, ns);
++}
++
++Sensor LegacyGravitySensor::getSensor() const {
++    sensor_t hwSensor;
++    hwSensor.name       = "Gravity Sensor";
++    hwSensor.vendor     = "Google Inc.";
++    hwSensor.version    = 3;
++    hwSensor.handle     = '_grv';
++    hwSensor.type       = SENSOR_TYPE_GRAVITY;
++    hwSensor.maxRange   = GRAVITY_EARTH * 2;
++    hwSensor.resolution = mAccelerometer.getResolution();
++    hwSensor.power      = mSensorFusion.getPowerUsage();
++    hwSensor.minDelay   = mSensorFusion.getMinDelay();
++    Sensor sensor(&hwSensor);
++    return sensor;
++}
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
+diff --git a/services/sensorservice/legacy/LegacyGravitySensor.h b/services/sensorservice/legacy/LegacyGravitySensor.h
+new file mode 100644
+index 0000000..afe37a9
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyGravitySensor.h
+@@ -0,0 +1,57 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#ifndef ANDROID_LEGACY_GRAVITY_SENSOR_H
++#define ANDROID_LEGACY_GRAVITY_SENSOR_H
++
++#include <stdint.h>
++#include <sys/types.h>
++
++#include <gui/Sensor.h>
++
++#include "../SensorInterface.h"
++#include "SecondOrderLowPassFilter.h"
++
++// ---------------------------------------------------------------------------
++namespace android {
++// ---------------------------------------------------------------------------
++
++class SensorDevice;
++class SensorFusion;
++
++class LegacyGravitySensor : public SensorInterface {
++    SensorDevice& mSensorDevice;
++    SensorFusion& mSensorFusion;
++    Sensor mAccelerometer;
++    double mAccTime;
++
++    SecondOrderLowPassFilter mLowPass;
++    CascadedBiquadFilter mX, mY, mZ;
++
++public:
++    LegacyGravitySensor(sensor_t const* list, size_t count);
++    virtual bool process(sensors_event_t* outEvent,
++            const sensors_event_t& event);
++    virtual status_t activate(void* ident, bool enabled);
++    virtual status_t setDelay(void* ident, int handle, int64_t ns);
++    virtual Sensor getSensor() const;
++    virtual bool isVirtual() const { return true; }
++};
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
++#endif // ANDROID_LEGACY_GRAVITY_SENSOR_H
+diff --git a/services/sensorservice/legacy/LegacyLinearAccelerationSensor.cpp b/services/sensorservice/legacy/LegacyLinearAccelerationSensor.cpp
+new file mode 100644
+index 0000000..f4e7604
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyLinearAccelerationSensor.cpp
+@@ -0,0 +1,84 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#include <stdint.h>
++#include <math.h>
++#include <sys/types.h>
++
++#include <utils/Errors.h>
++
++#include <hardware/sensors.h>
++
++#include "LegacyLinearAccelerationSensor.h"
++#include "../SensorDevice.h"
++#include "../SensorFusion.h"
++
++namespace android {
++// ---------------------------------------------------------------------------
++
++LegacyLinearAccelerationSensor::LegacyLinearAccelerationSensor(sensor_t const* list, size_t count)
++    : mSensorDevice(SensorDevice::getInstance()),
++      mGravitySensor(list, count)
++{
++    mData[0] = mData[1] = mData[2] = 0;
++}
++
++bool LegacyLinearAccelerationSensor::process(sensors_event_t* outEvent,
++        const sensors_event_t& event)
++{
++    bool result = mGravitySensor.process(outEvent, event);
++    if (result) {
++        if (event.type == SENSOR_TYPE_ACCELEROMETER) {
++            mData[0] = event.acceleration.x;
++            mData[1] = event.acceleration.y;
++            mData[2] = event.acceleration.z;
++        }
++        outEvent->data[0] = mData[0] - outEvent->data[0];
++        outEvent->data[1] = mData[1] - outEvent->data[1];
++        outEvent->data[2] = mData[2] - outEvent->data[2];
++        outEvent->sensor = '_lin';
++        outEvent->type = SENSOR_TYPE_LINEAR_ACCELERATION;
++    }
++    return result;
++}
++
++status_t LegacyLinearAccelerationSensor::activate(void* ident, bool enabled) {
++    return mGravitySensor.activate(this, enabled);
++}
++
++status_t LegacyLinearAccelerationSensor::setDelay(void* ident, int handle, int64_t ns) {
++    return mGravitySensor.setDelay(this, handle, ns);
++}
++
++Sensor LegacyLinearAccelerationSensor::getSensor() const {
++    Sensor gsensor(mGravitySensor.getSensor());
++    sensor_t hwSensor;
++    hwSensor.name       = "Linear Acceleration Sensor";
++    hwSensor.vendor     = "Google Inc.";
++    hwSensor.version    = gsensor.getVersion();
++    hwSensor.handle     = '_lin';
++    hwSensor.type       = SENSOR_TYPE_LINEAR_ACCELERATION;
++    hwSensor.maxRange   = gsensor.getMaxValue();
++    hwSensor.resolution = gsensor.getResolution();
++    hwSensor.power      = gsensor.getPowerUsage();
++    hwSensor.minDelay   = gsensor.getMinDelay();
++    Sensor sensor(&hwSensor);
++    return sensor;
++}
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
+diff --git a/services/sensorservice/legacy/LegacyLinearAccelerationSensor.h b/services/sensorservice/legacy/LegacyLinearAccelerationSensor.h
+new file mode 100644
+index 0000000..90ad9fb
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyLinearAccelerationSensor.h
+@@ -0,0 +1,53 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#ifndef ANDROID_LEGACY_LINEAR_ACCELERATION_SENSOR_H
++#define ANDROID_LEGACY_LINEAR_ACCELERATION_SENSOR_H
++
++#include <stdint.h>
++#include <sys/types.h>
++
++#include <gui/Sensor.h>
++
++#include "../SensorInterface.h"
++#include "LegacyGravitySensor.h"
++
++// ---------------------------------------------------------------------------
++namespace android {
++// ---------------------------------------------------------------------------
++
++class SensorDevice;
++class SensorFusion;
++
++class LegacyLinearAccelerationSensor : public SensorInterface {
++    SensorDevice& mSensorDevice;
++    LegacyGravitySensor mGravitySensor;
++    float mData[3];
++
++    virtual bool process(sensors_event_t* outEvent,
++            const sensors_event_t& event);
++public:
++    LegacyLinearAccelerationSensor(sensor_t const* list, size_t count);
++    virtual status_t activate(void* ident, bool enabled);
++    virtual status_t setDelay(void* ident, int handle, int64_t ns);
++    virtual Sensor getSensor() const;
++    virtual bool isVirtual() const { return true; }
++};
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
++#endif // ANDROID_LEGACY_LINEAR_ACCELERATION_SENSOR_H
+diff --git a/services/sensorservice/legacy/LegacyRotationVectorSensor.cpp b/services/sensorservice/legacy/LegacyRotationVectorSensor.cpp
+new file mode 100644
+index 0000000..a58878d
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyRotationVectorSensor.cpp
+@@ -0,0 +1,156 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#include <stdint.h>
++#include <math.h>
++#include <sys/types.h>
++
++#include <utils/Errors.h>
++
++#include <hardware/sensors.h>
++
++#include "LegacyRotationVectorSensor.h"
++
++namespace android {
++// ---------------------------------------------------------------------------
++
++template <typename T>
++static inline T clamp(T v) {
++    return v < 0 ? 0 : v;
++}
++
++LegacyRotationVectorSensor::LegacyRotationVectorSensor()
++    : mSensorDevice(SensorDevice::getInstance()),
++      mSensorFusion(SensorFusion::getInstance()),
++      mALowPass(M_SQRT1_2, 1.5f),
++      mAX(mALowPass), mAY(mALowPass), mAZ(mALowPass),
++      mMLowPass(M_SQRT1_2, 1.5f),
++      mMX(mMLowPass), mMY(mMLowPass), mMZ(mMLowPass)
++{
++}
++
++bool LegacyRotationVectorSensor::process(sensors_event_t* outEvent,
++        const sensors_event_t& event)
++{
++    const static double NS2S = 1.0 / 1000000000.0;
++    if (event.type == SENSOR_TYPE_MAGNETIC_FIELD) {
++        const double now = event.timestamp * NS2S;
++        if (mMagTime == 0) {
++            mMagData[0] = mMX.init(event.magnetic.x);
++            mMagData[1] = mMY.init(event.magnetic.y);
++            mMagData[2] = mMZ.init(event.magnetic.z);
++        } else {
++            double dT = now - mMagTime;
++            mMLowPass.setSamplingPeriod(dT);
++            mMagData[0] = mMX(event.magnetic.x);
++            mMagData[1] = mMY(event.magnetic.y);
++            mMagData[2] = mMZ(event.magnetic.z);
++        }
++        mMagTime = now;
++    }
++    if (event.type == SENSOR_TYPE_ACCELEROMETER) {
++        const double now = event.timestamp * NS2S;
++        float Ax, Ay, Az;
++        if (mAccTime == 0) {
++            Ax = mAX.init(event.acceleration.x);
++            Ay = mAY.init(event.acceleration.y);
++            Az = mAZ.init(event.acceleration.z);
++        } else {
++            double dT = now - mAccTime;
++            mALowPass.setSamplingPeriod(dT);
++            Ax = mAX(event.acceleration.x);
++            Ay = mAY(event.acceleration.y);
++            Az = mAZ(event.acceleration.z);
++        }
++        mAccTime = now;
++        const float Ex = mMagData[0];
++        const float Ey = mMagData[1];
++        const float Ez = mMagData[2];
++        float Hx = Ey*Az - Ez*Ay;
++        float Hy = Ez*Ax - Ex*Az;
++        float Hz = Ex*Ay - Ey*Ax;
++        const float normH = sqrtf(Hx*Hx + Hy*Hy + Hz*Hz);
++        if (normH < 0.1f) {
++            // device is close to free fall (or in space?), or close to
++            // magnetic north pole. Typical values are  > 100.
++            return false;
++        }
++        const float invH = 1.0f / normH;
++        const float invA = 1.0f / sqrtf(Ax*Ax + Ay*Ay + Az*Az);
++        Hx *= invH;
++        Hy *= invH;
++        Hz *= invH;
++        Ax *= invA;
++        Ay *= invA;
++        Az *= invA;
++        const float Mx = Ay*Hz - Az*Hy;
++        const float My = Az*Hx - Ax*Hz;
++        const float Mz = Ax*Hy - Ay*Hx;
++
++        // matrix to rotation vector (normalized quaternion)
++        float qw = sqrtf( clamp( Hx + My + Az + 1) * 0.25f );
++        float qx = sqrtf( clamp( Hx - My - Az + 1) * 0.25f );
++        float qy = sqrtf( clamp(-Hx + My - Az + 1) * 0.25f );
++        float qz = sqrtf( clamp(-Hx - My + Az + 1) * 0.25f );
++        qx = copysignf(qx, Ay - Mz);
++        qy = copysignf(qy, Hz - Ax);
++        qz = copysignf(qz, Mx - Hy);
++
++        // this quaternion is guaranteed to be normalized, by construction
++        // of the rotation matrix.
++
++        *outEvent = event;
++        outEvent->data[0] = qx;
++        outEvent->data[1] = qy;
++        outEvent->data[2] = qz;
++        outEvent->data[3] = qw;
++        outEvent->sensor = '_rov';
++        outEvent->type = SENSOR_TYPE_ROTATION_VECTOR;
++        return true;
++    }
++    return false;
++}
++
++status_t LegacyRotationVectorSensor::activate(void* ident, bool enabled) {
++    if (enabled) {
++        mMagTime = 0;
++        mAccTime = 0;
++    }
++    return mSensorFusion.activate(this, enabled);
++}
++
++status_t LegacyRotationVectorSensor::setDelay(void* ident, int handle, int64_t ns) {
++    return mSensorFusion.setDelay(this, ns);
++}
++
++Sensor LegacyRotationVectorSensor::getSensor() const {
++    sensor_t hwSensor;
++    hwSensor.name       = "Rotation Vector Sensor";
++    hwSensor.vendor     = "Google Inc.";
++    hwSensor.version    = 3;
++    hwSensor.handle     = '_rov';
++    hwSensor.type       = SENSOR_TYPE_ROTATION_VECTOR;
++    hwSensor.maxRange   = 1;
++    hwSensor.resolution = 1.0f / (1<<24);
++    hwSensor.power      = mSensorFusion.getPowerUsage();
++    hwSensor.minDelay   = mSensorFusion.getMinDelay();
++    Sensor sensor(&hwSensor);
++    return sensor;
++}
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
+diff --git a/services/sensorservice/legacy/LegacyRotationVectorSensor.h b/services/sensorservice/legacy/LegacyRotationVectorSensor.h
+new file mode 100644
+index 0000000..4208819
+--- /dev/null
++++ b/services/sensorservice/legacy/LegacyRotationVectorSensor.h
+@@ -0,0 +1,60 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#ifndef ANDROID_LEGACY_ROTATION_VECTOR_SENSOR_H
++#define ANDROID_LEGACY_ROTATION_VECTOR_SENSOR_H
++
++#include <stdint.h>
++#include <sys/types.h>
++
++#include <gui/Sensor.h>
++
++#include "../SensorDevice.h"
++#include "../SensorInterface.h"
++
++#include "../Fusion.h"
++#include "../SensorFusion.h"
++#include "SecondOrderLowPassFilter.h"
++
++// ---------------------------------------------------------------------------
++namespace android {
++// ---------------------------------------------------------------------------
++
++class LegacyRotationVectorSensor : public SensorInterface {
++    SensorDevice& mSensorDevice;
++    SensorFusion& mSensorFusion;
++    float mMagData[3];
++    double mAccTime;
++    double mMagTime;
++    SecondOrderLowPassFilter mALowPass;
++    CascadedBiquadFilter mAX, mAY, mAZ;
++    SecondOrderLowPassFilter mMLowPass;
++    CascadedBiquadFilter mMX, mMY, mMZ;
++
++public:
++    LegacyRotationVectorSensor();
++    virtual bool process(sensors_event_t* outEvent,
++            const sensors_event_t& event);
++    virtual status_t activate(void* ident, bool enabled);
++    virtual status_t setDelay(void* ident, int handle, int64_t ns);
++    virtual Sensor getSensor() const;
++    virtual bool isVirtual() const { return true; }
++};
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
++#endif // ANDROID_LEGACY_ROTATION_VECTOR_SENSOR_H
+diff --git a/services/sensorservice/legacy/SecondOrderLowPassFilter.cpp b/services/sensorservice/legacy/SecondOrderLowPassFilter.cpp
+new file mode 100644
+index 0000000..eeb6d1e
+--- /dev/null
++++ b/services/sensorservice/legacy/SecondOrderLowPassFilter.cpp
+@@ -0,0 +1,89 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#include <stdint.h>
++#include <sys/types.h>
++#include <math.h>
++
++#include <cutils/log.h>
++
++#include "SecondOrderLowPassFilter.h"
++
++// ---------------------------------------------------------------------------
++
++namespace android {
++// ---------------------------------------------------------------------------
++
++SecondOrderLowPassFilter::SecondOrderLowPassFilter(float Q, float fc)
++    : iQ(1.0f / Q), fc(fc)
++{
++}
++
++void SecondOrderLowPassFilter::setSamplingPeriod(float dT)
++{
++    K = tanf(float(M_PI) * fc * dT);
++    iD = 1.0f / (K*K + K*iQ + 1);
++    a0 = K*K*iD;
++    a1 = 2.0f * a0;
++    b1 = 2.0f*(K*K - 1)*iD;
++    b2 = (K*K - K*iQ + 1)*iD;
++}
++
++// ---------------------------------------------------------------------------
++
++BiquadFilter::BiquadFilter(const SecondOrderLowPassFilter& s)
++    : s(s)
++{
++}
++
++float BiquadFilter::init(float x)
++{
++    x1 = x2 = x;
++    y1 = y2 = x;
++    return x;
++}
++
++float BiquadFilter::operator()(float x)
++{
++    float y = (x + x2)*s.a0 + x1*s.a1 - y1*s.b1 - y2*s.b2;
++    x2 = x1;
++    y2 = y1;
++    x1 = x;
++    y1 = y;
++    return y;
++}
++
++// ---------------------------------------------------------------------------
++
++CascadedBiquadFilter::CascadedBiquadFilter(const SecondOrderLowPassFilter& s)
++    : mA(s), mB(s)
++{
++}
++
++float CascadedBiquadFilter::init(float x)
++{
++    mA.init(x);
++    mB.init(x);
++    return x;
++}
++
++float CascadedBiquadFilter::operator()(float x)
++{
++    return mB(mA(x));
++}
++
++// ---------------------------------------------------------------------------
++}; // namespace android
+diff --git a/services/sensorservice/legacy/SecondOrderLowPassFilter.h b/services/sensorservice/legacy/SecondOrderLowPassFilter.h
+new file mode 100644
+index 0000000..85698ca
+--- /dev/null
++++ b/services/sensorservice/legacy/SecondOrderLowPassFilter.h
+@@ -0,0 +1,73 @@
++/*
++ * Copyright (C) 2010 The Android Open Source Project
++ *
++ * Licensed under the Apache License, Version 2.0 (the "License");
++ * you may not use this file except in compliance with the License.
++ * You may obtain a copy of the License at
++ *
++ *      http://www.apache.org/licenses/LICENSE-2.0
++ *
++ * Unless required by applicable law or agreed to in writing, software
++ * distributed under the License is distributed on an "AS IS" BASIS,
++ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++ * See the License for the specific language governing permissions and
++ * limitations under the License.
++ */
++
++#ifndef ANDROID_SECOND_ORDER_LOW_PASS_FILTER_H
++#define ANDROID_SECOND_ORDER_LOW_PASS_FILTER_H
++
++#include <stdint.h>
++#include <sys/types.h>
++
++// ---------------------------------------------------------------------------
++
++namespace android {
++// ---------------------------------------------------------------------------
++
++class BiquadFilter;
++
++/*
++ * State of a 2nd order low-pass IIR filter
++ */
++class SecondOrderLowPassFilter {
++    friend class BiquadFilter;
++    float iQ, fc;
++    float K, iD;
++    float a0, a1;
++    float b1, b2;
++public:
++    SecondOrderLowPassFilter(float Q, float fc);
++    void setSamplingPeriod(float dT);
++};
++
++/*
++ * Implements a Biquad IIR filter
++ */
++class BiquadFilter {
++    float x1, x2;
++    float y1, y2;
++    const SecondOrderLowPassFilter& s;
++public:
++    BiquadFilter(const SecondOrderLowPassFilter& s);
++    float init(float in);
++    float operator()(float in);
++};
++
++/*
++ * Two cascaded biquad IIR filters
++ * (4-poles IIR)
++ */
++class CascadedBiquadFilter {
++    BiquadFilter mA;
++    BiquadFilter mB;
++public:
++    CascadedBiquadFilter(const SecondOrderLowPassFilter& s);
++    float init(float in);
++    float operator()(float in);
++};
++
++// ---------------------------------------------------------------------------
++}; // namespace android
++
++#endif // ANDROID_SECOND_ORDER_LOW_PASS_FILTER_H
