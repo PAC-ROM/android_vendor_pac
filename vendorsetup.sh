@@ -70,6 +70,8 @@ add_lunch_combo pac_d2lte-userdebug
 add_lunch_combo pac_galaxysmtd-userdebug
 add_lunch_combo pac_hercules-userdebug
 add_lunch_combo pac_hlte-userdebug
+add_lunch_combo pac_hltetmo-userdebug
+add_lunch_combo pac_hltespr-userdebug
 add_lunch_combo pac_i605-userdebug
 add_lunch_combo pac_i9100-userdebug
 add_lunch_combo pac_i9300-userdebug
