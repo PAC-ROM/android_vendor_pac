@@ -93,6 +93,7 @@
         <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
         <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
         <device FullName="Galaxy S I Captivate" CodeName="captivatemtd"/>
+	<device FullName="Galaxy S I Plus" CodeName="ariesve"/>
         <device FullName="Galaxy S II" CodeName="i9100"/>
         <device FullName="Galaxy S II (AT&amp;T)" CodeName="skyrocket"/>
         <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
@@ -111,6 +112,7 @@
         <device FullName="Galaxy S IV mini (DUOS)" CodeName="serranodsdd"/>
         <device FullName="Galaxy S IV mini (GSM)" CodeName="serrano3gxx"/>
         <device FullName="Galaxy S IV mini (LTE)" CodeName="serranoltexx"/>
+	<device FullName="Galaxy W" CodeName="ancora"/>
         <device FullName="Nexus 10" CodeName="manta"/>
     </vendor>
     <vendor Name="Sony">
