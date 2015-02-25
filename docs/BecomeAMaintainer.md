@@ -20,8 +20,8 @@
     - Don't forget to change the total devices at the bottom.
 
 5.  [Nightly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/nightly.xml)/[Weekly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/weekly.xml)
-    - [Nightly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/nightly.xml) - If your device qualifies (no adds/removes/cherries needed) add your device here.
-    - [Weekly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/weekly.xml) - If your device uses the adds/removes/cherries (mostly legacy devices) add your device here.
+    - [Nightly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/nightly.xml) - If your device qualifies (no adds/removes/extras needed) add your device here.
+    - [Weekly] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/weekly.xml) - If your device uses the adds/removes/extras (mostly legacy devices) add your device here.
     - Keep alphabetical.
 
 6.  [XDA Threads] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/docs/XDAThreads.mkdn)
@@ -52,15 +52,16 @@
     - Found in the [extras/addremove] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/extras/addremove/) folder.
     - Used for legacy devices.
     - Please try to keep this as clean as possible and only use if you have to.
-    - We host a ton of repos, so use cherries.sh option if possible. If we don't host it, then you can use adds/removes.
+    - We host a ton of repos, so use extras.sh option if possible. If we don't host it, then you can use adds/removes.
     - Disqualifies your device for nightlies.
 
-12. [Cherries] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/cherries.sh)
+12. [Extras] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/extras.sh)
     - Found in [tools] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/tools/).
+    - You can add cherries, topics and queries from review page of some accounts, for more details check [Extras] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/extras.sh)
     - You can save patches in the [extras/patches] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/extras/patches/) folder.
     - This injects cherry picks and patches for Gerrit and other commits.
-    - If PAC hosts the repos, then please use this method by adding your patches to our repos and sending a commit to Gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the [cherries.sh] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/cherries.sh) file to cherry-pick during build.
-    - Very easy to use and understand. (read the cherries.sh file for detailed instructions)
+    - If PAC hosts the repos, then please use this method by adding your patches to our repos and sending a commit to Gerrit with the patch and a DO NOT MERGE message. We will abandon the commit and you can use the [cherries.sh] (https://github.com/PAC-man/android_vendor_pac/blob/pac-5.0/tools/extras.sh) file to cherry-pick during build.
+    - Very easy to use and understand. (read the extras.sh file for detailed instructions)
     - Disqualifies your device for nightlies.
 
 13. [Overlays] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/overlay/)

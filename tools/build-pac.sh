@@ -31,7 +31,7 @@ usage()
     echo -e "    -e# Extra build output options:"
     echo -e "        1 - Verbose build output"
     echo -e "        2 - Quiet build output"
-    echo -e "    -f  Fetch cherry-picks"
+    echo -e "    -f  Fetch extras"
     echo -e "    -j# Set number of jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -r  Reset source tree before build"
@@ -236,9 +236,9 @@ fi
 
 rm -f $OUTDIR/target/product/$device/obj/KERNEL_OBJ/.version
 
-# Fetch cherry-picks
+# Fetch extras
 if [ "$opt_fetch" -ne 0 ]; then
-    ./vendor/pac/tools/cherries.sh $device
+    ./vendor/pac/tools/extras.sh $device
 fi
 
 # Get time of startup
