@@ -4,7 +4,7 @@
   This file describes which devices are to be built weekly. These devices include legacy devices that use our add/remove options found in
   the manifest folder of the vendor_pac repo and low activity devices (less than 35 downloads per week).
   The will run once a week and that is it. This is to save needed resources.
-  The "hasextras" variable is set to 1 if the device has adds/removes or cherries, thereby triggering a resync of the build machine
+  The "hasextras" variable is set to 1 if the device has adds/removes or extras, thereby triggering a resync of the build machine
   source after the build of the weekly device.
 -->
 
