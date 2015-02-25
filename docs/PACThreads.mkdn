@@ -88,10 +88,9 @@
 <a href="http://forum.pac-rom.com/thread-593.html">Galaxy Note 2 (Sprint):     l900           123SIT</a>
 <a href="http://forum.pac-rom.com/thread-594.html">Galaxy Note 2 (T-Mobile):   t0ltetmo       123SIT</a>
 <a href="http://forum.pac-rom.com/thread-595.html">Galaxy Note 2 (Verizon):    i605           123SIT</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Intern.):   hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Sprint):    hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (T-Mobile):  hlte           ZION959</a>
-<a href="http://forum.pac-rom.com/thread-1043.html">Galaxy Note 3 (Verizon):   hlte           ZION959</a>
+<a href="http://forum.pac-rom.com/thread-1363.html">Galaxy Note 3 (Intern.):   hlte           encho</a>
+<a href="http://forum.pac-rom.com/thread-1365.html">Galaxy Note 3 (Sprint):    hltespr        encho</a>
+<a href="http://forum.pac-rom.com/thread-1364.html">Galaxy Note 3 (T-Mobile):  hltetmo        encho</a>
 <a href="http://forum.pac-rom.com/thread-527.html">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-586.html">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
