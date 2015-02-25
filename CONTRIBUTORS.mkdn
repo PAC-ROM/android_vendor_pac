@@ -212,8 +212,8 @@ Samsung:
 * __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
 * __Galaxy Note 2 (Verizon) (i605) :__ 123sit
 * __Galaxy Note 3 (International) (hlte) :__ encho
-* __Galaxy Note 3 (Sprint) (hltespr) :__ OPEN
-* __Galaxy Note 3 (T-Mobile) (hltetmo) :__ OPEN
+* __Galaxy Note 3 (Sprint) (hltespr) :__ encho
+* __Galaxy Note 3 (T-Mobile) (hltetmo) :__ encho
 * __Galaxy Note 8.0 (GSM) (N5100) :__ ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
