@@ -221,6 +221,7 @@ Samsung:
 * __Galaxy Player 5.0 (venturi) :__ iurnait
 * __Galaxy S I (galaxysmtd) :__ Volle
 * __Galaxy S I Captivate (captivatemtd) :__ Nick0703
+* __Galaxy S I Plus (ariesve) :__ K_TECH
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (AT&T) (skyrocket) :__ TheCybertronian
 * __Galaxy S II (T-Mobile) (hercules) :__ TheCybertronian
@@ -246,6 +247,7 @@ Samsung:
 * __Galaxy S IV mini (GSM) (serrano3gxx) :__ lsdty
 * __Galaxy S IV mini (DUOS) (serranodsdd) :__ lsdty
 * __Galaxy S IV mini (LTE) (serranoltexx) :__ lsdty
+* __Galaxy W (ancora) :__ K_TECH
 * __Nexus 10 (manta) :__ Volle
 
 
@@ -280,7 +282,7 @@ Xiaomi:
 
 
 
-Total Devices: 126
+Total Devices: 128
 
 Best regards
     szl.kiev
