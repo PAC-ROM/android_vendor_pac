@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# ANSI color scheme script for PAC-ROM
+# by MaDc0w
+#
+echo -e "${rst}${bldred}☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠${rst}"
+echo -e "   ${bldred}▄██████▄                                                          ▄██████▄${rst}"
+echo -e " ${bldred}▄█${bldwhi}██ ${bldred}██████▄                TO ALL THE XDA NOOBS!                 ▄█${bldwhi}██ ${bldred}██████▄${rst}"
+echo -e " ${bldred}██${bldwhi}███${bldred}██${bldwhi}███${bldred}██                  PLEASE READ THIS!                   ██${bldwhi}███${bldred}██${bldwhi}███${bldred}██${rst}"
+echo -e " ${bldred}███████ ${bldwhi}██${bldred}██                                                      ${bldred}███████ ${bldwhi}██${bldred}██${rst}"
+echo -e " ${bldred}██▀██▀▀██▀██                                                      ██▀██▀▀██▀██${rst}"
+echo -e " ${bldred}▀   ▀  ▀   ▀                                                      ▀   ▀  ▀   ▀${rst}"
+echo -e "${bldred}☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠${rst}"
+echo -e ""
+echo -e "     ${bldred}Please remember that this source is currently for private builds ONLY!${rst}"
+echo -e "     ${bldred}Public distribution is NOT ALLOWED! All public builds will be removed!${rst}"
+echo -e "     ${bldred}It will be welcomed after nightlies (5.0) begin. Thank you,${rst}"
+echo -e ""
+echo -e "     ${bldcya}The Developers${rst}"
+echo -e ""
+echo -e "${bldred}☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠${rst}"
+echo -e "   ${bldred}▄██████▄                                                          ▄██████▄${rst}"
+echo -e " ${bldred}▄█${bldwhi}██ ${bldred}██████▄                TO ALL THE XDA NOOBS!                 ▄█${bldwhi}██ ${bldred}██████▄${rst}"
+echo -e " ${bldred}██${bldwhi}███${bldred}██${bldwhi}███${bldred}██                  PLEASE READ THIS!                   ██${bldwhi}███${bldred}██${bldwhi}███${bldred}██${rst}"
+echo -e " ${bldred}███████ ${bldwhi}██${bldred}██                                                      ${bldred}███████ ${bldwhi}██${bldred}██${rst}"
+echo -e " ${bldred}██▀██▀▀██▀██                                                      ██▀██▀▀██▀██${rst}"
+echo -e " ${bldred}▀   ▀  ▀   ▀                                                      ▀   ▀  ▀   ▀${rst}"
+echo -e "${bldred}☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠${rst}"
