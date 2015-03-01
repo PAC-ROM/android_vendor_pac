@@ -1,23 +1,45 @@
 #!/bin/bash
 
 if [ ! "$BUILD_WITH_COLORS" = "0" ]; then
-    red=$(tput setaf 1)             #  red
-    grn=$(tput setaf 2)             #  green
-    ylw=$(tput setaf 3)             #  yellow
-    blu=$(tput setaf 4)             #  blue
-    ppl=$(tput setaf 5)             #  purple
-    cya=$(tput setaf 6)             #  cyan
-    txtbld=$(tput bold)             #  Bold
-    bldred=${txtbld}$(tput setaf 1) #  red
-    bldgrn=${txtbld}$(tput setaf 2) #  green
-    bldylw=${txtbld}$(tput setaf 3) #  yellow
-    bldblu=${txtbld}$(tput setaf 4) #  blue
-    bldppl=${txtbld}$(tput setaf 5) #  purple
-    bldcya=${txtbld}$(tput setaf 6) #  cyan
-    txtrst=$(tput sgr0)             #  Reset
-    rev=$(tput rev)                 #  Reverse color
-    pplrev=${rev}$(tput setaf 5)
-    cyarev=${rev}$(tput setaf 6)
-    ylwrev=${rev}$(tput setaf 3)
-    blurev=${rev}$(tput setaf 4)
+
+esc="\033"
+bld="${esc}[1m"            #  Bold
+rst="${esc}[0m"            #  Reset
+
+bla="${esc}[30m"           #  Black          - Text
+red="${esc}[31m"           #  Red            - Text
+grn="${esc}[32m"           #  Green          - Text
+ylw="${esc}[33m"           #  Yellow         - Text
+blu="${esc}[34m"           #  Blue           - Text
+mag="${esc}[35m"           #  Magenta        - Text
+cya="${esc}[36m"           #  Cyan           - Text
+whi="${esc}[37m"           #  Light Grey     - Text
+
+bldbla=${bld}${bla}        #  Dark Grey      - Text
+bldred=${bld}${red}        #  Red            - Bold Text
+bldgrn=${bld}${grn}        #  Green          - Bold Text
+bldylw=${bld}${ylw}        #  Yellow         - Bold Text
+bldblu=${bld}${blu}        #  Blue           - Bold Text
+bldmag=${bld}${mag}        #  Magenta        - Bold Text
+bldcya=${bld}${cya}        #  Cyan           - Bold Text
+bldwhi=${bld}${whi}        #  White          - Text
+
+bgbla="${esc}[40m"         #  Black          - Background
+bgred="${esc}[41m"         #  Red            - Background
+bggrn="${esc}[42m"         #  Green          - Background
+bgylw="${esc}[43m"         #  Yellow         - Background
+bgblu="${esc}[44m"         #  Blue           - Background
+bgmag="${esc}[45m"         #  Magenta        - Background
+bgcya="${esc}[46m"         #  Cyan           - Background
+bgwhi="${esc}[47m"         #  Light Grey     - Background
+
+bldbgbla=${bld}${bgbla}    #  Dark Grey      - Background
+bldbgred=${bld}${bgred}    #  Red            - Bold Background
+bldbggrn=${bld}${bggrn}    #  Green          - Bold Background
+bldbgylw=${bld}${bgylw}    #  Yellow         - Bold Background
+bldbgblu=${bld}${bgblu}    #  Blue           - Bold Background
+bldbgmag=${bld}${bgmag}    #  Magenta        - Bold Background
+bldbgcya=${bld}${bgcya}    #  Cyan           - Bold Background
+bldbgwhi=${bld}${bgwhi}    #  White          - Background
+
 fi

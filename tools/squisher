@@ -15,12 +15,12 @@ then
     OUT_TARGET_HOST=darwin-x86
     XARGS="xargs -n 1 -P `sysctl hw.ncpu | awk '{print $2}'`"
 else
-    echo -e ${red}"ERROR: unknown/unsupported host OS!"${txtrst}
+    echo -e "${bldred}ERROR: unknown/unsupported host OS!${rst}"
     exit 1
 fi
 
 if [ -z "$OUT" -o ! -d "$OUT" ]; then
-    echo -e ${red}"ERROR: $0 only works with a full build environment. $OUT should exist."${txtrst}
+    echo -e "${bldred}ERROR: $0 only works with a full build environment. $OUT should exist.${rst}"
     exit 1
 fi
 
