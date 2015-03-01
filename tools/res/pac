@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# ANSI color scheme script for PAC-ROM
+# by MaDc0w
+#
+echo -e "${rst}${blu}================================================================================${rst}"
+echo -e "   ${bldylw}▄███████▄        ${bldred}▄██████▄        ${bldgrn}▄██████▄        ${bldmag}▄██████▄        ${bldcya}▄██████▄    ${rst}"
+echo -e "  ${bldylw}▀▀█████████▄    ${bldred}▄${bldwhi}█▀█${bldred}██${bldwhi}█▀█${bldred}██▄    ${bldgrn}▄${bldwhi}█▀█${bldgrn}██${bldwhi}█▀█${bldgrn}██▄    ${bldmag}▄${bldwhi}█▀█${bldmag}██${bldwhi}█▀█${bldmag}██▄    ${bldcya}▄${bldwhi}█▀█${bldcya}██${bldwhi}█▀█${bldcya}██▄  ${rst}"
+echo -e "      ${bldylw}▀███████    ${bldred}█${bldwhi}▄▄█${bldred}██${bldwhi}▄▄█${bldred}███    ${bldgrn}█${bldwhi}▄▄█${bldgrn}██${bldwhi}▄▄█${bldgrn}███    ${bldmag}█${bldwhi}▄▄█${bldmag}██${bldwhi}▄▄█${bldmag}███    ${bldcya}█${bldwhi}▄▄█${bldcya}██${bldwhi}▄▄█${bldcya}███  ${rst}"
+echo -e "      ${bldylw}▄███████    ${bldred}████████████    ${bldgrn}████████████    ${bldmag}████████████    ${bldcya}████████████  ${rst}"
+echo -e "  ${bldylw}▄▄█████████▀    ${bldred}██▀██▀▀██▀██    ${bldgrn}██▀██▀▀██▀██    ${bldmag}██▀██▀▀██▀██    ${bldcya}██▀██▀▀██▀██  ${rst}"
+echo -e "   ${bldylw}▀███████▀      ${bldred}▀   ▀  ▀   ▀    ${bldgrn}▀   ▀  ▀   ▀    ${bldmag}▀   ▀  ▀   ▀    ${bldcya}▀   ▀  ▀   ▀  ${rst}"
+echo -e "${blu}================================================================================${rst}"
+echo -e ""
+echo -e "            ${ylw}▄▄       ${bldmag}THANK YOU FOR CHOOSING${rst}          ${blu}▄██████▄         ${grn}▄██████▄  ${rst}"
+echo -e "        ${ylw}▄▄▀█▀▀                                     ${blu}▄█${bldwhi}██${rst} ${blu}██████▄     ${grn}▄█${bldwhi}███${rst}${grn}██${bldwhi}███${rst}${grn}█▄${rst}"
+echo -e "    ${bldred}▄▄${bldred}${rst}${ylw}▄▀  ▄▀     ${bldylw}__        __      ${grn}__   __         ${rst}${blu}██${bldwhi}███${rst}${blu}██${bldwhi}███${rst}${blu}██     ${grn}██${bldwhi}█ █${rst}${grn}██${bldwhi}█ █${rst}${grn}██${rst}"
+echo -e "   ${bldred}█████ ▄${bldred}${rst}${ylw}█${bldred}▄    ${bldylw}|__)  /\  /  \` ${bldwhi}__ ${bldgrn}|__) /  \ |\/|   ${rst}${blu}███████ ${bldwhi}██${rst}${blu}██     ${grn}████████████${rst}"
+echo -e "   ${bldred}▀${bldbgwhi}▄${rst}${bldred}██ ██${bldbgylw}▄${rst}${bldred}██   ${bldylw}|    /~~\ \__,    ${bldgrn}|  \ \__/ |  |   ${rst}${blu}██▀██▀▀██▀██     ${grn}██▀██▀▀██▀██${rst}"
+echo -e "   ${bldred}     ▀${bldbgwhi}▄${rst}${bldred}██▀                                      ${rst}${blu}▀   ▀  ▀   ▀     ${grn}▀   ▀  ▀   ▀${rst}"
+echo -e "${blu}================================================================================${rst}"
+echo -e "     ${bldylw}▄███████▄${rst}                    ${bldblu}▄██████▄          ${bldwhi}▄██████▄          ${rst}${mag}▄██████▄  ${rst}"
+echo -e "   ${bldylw}▄█████████▀▀${rst}                 ${bldblu}▄██${bldbgwhi}▀████▀${rst}${bldblu}██▄      ${rst}${bldwhi}▄██${bldbgred}▀████▀${rst}${bldwhi}██▄      ${rst}${mag}▄█${bldwhi}█ █${rst}${mag}██${bldwhi}█ █${rst}${mag}█▄${rst}"
+echo -e "   ${bldylw}███████▀  ${bldwhi}▄███▄    ▄▄    ▄▄${rst}  ${bldblu}███${bldbgwhi}▄████${bldbgwhi}▄${rst}${bldblu}███  ${bldwhi}▄▄  ███${bldbgred}▄████▄${rst}${bldwhi}███  ▄▄  ${rst}${mag}██${bldwhi}███${rst}${mag}██${bldwhi}███${rst}${mag}██${rst}"
+echo -e "   ${bldylw}███████▄  ${bldwhi}▀███▀    ▀▀    ▀▀${rst}  ${bldblu}██${bldbgwhi}▀▄▄▀▀▄▄▀${rst}${bldblu}██  ${bldwhi}▀▀  ██${bldbgred}▀▄▄▀▀▄▄▀██${rst}  ${bldwhi}▀▀  ${rst}${mag}████████████${rst}"
+echo -e "   ${bldylw}▀█████████▄▄${rst}                 ${bldblu}██▀██▀▀██▀██      ${bldwhi}██▀██▀▀██▀██      ${rst}${mag}██▀██▀▀██▀██${rst}"
+echo -e "     ${bldylw}▀███████▀${rst}                  ${bldblu}▀   ▀  ▀   ▀      ${bldwhi}▀   ▀  ▀   ▀      ${rst}${mag}▀   ▀  ▀   ▀${rst}"
+echo -e "${blu}================================================================================${rst}"

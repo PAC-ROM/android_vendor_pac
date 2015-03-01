@@ -17,10 +17,10 @@ export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
 usage()
 {
     echo -e ""
-    echo -e ${txtbld}"Usage:"${txtrst}
+    echo -e "${bldwhi}Usage:${rst}"
     echo -e "  build-pac.sh [options] device"
     echo -e ""
-    echo -e ${txtbld}"  Options:"${txtrst}
+    echo -e "${bldwhi}  Options:${rst}"
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
     echo -e "    -b# Prebuilt Chromium options:"
     echo -e "        1 - Remove"
@@ -46,7 +46,7 @@ usage()
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e ""
-    echo -e ${txtbld}"  Example:"${txtrst}
+    echo -e "${bldwhi}  Example:${rst}"
     echo -e "    ./build-pac.sh -c1 hammerhead"
     echo -e ""
     exit 1
@@ -56,11 +56,11 @@ usage()
 . ./vendor/pac/tools/colors
 
 if [ ! -d ".repo" ]; then
-    echo -e ${red}"No .repo directory found.  Is this an Android build tree?"${txtrst}
+    echo -e "${bldred}No .repo directory found.  Is this an Android build tree?${rst}"
     exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
-    echo -e ${red}"No vendor/pac directory found.  Is this a PAC build tree?"${txtrst}
+    echo -e "${bldred}No vendor/pac directory found.  Is this a PAC build tree?${rst}"
     exit 1
 fi
 
@@ -80,17 +80,17 @@ RES="$?"
 if [ $RES = 1 ];then
     export OUTDIR=$OUT_DIR_COMMON_BASE/$thisDIR
     echo -e ""
-    echo -e ${cya}"External out directory is set to: ($OUTDIR)"${txtrst}
+    echo -e "${cya}External out directory is set to: ($OUTDIR)${rst}"
     echo -e ""
 elif [ $RES = 0 ];then
     export OUTDIR=$DIR/out
     echo -e ""
-    echo -e ${cya}"No external out, using default: ($OUTDIR)"${txtrst}
+    echo -e "${cya}No external out, using default: ($OUTDIR)${rst}"
     echo -e ""
 else
     echo -e ""
-    echo -e ${red}"NULL"${txtrst}
-    echo -e ${red}"Error, wrong results! Blame the split screen!"${txtrst}
+    echo -e "${bldred}NULL${rst}"
+    echo -e "${bldred}Error, wrong results! Blame the split screen!${rst}"
     echo -e ""
 fi
 
@@ -143,42 +143,42 @@ if [ "$#" -ne 1 ]; then
 fi
 device="$1"
 
-echo -e ${cya}"Building ${bldgrn}P ${bldppl}A ${bldblu}C ${bldylw}$PAC_VERSION"${txtrst}
+echo -e "$Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR${rst} ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
 
 if [ "$opt_chromium" -eq 1 ]; then
     rm -rf prebuilts/chromium/$device
     echo -e ""
-    echo -e ${bldblu}"Prebuilt Chromium for $device removed"${txtrst}
+    echo -e "${blu}Prebuilt Chromium for $device removed${rst}"
 elif [ "$opt_chromium" -eq 2 ]; then
     unset USE_PREBUILT_CHROMIUM
     echo -e ""
-    echo -e ${bldblu}"Prebuilt Chromium will not be used"${txtrst}
+    echo -e "${blu}Prebuilt Chromium will not be used${rst}"
 fi
 
 # PAC device dependencies
 echo -e ""
-echo -e ${bldblu}"Looking for PAC product dependencies${txtrst}"${cya}
+echo -e "${blu}Looking for PAC product dependencies${rst}${cya}"
 if [ "$opt_kr" -ne 0 ]; then
     vendor/pac/tools/getdependencies.py "$device" "$opt_kr"
 else
     vendor/pac/tools/getdependencies.py "$device"
 fi
-echo -e "${txtrst}"
+echo -e "${rst}"
 
 if [ "$opt_clean" -eq 1 ]; then
     make clean >/dev/null
-    echo -e ${bldblu}"Out is clean"${txtrst}
+    echo -e "${blu}Out is clean${rst}"
     echo -e ""
 elif [ "$opt_clean" -eq 2 ]; then
     . build/envsetup.sh && lunch "pac_$device-userdebug";
     make installclean >/dev/null
-    echo -e ${bldblu}"Out is dirty"${txtrst}
+    echo -e "${blu}Out is dirty${rst}"
     echo -e ""
 fi
 
 # TWRP Recovery
 if [ "$opt_twrp" -eq 1 ]; then
-    echo -e ${bldblu}"TWRP Recovery will be built"${txtrst}
+    echo -e "${blu}TWRP Recovery will be built${rst}"
     export RECOVERY_VARIANT=twrp
     echo -e ""
 else
@@ -187,7 +187,7 @@ fi
 
 # Disable ADB authentication and set root access to Apps and ADB
 if [ "$opt_adb" -ne 0 ]; then
-    echo -e ${bldblu}"Disabling ADB authentication and setting root access to Apps and ADB"${txtrst}
+    echo -e "${blu}Disabling ADB authentication and setting root access to Apps and ADB${rst}"
     export DISABLE_ADB_AUTH=true
     echo -e ""
 else
@@ -196,7 +196,7 @@ fi
 
 # Reset source tree
 if [ "$opt_reset" -ne 0 ]; then
-    echo -e ${bldblu}"Resetting source tree and removing all uncommitted changes"${txtrst}
+    echo -e "${blu}Resetting source tree and removing all uncommitted changes${rst}"
     repo forall -c "git reset --hard HEAD; git clean -qf"
     echo -e ""
 fi
@@ -204,17 +204,17 @@ fi
 # Repo sync/snapshot
 if [ "$opt_sync" -eq 1 ]; then
     # Sync with latest sources
-    echo -e ${bldblu}"Fetching latest sources"${txtrst}
+    echo -e "${blu}Fetching latest sources${rst}"
     repo sync -j"$opt_jobs"
     echo -e ""
 elif [ "$opt_sync" -eq 2 ]; then
     # Take snapshot of current sources
-    echo -e ${bldblu}"Making a snapshot of the repo"${txtrst}
+    echo -e "${blu}Making a snapshot of the repo${rst}"
     repo manifest -o snapshot-$device.xml -r
     echo -e ""
 elif [ "$opt_sync" -eq 3 ]; then
     # Restore snapshot tree, then sync with latest sources
-    echo -e ${bldblu}"Restoring last snapshot of sources"${txtrst}
+    echo -e "${blu}Restoring last snapshot of sources${rst}"
     echo -e ""
     cp snapshot-$device.xml .repo/manifests/
 
@@ -224,7 +224,7 @@ elif [ "$opt_sync" -eq 3 ]; then
 
     cd $DIR
     repo init -m snapshot-$device.xml
-    echo -e ${bldblu}"Fetching snapshot sources"${txtrst}
+    echo -e "${blu}Fetching snapshot sources${rst}"
     repo sync -d -j"$opt_jobs"
     cd .repo/local_manifests
       for file in *.xmlback ; do mv $file `echo $file | sed 's/\(.*\.\)xmlback/\1xml/'` ; done
@@ -241,11 +241,8 @@ if [ "$opt_fetch" -ne 0 ]; then
     ./vendor/pac/tools/extras.sh $device
 fi
 
-# Get time of startup
-t1=$($DATE +%s)
-
 # Setup environment
-echo -e ${bldblu}"Setting up environment"${txtrst}
+echo -e "${blu}Setting up environment${rst}"
 . build/envsetup.sh
 
 # Remove system folder (This will create a new build.prop with updated build time and date)
@@ -253,7 +250,7 @@ rm -f $OUTDIR/target/product/$device/system/build.prop
 
 # Lunch device
 echo -e ""
-echo -e ${bldblu}"Lunching device"${txtrst}
+echo -e "${blu}Lunching device${rst}"
 lunch "pac_$device-userdebug";
 
 # Start compilation
@@ -264,15 +261,15 @@ else
 fi
 
 if [ "$opt_only" -eq 1 ]; then
-    echo -e ${bldblu}"Starting compilation: ${cya}Only will be built Boot Image"${txtrst}
+    echo -e "${blu}Starting compilation: ${cya}Only will be built Boot Image${rst}"
     echo -e ""
     make -j"$opt_jobs" bootimage
 elif [ "$opt_only" -eq 2 ]; then
-    echo -e ${bldblu}"Starting compilation: ${cya}Only will be built Recovery Image"${txtrst}
+    echo -e "${blu}Starting compilation: ${cya}Only will be built Recovery Image${rst}"
     echo -e ""
     make -j"$opt_jobs" recoveryimage
 else
-    echo -e ${bldblu}"Starting compilation"${txtrst}
+    echo -e "${blu}Starting compilation${rst}"
     echo -e ""
     if [ "$opt_extra" -eq 1 ]; then
         make -j"$opt_jobs" showcommands bacon
@@ -282,16 +279,7 @@ else
         make -j"$opt_jobs" bacon
     fi
 fi
-echo -e ""
 
 # Cleanup unused built
 rm -f $OUTDIR/target/product/$device/cm-*.*
 rm -f $OUTDIR/target/product/$device/pac_*-ota*.zip
-
-# Finished! Get elapsed time
-t2=$($DATE +%s)
-
-tmin=$(( (t2-t1)/60 ))
-tsec=$(( (t2-t1)%60 ))
-
-echo -e ${bldgrn}"Total time elapsed:${txtrst} ${grn}$tmin minutes $tsec seconds"${txtrst}
