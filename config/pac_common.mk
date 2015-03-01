@@ -16,14 +16,6 @@ PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTA
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
-# Init script file with pac extras
-PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/etc/init.local.rc:root/init.pac.rc
-
-# SELinux
-BOARD_SEPOLICY_IGNORE += vendor/cm/sepolicy/file_contexts
-BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy
-BOARD_SEPOLICY_UNION += file_contexts
-
 # PAC version
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
