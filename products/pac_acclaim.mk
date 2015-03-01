@@ -5,7 +5,6 @@ ifeq (pac_acclaim,$(TARGET_PRODUCT))
 PAC_BOOTANIMATION_NAME := 960
 
 # Include PAC common configuration
-PRODUCT_NAME := pac_acclaim
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration

@@ -8,7 +8,6 @@ PAC_BOOTANIMATION_NAME := 720
 PAC_USE_ADDREMOVE := true
 
 # Include PAC common configuration
-PRODUCT_NAME := pac_armani
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
