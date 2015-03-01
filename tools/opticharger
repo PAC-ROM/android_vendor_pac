@@ -36,14 +36,14 @@ then
     APKCERTS=$OUT/obj/PACKAGING/target_files_intermediates/$TARGET_PRODUCT-target_files-$TARGET_BUILD_VARIANT.$USER/META/apkcerts.txt
     if [ ! -f "$APKCERTS" ];
     then
-        echo -e ${red}"Set APKCERTS to the path to your apkcerts.txt file"${txtrst}
+        echo -e "${bldred}Set APKCERTS to the path to your apkcerts.txt file${rst}"
         exit 1;
     fi
 fi
 
 if [ ! -f "$APKCERTS" ];
 then
-    echo -e ${red}"Invalid path to apkcerts.txt, set APKCERTS to the correct path."${txtrst}
+    echo -e "${bldred}Invalid path to apkcerts.txt, set APKCERTS to the correct path.${rst}"
 fi
 
 if [ "$(which pngquant)" != "" ];
@@ -73,26 +73,26 @@ then
         pngout $1
     }
 else
-    echo -e ${red}"Please install pngquant, pngcrush, optipng, or pngout"${txtrst}
+    echo -e "${bldred}Please install pngquant, pngcrush, optipng, or pngout${rst}"
     exit 1;
 fi
 
 if [ "`which aapt`" = "" ];
 then
-    echo -e ${red}"Please ensure aapt is in your \$PATH"${txtrst}
+    echo -e "${bldred}Please ensure aapt is in your \$PATH${rst}"
     exit 1;
 fi
 
 if [ "`which zipalign`" = "" ];
 then
-    echo -e ${red}"Please ensure zipalign is in your \$PATH"${txtrst}
+    echo -e "${bldred}Please ensure zipalign is in your \$PATH${rst}"
     exit 1;
 fi
 
 if [ -e "$1" ];
 then
     NAME=`basename $1`;
-    echo -e ${bldgrn}"Optimizing:${txtrst} $NAME...";
+    echo -e "${bldgrn}Optimizing:${rst} $NAME...";
 
     if [ "$2" != "" ];
     then
@@ -105,7 +105,7 @@ then
         KEY="$CERT_PATH"/$2.pk8
         if [ ! -f "$ANDROID_BUILD_TOP/$CERT" ];
         then
-            echo -e ${red}"$CERT does not exist!"${txtrst};
+            echo -e "${bldred}$CERT does not exist!${rst}";
             exit 1;
         fi
     else
@@ -113,24 +113,24 @@ then
         [ $QUIET ] || echo -e "APKINFO: $APKINFO";
         if [ "$APKINFO" = "" ];
         then
-            echo -e ${red}"No apk info for $NAME"${txtrst};
+            echo -e "${bldred}No apk info for $NAME${rst}";
             exit 1;
         fi
         CERT=`echo -e $APKINFO | awk {'print $2'} | cut -f 2 -d "=" | tr -d "\""`;
         KEY=`echo -e $APKINFO | awk {'print $3'} | cut -f 2 -d "=" | tr -d "\""`;
         if [ "$CERT" = "" ];
         then
-            echo -e ${red}"Unable to find certificate for $NAME"${txtrst}
+            echo -e "${bldred}Unable to find certificate for $NAME${rst}"
             exit 1;
         fi
         if [ "$CERT" = "PRESIGNED" ];
         then
-            echo -e ${cya}"$NAME is presigned, skipping"${txtrst}
+            echo -e "${cya}$NAME is presigned, skipping${rst}"
             exit 1;
         fi
     fi
 
-    [ $QUIET ] || echo -e ${bldylw}"Certificate:${txtrst} $CERT";
+    [ $QUIET ] || echo -e "${bldylw}Certificate:${rst} $CERT";
 
     [ -d $TMPDIR/$NAME ] && rm -rf $TMPDIR/$NAME
     mkdir -p $TMPDIR/$NAME
@@ -139,19 +139,19 @@ then
     unzip -q $BASE/$1
     for x in `find . -name "*.png" | grep -v "\.9.png$" | tr "\n" " "`
     do
-        [ $QUIET ] || echo -e ${bldgrn}"Crushing${txtrst} $x"
+        [ $QUIET ] || echo -e "${bldgrn}Crushing${rst} $x"
         optimize_png $x
     done
     cp $BASE/$1 $BASE/$1.old
 
-    [ $QUIET ] || echo -e ${bldgrn}"Repacking apk.."${txtrst}
+    [ $QUIET ] || echo -e "${bldgrn}Repacking apk..${rst}"
     aapt p -0 .dat -0 .dict -0 .arsc -F $NAME .
 
-    [ $QUIET ] || echo -e ${bldgrn}"Resigning with cert:${txtrst} `echo -e $CERT`"
+    [ $QUIET ] || echo -e "${bldgrn}Resigning with cert:${rst} `echo -e $CERT`"
 
     [ $QUIET ] || echo java -jar $ANDROID_HOST_OUT/framework/signapk.jar $ANDROID_BUILD_TOP/$CERT $ANDROID_BUILD_TOP/$KEY $NAME signed_$NAME
     java -jar $ANDROID_HOST_OUT/framework/signapk.jar $ANDROID_BUILD_TOP/$CERT $ANDROID_BUILD_TOP/$KEY $NAME signed_$NAME
-    [ $QUIET ] || echo -e ${bldgrn}"Zipalign.."${txtrst}
+    [ $QUIET ] || echo -e "${bldgrn}Zipalign..${rst}"
     zipalign -f 4 signed_$NAME $BASE/$1
     if [ ! $QUIET ]; then
         ls -l $BASE/$1.old
