@@ -110,6 +110,12 @@ case $device in
         cherries+=(79136_CM)
         # arm: Allow disabling PIE for dynamically linked executables
         cherries+=(81758_CM)
+        # libstagefright: Allow using camera recording buffer as input for encoder
+        cherries+=(84178_CM)
+        # libstagefright: Fix video encoder input buffer
+        cherries+=(84179_CM)
+        # vold: add ro.vold.umsdirtyratio property
+        cherries+=(88635_CM)
     ;;
     condor)
         # display patch
