@@ -20,6 +20,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 PAC_BUILD_VERSION := pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
+PRODUCT_NAME := $(TARGET_PRODUCT)
 
 # Set the board version
 CM_BUILD := $(BOARD)
@@ -30,11 +31,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.name=PAC-man \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
-
-# Device Overlays
-ifeq ($(PAC_USE_OVERLAYS),true)
-    PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/device/$(TARGET_DEVICE)
-endif
 
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
