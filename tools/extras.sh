@@ -116,6 +116,8 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
+ 	#Revert blkid changes
+	cherries+=(90225_CM)
     ;;
     condor)
         # display patch
