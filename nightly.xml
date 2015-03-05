@@ -49,7 +49,7 @@
   <!-- <device name="pyramid"/> -->
   <!-- <device name="shamu"/> -->
   <!-- <device name="spyder"/> -->
-  <!-- <device name="titan"/>-->
+  <device name="titan"/>
   <!-- <device name="v500"/> -->
   <!-- <device name="wx_na_do"/> -->
 </manifest>
