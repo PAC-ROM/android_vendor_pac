@@ -172,14 +172,22 @@ case $device in
         PATCH=tenderloin_13-11-25_btservice-AdaperState-handle-ENABLED_READY
         FOLDER=packages/apps/Bluetooth
         patch_it #add this function call for each patch
-        # Only-read-next-buffer-if-current-buffer-is-not-empty
-        PATCH=tenderloin_Only-read-next-buffer-if-current-buffer-is-not-empty
-        FOLDER=external/stagefright-plugins
-        patch_it #add this function call for each patch
         # Skip-PrepareforAdaptivePlayback-check
         PATCH=tenderloin_Skip-PrepareforAdaptivePlayback-check
         FOLDER=hardware/qcom/media-caf
         patch_it #add this function call for each patch
+        # tenderloin_allow devices to specify driver delay
+        PATCH=tenderloin_allow devices to specify driver delay
+        FOLDER=hardware/libhardware_legacy
+        patch_it #add this function call for each patch
+       #invensense: allow other devices to build a specific sensor
+        cherries+=(82223_CM)
+        #sepolicy: add a domain for lvm
+        cherries+=(82660_CM)
+        #art: allow devices to opt out of GAP check
+        cherries+=(82661_CM)
+        #libart: Allow adjustment of the base address
+        cherries+=(82668_CM)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
