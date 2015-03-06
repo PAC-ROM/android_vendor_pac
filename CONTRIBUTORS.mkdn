@@ -107,8 +107,8 @@ Amazon:
 ASUS:
 ---------------------------------------------------------------------
 * __Nexus 7 (grouper) :__ iurnait
-* __Nexus 7 (2013) (flo) :__ zaclimon
-* __Nexus 7 LTE (2013) (deb) :__ zaclimon
+* __Nexus 7 (2013) (flo) :__ skiwong20
+* __Nexus 7 LTE (2013) (deb) :__ skiwong20
 * __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
@@ -168,20 +168,22 @@ LG:
 
 Motorola:
 ---------------------------------------------------------------------
-* __Droid Maxx (Verizon-Developer Edition) (ghost) :__ Skiwong20, timpohladthomas
+* __Droid Mini (Verizon/GSM) :__ Skiwong20
+* __Droid Maxx (Verizon-Developer Edition) (obake) :__ Skiwong20
 * __Droid Razr (GSM) (umts_spyder) :__ Skiwong20
 * __Droid Razr (Verizon) (spyder) :__ Skiwong20
 * __Droid Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
+* __Droid Ultra (Verizon/GSM) (obake) :__ Skiwong20
 * __Moto E (Global GSM) (condor) :__ ashwin007
 * __Moto E (Retail US GSM) (condor) :__ ashwin007
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
 * __Moto G 2014 (titan) :__ LuK1337
-* __Moto X (GSM) (ghost) :__ Skiwong20, timpohladthomas
-* __Moto X (Sprint) (ghost) :__ Skiwong20, timpohladthomas
-* __Moto X (T-Mobile) (ghost) :__ Skiwong20, timpohladthomas
-* __Moto X (US Cellular) (ghost) :__ Skiwong20, timpohladthomas
-* __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20, timpohladthomas
+* __Moto X (GSM) (ghost) :__ Skiwong20
+* __Moto X (Sprint) (ghost) :__ Skiwong20
+* __Moto X (T-Mobile) (ghost) :__ Skiwong20
+* __Moto X (US Cellular) (ghost) :__ Skiwong20
+* __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20
 * __Nexus 6 (shamu) :__ Skiwong20, zyonee, Owain94
 * __Photon Q 4G LTE (moto_msm8960) :__ arrrghhh
 
@@ -254,8 +256,8 @@ Sony:
 ---------------------------------------------------------------------
 * __Xperia L (taoshan) :__ OPEN
 * __Xperia SP (huashan) :__ neXusPRIME
-* __Xperia Tablet Z LTE (pollux) :__ skiwong20, bluefa1con
-* __Xperia Tablet Z (pollux_windy) :__ skiwong20, bluefa1con
+* __Xperia Tablet Z LTE (pollux) :__ skiwong20
+* __Xperia Tablet Z (pollux_windy) :__ skiwong20
 * __Xperia Z (yuga) :__ jeroenqui, pvyParts
 * __Xperia Z1 (honami) :__ jeroenqui, Langes
 * __Xperia Z1 Compact (amami) :__ oshmoun
@@ -281,7 +283,7 @@ Xiaomi:
 
 
 
-Total Devices: 127
+Total Devices: 129
 
 Best regards
     szl.kiev
