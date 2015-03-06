@@ -98,7 +98,6 @@
 <a href="http://forum.pac-rom.com/thread-561.html">Galaxy Player 4.0:          ypg1           goldflame09, iurnait, zaclimon</a>
 <a href="http://forum.pac-rom.com/thread-523.html">Galaxy Player 5.0:          venturi        iurnait</a>
 <a href="http://forum.pac-rom.com/thread-1271.html">Galaxy S I:                galaxysmtd     Volle</a>
-<a href="http://forum.pac-rom.com/thread-598.html">Galaxy S I Captivate:       captivatemtd   Nick0703</a>
 <a href="http://forum.pac-rom.com/thread-1362.html">Galaxy S I Plus:           ariesve        K_TECH</a>
 <a href="http://forum.pac-rom.com/thread-632.html">Galaxy S II:                i9100          bluefa1con</a>
 <a href="http://forum.pac-rom.com/thread-564.html">Galaxy S II (AT&T):         skyrocket      TheCybertronian</a>

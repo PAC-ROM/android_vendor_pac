@@ -220,7 +220,6 @@ Samsung:
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
 * __Galaxy Player 5.0 (venturi) :__ iurnait
 * __Galaxy S I (galaxysmtd) :__ Volle
-* __Galaxy S I Captivate (captivatemtd) :__ Nick0703
 * __Galaxy S I Plus (ariesve) :__ K_TECH
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (AT&T) (skyrocket) :__ TheCybertronian
@@ -282,7 +281,7 @@ Xiaomi:
 
 
 
-Total Devices: 128
+Total Devices: 127
 
 Best regards
     szl.kiev
