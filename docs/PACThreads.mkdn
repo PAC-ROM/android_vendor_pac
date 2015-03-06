@@ -62,6 +62,7 @@
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus L7:                 p705           coderzs</a>
 <br>
 <h3>Motorola</h3>
+<a href="http://forum.pac-rom.com/thread-1378.html">Driod maxx/ultra/mini:     obake          skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1038.html">Droid Razr (GSM):          umtsspyder     skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1038.html">Droid Razr (Verizon):      spyder         skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Droid Razr M (Verizon):     moto_msm8960   timpohladthomas</a>
