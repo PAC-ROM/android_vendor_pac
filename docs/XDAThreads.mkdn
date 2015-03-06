@@ -21,7 +21,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2883064">Nook HD+:                   ovation        iPzard</a>
 <br>
 <h3>HP</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=2779954">Touchpad:                   tenderloin     shumash</a>
+<a href="http://http://forum.xda-developers.com/hp-touchpad/development/rom-pac-rom-lp-beta-1-t3056454">Touchpad:                   tenderloin     shumash</a>
 <br>
 <h3>HTC</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669292">Amaze 4G:                   ruby           josegalre</a>
