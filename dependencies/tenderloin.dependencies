@@ -4,21 +4,42 @@
     "account":      "shumashv1",
     "repository":   "android_kernel_hp_tenderloin",
     "target_path":  "kernel/hp/tenderloin",
-    "revision":     "cm-11.0"
+    "revision":     "pac-5.0"
  },
  {
     "remote":       "github",
     "account":      "shumashv1",
     "repository":   "android_device_hp_tenderloin",
     "target_path":  "device/hp/tenderloin",
-    "revision":     "cm-11.0"
+    "revision":     "pac-5.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "milaq",
+    "repository":   "android_hardware_atheros_wlan",
+    "target_path":  "hardware/atheros/wlan",
+    "revision":     "cm-12.0"
  },
  {
     "remote":       "github",
     "account":      "CyanogenMod",
-    "repository":   "android_hardware_atheros_wlan",
-    "target_path":  "hardware/atheros/wlan",
-    "revision":     "cm-11.0"
+    "repository":   "android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "cm-12.0"
+ },
+ {
+    "remote":       "github",
+    "account":      "milaq",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display-caf/msm8660",
+    "revision":     "cm-12.0-caf-8660"
+ },
+ {
+    "remote":       "github",
+    "account":      "milaq",
+    "repository":   "android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media-caf/msm8660",
+    "revision":     "cm-12.0-caf-8660"
  },
  {
     "remote":       "github",
@@ -28,10 +49,17 @@
     "revision":     "3.10-2"
  },
  {
+    "remote":       "aosp",
+    "account":      "platform",
+    "repository":   "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
+    "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
+    "revision":     "master"
+ },
+ {
     "remote":       "github",
     "account":      "Pinky-Inky-and-Clyde",
     "repository":   "proprietary_vendor_hp",
     "target_path":  "vendor/hp",
-    "revision":     "cm-11.0"
+    "revision":     "cm-12.0"
  }
 ]
