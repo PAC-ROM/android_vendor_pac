@@ -8,7 +8,7 @@
   {
     "account":      "Split-Screen",
     "repository":   "android_device_samsung_hltetmo",
-    "target_path":  "device/samsung/hlte",
+    "target_path":  "device/samsung/hltetmo",
     "revision":     "pac-5.0"
   },
   {
