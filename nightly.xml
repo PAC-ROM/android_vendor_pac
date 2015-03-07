@@ -49,9 +49,9 @@
   <!-- <device name="mako"/> -->
   <!-- <device name="moto_msm8960"/> -->
   <!-- <device name="moto_msm8960_jbbl"/> -->
-  <device name="n5100"/>
+  <!-- <device name="n5100"/> -->
   <device name="n5110"/>
-  <device name="n5120"/>
+  <!-- <device name="n5120"/> -->
   <device name="serrano3gxx"/>
   <device name="serranodsdd"/>
   <device name="serranoltexx"/>
