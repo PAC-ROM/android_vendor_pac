@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_jflte,$(TARGET_PRODUCT))
+ifeq (pac_jflteatt,$(TARGET_PRODUCT))
 
 # Bootanimation
 PAC_BOOTANIMATION_NAME := 1080
@@ -8,6 +8,6 @@ PAC_BOOTANIMATION_NAME := 1080
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/samsung/jflte/cm.mk)
+$(call inherit-product, device/samsung/jflteatt/cm.mk)
 
 endif
