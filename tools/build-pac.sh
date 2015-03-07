@@ -2,7 +2,7 @@
 
 # PAC version
 export PAC_VERSION_MAJOR="LP"
-export PAC_VERSION_MINOR="Alpha-1"
+export PAC_VERSION_MINOR="Beta-1"
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
