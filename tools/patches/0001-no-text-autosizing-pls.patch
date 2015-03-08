@@ -1,0 +1,36 @@
+From 567a8f3835c52dcfcdfb4be4e0502bea58a255ae Mon Sep 17 00:00:00 2001
+From: Daz Jones <yuki@thebronasium.com>
+Date: Wed, 12 Feb 2014 15:54:15 +0100
+Subject: [PATCH] Revert "Replace removed NARROW_COLUMNS layout mode with
+ TEXT_AUTOSIZING"
+
+This reverts commit a31cfea37c3892f68807d2df52c9d482e9e1f8f6.
+---
+ src/com/android/browser/BrowserSettings.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/com/android/browser/BrowserSettings.java b/src/com/android/browser/BrowserSettings.java
+index 8865f32..69d51a4 100644
+--- a/src/com/android/browser/BrowserSettings.java
++++ b/src/com/android/browser/BrowserSettings.java
+@@ -358,7 +358,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
+     public LayoutAlgorithm getLayoutAlgorithm() {
+         LayoutAlgorithm layoutAlgorithm = LayoutAlgorithm.NORMAL;
+         if (autofitPages()) {
+-            layoutAlgorithm = LayoutAlgorithm.TEXT_AUTOSIZING;
++            layoutAlgorithm = LayoutAlgorithm.NARROW_COLUMNS;
+         }
+         if (isDebugEnabled()) {
+             if (isSmallScreen()) {
+@@ -367,7 +367,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
+                 if (isNormalLayout()) {
+                     layoutAlgorithm = LayoutAlgorithm.NORMAL;
+                 } else {
+-                    layoutAlgorithm = LayoutAlgorithm.TEXT_AUTOSIZING;
++                    layoutAlgorithm = LayoutAlgorithm.NARROW_COLUMNS;
+                 }
+             }
+         }
+-- 
+1.8.1.2
+
