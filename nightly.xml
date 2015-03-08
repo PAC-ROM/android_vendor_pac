@@ -29,8 +29,8 @@
   <device name="grouper"/>
   <device name="hammerhead"/>
   <device name="hlte"/>
-  <!-- <device name="hltespr"/> -->
-  <!-- <device name="hltetmo"/> -->
+  <device name="hltespr"/>
+  <device name="hltetmo"/>
   <device name="honami"/>
   <!-- <device name="i9100"/> -->
   <!-- <device name="i9500"/> -->
