@@ -1,6 +1,18 @@
 [
     {
-        "name":     "android_hardware_qcom_display-caf",
-        "path":     "hardware/qcom/display-caf"
+        "name": "android_hardware_qcom_display-caf",
+        "path": "hardware/qcom/display-caf"
+    },
+    {
+        "name": "android_external_chromium",
+        "path": "external/chromium"
+    },
+    {
+        "name": "android_packages_apps_Browser",
+        "path": "packages/apps/Browser"
+    },
+    {
+        "name": "android_frameworks_webview",
+        "path": "frameworks/webview"
     }
 ]

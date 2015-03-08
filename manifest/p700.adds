@@ -1,9 +1,30 @@
 [
-    {
-        "remote":       "github",
-        "account":      "TeamHackLG",
-        "repository":   "android_hardware_qcom_display-caf",
-        "target_path":  "hardware/qcom/display-caf",
-        "revision":     "cm-11.0"
-    }
+  {
+    "remote":       "github",
+    "account":      "TeamHackLG",
+    "repository":   "android_hardware_qcom_display-caf",
+    "target_path":  "hardware/qcom/display-caf",
+    "revision":     "cm-11.0-old2"
+  },
+  {
+    "remote": "androidarmv6",
+    "revision": "cm-11.0",
+    "repository": "android_external_chromium",
+    "target_path": "external/chromium"
+  },
+  { "remote": "androidarmv6",
+    "revision": "cm-11.0",
+    "repository": "android_external_webkit",
+    "target_path": "external/webkit"
+  },
+  { "remote": "androidarmv6",
+    "revision": "cm-11.0",
+    "repository": "android_packages_apps_Browser",
+    "target_path": "packages/apps/Browser"
+  },
+  { "remote": "androidarmv6",
+    "revision": "cm-11.0",
+    "repository": "android_frameworks_webview",
+    "target_path": "frameworks/webview"
+  }
 ]

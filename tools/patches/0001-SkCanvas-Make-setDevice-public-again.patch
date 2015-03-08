@@ -1,0 +1,52 @@
+From 18f00da64cb81bd5c4574c34e1f8d0dafb25f57c Mon Sep 17 00:00:00 2001
+From: WinSuk <winsuk@winsuk.net>
+Date: Sat, 7 Jun 2014 00:04:35 -0700
+Subject: [PATCH] SkCanvas: Make setDevice public again
+
+Needed to build external/webkit
+
+Change-Id: Ia7c8b4d53f19a0a7bb536f241472ce824a1eeb77
+---
+ include/core/SkCanvas.h | 20 +++++++++-----------
+ 1 file changed, 9 insertions(+), 11 deletions(-)
+
+diff --git a/include/core/SkCanvas.h b/include/core/SkCanvas.h
+index 5a5cc65..069b95a 100644
+--- a/include/core/SkCanvas.h
++++ b/include/core/SkCanvas.h
+@@ -1007,6 +1007,15 @@ public:
+         bool              fDone;
+     };
+
++    /**
++     DEPRECATED -- need to remove when subclass stop relying on it.
++
++     Specify a device for this canvas to draw into. If it is not null, its
++     reference count is incremented. If the canvas was already holding a
++     device, its reference count is decremented. The new device is returned.
++     */
++    virtual SkBaseDevice* setDevice(SkBaseDevice* device);
++
+ protected:
+     // Returns the canvas to be used by DrawIter. Default implementation
+     // returns this. Subclasses that encapsulate an indirect canvas may
+@@ -1028,17 +1037,6 @@ protected:
+     // can perform copy-on-write or invalidate any cached images
+     void predrawNotify();
+
+-    /**
+-     DEPRECATED -- need to remove when subclass stop relying on it.
+-     Marked as 'protected' to avoid new clients using this before we can
+-     completely remove it.
+-
+-     Specify a device for this canvas to draw into. If it is not null, its
+-     reference count is incremented. If the canvas was already holding a
+-     device, its reference count is decremented. The new device is returned.
+-     */
+-    virtual SkBaseDevice* setDevice(SkBaseDevice* device);
+-
+ private:
+     class MCRec;
+
+--
+1.9.1

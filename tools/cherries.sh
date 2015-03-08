@@ -137,6 +137,40 @@ case $device in
         FOLDER=external/chromium_org
         patch_it true
     ;;
+    e610)
+        # pach skia
+        PATCH=0001-SkCanvas-Make-setDevice-public-again
+        FOLDER=external/skia
+        patch_it true
+        # pach fv/base
+        PATCH=0001-allow-using-classic-webview
+        FOLDER=frameworks/base
+        patch_it true
+        # pach fv/base
+        PATCH=0002-WebViewClassic-Add-freeMemoryForTests
+        FOLDER=frameworks/base
+        patch_it true
+        # pach browser
+        PATCH=0001-no-text-autosizing-pls
+        FOLDER=packages/apps/Browser
+        patch_it true
+    p700)
+        # pach skia
+        PATCH=0001-SkCanvas-Make-setDevice-public-again
+        FOLDER=external/skia
+        patch_it true
+        # pach fv/base
+        PATCH=0001-allow-using-classic-webview
+        FOLDER=frameworks/base
+        patch_it true
+        # pach fv/base
+        PATCH=0002-WebViewClassic-Add-freeMemoryForTests
+        FOLDER=frameworks/base
+        patch_it true
+        # pach browser
+        PATCH=0001-no-text-autosizing-pls
+        FOLDER=packages/apps/Browser
+        patch_it true
     p705)
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
         #cherries+=(1343_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
