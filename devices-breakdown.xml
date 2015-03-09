@@ -57,13 +57,14 @@
         <device FullName="Optimus L7" CodeName="p705"/>
     </vendor>
     <vendor Name="Motorola">
-        <device FullName="Droid Maxx (Verizon-Developer Edition), Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
+        <device FullName="Droid Maxx (GSM,Verizon), Droid Ultra (GSM,Verizon), Droid Mini (GSM,Verizon)" CodeName="obake"/>
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Droid Razr M (Verizon), Photon Q 4G LTE" CodeName="moto_msm8960"/>
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto G 2014" CodeName="titan"/>
+        <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
     <vendor Name="Nvidia">
