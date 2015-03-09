@@ -126,7 +126,7 @@
 <a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (DUOS):   serranodsdd    lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1249.html">Galaxy S IV mini (lte):    serranoltexx   lsdty</a>
 <a href="http://forum.pac-rom.com/thread-1361.html">Galaxy W:                  ancora         K_TECH</a>
-<a href="http://forum.pac-rom.com/thread-1272.html">Nexus 10:                  manta          Volle</a>
+<a href="http://forum.pac-rom.com/thread-1379.html">Nexus 10:                  manta          Volle</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        OPEN</a>
