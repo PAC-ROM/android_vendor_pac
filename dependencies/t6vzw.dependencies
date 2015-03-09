@@ -38,6 +38,6 @@
         "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
-        "revision":     "pac-5.0"
+        "revision":     "cm-12.0"
     }
 ]
