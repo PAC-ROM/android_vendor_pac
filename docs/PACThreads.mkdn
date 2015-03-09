@@ -11,8 +11,8 @@
 <br>
 <h3>Asus</h3>
 <a href="http://forum.pac-rom.com/thread-579.html">Nexus 7:                    grouper        iurnait</a>
-<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            zaclimon, goldflame09</a>
-<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            zaclimon, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-638.html">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.pac-rom.com/thread-526.html">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <br>
@@ -70,6 +70,7 @@
 <a href="http://forum.pac-rom.com/thread-1211.html">Moto E:                    condor         ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-536.html">Moto G:                     falcon         Wechy77</a>
 <a href="http://forum.pac-rom.com/thread-1366.html">Moto G 2014:               titan          LuK1337</a>
+<a href="http://forum.pac-rom.com/thread-1373.html">Nexus 6                    shamu          skiwong20, zyonee</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>
 <h3>Nvidia</h3>
@@ -131,8 +132,8 @@
 <h3>Sony</h3>
 <a href="http://forum.pac-rom.com/thread-900.html">Xperia L:                   taoshan        OPEN</a>
 <a href="http://forum.pac-rom.com/thread-1116.html">Xperia SP:                 huashan        neXusPRIME</a>
-<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z:           pollux_windy   skiwong20, bluefa1con</a>
-<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z LTE:       pollux         skiwong20, bluefa1con</a>
+<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z:           pollux_windy   skiwong20</a>
+<a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z LTE:       pollux         skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
 <a href="http://forum.pac-rom.com/thread-1067.html">Xperia Z1:                 honami         jeroenqui, Langes</a>
 <a href="http://forum.pac-rom.com/thread-968.html">Xperia Z1 Compact:          amami          oshmoun</a>
