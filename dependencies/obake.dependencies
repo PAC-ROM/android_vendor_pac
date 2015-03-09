@@ -3,7 +3,7 @@
         "remote": "github",
         "account": "Split-Screen",
         "repository": "android_device_motorola_obake",
-        "target_path": "device/motorola/ghost",
+        "target_path": "device/motorola/obake",
         "revision": "pac-5.0"
     },
     {
