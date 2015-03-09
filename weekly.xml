@@ -62,9 +62,9 @@
   <!-- <device name="t0lte" hasextras="0" /> -->
   <!-- <device name="t0lteatt" hasextras="0" /> -->
   <!-- <device name="t0ltetmo" hasextras="0" /> -->
-  <!-- <device name="t6" hasextras="0"/> -->
-  <!-- <device name="t6spr" hasextras="0"/> -->
-  <!-- <device name="t6vzw" hasextras="0"/> -->
+  <device name="t6" hasextras="0"/>
+  <device name="t6spr" hasextras="0"/>
+  <device name="t6vzw" hasextras="0"/>
   <!-- <device name="tenderloin" hasextras="1"/> -->
   <!-- <device name="tf300t"hasextras="0" /> -->
   <!-- <device name="tf700t" hasextras="0" /> -->
