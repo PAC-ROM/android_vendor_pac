@@ -90,10 +90,9 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2667760">Galaxy Note 2 (Sprint):     l900           123SIT</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2426051">Galaxy Note 2 (T-Mobile):   t0ltetmo       123SIT</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2311152">Galaxy Note 2 (Verizon):    i605           123SIT</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2834389">Galaxy Note 3 (Intern.):    hlte           ZION959</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2834390">Galaxy Note 3 (Sprint):     hlte           ZION959</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2834376">Galaxy Note 3 (T-Mobile):   hlte           ZION959</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2834397">Galaxy Note 3 (Verizon):    hlte           ZION959</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3048388">Galaxy Note 3 (Intern.):    hlte           encho</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3048705">Galaxy Note 3 (Sprint):     hltespr        encho</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3048701">Galaxy Note 3 (T-Mobile):   hltetmo        encho</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
