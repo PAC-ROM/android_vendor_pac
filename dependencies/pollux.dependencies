@@ -27,13 +27,6 @@
     "target_path": "device/sony/pollux-common",
     "revision": "pac-5.0"
   },
-  {
-    "remote": "github",
-    "account": "Split-Screen",
-    "repository": "android_device_sony_qcom-common",
-    "target_path": "device/sony/qcom-common",
-    "revision": "pac-5.0"
- },
  {
     "remote": "github",
     "account": "Split-Screen",
