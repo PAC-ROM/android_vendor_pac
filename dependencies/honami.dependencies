@@ -36,12 +36,6 @@
     "revision":    "pac-5.0"
   },
   {
-    "account":     "Split-Screen",
-    "repository":  "android_device_sony_qcom-common",
-    "target_path": "device/sony/qcom-common",
-    "revision":    "pac-5.0"
-  },
-  {
     "account":     "Pinky-Inky-and-Clyde",
     "repository":  "proprietary_vendor_sony",
     "target_path": "vendor/sony",
