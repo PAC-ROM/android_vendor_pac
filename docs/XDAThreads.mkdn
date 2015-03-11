@@ -93,6 +93,8 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=3048388">Galaxy Note 3 (Intern.):    hlte           encho</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048705">Galaxy Note 3 (Sprint):     hltespr        encho</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048701">Galaxy Note 3 (T-Mobile):   hltetmo        encho</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3051428">Galaxy Note 4 (Sprint):     trltespr       spleef</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3014758">Galaxy Note 4 (T-Mobile):   trltetmo       spleef</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2456222">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>

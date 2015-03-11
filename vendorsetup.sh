@@ -103,6 +103,8 @@ add_lunch_combo pac_skyrocket-userdebug
 add_lunch_combo pac_t0lte-userdebug
 add_lunch_combo pac_t0lteatt-userdebug
 add_lunch_combo pac_t0ltetmo-userdebug
+add_lunch_combo pac_trltespr-userdebug
+add_lunch_combo pac_trltetmo-userdebug
 add_lunch_combo pac_venturi-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
