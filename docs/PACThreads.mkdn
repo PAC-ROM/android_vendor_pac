@@ -94,6 +94,8 @@
 <a href="http://forum.pac-rom.com/thread-1363.html">Galaxy Note 3 (Intern.):   hlte           encho</a>
 <a href="http://forum.pac-rom.com/thread-1365.html">Galaxy Note 3 (Sprint):    hltespr        encho</a>
 <a href="http://forum.pac-rom.com/thread-1364.html">Galaxy Note 3 (T-Mobile):  hltetmo        encho</a>
+<a href="http://forum.pac-rom.com/thread-1384.html">Galaxy Note 4 (Sprint):  trltespr        encho</a>
+<a href="http://forum.pac-rom.com/thread-1385.html">Galaxy Note 4 (T-Mobile):  trltetmo        encho</a>
 <a href="http://forum.pac-rom.com/thread-527.html">Galaxy Note 8.0 (GSM):      N5100          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-586.html">Galaxy Note 8.0 (LTE):      N5120          ryukiri</a>
 <a href="http://forum.pac-rom.com/thread-528.html">Galaxy Note 8.0 (Wi-Fi):    N5110          ryukiri</a>
