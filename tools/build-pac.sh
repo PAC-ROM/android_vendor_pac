@@ -22,9 +22,7 @@ usage()
     echo -e ""
     echo -e "${bldwhi}  Options:${rst}"
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
-    echo -e "    -b# Prebuilt Chromium options:"
-    echo -e "        1 - Remove"
-    echo -e "        2 - No Prebuilt Chromium"
+    echo -e "    -b  Use Prebuilt Chromium"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
@@ -105,7 +103,6 @@ else
     DATE=date
 fi
 
-export USE_PREBUILT_CHROMIUM=1
 export USE_CCACHE=1
 
 opt_adb=0
@@ -122,10 +119,10 @@ opt_reset=0
 opt_sync=0
 opt_twrp=0
 
-while getopts "ab:c:e:fj:klo:prs:t" opt; do
+while getopts "abc:e:fj:klo:prs:t" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
-    b) opt_chromium="$OPTARG" ;;
+    b) opt_chromium=1 ;;
     c) opt_clean="$OPTARG" ;;
     e) opt_extra="$OPTARG" ;;
     f) opt_fetch=1 ;;
@@ -136,7 +133,7 @@ while getopts "ab:c:e:fj:klo:prs:t" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;      
+    t) opt_twrp=1 ;;
     *) usage
     esac
 done
@@ -148,14 +145,8 @@ device="$1"
 
 echo -e "$Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR${rst} ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
 
-if [ "$opt_chromium" -eq 1 ]; then
-    rm -rf prebuilts/chromium/$device
-    echo -e ""
-    echo -e "${bldcya}Prebuilt Chromium for $device removed${rst}"
-elif [ "$opt_chromium" -eq 2 ]; then
-    unset USE_PREBUILT_CHROMIUM
-    echo -e ""
-    echo -e "${bldcya}Prebuilt Chromium will not be used${rst}"
+if [ "$opt_chromium" -ne 0 ]; then
+    export USE_PREBUILT_CHROMIUM=1
 fi
 
 # PAC device dependencies
