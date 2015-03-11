@@ -16,6 +16,8 @@
 <manifest>
   <!-- Add new devices here -->
   <device name="amami"/>
+  <device name="trltespr"/>
+  <device name="trltetmo"/>
   <!-- <device name="aries"/> -->
   <device name="bacon"/>
   <!-- <device name="d2lte"/> -->
