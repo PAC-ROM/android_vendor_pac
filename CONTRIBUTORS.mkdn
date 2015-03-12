@@ -267,15 +267,15 @@ Sony:
 
 Sony Ericsson:
 ---------------------------------------------------------------------
-* __Live With Walkman (coconut) :__ Langes
-* __Xperia Active (satsuma) :__ Langes
-* __Xperia Arc (anzu) :__ Langes
-* __Xperia Mini (smultron) :__ Langes
-* __Xperia Mini Pro (mango) :__ Langes, szl.kiev
-* __Xperia Neo (hallon) :__ Langes
-* __Xperia Neo V (haida) :__ Langes
-* __Xperia Pro (iyokan) :__ Langes
-* __Xperia Ray (urushi) :__ Langes, szl.kiev
+* __Live With Walkman (coconut) :__ Langes,Druboo666
+* __Xperia Active (satsuma) :__ Langes,Druboo666
+* __Xperia Arc (anzu) :__ Langes,Druboo666
+* __Xperia Mini (smultron) :__ Langes,Druboo666
+* __Xperia Mini Pro (mango) :__ Langes, szl.kiev,Druboo666
+* __Xperia Neo (hallon) :__ Langes,Druboo666
+* __Xperia Neo V (haida) :__ Langes,Druboo666
+* __Xperia Pro (iyokan) :__ Langes,Druboo666
+* __Xperia Ray (urushi) :__ Langes, szl.kiev,Druboo666
 
 
 Xiaomi:

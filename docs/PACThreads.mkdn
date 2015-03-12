@@ -141,15 +141,15 @@
 <a href="http://forum.pac-rom.com/thread-968.html">Xperia Z1 Compact:          amami          oshmoun</a>
 <br>
 <h3>Sony Ericsson</h3>
-<a href="http://forum.pac-rom.com/thread-617.html">Live With Walkman:          coconut        Langes</a>
-<a href="http://forum.pac-rom.com/thread-622.html">Xperia Active:              satsuma        Langes</a>
-<a href="http://forum.pac-rom.com/thread-616.html">Xperia Arc:                 anzu           Langes</a>
-<a href="http://forum.pac-rom.com/thread-623.html">Xperia Mini:                smultron       Langes</a>
-<a href="http://forum.pac-rom.com/thread-621.html">Xperia Mini Pro:            mango          Langes, szl.kiev</a>
-<a href="http://forum.pac-rom.com/thread-619.html">Xperia Neo:                 hallon         Langes</a>
-<a href="http://forum.pac-rom.com/thread-618.html">Xperia Neo V:               haida          Langes</a>
-<a href="http://forum.pac-rom.com/thread-620.html">Xperia Pro:                 iyokan         Langes</a>
-<a href="http://forum.pac-rom.com/thread-624.html">Xperia Ray:                 urushi         Langes, szl.kiev</a>
+<a href="http://forum.pac-rom.com/thread-617.html">Live With Walkman:          coconut        Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-622.html">Xperia Active:              satsuma        Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-616.html">Xperia Arc:                 anzu           Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-623.html">Xperia Mini:                smultron       Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-621.html">Xperia Mini Pro:            mango          Druboo666, szl.kiev</a>
+<a href="http://forum.pac-rom.com/thread-619.html">Xperia Neo:                 hallon         Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-618.html">Xperia Neo V:               haida          Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-620.html">Xperia Pro:                 iyokan         Druboo666</a>
+<a href="http://forum.pac-rom.com/thread-624.html">Xperia Ray:                 urushi         Druboo666, Langes, szl.kiev</a>
 <br>
 <h3>Xiaomi</h3>
 <a href="http://forum.pac-rom.com/thread-934.html">Xiaomi Mi2:                 aries          m11kkaa</a>
