@@ -137,15 +137,15 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
 <br>
 <h3>Sony Ericsson</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Live With Walkman:          coconut        Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Active:              satsuma        Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc:                 anzu           Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini:                smultron       Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini Pro:            mango          Langes, szl.kiev</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo:                 hallon         Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V:               haida          Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Langes</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Langes, szl.kiev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Live With Walkman:          coconut        Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Active:              satsuma        Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc:                 anzu           Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini:                smultron       Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini Pro:            mango          Langes, szl.kiev,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo:                 hallon         Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V:               haida          Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Langes,Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Langes, szl.kiev,Druboo666</a>
 <br>
 <h3>Xiaomi</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>
