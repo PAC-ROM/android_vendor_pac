@@ -116,12 +116,6 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
-        # mount: address a couple crashes
-        cherries+=(90578_CM)
-        # Revert "msm_sdcc: SDIO related fixes"
-        cherries+=(157_LX)
-        # mmc: msm_sdcc: Fix wl12xx error "watchdog interrupt received"
-        cherries+=(158_LX)
     ;;
     condor)
         # display patch
