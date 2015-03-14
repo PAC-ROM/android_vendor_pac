@@ -4,7 +4,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2881725">Iconia A700/A701:           a700/a701      Shreps, Elibl</a>
 <br>
 <h3>Amazon</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=2407455">Kindle Fire:                otter/otterx   goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2407455">Kindle Fire:                otterx         joshuabg</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2347951">Kindle Fire 2:              otter2         goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2355103">Kindle Fire HD 7:           tate           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2356333">Kindle Fire HD 8.9:         jem            goldflame09</a>
