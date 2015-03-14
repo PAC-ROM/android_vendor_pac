@@ -1,6 +1,9 @@
 # Check for target product
 ifeq (pac_otterx,$(TARGET_PRODUCT))
 
+# Mark as low RAM device
+PAC_LOW_RAM_DEVICE := true
+
 # Bootanimation
 PAC_BOOTANIMATION_NAME := 600
 
