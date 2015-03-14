@@ -54,7 +54,6 @@
   <device name="obake"/>
   <!-- <device name="n5120"/> -->
   <device name="serrano3gxx"/>
-  <device name="serranodsdd"/>
   <device name="serranoltexx"/>
   <device name="shamu"/>
   <device name="spyder"/>
