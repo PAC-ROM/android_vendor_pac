@@ -227,6 +227,10 @@ case $device in
         PATCH=0001-initial-support-for-i9192-ril
         FOLDER=frameworks/opt/telephony
         patch_it #add this function call for each patch
+        # Add-support-for-serranodsril
+        PATCH=0001-Add-support-for-serranodsril
+        FOLDER=devide/samsung/serrano-common
+        patch_it #add this function call for each patch
         # Network-Add-netowrk-modes
         PATCH=0001-Network-Add-netowrk-modes
         FOLDER=packages/services/Telephony
