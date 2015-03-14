@@ -221,6 +221,21 @@ case $device in
         FOLDER=vendor/samsung
         patch_it #add this function call for each patch
     ;;
+    serranodsdd)
+        
+        # initial-support-for-i9192-ril
+        PATCH=0001-initial-support-for-i9192-ril
+        FOLDER=frameworks/opt/telephony
+        patch_it #add this function call for each patch
+        # Network-Add-netowrk-modes
+        PATCH=0001-Network-Add-netowrk-modes
+        FOLDER=packages/services/Telephony
+        patch_it #add this function call for each patch
+        # add-s4-mini-dual-sim-ril-blobs 
+        PATCH=0001-add-s4-mini-dual-sim-ril-blobs   
+        FOLDER=vendor/samsung/serrano-common
+        patch_it #add this function call for each patch
+    ;;
 esac
 
 if [ "$PATCH" != "" ]; then
