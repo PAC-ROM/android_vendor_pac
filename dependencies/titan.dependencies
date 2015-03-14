@@ -16,9 +16,9 @@
     {
         "remote": "github",
         "account": "Split-Screen",
-        "repository": "android_kernel_motorola_titan",
-        "target_path": "kernel/motorola/titan",
-        "revision": "pac-5.0-titan"
+        "repository": "android_kernel_motorola_msm8226",
+        "target_path": "kernel/motorola/msm8226",
+        "revision": "pac-5.0"
     },
     {
         "remote": "github",
