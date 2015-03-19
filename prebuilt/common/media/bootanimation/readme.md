@@ -20,6 +20,7 @@ With out new system you just select the screen size in accordance to this list:
     1080 --> 1080x1920
     1200 --> 1200x1920
     1280 --> 1280x800
+    1536 --> 1536x2048
     1600 --> 1600x2560
     1920 --> 1920x1200
     2560 --> 2560x1600
