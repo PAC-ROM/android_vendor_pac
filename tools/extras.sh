@@ -116,6 +116,23 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
+        cherries+=(5983_PAC)
+        cherries+=(5988_PAC)
+        cherries+=(5985_PAC)
+        cherries+=(6178_PAC)
+        cherries+=(6177_PAC)
+        cherries+=(6176_PAC)
+        cherries+=(6175_PAC)
+        cherries+=(6174_PAC)
+        cherries+=(6179_PAC)
+        cherries+=(6180_PAC)
+        cherries+=(6181_PAC)
+        cherries+=(6182_PAC)
+        cherries+=(6183_PAC)
+        cherries+=(6184_PAC)
+        cherries+=(6185_PAC)
+        cherries+=(6186_PAC)
+        cherries+=(6187_PAC)
     ;;
     condor)
         # display patch
