@@ -139,15 +139,15 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
 <br>
 <h3>Sony Ericsson</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Live With Walkman:          coconut        Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Active:              satsuma        Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc:                 anzu           Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini:                smultron       Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini Pro:            mango          Druboo666, szl.kiev</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo:                 hallon         Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V:               haida          Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Druboo666, szl.kiev, Langes</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Live With Walkman:          coconut        Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Active:              satsuma        Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Arc:                 anzu           Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Mini:                smultron       Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Mini Pro:            mango          Druboo666, szl.kiev</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Neo:                 hallon         Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Neo V:               haida          Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Pro:                 iyokan         Druboo666</a>
+<a href="http://forum.xda-developers.com/xperia-neo/neo-v-development/rom-pac-rom-lp-beta-1-t3065205">Xperia Ray:                 urushi         Druboo666, szl.kiev, Langes</a>
 <br>
 <h3>Xiaomi</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>
