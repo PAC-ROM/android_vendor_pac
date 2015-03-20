@@ -84,10 +84,14 @@ def add_to_manifest(repositories):
         if exists_in_tree(lm, repo_full):
             print '%s already exists' % repo_full
             continue
+        if 'remote' in repository:
+            repo_remote = repository['remote']
+        else:
+            repo_remote = "github"
 
         print 'Adding dependency: %s -> %s' % (repo_full, repo_target)
         project = ElementTree.Element("project", attrib = { "path": repo_target,
-            "remote": "github", "name": repo_full, "revision": repo_revision })
+            "remote": repo_remote, "name": repo_full, "revision": repo_revision })
 
         if 'branch' in repository:
             project.set('revision',repository['branch'])
