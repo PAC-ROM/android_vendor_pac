@@ -42,4 +42,6 @@ bldbgmag=${bld}${bgmag}    #  Magenta        - Bold Background
 bldbgcya=${bld}${bgcya}    #  Cyan           - Bold Background
 bldbgwhi=${bld}${bgwhi}    #  White          - Background
 
+line="============================================"
+
 fi
