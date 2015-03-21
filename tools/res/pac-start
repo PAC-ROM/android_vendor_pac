@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# ANSI color scheme script for PAC-ROM
+# by MaDc0w
+# modified by JoseGalRe
+#
+echo -e ""
+echo -e "   ${bldylw}▄███████▄${rst}          ${ylw}▄▄         ${bldblu}▄██████▄          ${bldred}▄██████▄          ${rst}${mag}▄██████▄  ${rst}"
+echo -e " ${bldylw}▄█████████▀▀${rst}       ${ylw}▄▀█▀       ${bldblu}▄██${bldbgwhi}▀████▀${rst}${bldblu}██▄      ${rst}${bldred}▄██${bldbgwhi}▀████▀${rst}${bldred}██▄      ${rst}${mag}▄█${bldwhi}█ █${rst}${mag}██${bldwhi}█ █${rst}${mag}█▄${rst}"
+echo -e " ${bldylw}███████▀    ${bldwhi}▄▄  ${bldred}▄██▄${rst}${ylw} █${rst}    ${rst}▄▄  ${bldblu}███${bldbgwhi}▄████${bldbgwhi}▄${rst}${bldblu}███  ${rst}▄▄ ${bldred} ███${bldbgwhi}▄████▄${rst}${bldred}███${rst}  ▄▄  ${rst}${mag}██${bldwhi}███${rst}${mag}██${bldwhi}███${rst}${mag}██${rst}"
+echo -e " ${bldylw}███████▄    ${bldwhi}▀▀  ${bldred}▀${bldbgwhi}▄█${rst}${bldred}▀▄██▄  ${rst}▀▀  ${bldblu}██${bldbgwhi}▀▄▄▀▀▄▄▀${rst}${bldblu}██  ${rst}▀▀${bldred}  ██${bldbgwhi}▀▄▄▀▀▄▄▀██${rst}  ▀▀  ${rst}${mag}████████████${rst}"
+echo -e " ${bldylw}▀█████████▄▄${bldwhi}        ${bldred}▀${bldbgwhi}▄${rst}${bldred}█▀      ${bldblu}██▀██▀▀██▀██      ${bldred}██▀██▀▀██▀██      ${rst}${mag}██▀██▀▀██▀██${rst}"
+echo -e "   ${bldylw}▀███████▀${bldgrn}  www.pac-rom.com  ${bldblu}▀   ▀  ▀   ▀      ${bldred}▀   ▀  ▀   ▀      ${rst}${mag}▀   ▀  ▀   ▀${rst}"
+echo -e ""
