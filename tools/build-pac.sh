@@ -38,6 +38,7 @@ usage() {
     echo -e "    -j# Set number of jobs"
     echo -e "    -l  Optimizations for devices with low-RAM"
     echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -i  Ignore minor errors during build"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
@@ -143,6 +144,7 @@ opt_extra=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_ignore=0
 opt_lrd=0
 opt_only=0
 opt_pipe=0
@@ -150,7 +152,7 @@ opt_reset=0
 opt_sync=0
 opt_twrp=0
 
-while getopts "ab:c:de:fj:klo:prs:t" opt; do
+while getopts "ab:c:e:fj:kilo:prs:t" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -160,6 +162,7 @@ while getopts "ab:c:de:fj:klo:prs:t" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    i) opt_ignore=1 ;;
     l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
@@ -206,8 +209,24 @@ else
 fi
 echo -e "${rst}"
 
+# Check if last build was made ignoring errors
+# Set if unset
+if [ -f ".ignore_err" ]; then
+   : ${TARGET_IGNORE_ERRORS:=$(cat .ignore_err)}
+else
+   : ${TARGET_IGNORE_ERRORS:=false}
+fi
 
-# Cleaning out directory
+export TARGET_IGNORE_ERRORS
+
+if [ "$TARGET_IGNORE_ERRORS" == "true" ]; then
+   opt_clean=1
+   echo -e ${bldred}"Last build ignored errors. Cleaning Out"${rst}
+   unset TARGET_IGNORE_ERRORS
+   echo -e "false" > .ignore_err
+
+fi
+
 if [ "$opt_clean" -eq 1 ]; then
     make clean >/dev/null
     echo -e "${bldcya}Output directory is: ${bldgrn}Clean${rst}"
@@ -357,13 +376,22 @@ else
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
     echo ""
     if [ "$opt_extra" -eq 1 ]; then
-        make -j"$opt_jobs" showcommands bacon
+        opt_v=" "showcommands
     elif [ "$opt_extra" -eq 2 ]; then
-        make -j"$opt_jobs" -s bacon
+        opt_v=" "-s
     else
-        make -j"$opt_jobs" bacon
+        opt_v=""
     fi
-fi
+    if [ "$opt_ignore" -eq 1 ]; then
+        opt_i=" "-k
+        export TARGET_IGNORE_ERRORS=true
+        echo -e "true" > .ignore_err
+    else
+        opt_i=""
+    fi
+
+    make -j$opt_jobs$opt_v$opt_i bacon
+    fi
 
 
 # Cleanup unused built
