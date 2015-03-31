@@ -1,21 +1,18 @@
 [
   {
-    "remote": "github",
-    "account": "Split-Screen",
+    "remote": "ss",
     "repository": "android_device_lge_v500",
     "target_path": "device/lge/v500",
     "revision": "pac-5.0"
   },
   {
-    "remote": "github",
-    "account": "Split-Screen",
+    "remote": "ss",
     "repository": "android_kernel_lge_v500",
     "target_path": "kernel/lge/v500",
     "revision": "pac-5.0"
   },
   {
-    "remote": "github",
-    "account": "Pinky-Inky-and-Clyde",
+    "remote": "pic",
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision": "cm-12.0"
