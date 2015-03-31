@@ -1,12 +1,12 @@
 [
     {
-        "account":      "Split-Screen",
+        "remote":       "ss",
         "repository":   "android_device_htc_flounder",
         "target_path":  "device/htc/flounder",
         "revision":     "pac-5.0"
     },
     {
-        "account":      "Split-Screen",
+        "remote":       "ss",
         "repository":   "android_kernel_htc_flounder",
         "target_path":  "kernel/htc/flounder",
         "revision":     "pac-5.0"
