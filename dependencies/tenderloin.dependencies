@@ -1,63 +1,54 @@
 [
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_kernel_hp_tenderloin",
     "target_path":  "kernel/hp/tenderloin",
     "revision":     "pac-5.0"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_device_hp_tenderloin",
     "target_path":  "device/hp/tenderloin",
     "revision":     "pac-5.0"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_hardware_atheros_wlan",
     "target_path":  "hardware/atheros/wlan",
     "revision":     "pac-5.0"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_device_qcom_common",
     "target_path":  "device/qcom/common",
     "revision":     "pac-5.0"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_hardware_qcom_display-caf",
     "target_path":  "hardware/qcom/display-caf/msm8660",
     "revision":     "pac-5.0-8660"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_hardware_qcom_media-caf",
     "target_path":  "hardware/qcom/media-caf/msm8660",
     "revision":     "pac-5.0-8660"
  },
  {
-    "remote":       "github",
-    "account":      "Split-Screen",
+    "remote":       "ss",
     "repository":   "android_external_backports-wireless",
     "target_path":  "external/backports-wireless",
     "revision":     "pac-5.0"
  },
  {
     "remote":       "aosp",
-    "account":      "platform",
-    "repository":   "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
+    "repository":   "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
     "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
     "revision":     "master"
  },
  {
-    "remote":       "github",
-    "account":      "Pinky-Inky-and-Clyde",
+    "remote":       "pic",
     "repository":   "proprietary_vendor_hp",
     "target_path":  "vendor/hp",
     "revision":     "cm-12.0"
