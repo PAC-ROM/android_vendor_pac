@@ -1,8 +1,8 @@
 [
  {
    "account": "ss",
-   "repository": "android_device_lge_d801",
-   "target_path": "device/lge/d801",
+   "repository": "android_device_lge_f320",
+   "target_path": "device/lge/f320",
    "revision": "pac-5.0"
  },
  {
