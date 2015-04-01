@@ -19,10 +19,6 @@
   <!-- <device name="ariesve" hasextras="1"/> -->
   <device name="coconut" hasextras="1"/>
   <!-- <device name="condor" hasextras="1"/> -->
-  <!-- <device name="d800" hasextras="0"/> -->
-  <!-- <device name="d801" hasextras="0" /> -->
-  <!-- <device name="d802" hasextras="0" /> -->
-  <!-- <device name="d803" hasextras="0" /> -->
   <device name="deb" hasextras="0"/>
   <!-- <device name="dlx" hasextras="0"/> -->
   <!-- <device name="e610" hasextras="1"/> -->
@@ -73,5 +69,4 @@
   <device name="urushi" hasextras="1"/>
   <!-- <device name="venturi" hasextras="0"/> -->
   <!-- <device name="ville" hasextras="0"/> -->
-  <!-- <device name="vs980" hasextras="0"/> -->
 </manifest>
