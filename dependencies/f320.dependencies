@@ -1,8 +1,8 @@
 [
  {
    "remote": "ss",
-   "repository": "android_device_lge_ls980",
-   "target_path": "device/lge/ls980",
+   "repository": "android_device_lge_f320",
+   "target_path": "device/lge/f320",
    "revision": "pac-5.0"
  },
  {
