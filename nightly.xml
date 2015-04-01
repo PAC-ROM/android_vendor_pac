@@ -18,10 +18,15 @@
   <device name="amami"/>
   <!-- <device name="aries"/> -->
   <device name="bacon"/>
+  <device name="d800"/>
+  <device name="d801"/>
+  <device name="d802" />
+  <device name="d803" />
   <!-- <device name="d2lte"/> -->
   <!-- <device name="e973"/> -->
   <!-- <device name="e975"/> -->
   <device name="evita"/>
+  <device name="f320"/>
   <device name="falcon"/>
   <device name="flo"/>
   <device name="flounder"/>
@@ -41,7 +46,8 @@
   <device name="jfltetmo"/>
   <device name="jfltevzw"/>
   <device name="jfltexx"/>
-  <!-- <device name="ls980"/> -->
+  <device name="ls980"/>
+  <device name="l01f"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m7vzw"/>
@@ -61,5 +67,6 @@
   <device name="trltespr"/>
   <device name="trltetmo"/>
   <device name="v500"/>
+  <device name="vs980"/>
   <!-- <device name="wx_na_do"/> -->
 </manifest>
