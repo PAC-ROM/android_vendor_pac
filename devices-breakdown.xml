@@ -47,9 +47,11 @@
         <device FullName="Optimus G Pro" CodeName="e980"/>
         <device FullName="Optimus G2 (AT&amp;T)" CodeName="d800"/>
         <device FullName="Optimus G2 (Canadian)" CodeName="d803"/>
+        <device FullName="Optimus G2 (Docomo)" CodeName="l01f"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
-        <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
+        <device FullName="Optimus G2 (Korean)" CodeName="f320" />
         <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
+        <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="G3 (Sprint)" CodeName="ls990" />
         <device FullName="Optimus L5" CodeName="e610"/>

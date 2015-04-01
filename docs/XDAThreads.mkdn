@@ -50,12 +50,14 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2866844">Optimus G (Intern.):        e975           ShorelineDroid</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2878505">Optimus G (Sprint):         ls970          rectec</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2852984">Optimus G Pro:              e980           zamajalo</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2500030">Optimus G2 (AT&T):          d800           gerrett84</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2680171">Optimus G2 (Canadian):      d803           -Jesco-</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2500030">Optimus G2 (GSM):           d802           gerrett84</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2669063">Optimus G2 (T-Mobile):      d801           goldflame09</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2669074">Optimus G2 (Sprint):        ls980          goldflame09</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2542006">Optimus G2 (Verizon):       vs980          tucstwo</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (AT&T):          d800           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Canadian):      d803           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Docomo):        l01f           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (GSM):           d802           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Korean):        f320           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Sprint):        ls980          aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (T-Mobile):      d801           aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Verizon):       vs980          aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">Optimus L7:                 p705           coderzs</a>
