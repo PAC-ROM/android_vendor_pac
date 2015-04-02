@@ -47,8 +47,6 @@ usage() {
     echo -e "        1 - Boot Image"
     echo -e "        2 - Recovery Image"
     echo -e "    -p  Build using pipe"
-    echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
-    echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo ""
     echo -e "${bldblu}  Example:${bldcya}"
     echo -e "    ./build-pac.sh -c1 shamu"
@@ -148,9 +146,8 @@ opt_only=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
-opt_twrp=0
 
-while getopts "ab:c:de:fj:klo:prs:t" opt; do
+while getopts "ab:c:de:fj:klo:prs:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -165,7 +162,6 @@ while getopts "ab:c:de:fj:klo:prs:t" opt; do
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;
     *) usage
     esac
 done
@@ -226,16 +222,6 @@ else
         echo -e "${bldcya}Output directory is: ${bldgrn}Clean${rst}"
         echo ""
     fi
-fi
-
-
-# TWRP Recovery
-if [ "$opt_twrp" -eq 1 ]; then
-    echo -e "${bldcya}TWRP Recovery will be built${rst}"
-    export RECOVERY_VARIANT=twrp
-    echo ""
-else
-    unset RECOVERY_VARIANT
 fi
 
 
