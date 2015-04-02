@@ -209,6 +209,7 @@ echo -e "${rst}"
 
 # Cleaning out directory
 if [ "$opt_clean" -eq 1 ]; then
+    echo -e "${bldcya}Cleaning output directory${rst}
     make clean >/dev/null
     echo -e "${bldcya}Output directory is: ${bldgrn}Clean${rst}"
     echo ""
