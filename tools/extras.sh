@@ -129,6 +129,32 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
+        # mogami: Fix BT deep sleep
+        cherries+=(285_LX)
+        # Fix Droid and animation color in recovery mode
+        PATCH=0001-Fix-Droid-and-animation-color-in-recovery-mode
+        FOLDER=/bootable/recovery
+        patch_it
+        # Fix recovery image text rendering.
+        PATCH=0002-Fix-recovery-image-text-rendering
+        FOLDER=/bootable/recovery
+        patch_it
+        # sr: Fix all the graphics issues
+        PATCH=0003-sr-Fix-all-the-graphics-issues
+        FOLDER=/bootable/recovery
+        patch_it
+        # Revert old BGRA support patches
+        PATCH=0004-Revert-old-BGRA-support-patches
+        FOLDER=/bootable/recovery
+        patch_it
+        # minui: Performance improvements
+        PATCH=0005-minui-Performance-improvements
+        FOLDER=/bootable/recovery
+        patch_it
+        # sr: Clean up navigation
+        PATCH=0006-sr-Clean-up-navigation
+        FOLDER=/bootable/recovery
+        patch_it
     ;;
     condor)
         # display patch
