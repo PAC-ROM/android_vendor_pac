@@ -1,0 +1,183 @@
+From 35b48690ec9128444d063834ac5a2945c11fd24f Mon Sep 17 00:00:00 2001
+From: Steve Kondik <steve@cyngn.com>
+Date: Tue, 31 Mar 2015 05:45:50 -0700
+Subject: [PATCH 6/6] sr: Clean up navigation
+
+ * Make log view actually work (and not crash)
+ * Simplify rendering
+ * Use proper background icons
+
+Change-Id: Icbcfcf54f8517a434fc776e5f55243830c3e52e9
+---
+ recovery.cpp  | 17 ++++++++++-------
+ screen_ui.cpp | 31 +++++++++++++++++++++----------
+ 2 files changed, 31 insertions(+), 17 deletions(-)
+
+diff --git a/recovery.cpp b/recovery.cpp
+index 3c28e79..b64235f 100644
+--- a/recovery.cpp
++++ b/recovery.cpp
+@@ -767,6 +767,9 @@ static void file_to_ui(const char* fn) {
+             ui->WaitKey();
+         }
+     }
++
++    ui->SetBackground(RecoveryUI::NO_COMMAND);
++
+     redirect_stdio(TEMPORARY_LOG_FILE);
+     fclose(fp);
+ }
+@@ -798,9 +801,11 @@ static void choose_recovery_file(Device* device) {
+     entries[0] = strdup("Go back");
+     title_headers = prepend_title((const char**)headers);
+ 
++    ui->SetBackground(RecoveryUI::NO_COMMAND);
++
+     while(1) {
+         int chosen_item = get_menu_selection(title_headers, entries, 1, 0, device);
+-        if (chosen_item == 0) break;
++        if (chosen_item == 0 || chosen_item == Device::kGoBack) break;
+         file_to_ui(entries[chosen_item]);
+     }
+ 
+@@ -965,15 +970,13 @@ prompt_and_wait(Device* device, int status) {
+         finish_recovery(NULL);
+         ui_root_menu = 1;
+         switch (status) {
+-            case INSTALL_SUCCESS:
+-            case INSTALL_NONE:
+-                ui->SetBackground(RecoveryUI::NONE);
+-                break;
+-
+             case INSTALL_ERROR:
+             case INSTALL_CORRUPT:
+                 ui->SetBackground(RecoveryUI::ERROR);
+                 break;
++            default:
++                ui->SetBackground(RecoveryUI::NO_COMMAND);
++                break;
+         }
+         ui->SetProgressType(RecoveryUI::EMPTY);
+ 
+@@ -1261,7 +1264,7 @@ main(int argc, char **argv) {
+         ui->SetStage(st_cur, st_max);
+     }
+ 
+-    ui->SetBackground(RecoveryUI::NONE);
++    ui->SetBackground(RecoveryUI::NO_COMMAND);
+     if (show_text) ui->ShowText(true);
+ 
+     /*enable the backlight*/
+diff --git a/screen_ui.cpp b/screen_ui.cpp
+index f070f4b..b93d657 100644
+--- a/screen_ui.cpp
++++ b/screen_ui.cpp
+@@ -131,9 +131,9 @@ void ScreenRecoveryUI::draw_background_locked(Icon icon)
+             }
+         }
+ 
+-        LOGV("textX=%d textY=%d iconX=%d iconY=%d", textX, textY, iconX, iconY);
++        LOGI("textX=%d textY=%d iconX=%d iconY=%d", textX, textY, iconX, iconY);
+ 
+-        gr_color(255, 255, 255, 255);
++        SetColor(MENU);
+         gr_texticon(textX, textY, text_surface);
+     }
+ }
+@@ -202,7 +202,7 @@ void ScreenRecoveryUI::SetColor(UIElement e) {
+             gr_color(106, 103, 102, 255);
+             break;
+         case LOG:
+-            gr_color(76, 76, 76, 255);
++            gr_color(76, 76, 76, 128);
+             break;
+         case TEXT_FILL:
+             gr_color(0, 0, 0, 255);
+@@ -234,18 +234,19 @@ void ScreenRecoveryUI::draw_menu_item(int textrow, const char *text, int selecte
+         gr_fill(0, (textrow)*char_height,
+                 gr_fb_width(), (textrow+3)*char_height-1);
+         SetColor(MENU_SEL_FG);
+-        gr_text(4, (textrow+1)*char_height-1, text, 0);
++        gr_text(20, (textrow+1)*char_height-1, text, 0);
+         SetColor(MENU);
+     }
+     else {
+         SetColor(MENU);
+-        gr_text(4, (textrow+1)*char_height-1, text, 0);
++        gr_text(20, (textrow+1)*char_height-1, text, 0);
+     }
+ }
+ 
+ void ScreenRecoveryUI::draw_dialog()
+ {
+     int x, y, w, h;
++    LOGI("DIALOG!\n");
+ 
+    if (dialog_icon == HEADLESS) {
+        return;
+@@ -273,7 +274,7 @@ void ScreenRecoveryUI::draw_dialog()
+ 
+         int row;
+         for (row = 0; row < log_text_rows; ++row) {
+-            gr_text(2, y, text[row], 0);
++            gr_text(4, y, text[row], 0);
+             y += cy+2;
+         }
+         gr_set_font("menu");
+@@ -313,7 +314,15 @@ void ScreenRecoveryUI::draw_screen_locked()
+         return;
+     }
+ 
++    SetColor(MENU);
++
++    LOGI("after background, show_text=%d show_menu=%d currentIcon=%d\n", show_text, show_menu, currentIcon);
++
+     if (show_text) {
++
++        if (currentIcon != ERASING && currentIcon != INSTALLING_UPDATE)
++            draw_header_icon();
++
+         if (currentIcon == ERASING || currentIcon == INSTALLING_UPDATE || currentIcon == VIEWING_LOG) {
+             int y = header_height + 4;
+ 
+@@ -327,16 +336,16 @@ void ScreenRecoveryUI::draw_screen_locked()
+             for (int ty = gr_fb_height() - cy, count = 0;
+                  ty > y+2 && count < log_text_rows;
+                  ty -= (cy+2), ++count) {
+-                gr_text(0, ty, text[row], 0);
++                gr_text(4, ty, text[row], 0);
+                 --row;
+                 if (row < 0) row = log_text_rows-1;
+             }
+-            gr_set_font("menu");
+             return;
+         }
+ 
+         if (show_menu) {
+-            draw_header_icon();
++            gr_set_font("menu");
++
+             int nr_items = menu_items - menu_show_start;
+             if (nr_items > max_menu_rows)
+                 nr_items = max_menu_rows;
+@@ -345,6 +354,8 @@ void ScreenRecoveryUI::draw_screen_locked()
+                         ((menu_show_start+i) == menu_sel));
+             }
+         }
++
++
+     }
+ }
+ 
+@@ -476,7 +487,7 @@ void ScreenRecoveryUI::Init()
+     backgroundIcon[ERASING] = backgroundIcon[INSTALLING_UPDATE];
+     LoadBitmap("icon_info", &backgroundIcon[INFO]);
+     LoadBitmap("icon_error", &backgroundIcon[ERROR]);
+-    backgroundIcon[NO_COMMAND] = backgroundIcon[ERROR];
++    backgroundIcon[NO_COMMAND] = NULL;
+     LoadBitmap("icon_headless", &backgroundIcon[HEADLESS]);
+ 
+     LoadBitmap("progress_empty", &progressBarEmpty);
+-- 
+1.9.1
+
