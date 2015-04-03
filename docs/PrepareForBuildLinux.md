@@ -72,7 +72,7 @@ $ source ~/.bashrc
 
 ```shell
 $ mkdir ~/pac-rom && cd ~/pac-rom
-$ repo init -u https://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-darwin
+$ repo init -u https://github.com/PAC-man/pacman.git -b pac-5.1-twrp -g all,-notdefault,-darwin
 $ repo sync -j#
 
 Where # is the specific number of jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.
@@ -150,8 +150,6 @@ You can change this setting anytime with the value you want.
                 1 - Boot Image
                 2 - Recovery Image
         -p  Build using pipe
-        -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)
-                (This may produce an invalid recovery. Use only if you have the correct settings for these)
 
     Example:
         ./build-pac.sh -c1 hammerhead
