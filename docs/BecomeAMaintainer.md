@@ -70,7 +70,7 @@
     - If you have added your device to an overlay in the .mk file, then you must create your own.
     - We have ones pre-made for xxhdpi, xhdpi, hdpi, mdpi, ldpi feel free to use these.
 
-14. Please fill out our [Application/Info Form] (https://docs.google.com/forms/d/1NyzSpd0AMigrUimAKAadRnvl3Lvwb0KfFc7POUG0Fis/viewform) BEFORE you commit your device and contact either Jaaga (madc0w.undergroundz@googlemail.com), Lokesh (lokesh.c703@gmail.com) or Chad (cbarlan@gmail.com) to be added to the maintainers group hangout.
+14. Please fill out our [Application/Info Form] (https://docs.google.com/forms/d/1NyzSpd0AMigrUimAKAadRnvl3Lvwb0KfFc7POUG0Fis/viewform) BEFORE you commit your device and contact either Jaaga (MaDc0w@pac-rom.com), Lokesh (lokesh.chamane@pac-rom.com), José Adolfo (josegalre@pac-rom.com) or Chad (cbarlan@gmail.com) to be added to the maintainers group hangout.
 
 !!Your submission will not be accepted until ALL requirements according to our guidelines have been met!!
 
