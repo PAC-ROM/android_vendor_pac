@@ -247,6 +247,7 @@ Samsung:
 * __Galaxy S IV (LTE) (jfltexx) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (Sprint) (jfltespr) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703, JoseGalRe
+* __Galaxy S IV (US Cellular) (jflteusc) :__ Nick0703, JoseGalRe
 * __Galaxy S IV (Verizon) (jfltevzw) :__ Nick0703, JoseGalRe
 * __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
 * __Galaxy S IV mini (GSM) (serrano3gxx) :__ lsdty
@@ -287,7 +288,7 @@ Xiaomi:
 
 
 
-Total Devices: 133
+Total Devices: 134
 
 Best regards
     szl.kiev
