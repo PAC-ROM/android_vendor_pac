@@ -8,6 +8,6 @@ PAC_BOOTANIMATION_NAME := 1080
 include vendor/pac/config/pac_common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/lge/l01f./cm.mk)
+$(call inherit-product, device/lge/l01f/cm.mk)
 
 endif
