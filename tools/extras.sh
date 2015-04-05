@@ -156,12 +156,6 @@ case $device in
         FOLDER=/bootable/recovery
         patch_it
     ;;
-    condor)
-        # display patch
-        PATCH=0001-display-add-msm8610
-        FOLDER=hardware/qcom/display
-        patch_it true
-    ;;
     s2ve | s2vep)
         # av patch
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-FRAMEWORKS-AV-PATCH-for-s2ve-s2vep-device.patch"
@@ -179,12 +173,6 @@ case $device in
         PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Fix-HWC-for-s2ve-s2vep.patch"
         FOLDER=external/chromium_org
         patch_it true
-    ;;
-    p705)
-        #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
-        #cherries+=(1343_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
-        # Allow using Classic WebView
-        cherries+=(56054_CM)
     ;;
     ariesve | ancora)
         #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
@@ -217,46 +205,6 @@ case $device in
         cherries+=(82661_CM)
         #libart: Allow adjustment of the base address
         cherries+=(82668_CM)
-    ;;
-    huashan)
-        # kernel-some-folders-can-not-be-used
-        PATCH=kernel-some-folders-can-not-be-used
-        FOLDER=hardware/cm
-        patch_it
-        # display-Add-support-for-interleaved-YUY2
-        PATCH=0001-REVERT-display-Add-support-for-interleaved-YUY2-and-
-        FOLDER=hardware/qcom/display-caf
-        patch_it
-        # mm-video-venc-Correct-a-typo-in-variable-name
-        PATCH=0001-REVERT-mm-video-venc-Correct-a-typo-in-variable-name
-        FOLDER=hardware/qcom/media-caf
-        patch_it
-    ;;
-    i9300)
-        # smdk4412-common-we-like-opensource
-        PATCH=smdk4412-common-we-like-opensource
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-open-source-libUMP
-        PATCH=smdk4412-common-open-source-libUMP
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-use-proprietary-hwcomposer
-        PATCH=smdk4412-common-use-proprietary-hwcomposer
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-remove-unrecognized-flags-from-keylayout
-        PATCH=smdk4412-common-remove-unrecognized-flags-from-keylayout
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-update-Mali-blobs-from-N7100-kitkat
-        PATCH=smdk4412-common-update-Mali-blobs-from-N7100-kitkat
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-update-drm-libs
-        PATCH=smdk4412-update-drm-libs
-        FOLDER=vendor/samsung
-        patch_it
     ;;
     serranodsdd)
         # initial-support-for-i9192-ril
