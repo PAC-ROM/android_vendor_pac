@@ -16,14 +16,15 @@
 <manifest>
   <!-- Add new devices here -->
   <device name="amami"/>
-  <!-- <device name="aries"/> -->
   <device name="bacon"/>
   <device name="d800"/>
   <device name="d801"/>
   <device name="d802" />
   <device name="d803" />
-  <!-- <device name="d2lte"/> -->
-  <!-- <device name="e973"/> -->
+  <device name="d2att"/>
+  <device name="d2spr"/>
+  <device name="d2tmo"/>
+  <device name="d2vzw"/>
   <device name="e975"/>
   <device name="evita"/>
   <device name="f320"/>
@@ -37,9 +38,6 @@
   <device name="hltespr"/>
   <device name="hltetmo"/>
   <device name="honami"/>
-  <!-- <device name="i9100"/> -->
-  <!-- <device name="i9500"/> -->
-  <!-- <device name="jactivelte"/> -->
   <device name="jflteatt"/>
   <device name="jfltecan"/>
   <device name="jfltespr"/>
@@ -48,18 +46,15 @@
   <device name="jfltevzw"/>
   <device name="jfltexx"/>
   <device name="ls980"/>
+  <!-- <device name="ls990"/> -->
   <device name="l01f"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m7vzw"/>
-  <!-- <device name="m8"/> -->
-  <!-- <device name="mako"/> -->
-  <!-- <device name="moto_msm8960"/> -->
-  <!-- <device name="moto_msm8960_jbbl"/> -->
   <device name="n5100"/>
   <device name="n5110"/>
+  <device name="n5120"/>
   <device name="obake"/>
-  <!-- <device name="n5120"/> -->
   <device name="serrano3gxx"/>
   <device name="serranoltexx"/>
   <device name="shamu"/>
@@ -69,5 +64,5 @@
   <device name="trltetmo"/>
   <device name="v500"/>
   <device name="vs980"/>
-  <!-- <device name="wx_na_do"/> -->
+  <device name="wx_na_do"/>
 </manifest>
