@@ -1,9 +1,0 @@
-[
-    {
-        "remote":       "github",
-        "account":      "TeamHackLG",
-        "repository":   "android_hardware_qcom_display-caf",
-        "target_path":  "hardware/qcom/display-caf",
-        "revision":     "cm-11.0"
-    }
-]
