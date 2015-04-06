@@ -39,6 +39,7 @@
   <device name="jfltecan"/>
   <device name="jfltespr"/>
   <device name="jfltetmo"/>
+  <device name="jflteusc"/>
   <device name="jfltevzw"/>
   <device name="jfltexx"/>
   <!-- <device name="ls980"/> -->
