@@ -110,6 +110,7 @@
         <device FullName="Galaxy S IV (LTE)" CodeName="jfltexx"/>
         <device FullName="Galaxy S IV (Sprint)" CodeName="jfltespr"/>
         <device FullName="Galaxy S IV (T-Mobile)" CodeName="jfltetmo"/>
+        <device FullName="Galaxy S IV (US Cellular)" CodeName="jflteusc"/>
         <device FullName="Galaxy S IV (Verizon)" CodeName="jfltevzw"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
         <device FullName="Galaxy S IV mini (DUOS)" CodeName="serranodsdd"/>
