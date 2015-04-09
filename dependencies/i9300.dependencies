@@ -12,21 +12,21 @@
         "revision":     "cm-12.0"
     },
     {
-        "account":      "ArchiDroid",
+        "account":      "Split-Screen",
         "repository":   "android_device_samsung_i9300",
         "target_path":  "device/samsung/i9300",
         "revision":     "cm-12.0"
     },
     {
-        "account":      "ArchiDroid",
-        "repository":   "android_device_samsung_smdk4412-common",
-        "target_path":  "device/samsung/smdk4412-common",
+        "account":      "Split-Screen",
+        "repository":   "android_device_samsung_i9300-common",
+        "target_path":  "device/samsung/i9300-common",
         "revision":     "cm-12.0"
     },
     {
-        "account":      "ArchiDroid",
-        "repository":   "android_kernel_samsung_smdk4412",
-        "target_path":  "kernel/samsung/smdk4412",
+        "account":      "Split-Screen",
+        "repository":   "android_kernel_samsung_i9300",
+        "target_path":  "kernel/samsung/i9300",
         "revision":     "cm-12.0"
     },
     {
