@@ -6,10 +6,10 @@
         "revision":    "pac-5.1"
     },
     {
-        "account":     "Nick0703",
+        "remote":      "ss",
         "repository":  "android_kernel_oneplus_msm8974",
         "target_path": "kernel/oneplus/msm8974",
-        "revision":    "cm-12.1"
+        "revision":    "pac-5.1"
     },
     {
         "remote":      "ss",
