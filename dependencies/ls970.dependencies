@@ -1,35 +1,30 @@
 [
     {
-        "remote": "github",
-        "account": "Split-Screen",
+        "remote": "ss",
         "repository": "android_device_lge_gproj-common",
         "target_path": "device/lge/gproj-common",
         "revision": "pac-5.0"
     },
     {
-        "remote": "github",
-        "account": "Split-Screen",
+        "remote": "ss",
         "repository": "android_device_lge_ls970-common",
         "target_path": "device/lge/ls970-common",
         "revision": "pac-5.0"
     },
     {
-        "remote": "github",
-        "account": "Split-Screen",
+        "remote": "ss",
         "repository": "android_device_lge_ls970",
         "target_path": "device/lge/ls970",
         "revision": "pac-5.0"
     },
     {
-        "remote": "github",
-        "account": "Split-Screen",
+        "remote": "ss",
         "repository": "lge-kernel-gproj",
         "target_path": "kernel/lge/gproj",
         "revision": "pac-5.0"
     },
     {
-        "remote": "github",
-        "account":      "Pinky-Inky-and-Clyde",
+        "remote": "pic",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "cm-12.0"
