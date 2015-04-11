@@ -129,6 +129,8 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
+        # Only try to add data_extra when we want to add it
+        cherries+=(93858_CM)
         # mogami: Fix BT deep sleep
         cherries+=(285_LX)
         # Fix Droid and animation color in recovery mode
