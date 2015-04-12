@@ -1,32 +1,26 @@
 [
  {
-   "remote": "ss",
+   "account": "JescoWalker",
    "repository": "android_device_lge_d803",
    "target_path": "device/lge/d803",
-   "revision": "pac-5.0"
+   "revision": "cm-11.0"
  },
  {
-   "remote": "ss",
+   "account": "CyanogenMod",
    "repository": "android_device_lge_g2-common",
    "target_path": "device/lge/g2-common",
-   "revision": "pac-5.0"
+   "revision": "cm-11.0"
  },
  {
-    "remote": "ss",
+    "account": "CyanogenMod",
     "repository": "android_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "pac-5.0"
+    "revision": "cm-11.0"
  },
  {
-   "remote": "ss",
-   "repository": "android_kernel_lge_msm8974",
-   "target_path": "kernel/lge/msm8974",
-   "revision": "pac-5.0"
- },
- {
-   "remote": "pic",
+   "account": "Pinky-Inky-and-Clyde",
    "repository": "proprietary_vendor_lge",
    "target_path": "vendor/lge",
-   "revision": "cm-12.0"
+   "revision": "cm-11.0"
  }
 ]

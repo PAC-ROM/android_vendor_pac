@@ -47,11 +47,9 @@
         <device FullName="Optimus G Pro" CodeName="e980"/>
         <device FullName="Optimus G2 (AT&amp;T)" CodeName="d800"/>
         <device FullName="Optimus G2 (Canadian)" CodeName="d803"/>
-        <device FullName="Optimus G2 (Docomo)" CodeName="l01f"/>
         <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
-        <device FullName="Optimus G2 (Korean)" CodeName="f320" />
-        <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
+        <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
         <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="G3 (Sprint)" CodeName="ls990" />
         <device FullName="Optimus L5" CodeName="e610"/>
@@ -115,7 +113,6 @@
         <device FullName="Galaxy S IV (US Cellular)" CodeName="jflteusc"/>
         <device FullName="Galaxy S IV (Verizon)" CodeName="jfltevzw"/>
         <device FullName="Galaxy S IV Active (GSM)" CodeName="jactivelte"/>
-        <device FullName="Galaxy S IV mini (DUOS)" CodeName="serranodsdd"/>
         <device FullName="Galaxy S IV mini (GSM)" CodeName="serrano3gxx"/>
         <device FullName="Galaxy S IV mini (LTE)" CodeName="serranoltexx"/>
         <device FullName="Galaxy W" CodeName="ancora"/>

@@ -1,32 +1,37 @@
 [
     {
-        "remote": "ss",
+        "remote": "github",
+        "account": "CyanogenMod",
         "repository": "android_device_lge_gproj-common",
         "target_path": "device/lge/gproj-common",
-        "revision": "pac-5.0"
+        "revision": "cm-11.0"
     },
     {
-        "remote": "ss",
+        "remote": "github",
+        "account": "CyanogenMod",
         "repository": "android_device_lge_ls970-common",
         "target_path": "device/lge/ls970-common",
-        "revision": "pac-5.0"
+        "revision": "cm-11.0"
     },
     {
-        "remote": "ss",
+        "remote": "github",
+        "account": "CyanogenMod",
         "repository": "android_device_lge_ls970",
         "target_path": "device/lge/ls970",
-        "revision": "pac-5.0"
+        "revision": "cm-11.0"
     },
     {
-        "remote": "ss",
+        "remote": "github",
+        "account": "CyanogenMod",
         "repository": "lge-kernel-gproj",
         "target_path": "kernel/lge/gproj",
-        "revision": "pac-5.0"
+        "revision": "cm-11.0"
     },
     {
-        "remote": "pic",
+        "remote": "github",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "cm-12.0"
+        "revision":     "cm-11.0"
     }
 ]

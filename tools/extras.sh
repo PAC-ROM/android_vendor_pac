@@ -129,34 +129,6 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
-        # Only try to add data_extra when we want to add it
-        cherries+=(93858_CM)
-        # mogami: Fix BT deep sleep
-        cherries+=(285_LX)
-        # Fix Droid and animation color in recovery mode
-        PATCH=0001-Fix-Droid-and-animation-color-in-recovery-mode
-        FOLDER=/bootable/recovery
-        patch_it
-        # Fix recovery image text rendering.
-        PATCH=0002-Fix-recovery-image-text-rendering
-        FOLDER=/bootable/recovery
-        patch_it
-        # sr: Fix all the graphics issues
-        PATCH=0003-sr-Fix-all-the-graphics-issues
-        FOLDER=/bootable/recovery
-        patch_it
-        # Revert old BGRA support patches
-        PATCH=0004-Revert-old-BGRA-support-patches
-        FOLDER=/bootable/recovery
-        patch_it
-        # minui: Performance improvements
-        PATCH=0005-minui-Performance-improvements
-        FOLDER=/bootable/recovery
-        patch_it
-        # sr: Clean up navigation
-        PATCH=0006-sr-Clean-up-navigation
-        FOLDER=/bootable/recovery
-        patch_it
     ;;
     condor)
         # display patch
@@ -260,24 +232,7 @@ case $device in
         FOLDER=vendor/samsung
         patch_it
     ;;
-    serranodsdd)
-        # initial-support-for-i9192-ril
-        PATCH=0001-initial-support-for-i9192-ril
-        FOLDER=frameworks/opt/telephony
-        patch_it
-        # Add-support-for-serranodsril
-        PATCH=0001-Add-support-for-serranodsril
-        FOLDER=devide/samsung/serrano-common
-        patch_it
-        # Network-Add-netowrk-modes
-        PATCH=0001-Network-Add-netowrk-modes
-        FOLDER=packages/services/Telephony
-        patch_it
-        # add-s4-mini-dual-sim-ril-blobs
-        PATCH=0001-add-s4-mini-dual-sim-ril-blobs
-        FOLDER=vendor/samsung/serrano-common
-        patch_it
-    ;;
+    
 esac
 
 

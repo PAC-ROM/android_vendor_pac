@@ -10,7 +10,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2356333">Kindle Fire HD 8.9:         jem            goldflame09</a>
 <br>
 <h3>Asus</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=3051370">Nexus 7:                    grouper        iurnait</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7:                    grouper        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048596">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048596">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501869">Transformer Pad:            tf300t         kd8bny</a>
@@ -50,14 +50,12 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2866844">Optimus G (Intern.):        e975           ShorelineDroid</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2878505">Optimus G (Sprint):         ls970          rectec</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2852984">Optimus G Pro:              e980           zamajalo</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (AT&T):          d800           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Canadian):      d803           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Docomo):        l01f           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (GSM):           d802           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Korean):        f320           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Sprint):        ls980          aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (T-Mobile):      d801           aidasaidas75</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3070149">Optimus G2 (Verizon):       vs980          aidasaidas75</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2500030">Optimus G2 (AT&T):          d800           gerrett84</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2680171">Optimus G2 (Canadian):      d803           -Jesco-</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2500030">Optimus G2 (GSM):           d802           gerrett84</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2669063">Optimus G2 (T-Mobile):      d801           goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2669074">Optimus G2 (Sprint):        ls980          goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2542006">Optimus G2 (Verizon):       vs980          tucstwo</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">Optimus L7:                 p705           coderzs</a>
@@ -127,7 +125,6 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=3048993">Galaxy S IV (Verizon):      jfltevzw       Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2821017">Galaxy S IV Active (GSM):   jactivelte     mythi</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048693">Galaxy S IV mini (GSM):     serrano3gxx    lsdty</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3048693">Galaxy S IV mini (DUOS):    serranodsdd    lsdty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048693">Galaxy S IV mini (lte):     serranoltexx   lsdty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3017517">Galaxy W:                   ancora         K_TECH</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2948457">Nexus 10:                   manta          aHcVolle</a>
@@ -142,15 +139,15 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
 <br>
 <h3>Sony Ericsson</h3>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Live With Walkman:          coconut        Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Active:              satsuma        Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Arc:                 anzu           Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Mini:                smultron       Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Mini Pro:            mango          Druboo666, szl.kiev</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Neo:                 hallon         Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Neo V:               haida          Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Pro:                 iyokan         Druboo666</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=3065205">Xperia Ray:                 urushi         Druboo666, szl.kiev, Langes</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Live With Walkman:          coconut        Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Active:              satsuma        Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2298280">Xperia Arc:                 anzu           Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini:                smultron       Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2675370">Xperia Mini Pro:            mango          Druboo666, szl.kiev</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo:                 hallon         Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Neo V:               haida          Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2672164">Xperia Pro:                 iyokan         Druboo666</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1803076">Xperia Ray:                 urushi         Druboo666, szl.kiev, Langes</a>
 <br>
 <h3>Xiaomi</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>

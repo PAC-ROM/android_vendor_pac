@@ -12,7 +12,7 @@
 
 ```shell
 $ mkdir ~/pac-rom && cd ~/pac-rom
-$ repo init -u https://github.com/PAC-man/pacman.git -b pac-5.0 -g all,-notdefault,-linux
+$ repo init -u https://github.com/PAC-man/pacman.git -b pac-5.1-twrp -g all,-notdefault,-linux
 $ repo sync -j#
 
 Where # is the specific number of jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.
@@ -62,8 +62,6 @@ For a list of supported options, run the script on it's own:
                 1 - Boot Image
                 2 - Recovery Image
         -p  Build using pipe
-        -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)
-                (This may produce an invalid recovery. Use only if you have the correct settings for these)
 
     Example:
         ./build-pac.sh -c1 hammerhead
