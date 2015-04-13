@@ -47,7 +47,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2668912">Nexus 4:                    mako           jereksel</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2670238">Nexus 5:                    hammerhead     my95z34, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2863083">Optimus G (Canadian):       e973           ShorelineDroid</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2866844">Optimus G (Intern.):        e975           ShorelineDroid</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2866844">Optimus G (Intern.):        e975           dadi11</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2878505">Optimus G (Sprint):         ls970          rectec</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2852984">Optimus G Pro:              e980           zamajalo</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2500030">Optimus G2 (AT&T):          d800           gerrett84</a>
