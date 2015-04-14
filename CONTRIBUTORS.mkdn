@@ -152,7 +152,7 @@ LG:
 * __Nexus 4 (mako) :__ jereksel
 * __Nexus 5 (hammerhead) :__ my95z34, zyonee
 * __Optimus G (Canadian) (e973) :__ ShoreDroid
-* __Optimus G (International) (e975) :__ ShoreDroid
+* __Optimus G (International) (e975) :__ dadi11
 * __Optimus G (Sprint) (ls970) :__ rectec
 * __Optimus G Pro (e980) :__ zamajalo
 * __Optimus G2 (AT&T) (d800) :__ gerrett84
