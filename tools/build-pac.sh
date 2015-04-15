@@ -38,6 +38,7 @@ usage() {
     echo -e "    -j# Set number of jobs"
     echo -e "    -l  Optimizations for devices with low-RAM"
     echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -i  Ignore minor errors during build"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
@@ -49,6 +50,9 @@ usage() {
     echo -e "    -p  Build using pipe"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -w  Log file options:"
+    echo -e "        1 - Send warnings and errors to a log file"
+    echo -e "        2 - Send all output to a log file"
     echo ""
     echo -e "${bldblu}  Example:${bldcya}"
     echo -e "    ./build-pac.sh -c1 shamu"
@@ -143,14 +147,16 @@ opt_extra=0
 opt_fetch=0
 opt_jobs="$CPUS"
 opt_kr=0
+opt_ignore=0
 opt_lrd=0
 opt_only=0
 opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
+opt_log=0
 
-while getopts "ab:c:de:fj:klo:prs:t" opt; do
+while getopts "ab:c:de:fj:kilo:prs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     b) opt_chromium="$OPTARG" ;;
@@ -160,12 +166,14 @@ while getopts "ab:c:de:fj:klo:prs:t" opt; do
     f) opt_fetch=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
+    i) opt_ignore=1 ;;
     l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
     t) opt_twrp=1 ;;
+    w) opt_log="$OPTARG" ;;
     *) usage
     esac
 done
@@ -205,6 +213,24 @@ else
     vendor/pac/tools/getdependencies.py "$device"
 fi
 echo -e "${rst}"
+
+
+# Check if last build was made ignoring errors
+# Set if unset
+if [ -f ".ignore_err" ]; then
+   : ${TARGET_IGNORE_ERRORS:=$(cat .ignore_err)}
+else
+   : ${TARGET_IGNORE_ERRORS:=false}
+fi
+
+export TARGET_IGNORE_ERRORS
+
+if [ "$TARGET_IGNORE_ERRORS" == "true" ]; then
+   opt_clean=1
+   echo -e "${bldred}Last build ignored errors. Cleaning Out${rst}"
+   unset TARGET_IGNORE_ERRORS
+   echo -e "false" > .ignore_err
+fi
 
 
 # Cleaning out directory
@@ -345,25 +371,53 @@ else
 fi
 
 
+# Get extra options for build
+if [ "$opt_extra" -eq 1 ]; then
+    opt_v=" "showcommands
+elif [ "$opt_extra" -eq 2 ]; then
+    opt_v=" "-s
+else
+    opt_v=""
+fi
+
+
+# Ignore minor errors during build
+if [ "$opt_ignore" -eq 1 ]; then
+    opt_i=" "-k
+    export TARGET_IGNORE_ERRORS=true
+    echo -e "true" > .ignore_err
+    if [ "$opt_log" -eq 0 ]; then
+        opt_log=1
+    fi
+else
+    opt_i=""
+fi
+
+
+# Log file options
+if [ "$opt_log" -ne 0 ]; then
+    rm -rf build.log
+    if [ "$opt_log" -eq 1 ]; then
+        exec 2> >(sed -r 's/'$(echo -e "\033")'\[[0-9]{1,2}(;([0-9]{1,2})?)?[mK]//g' | tee -a build.log)
+    else
+        exec &> >(tee -a build.log)
+    fi
+fi
+
+
 # Start compilation
 if [ "$opt_only" -eq 1 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
-    make -j"$opt_jobs" bootimage
+    make -j$opt_jobs$opt_v$opt_i bootimage
 elif [ "$opt_only" -eq 2 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
-    make -j"$opt_jobs" recoveryimage
+    make -j$opt_jobs$opt_v$opt_i recoveryimage
 else
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
     echo ""
-    if [ "$opt_extra" -eq 1 ]; then
-        make -j"$opt_jobs" showcommands bacon
-    elif [ "$opt_extra" -eq 2 ]; then
-        make -j"$opt_jobs" -s bacon
-    else
-        make -j"$opt_jobs" bacon
-    fi
+    make -j$opt_jobs$opt_v$opt_i bacon
 fi
 
 
