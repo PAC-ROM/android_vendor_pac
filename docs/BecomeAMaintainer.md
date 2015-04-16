@@ -4,7 +4,7 @@
     - We use Split-Screen (https://github.com/Split-Screen/) for dependencies. You must push ALL device and kernel repos for the device to Split-Screen. Other remotes will not be accepted.
     - The main branch should be pac-5.0 and legacy devices that can not be brought up to Android 5.x will also not be accepted.
     - We use PIC (https://github.com/Pinky-Inky-and-Clyde/) for proprietary repos. This is done to allow for all vendor files to be pulled from the same place. If your vendor files are not on PIC, please submit your vendor files via pull request to the appropriate repository. Please keep commit history by using remotes and merges.
-    - Keep the file free of white spaces and formated to look like the rest of the devices dependencies files. Yes we are all OCD.
+    - Keep the file free of white spaces and formatted to look like the rest of the devices dependencies files. Yes we are all OCD.
 
 2.  [Product make files] (https://github.com/PAC-man/android_vendor_pac/tree/pac-5.0/products/)
     - Found in the products directory.
@@ -84,10 +84,10 @@ As a Maintainer you are expected to:
         d. Maintainers will have merge permissions to their device and kernel specific repositories and are expected to keep their device in working order. Whether this done by; doing basic upkeep with upstream changes for fixes and updates, starting for an upstream base and doing original work (pushing upstream when you can), or a mixture of both. The main concern is following proper procedure and keeping your device(s) functioning. Additionally, common and shared repositories will be worked on together by the Maintainers; they will still be controlled and merged by the PAC Team. In this respect, teamwork among Maintainers with common devices will not only be encouraged, in some cases, it may be necessary.
 
     2. Threads are to be compared to our templates regularly for updated topic and content changes.
-        a. Templates are to be used exactly as they are with NO alterations aside the forseen places like Titel, Installation, Updating, Not working, Other info, and additional credits below the current list if any, unless permitted otherwise.
-        b. Custom additions (custom builds, kernels, patches, software packages etc) are tolerated and may be distributed from the PAC -ROM thread's Downloads section of the first post.
+        a. Templates are to be used exactly as they are with NO alterations aside the foreseen places like Title, Installation, Updating, Not working, Other info, and additional credits below the current list if any, unless permitted otherwise.
+        b. Custom additions (custom builds, kernels, patches, software packages etc) are tolerated and may be distributed from the PAC-ROM thread's Downloads section of the first post.
         c. Information about any custom additions is to be posted in the 2nd post of both threads.
-        d. Custom additions are your responsibilty, and are not supported by the PAC-ROM Dev Team.
+        d. Custom additions are your responsibility, and are not supported by the PAC-ROM Dev Team.
         e. The PAC-ROM Dev Team may change, remove, disable, or tell you to delete ANY custom additions or infringing content for any reason, at any time, in our sole discretion.
         f. If unsure, ask the reviewer you contacted.
 
@@ -99,7 +99,7 @@ As a Maintainer you are expected to:
     5. As a Maintainer, you will be able to:
 
         * Get official, clean built, and automated nightly/weekly builds from Jenkins.
-        * Use our file hosting for nightly/custom/dev builds.
+        * Use our file hosting for builds.
         * Use our OTA for pushing your own builds.
         * Join in on our discussions, get support from the Dev Team and other Maintainers.
         * There is no cake, it's a lie!
