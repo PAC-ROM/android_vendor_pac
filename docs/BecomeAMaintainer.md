@@ -84,7 +84,7 @@ As a Maintainer you are expected to:
         d. Maintainers will have merge permissions to their device and kernel specific repositories and are expected to keep their device in working order. Whether this done by; doing basic upkeep with upstream changes for fixes and updates, starting for an upstream base and doing original work (pushing upstream when you can), or a mixture of both. The main concern is following proper procedure and keeping your device(s) functioning. Additionally, common and shared repositories will be worked on together by the Maintainers; they will still be controlled and merged by the PAC Team. In this respect, teamwork among Maintainers with common devices will not only be encouraged, in some cases, it may be necessary.
 
     2. Threads are to be compared to our templates regularly for updated topic and content changes.
-        a. Templates are to be used exactly as they are with NO alterations aside the forseen places like Titel, Installation, Updating, Not working, Other info, and additional credits below the current list if any, unless permitted otherwise.
+        a. Templates are to be used exactly as they are with NO alterations aside the forseen places like Title, Installation, Updating, Not working, Other info, and additional credits below the current list if any, unless permitted otherwise.
         b. Custom additions (custom builds, kernels, patches, software packages etc) are tolerated and may be distributed from the PAC -ROM thread's Downloads section of the first post.
         c. Information about any custom additions is to be posted in the 2nd post of both threads.
         d. Custom additions are your responsibilty, and are not supported by the PAC-ROM Dev Team.
