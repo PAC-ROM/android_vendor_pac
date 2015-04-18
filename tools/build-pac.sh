@@ -333,11 +333,11 @@ fi
 
 # Start compilation
 if [ "$opt_only" -eq 1 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Only will be built Boot Image${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
     make -j"$opt_jobs" bootimage
 elif [ "$opt_only" -eq 2 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Only will be built Recovery Image${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
     make -j"$opt_jobs" recoveryimage
 else
