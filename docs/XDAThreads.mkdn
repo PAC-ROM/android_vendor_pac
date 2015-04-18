@@ -154,4 +154,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2872738">Xiaomi Mi2:                 aries          m11kkaa</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2910535">Xiaomi Redmi 1S:            armani         Dark-Nightmare</a>
 <br>
+<h3>YU</h3>
+<a href="http://forum.xda-developers.com/showthread.php?t3086006">Yureka:                      tomato         zeetherocker</a>
+<br>
 </div>
