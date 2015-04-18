@@ -1,0 +1,26 @@
+[
+  {
+    "remote":       "ss",
+    "repository": "android_device_yu_tomato",
+    "target_path": "device/yu/tomato",
+    "revision":     "cm-12.0"
+  },
+  {
+    "remote":       "ss",
+    "repository": "android_kernel_yu_msm8916",
+    "target_path": "kernel/yu/msm8916",
+    "revision":     "cm-12.0"
+  },
+  {
+    "remote":       "cm",
+    "repository": "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm",
+    "revision":     "cm-12.1"
+  },
+  {
+    "remote":       "cm",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision":     "cm-12.1"
+  }
+]

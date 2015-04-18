@@ -285,8 +285,11 @@ Xiaomi:
 * __HM 1S (armani) :__ darknightmare
 
 
+YU:
+---------------------------------------------------------------------
+* __Yureka (tomato) :__zeetherocker
 
-Total Devices: 132
+Total Devices: 133
 
 Best regards
     szl.kiev
