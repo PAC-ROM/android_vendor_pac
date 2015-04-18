@@ -207,29 +207,9 @@ case $device in
         patch_it
     ;;
     i9300)
-        # smdk4412-common-we-like-opensource
-        PATCH=smdk4412-common-we-like-opensource
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-open-source-libUMP
-        PATCH=smdk4412-common-open-source-libUMP
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-use-proprietary-hwcomposer
-        PATCH=smdk4412-common-use-proprietary-hwcomposer
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-remove-unrecognized-flags-from-keylayout
-        PATCH=smdk4412-common-remove-unrecognized-flags-from-keylayout
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-common-update-Mali-blobs-from-N7100-kitkat
-        PATCH=smdk4412-common-update-Mali-blobs-from-N7100-kitkat
-        FOLDER=vendor/samsung
-        patch_it
-        # smdk4412-update-drm-libs
-        PATCH=smdk4412-update-drm-libs
-        FOLDER=vendor/samsung
+        # change hardware path from hardware/samsung -> hardware/i9300
+        PATCH=i9300-fw-av-change-hw-path
+        FOLDER=frameworks/av
         patch_it
     ;;
     serranodsdd)
