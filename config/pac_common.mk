@@ -1,6 +1,6 @@
 #
 # pac_common.mk: set up our common configuration
-# Copyright (C) 2015 PAC-Roms Project
+# Copyright (C) 2015 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
