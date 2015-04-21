@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # getdependencies.py: add the necessary dependencies to the local manifest
-# Copyright (C) 2015 PAC-Roms Project
+# Copyright (C) 2015 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
