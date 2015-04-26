@@ -1,6 +1,6 @@
-##How to prepare and build PAC-ROM in Ubuntu 14.04 or 14.10
+##How to prepare and build PAC-ROM in Ubuntu 14.04 or higher
 
-**This guide applies to all variations of Ubuntu 14.04 or 14.10 (Mate, Kubuntu, Lubuntu, Xubuntu) or Linux Mint 17. ONLY 64 bit. Do not use the 32 bit version.**
+**This guide applies to all variations of Ubuntu (Mate, Kubuntu, Lubuntu, Xubuntu, etc.) or Linux Mint 17. ONLY 64 bit. Do not use the 32 bit version.**
 
 ###General Instruction:
 **Enter the following commands into your terminal. (the commands are those that start with the $ symbol)**
@@ -35,7 +35,7 @@ $ java -version
 **3 - Install tools needed to build**
 
 ```shell
-$ sudo apt-get install bison build-essential bzip2 curl dpkg-dev flex g++-multilib git git-review gnupg gperf lib32bz2-1.0 lib32bz2-dev lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libbz2-1.0 libbz2-dev libc6-dev libghc-bzlib-dev libgl1-mesa-dev libgl1-mesa-glx:i386 libncurses5-dev libreadline6-dev libreadline6-dev:i386 libx11-dev:i386 libxml2-utils lzop mingw32 pngcrush pngquant python-markdown schedtool squashfs-tools tofrodos x11proto-core-dev xsltproc zip zlib1g-dev zlib1g-dev:i386
+$ sudo apt-get install bison build-essential bzip2 curl dpkg-dev flex g++-multilib git git-review gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libbz2-1.0 libbz2-dev libc6-dev libghc-bzlib-dev libgl1-mesa-dev libgl1-mesa-glx:i386 libncurses5-dev libreadline6-dev libreadline6-dev:i386 libx11-dev:i386 libxml2-utils lzop pngcrush pngquant python-markdown schedtool squashfs-tools tofrodos x11proto-core-dev xsltproc zip zlib1g-dev zlib1g-dev:i386
 ```
 
 
@@ -117,8 +117,35 @@ Now specify the maximum size that can occupy ccache. The suggested cache size is
 Now in the root directory of the source code, run:
 ```shell
 $ prebuilts/misc/linux-x86/ccache/ccache -M 64G
-You can change this setting anytime with the value you want.
 ```
+You can change this setting anytime with the value you want.
+
+
+<br><br>
+##Solutions to frequent problems
+###Environment stop by Jayatana
+    ************************************************************
+    You are attempting to build with the incorrect version
+    of java.
+
+    Your version is: Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar  java version "1.7.0_79" OpenJDK Runtime Environment (IcedTea 2.5.5) (7u79-2.5.5-0ubuntu1) OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode).
+    The required version is: "1.7.x/1.8.x"
+
+    Please follow the machine setup instructions at
+        https://source.android.com/source/initializing.html
+    ************************************************************
+
+    Solution: Edit ~/.bashrc:
+
+    $ pico ~/.bashrc
+
+        Add the following line at the end of the file:
+
+            unset JAVA_TOOL_OPTIONS
+
+        Close pico (ctrl+x) and save the changes. Restart bash:
+
+    $ source ~/.bashrc
 
 
 <br><br>
