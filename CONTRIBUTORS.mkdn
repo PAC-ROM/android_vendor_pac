@@ -179,6 +179,7 @@ Motorola:
 * __Moto G (Global GSM) (falcon) :__ Wechy77
 * __Moto G (Retail US GSM) (falcon) :__ Wechy77
 * __Moto G 2014 (titan) :__ LuK1337
+* __Moto G 2014 LTE (thea) :__ LuK1337
 * __Moto X (GSM) (ghost) :__ Skiwong20
 * __Moto X (Sprint) (ghost) :__ Skiwong20
 * __Moto X (T-Mobile) (ghost) :__ Skiwong20
