@@ -64,7 +64,7 @@
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto G 2014" CodeName="titan"/>
-        <device FullName="Moto G 2014 LTE" CodeName="thea"/>
+	<device FullName="Moto G 2014 LTE" CodeName="thea"/>
         <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
@@ -143,5 +143,8 @@
     <vendor Name="Xiaomi">
         <device FullName="MI 2" CodeName="aries"/>
         <device FullName="Redmi 1S" CodeName="armani"/>
+    </vendor>
+    <vendor Name="Yu">
+        <device FullName="Yureka" CodeName="tomato"/>
     </vendor>
 </devices>
