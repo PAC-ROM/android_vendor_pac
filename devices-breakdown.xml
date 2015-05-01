@@ -144,4 +144,7 @@
         <device FullName="MI 2" CodeName="aries"/>
         <device FullName="Redmi 1S" CodeName="armani"/>
     </vendor>
+    <vendor Name="Yu">
+        <device FullName="Yureka" CodeName="tomato"/>
+    </vendor>
 </devices>
