@@ -58,7 +58,6 @@ add_lunch_combo pac_obake-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
-add_lunch_combo pac_thea-userdebug
 add_lunch_combo pac_titan-userdebug
 # Nvidia
 add_lunch_combo pac_wx_na_do-userdebug
@@ -129,3 +128,6 @@ add_lunch_combo pac_urushi-userdebug
 # Xiaomi
 add_lunch_combo pac_aries-userdebug
 add_lunch_combo pac_armani-userdebug
+
+# Yu
+add_lunch_combo pac_tomato-userdebug
