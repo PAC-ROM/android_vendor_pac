@@ -23,6 +23,7 @@
     <vendor Name="HTC">
         <device FullName="Amaze 4G" CodeName="ruby"/>
         <device FullName="Droid DNA" CodeName="dlx"/>
+        <device FullName="Evo 4G LTE" CodeName="jewel"/>
         <device FullName="Nexus 9" CodeName="flounder"/>
         <device FullName="One (AT&amp;T, GSM, T-Mobile)" CodeName="m7"/>
         <device FullName="One (Sprint)" CodeName="m7spr"/>
