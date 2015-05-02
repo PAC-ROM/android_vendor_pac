@@ -19,6 +19,7 @@ add_lunch_combo pac_dlx-userbebug
 add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_flounder-userdebug
 add_lunch_combo pac_holiday-userdebug
+add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_m4-userdebug
 add_lunch_combo pac_m7-userdebug
 add_lunch_combo pac_m7spr-userdebug
