@@ -33,6 +33,7 @@
   <!-- <device name="i605" hasextras="0" /> -->
   <!-- <device name="i9300" hasextras="1"/> -->
   <device name="iyokan" hasextras="1"/>
+  <device name="jewel" hasextras="0" />
   <!-- <device name="l900" hasextras="0" /> -->
   <device name="ls970" hasextras="0"/>
   <!-- <device name="m4" hasextras="0"/> -->
