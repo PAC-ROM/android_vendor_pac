@@ -26,6 +26,7 @@
 <h3>HTC</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669292">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2270188">Droid DNA:                  dlx            pio_masaki</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3049005">Evo 4G LTE:                 jewel          fizbanrapper, ocarinaz64</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3028306">Nexus 9:                    flounder       joshuabg</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348590">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2348415">One (GSM):                  m7             MaDc0w</a>
