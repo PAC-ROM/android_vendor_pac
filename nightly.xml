@@ -18,11 +18,14 @@
   <device name="amami"/>
   <!-- <device name="aries"/> -->
   <device name="bacon"/>
+  <device name="d2att"/>
+  <device name="d2spr"/>
+  <device name="d2tmo"/>
+  <device name="d2vzw"/>
   <device name="d800"/>
   <device name="d801"/>
   <device name="d802" />
   <device name="d803" />
-  <!-- <device name="d2lte"/> -->
   <!-- <device name="e973"/> -->
   <device name="e975"/>
   <device name="evita"/>
