@@ -18,6 +18,10 @@
   <device name="amami"/>
   <!-- <device name="aries"/> -->
   <device name="bacon"/>
+  <device name="d2att"/>
+  <device name="d2spr"/>
+  <device name="d2tmo"/>
+  <device name="d2vzw"/>
   <device name="d800"/>
   <device name="d801"/>
   <device name="d802" />
