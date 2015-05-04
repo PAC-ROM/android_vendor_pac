@@ -129,12 +129,7 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
-    ;;
-    condor)
-        # display patch
-        PATCH=0001-display-add-msm8610
-        FOLDER=hardware/qcom/display
-        patch_it true
+
     ;;
     s2ve | s2vep)
         # av patch
