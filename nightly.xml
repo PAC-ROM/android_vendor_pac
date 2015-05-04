@@ -18,6 +18,7 @@
   <device name="amami"/>
   <!-- <device name="aries"/> -->
   <device name="bacon"/>
+  <device name="condor"/>
   <device name="d2att"/>
   <device name="d2spr"/>
   <device name="d2tmo"/>
