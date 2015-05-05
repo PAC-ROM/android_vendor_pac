@@ -19,7 +19,7 @@
     },
     {
         "remote": "ss",
-        "repository": "lge-kernel-gproj",
+        "repository": "android_kernel_lge_gproj",
         "target_path": "kernel/lge/gproj",
         "revision": "pac-5.0"
     },
