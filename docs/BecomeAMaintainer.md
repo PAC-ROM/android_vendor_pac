@@ -96,7 +96,19 @@ As a Maintainer you are expected to:
     4. To maintain proper support and device usability across the PAC-ROM community, if a device is: abandoned, unsupported, unkempt, or devices where the Maintainer has; sold, broken, lost, no longer has and will not be replacing [within the grace period of 4 weeks], or no longer cares to maintain the device for PAC, then the device will be removed. Remember, if the device is removed and it gets further support, from someone else, then it can be resubmitted later as new.
         a. Be fair to the users, if you can not maintain the device anymore for whatever reason, please try to find a follow up maintainer, have them submit their take over changes to Gerrit, and have your threads transferred if possible. If this is not possible, please remove the device and submit your cleanup to Gerrit.
 
-    5. As a Maintainer, you will be able to:
+    5. Prereleases
+
+        * Only Maintainers may publish Alpha/Prerelease builds.
+        * Alpha/Prerelease build version tag should be set to UNOFFICIAL
+        * Users/Unofficial device Maintainers may NOT release/post our Prerelease builds.
+        * Permission for Maintainers may be revoked anytime for a Maintainer or global for all Maintainers.
+        * Alpha/Prerelease builds are to be uploaded to BB/codename/Unofficial.
+        * Alpha/Prerelease builds are NOT supported by PAC Dev Team or Maintainers.
+        * Maintainers are to check their XDA device category for threads posting Prereleases/Unofficial builds and have them removed/closed.
+        * Maintainers can use this opportunity to test and bring up their devices, users can play with cutting edge test builds and return feedback for the Maintainer at their own risk.
+        * Community/Forum posts about ETA's, Prerelease device compatibility, broken or missing features, or any other acquisition of Prerelease information and support will be deleted/directed toward the Maintainer.
+
+    6. As a Maintainer, you will be able to:
 
         * Get official, clean built, and automated nightly/weekly builds from Jenkins.
         * Use our file hosting for nightly/custom/dev builds.
@@ -105,6 +117,6 @@ As a Maintainer you are expected to:
         * There is no cake, it's a lie!
         * Devices that get less than 35 downloads a week are considered low activity and will be moved to weekly.xml.
 
-    6. This page is subject to change without notice! Check back regularly here for changes.
+    7. This page is subject to change without notice! Check back regularly here for changes.
 
 **!!Failure to maintain your device properly will result in it being removed from nightly/weekly, and/or suspended/removed from being built!!**
