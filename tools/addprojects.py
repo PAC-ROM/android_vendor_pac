@@ -18,12 +18,23 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
+from __future__ import print_function
+
 import os
 import sys
-import urllib2
 import json
 import re
 from xml.etree import ElementTree
+
+try:
+  # For python3
+  import urllib.request
+except ImportError:
+  # For python2
+  import imp
+  import urllib2
+  urllib = imp.new_module('urllib')
+  urllib.request = urllib2
 
 target = sys.argv[1];
 
@@ -99,10 +110,10 @@ def add_to_manifest(repositories):
             repo_full = repo_name
 
         if exists_in_tree(lm, repo_full):
-            print '%s already exists' % repo_full
+            print('%s already exists' % repo_full)
             continue
 
-        print 'Adding project: %s -> %s' % (repo_full, repo_target)
+        print('Adding project: %s -> %s' % (repo_full, repo_target))
         project = ElementTree.Element("project", attrib = { "path": repo_target,
             "remote": repo_remote, "name": repo_full, "revision": repo_revision })
 
@@ -120,7 +131,7 @@ def add_to_manifest(repositories):
     f.close()
 
 def fetch_extras(def_file):
-    print 'Looking for add projects entries'
+    print('Looking for add projects entries')
     projects_path = 'vendor/pac/extras/addremove/' + def_file
 
     syncable_repos = []
@@ -137,24 +148,24 @@ def fetch_extras(def_file):
             except:
                 repo_full = project['repository']
 
-            print '  Check for %s in local_manifest' % repo_full
+            print('  Check for %s in local_manifest' % repo_full)
             if not is_in_manifest(repo_full):
-                print 'Appending %s to fetch_list and %s to syncable_repos' % (repo_full, project['target_path'])
+                print('Appending %s to fetch_list and %s to syncable_repos' % (repo_full, project['target_path']))
                 fetch_list.append(project)
                 syncable_repos.append(project['target_path'])
             else:
-                print '  %s already in local_manifest' % repo_full
+                print('  %s already in local_manifest' % repo_full)
 
         projects_file.close()
 
         if len(fetch_list) > 0:
-            print 'Adding projects to local_manifest'
+            print('Adding projects to local_manifest')
             add_to_manifest(fetch_list)
     else:
-        print 'add projects definition file not found, bailing out.'
+        print('add projects definition file not found, bailing out.')
 
     if len(syncable_repos) > 0:
-        print 'Syncing projects'
+        print('Syncing projects')
         os.system('repo sync %s' % ' '.join(syncable_repos))
 
 
