@@ -283,7 +283,7 @@ Sony Ericsson:
 Xiaomi:
 ---------------------------------------------------------------------
 * __MI 2 (aries) :__ M1cha
-* __HM 1S (armani) :__ darknightmare
+* __HM 1S (armani) :__ TheStrix
 
 
 Yu:
