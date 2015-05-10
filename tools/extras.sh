@@ -157,12 +157,7 @@ case $device in
         PATCH=0006-sr-Clean-up-navigation
         FOLDER=/bootable/recovery
         patch_it
-    ;;
-    condor)
-        # display patch
-        PATCH=0001-display-add-msm8610
-        FOLDER=hardware/qcom/display
-        patch_it true
+
     ;;
     s2ve | s2vep)
         # av patch
