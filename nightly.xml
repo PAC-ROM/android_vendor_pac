@@ -60,6 +60,7 @@
   <device name="shamu"/>
   <device name="spyder"/>
   <device name="thea"/>
+  <device name="tomato"/>
   <device name="titan"/>
   <device name="trltespr"/>
   <device name="trltetmo"/>
