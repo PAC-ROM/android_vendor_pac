@@ -18,12 +18,23 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
+from __future__ import print_function
+
 import os
 import sys
-import urllib2
 import json
 import re
 from xml.etree import ElementTree
+
+try:
+  # For python3
+  import urllib.request
+except ImportError:
+  # For python2
+  import imp
+  import urllib2
+  urllib = imp.new_module('urllib')
+  urllib.request = urllib2
 
 target = sys.argv[1];
 
@@ -81,10 +92,10 @@ def add_to_manifest(repositories):
     for repository in repositories:
         repo_name = repository['name']
         if exists_in_tree(lm, repo_name):
-            print '%s already exists' % repo_name
+            print('%s already exists' % repo_name)
             continue
 
-        print 'Adding remove-project: %s' % (repo_name)
+        print('Adding remove-project: %s' % (repo_name))
         project = ElementTree.Element("remove-project", attrib = { "name": repo_name })
 
         if 'branch' in repository:
@@ -101,7 +112,7 @@ def add_to_manifest(repositories):
     f.close()
 
 def process_removes(def_file):
-    print 'Looking for remove projects entries'
+    print('Looking for remove projects entries')
     projects_path = 'vendor/pac/extras/addremove/' + def_file
 
     if os.path.exists(projects_path):
@@ -111,18 +122,18 @@ def process_removes(def_file):
 
         for project in projects:
             repo_name = project['name']
-            print '  Check for %s in local_manifest' % repo_name
+            print('  Check for %s in local_manifest' % repo_name)
             if not name_in_manifest(repo_name):
                 fetch_list.append(project)
             else:
-                print '  %s already in local_manifest' % repo_name
+                print('  %s already in local_manifest' % repo_name)
 
         projects_file.close()
 
         if len(fetch_list) > 0:
-            print 'Adding remove-project entries to local_manifest'
+            print('Adding remove-project entries to local_manifest')
             add_to_manifest(fetch_list)
     else:
-        print 'remove projects definition file not found, bailing out.'
+        print('remove projects definition file not found, bailing out.')
 
 process_removes(def_file)
