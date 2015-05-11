@@ -18,12 +18,23 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
+from __future__ import print_function
+
 import os
 import sys
-import urllib2
 import json
 import re
 from xml.etree import ElementTree
+
+try:
+  # For python3
+  import urllib.request
+except ImportError:
+  # For python2
+  import imp
+  import urllib2
+  urllib = imp.new_module('urllib')
+  urllib.request = urllib2
 
 if len(sys.argv) > 2:
     os.system('rm -f .repo/local_manifests/roomservice.xml')
@@ -104,14 +115,14 @@ def add_to_manifest(repositories):
         repo_target = repository['target_path']
         repo_revision = repository['revision']
         if exists_in_tree(lm, repo_full):
-            print '%s already exists' % repo_full
+            print('%s already exists' % repo_full)
             continue
         try:
             repo_remote = repository['remote']
         except:
             repo_remote = "github"
 
-        print 'Adding dependency: %s -> %s' % (repo_full, repo_target)
+        print('Adding dependency: %s -> %s' % (repo_full, repo_target))
         project = ElementTree.Element("project", attrib = { "path": repo_target,
             "remote": repo_remote, "name": repo_full, "revision": repo_revision })
 
@@ -121,7 +132,7 @@ def add_to_manifest(repositories):
         lm.append(project)
 
     indent(lm, 0)
-    raw_xml = ElementTree.tostring(lm)
+    raw_xml = ElementTree.tostring(lm).decode('utf-8')
     raw_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + raw_xml
 
     f = open('.repo/local_manifests/roomservice.xml', 'w')
@@ -129,7 +140,7 @@ def add_to_manifest(repositories):
     f.close()
 
 def fetch_dependencies(device):
-#    print 'Looking for PAC product dependencies'
+#    print('Looking for PAC product dependencies')
     dependencies_path = 'vendor/pac/dependencies/' + device + '.dependencies'
 
     syncable_repos = []
@@ -145,23 +156,23 @@ def fetch_dependencies(device):
                 repo_full = repo_account + "/" + dependency['repository']
             except:
                 repo_full = dependency['repository']
-            print '  Check for %s in local_manifest' % repo_full
+            print('  Check for %s in local_manifest' % repo_full)
             if not is_in_manifest(repo_full):
                 fetch_list.append(dependency)
                 syncable_repos.append(dependency['target_path'])
             else:
-                print '    %s already in local_manifest' % repo_full
+                print('    %s already in local_manifest' % repo_full)
 
         dependencies_file.close()
 
         if len(fetch_list) > 0:
-            print 'Adding dependencies to local_manifest'
+            print('Adding dependencies to local_manifest')
             add_to_manifest(fetch_list)
 #    else:
-#        print 'dependencies definition file not found, bailing out.'
+#        print('dependencies definition file not found, bailing out.')
 
     if len(syncable_repos) > 0:
-        print 'Syncing dependencies'
+        print('Syncing dependencies')
         os.system('repo sync %s' % ' '.join(syncable_repos))
 
 
