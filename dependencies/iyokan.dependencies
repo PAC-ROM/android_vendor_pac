@@ -32,13 +32,13 @@
     {
         "remote":       "ss",
         "repository":   "android_hardware_qcom_audio-caf",
-        "target_path":  "hardware/qcom/audio-caf/msm7x30-caf",
+        "target_path":  "hardware/qcom/audio-caf/msm7x30",
         "revision":     "pac-5.0-7x30"
     },
     {
         "remote":       "ss",
         "repository":   "android_hardware_qcom_media-caf",
-        "target_path":  "hardware/qcom/media-caf/msm7x30-caf",
+        "target_path":  "hardware/qcom/media-caf/msm7x30",
         "revision":     "pac-5.0-7x30"
     },
     {
