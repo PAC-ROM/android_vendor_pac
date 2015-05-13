@@ -1,0 +1,28 @@
+From 2f9988ba5bfc498bfebebc0bfe268b4296e18945 Mon Sep 17 00:00:00 2001
+From: garwedgess <garethwilliams21@gmail.com>
+Date: Thu, 16 Apr 2015 16:57:02 +0100
+Subject: [PATCH] Change path for of hardware/samsung to hardware/i9300 using
+ archi hardware/samsung
+
+---
+ media/libstagefright/Android.mk | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/media/libstagefright/Android.mk b/media/libstagefright/Android.mk
+index d1f0289..39b1367 100644
+--- a/media/libstagefright/Android.mk
++++ b/media/libstagefright/Android.mk
+@@ -226,8 +226,8 @@ LOCAL_CFLAGS += -DUSE_SAMSUNG_COLORFORMAT
+ 
+ # Include native color format header path
+ LOCAL_C_INCLUDES += \
+-	$(TOP)/hardware/samsung/exynos4/hal/include \
+-	$(TOP)/hardware/samsung/exynos4/include
++	$(TOP)/hardware/i9300/exynos4/hal/include \
++	$(TOP)/hardware/i9300/exynos4/include
+ endif
+ 
+ LOCAL_MODULE:= libstagefright
+-- 
+1.9.1
+

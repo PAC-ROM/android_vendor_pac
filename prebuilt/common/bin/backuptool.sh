@@ -20,7 +20,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V="LP"
+export V="LP-MR1"
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 cp -f /tmp/install/bin/backuptool.functions /tmp
