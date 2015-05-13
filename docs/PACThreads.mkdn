@@ -70,6 +70,7 @@
 <a href="http://forum.pac-rom.com/thread-1211.html">Moto E:                    condor         ashwin007</a>
 <a href="http://forum.pac-rom.com/thread-536.html">Moto G:                     falcon         Wechy77</a>
 <a href="http://forum.pac-rom.com/thread-1366.html">Moto G 2014:               titan          LuK1337</a>
+<a href="http://forum.pac-rom.com/thread-1430.html">Moto G 2014 LTE:           thea           LuK1337</a>
 <a href="http://forum.pac-rom.com/thread-1373.html">Nexus 6                    shamu          skiwong20, zyonee</a>
 <a href="http://forum.pac-rom.com/thread-615.html">Photon Q 4G LTE:            moto_msm8960   arrrghhh</a>
 <br>

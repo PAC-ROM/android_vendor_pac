@@ -1,38 +1,38 @@
 [
     {
-        "account":      "Pinky-Inky-and-Clyde",
+        "remote":       "pic",
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
-        "revision":     "cm-12.0"
+        "revision":     "cm-12.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_packages_apps_SamsungServiceMode",
         "target_path":  "packages/apps/SamsungServiceMode",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "ArchiDroid",
+        "remote":       "ss",
         "repository":   "android_device_samsung_i9300",
         "target_path":  "device/samsung/i9300",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "ArchiDroid",
-        "repository":   "android_device_samsung_smdk4412-common",
-        "target_path":  "device/samsung/smdk4412-common",
-        "revision":     "cm-12.0"
+        "remote":       "ss",
+        "repository":   "android_device_samsung_i9300-common",
+        "target_path":  "device/samsung/i9300-common",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "ArchiDroid",
-        "repository":   "android_kernel_samsung_smdk4412",
-        "target_path":  "kernel/samsung/smdk4412",
-        "revision":     "cm-12.0"
+        "remote":       "ss",
+        "repository":   "android_kernel_samsung_i9300",
+        "target_path":  "kernel/samsung/i9300",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "ArchiDroid",
-        "repository":   "android_hardware_samsung",
-        "target_path":  "hardware/samsung",
-        "revision":     "cm-12.0"
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung-i9300",
+        "target_path":  "hardware/i9300",
+        "revision":     "pac-5.1"
     }
 ]
