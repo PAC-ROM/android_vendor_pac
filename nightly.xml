@@ -17,6 +17,7 @@
   <!-- Add new devices here -->
   <device name="amami"/>
   <!-- <device name="aries"/> -->
+  <device name="armani"/>
   <device name="bacon"/>
   <device name="condor"/>
   <!-- <device name="d2lte"/> -->
