@@ -26,6 +26,7 @@
 <h3>HTC</h3>
 <a href="http://forum.pac-rom.com/thread-571.html">Amaze 4G:                   ruby           josegalre</a>
 <a href="http://forum.pac-rom.com/thread-524.html">Droid DNA:                  dlx            pio_masaki</a>
+<a href="http://forum.pac-rom.com/thread-1425.html">Evo 4G LTE:                jewel          ocarinaz64</a>
 <a href="http://forum.pac-rom.com/thread-1351.html">Nexus 9:                   flounder       joshuabg</a>
 <a href="http://forum.pac-rom.com/thread-767.html">One (AT&T):                 m7             MaDc0w</a>
 <a href="http://forum.pac-rom.com/thread-767.html">One (GSM):                  m7             MaDc0w</a>
