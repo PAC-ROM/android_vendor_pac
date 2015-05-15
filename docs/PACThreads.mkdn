@@ -32,7 +32,7 @@
 <a href="http://forum.pac-rom.com/thread-855.html">One (Sprint):               m7spr          tdhite, MallardDuck</a>
 <a href="http://forum.pac-rom.com/thread-767.html">One (T-Mobile):             m7             MaDc0w</a>
 <a href="http://forum.pac-rom.com/thread-597.html">One (Verizon):              m7vzw          Flyhalf205</a>
-<a href="http://forum.pac-rom.com/thread-886.html">One (2014):                 m8             DREWHAMM974, Owain94</a>
+<a href="http://forum.pac-rom.com/thread-1437.html">One (2014):                m8             fizbanrapper, Owain94</a>
 <a href="http://forum.pac-rom.com/thread-973.html">One Max (GSM):              t6             awidawad, Flyhalf205</a>
 <a href="http://forum.pac-rom.com/thread-974.html">One Max (Sprint):           t6spr          awidawad, Flyhalf205</a>
 <a href="http://forum.pac-rom.com/thread-975.html">One Max (Verizon):          t6vzw          awidawad, Flyhalf205</a>
