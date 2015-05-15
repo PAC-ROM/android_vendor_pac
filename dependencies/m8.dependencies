@@ -1,32 +1,32 @@
 [
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_device_htc_m8",
-        "target_path":  "device/htc/mm8",
-        "revision":     "cm-12.0"
+        "target_path":  "device/htc/m8",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_kernel_htc_msm8974",
         "target_path":  "kernel/htc/msm8974",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_hardware_qcom_fm",
         "target_path":  "hardware/qcom/fm",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "Pinky-Inky-and-Clyde",
+        "remote":       "pic",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
-        "revision":     "cm-12.0"
+        "revision":     "cm-12.1"
     }
 ]
