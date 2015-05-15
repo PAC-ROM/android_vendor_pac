@@ -32,7 +32,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2408340">One (Sprint):               m7spr          tdhite, MallardDuck</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2375475">One (T-Mobile):             m7             MaDc0w</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2455127">One (Verizon):              m7vzw          Flyhalf205</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2746553">One (2014):                 m8             DREWHAMM974, Owain94</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2746553">One (2014):                 m8             DREWHAMM974, Owain94, fizbanrapper</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (GSM):              t6             awidawad, Flyhalf205</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Sprint):           t6spr          awidawad, Flyhalf205</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790916">One Max (Verizon):          t6vzw          awidawad, Flyhalf205</a>
