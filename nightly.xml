@@ -21,7 +21,7 @@
   <device name="condor"/>
   <!-- <device name="d2lte"/> -->
   <!-- <device name="e973"/> -->
-  <!-- <device name="e975"/> -->
+  <device name="e975"/>
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>
