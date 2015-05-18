@@ -1,0 +1,20 @@
+[
+ {
+   "account": "CyanogenMod",
+   "repository": "android_device_lge_g2-common",
+   "target_path": "device/lge/g2-common",
+   "revision": "cm-12.1"
+ },
+ {
+    "account": "CyanogenMod",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cm-12.1"
+ },
+ {
+   "account": "bryan2894",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": ""lollipop-mr1"
+ }
+]
