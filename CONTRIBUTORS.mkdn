@@ -128,6 +128,7 @@ HTC:
 ---------------------------------------------------------------------
 * __Amaze 4G (ruby) :__ JoseGalRe, WildfireDEV
 * __Droid DNA (dlx) :__ pio_masaki
+* __Evo 4G LTE (jewel) :__ ocarinaz64
 * __Nexus 9 (flounder) :__ joshuabg
 * __One (AT&T) (m7) :__ MaDc0w, WildfireDEV
 * __One (GSM) (m7) :__ MaDc0w, WildfireDEV
@@ -284,7 +285,7 @@ Xiaomi:
 
 
 
-Total Devices: 130
+Total Devices: 131
 
 Best regards
     szl.kiev
