@@ -1,0 +1,6 @@
+# Allow init to setenforce to set SELinux permissive
+# Allow init to change SELinux to permissive, mostly for TWRP
+# purposes.
+#
+# Allow init to setenforce 0
+allow init kernel:security setenforce;

@@ -220,7 +220,10 @@ neverallow { domain -system_server -recovery } security_file:lnk_file { create s
 # init starts in kernel domain and switches to init domain via setcon in
 # the init.rc, so the setenforce occurs while still in kernel. After
 # switching domains, there is never any need to setenforce again by init.
-neverallow domain kernel:security setenforce;
+# neverallow domain kernel:security setenforce;
+# Override AOSP settings above for setenforce to allow init.rc to set
+# SELinux into permissive, mostly for TWRP purposes.
+neverallow { domain -init } kernel:security setenforce;
 neverallow { domain -kernel } kernel:security setcheckreqprot;
 
 # No booleans in AOSP policy, so no need to ever set them.
