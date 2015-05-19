@@ -71,6 +71,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
 
+# TWRP Recovery
+ifeq ($(RECOVERY_VARIANT),twrp)
+    ifeq ($(PAC_MAKE),recoveryimage)
+        BOARD_SEPOLICY_IGNORE += external/sepolicy/domain.te
+        BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy/twrp
+        BOARD_SEPOLICY_UNION += domain.te init.te recovery.te
+    endif
+endif
+
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
     ADDITIONAL_DEFAULT_PROPERTIES += \
