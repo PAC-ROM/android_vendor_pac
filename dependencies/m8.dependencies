@@ -2,7 +2,7 @@
     {
         "remote":       "ss",
         "repository":   "android_device_htc_m8",
-        "target_path":  "device/htc/mm8",
+        "target_path":  "device/htc/m8",
         "revision":     "pac-5.0"
     },
     {
