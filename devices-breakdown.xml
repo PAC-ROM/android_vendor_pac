@@ -10,6 +10,7 @@
         <device FullName="Nexus 7" CodeName="grouper"/>
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
         <device FullName="Nexus 7 LTE (2013)" CodeName="deb"/>
+        <device FullName="Nexus Player" CodeName="fugu"/>
         <device FullName="Transformer Pad" CodeName="tf300t"/>
         <device FullName="Transformer Pad Infinity" CodeName="tf700t"/>
     </vendor>
