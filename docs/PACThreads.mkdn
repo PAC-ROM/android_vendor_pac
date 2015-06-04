@@ -13,6 +13,7 @@
 <a href="http://forum.pac-rom.com/thread-579.html">Nexus 7:                    grouper        iurnait</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-552.html">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
+<a href="http://forum.pac-rom.com/thread-1484.html">Nexus Player:              fugu           skiwong20, zyonee</a>
 <a href="http://forum.pac-rom.com/thread-638.html">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.pac-rom.com/thread-526.html">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <br>
