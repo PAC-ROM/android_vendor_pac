@@ -109,6 +109,7 @@ ASUS:
 * __Nexus 7 (grouper) :__ iurnait
 * __Nexus 7 (2013) (flo) :__ skiwong20
 * __Nexus 7 LTE (2013) (deb) :__ skiwong20
+* __Nexus Player (fugu) :__ skiwong20, zyonee
 * __Transformer Pad (tf300t) :__ kd8bny
 * __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
 
@@ -289,7 +290,7 @@ Yu:
 
 
 
-Total Devices: 131
+Total Devices: 132
 
 Best regards
     szl.kiev
