@@ -13,6 +13,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2203239">Nexus 7:                    grouper        iurnait</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048596">Nexus 7 (2013):             flo            skiwong20, goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048596">Nexus 7 LTE (2013):         deb            skiwong20, goldflame09</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3140183">Nexus Player:               fugu           skiwong20, zyonee</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2501869">Transformer Pad:            tf300t         kd8bny</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2445827">Transformer Pad Infinity:   tf700t         SectorAndroidRD</a>
 <br>
