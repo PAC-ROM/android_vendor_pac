@@ -68,7 +68,7 @@ usage() {
 
 # PAC version
 export PAC_VERSION_MAJOR="LP-MR1"
-export PAC_VERSION_MINOR="Beta-1"
+export PAC_VERSION_MINOR="Beta-2"
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
