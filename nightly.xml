@@ -58,5 +58,5 @@
   <device name="titan"/>
   <!-- <device name="trltespr"/> -->
   <!-- device name="trltetmo"/> -->
-  <!-- <device name="v500"/> -->
+  <device name="v500"/>
 </manifest>
