@@ -207,12 +207,18 @@
 | Xperia Ray                       | urushi       | [PAC] (http://forum.pac-rom.com/thread-624.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=1803076)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72) & [szl.kiev] (https://github.com/szlkiev)
 
 <br>
+####Xiaomi:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Redmi 1S                         | armani       | [PAC] (http://forum.pac-rom.com/thread-1421.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3095216)   | [TechExhibeo] (https://github.com/TechExhibeo)
+
+<br>
 ####Yu:
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
 | Yureka                           | tomato       | [PAC] (http://forum.pac-rom.com/thread-1426.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3102705)   | [sandymanu] (https://github.com/sandymanu)
 
 <br><br>
-##Total Devices: 84
+##Total Devices: 85
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
