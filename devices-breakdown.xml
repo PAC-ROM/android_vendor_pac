@@ -98,6 +98,9 @@
         <device FullName="Xperia Pro" CodeName="iyokan"/>
         <device FullName="Xperia Ray" CodeName="urushi"/>
     </vendor>
+	<vendor Name="Xiaomi">
+        <device FullName="Redmi 1S" CodeName="armani"/>
+    </vendor>
     <vendor Name="Yu">
         <device FullName="Yureka" CodeName="tomato"/>
     </vendor>
