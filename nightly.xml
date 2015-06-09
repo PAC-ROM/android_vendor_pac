@@ -34,13 +34,13 @@
   <device name="hltespr"/>
   <device name="hltetmo"/>
   <device name="honami"/>
-  <!-- <device name="jflteatt"/>
+  <device name="jflteatt"/>
   <device name="jfltecan"/>
   <device name="jfltespr"/>
   <device name="jfltetmo"/>
   <device name="jflteusc"/>
   <device name="jfltevzw"/>
-  <device name="jfltexx"/> -->
+  <device name="jfltexx"/>
   <!-- <device name="ls980"/> -->
   <device name="m7"/>
   <device name="m7spr"/>
