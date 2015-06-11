@@ -12,6 +12,9 @@ add_lunch_combo pac_tf700t-userdebug
 # Barnes & Noble
 add_lunch_combo pac_acclaim-userdebug
 add_lunch_combo pac_ovation-userdebug
+# Google
+add_lunch_combo pac_sprout4-userdebug
+add_lunch_combo pac_sprout8-userdebug
 # HP
 add_lunch_combo pac_tenderloin-userdebug
 # HTC
