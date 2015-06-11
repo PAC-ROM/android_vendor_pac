@@ -119,6 +119,12 @@ Barnes & Noble:
 * __Nook HD+ (ovation) :__ iPzard
 
 
+Google:
+---------------------------------------------------------------------
+* __Android One 4GB (sprout4) :__ Kunal.Kene.1797
+* __Android One 8GB (sprout8) :__ Kunal.Kene.1797
+
+
 HP:
 ---------------------------------------------------------------------
 * __Touchpad (tenderloin) :__ shumash

@@ -1,0 +1,32 @@
+[
+    {
+        "account":      "Cyanogenmod",
+        "repository":   "android_device_google_sprout-common",
+        "target_path":  "device/google/sprout-common",
+        "revision":     "cm-12.1"
+    },
+    {
+        "account":      "Cyanogenmod",
+        "repository":   "android_device_google_sprout4",
+        "target_path":  "device/google/sprout4",
+        "revision":     "cm-12.1"
+    },
+    {
+        "account":      "Pinky-Inky-and-Clyde",
+        "repository":   "proprietary_vendor_google",
+        "target_path":  "vendor/google",
+        "revision":     "cm-12.1"
+    },
+    {
+        "account":      "Cyanogenmod",
+        "repository":   "android_kernel_mediatek_sprout",
+        "target_path":  "kernel/mediatek/sprout",
+        "revision":     "cm-12.1"
+    },
+    {
+        "account":      "Cyanogenmod",
+        "repository":   "android_packages_apps_FMRadio",
+        "target_path":  "packages/apps/FMRadio",
+        "revision":     "cm-12.1"
+    }
+]
