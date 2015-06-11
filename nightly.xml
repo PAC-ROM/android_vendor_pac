@@ -52,6 +52,8 @@
   <!-- <device name="serrano3gxx"/> -->
   <!-- <device name="serranoltexx"/> -->
   <device name="shamu"/>
+  <device name="sprout4"/>
+  <device name="sprout8"/>
   <device name="spyder"/>
   <device name="thea"/>
   <device name="tomato"/>
