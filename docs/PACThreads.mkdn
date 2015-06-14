@@ -121,7 +121,7 @@
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (AT&T):        jflteatt       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Canadian):    jfltecan       Nick0703, JoseGalRe</a>
-<a href="http://forum.pac-rom.com/thread-609.html">Galaxy S IV (GSM):          i9500          OPEN</a>
+<a href="http://forum.pac-rom.com/thread-1377.html">Galaxy S IV (GSM):         i9500          Kung fu monkey</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (LTE):         jfltexx        Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (Sprint):      jfltespr       Nick0703, JoseGalRe</a>
 <a href="http://forum.pac-rom.com/thread-1371.html">Galaxy S IV (T-Mobile):    jfltetmo       Nick0703, JoseGalRe</a>
