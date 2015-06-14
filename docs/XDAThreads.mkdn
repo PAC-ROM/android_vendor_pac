@@ -119,7 +119,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2028443">Galaxy S III (Verizon):     d2lte          Papa Smurf151</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (AT&T):         jflteatt       Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2312024">Galaxy S IV (Canadian):     jfltecan       Nick0703, JoseGalRe</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2396173">Galaxy S IV (GSM):          i9500          OPEN</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2990919">Galaxy S IV (GSM):          i9500          Kung Fu monkey</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048999">Galaxy S IV (LTE):          jfltexx        Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048988">Galaxy S IV (Sprint):       jfltespr       Nick0703, JoseGalRe</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2668312">Galaxy S IV (T-Mobile):     jfltetmo       Nick0703, JoseGalRe</a>
