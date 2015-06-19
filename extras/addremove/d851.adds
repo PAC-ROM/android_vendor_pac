@@ -1,0 +1,31 @@
+[
+    {
+        "remote":       "github",
+        "account":      "Eliminater74",
+        "repository":   "g3_kernel",
+        "target_path":  "kernel/lge/g3",
+        "revision":     "777kernel-test"
+    },
+    {
+        "remote":       "github",
+        "account":      "Eliminater74",
+        "repository":   "packages_apps_KernelAdiutor",
+        "target_path":  "packages/apps/KernelAdiutor",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "Eliminater74",
+        "repository":   "packages_apps_FloatingActionButton",
+        "target_path":  "packages/apps/FloatingActionButton",
+        "revision":     "lp5.1"
+    },
+    {
+        "remote":       "github",
+        "account":      "Eliminater74",
+        "repository":   "android_packages_apps_OmniGears",
+        "target_path":  "packages/apps/OmniGears",
+        "revision":     "lp5.1"
+    }
+    
+]

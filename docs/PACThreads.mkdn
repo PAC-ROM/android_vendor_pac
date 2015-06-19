@@ -58,6 +58,7 @@
 <a href="http://forum.pac-rom.com/thread-563.html">Optimus G2 (Sprint):        ls980          goldflame09</a>
 <a href="http://forum.pac-rom.com/thread-645.html">Optimus G2 (Verizon):       vs980          tucstwo</a>
 <a href="http://forum.pac-rom.com/thread-1368.html">G3 (Sprint):               ls990          MallardDuck</a>
+<a href="http://forum.pac-rom.com/thread-????.html">G3 (T-Mobile):             d851           Eliminater74</a>
 <a href="http://forum.pac-rom.com/thread-964.html">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-922.html">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.pac-rom.com/thread-???.html">Optimus L7:                 p705           coderzs</a>

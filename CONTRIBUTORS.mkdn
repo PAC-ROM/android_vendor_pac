@@ -162,6 +162,7 @@ LG:
 * __Optimus G2 (Sprint) (ls980) :__ OPEN
 * __Optimus G2 (Verizon) (vs980) :__ tucstwo
 * __G3 (Sprint) (ls990) :__ MallardDuck
+* __G3 (T-Mobile) (d851) :__ Eliminater74
 * __Optimus L5 (e610) :__ aidasaidas75
 * __Optimus L7 (p700) :__ aidasaidas75
 * __Optimus L7 (p705) :__ coderzstas

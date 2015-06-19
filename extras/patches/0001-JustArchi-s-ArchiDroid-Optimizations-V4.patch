@@ -1,0 +1,338 @@
+From 4d41edba74daaeb391f162a9c4ec150d0002f744 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=C5=81ukasz=20Domeradzki?= <JustArchi@JustArchi.net>
+Date: Tue, 24 Mar 2015 03:10:38 +0100
+Subject: [PATCH] JustArchi's ArchiDroid Optimizations V4
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+     _             _     _ ____            _     _
+    / \   _ __ ___| |__ (_)  _ \ _ __ ___ (_) __| |
+   / _ \ | '__/ __| '_ \| | | | | '__/ _ \| |/ _` |
+  / ___ \| | | (__| | | | | |_| | | | (_) | | (_| |
+ /_/   \_\_|  \___|_| |_|_|____/|_|  \___/|_|\__,_|
+
+Copyright (C) 2015 Łukasz "JustArchi" Domeradzki
+----------------------------------------------------------------------------------------------------------------
+This is the squashed commit of countless hours spent on trying to optimize Android to the maximum and push it to the limits.
+Please give proper credit if you decide to cherry-pick this commit. It includes countless number of full builds and tests, almost 200 hours (KK), and additional 100 hours (LP) spent on compiling and testing
+----------------------------------------------------------------------------------------------------------------
+WARNING! These modifcations are pretty DANGEROUS and may cause problems during compiling or running. You may also need to implement some fixes on your own.
+----------------------------------------------------------------------------------------------------------------
+Pre-requirements:
+- GCC 4.8, both androideabi and armeabi. Fortunately for us, Lollipop already uses GCC 4.8, but it's in outdated versions and has some internal compiler errors with O3 flags this commit applies. Therefore, I suggest:
+1. SaberMod 4.8 arm-linux-androideabi -> https://github.com/ArchiDroid/Toolchain/tree/sabermod-4.8-arm-linux-androideabi (original source: https://gitlab.com/SaberMod/arm-linux-androideabi-4.8/tree/master)
+2. ArchiToolchain 4.9 arm-eabi -> https://github.com/ArchiDroid/Toolchain/tree/architoolchain-4.9-arm-linux-gnueabi-generic
+(Please notice that ArchiToolchain is available in many variants, you may want to select the one that suits you best, e.g. Cortex A9 onex)
+
+- (Optional) Target user, instead of userdebug. You should build with user variant instead of userdebug, as user variant in general pre-optimizes some parts and disables additional debug modules, i.e. dalvik debugging, procmem/procrank binaries and so.
+This can be done by multiple ways, e.g. using proper lunch command (i.e. lunching cm_i9300-user instead of cm_i9300-userdebug) or "brunch device user", such as "brunch i9300 user", if your android_build includes my CM commit -> https://github.com/CyanogenMod/android_build/commit/73db70d928f4a7af1d4a0a255327c6ff5d8ffbc9
+----------------------------------------------------------------------------------------------------------------
+Important notes:
+- This commit has been tested on up-to-date CM-12.0 (Android 5.0.2), SaberMod's androideabi, and ArchiToolchain's eabi toolchains. Other ROMs and toolchains may, or may not, work out of the box with it.
+- You can ask for help in such cases in the XDA thread linked on the bottom of the commit.
+- You're applying these optimizations on your own risk, I highly suggest to understand what each of the flag does, and not trying to blindly "apply them all" and hope for the best. Also, due to various hacks and issues in various trees and devices, I can't assure you that what works for me, will also work for you.
+- Fortunately for you, my test device is Samsung Galaxy S3 with the nightmare Exynos4 SoC, so it's likely that it should work for major of the (better done) devices.
+- As pointed in pre-requirements, stock AOSP toolchains are outdated and have many internal compiler errors. This commit probably can work on stock AOSP toolchains, but you'll need to get rid of some flags that are causing those errors on AOSP toolchains (e.g. -O3 for thumb)
+- Due to O3 optimization, code is significantly larger and may cause problems with oversized images especially for older devices. For example, I couldn't apply O3 because building TWRP recovery failed due to the fact that it didn't fit on recovery's block in my device. In such case you have two options. You can use my little hack that ignored recovery size, so compiler doesn't yell about that (but you obviously can't flash such images), or you need to go back either to O2 or Os (for thumb), up to you.
+----------------------------------------------------------------------------------------------------------------
+Important changes:
+- Optimized for speed yet more all instructions - ARM and THUMB (-O3)
+- Optimized for speed also parts which are compiled with Clang (-O3)
+- Turned off all debugging code (lack of -g)
+- Eliminated redundant loads that come after stores to the same memory location, both partial and full redundancies (-fgcse-las)
+- Ran a store motion pass after global common subexpression elimination. This pass attempts to move stores out of loops (-fgcse-sm)
+- Performed interprocedural pointer analysis and interprocedural modification and reference analysis (-fipa-pta)
+- Performed induction variable optimizations (strength reduction, induction variable merging and induction variable elimination) on trees (-fivopts)
+- Didn't keep the frame pointer in a register for functions that don't need one. This avoids the instructions to save, set up and restore frame pointers; it also makes an extra register available in many functions (-fomit-frame-pointer)
+- Attempted to avoid false dependencies in scheduled code by making use of registers left over after register allocation. This optimization most benefits processors with lots of registers (-frename-registers)
+- Tried to reduce the number of symbolic address calculations by using shared “anchor” symbols to address nearby objects. This transformation can help to reduce the number of GOT entries and GOT accesses on some targets (-fsection-anchors)
+- Performed tail duplication to enlarge superblock size. This transformation simplifies the control flow of the function allowing other optimizations to do a better job (-ftracer)
+- Performed loop invariant motion on trees. It also moved operands of conditions that are invariant out of the loop, so that we can use just trivial invariantness analysis in loop unswitching. The pass also includes store motion (-ftree-loop-im)
+- Created a canonical counter for number of iterations in loops for which determining number of iterations requires complicated analysis. Later optimizations then may determine the number easily (-ftree-loop-ivcanon)
+- Assumed that loop indices do not overflow, and that loops with nontrivial exit condition are not infinite. This enables a wider range of loop optimizations even if the loop optimizer itself cannot prove that these assumptions are valid (-funsafe-loop-optimizations)
+- Moved branches with loop invariant conditions out of the loop (-funswitch-loops)
+- Constructed webs as commonly used for register allocation purposes and assigned each web individual pseudo register. This allows the register allocation pass to operate on pseudos directly, but also strengthens several other optimization passes, such as CSE, loop optimizer and trivial dead code remover (-fweb)
+- Sorted the common symbols by alignment in descending order. This is to prevent gaps between symbols due to alignment constraints (-Wl,--sort-common)
+----------------------------------------------------------------------------------------------------------------
+
+For more information, support, troubleshooting and discussion about my optimizations, please refer to my thread on XDA -> http://forum.xda-developers.com/showthread.php?t=2754997
+
+Change-Id: I2068b32f99466b18358d503113f0bd7c023ec863
+---
+ core/Makefile                   |   5 ++
+ core/archidroid.mk              | 121 ++++++++++++++++++++++++++++++++++++++++
+ core/clang/config.mk            |   7 +++
+ core/combo/HOST_linux-x86.mk    |   2 +-
+ core/combo/HOST_linux-x86_64.mk |   2 +-
+ core/combo/TARGET_linux-arm.mk  |  14 +++--
+ core/combo/select.mk            |   2 +-
+ 7 files changed, 146 insertions(+), 7 deletions(-)
+ create mode 100755 core/archidroid.mk
+
+diff --git a/core/Makefile b/core/Makefile
+index 1ab7d04..da6cff6 100644
+--- a/core/Makefile
++++ b/core/Makefile
+@@ -905,6 +905,9 @@ else
+         build/target/product/security/cm-devkey
+ endif
+ 
++# ArchiDroid
++include $(BUILD_SYSTEM)/archidroid.mk
++
+ # Generate a file containing the keys that will be read by the
+ # recovery binary.
+ RECOVERY_INSTALL_OTA_KEYS := \
+@@ -966,7 +969,9 @@ $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) $(recovery_ramdisk) \
+ ifeq (true,$(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_SUPPORTS_VERITY))
+ 	$(BOOT_SIGNER) /recovery $@ $(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_VERITY_SIGNING_KEY).pk8 $(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_VERITY_SIGNING_KEY).x509.pem $@
+ endif
++ifneq ($(ARCHIDROID_IGNORE_RECOVERY_SIZE),true)
+ 	$(hide) $(call assert-max-image-size,$@,$(BOARD_RECOVERYIMAGE_PARTITION_SIZE))
++endif
+ 	@echo -e ${CL_CYN}"Made recovery image: $@"${CL_RST}
+ 
+ endif # BOARD_CUSTOM_BOOTIMG_MK
+diff --git a/core/archidroid.mk b/core/archidroid.mk
+new file mode 100755
+index 0000000..d672f3a
+--- /dev/null
++++ b/core/archidroid.mk
+@@ -0,0 +1,121 @@
++#     _             _     _ ____            _     _
++#    / \   _ __ ___| |__ (_)  _ \ _ __ ___ (_) __| |
++#   / _ \ | '__/ __| '_ \| | | | | '__/ _ \| |/ _` |
++#  / ___ \| | | (__| | | | | |_| | | | (_) | | (_| |
++# /_/   \_\_|  \___|_| |_|_|____/|_|  \___/|_|\__,_|
++#
++# Copyright 2015 Łukasz "JustArchi" Domeradzki
++# Contact: JustArchi@JustArchi.net
++#
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#     http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++
++# GCC
++
++# General optimization level of target ARM compiled with GCC. Default: -O2
++ARCHIDROID_GCC_CFLAGS_ARM := -O3
++
++# General optimization level of target THUMB compiled with GCC. Default: -Os
++ARCHIDROID_GCC_CFLAGS_THUMB := -O3
++
++# Additional flags passed to all C targets compiled with GCC
++ARCHIDROID_GCC_CFLAGS := -O3 -fgcse-las -fgcse-sm -fipa-pta -fivopts -fomit-frame-pointer -frename-registers -fsection-anchors -ftracer -ftree-loop-im -ftree-loop-ivcanon -funsafe-loop-optimizations -funswitch-loops -fweb -Wno-error=array-bounds -Wno-error=clobbered -Wno-error=maybe-uninitialized -Wno-error=strict-overflow
++
++############################
++### EXPERIMENTAL SECTION ###
++############################
++
++# The following flags were tested, and found to be causing compilation issues / other problems
++
++# ARCHIDROID_GCC_CFLAGS += -fmodulo-sched -fmodulo-sched-allow-regmoves
++# Disabled because of:
++# {standard input}: Assembler messages:
++# {standard input}:571: Error: symbol `.LPIC38' is already defined
++# external/chromium_org/third_party/zlib/crc32.c
++
++# If your arm-linux-androideabi includes support for graphite optimization flags (CLooG), enable additional flags
++
++ ARCHIDROID_GCC_CFLAGS += -fgraphite
++# Disabled because of internal compiler error:
++# 0x5ceefc gsi_for_stmt(gimple_statement_d*)
++# 0xa8788e insert_out_of_ssa_copy
++# 0xa87ede rewrite_phi_out_of_ssa
++# 0xa8e233 rewrite_reductions_out_of_ssa
++# 0xa8e233 build_poly_scop(scop*)
++# 0xa79686 graphite_transform_loops()
++# 0x7dca56 graphite_transforms
++
++############################
++### EXPERIMENTAL SECTION ###
++############################
++
++# Flags passed to all C++ targets compiled with GCC
++ARCHIDROID_GCC_CPPFLAGS := $(ARCHIDROID_GCC_CFLAGS)
++
++# Flags passed to linker (ld) of all C and C++ targets compiled with GCC
++ARCHIDROID_GCC_LDFLAGS := -Wl,--sort-common
++
++
++# CLANG
++
++# Flags passed to all C targets compiled with CLANG
++ARCHIDROID_CLANG_CFLAGS := -O3 -Qunused-arguments -Wno-unknown-warning-option
++
++# Flags passed to all C++ targets compiled with CLANG
++ARCHIDROID_CLANG_CPPFLAGS := $(ARCHIDROID_CLANG_CFLAGS)
++
++# Flags passed to linker (ld) of all C and C++ targets compiled with CLANG
++ARCHIDROID_CLANG_LDFLAGS := -Wl,--sort-common
++
++# Flags that are used by GCC, but are unknown to CLANG. If you get "argument unused during compilation" error, add the flag here
++ARCHIDROID_CLANG_UNKNOWN_FLAGS := \
++  -mvectorize-with-neon-double \
++  -mvectorize-with-neon-quad \
++  -fgcse-after-reload \
++  -fgcse-las \
++  -fgcse-sm \
++  -fgraphite \
++  -fgraphite-identity \
++  -fipa-pta \
++  -floop-block \
++  -floop-interchange \
++  -floop-nest-optimize \
++  -floop-parallelize-all \
++  -ftree-parallelize-loops=2 \
++  -ftree-parallelize-loops=4 \
++  -ftree-parallelize-loops=8 \
++  -ftree-parallelize-loops=16 \
++  -floop-strip-mine \
++  -fmodulo-sched \
++  -fmodulo-sched-allow-regmoves \
++  -frerun-cse-after-loop \
++  -frename-registers \
++  -fsection-anchors \
++  -ftree-loop-im \
++  -ftree-loop-ivcanon \
++  -funsafe-loop-optimizations \
++  -fweb
++
++
++# General
++
++# Most of the flags are increasing code size of the output binaries, especially O3 instead of Os for target THUMB
++# This may become problematic for small blocks, especially for boot or recovery blocks (ramdisks)
++# If you don't care about the size of recovery.img, e.g. you have no use of it, and you want to silence the
++# error "image too large" for recovery.img, use this definition
++#
++# NOTICE: It's better to use device-based flag TARGET_NO_RECOVERY instead, but some devices may have
++# boot + recovery combo (e.g. Sony Xperias), and we must build recovery for them, so we can't set TARGET_NO_RECOVERY globally
++# Therefore, this seems like a safe approach (will only ignore check on recovery.img, without doing anything else)
++# However, if you use compiled recovery.img for your device, please disable this flag (comment or set to false), and lower
++# optimization levels instead
++ARCHIDROID_IGNORE_RECOVERY_SIZE := true
+diff --git a/core/clang/config.mk b/core/clang/config.mk
+index 9c11797..c5d221f 100644
+--- a/core/clang/config.mk
++++ b/core/clang/config.mk
+@@ -35,6 +35,12 @@ CLANG_CONFIG_EXTRA_CFLAGS :=
+ CLANG_CONFIG_EXTRA_CPPFLAGS :=
+ CLANG_CONFIG_EXTRA_LDFLAGS :=
+ 
++# ArchiDroid
++include $(BUILD_SYSTEM)/archidroid.mk
++CLANG_CONFIG_EXTRA_CFLAGS += $(ARCHIDROID_CLANG_CFLAGS)
++CLANG_CONFIG_EXTRA_CPPFLAGS += $(ARCHIDROID_CLANG_CPPFLAGS)
++CLANG_CONFIG_EXTRA_LDFLAGS += $(ARCHIDROID_CLANG_LDFLAGS)
++
+ CLANG_CONFIG_EXTRA_CFLAGS += \
+   -D__compiler_offsetof=__builtin_offsetof
+ 
+@@ -48,6 +54,7 @@ CLANG_CONFIG_EXTRA_CFLAGS += \
+   -Wno-unused-command-line-argument
+ 
+ CLANG_CONFIG_UNKNOWN_CFLAGS := \
++  $(ARCHIDROID_CLANG_UNKNOWN_FLAGS) \
+   -funswitch-loops \
+   -fno-tree-sra \
+   -finline-limit=64 \
+diff --git a/core/combo/HOST_linux-x86.mk b/core/combo/HOST_linux-x86.mk
+index 3ca7443..5615b5f 100644
+--- a/core/combo/HOST_linux-x86.mk
++++ b/core/combo/HOST_linux-x86.mk
+@@ -31,7 +31,7 @@ endif # $($(combo_2nd_arch_prefix)HOST_TOOLCHAIN_PREFIX)gcc exists
+ $(combo_2nd_arch_prefix)HOST_TOOLCHAIN_FOR_CLANG := prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/
+ 
+ # We expect SSE3 floating point math.
+-$(combo_2nd_arch_prefix)HOST_GLOBAL_CFLAGS += -mstackrealign -msse3 -mfpmath=sse -m32 -Wa,--noexecstack -march=prescott
++$(combo_2nd_arch_prefix)HOST_GLOBAL_CFLAGS += -mstackrealign -msse3 -mfpmath=sse -m32 -Wa,--noexecstack -march=native
+ $(combo_2nd_arch_prefix)HOST_GLOBAL_LDFLAGS += -m32 -Wl,-z,noexecstack
+ 
+ ifneq ($(strip $(BUILD_HOST_static)),)
+diff --git a/core/combo/HOST_linux-x86_64.mk b/core/combo/HOST_linux-x86_64.mk
+index 53a3ae8..1ae777f 100644
+--- a/core/combo/HOST_linux-x86_64.mk
++++ b/core/combo/HOST_linux-x86_64.mk
+@@ -30,7 +30,7 @@ endif # $(HOST_TOOLCHAIN_PREFIX)gcc exists
+ # gcc location for clang; to be updated when clang is updated
+ HOST_TOOLCHAIN_FOR_CLANG := prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6/
+ 
+-HOST_GLOBAL_CFLAGS += -m64 -Wa,--noexecstack
++HOST_GLOBAL_CFLAGS += -m64 -march=native -Wa,--noexecstack
+ HOST_GLOBAL_LDFLAGS += -m64 -Wl,-z,noexecstack
+ 
+ ifneq ($(strip $(BUILD_HOST_static)),)
+diff --git a/core/combo/TARGET_linux-arm.mk b/core/combo/TARGET_linux-arm.mk
+index c56762c..60e659b 100644
+--- a/core/combo/TARGET_linux-arm.mk
++++ b/core/combo/TARGET_linux-arm.mk
+@@ -71,17 +71,24 @@ $(combo_2nd_arch_prefix)TARGET_STRIP := $($(combo_2nd_arch_prefix)TARGET_TOOLS_P
+ 
+ $(combo_2nd_arch_prefix)TARGET_NO_UNDEFINED_LDFLAGS := -Wl,--no-undefined
+ 
+-$(combo_2nd_arch_prefix)TARGET_arm_CFLAGS :=    -O2 \
++# ArchiDroid
++include $(BUILD_SYSTEM)/archidroid.mk
++
++$(combo_2nd_arch_prefix)TARGET_arm_CFLAGS :=    $(ARCHIDROID_GCC_CFLAGS_ARM) \
+                         -fomit-frame-pointer \
+                         -fstrict-aliasing    \
+                         -funswitch-loops
+ 
+ # Modules can choose to compile some source as thumb.
+ $(combo_2nd_arch_prefix)TARGET_thumb_CFLAGS :=  -mthumb \
+-                        -Os \
++                        $(ARCHIDROID_GCC_CFLAGS_THUMB) \
+                         -fomit-frame-pointer \
+                         -fno-strict-aliasing
+ 
++$(combo_2nd_arch_prefix)TARGET_GLOBAL_CFLAGS += $(ARCHIDROID_GCC_CFLAGS)
++$(combo_2nd_arch_prefix)TARGET_GLOBAL_CPPFLAGS += $(ARCHIDROID_GCC_CPPFLAGS)
++$(combo_2nd_arch_prefix)TARGET_GLOBAL_LDFLAGS += $(ARCHIDROID_GCC_LDFLAGS)
++
+ # Set FORCE_ARM_DEBUGGING to "true" in your buildspec.mk
+ # or in your environment to force a full arm build, even for
+ # files that are normally built as thumb; this can make
+@@ -118,7 +125,7 @@ $(combo_2nd_arch_prefix)TARGET_GLOBAL_CFLAGS += \
+ # "-Wall -Werror" due to a commom idiom "ALOGV(mesg)" where ALOGV is turned
+ # into no-op in some builds while mesg is defined earlier. So we explicitly
+ # disable "-Wunused-but-set-variable" here.
+-ifneq ($(filter 4.6 4.6.% 4.7 4.7.% 4.8, $($(combo_2nd_arch_prefix)TARGET_GCC_VERSION)),)
++ifneq ($(filter 4.6 4.6.% 4.7 4.7.% 4.8 4.8.% 4.9 4.9.%, $($(combo_2nd_arch_prefix)TARGET_GCC_VERSION)),)
+ $(combo_2nd_arch_prefix)TARGET_GLOBAL_CFLAGS += -fno-builtin-sin \
+ 			-fno-strict-volatile-bitfields
+ endif
+@@ -157,7 +164,6 @@ endif
+ # More flags/options can be added here
+ $(combo_2nd_arch_prefix)TARGET_RELEASE_CFLAGS := \
+ 			-DNDEBUG \
+-			-g \
+ 			-Wstrict-aliasing=2 \
+ 			-fgcse-after-reload \
+ 			-frerun-cse-after-loop \
+diff --git a/core/combo/select.mk b/core/combo/select.mk
+index 962bde5..a5fa3b5 100644
+--- a/core/combo/select.mk
++++ b/core/combo/select.mk
+@@ -50,7 +50,7 @@ $(combo_var_prefix)HAVE_STRLCAT := 0
+ $(combo_var_prefix)HAVE_KERNEL_MODULES := 0
+ 
+ $(combo_var_prefix)GLOBAL_CFLAGS := -fno-exceptions -Wno-multichar
+-$(combo_var_prefix)RELEASE_CFLAGS := -O2 -g -fno-strict-aliasing
++$(combo_var_prefix)RELEASE_CFLAGS := -O3 -fno-strict-aliasing
+ $(combo_var_prefix)GLOBAL_CPPFLAGS :=
+ $(combo_var_prefix)GLOBAL_LDFLAGS :=
+ $(combo_var_prefix)GLOBAL_ARFLAGS := crsPD
+-- 
+2.1.4
+
