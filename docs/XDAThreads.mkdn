@@ -57,6 +57,7 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=2669063">Optimus G2 (T-Mobile):      d801           goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2669074">Optimus G2 (Sprint):        ls980          goldflame09</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2542006">Optimus G2 (Verizon):       vs980          tucstwo</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=3083910">G3        (T-Mobile):       d851           Eliminater74</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2790982">Optimus L5:                 e610           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2769502">Optimus L7:                 p700           aidasaidas75</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2704650">Optimus L7:                 p705           coderzs</a>
