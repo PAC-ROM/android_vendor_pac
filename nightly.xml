@@ -56,7 +56,7 @@
   <device name="thea"/>
   <device name="tomato"/>
   <device name="titan"/>
-  <!-- <device name="trltespr"/> -->
-  <!-- device name="trltetmo"/> -->
+  <device name="trltespr"/>
+  <device name="trltetmo"/>
   <device name="v500"/>
 </manifest>

@@ -220,7 +220,7 @@ Samsung:
 * __Galaxy Note 3 (Sprint) (hltespr) :__ encho
 * __Galaxy Note 3 (T-Mobile) (hltetmo) :__ encho
 * __Galaxy Note 4 (Sprint) (trltespr) :__ spleef
-* __Galaxy Note 4 (T-Mobile) (trltetmo) :__ spleef
+* __Galaxy Note 4 (T-Mobile) (trltetmo) :__ HearMeWhisper
 * __Galaxy Note 8.0 (GSM) (N5100) :__ ryukiri
 * __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
 * __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
