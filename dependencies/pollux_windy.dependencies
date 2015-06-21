@@ -31,8 +31,8 @@
  },
  {
     "remote": "ss",
-    "repository": "android_device_sony_msm8960-common",
-    "target_path": "device/sony/msm8960-common",
+    "repository": "android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
     "revision": "pac-5.1"
  },
  {
