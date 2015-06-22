@@ -10,3 +10,4 @@ include vendor/pac/config/pac_common.mk
 # Inherit CM device configuration
 $(call inherit-product, device/google/sprout8/cm.mk)
 
+endif
