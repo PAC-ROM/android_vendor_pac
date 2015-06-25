@@ -48,7 +48,7 @@
   <device name="m7vzw"/>
   <device name="m8"/>
   <!-- <device name="n5100"/> -->
-  <!-- <device name="n5110"/> -->
+  <device name="n5110"/>
   <device name="obake"/>
   <!-- <device name="serrano3gxx"/> -->
   <!-- <device name="serranoltexx"/> -->
