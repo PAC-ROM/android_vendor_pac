@@ -129,45 +129,12 @@ case $device in
         cherries+=(84179_CM)
         # vold: add ro.vold.umsdirtyratio property
         cherries+=(88635_CM)
-
-    ;;
-    s2ve | s2vep)
-        # av patch
-        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-FRAMEWORKS-AV-PATCH-for-s2ve-s2vep-device.patch"
-        FOLDER=frameworks/av
-        patch_it true
-        # native patch
-        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-FRAMEWORKS-NATIVE-PATCH-for-s2ve-s2vep-device.patch"
-        FOLDER=frameworks/native
-        patch_it true
-        # bluetooth patch
-        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Add-BT-support-for-s2ve-s2vep.patch"
-        FOLDER=hardware/broadcom/libbt
-        patch_it true
-        # hwc patch
-        PATCH="https://raw.githubusercontent.com/luk1337/build_tools/pac/0001-Fix-HWC-for-s2ve-s2vep.patch"
-        FOLDER=external/chromium_org
-        patch_it true
     ;;
     p705)
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
         #cherries+=(1343_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         # Allow using Classic WebView
         cherries+=(56054_CM)
-    ;;
-    ariesve | ancora)
-        #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
-        cherries+=(58227_CM)
-        #Overlay support for legacy camera libs
-        cherries+=(58228_CM)
-        #sensorservice: Add legacy sensors fusion.
-        cherries+=(81684_CM)
-        #native: add flag to disable legacy sensors fusion
-        cherries+=(36732_CM)
-        #linker: restore prelink support
-        cherries+=(78604_CM)
-        #Revert "Revert "Reenable support for non-PIE executables""
-        cherries+=(79136_CM)
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
