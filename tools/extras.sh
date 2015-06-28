@@ -155,20 +155,6 @@ case $device in
         # Allow using Classic WebView
         cherries+=(56054_CM)
     ;;
-    ariesve | ancora)
-        #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
-        cherries+=(58227_CM)
-        #Overlay support for legacy camera libs
-        cherries+=(58228_CM)
-        #sensorservice: Add legacy sensors fusion.
-        cherries+=(81684_CM)
-        #native: add flag to disable legacy sensors fusion
-        cherries+=(36732_CM)
-        #linker: restore prelink support
-        cherries+=(78604_CM)
-        #Revert "Revert "Reenable support for non-PIE executables""
-        cherries+=(79136_CM)
-    ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
         PATCH=tenderloin_13-11-25_btservice-AdaperState-handle-ENABLED_READY
