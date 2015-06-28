@@ -1,8 +1,4 @@
 <devices>
-    <vendor Name="Acer">
-        <device FullName="Iconia A510/A511" CodeName="a510/a511"/>
-        <device FullName="Iconia A700/A701" CodeName="a700/a701"/>
-    </vendor>
     <vendor Name="Amazon">
         <device FullName="Kindle Fire" CodeName="otterx"/>
     </vendor>
@@ -11,12 +7,6 @@
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
         <device FullName="Nexus 7 LTE (2013)" CodeName="deb"/>
         <device FullName="Nexus Player" CodeName="fugu"/>
-        <device FullName="Transformer Pad" CodeName="tf300t"/>
-        <device FullName="Transformer Pad Infinity" CodeName="tf700t"/>
-    </vendor>
-    <vendor Name="Barnes and Noble">
-        <device FullName="Nook" CodeName="acclaim"/>
-        <device FullName="Nook HD+" CodeName="ovation"/>
     </vendor>
     <vendor Name="Google">
         <device FullName="Android One 4GB" CodeName="sprout4"/>
@@ -26,47 +16,28 @@
         <device FullName="Touchpad" CodeName="tenderloin"/>
     </vendor>
     <vendor Name="HTC">
-        <device FullName="Amaze 4G" CodeName="ruby"/>
-        <device FullName="Droid DNA" CodeName="dlx"/>
         <device FullName="Evo 4G LTE" CodeName="jewel"/>
         <device FullName="Nexus 9" CodeName="flounder"/>
-        <device FullName="One (AT&amp;T, GSM, T-Mobile)" CodeName="m7"/>
-        <device FullName="One (Sprint)" CodeName="m7spr"/>
-        <device FullName="One (Verizon)" CodeName="m7vzw"/>
-        <device FullName="One (2014)" CodeName="m8"/>
+        <device FullName="One 2013 (AT&amp;T, GSM, T-Mobile)" CodeName="m7"/>
+        <device FullName="One 2013 (Sprint)" CodeName="m7spr"/>
+        <device FullName="One 2013 (Verizon)" CodeName="m7vzw"/>
+        <device FullName="One 2014" CodeName="m8"/>
         <device FullName="One Max (GSM)" CodeName="t6"/>
         <device FullName="One Max (Sprint)" CodeName="t6spr"/>
         <device FullName="One Max (Verizon)" CodeName="t6vzw"/>
-        <device FullName="One Mini" CodeName="m4"/>
-        <device FullName="One S" CodeName="ville"/>
         <device FullName="One XL" CodeName="evita"/>
-        <device FullName="Sensation" CodeName="pyramid"/>
-        <device FullName="Vivid" CodeName="holiday"/>
     </vendor>
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
-        <device FullName="Nexus 4" CodeName="mako"/>
-        <device FullName="Nexus 5" CodeName="hammerhead"/>
-        <device FullName="Optimus G (Canadian)" CodeName="e973"/>
-        <device FullName="Optimus G (International)" CodeName="e975"/>
-        <device FullName="Optimus G (Sprint)" CodeName="ls970"/>
-        <device FullName="Optimus G Pro" CodeName="e980"/>
-        <device FullName="Optimus G2 (AT&amp;T)" CodeName="d800"/>
-        <device FullName="Optimus G2 (Canadian)" CodeName="d803"/>
-        <device FullName="Optimus G2 (GSM)" CodeName="d802"/>
-        <device FullName="Optimus G2 (T-Mobile)" CodeName="d801"/>
-        <device FullName="Optimus G2 (Sprint)" CodeName="ls980" />
-        <device FullName="Optimus G2 (Verizon)" CodeName="vs980"/>
         <device FullName="G3 (Sprint)" CodeName="ls990" />
-        <device FullName="Optimus L5" CodeName="e610"/>
-        <device FullName="Optimus L7" CodeName="p700"/>
-        <device FullName="Optimus L7" CodeName="p705"/>
+        <device FullName="Nexus 5" CodeName="hammerhead"/>
+        <device FullName="Optimus G (International)" CodeName="e975"/>
+        <device FullName="Optimus G Pro" CodeName="e980"/>
     </vendor>
     <vendor Name="Motorola">
         <device FullName="Droid Maxx (GSM,Verizon), Droid Ultra (GSM,Verizon), Droid Mini (GSM,Verizon)" CodeName="obake"/>
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
-        <device FullName="Droid Razr M (Verizon), Photon Q 4G LTE" CodeName="moto_msm8960"/>
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto G 2014" CodeName="titan"/>
@@ -80,19 +51,7 @@
     <vendor Name="OnePlus">
         <device FullName="One" CodeName="bacon"/>
     </vendor>
-    <vendor Name="Oppo">
-        <device FullName="Find5" CodeName="find5"/>
-        <device FullName="N1" CodeName="n1"/>
-    </vendor>
     <vendor Name="Samsung">
-        <device FullName="Galaxy Nexus (GSM)" CodeName="maguro"/>
-        <device FullName="Galaxy Note 2 (AT&amp;T)" CodeName="t0lteatt"/>
-        <device FullName="Galaxy Note 2 (GSM)" CodeName="n7100"/>
-        <device FullName="Galaxy Note 2 (LTE)" CodeName="t0lte"/>
-        <device FullName="Galaxy Note 2 (Sprint)" CodeName="l900"/>
-        <device FullName="Galaxy Note 2 (T-Mobile)" CodeName="t0ltetmo"/>
-        <device FullName="Galaxy Note 2 (US Cellular)" CodeName="r950"/>
-        <device FullName="Galaxy Note 2 (Verizon)" CodeName="i605"/>
         <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>
         <device FullName="Galaxy Note 3 (Sprint)" CodeName="hltespr"/>
         <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>
@@ -101,12 +60,6 @@
         <device FullName="Galaxy Note 8.0 (GSM)" CodeName="N5100"/>
         <device FullName="Galaxy Note 8.0 (LTE)" CodeName="N5120"/>
         <device FullName="Galaxy Note 8.0 (Wi-Fi)" CodeName="N5110"/>
-        <device FullName="Galaxy Player 5.0" CodeName="venturi"/>
-        <device FullName="Galaxy S I" CodeName="galaxysmtd"/>
-        <device FullName="Galaxy S I Plus" CodeName="ariesve"/>
-        <device FullName="Galaxy S II" CodeName="i9100"/>
-        <device FullName="Galaxy S II (AT&amp;T)" CodeName="skyrocket"/>
-        <device FullName="Galaxy S II (T-Mobile)" CodeName="hercules"/>
         <device FullName="Galaxy S II Plus" CodeName="s2ve"/>
         <device FullName="Galaxy S II Plus NFC" CodeName="s2vep"/>
         <device FullName="Galaxy S III (AT&amp;T)" CodeName="d2att"/>
@@ -126,15 +79,11 @@
         <device FullName="Galaxy S IV mini (DUOS)" CodeName="serranodsdd"/>
         <device FullName="Galaxy S IV mini (GSM)" CodeName="serrano3gxx"/>
         <device FullName="Galaxy S IV mini (LTE)" CodeName="serranoltexx"/>
-        <device FullName="Galaxy W" CodeName="ancora"/>
         <device FullName="Nexus 10" CodeName="manta"/>
     </vendor>
     <vendor Name="Sony">
-        <device FullName="Xperia L" CodeName="taoshan"/>
-        <device FullName="Xperia SP" CodeName="huashan"/>
         <device FullName="Xperia Tablet Z" CodeName="pollux_windy"/>
         <device FullName="Xperia Tablet Z LTE" CodeName="pollux"/>
-        <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
         <device FullName="Xperia Z1 Compact" CodeName="amami"/>
     </vendor>
@@ -148,10 +97,6 @@
         <device FullName="Xperia Neo V" CodeName="haida"/>
         <device FullName="Xperia Pro" CodeName="iyokan"/>
         <device FullName="Xperia Ray" CodeName="urushi"/>
-    </vendor>
-    <vendor Name="Xiaomi">
-        <device FullName="MI 2" CodeName="aries"/>
-        <device FullName="Redmi 1S" CodeName="armani"/>
     </vendor>
     <vendor Name="Yu">
         <device FullName="Yureka" CodeName="tomato"/>
