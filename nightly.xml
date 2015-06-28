@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  This file is used to enable nightly builds for eligible devices.
+    This file is used to enable nightly builds for eligible devices.
 
     import vendor.pac.Device;
     import vendor.pac.Maintainers;
@@ -10,7 +10,6 @@
     if (!device.getThreads() && !device.getMaintainers() && !device.downloadsPerWeek > 35) {
       devices.runNightly=false;
     }
-
 -->
 
 <manifest>
@@ -28,7 +27,6 @@
   <device name="flounder"/>
   <device name="fugu"/>
   <device name="ghost"/>
-  <!-- <device name="grouper"/> -->
   <device name="hammerhead"/>
   <device name="hlte"/>
   <device name="hltespr"/>
@@ -41,23 +39,19 @@
   <device name="jflteusc"/>
   <device name="jfltevzw"/>
   <device name="jfltexx"/>
-  <!-- <device name="ls980"/> -->
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m7vzw"/>
   <device name="m8"/>
-  <!-- <device name="n5100"/> -->
   <device name="n5110"/>
   <device name="obake"/>
-  <!-- <device name="serrano3gxx"/> -->
-  <!-- <device name="serranoltexx"/> -->
   <device name="shamu"/>
   <device name="sprout4"/>
   <device name="sprout8"/>
   <device name="spyder"/>
   <device name="thea"/>
-  <device name="tomato"/>
   <device name="titan"/>
+  <device name="tomato"/>
   <device name="trltespr"/>
   <device name="trltetmo"/>
   <device name="v500"/>
