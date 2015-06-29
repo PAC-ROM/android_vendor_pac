@@ -22,7 +22,6 @@
   <device name="d2spr"/>
   <device name="d2tmo"/>
   <device name="d2vzw"/>
-  <device name="e975"/>
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>
