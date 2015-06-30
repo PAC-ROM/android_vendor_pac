@@ -24,9 +24,6 @@ usage() {
     echo ""
     echo -e "${bldblu}  Options:${bldcya}"
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
-    echo -e "    -b# Prebuilt Chromium options:"
-    echo -e "        1 - Remove"
-    echo -e "        2 - No Prebuilt Chromium"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
@@ -74,9 +71,6 @@ export PAC_VERSION_MAINTENANCE="Unofficial"
 
 
 # Default global variable values with preference to environmant.
-if [ -z "${USE_PREBUILT_CHROMIUM}" ]; then
-    export USE_PREBUILT_CHROMIUM=1
-fi
 if [ -z "${USE_CCACHE}" ]; then
     export USE_CCACHE=1
 fi
@@ -140,7 +134,6 @@ fi
 
 
 opt_adb=0
-opt_chromium=0
 opt_clean=0
 opt_ccache=0
 opt_extra=0
@@ -156,11 +149,9 @@ opt_sync=0
 opt_twrp=0
 opt_log=0
 
-
-while getopts "ab:c:de:fj:kilo:prs:tw:" opt; do
+while getopts "a:c:de:fj:kilo:prs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
-    b) opt_chromium="$OPTARG" ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_ccache=1 ;;
     e) opt_extra="$OPTARG" ;;
@@ -190,18 +181,6 @@ device="$1"
 if [ "$opt_ccache" -eq 1 ]; then
     echo -e "${bldcya}Ccache not be used in this build${rst}"
     unset USE_CCACHE
-    echo ""
-fi
-
-
-# Chromium options
-if [ "$opt_chromium" -eq 1 ]; then
-    rm -rf prebuilts/chromium/"$device"
-    echo -e "${bldcya}Prebuilt Chromium for $device removed${rst}"
-    echo ""
-elif [ "$opt_chromium" -eq 2 ]; then
-    unset USE_PREBUILT_CHROMIUM
-    echo -e "${bldcya}Prebuilt Chromium will not be used${rst}"
     echo ""
 fi
 
