@@ -113,8 +113,8 @@
 <a href="http://forum.pac-rom.com/thread-632.html">Galaxy S II:                i9100          bluefa1con</a>
 <a href="http://forum.pac-rom.com/thread-564.html">Galaxy S II (AT&T):         skyrocket      TheCybertronian</a>
 <a href="http://forum.pac-rom.com/thread-565.html">Galaxy S II (T-Mobile):     hercules       TheCybertronian</a>
-<a href="http://forum.pac-rom.com/thread-966.html">Galaxy S II Plus:           s2ve           LuK1337</a>
-<a href="http://forum.pac-rom.com/thread-967.html">Galaxy S II Plus NFC:       s2vep          LuK1337</a>
+<a href="http://forum.pac-rom.com/thread-1374.html">Galaxy S II Plus:          s2ve           doriandiaconu</a>
+<a href="http://forum.pac-rom.com/thread-1375.html">Galaxy S II Plus NFC:      s2vep          doriandiaconu</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (AT&T):        d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (C-Spire):     d2lte          Papa Smurf151</a>
 <a href="http://forum.pac-rom.com/thread-521.html">Galaxy S III (Cricket):     d2lte          Papa Smurf151</a>

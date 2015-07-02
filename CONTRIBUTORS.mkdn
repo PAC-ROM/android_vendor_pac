@@ -237,8 +237,8 @@ Samsung:
 * __Galaxy S II (i9100) :__ bluefa1con
 * __Galaxy S II (AT&T) (skyrocket) :__ TheCybertronian
 * __Galaxy S II (T-Mobile) (hercules) :__ TheCybertronian
-* __Galaxy S II Plus (s2ve) :__ LuK1337
-* __Galaxy S II Plus NFC (s2vep) :__ LuK1337
+* __Galaxy S II Plus (s2ve) :__ doriandiaconu
+* __Galaxy S II Plus NFC (s2vep) :__ doriandiaconu
 * __Galaxy S III (AT&T) (d2att) :__ manfromgta, Papa Smurf151
 * __Galaxy S III (GSM) (i9300) :__ garwedgess
 * __Galaxy S III (Sprint) (d2spr) :__ manfromgta, Papa Smurf151
