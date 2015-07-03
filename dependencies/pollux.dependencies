@@ -40,11 +40,5 @@
     "repository": "android_kernel_sony_apq8064",
     "target_path": "kernel/sony/apq8064",
     "revision": "pac-5.1"
- },
- {
-    "remote": "ss",
-    "repository": "android_hardware_sony_DASH",
-    "target_path": "hardware/sony/DASH",
-    "revision": "pac-5.1"
   }
 ]
