@@ -164,6 +164,10 @@ case $device in
         PATCH=tenderloin_allow-devices-to-specify-driver-delay
         FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
+        # tenderloin_packagemanager-allow-install-to-complete
+        PATCH=ttenderloin_packagemanager-allow-install-to-complete
+        FOLDER=frameworks/base
+        patch_it #add this function call for each patch
         #sepolicy: add a domain for lvm
         cherries+=(82660_CM)
         #art: allow devices to opt out of GAP check
