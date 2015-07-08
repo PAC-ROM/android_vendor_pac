@@ -165,7 +165,7 @@ case $device in
         FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
         # tenderloin_packagemanager-allow-install-to-complete
-        PATCH=ttenderloin_packagemanager-allow-install-to-complete
+        PATCH=tenderloin_packagemanager-allow-install-to-complete
         FOLDER=frameworks/base
         patch_it #add this function call for each patch
         #sepolicy: add a domain for lvm
