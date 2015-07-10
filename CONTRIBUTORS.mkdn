@@ -13,7 +13,6 @@
 * **[pvyParts] (https://github.com/pvyParts)**
 * **[szl.kiev] (https://github.com/szlkiev)**
 * **[tdhite] (https://github.com/tdhite)**
-* **[zyonee] (https://github.com/zyonee)**
 
 <br>
 ####Lead Contributors:
@@ -25,7 +24,6 @@
 * **[JoseGalRe] (https://github.com/JoseGalRe)**
 * **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
 * **[Nick0703] (https://github.com/Nick0703)**
-* **[zyonee] (https://github.com/zyonee)**
 
 <br>
 ####Forum Administration:
@@ -80,7 +78,7 @@
 | Nexus 7 2012                     | grouper      | [PAC] (http://forum.pac-rom.com/thread-1383.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3051370)   | [iurnait] (https://github.com/HashBang173)
 | Nexus 7 2013                     | flo          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
 | Nexus 7 2013 (LTE)               | deb          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
-| Nexus Player                     | fugu         | [PAC] (http://forum.pac-rom.com/thread-1484.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3140183)   | [Skiwong20] (https://github.com/Skiwong20)              | [zyonee] (https://github.com/zyonee)
+| Nexus Player                     | fugu         | [PAC] (http://forum.pac-rom.com/thread-1484.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3140183)   | [Skiwong20] (https://github.com/Skiwong20)
 
 <br>
 ####Google:
@@ -118,7 +116,7 @@
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
 | G-Pad                            | v500         | [PAC] (http://forum.pac-rom.com/thread-539.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668112)   | [darkassain] (https://github.com/MikePach)
 | G3 (Sprint)                      | ls990        | [PAC] (http://forum.pac-rom.com/thread-1368.html)  |                                                                    | [MallardDuck] (https://github.com/MallardDuck)
-| Nexus 5                          | hammerhead   | [PAC] (http://forum.pac-rom.com/thread-984.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670238)   | [my95z34] (https://github.com/my95z34)                  | [zyonee] (https://github.com/zyonee)
+| Nexus 5                          | hammerhead   | [PAC] (http://forum.pac-rom.com/thread-984.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670238)   | [my95z34] (https://github.com/my95z34)
 | Optimus G (LTE)                  | e975         | [PAC] (http://forum.pac-rom.com/thread-1436.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3019858)   | [dadi11] (https://github.com/dadi11)
 | Optimus G Pro                    | e980         | [PAC] (http://forum.pac-rom.com/thread-1054.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2852984)   | [zamajalo] (https://github.com/zamajalo)
 
@@ -142,7 +140,7 @@
 | Moto X (T-Mobile)                | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (US Cellular)             | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (Verizon)                 | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
-| Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)              | [zyonee] (https://github.com/zyonee)
+| Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)
 
 <br>
 ####Nvidia:
