@@ -144,9 +144,10 @@
 <a href="http://forum.pac-rom.com/thread-1116.html">Xperia SP:                 huashan        neXusPRIME</a>
 <a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z:           pollux_windy   skiwong20</a>
 <a href="http://forum.pac-rom.com/thread-1150.html">Xperia Tablet Z LTE:       pollux         skiwong20</a>
-<a href="http://forum.pac-rom.com/thread-???.html">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
+<a href="http://forum.pac-rom.com/thread-???.html">Xperia Z:                   yuga           jeroenqui</a>
 <a href="http://forum.pac-rom.com/thread-1067.html">Xperia Z1:                 honami         jeroenqui, Langes</a>
 <a href="http://forum.pac-rom.com/thread-968.html">Xperia Z1 Compact:          amami          oshmoun</a>
+<a href="http://forum.pac-rom.com/thread-968.html">Xperia Z2:                  sirius         pvyParts</a>
 <br>
 <h3>Sony Ericsson</h3>
 <a href="http://forum.pac-rom.com/thread-617.html">Live With Walkman:          coconut        Druboo666</a>

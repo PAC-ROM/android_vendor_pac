@@ -135,16 +135,17 @@
 <a href="http://forum.xda-developers.com/showthread.php?t=3048693">Galaxy S IV mini (DUOS):    serranodsdd    lsdty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3048693">Galaxy S IV mini (lte):     serranoltexx   lsdty</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=3017517">Galaxy W:                   ancora         K_TECH</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2948457">Nexus 10:                   manta          aHcVolle</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=1234567">Nexus 10:                   manta          aHcVolle</a>
 <br>
 <h3>Sony</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2749055">Xperia L:                   taoshan        OPEN</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2835662">Xperia SP:                  huashan        neXusPRIME</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2883011">Xperia Tablet Z:            pollux_windy   skiwong20</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2883011">Xperia Tablet Z LTE:        pollux         skiwong20</a>
-<a href="http://forum.xda-developers.com/showthread.php?t=2208249">Xperia Z:                   yuga           jeroenqui, pvyParts</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2208249">Xperia Z:                   yuga           jeroenqui</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2478003">Xperia Z1:                  honami         jeroenqui, Langes</a>
 <a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z1 Compact:          amami          oshmoun</a>
+<a href="http://forum.xda-developers.com/showthread.php?t=2764017">Xperia Z2:                  sirius         pvyParts</a>
 <br>
 <h3>Sony Ericsson</h3>
 <a href="http://forum.xda-developers.com/showthread.php?t=2675370">Live With Walkman:          coconut        Druboo666</a>
