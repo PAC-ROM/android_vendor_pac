@@ -137,6 +137,7 @@
         <device FullName="Xperia Z" CodeName="yuga"/>
         <device FullName="Xperia Z1" CodeName="honami"/>
         <device FullName="Xperia Z1 Compact" CodeName="amami"/>
+        <device FullName="Xperia Z2" CodeName="sirius"/>
     </vendor>
     <vendor Name="Sony Ericsson">
         <device FullName="Live With Walkman" CodeName="coconut"/>
