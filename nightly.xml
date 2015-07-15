@@ -47,6 +47,7 @@
   <device name="n5110"/>
   <device name="obake"/>
   <device name="shamu"/>
+  <device name="sirius"/>
   <device name="sprout4"/>
   <device name="sprout8"/>
   <device name="spyder"/>
