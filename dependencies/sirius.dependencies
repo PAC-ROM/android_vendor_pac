@@ -1,0 +1,44 @@
+[
+  {
+    "repository": "CyanogenMod/android_device_sony_common",
+    "target_path": "device/sony/common",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_device_sony_sirius",
+    "target_path": "device/sony/sirius",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_device_sony_shinano-common",
+    "target_path": "device/sony/shinano-common",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_kernel_sony_msm8974",
+    "target_path": "kernel/sony/msm8974",
+    "revision": "cm-12.1"
+  },
+  {
+    "remote": "github",
+    "account": "Pinky-Inky-and-Clyde",
+    "repository": "proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "cm-12.1"
+  },
+  {
+    "repository": "CyanogenMod/android_device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common",
+    "revision": "cm-12.1"
+  }
+] 
