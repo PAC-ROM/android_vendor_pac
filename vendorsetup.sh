@@ -25,7 +25,6 @@ add_lunch_combo pac_t6vzw-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_hammerhead-userdebug
-add_lunch_combo pac_ls990-userdebug
 add_lunch_combo pac_v500-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
@@ -84,5 +83,7 @@ add_lunch_combo pac_mango-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
+# Xiaomi
+add_lunch_combo pac_armani-userdebug
 # Yu
 add_lunch_combo pac_tomato-userdebug

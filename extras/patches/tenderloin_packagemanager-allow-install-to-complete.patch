@@ -1,0 +1,39 @@
+From ea3e426d49930fd60adf230aca2c1bde6e579696 Mon Sep 17 00:00:00 2001
+From: shumash <shumashgeely@gmail.com>
+Date: Thu, 2 Jul 2015 18:30:51 -0600
+Subject: [PATCH] packagemanager: allow install to complete with dex2oat
+ failure
+
+     HACK:  since the installed app can still be run with the
+     interpreter, it's not necessary to fail the install.  This
+     hack will have to do until we can determine what is causing
+     the dex2oat failure.
+
+Change-Id: I3c0e902926c3c9c269c885e19ca102a475945240
+---
+ .../android/server/pm/PackageManagerService.java   |    4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/services/core/java/com/android/server/pm/PackageManagerService.java b/services/core/java/com/android/server/pm/PackageManagerService.java
+index c185b95..32af222 100755
+--- a/services/core/java/com/android/server/pm/PackageManagerService.java
++++ b/services/core/java/com/android/server/pm/PackageManagerService.java
+@@ -5182,12 +5182,14 @@ public class PackageManagerService extends IPackageManager.Stub {
+                         final int sharedGid = UserHandle.getSharedAppGid(pkg.applicationInfo.uid);
+                         final int ret = mInstaller.dexopt(path, sharedGid, !isForwardLocked(pkg),
+                                 pkg.packageName, dexCodeInstructionSet, vmSafeMode);
++                        Log.i(TAG, " Installing pkg=" + pkg.packageName + " uid=" + sharedGid
++                                + " !forwardlocked=" + !isForwardLocked(pkg) + " returned=" + ret);
+ 
+                         if (ret < 0) {
+                             // Don't bother running dexopt again if we failed, it will probably
+                             // just result in an error again. Also, don't bother dexopting for other
+                             // paths & ISAs.
+-                            return DEX_OPT_FAILED;
++                            // return DEX_OPT_FAILED;
+                         }
+ 
+                         performedDexOpt = true;
+-- 
+1.7.9.5
+
