@@ -1,5 +1,5 @@
 # Check for target product
-ifeq (pac_jflteatt,$(TARGET_PRODUCT))
+ifeq (pac_i9500,$(TARGET_PRODUCT))
 
 # Bootanimation
 PAC_BOOTANIMATION_NAME := 1080
