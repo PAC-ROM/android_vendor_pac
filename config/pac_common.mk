@@ -68,7 +68,7 @@ endif
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pacstats.url=http://stats.pac-rom.com \
+    ro.pacstats.url=http://www.pac-rom.com/pages/submit.php \
     ro.pacstats.name=PAC-man \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
