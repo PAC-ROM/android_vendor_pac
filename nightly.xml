@@ -17,6 +17,8 @@
   <device name="amami"/>
   <device name="armani"/>
   <device name="bacon"/>
+  <!-- <device name="castor"/> -->
+  <!-- <device name="castor_windy"/> -->
   <device name="condor"/>
   <device name="d2att"/>
   <device name="d2spr"/>
