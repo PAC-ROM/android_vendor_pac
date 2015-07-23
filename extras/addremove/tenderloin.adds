@@ -1,0 +1,9 @@
+[
+    {
+        "remote":       "github",
+        "account":      "SlimRoms",
+        "repository":   "android_art",
+        "target_path":  "art",
+        "revision":     "lp5.1"
+    }
+]
