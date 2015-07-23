@@ -191,6 +191,9 @@
 | Xperia Tablet Z (LTE)            | pollux       | [PAC] (http://forum.pac-rom.com/thread-1150.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2883011)   | [Skiwong20] (https://github.com/Skiwong20)
 | Xperia Z1                        | honami       | [PAC] (http://forum.pac-rom.com/thread-1067.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2478003)   | [jeroenqui] (https://github.com/jeroenqui)              | [Langes] (https://github.com/Langes72)
 | Xperia Z1 Compact                | amami        | [PAC] (http://forum.pac-rom.com/thread-968.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2764017)   | [oshmoun] (https://github.com/oshmoun)
+| Xperia Z2                        | sirius       | [PAC] (http://forum.pac-rom.com/thread-.html)      | [XDA] (http://forum.xda-developers.com/showthread.php?t=)          | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
+| Xperia Tablet Z2                 | castor_windy | [PAC] (http://forum.pac-rom.com/thread-.html)      | [XDA] (http://forum.xda-developers.com/showthread.php?t=)          | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
+| Xperia Tablet Z2 (LTE)           | castor       | [PAC] (http://forum.pac-rom.com/thread-.html)      | [XDA] (http://forum.xda-developers.com/showthread.php?t=)          | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
 
 <br>
 ####Sony Ericsson:
