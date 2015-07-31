@@ -71,9 +71,12 @@ add_lunch_combo pac_trltespr-userdebug
 add_lunch_combo pac_trltetmo-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
+add_lunch_combo pac_castor-userdebug
+add_lunch_combo pac_castor_windy-userdebug
 add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_pollux_windy-userdebug
+add_lunch_combo pac_sirius-userdebug
 # Sony Ericsson
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug

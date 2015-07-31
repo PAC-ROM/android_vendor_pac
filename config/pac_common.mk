@@ -68,7 +68,7 @@ endif
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pacstats.url=http://stats.pac-rom.com \
+    ro.pacstats.url=http://www.pac-rom.com/pages/submit.php \
     ro.pacstats.name=PAC-man \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
@@ -93,9 +93,4 @@ endif
 ifeq ($(PAC_USE_ADDREMOVE),true)
     GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
     GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-endif
-
-# Chromium Prebuilt
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
--include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
 endif

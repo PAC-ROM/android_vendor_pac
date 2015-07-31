@@ -168,6 +168,10 @@ case $device in
         PATCH=tenderloin_packagemanager-allow-install-to-complete
         FOLDER=frameworks/base
         patch_it #add this function call for each patch
+        # tenderloin_ART-Hack-to-get-working-on-TP
+        PATCH=tenderloin_ART-Hack-to-get-working-on-TP
+        FOLDER=art
+        patch_it #add this function call for each patch
         #sepolicy: add a domain for lvm
         cherries+=(82660_CM)
         #art: allow devices to opt out of GAP check
