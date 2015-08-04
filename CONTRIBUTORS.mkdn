@@ -220,8 +220,9 @@
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
 | Yureka                           | tomato       | [PAC] (http://forum.pac-rom.com/thread-1426.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3102705)   | [sandymanu] (https://github.com/sandymanu)
+| Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 88
+##Total Devices: 89
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
