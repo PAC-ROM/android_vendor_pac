@@ -9,7 +9,7 @@
         "remote":       "ss",
         "repository":   "android_kernel_htc_msm8974",
         "target_path":  "kernel/htc/msm8974",
-        "revision":     "pac-5.1"
+        "revision":     "pac-5.1ck"
     },
     {
         "remote":       "ss",
