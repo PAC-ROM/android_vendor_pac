@@ -20,7 +20,7 @@
   {
     "remote":      "ss",
     "repository": "android_device_sony_castor_windy",
-    "target_path": "device/sony/castor",
+    "target_path": "device/sony/castor_windy",
     "revision": "pac-5.1"
   },
   {

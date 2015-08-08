@@ -17,8 +17,8 @@
   <device name="amami"/>
   <device name="armani"/>
   <device name="bacon"/>
-  <!-- <device name="castor"/> -->
-  <!-- <device name="castor_windy"/> -->
+  <device name="castor"/>
+  <device name="castor_windy"/>
   <device name="condor"/>
   <device name="d2att"/>
   <device name="d2spr"/>
@@ -43,6 +43,7 @@
   <device name="jflteusc"/>
   <device name="jfltevzw"/>
   <device name="jfltexx"/>
+  <device name="lettuce"/>
   <device name="m7"/>
   <device name="m7spr"/>
   <device name="m7vzw"/>
@@ -52,7 +53,7 @@
   <device name="shamu"/>
   <!-- <device name="sprout4"/> -->
   <!-- <device name="sprout8"/> -->
-  <!-- <device name="sirius"/> -->
+  <device name="sirius"/>
   <device name="spyder"/>
   <device name="thea"/>
   <device name="titan"/>

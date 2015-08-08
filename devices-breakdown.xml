@@ -104,6 +104,7 @@
         <device FullName="Redmi 1S" CodeName="armani"/>
     </vendor>
     <vendor Name="Yu">
+        <device FullName="Yuphoria" CodeName="lettuce"/>
         <device FullName="Yureka" CodeName="tomato"/>
     </vendor>
 </devices>

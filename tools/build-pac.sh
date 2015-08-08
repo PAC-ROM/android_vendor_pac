@@ -390,7 +390,7 @@ unset PAC_MAKE
 if [ "$opt_only" -eq 1 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
-    make -j$opt_jobs$opt_v$opt_i bootimage
+    make -j$opt_jobs$opt_v$opt_i bootzip
 elif [ "$opt_only" -eq 2 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
