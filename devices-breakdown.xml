@@ -102,6 +102,7 @@
     </vendor>
     <vendor Name="Xiaomi">
         <device FullName="Redmi 1S" CodeName="armani"/>
+        <device FullName="Mi3W/Mi4W" CodeName="cancro"/>
     </vendor>
     <vendor Name="Yu">
         <device FullName="Yuphoria" CodeName="lettuce"/>
