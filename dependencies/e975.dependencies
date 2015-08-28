@@ -1,26 +1,26 @@
 [
-  {
-    "remote": "ss",
-    "repository": "android_device_lge_e975",
-    "target_path": "device/lge/e975",
-    "revision": "pac-5.1"
-  },
-  {
-    "remote": "ss",
-    "repository": "android_device_lge_gproj-common",
-   "target_path": "device/lge/gproj-common",
-    "revision": "pac-5.1"
-  },
-  {
-    "remote": "ss",
-    "repository": "android_kernel_lge_gproj",
-    "target_path": "kernel/lge/gproj",
-    "revision": "pac-5.1"
-  },
-  {
-    "remote": "pic",
-    "repository": "proprietary_vendor_lge",
-    "target_path": "vendor/lge",
-    "revision": "cm-12.1"
-  }
+    {
+        "remote":       "ss",
+        "repository":   "Split-Screen/android_device_lge_e975",
+        "target_path":  "device/lge/e975",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "Split-Screen/android_device_lge_gproj-common",
+        "target_path":  "device/lge/gproj-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "Split-Screen/android_kernel_lge_gproj",
+        "target_path":  "kernel/lge/gproj",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "cm-12.1"
+    }
 ]
