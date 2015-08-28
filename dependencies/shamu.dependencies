@@ -1,20 +1,20 @@
 [
-   {
-      "remote":  "pic",
-      "repository":  "proprietary_vendor_motorola",
-      "target_path":  "vendor/motorola",
-      "revision":  "cm-12.1"
-   },
     {
-      "remote":  "ss",
-      "repository":  "android_device_moto_shamu",
-      "target_path":  "device/moto/shamu",
-      "revision":  "pac-5.1"
-   },
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "cm-12.1"
+    },
     {
-      "remote":  "ss",
-      "repository":  "android_kernel_moto_shamu",
-      "target_path":  "kernel/moto/shamu",
-      "revision":  "pac-5.1"
-   }
+        "remote":       "ss",
+        "repository":   "android_device_moto_shamu",
+        "target_path":  "device/moto/shamu",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_moto_shamu",
+        "target_path":  "kernel/moto/shamu",
+        "revision":     "pac-5.1"
+    }
 ]

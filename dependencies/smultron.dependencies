@@ -54,6 +54,12 @@
         "revision":     "pac-5.0"
     },
     {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_semc",
+        "target_path":  "vendor/semc",
+        "revision":     "cm-12.0"
+    },
+    {
         "remote":       "aosp",
         "repository":   "platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7",
         "target_path":  "prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7",
@@ -64,11 +70,5 @@
         "repository":   "platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
         "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-4.7",
         "revision":     "master"
-    },
-    {
-        "remote":       "pic",
-        "repository":   "proprietary_vendor_semc",
-        "target_path":  "vendor/semc",
-        "revision":     "cm-12.0"
     }
 ]
