@@ -21,7 +21,7 @@
 # Preamble:
 # Some repos outside of PAC may have commits we need that take too
 # long to be merged. Adding these cherry-picks here can automate the process
-# and makes it possible to add them to the weeklies but not the nightlies.
+# and makes it possible to add devices to the weeklies.
 #
 # in addition, cherry-pick patch files can be created for commits that aren't
 # available in the above gerrit accounts.
@@ -50,12 +50,14 @@
 #             e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be:
 #                  pac_topics+=(CREncoder)
 #         cm_topics+=(TOPIC) #for topics from the cm gerrit
+#         topics should not have space characters
 #
 #         # To get gerrit queries, add the query(s) in the form:
 #         pac_queriess+=(QUERY) #for queries from the pac gerrit
 #             e.g. queries+=(status:open+project:CyanogenMod/android_packages_apps_Nfc+branch:cm-11.0_CM)
 #             NB: use full e-mail addresses for owners, no usernames with spaces
 #         cm_queriess+=(QUERY) #for queries from the cm gerrit
+#         replace all space characters in the query line with a plus sign
 #
 # ;;
 #
@@ -225,44 +227,55 @@ if [ "$PATCH" != "" ]; then
     echo ""
 fi
 
-#cherries
+#repopick
+#from PAC gerrit (default)
 if [ "$pac_cherries" != "" ]; then
-    echo ""
-    echo -e "${bldblu}Now cherry-picking the specified PAC cherries${rst}"
-    echo ""
-    ./build/tools/repopick.py "${pac_cherries[@]}"
+    pac_gerrit=true
+    opt_cherries=" "${pac_cherries[@]}
+else
+    opt_cherries=""
 fi
-if [ "$cm_cherries" != "" ]; then
+if [ "$pac_topics" != "" ]; then
+    pac_gerrit=true
+    opt_topics=" -t "${pac_topics[@]}
+else
+    opt_topics=""
+fi
+if [ "$pac_queries" != "" ]; then
+    pac_gerrit=true
+    opt_queries=" -Q "${pac_queries[@]}
+else
+    opt_queries=""
+fi
+if [ "$pac_gerrit" != "" ]; then
     echo ""
-    echo -e "${bldblu}Now cherry-picking the specified CM cherries${rst}"
+    echo -e "${bldblu}Now merging the specified PAC extras${rst}"
     echo ""
-    ./build/tools/repopick.py "${cm_cherries[@]}" -g "http://review.cyanogenmod.org"
+    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries
 fi
 
-#topics
-if [ "$pac_topics" != "" ]; then
-    echo ""
-    echo -e "${bldblu}Now cherry-picking the specified PAC topics${rst}"
-    echo ""
-    ./build/tools/repopick.py -t "${pac_topics[@]}"
+#from CM gerrit
+if [ "$cm_cherries" != "" ]; then
+    cm_gerrit=true
+    opt_cherries=" "${cm_cherries[@]}
+else
+    opt_cherries=""
 fi
 if [ "$cm_topics" != "" ]; then
-    echo ""
-    echo -e "${bldblu}Now cherry-picking the specified CM topics${rst}"
-    echo ""
-    ./build/tools/repopick.py -t "${cm_topics[@]}" -g "http://review.cyanogenmod.org"
-fi
-
-#queries
-if [ "$pac_queries" != "" ]; then
-    echo ""
-    echo -e "${bldblu}Now cherry-picking from PAC based on the specified queries${rst}"
-    echo ""
-    ./build/tools/repopick.py -Q "${pac_queries[@]}"
+    cm_gerrit=true
+    opt_topics=" -t "${cm_topics[@]}
+else
+    opt_topics=""
 fi
 if [ "$cm_queries" != "" ]; then
+    cm_gerrit=true
+    opt_queries=" -Q "${cm_queries[@]}
+else
+    opt_queries=""
+fi
+if [ "$cm_gerrit" != "" ]; then
     echo ""
-    echo -e "${bldblu}Now cherry-picking from CM based on the specified queries${rst}"
+    echo -e "${bldblu}Now merging the specified CM extras${rst}"
     echo ""
-    ./build/tools/repopick.py -Q "${cm_queries[@]}" -g "http://review.cyanogenmod.org"
+    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries -g "http://review.cyanogenmod.org"
 fi

@@ -11,7 +11,7 @@ Commit your patches in a single commit.
 **You can send patches by using these commands:**
 
     sudo apt-get install git-review
-    git clone https://github.com/PAC-man/<project>
+    git clone https://github.com/PAC-ROM/<project>
     cd <project>
     <make edits>
     git add -A
