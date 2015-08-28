@@ -1,18 +1,18 @@
 [
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_htc_flounder",
         "target_path":  "device/htc/flounder",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_kernel_htc_flounder",
         "target_path":  "kernel/htc/flounder",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "pic",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_htc",
         "target_path":  "vendor/htc",
         "revision":     "cm-12.1"

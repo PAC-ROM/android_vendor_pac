@@ -1,30 +1,30 @@
 [
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_google_sprout-common",
         "target_path":  "device/google/sprout-common",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_google_sprout8",
         "target_path":  "device/google/sprout8",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "pic",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_google",
         "target_path":  "vendor/google",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_kernel_mediatek_sprout",
         "target_path":  "kernel/mediatek/sprout",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_packages_apps_FMRadio",
         "target_path":  "packages/apps/FMRadio",
         "revision":     "pac-5.1"

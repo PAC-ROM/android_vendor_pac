@@ -1,27 +1,26 @@
 [
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_lge_hammerhead",
         "target_path":  "device/lge/hammerhead",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_kernel_lge_hammerhead",
         "target_path":  "kernel/lge/hammerhead",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "pic",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "cm-12.1"
     }
 ]
-

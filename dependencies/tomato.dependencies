@@ -1,30 +1,30 @@
 [
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_yu_tomato",
         "target_path":  "device/yu/tomato",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_kernel_yu_msm8916",
         "target_path":  "kernel/yu/msm8916",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "ss",
+        "account":      "Split-Screen",
         "repository":   "android_hardware_qcom_fm",
         "target_path":  "hardware/qcom/fm",
         "revision":     "pac-5.1"
     },
     {
-        "remote":       "pic",
+        "account":      "Pinky-Inky-and-Clyde",
         "repository":   "proprietary_vendor_yu",
         "target_path":  "vendor/yu",
         "revision":     "cm-12.1"
