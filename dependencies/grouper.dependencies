@@ -1,55 +1,55 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_asus_grouper",
+        "repository":   "Split-Screen/android_device_asus_grouper",
         "target_path":  "device/asus/grouper",
         "revision":     "pac-5.0"
     },
     {
         "remote":       "ss",
-        "repository":   "android_kernel_asus_grouper",
+        "repository":   "Split-Screen/android_kernel_asus_grouper",
         "target_path":  "kernel/asus/grouper",
         "revision":     "pac-5.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_asus",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_asus",
         "target_path":  "vendor/asus",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_broadcom",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_broadcom",
         "target_path":  "vendor/broadcom",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_elan",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_elan",
         "target_path":  "vendor/elan",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_invensense",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_invensense",
         "target_path":  "vendor/invensense",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_nvidia",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_nvidia",
         "target_path":  "vendor/nvidia",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_nxp",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_nxp",
         "target_path":  "vendor/nxp",
         "revision":     "cm-12.0"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_widevine",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
         "revision":     "cm-12.0"
     }

@@ -1,37 +1,37 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6-common",
+        "repository":   "Split-Screen/android_device_htc_t6-common",
         "target_path":  "device/htc/t6-common",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6vzw",
+        "repository":   "Split-Screen/android_device_htc_t6vzw",
         "target_path":  "device/htc/t6vzw",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_msm8960-common",
+        "repository":   "Split-Screen/android_device_htc_msm8960-common",
         "target_path":  "device/htc/msm8960-common",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_qcom_common",
+        "repository":   "Split-Screen/android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_kernel_htc_msm8960",
+        "repository":   "Split-Screen/android_kernel_htc_msm8960",
         "target_path":  "kernel/htc/msm8960",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_htc",
+        "repository":   "Pinky-Inky-and-Clyde/proprietary_vendor_htc",
         "target_path":  "vendor/htc",
         "revision":     "cm-12.1"
     }
