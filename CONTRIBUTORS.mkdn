@@ -214,7 +214,7 @@
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
 | Redmi 1S                         | armani       | [PAC] (http://forum.pac-rom.com/thread-1421.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3095216)   | [TechExhibeo] (https://github.com/TechExhibeo)
-
+| Mi3W/Mi4W                        | cancro       | [PAC] (http://forum.pac-rom.com/thread-1595.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3087341)   | [pranay.pingale10] (https://github.com/pranay.pingale10) 
 <br>
 ####Yu:
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
@@ -223,6 +223,6 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 89
+##Total Devices: 90 
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
