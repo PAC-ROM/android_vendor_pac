@@ -89,6 +89,7 @@ add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
 # Xiaomi
 add_lunch_combo pac_armani-userdebug
+add_lunch_combo pac_cancro-userdebug
 # Yu
 add_lunch_combo pac_lettuce-userdebug
 add_lunch_combo pac_tomato-userdebug
