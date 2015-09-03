@@ -27,19 +27,27 @@ cp -f /tmp/install/bin/backuptool.functions /tmp
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
-    mkdir -p /tmp/addon.d/
-    cp -a /system/addon.d/* /tmp/addon.d/
-    chmod 755 /tmp/addon.d/*.sh
+    if [ -d /system/addon.d/ ]; then
+        mkdir -p /tmp/addon.d/
+        cp -a /system/addon.d/* /tmp/addon.d/
+        chmod 755 /tmp/addon.d/*.sh
+    fi
 }
 
-# Restore /system/addon.d in /tmp/addon.d
+# Restore /system/addon.d from /tmp/addon.d
 restore_addon_d() {
-    cp -a /tmp/addon.d/* /system/addon.d/
-    rm -rf /tmp/addon.d/
+    if [ -d /tmp/addon.d/ ]; then
+        cp -a /tmp/addon.d/* /system/addon.d/
+        rm -rf /tmp/addon.d/
+    fi
 }
 
 # Proceed only if /system is the expected major and minor version
 check_prereq() {
+    # If there is no build.prop file the partition is probably empty.
+    if [ ! -r /system/build.prop ]; then
+        return 0
+    fi
     retval=1
     ver=$(awk "/ro.pac.version=($V)/ {print \"LP\"}" /system/build.prop)
     case "$ver" in
@@ -85,9 +93,11 @@ check_whitelist() {
 
 # Execute /system/addon.d/*.sh scripts with $1 parameter
 run_stage() {
-    for script in $(find /tmp/addon.d/ -name '*.sh' |sort -n); do
-        $script "$1"
-    done;
+    if [ -d /tmp/addon.d/ ]; then
+        for script in $(find /tmp/addon.d/ -name '*.sh' |sort -n); do
+            $script "$1"
+        done;
+    fi
 }
 
 case "$1" in
