@@ -47,6 +47,7 @@ usage() {
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -u  Upload rom to any server"
     echo -e "    -w  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
@@ -147,9 +148,10 @@ opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
+opt_upload=0
 opt_log=0
 
-while getopts "ac:de:fij:klo:prs:tw:" opt; do
+while getopts "ac:de:fij:klo:prs:tuw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -165,6 +167,7 @@ while getopts "ac:de:fij:klo:prs:tw:" opt; do
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
     t) opt_twrp=1 ;;
+    u) opt_upload=1 ;;
     w) opt_log="$OPTARG" ;;
     *) usage
     esac
@@ -406,3 +409,26 @@ fi
 # Cleanup unused built
 rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
+
+
+# Upload to Any Host
+# You need create ~/Server file in home user dir
+# and fill of this way: serveruser::passuser::hostserver::serverlocation
+# and install ncftp: sudo apt-get install ncftp
+if [ "$opt_upload" -ne 0 ]; then
+    finally="$OUTDIR/target/product/$device/"
+    if [ -e "$finally"pac*.md5sum ] && [ -e "$finally"pac*.zip ] && [ -s "$HOME/Server" ]; then
+        server="$HOME/Server"
+        suser=$(awk -F'::' '{ print $1 }' "$server")
+        spass=$(awk -F'::' '{ print $2 }' "$server")
+        shost=$(awk -F'::' '{ print $3 }' "$server")
+        spath=$(awk -F'::' '{ print $4 }' "$server")
+        echo -e "${bldgrn}Uploading ROM to ${shost} as ${suser} at ${spath}${bldblue}"
+        ncftpput -v -u "${suser}" -p "${spass}" "${shost}" "${spath}" "$finally"pac*.md5sum
+        ncftpput -v -u "${suser}" -p "${spass}" "${shost}" "${spath}" "$finally"pac*.zip
+        echo -e "${bldgrn}Upload Complet${rst}"
+    else
+        echo -e "${bldred}The ROM it does not exist${rst}"
+    fi
+    echo ""
+fi
