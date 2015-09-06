@@ -1,30 +1,26 @@
 [
-  {
-    "remote": "github",
-    "account": "Split-Screen",
-    "repository": "android_device_nvidia_wx_na_do",
-    "target_path": "device/nvidia/wx_na_do",
-    "revision": "pac-5.0"
-  },
-  {
-    "remote": "github",
-    "account": "Split-Screen",
-    "repository": "android_device_nvidia_shieldtablet",
-    "target_path": "device/nvidia/shieldtablet",
-    "revision": "pac-5.0"
-  },
-  {
-    "remote": "github",
-    "account": "Split-Screen",
-    "repository": "android_kernel_nvidia_shieldtablet",
-    "target_path": "kernel/nvidia/shieldtablet",
-    "revision": "pac-5.0"
-  },
-  {
-    "remote": "github",
-    "account": "Pinky-Inky-and-Clyde",
-    "repository": "proprietary_vendor_nvidia",
-    "target_path": "vendor/nvidia",
-    "revision": "cm-12.0"
-  }
+    {
+        "remote":       "ss",
+        "repository":   "android_device_nvidia_wx_na_do",
+        "target_path":  "device/nvidia/wx_na_do",
+        "revision":     "pac-5.0"
+    }
+    {
+        "remote":       "ss",
+        "repository":   "android_device_nvidia_shieldtablet",
+        "target_path":  "device/nvidia/shieldtablet",
+        "revision":     "pac-5.0"
+    }
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_nvidia_shieldtablet",
+        "target_path":  "kernel/nvidia/shieldtablet",
+        "revision":     "pac-5.0"
+    }
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_nvidia",
+        "target_path":  "vendor/nvidia",
+        "revision":     "cm-12.0"
+    }
 ]
