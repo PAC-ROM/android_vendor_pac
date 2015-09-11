@@ -22,6 +22,7 @@ add_lunch_combo pac_t6-userdebug
 add_lunch_combo pac_t6spr-userdebug
 add_lunch_combo pac_t6vzw-userdebug
 # LG
+add_lunch_combo pac_d855-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_hammerhead-userdebug

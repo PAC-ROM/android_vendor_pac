@@ -32,19 +32,19 @@ usage() {
     echo -e "        1 - Verbose build output"
     echo -e "        2 - Quiet build output"
     echo -e "    -f  Fetch extras"
-    echo -e "    -j# Set number of jobs"
-    echo -e "    -l  Optimizations for devices with low-RAM"
-    echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -i  Ignore minor errors during build"
+    echo -e "    -j# Set number of jobs"
+    echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -l  Optimizations for devices with low-RAM"
+    echo -e "    -o# Only build:"
+    echo -e "        1 - Boot Image"
+    echo -e "        2 - Recovery Image"
+    echo -e "    -p  Build using pipe"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
-    echo -e "    -o# Only build:"
-    echo -e "        1 - Boot Image"
-    echo -e "        2 - Recovery Image"
-    echo -e "    -p  Build using pipe"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e "    -w  Log file options:"
@@ -149,16 +149,16 @@ opt_sync=0
 opt_twrp=0
 opt_log=0
 
-while getopts "a:c:de:fj:kilo:prs:tw:" opt; do
+while getopts "ac:de:fij:klo:prs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_ccache=1 ;;
     e) opt_extra="$OPTARG" ;;
     f) opt_fetch=1 ;;
+    i) opt_ignore=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
-    i) opt_ignore=1 ;;
     l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
     p) opt_pipe=1 ;;
