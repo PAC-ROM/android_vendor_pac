@@ -39,7 +39,6 @@ usage() {
     echo -e "    -o# Only build:"
     echo -e "        1 - Boot Image"
     echo -e "        2 - Recovery Image"
-    echo -e "    -p  Build using pipe"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
@@ -143,13 +142,12 @@ opt_kr=0
 opt_ignore=0
 opt_lrd=0
 opt_only=0
-opt_pipe=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
 opt_log=0
 
-while getopts "ac:de:fij:klo:prs:tw:" opt; do
+while getopts "ac:de:fij:klo:rs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -161,7 +159,6 @@ while getopts "ac:de:fij:klo:prs:tw:" opt; do
     k) opt_kr=1 ;;
     l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
-    p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
     t) opt_twrp=1 ;;
@@ -341,14 +338,6 @@ rm -f "$OUTDIR"/target/product/"$device"/obj/KERNEL_OBJ/.version
 echo ""
 echo -e "${bldcya}Lunching device${rst}"
 lunch "pac_$device-userdebug"
-
-
-# Pipe option
-if [ "$opt_pipe" -ne 0 ]; then
-    export TARGET_USE_PIPE=true
-else
-    unset TARGET_USE_PIPE
-fi
 
 
 # Get extra options for build
