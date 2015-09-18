@@ -25,26 +25,26 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_samsung_slsi_exynos",
-        "target_path":  "hardware/samsung_slsi/exynos",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos",
+        "target_path":  "hardware/samsung_slsi-cm/exynos",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_samsung_slsi_exynos5-insignal",
-        "target_path":  "hardware/samsung_slsi/exynos5-insignal",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos5",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_samsung_slsi_exynos5410",
-        "target_path":  "hardware/samsung_slsi/exynos5410",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos5410",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5410",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_samsung_slsi_openmax",
-        "target_path":  "hardware/samsung_slsi/openmax",
+        "repository":   "android_hardware_samsung_slsi-cm_openmax",
+        "target_path":  "hardware/samsung_slsi-cm/openmax",
         "revision":     "pac-5.1"
     },
     {
