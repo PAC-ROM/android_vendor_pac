@@ -46,6 +46,11 @@ usage() {
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -u  Upload rom to any server"
+    echo -e "        1 - Create ~/Server file yout $HOME dir"
+    echo -e "        2 - Fill of this way: username::password::hostserver::serverlocationfiles"
+    echo -e "            example: Harry::AvadaKedavra::s.basketbuild.com::/hammerhead/Nightly"
+    echo -e "        3 - Install ncftp tols: sudo apt-get install ncftp"
     echo -e "    -w  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
@@ -145,9 +150,10 @@ opt_only=0
 opt_reset=0
 opt_sync=0
 opt_twrp=0
+opt_upload=0
 opt_log=0
 
-while getopts "ac:de:fij:klo:rs:tw:" opt; do
+while getopts "ac:de:fij:klo:rs:tuw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -162,6 +168,7 @@ while getopts "ac:de:fij:klo:rs:tw:" opt; do
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
     t) opt_twrp=1 ;;
+    u) opt_upload=1 ;;
     w) opt_log="$OPTARG" ;;
     *) usage
     esac
@@ -395,3 +402,27 @@ fi
 # Cleanup unused built
 rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
+
+
+# Upload
+if [ "$opt_upload" -ne 0 ]; then
+    finally="$OUTDIR/target/product/$device/"
+    if [ -s "$HOME/Server" ]; then
+        if [ -f "$finally"pac*.md5sum ] && [ -f "$finally"pac*.zip ]; then
+            server="$HOME/Server"
+            suser=$(awk -F'::' '{print $1}' "$server")
+            spass=$(awk -F'::' '{print $2}' "$server")
+            shost=$(awk -F'::' '{print $3}' "$server")
+            spath=$(awk -F'::' '{print $4}' "$server")
+            echo -e "${bldcya}Uploading to${bldmag} ${shost} ${bldcya}as${bldmag} ${suser} ${bldcya}at${bldmag} ${spath}${bldblue}"
+            ncftpput -v -u "${suser}" -p "${spass}" "${shost}" "${spath}" "$finally"pac*.md5sum
+            ncftpput -v -u "${suser}" -p "${spass}" "${shost}" "${spath}" "$finally"pac*.zip
+            echo -e "${bldgrn}Upload Successfully${rst}"
+        else
+            echo -e "${bldred}The ROM it does not exist${rst}"
+        fi
+    else
+        echo -e "${bldred}The Server configuration file it does not exist${rst}"
+        fi
+    echo ""
+fi
