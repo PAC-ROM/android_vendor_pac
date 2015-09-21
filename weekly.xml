@@ -40,6 +40,7 @@
   <!-- <device name="serranodsdd" hasextras="1"/> -->
   <!-- <device name="serranoltexx" hasextras="0"/> -->
   <!-- <device name="smultron" hasextras="1"/> -->
+  <device name="surnia" hasextras="0"/>
   <device name="t6" hasextras="0"/>
   <device name="t6spr" hasextras="0"/>
   <device name="t6vzw" hasextras="0"/>
