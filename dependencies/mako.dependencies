@@ -1,21 +1,21 @@
 [
     {
-        "remote":       "cm",
+        "remote":       "ss",
         "repository":   "android_device_lge_mako",
         "target_path":  "device/lge/mako",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
-        "remote":       "cm",
+        "remote":       "ss",
         "repository":   "android_kernel_google_msm",
         "target_path":  "kernel/google/msm",
-        "revision":     "cm-12.0"
+        "revision":     "pac-5.1"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "cm-12.0"
+        "revision":     "cm-12.1"
     }
 ]
 

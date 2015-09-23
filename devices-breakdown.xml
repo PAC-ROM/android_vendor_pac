@@ -30,6 +30,7 @@
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="G3 (International)" CodeName="d855"/>
+        <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nexus 5" CodeName="hammerhead"/>
         <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G Pro" CodeName="e980"/>

@@ -25,6 +25,7 @@
   <!-- <device name="i9300" hasextras="1"/> -->
   <!-- <device name="iyokan" hasextras="1"/> -->
   <device name="jewel" hasextras="0" />
+  <device name="mako" hasextras="0"/>
   <!-- <device name="mango" hasextras="1"/> -->
   <device name="manta" hasextras="0"/>
   <!-- <device name="n5100" hasextras="0"/> -->
