@@ -12,6 +12,9 @@
         <device FullName="Android One 4GB" CodeName="sprout4"/>
         <device FullName="Android One 8GB" CodeName="sprout8"/>
     </vendor>
+	<vendor Name="Huawei">
+		<device FullName="Ascend Mate 2" CodeName="mt2"/>
+	</vendor>
     <vendor Name="HP">
         <device FullName="Touchpad" CodeName="tenderloin"/>
     </vendor>

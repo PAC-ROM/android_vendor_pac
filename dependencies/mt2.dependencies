@@ -1,0 +1,33 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "iAMr00t/android_device_huawei_mt2",
+        "target_path":  "device/huawei/mt2",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "iAMr00t/android_kernel_huawei_msm8928",
+        "target_path":  "kernel/huawei/msm8928",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "iAMr00t/proprietary_vendor_huawei",
+        "target_path":  "vendor/huawei",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "cm",
+        "repository":   "android_hardware_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "cm-12.1"
+    },
+    {
+        "remote":       "cm",
+        "repository":   "android_hardware_qcom_fm",
+        "target_path":  "hardware/qcom/fm",
+        "revision":     "cm-12.1"
+    }
+
+]
