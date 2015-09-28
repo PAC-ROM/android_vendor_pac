@@ -8,6 +8,8 @@ add_lunch_combo pac_grouper-userdebug
 # Google
 add_lunch_combo pac_sprout4-userdebug
 add_lunch_combo pac_sprout8-userdebug
+# Huawei
+add_lunch_combo pac_mt2-userdebug
 # HP
 add_lunch_combo pac_tenderloin-userdebug
 # HTC
