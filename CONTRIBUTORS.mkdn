@@ -86,6 +86,12 @@
 | Android One 8GB                  | sprout8      | [PAC] (http://forum.pac-rom.com/thread-1448.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3108308)   | [KunalKene1797] (https://github.com/KunalKene1797)
 
 <br>
+####Huawei:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Ascend Mate 2                    | mt2          | [PAC] (http://forum.pac-rom.com/thread-1613.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3186673)   | [iAMr00t] (https://github.com/iAMr00t)
+
+<br>
 ####HP:
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
@@ -225,6 +231,6 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 92
+##Total Devices: 94
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
