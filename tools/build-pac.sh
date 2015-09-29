@@ -46,7 +46,7 @@ usage() {
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
     echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
-    echo -e "    -w  Log file options:"
+    echo -e "    -w#  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
     echo ""
