@@ -26,10 +26,12 @@ add_lunch_combo pac_d855-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_hammerhead-userdebug
+add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_v500-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug
+add_lunch_combo pac_surnia-userdebug
 add_lunch_combo pac_ghost-userdebug
 add_lunch_combo pac_obake-userdebug
 add_lunch_combo pac_shamu-userdebug

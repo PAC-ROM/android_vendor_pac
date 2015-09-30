@@ -2,7 +2,7 @@
 ifeq (pac_d855,$(TARGET_PRODUCT))
 
 # Bootanimation
-PAC_BOOTANIMATION_NAME := 2560
+PAC_BOOTANIMATION_NAME := 1440
 
 # Include PAC common configuration
 include vendor/pac/config/pac_common.mk

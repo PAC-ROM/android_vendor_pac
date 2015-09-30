@@ -30,6 +30,7 @@
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="G3 (International)" CodeName="d855"/>
+        <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nexus 5" CodeName="hammerhead"/>
         <device FullName="Optimus G (International)" CodeName="e975"/>
         <device FullName="Optimus G Pro" CodeName="e980"/>
@@ -39,6 +40,7 @@
         <device FullName="Droid Razr (GSM)" CodeName="umts_spyder"/>
         <device FullName="Droid Razr (Verizon)" CodeName="spyder"/>
         <device FullName="Moto E (Global GSM, Retail US)" CodeName="condor"/>
+        <device FullName="Moto E 2015 LTE (Global GSM)" CodeName="surnia"/>
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto G 2014" CodeName="titan"/>
         <device FullName="Moto G 2014 LTE" CodeName="thea"/>

@@ -13,12 +13,6 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_oppo_msm8974-common",
-        "target_path":  "device/oppo/msm8974-common",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
         "repository":   "android_device_oppo_common",
         "target_path":  "device/oppo/common",
         "revision":     "pac-5.1"
@@ -28,12 +22,6 @@
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "pic",
-        "repository":   "proprietary_vendor_oppo",
-        "target_path":  "vendor/oppo",
-        "revision":     "cm-12.1"
     },
     {
         "remote":       "pic",
