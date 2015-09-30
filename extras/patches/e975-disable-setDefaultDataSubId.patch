@@ -1,0 +1,57 @@
+From 0dc8d3bd2621debf37d9d984c531f270987203bf Mon Sep 17 00:00:00 2001
+From: Jan Jasper de Kroon <jajadekroon@gmail.com>
+Date: Tue, 01 Sep 2015 22:45:30 +0200
+Subject: [PATCH] Enhanced patch to disable setDefaultDataSubId
+
+This patch disables the function setDefaultDataSubId
+ONLY for devices which have specifically SET,
+or ADDED the flag "nodefaultdata" to the build.prop
+variable "ro.telephony.ril.config".
+
+In all other cases the outcome of the if statement
+will return true and thus enable the function
+setDefaultDataSubId.
+
+This patch is needed for at least the gproj-common
+ based devices, otherwise RIL doesn't function
+(SIM Card is unable to be recognized).
+
+A more permanent fix is being worked on,
+but not to be expected very soon.
+With this patch at least gproj devices can be updated,
+so they can enjoy the latest security patches for android.
+
+Change-Id: Ib124b35da51afd1cad9c3f38e42d44f48cc40ff8
+---
+
+diff --git a/src/java/com/android/internal/telephony/SubscriptionController.java b/src/java/com/android/internal/telephony/SubscriptionController.java
+index 99b627b..6fef765 100755
+--- a/src/java/com/android/internal/telephony/SubscriptionController.java
++++ b/src/java/com/android/internal/telephony/SubscriptionController.java
+@@ -680,6 +680,15 @@
+         return mTelephonyManager.getSimCount();
+     }
+ 
++    public boolean needsOldRilFeature(String feature) {
++        String[] features = SystemProperties.get("ro.telephony.ril.config", "").split(",");
++        for (String found: features) {
++            if (found.equals(feature))
++                return true;
++        }
++        return false;
++    }
++
+     /**
+      * Add a new SubInfoRecord to subinfo database if needed
+      * @param context Context provided by caller
+@@ -819,7 +828,9 @@
+                             if (DBG) {
+                                 logdl("[addSubInfoRecord] one sim set defaults to subId=" + subId);
+                             }
+-                            setDefaultDataSubId(subId);
++                            if (!needsOldRilFeature("nodefaultdata")) {
++                                setDefaultDataSubId(subId);
++                            }
+                             setDataSubId(subId);
+                             setDefaultSmsSubId(subId);
+                             setDefaultVoiceSubId(subId);

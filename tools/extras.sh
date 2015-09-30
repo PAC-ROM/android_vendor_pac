@@ -218,6 +218,12 @@ case $device in
         FOLDER=vendor/samsung/serrano-common
         patch_it
     ;;
+    e975)
+        # e975-disable-setDefaultDataSubId
+        PATCH=e975-disable-setDefaultDataSubId
+        FOLDER=frameworks/opt/telephony
+        patch_it
+    ;;
 esac
 
 
