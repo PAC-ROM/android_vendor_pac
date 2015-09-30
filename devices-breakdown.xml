@@ -27,6 +27,9 @@
         <device FullName="One Max (Verizon)" CodeName="t6vzw"/>
         <device FullName="One XL" CodeName="evita"/>
     </vendor>
+    <vendor Name="Huawei">
+        <device FullName="Ascend Mate 2" CodeName="mt2"/>
+    </vendor>
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
         <device FullName="G3 (International)" CodeName="d855"/>
