@@ -22,13 +22,12 @@ k=$(expr $i - 1)
 
 	# Line with after --- until was too long for a small ListView
 	echo '====================' >> $Changelog;
-	echo  "     "$Until_Date       >> $Changelog;
-	echo '===================='	>> $Changelog;
-	echo >> $Changelog;
-
+	echo  "     "$Until_Date    >> $Changelog;
+	echo '====================' >> $Changelog;
 	# Cycle through every repo to find commits between 2 dates
-	repo forall -pc 'git log --pretty=format:"%h %d\\ %s\\ [%cn]" --decorate --after=$After_Date --until=$Until_Date' >> $Changelog
+	repo forall -pc 'git log --pretty=format:"%h  %s  [%cn]" --decorate --after=$After_Date --until=$Until_Date' >> $Changelog
 	echo >> $Changelog;
+        echo >> $Changelog;
 done
 
 sed -i 's/project/   */g' $Changelog
