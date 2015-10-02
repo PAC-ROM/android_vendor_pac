@@ -31,6 +31,7 @@
   <!-- <device name="n5100" hasextras="0"/> -->
   <!-- <device name="n5120" hasextras="0"/> -->
   <device name="otterx" hasextras="0"/>
+  <device name="otus" hasextras="0"/>
   <device name="pollux" hasextras="0"/>
   <device name="pollux_windy" hasextras="0"/>
   <!-- <device name="s2ve" hasextras="1"/> -->
