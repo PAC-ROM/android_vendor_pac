@@ -19,7 +19,7 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_qcom_common",
+        "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "pac-5.1"
     },
