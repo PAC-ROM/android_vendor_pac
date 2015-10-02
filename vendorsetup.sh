@@ -33,10 +33,11 @@ add_lunch_combo pac_v500-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug
-add_lunch_combo pac_surnia-userdebug
 add_lunch_combo pac_ghost-userdebug
 add_lunch_combo pac_obake-userdebug
+add_lunch_combo pac_otus-userdebug
 add_lunch_combo pac_shamu-userdebug
+add_lunch_combo pac_surnia-userdebug
 add_lunch_combo pac_spyder-userdebug
 add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_thea-userdebug

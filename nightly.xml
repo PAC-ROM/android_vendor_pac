@@ -53,10 +53,12 @@
   <device name="mt2"/>
   <!-- <device name="n5110"/> -->
   <device name="obake"/>
+  <device name="otus"/>
   <device name="shamu"/>
   <!-- <device name="sprout4"/> -->
   <!-- <device name="sprout8"/> -->
   <device name="sirius"/>
+  <device name="surnia"/>
   <device name="spyder"/>
   <device name="thea"/>
   <device name="titan"/>
