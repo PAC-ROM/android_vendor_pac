@@ -2,7 +2,7 @@
     {
         "remote":       "ss",
         "repository":   "android_device_motorola_otus",
-        "target_path":  "device/motorola/surnia",
+        "target_path":  "device/motorola/otus",
         "revision":     "pac-5.1"
     },
     {
