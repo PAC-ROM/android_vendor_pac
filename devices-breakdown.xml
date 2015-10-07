@@ -48,6 +48,7 @@
         <device FullName="Moto G (Global GSM, Retail US)" CodeName="falcon"/>
         <device FullName="Moto G 2014" CodeName="titan"/>
         <device FullName="Moto G 2014 LTE" CodeName="thea"/>
+        <device FullName="Moto G 3rd Gen" CodeName="osprey"/>
         <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
