@@ -5,7 +5,7 @@ ifeq (pac_pollux_windy,$(TARGET_PRODUCT))
 PAC_BOOTANIMATION_NAME := 1080
 
 # Include PAC common configuration
-include vendor/pac/config/pac_common.mk
+include vendor/pac/config/common.mk
 
 # Inherit CM device configuration
 $(call inherit-product, device/sony/pollux_windy/cm.mk)

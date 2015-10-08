@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Squish a CM otapackage for distribution
-# cyanogen
+# Squish a PAC otapackage for distribution
+# PAC-ROM
 
 . $ANDROID_BUILD_TOP/vendor/pac/tools/colors
 
