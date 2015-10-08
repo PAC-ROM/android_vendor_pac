@@ -50,13 +50,16 @@
   <device name="m7spr"/>
   <device name="m7vzw"/>
   <device name="m8"/>
+  <device name="mt2"/>
   <!-- <device name="n5110"/> -->
   <device name="obake"/>
+  <device name="otus"/>
   <device name="shamu"/>
   <!-- <device name="sprout4"/> -->
   <!-- <device name="sprout8"/> -->
   <device name="sirius"/>
   <device name="spyder"/>
+  <device name="surnia"/>
   <device name="thea"/>
   <device name="titan"/>
   <device name="tomato"/>
