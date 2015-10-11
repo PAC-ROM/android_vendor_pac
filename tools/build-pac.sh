@@ -64,7 +64,7 @@ usage() {
 
 # PAC version
 export PAC_VERSION_MAJOR="LP-MR1"
-export PAC_VERSION_MINOR="Beta-3"
+export PAC_VERSION_MINOR=""
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
@@ -81,7 +81,11 @@ if [ -s ~/PACname ]; then
 else
     export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
 fi
-export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+if [ -z "$PAC_VERSION_MINOR" ]; then
+    export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_MAINTENANCE"
+else
+    export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+fi
 
 
 # Check directories
@@ -386,7 +390,11 @@ elif [ "$opt_only" -eq 2 ]; then
     export PAC_MAKE=recoveryimage
     make -j$opt_jobs$opt_v$opt_i recoveryimage
 else
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
+    if [ -z "$PAC_VERSION_MINOR" ]; then
+        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldred}$PAC_MAINTENANCE${rst}"
+    else
+        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
+    fi
     echo ""
     make -j$opt_jobs$opt_v$opt_i bacon
 fi
