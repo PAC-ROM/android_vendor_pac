@@ -3,30 +3,30 @@
         "remote":       "ss",
         "repository":   "android_device_oneplus_bacon",
         "target_path":  "device/oneplus/bacon",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_kernel_oneplus_msm8974",
         "target_path":  "kernel/oneplus/msm8974",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_device_oppo_common",
         "target_path":  "device/oppo/common",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     }
 ]
