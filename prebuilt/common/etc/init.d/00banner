@@ -1,0 +1,10 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t pac"
+
+$L "___  ____ ____    ____ ____ _  _";
+$L "|__] |__| |    __ |__/ |  | |\\/|";
+$L "|    |  | |___    |  \\ |__| |  |";
+$L "Welcome to Android `getprop ro.build.version.release` / PAC-ROM-`getprop ro.pac.version`";

@@ -20,7 +20,7 @@
 
 export C=/tmp/backupdir
 export S=/system
-export V="LP-MR1"
+export V="MM"
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 cp -f /tmp/install/bin/backuptool.functions /tmp
@@ -49,7 +49,7 @@ check_prereq() {
         return 0
     fi
     retval=1
-    ver=$(awk "/ro.pac.version=($V)/ {print \"LP\"}" /system/build.prop)
+    ver=$(awk "/ro.pac.version=($V)/ {print \"MM\"}" /system/build.prop)
     case "$ver" in
         LP)
             echo "Found compatible version, backing up files."
