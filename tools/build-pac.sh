@@ -24,9 +24,6 @@ usage() {
     echo ""
     echo -e "${bldblu}  Options:${bldcya}"
     echo -e "    -a  Disable ADB authentication and set root access to Apps and ADB"
-    echo -e "    -b# Prebuilt Chromium options:"
-    echo -e "        1 - Remove"
-    echo -e "        2 - No Prebuilt Chromium"
     echo -e "    -c# Cleaning options before build:"
     echo -e "        1 - Run make clean"
     echo -e "        2 - Run make installclean"
@@ -35,20 +32,21 @@ usage() {
     echo -e "        1 - Verbose build output"
     echo -e "        2 - Quiet build output"
     echo -e "    -f  Fetch extras"
-    echo -e "    -j# Set number of jobs"
-    echo -e "    -l  Optimizations for devices with low-RAM"
-    echo -e "    -k  Rewrite roomservice after dependencies update"
     echo -e "    -i  Ignore minor errors during build"
+    echo -e "    -j# Set number of jobs"
+    echo -e "    -k  Rewrite roomservice after dependencies update"
+    echo -e "    -l  Optimizations for devices with low-RAM"
+    echo -e "    -o# Only build:"
+    echo -e "        1 - Boot Image"
+    echo -e "        2 - Recovery Image"
     echo -e "    -r  Reset source tree before build"
     echo -e "    -s# Sync options before build:"
     echo -e "        1 - Normal sync"
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
-    echo -e "    -o# Only build:"
-    echo -e "        1 - Boot Image"
-    echo -e "        2 - Recovery Image"
-    echo -e "    -p  Build using pipe"
-    echo -e "    -w  Log file options:"
+    echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
+    echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
+    echo -e "    -w#  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
     echo ""
@@ -66,15 +64,12 @@ usage() {
 
 # PAC version
 export PAC_VERSION_MAJOR="LP-MR1"
-export PAC_VERSION_MINOR="Beta-1"
+export PAC_VERSION_MINOR=""
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
 
 # Default global variable values with preference to environmant.
-if [ -z "${USE_PREBUILT_CHROMIUM}" ]; then
-    export USE_PREBUILT_CHROMIUM=1
-fi
 if [ -z "${USE_CCACHE}" ]; then
     export USE_CCACHE=1
 fi
@@ -86,7 +81,11 @@ if [ -s ~/PACname ]; then
 else
     export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
 fi
-export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+if [ -z "$PAC_VERSION_MINOR" ]; then
+    export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_MAINTENANCE"
+else
+    export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+fi
 
 
 # Check directories
@@ -138,7 +137,6 @@ fi
 
 
 opt_adb=0
-opt_chromium=0
 opt_clean=0
 opt_ccache=0
 opt_extra=0
@@ -148,28 +146,26 @@ opt_kr=0
 opt_ignore=0
 opt_lrd=0
 opt_only=0
-opt_pipe=0
 opt_reset=0
 opt_sync=0
+opt_twrp=0
 opt_log=0
 
-
-while getopts "ab:c:de:fj:kilo:prs:w:" opt; do
+while getopts "ac:de:fij:klo:rs:tw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
-    b) opt_chromium="$OPTARG" ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_ccache=1 ;;
     e) opt_extra="$OPTARG" ;;
     f) opt_fetch=1 ;;
+    i) opt_ignore=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
-    i) opt_ignore=1 ;;
     l) opt_lrd=1 ;;
     o) opt_only="$OPTARG" ;;
-    p) opt_pipe=1 ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
+    t) opt_twrp=1 ;;
     w) opt_log="$OPTARG" ;;
     *) usage
     esac
@@ -186,18 +182,6 @@ device="$1"
 if [ "$opt_ccache" -eq 1 ]; then
     echo -e "${bldcya}Ccache not be used in this build${rst}"
     unset USE_CCACHE
-    echo ""
-fi
-
-
-# Chromium options
-if [ "$opt_chromium" -eq 1 ]; then
-    rm -rf prebuilts/chromium/"$device"
-    echo -e "${bldcya}Prebuilt Chromium for $device removed${rst}"
-    echo ""
-elif [ "$opt_chromium" -eq 2 ]; then
-    unset USE_PREBUILT_CHROMIUM
-    echo -e "${bldcya}Prebuilt Chromium will not be used${rst}"
     echo ""
 fi
 
@@ -250,6 +234,16 @@ else
         echo -e "${bldcya}Output directory is: ${bldgrn}Clean${rst}"
         echo ""
     fi
+fi
+
+
+# TWRP Recovery
+if [ "$opt_twrp" -eq 1 ]; then
+    echo -e "${bldcya}TWRP Recovery will be built${rst}"
+    export RECOVERY_VARIANT=twrp
+    echo ""
+else
+    unset RECOVERY_VARIANT
 fi
 
 
@@ -350,14 +344,6 @@ echo -e "${bldcya}Lunching device${rst}"
 lunch "pac_$device-userdebug"
 
 
-# Pipe option
-if [ "$opt_pipe" -ne 0 ]; then
-    export TARGET_USE_PIPE=true
-else
-    unset TARGET_USE_PIPE
-fi
-
-
 # Get extra options for build
 if [ "$opt_extra" -eq 1 ]; then
     opt_v=" "showcommands
@@ -393,16 +379,22 @@ fi
 
 
 # Start compilation
+unset PAC_MAKE
 if [ "$opt_only" -eq 1 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
-    make -j$opt_jobs$opt_v$opt_i bootimage
+    make -j$opt_jobs$opt_v$opt_i bootzip
 elif [ "$opt_only" -eq 2 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
+    export PAC_MAKE=recoveryimage
     make -j$opt_jobs$opt_v$opt_i recoveryimage
 else
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
+    if [ -z "$PAC_VERSION_MINOR" ]; then
+        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldred}$PAC_MAINTENANCE${rst}"
+    else
+        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
+    fi
     echo ""
     make -j$opt_jobs$opt_v$opt_i bacon
 fi

@@ -1,0 +1,16 @@
+[
+    {
+        "remote":       "github",
+        "account":      "SlimRoms",
+        "repository":   "android_art",
+        "target_path":  "art",
+        "revision":     "lp5.1"
+    }
+    {
+        "remote":       "github",
+        "account":      "Evervolve",
+        "repository":   "android_external_bluetooth_bluedroid",
+        "target_path":  "external/bluetooth/bluedroid",
+        "revision":     "lollipop-5.1"
+    }
+]

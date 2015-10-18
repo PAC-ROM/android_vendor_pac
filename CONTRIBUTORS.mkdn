@@ -1,293 +1,240 @@
-PAC-man Rom
-===========
+![](http://i.imgur.com/OtHMgS4.png)
+
+####Lead Development:
+* **[Nick0703] (https://github.com/Nick0703)**
+
+<br>
+####Development Team:
+* **[bluefa1con] (https://github.com/bluefa1con)**
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[Papa Smurf151] (https://github.com/Papa-Smurf151)**
+* **[pvyParts] (https://github.com/pvyParts)**
+* **[szl.kiev] (https://github.com/szlkiev)**
+* **[tdhite] (https://github.com/tdhite)**
+
+<br>
+####Lead Contributors:
+* **[JoseGalRe] (https://github.com/JoseGalRe)**
+* **[Langes72] (https://github.com/Langes72)**
+
+<br>
+####Gerrit/GitHub Administration:
+* **[JoseGalRe] (https://github.com/JoseGalRe)**
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[Nick0703] (https://github.com/Nick0703)**
+
+<br>
+####Forum Administration:
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[Nick0703] (https://github.com/Nick0703)**
+* **[Papa Smurf151] (https://github.com/Papa-Smurf151)**
+
+<br>
+####Web Administration:
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[Nick0703] (https://github.com/Nick0703)**
+* **[Papa Smurf151] (https://github.com/Papa-Smurf151)**
+* **[pvyParts] (https://github.com/pvyParts)**
+
+<br>
+####Jenkins Administration:
+* **[Langes72] (https://github.com/Langes72)**
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[pvyParts] (https://github.com/pvyParts)**
+
+<br>
+####Jenkins Slave Maintainers:
+* **[123sit] (https://github.com/123sit)**
+* **[aHcVolle] (https://github.com/aHcVolle)**
+* **[draexo] (https://github.com/draexo)**
+* **[DympyDev] (https://github.com/DympyDev)**
+* **[hearmewhisper] (https://github.com/HearMeWhisper)**
+* **[Langes72] (https://github.com/Langes72)**
+* **[Lilmacaco] (https://github.com/Lilmacaco)**
+* **[MaDc0wUSP] (https://github.com/MaDc0wUSP)**
+* **[Papa-Smurf151] (https://github.com/Papa-Smurf151)**
+* **[the-octagon] (https://github.com/the-octagon)**
+
+<br>
+####Graphics Team:
+* **[DarkStarr] (https://github.com/DarkStarr)**
+* **[GeneralTK1] (https://github.com/GeneralTK1)**
+* **[One2thTexan] (https://github.com/One2thTexan)**
+
+<br><br>
+##Devices
+
+####Amazon:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Kindle Fire                      | otterx       | [PAC] (http://forum.pac-rom.com/thread-557.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2407455)   | [HashBang173] (https://github.com/HashBang173)
+
+<br>
+####ASUS:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Nexus 7 2012                     | grouper      | [PAC] (http://forum.pac-rom.com/thread-1383.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3051370)   | [iurnait] (https://github.com/HashBang173)
+| Nexus 7 2013                     | flo          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
+| Nexus 7 2013 (LTE)               | deb          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
+| Nexus Player                     | fugu         | [PAC] (http://forum.pac-rom.com/thread-1484.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3140183)   | [Skiwong20] (https://github.com/Skiwong20)
+
+<br>
+####Google:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Android One 4GB                  | sprout4      | [PAC] (http://forum.pac-rom.com/thread-1447.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3107574)   | [KunalKene1797] (https://github.com/KunalKene1797)
+| Android One 8GB                  | sprout8      | [PAC] (http://forum.pac-rom.com/thread-1448.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3108308)   | [KunalKene1797] (https://github.com/KunalKene1797)
+
+<br>
+####HP:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Touchpad                         | tenderloin   | [PAC] (http://forum.pac-rom.com/thread-1391.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3056454)   | [shumash] (https://github.com/shumashv1)
+
+<br>
+####HTC:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Evo 4G                           | jewel        | [PAC] (http://forum.pac-rom.com/thread-1425.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049005)   | [ocarinaz64] (https://github.com/ocarinaz64)
+| Nexus 9                          | flounder     | [PAC] (http://forum.pac-rom.com/thread-1351.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3028306)   | [HashBang173] (https://github.com/HashBang173)
+| One 2013 (GSM)                   | m7           | [PAC] (http://forum.pac-rom.com/thread-767.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2348415)   | [MaDc0wUSP] (https://github.com/MaDc0wUSP)
+| One 2013 (AT&T)                  | m7           | [PAC] (http://forum.pac-rom.com/thread-767.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2348590)   | [MaDc0wUSP] (https://github.com/MaDc0wUSP)
+| One 2013 (T-Mobile)              | m7           | [PAC] (http://forum.pac-rom.com/thread-767.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2375475)   | [MaDc0wUSP] (https://github.com/MaDc0wUSP)
+| One 2013 (Sprint)                | m7spr        | [PAC] (http://forum.pac-rom.com/thread-855.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2408340)   | [tdhite] (https://github.com/tdhite)
+| One 2013 (Verizon)               | m7vzw        | [PAC] (http://forum.pac-rom.com/thread-597.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2455127)   | [Flyhalf205] (https://github.com/Flyhalf205)
+| One 2014                         | m8           | [PAC] (http://forum.pac-rom.com/thread-1437.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3088682)   | [fizbanrapper] (https://github.com/fizbanrapper)        | [PunkUnity] (https://github.com/PunkUnity)
+| One Max (GSM)                    | t6           | [PAC] (http://forum.pac-rom.com/thread-973.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2790916)   | [awidawad] (https://github.com/awidawad)                | [Flyhalf205] (https://github.com/Flyhalf205)
+| One Max (Sprint)                 | t6spr        | [PAC] (http://forum.pac-rom.com/thread-974.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2790916)   | [awidawad] (https://github.com/awidawad)                | [Flyhalf205] (https://github.com/Flyhalf205)
+| One Max (Verizon)                | t6vzw        | [PAC] (http://forum.pac-rom.com/thread-975.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2790916)   | [awidawad] (https://github.com/awidawad)                | [Flyhalf205] (https://github.com/Flyhalf205)
+| One XL                           | evita        | [PAC] (http://forum.pac-rom.com/thread-1355.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049068)   | [JoseGalRe] (https://github.com/JoseGalRe)
+
+<br>
+####Huawei:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Ascend Mate 2                    | mt2          | [PAC] (http://forum.pac-rom.com/thread-1613.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3186673)   | [iAMr00t] (https://github.com/iAMr00t)
 
 
-Development Team:
------------------
-* __bluefa1con__
-* __MaDc0w__
-* __MallardDuck__
-* __Nick0703__
-* __Owain94__
-* __Papa Smurf151__
-* __pvyParts__
-* __szl.kiev__
-* __tdhite__
-* __timpohladthomas__
-* __zyonee__
+<br>
+####LG:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| G-Pad                            | v500         | [PAC] (http://forum.pac-rom.com/thread-539.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668112)   | [darkassain] (https://github.com/MikePach)
+| G3 (International)               | d855         | [PAC] (http://forum.pac-rom.com/thread-1547.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198802)   | [dadi11] (https://github.com/dadi11)
+| Nexus 4                          | mako         | [PAC] (http://forum.pac-rom.com/thread-1610.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198239)   | [Volle] (https://github.com/aHcVolle)
+| Nexus 5                          | hammerhead   | [PAC] (http://forum.pac-rom.com/thread-984.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670238)   | [my95z34] (https://github.com/my95z34)
+| Optimus G (LTE)                  | e975         | [PAC] (http://forum.pac-rom.com/thread-1436.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3019858)   | [dadi11] (https://github.com/dadi11)
+| Optimus G Pro                    | e980         | [PAC] (http://forum.pac-rom.com/thread-1054.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2852984)   | [zamajalo] (https://github.com/zamajalo)
 
+<br>
+####Motorola:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Droid Maxx (Verizon)             | obake        | [PAC] (http://forum.pac-rom.com/thread-1378.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668311)   | [Skiwong20] (https://github.com/Skiwong20)
+| Droid Mini (Verizon)             | obake        | [PAC] (http://forum.pac-rom.com/thread-1378.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668311)   | [Skiwong20] (https://github.com/Skiwong20)
+| Droid Razr (GSM)                 | umts_spyder  | [PAC] (http://forum.pac-rom.com/thread-1038.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670349)   | [Skiwong20] (https://github.com/Skiwong20)
+| Droid Razr (Verizon)             | spyder       | [PAC] (http://forum.pac-rom.com/thread-1038.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670349)   | [Skiwong20] (https://github.com/Skiwong20)
+| Droid Ultra (Verizon/GSM)        | obake        | [PAC] (http://forum.pac-rom.com/thread-1378.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668311)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto E (Global GSM)              | condor       | [PAC] (http://forum.pac-rom.com/thread-1211.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2886058)   | [ashwin007] (https://github.com/ashwin007)
+| Moto E (Retail US GSM)           | condor       | [PAC] (http://forum.pac-rom.com/thread-1211.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2886058)   | [ashwin007] (https://github.com/ashwin007)
+| Moto E 2015 3G (GSM)             | otus         | [PAC] (http://forum.pac-rom.com/thread-1616.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3122422)   | [Shr3ps] (https://github.com/Shr3ps)
+| Moto E 2015 LTE (GSM)            | surnia       | [PAC] (http://forum.pac-rom.com/thread-1614.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3114041)   | [Shr3ps] (https://github.com/Shr3ps)
+| Moto G 2013 (Global GSM)         | falcon       | [PAC] (http://forum.pac-rom.com/thread-536.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2667834)   | [Wechy77] (https://github.com/Wechy77)
+| Moto G 2013 (Retail US GSM)      | falcon       | [PAC] (http://forum.pac-rom.com/thread-536.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2667834)   | [Wechy77] (https://github.com/Wechy77)
+| Moto G 2014                      | titan        | [PAC] (http://forum.pac-rom.com/thread-1366.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049239)   | [LuK1337] (https://github.com/LuK1337)
+| Moto G 2014 (LTE)                | thea         | [PAC] (http://forum.pac-rom.com/thread-1430.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3105995)   | [LuK1337] (https://github.com/LuK1337)
+| Moto G 2015 (3rd Gen)            | osprey       | [PAC] (http://forum.pac-rom.com/thread-1620.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3188400)   | [Shr3ps] (https://github.com/Shr3ps)
+| Moto X (GSM)                     | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto X (Sprint)                  | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto X (T-Mobile)                | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto X (US Cellular)             | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto X (Verizon)                 | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)
 
-Contributors:
--------------
-* __DympyDev__
-* __iurnait__
-* __JoseGalRe__
-* __Langes__
+<br>
+####Nvidia:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Shield Tablet (LTE)              | wx_na_do     | [PAC] (http://forum.pac-rom.com/thread-1352.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3028409)   | [berryman13] (https://github.com/berryman13)
 
+<br>
+####OnePlus:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| One                              | bacon        | [PAC] (http://forum.pac-rom.com/thread-992.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2811990)   | [MaDc0wUSP] (https://github.com/MaDc0wUSP)              | [Nick0703] (https://github.com/Nick0703)
 
-Gerrit Administrators:
-----------------------
-* __MaDc0w__
-* __Nick0703__
-* __Owain94__
-* __Papa Smurf151__
-* __pvyParts__
-* __szl.kiev__
-* __timpohladthomas__
-* __zyonee__
+<br>
+####Samsung:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Galaxy Note 3 (LTE)              | hlte         | [PAC] (http://forum.pac-rom.com/thread-1363.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048388)   | [encho] (https://github.com/ench0)
+| Galaxy Note 3 (Sprint)           | hltespr      | [PAC] (http://forum.pac-rom.com/thread-1365.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048705)   | [encho] (https://github.com/ench0)
+| Galaxy Note 3 (T-Mobile)         | hltetmo      | [PAC] (http://forum.pac-rom.com/thread-1364.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048701)   | [encho] (https://github.com/ench0)
+| Galaxy Note 4 (Sprint)           | trltespr     | [PAC] (http://forum.pac-rom.com/thread-1384.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3051428)   | [HearMeWhisper] (https://github.com/HearMeWhisper)
+| Galaxy Note 4 (T-Mobile)         | trltetmo     | [PAC] (http://forum.pac-rom.com/thread-1385.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3014758)   | [HearMeWhisper] (https://github.com/HearMeWhisper)
+| Galaxy Note 8.0 (GSM)            | N5100        | [PAC] (http://forum.pac-rom.com/thread-527.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2456222)   | [ryukiri] (https://github.com/ryukiri)
+| Galaxy Note 8.0 (LTE)            | N5120        | [PAC] (http://forum.pac-rom.com/thread-586.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2456222)   | [ryukiri] (https://github.com/ryukiri)
+| Galaxy Note 8.0 (Wi-Fi)          | N5110        | [PAC] (http://forum.pac-rom.com/thread-528.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2456222)   | [ryukiri] (https://github.com/ryukiri)
+| Galaxy S II Plus                 | s2ve         | [PAC] (http://forum.pac-rom.com/thread-1374.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049450)   | [doriandiaconu] (https://github.com/doriandiaconu)
+| Galaxy S II Plus (NFC)           | s2vep        | [PAC] (http://forum.pac-rom.com/thread-1375.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049450)   | [doriandiaconu] (https://github.com/doriandiaconu)
+| Galaxy S III (AT&T)              | d2att        | [PAC] (http://forum.pac-rom.com/thread-521.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2015607)   | [manfromgta] (https://github.com/manfromgta)            | [Papa Smurf151] (https://github.com/Papa-Smurf151)
+| Galaxy S III (GSM)               | i9300        | [PAC] (http://forum.pac-rom.com/thread-1415.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668572)   | [garwedgess] (https://github.com/garwedgess)
+| Galaxy S III (Sprint)            | d2spr        | [PAC] (http://forum.pac-rom.com/thread-521.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2032843)   | [manfromgta] (https://github.com/manfromgta)            | [Papa Smurf151] (https://github.com/Papa-Smurf151)
+| Galaxy S III (T-Mobile)          | d2tmo        | [PAC] (http://forum.pac-rom.com/thread-521.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2015525)   | [manfromgta] (https://github.com/manfromgta)            | [Papa Smurf151] (https://github.com/Papa-Smurf151)
+| Galaxy S III (Verizon)           | d2vzw        | [PAC] (http://forum.pac-rom.com/thread-521.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2028443)   | [manfromgta] (https://github.com/manfromgta)            | [Papa Smurf151] (https://github.com/Papa-Smurf151)
+| Galaxy S IV (AT&T)               | jflteatt     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2312024)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (Canadian)           | jfltecan     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2312024)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (GSM)                | i9500        | [PAC] (http://forum.pac-rom.com/thread-1377.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049846)   | [Kung Fu Monkey] (https://github.com/UchihaKakarot)
+| Galaxy S IV (LTE)                | jfltexx      | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048999)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (Sprint)             | jfltespr     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048988)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (T-Mobile)           | jfltetmo     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668312)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (US Cellular)        | jflteusc     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048988)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV (Verizon)            | jfltevzw     | [PAC] (http://forum.pac-rom.com/thread-1371.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048993)   | [Nick0703] (https://github.com/Nick0703)                | [JoseGalRe] (https://github.com/JoseGalRe)
+| Galaxy S IV mini (DUOS)          | serranodsdd  | [PAC] (http://forum.pac-rom.com/thread-1372.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
+| Galaxy S IV mini (GSM)           | serrano3gxx  | [PAC] (http://forum.pac-rom.com/thread-1372.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
+| Galaxy S IV mini (LTE)           | serranoltexx | [PAC] (http://forum.pac-rom.com/thread-1372.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
+| Nexus 10                         | manta        | [PAC] (http://forum.pac-rom.com/thread-1379.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2948457)   | [Volle] (https://github.com/aHcVolle)
 
+<br>
+####Sony:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Xperia Tablet Z                  | pollux_windy | [PAC] (http://forum.pac-rom.com/thread-1150.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2883011)   | [Skiwong20] (https://github.com/Skiwong20)
+| Xperia Tablet Z (LTE)            | pollux       | [PAC] (http://forum.pac-rom.com/thread-1150.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2883011)   | [Skiwong20] (https://github.com/Skiwong20)
+| Xperia Z1                        | honami       | [PAC] (http://forum.pac-rom.com/thread-1067.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2478003)   | [jeroenqui] (https://github.com/jeroenqui)              | [Langes] (https://github.com/Langes72)
+| Xperia Z1 Compact                | amami        | [PAC] (http://forum.pac-rom.com/thread-968.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2764017)   | [oshmoun] (https://github.com/oshmoun)
+| Xperia Z2                        | sirius       | [PAC] (http://forum.pac-rom.com/thread-1540.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2862695)   | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
+| Xperia Tablet Z2                 | castor_windy | [PAC] (http://forum.pac-rom.com/thread-1539.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2862684)   | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
+| Xperia Tablet Z2 (LTE)           | castor       | [PAC] (http://forum.pac-rom.com/thread-1539.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2862684)   | [rcstar6696] (https://github.com/rcstar6696)            | [pvyParts] (https://github.com/pvyParts)
 
-Forum Administrators:
----------------------
-* __MaDc0w__
-* __Nick0703__
-* __Papa Smurf151__
+<br>
+####Sony Ericsson:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Live With Walkman                | coconut      | [PAC] (http://forum.pac-rom.com/thread-617.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2675370)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Active                    | satsuma      | [PAC] (http://forum.pac-rom.com/thread-622.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2675370)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Arc                       | anzu         | [PAC] (http://forum.pac-rom.com/thread-616.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2298280)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Mini                      | smultron     | [PAC] (http://forum.pac-rom.com/thread-623.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2675370)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Mini Pro                  | mango        | [PAC] (http://forum.pac-rom.com/thread-621.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2675370)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72) & [szl.kiev] (https://github.com/szlkiev)
+| Xperia Neo                       | hallon       | [PAC] (http://forum.pac-rom.com/thread-619.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2672164)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Neo V                     | haida        | [PAC] (http://forum.pac-rom.com/thread-618.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2672164)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Pro                       | iyokan       | [PAC] (http://forum.pac-rom.com/thread-620.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2672164)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72)
+| Xperia Ray                       | urushi       | [PAC] (http://forum.pac-rom.com/thread-624.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=1803076)   | [Druboo666] (https://github.com/Druboo666)              | [Langes] (https://github.com/Langes72) & [szl.kiev] (https://github.com/szlkiev)
 
+<br>
+####Xiaomi:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Redmi 1S                         | armani       | [PAC] (http://forum.pac-rom.com/thread-1421.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3095216)   | [TechExhibeo] (https://github.com/TechExhibeo)
+| Mi3W/Mi4W                        | cancro       | [PAC] (http://forum.pac-rom.com/thread-1595.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3087341)   | [pranay.pingale10] (https://github.com/pranay.pingale10)
+<br>
+####Yu:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Yureka                           | tomato       | [PAC] (http://forum.pac-rom.com/thread-1426.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3102705)   | [sandymanu] (https://github.com/sandymanu)
+| Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
-Web Administrators:
--------------------
-* __MaDc0w__
-* __Papa Smurf151__
-* __pvyParts__
-* __szl.kiev__
+<br><br>
+##Total Devices: 96
 
-
-Jenkins Administrators:
------------------------
-* __MaDc0w__
-* __Nick0703__
-* __Papa Smurf151__
-* __pvyParts__
-
-
-BuildBot Maintainers:
----------------------
-* __123sit__
-* __aHcVolle__
-* __Argumentation__
-* __draexo__
-* __DympyDev__
-* __ktkintner__
-* __Langes72__
-* __Lilmacaco__
-* __MaDc0wUSP__
-* __MallardDuck__
-* __my95z34__
-* __Papa-Smurf151__
-* __pvyParts__
-* __the-octagon__
-
-
-Graphics:
---------------
-* __ATMOSPH3AR__
-* __DarkStarr__
-* __GeneralTK1__
-* __jaekar99__
-* __One2thTexan__
-* __pvyParts__
-* __Rinkle McBally__
-* __zooyork0721__
-
-
-Devices:        Codename:       Maintainer:
----------------------------------------------------------------------
-
-Acer:
----------------------------------------------------------------------
-* __Iconia A510/A511 (a510/a511) :__ Shreps, Elibl
-* __Iconia A700/A701 (a700/a701) :__ Shreps, Elibl
-
-
-Amazon:
----------------------------------------------------------------------
-* __Kindle Fire (otterx) :__ joshuabg
-
-
-ASUS:
----------------------------------------------------------------------
-* __Nexus 7 (grouper) :__ iurnait
-* __Nexus 7 (2013) (flo) :__ skiwong20
-* __Nexus 7 LTE (2013) (deb) :__ skiwong20
-* __Transformer Pad (tf300t) :__ kd8bny
-* __Transformer Pad Infinity (tf700t) :__ SectorAndroidRD
-
-
-Barnes & Noble:
----------------------------------------------------------------------
-* __Nook (acclaim) :__ LowEndGeek
-* __Nook HD+ (ovation) :__ iPzard
-
-
-HP:
----------------------------------------------------------------------
-* __Touchpad (tenderloin) :__ shumash
-
-
-HTC:
----------------------------------------------------------------------
-* __Amaze 4G (ruby) :__ JoseGalRe, WildfireDEV
-* __Droid DNA (dlx) :__ pio_masaki
-* __Nexus 9 (flounder) :__ joshuabg
-* __One (AT&T) (m7) :__ MaDc0w, WildfireDEV
-* __One (GSM) (m7) :__ MaDc0w, WildfireDEV
-* __One (Sprint) (m7spr) :__ tdhite, MallardDuck
-* __One (T-Mobile) (m7) :__ MaDc0w, WildfireDEV
-* __One (Verizon) (m7vzw) :__ Flyhalf205
-* __One (2014) (m8) :__ DREWHAMM974, Owain94
-* __One Max (GSM) (t6) :__ awidawad, Flyhalf205
-* __One Max (Sprint) (t6spr) :__ awidawad, Flyhalf205
-* __One Max (Verizon) (t6vzw) :__ awidawad, Flyhalf205
-* __One Mini (m4) :__ WildfireDEV
-* __One S (ville) :__ atrus5
-* __One XL (evita) :__ JoseGalRe
-* __Sensation (pyramid) :__ luk1337, MaDc0w
-* __Vivid (holiday) :__ WildfireDEV, JoseGalRe
-
-
-LG:
----------------------------------------------------------------------
-* __G-Pad (v500) :__ darkassain
-* __Nexus 4 (mako) :__ jereksel
-* __Nexus 5 (hammerhead) :__ my95z34, zyonee
-* __Optimus G (Canadian) (e973) :__ ShoreDroid
-* __Optimus G (International) (e975) :__ ShoreDroid
-* __Optimus G (Sprint) (ls970) :__ rectec
-* __Optimus G Pro (e980) :__ zamajalo
-* __Optimus G2 (AT&T) (d800) :__ gerrett84
-* __Optimus G2 (Canadian) (d803) :__ -Jesco-
-* __Optimus G2 (GSM) (d802) :__ gerrett84
-* __Optimus G2 (T-Mobile) (d801) :__ OPEN
-* __Optimus G2 (Sprint) (ls980) :__ OPEN
-* __Optimus G2 (Verizon) (vs980) :__ tucstwo
-* __G3 (Sprint) (ls990) :__ MallardDuck
-* __Optimus L5 (e610) :__ aidasaidas75
-* __Optimus L7 (p700) :__ aidasaidas75
-* __Optimus L7 (p705) :__ coderzstas
-
-
-Motorola:
----------------------------------------------------------------------
-* __Droid Mini (Verizon/GSM) :__ Skiwong20
-* __Droid Maxx (Verizon-Developer Edition) (obake) :__ Skiwong20
-* __Droid Razr (GSM) (umts_spyder) :__ Skiwong20
-* __Droid Razr (Verizon) (spyder) :__ Skiwong20
-* __Droid Razr M (Verizon) (moto_msm8960) :__ timpohladthomas
-* __Droid Ultra (Verizon/GSM) (obake) :__ Skiwong20
-* __Moto E (Global GSM) (condor) :__ ashwin007
-* __Moto E (Retail US GSM) (condor) :__ ashwin007
-* __Moto G (Global GSM) (falcon) :__ Wechy77
-* __Moto G (Retail US GSM) (falcon) :__ Wechy77
-* __Moto G 2014 (titan) :__ LuK1337
-* __Moto G 2014 LTE (thea) :__ LuK1337
-* __Moto X (GSM) (ghost) :__ Skiwong20
-* __Moto X (Sprint) (ghost) :__ Skiwong20
-* __Moto X (T-Mobile) (ghost) :__ Skiwong20
-* __Moto X (US Cellular) (ghost) :__ Skiwong20
-* __Moto X (Verizon-Developer Edition) (ghost) :__ Skiwong20
-* __Nexus 6 (shamu) :__ Skiwong20, zyonee, Owain94
-* __Photon Q 4G LTE (moto_msm8960) :__ arrrghhh
-
-
-Nvidia:
----------------------------------------------------------------------
-* __Shield Tablet (LTE) (wx_na_do) :__ berryman13
-
-
-OnePlus:
----------------------------------------------------------------------
-* __One (bacon) :__ MaDc0w, Nick0703
-
-
-Oppo:
----------------------------------------------------------------------
-* __Find5 (find5) :__ eoghan2t7
-* __N1 (n1) :__ Trialsrider1
-
-
-Samsung:
----------------------------------------------------------------------
-* __Galaxy Nexus (maguro) :__ -Jesco-
-* __Galaxy Note 2 (AT&T) (t0lteatt) :__ 123sit
-* __Galaxy Note 2 (GSM) (n7100) :__ 123sit
-* __Galaxy Note 2 (LTE) (t0lte) :__ 123sit
-* __Galaxy Note 2 (Sprint) (l900) :__ 123sit
-* __Galaxy Note 2 (T-Mobile) (t0ltetmo) :__ 123sit
-* __Galaxy Note 2 (US Cellular) (r950) :__ 123sit
-* __Galaxy Note 2 (Verizon) (i605) :__ 123sit
-* __Galaxy Note 3 (International) (hlte) :__ encho
-* __Galaxy Note 3 (Sprint) (hltespr) :__ encho
-* __Galaxy Note 3 (T-Mobile) (hltetmo) :__ encho
-* __Galaxy Note 4 (Sprint) (trltespr) :__ spleef
-* __Galaxy Note 4 (T-Mobile) (trltetmo) :__ spleef
-* __Galaxy Note 8.0 (GSM) (N5100) :__ ryukiri
-* __Galaxy Note 8.0 (LTE) (N5120) :__ ryukiri
-* __Galaxy Note 8.0 (Wi-Fi) (N5110) :__ ryukiri
-* __Galaxy Player 5.0 (venturi) :__ iurnait
-* __Galaxy S I (galaxysmtd) :__ Volle
-* __Galaxy S I Plus (ariesve) :__ K_TECH
-* __Galaxy S II (i9100) :__ bluefa1con
-* __Galaxy S II (AT&T) (skyrocket) :__ TheCybertronian
-* __Galaxy S II (T-Mobile) (hercules) :__ TheCybertronian
-* __Galaxy S II Plus (s2ve) :__ LuK1337
-* __Galaxy S II Plus NFC (s2vep) :__ LuK1337
-* __Galaxy S III (AT&T) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (C-Spire) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (Cricket) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (GSM) (i9300) :__ garwedgess
-* __Galaxy S III (Metro PCS) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (Sprint) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (T-Mobile) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (US Cellular) (d2lte) :__ Papa Smurf151
-* __Galaxy S III (Verizon) (d2lte) :__ Papa Smurf151
-* __Galaxy S IV (AT&T) (jflteatt) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (Canadian) (jfltecan) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (GSM) (i9500) :__ OPEN
-* __Galaxy S IV (LTE) (jfltexx) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (Sprint) (jfltespr) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (T-Mobile) (jfltetmo) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (US Cellular) (jflteusc) :__ Nick0703, JoseGalRe
-* __Galaxy S IV (Verizon) (jfltevzw) :__ Nick0703, JoseGalRe
-* __Galaxy S IV Active (GSM) (jactivelte) :__ mythi
-* __Galaxy S IV mini (GSM) (serrano3gxx) :__ lsdty
-* __Galaxy S IV mini (DUOS) (serranodsdd) :__ lsdty
-* __Galaxy S IV mini (LTE) (serranoltexx) :__ lsdty
-* __Galaxy W (ancora) :__ K_TECH
-* __Nexus 10 (manta) :__ Volle
-
-
-Sony:
----------------------------------------------------------------------
-* __Xperia L (taoshan) :__ OPEN
-* __Xperia SP (huashan) :__ neXusPRIME
-* __Xperia Tablet Z LTE (pollux) :__ skiwong20
-* __Xperia Tablet Z (pollux_windy) :__ skiwong20
-* __Xperia Z (yuga) :__ jeroenqui, pvyParts
-* __Xperia Z1 (honami) :__ jeroenqui, Langes
-* __Xperia Z1 Compact (amami) :__ oshmoun
-
-
-Sony Ericsson:
----------------------------------------------------------------------
-* __Live With Walkman (coconut) :__ Langes,Druboo666
-* __Xperia Active (satsuma) :__ Langes,Druboo666
-* __Xperia Arc (anzu) :__ Langes,Druboo666
-* __Xperia Mini (smultron) :__ Langes,Druboo666
-* __Xperia Mini Pro (mango) :__ Langes, szl.kiev,Druboo666
-* __Xperia Neo (hallon) :__ Langes,Druboo666
-* __Xperia Neo V (haida) :__ Langes,Druboo666
-* __Xperia Pro (iyokan) :__ Langes,Druboo666
-* __Xperia Ray (urushi) :__ Langes, szl.kiev,Druboo666
-
-
-Xiaomi:
----------------------------------------------------------------------
-* __MI 2 (aries) :__ M1cha
-* __HM 1S (armani) :__ darknightmare
-
-
-
-Total Devices: 132
-
-Best regards
-    szl.kiev
+####Best regards, szl.kiev and The PAC-ROM Team!

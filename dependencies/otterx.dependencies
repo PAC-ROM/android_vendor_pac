@@ -1,32 +1,32 @@
 [
-  {
-    "remote":       "pic",
-    "repository":   "proprietary_vendor_amazon",
-    "target_path":  "vendor/amazon",
-    "revision":     "cm-12.0"
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_amazon",
+        "target_path":  "vendor/amazon",
+        "revision":     "cm-12.1"
     },
-  {
-    "remote":       "ss",
-    "repository":   "android_device_amazon_omap4-common",
-    "target_path":  "device/amazon/omap4-common",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_kernel_amazon_otter-common",
-    "target_path":  "kernel/amazon/otter-common",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_device_amazon_otter-common",
-    "target_path":  "device/amazon/otter-common",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_device_amazon_otterx",
-    "target_path":  "device/amazon/otterx",
-    "revision":     "pac-5.0"
-  }
+    {
+        "remote":       "ss",
+        "repository":   "android_device_amazon_omap4-common",
+        "target_path":  "device/amazon/omap4-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_amazon_otter-common",
+        "target_path":  "kernel/amazon/otter-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_amazon_otter-common",
+        "target_path":  "device/amazon/otter-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_amazon_otterx",
+        "target_path":  "device/amazon/otterx",
+        "revision":     "pac-5.1"
+    }
 ]

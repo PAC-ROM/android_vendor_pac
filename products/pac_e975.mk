@@ -2,7 +2,7 @@
 ifeq (pac_e975,$(TARGET_PRODUCT))
 
 # Bootanimation
-PAC_BOOTANIMATION_NAME := 720
+PAC_BOOTANIMATION_NAME := 768
 
 # Include PAC common configuration
 include vendor/pac/config/pac_common.mk

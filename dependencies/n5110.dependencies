@@ -1,44 +1,44 @@
 [
-  {
-    "remote":       "pic",
-    "repository":   "proprietary_vendor_samsung",
-    "target_path":  "vendor/samsung",
-    "revision":     "cm-12.0"
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-12.1"
     },
-  {
-    "remote":       "ss",
-    "repository":   "android_device_samsung_n5110",
-    "target_path":  "device/samsung/n5110",
-    "revision":     "pac-5.0"
-  },
-   {
-    "remote":       "ss",
-    "repository":   "android_packages_apps_SamsungServiceMode",
-    "target_path":  "packages/apps/SamsungServiceMode",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_hardware_samsung",
-    "target_path":  "hardware/samsung",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_device_samsung_smdk4412-common",
-    "target_path":  "device/samsung/smdk4412-common",
-    "revision":     "pac-5.0"
-  },
- {
-    "remote":       "ss",
-    "repository":   "android_device_samsung_kona-common",
-    "target_path":  "device/samsung/kona-common",
-    "revision":     "pac-5.0"
-  },
-  {
-    "remote":       "ss",
-    "repository":   "android_kernel_samsung_smdk4412",
-    "target_path":  "kernel/samsung/smdk4412",
-    "revision":     "pac-5.0"
-  }
+    {
+        "remote":       "ss",
+        "repository":   "android_device_samsung_n5110",
+        "target_path":  "device/samsung/n5110",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_packages_apps_SamsungServiceMode",
+        "target_path":  "packages/apps/SamsungServiceMode",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_samsung_smdk4412-common",
+        "target_path":  "device/samsung/smdk4412-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_samsung_kona-common",
+        "target_path":  "device/samsung/kona-common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_samsung_smdk4412",
+        "target_path":  "kernel/samsung/smdk4412",
+        "revision":     "pac-5.1"
+    }
 ]

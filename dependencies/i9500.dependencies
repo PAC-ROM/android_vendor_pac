@@ -1,56 +1,56 @@
 [
     {
-        "account":      "Pinky-Inky-and-Clyde",
+        "remote":       "pic",
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
-        "revision":     "cm-11.0"
+        "revision":     "cm-12.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_device_samsung_i9500",
         "target_path":  "device/samsung/i9500",
-        "revision":     "cm-11.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_packages_apps_SamsungServiceMode",
         "target_path":  "packages/apps/SamsungServiceMode",
-        "revision":     "cm-11.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_hardware_samsung",
         "target_path":  "hardware/samsung",
-        "revision":     "cm-11.0"
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_samsung_slsi_exynos",
-        "target_path":  "hardware/samsung_slsi/exynos",
-        "revision":     "cm-11.0"
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos",
+        "target_path":  "hardware/samsung_slsi-cm/exynos",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_samsung_slsi_exynos5-insignal",
-        "target_path":  "hardware/samsung_slsi/exynos5-insignal",
-        "revision":     "cm-11.0"
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos5",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_samsung_slsi_exynos5410",
-        "target_path":  "hardware/samsung_slsi/exynos5410",
-        "revision":     "cm-11.0"
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung_slsi-cm_exynos5410",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5410",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
-        "repository":   "android_hardware_samsung_slsi_openmax",
-        "target_path":  "hardware/samsung_slsi/openmax",
-        "revision":     "cm-11.0"
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung_slsi-cm_openmax",
+        "target_path":  "hardware/samsung_slsi-cm/openmax",
+        "revision":     "pac-5.1"
     },
     {
-        "account":      "CyanogenMod",
+        "remote":       "ss",
         "repository":   "android_kernel_samsung_exynos5410",
         "target_path":  "kernel/samsung/exynos5410",
-        "revision":     "cm-11.0"
+        "revision":     "pac-5.1"
     }
 ]

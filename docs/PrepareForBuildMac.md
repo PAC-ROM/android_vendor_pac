@@ -12,7 +12,7 @@
 
 ```shell
 $ mkdir ~/pac-rom && cd ~/pac-rom
-$ repo init -u https://github.com/PAC-man/pacman.git -b pac-5.1 -g all,-notdefault,-linux
+$ repo init -u https://github.com/PAC-ROM/pac-rom.git -b pac-5.1 -g all,-notdefault,-linux
 $ repo sync -j#
 
 Where # is the specific number of jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.

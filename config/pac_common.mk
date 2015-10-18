@@ -32,6 +32,14 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 
+# Kernel Adiutor
+PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+
+# Additonal Packages
+PRODUCT_PACKAGES += \
+    OmniSwitch \
+    PACSetupWizard
+
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
@@ -60,10 +68,19 @@ endif
 
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pacstats.url=http://stats.pac-rom.com \
-    ro.pacstats.name=PAC-man \
+    ro.pacstats.url=http://www.pac-rom.com/pages/submit.php \
+    ro.pacstats.name=PAC-ROM \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
+
+# TWRP Recovery
+ifeq ($(RECOVERY_VARIANT),twrp)
+    ifeq ($(PAC_MAKE),recoveryimage)
+        BOARD_SEPOLICY_IGNORE += external/sepolicy/domain.te
+        BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy/twrp
+        BOARD_SEPOLICY_UNION += domain.te init.te recovery.te
+    endif
+endif
 
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
@@ -76,9 +93,4 @@ endif
 ifeq ($(PAC_USE_ADDREMOVE),true)
     GET_PROJECT_RMS := $(shell vendor/pac/tools/removeprojects.py $(PRODUCT_NAME))
     GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
-endif
-
-# Chromium Prebuilt
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
--include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
 endif

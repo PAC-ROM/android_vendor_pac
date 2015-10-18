@@ -21,13 +21,7 @@
 # Preamble:
 # Some repos outside of PAC may have commits we need that take too
 # long to be merged. Adding these cherry-picks here can automate the process
-# and makes it possible to add them to the weeklies but not the nightlies.
-# currently supported gerrit accounts are:
-#     AOKP - Android Open Kang Project
-#     AOSP - Android Open Source Project
-#     CM   - CyanogenMod
-#     PAC  - PAC-Rom
-#     PA   - Paranoid Android (AOSPA)
+# and makes it possible to add devices to the weeklies.
 #
 # in addition, cherry-pick patch files can be created for commits that aren't
 # available in the above gerrit accounts.
@@ -44,19 +38,26 @@
 #         # NOTE: Repeat for each separate patch
 #
 #         # To get gerrit commits, add the cherry-pick(s) in the form:
-#         cherries+=(GERRIT-COMMIT#_GERRIT-ACCOUNT)
+#         pac_cherries+=(GERRIT-COMMIT#) #for cherry-picks from the pac gerrit
 #             e.g. http://review.pac-rom.com/#/c/250/2/tools/cherries.sh would be:
-#                  cherries+=(250_PAC)
+#                  pac_cherries+=(250)
+#         cm_cherries+=(GERRIT-COMMIT#) #for cherry-picks from the cm gerrit
+#             e.g. http://review.cyanogenmod.org/#/c/105122/6/tools/repopick.py would be:
+#                  cm_cherries+=(105122)
 #
 #         # To get gerrit topics, add the topics(s) in the form:
-#         topics+=(TOPIC_GERRIT-ACCOUNT)
+#         pac_topics+=(TOPIC) #for topics from the pac gerrit
 #             e.g. http://review.pac-rom.com/#/q/topic:CREncoder would be:
-#                  topics+=(CREncoder_PAC)
+#                  pac_topics+=(CREncoder)
+#         cm_topics+=(TOPIC) #for topics from the cm gerrit
+#         topics should not have space characters
 #
 #         # To get gerrit queries, add the query(s) in the form:
-#         queriess+=(QUERY_GERRIT-ACCOUNT)
+#         pac_queriess+=(QUERY) #for queries from the pac gerrit
 #             e.g. queries+=(status:open+project:CyanogenMod/android_packages_apps_Nfc+branch:cm-11.0_CM)
 #             NB: use full e-mail addresses for owners, no usernames with spaces
+#         cm_queriess+=(QUERY) #for queries from the cm gerrit
+#         replace all space characters in the query line with a plus sign
 #
 # ;;
 #
@@ -118,23 +119,18 @@ function patch_it {
 case $device in
     anzu | coconut | haida | hallon | iyokan | mango | satsuma | smultron | urushi)
         # build: Add option to disable block-based ota
-        cherries+=(78849_CM)
+        cm_cherries+=(78849)
         # Revert "Revert "Reenable support for non-PIE executables""
-        cherries+=(79136_CM)
+        cm_cherries+=(79136)
         # arm: Allow disabling PIE for dynamically linked executables
-        cherries+=(81758_CM)
+        cm_cherries+=(81758)
         # libstagefright: Allow using camera recording buffer as input for encoder
-        cherries+=(84178_CM)
+        cm_cherries+=(84178)
         # libstagefright: Fix video encoder input buffer
-        cherries+=(84179_CM)
+        cm_cherries+=(84179)
         # vold: add ro.vold.umsdirtyratio property
-        cherries+=(88635_CM)
-    ;;
-    condor)
-        # display patch
-        PATCH=0001-display-add-msm8610
-        FOLDER=hardware/qcom/display
-        patch_it true
+        cm_cherries+=(88635)
+
     ;;
     s2ve | s2vep)
         # av patch
@@ -158,21 +154,7 @@ case $device in
         #libstagefright: Add support for custom LPA buffer size in legacy LPAPlayer
         #cherries+=(1343_PAC) : this was lost during a gerrit rebuild, suggest the maintainer make a patch file for it
         # Allow using Classic WebView
-        cherries+=(56054_CM)
-    ;;
-    ariesve | ancora)
-        #MemoryHeapBase: ifdef for gingerbread/froyo compatibility
-        cherries+=(58227_CM)
-        #Overlay support for legacy camera libs
-        cherries+=(58228_CM)
-        #sensorservice: Add legacy sensors fusion.
-        cherries+=(81684_CM)
-        #native: add flag to disable legacy sensors fusion
-        cherries+=(36732_CM)
-        #linker: restore prelink support
-        cherries+=(78604_CM)
-        #Revert "Revert "Reenable support for non-PIE executables""
-        cherries+=(79136_CM)
+        cm_cherries+=(56054)
     ;;
     tenderloin)
         # btservice/AdaperState: handle ENABLED_READY in OffState
@@ -183,14 +165,20 @@ case $device in
         PATCH=tenderloin_allow-devices-to-specify-driver-delay
         FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
-        #invensense: allow other devices to build a specific sensor
-        cherries+=(82223_CM)
+        # tenderloin_packagemanager-allow-install-to-complete
+        PATCH=tenderloin_packagemanager-allow-install-to-complete
+        FOLDER=frameworks/base
+        patch_it #add this function call for each patch
+        # tenderloin_ART-Hack-to-get-working-on-TP
+        PATCH=tenderloin_ART-Hack-to-get-working-on-TP
+        FOLDER=art
+        patch_it #add this function call for each patch
         #sepolicy: add a domain for lvm
-        cherries+=(82660_CM)
+        cm_cherries+=(82660)
         #art: allow devices to opt out of GAP check
-        cherries+=(82661_CM)
+        cm_cherries+=(82661)
         #libart: Allow adjustment of the base address
-        cherries+=(82668_CM)
+        cm_cherries+=(82668)
     ;;
     huashan)
         # kernel-some-folders-can-not-be-used
@@ -239,26 +227,55 @@ if [ "$PATCH" != "" ]; then
     echo ""
 fi
 
-
-if [ "$cherries" != "" ]; then
+#repopick
+#from PAC gerrit (default)
+if [ "$pac_cherries" != "" ]; then
+    pac_gerrit=true
+    opt_cherries=" "${pac_cherries[@]}
+else
+    opt_cherries=""
+fi
+if [ "$pac_topics" != "" ]; then
+    pac_gerrit=true
+    opt_topics=" -t "${pac_topics[@]}
+else
+    opt_topics=""
+fi
+if [ "$pac_queries" != "" ]; then
+    pac_gerrit=true
+    opt_queries=" -Q "${pac_queries[@]}
+else
+    opt_queries=""
+fi
+if [ "$pac_gerrit" != "" ]; then
     echo ""
-    echo -e "${bldblu}Now cherry-picking the specified cherries${rst}"
+    echo -e "${bldblu}Now merging the specified PAC extras${rst}"
     echo ""
-    ./build/tools/repopick.py -b "${cherries[@]}"
+    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries
 fi
 
-
-if [ "$topics" != "" ]; then
-    echo ""
-    echo -e "${bldblu}Now cherry-picking the specified topics${rst}"
-    echo ""
-    ./build/tools/repopick.py -is auto -t "${topics[@]}"
+#from CM gerrit
+if [ "$cm_cherries" != "" ]; then
+    cm_gerrit=true
+    opt_cherries=" "${cm_cherries[@]}
+else
+    opt_cherries=""
 fi
-
-
-if [ "$queries" != "" ]; then
+if [ "$cm_topics" != "" ]; then
+    cm_gerrit=true
+    opt_topics=" -t "${cm_topics[@]}
+else
+    opt_topics=""
+fi
+if [ "$cm_queries" != "" ]; then
+    cm_gerrit=true
+    opt_queries=" -Q "${cm_queries[@]}
+else
+    opt_queries=""
+fi
+if [ "$cm_gerrit" != "" ]; then
     echo ""
-    echo -e "${bldblu}Now cherry-picking based on the specified queries${rst}"
+    echo -e "${bldblu}Now merging the specified CM extras${rst}"
     echo ""
-    ./build/tools/repopick.py -is auto -Q "${queries[@]}"
+    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries -g "http://review.cyanogenmod.org"
 fi

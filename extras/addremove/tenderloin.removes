@@ -1,0 +1,10 @@
+[
+    {
+        "name":     "android_art",
+        "path":     "art"
+    }
+    {
+        "name":     "android_external_bluetooth_bluedroid",
+        "path":     "external/bluetooth/bluetooth"
+    }
+]
