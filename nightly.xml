@@ -67,5 +67,6 @@
   <device name="tomato"/>
   <device name="trltespr"/>
   <device name="trltetmo"/>
+  <device name="trltexx"/>
   <!-- <device name="v500"/> -->
 </manifest>

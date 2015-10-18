@@ -171,6 +171,7 @@
 | Galaxy Note 3 (LTE)              | hlte         | [PAC] (http://forum.pac-rom.com/thread-1363.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048388)   | [encho] (https://github.com/ench0)
 | Galaxy Note 3 (Sprint)           | hltespr      | [PAC] (http://forum.pac-rom.com/thread-1365.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048705)   | [encho] (https://github.com/ench0)
 | Galaxy Note 3 (T-Mobile)         | hltetmo      | [PAC] (http://forum.pac-rom.com/thread-1364.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048701)   | [encho] (https://github.com/ench0)
+| Galaxy Note 4 (International)    | trltexx      | [PAC] (http://forum.pac-rom.com/thread-1624.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3224013)   | [_mone] (https://github.com/underscoremone)
 | Galaxy Note 4 (Sprint)           | trltespr     | [PAC] (http://forum.pac-rom.com/thread-1384.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3051428)   | [HearMeWhisper] (https://github.com/HearMeWhisper)
 | Galaxy Note 4 (T-Mobile)         | trltetmo     | [PAC] (http://forum.pac-rom.com/thread-1385.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3014758)   | [HearMeWhisper] (https://github.com/HearMeWhisper)
 | Galaxy Note 8.0 (GSM)            | N5100        | [PAC] (http://forum.pac-rom.com/thread-527.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2456222)   | [ryukiri] (https://github.com/ryukiri)
