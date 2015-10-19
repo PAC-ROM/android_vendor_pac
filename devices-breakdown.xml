@@ -50,6 +50,7 @@
         <device FullName="Moto G 2014 LTE" CodeName="thea"/>
         <device FullName="Moto G 3rd Gen" CodeName="osprey"/>
         <device FullName="Moto X (GSM, Sprint, T-Mobile, US Celular, Verizon-Developer Edition)" CodeName="ghost"/>
+        <device FullName="Moto X Play" CodeName="lux"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
     <vendor Name="Nvidia">

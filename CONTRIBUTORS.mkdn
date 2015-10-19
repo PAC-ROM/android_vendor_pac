@@ -149,6 +149,7 @@
 | Moto X (T-Mobile)                | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (US Cellular)             | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (Verizon)                 | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
+| Moto X Play                      | lux          | [PAC] (http://forum.pac-rom.com/thread-1622.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3204606)   | [Shr3ps] (https://github.com/Shr3ps)
 | Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)
 
 <br>
@@ -235,6 +236,6 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 96
+##Total Devices: 97
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
