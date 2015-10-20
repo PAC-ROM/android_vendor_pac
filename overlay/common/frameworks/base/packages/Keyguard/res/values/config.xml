@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2015 The PAC-ROM Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,13 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Package name for default keyguard appwidget [DO NOT TRANSLATE] -->
-    <string name="widget_default_package_name">com.cyanogenmod.lockclock</string>
+    <!-- Package name for default keyguard appwidget [DO NOT TRANSLATE]
+    <string name="widget_default_package_name">com.cyanogenmod.lockclock</string> -->
 
-    <!-- Class name for default keyguard appwidget [DO NOT TRANSLATE] -->
-    <string name="widget_default_class_name">com.cyanogenmod.lockclock.ClockWidgetProvider</string>
+    <!-- Class name for default keyguard appwidget [DO NOT TRANSLATE]
+    <string name="widget_default_class_name">com.cyanogenmod.lockclock.ClockWidgetProvider</string>  -->
 
-    <!-- default to disabling the menu key. The CM setting to
-         do this is a no-op unless the below item is true -->
+    <!-- Allow the menu hard key to be disabled in LockScreen on some devices [DO NOT TRANSLATE] -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 </resources>
