@@ -35,6 +35,7 @@ add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug
 add_lunch_combo pac_ghost-userdebug
 add_lunch_combo pac_obake-userdebug
+add_lunch_combo pac_osprey-userdebug
 add_lunch_combo pac_otus-userdebug
 add_lunch_combo pac_shamu-userdebug
 add_lunch_combo pac_spyder-userdebug
