@@ -7,8 +7,8 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_samsung_trlteXX",
-        "target_path":  "device/samsung/trlteXX",
+        "repository":   "android_device_samsung_trltexx",
+        "target_path":  "device/samsung/trltexx",
         "revision":     "pac-5.1"
     },
     {

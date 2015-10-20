@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "ss",
+        "repository":   "android_device_motorola_lux",
+        "target_path":  "device/motorola/lux",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_motorola_msm8939",
+        "target_path":  "kernel/motorola/msm8939",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_hardware_qcom_fm",
+        "target_path":  "hardware/qcom/fm",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_mm-dash",
+        "target_path":  "external/mm-dash",
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "revision":     "cm-12.1"
+    }
+]
