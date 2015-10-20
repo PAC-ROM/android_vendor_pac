@@ -15,6 +15,6 @@
 -->
 
 <resources>
-    <!-- No camera for you, tablet user -->
-    <bool name="kg_enable_camera_default_widget">true</bool>
+    <!-- No camera for you, tablet user
+    <bool name="kg_enable_camera_default_widget">true</bool> -->
 </resources>
