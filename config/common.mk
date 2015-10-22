@@ -149,7 +149,6 @@ PRODUCT_COPY_FILES += \
 # PAC packages
 PRODUCT_PACKAGES += \
     AudioFX \
-    Basic \
     BluetoothExt \
     Development \
     Eleven \
