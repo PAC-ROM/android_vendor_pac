@@ -62,6 +62,9 @@ ifeq ($(RECOVERY_VARIANT),twrp)
     endif
 endif
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.root_access=0
+
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)
     ADDITIONAL_DEFAULT_PROPERTIES += \
@@ -137,11 +140,6 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/init.local.rc:root/init.pac.rc
 
-# Bring in camera effects
-PRODUCT_COPY_FILES +=  \
-    vendor/pac/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/pac/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
-
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
@@ -154,14 +152,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
 
-PRODUCT_COPY_FILES += \
-    vendor/pac/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
-
 # T-Mobile theme engine
 include vendor/pac/config/themes_common.mk
 
 # Required PAC packages
 PRODUCT_PACKAGES += \
+    Launcher3 \
     Development \
     BluetoothExt \
     Profiles
@@ -175,12 +171,9 @@ PRODUCT_PACKAGES += \
 
 # Custom PAC packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
-    Trebuchet \
     AudioFX \
     Eleven \
     LockClock \
-    CMSettingsProvider
 
 # Platform Library
 PRODUCT_PACKAGES += \
@@ -232,16 +225,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
-# Stagefright FFMPEG plugin
-PRODUCT_PACKAGES += \
-    libffmpeg_extractor \
-    libffmpeg_omx \
-    media_codecs_ffmpeg.xml
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.sf.omx-plugin=libffmpeg_omx.so \
-    media.sf.extractor-plugin=libffmpeg_extractor.so
-
 # TCM (TCP Connection Management)
 PRODUCT_PACKAGES += \
     tcmiface
@@ -257,41 +240,10 @@ PRODUCT_PACKAGES += \
     su
 endif
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=0
-
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
-
-# by default, do not update the recovery with system updates
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
-
-ifndef CM_PLATFORM_SDK_VERSION
-  # This is the canonical definition of the SDK version, which defines
-  # the set of APIs and functionality available in the platform.  It
-  # is a single integer that increases monotonically as updates to
-  # the SDK are released.  It should only be incremented when the APIs for
-  # the new release are frozen (so that developers don't write apps against
-  # intermediate builds).
-  CM_PLATFORM_SDK_VERSION := 4
-endif
-
-ifndef CM_PLATFORM_REV
-  # For internal SDK revisions that are hotfixed/patched
-  # Reset after each CM_PLATFORM_SDK_VERSION release
-  # If you are doing a release and this is NOT 0, you are almost certainly doing it wrong
-  CM_PLATFORM_REV := 0
-endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.pac.display.version=$(PACVERSION)
-
-# CyanogenMod Platform SDK Version
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.cm.build.version.plat.sdk=$(CM_PLATFORM_SDK_VERSION)
-
-# CyanogenMod Platform Internal
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.cm.build.version.plat.rev=$(CM_PLATFORM_REV)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 
