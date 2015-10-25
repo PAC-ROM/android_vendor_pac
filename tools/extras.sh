@@ -251,7 +251,7 @@ if [ "$pac_gerrit" != "" ]; then
     echo ""
     echo -e "${bldblu}Now merging the specified PAC extras${rst}"
     echo ""
-    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries
+    ./build/tools/repopick.py -ifs extras$opt_cherries$opt_topics$opt_queries
 fi
 
 #from CM gerrit
@@ -277,5 +277,5 @@ if [ "$cm_gerrit" != "" ]; then
     echo ""
     echo -e "${bldblu}Now merging the specified CM extras${rst}"
     echo ""
-    ./build/tools/repopick.py -is extras$opt_cherries$opt_topics$opt_queries -g "http://review.cyanogenmod.org"
+    ./build/tools/repopick.py -ifs extras$opt_cherries$opt_topics$opt_queries -g "http://review.cyanogenmod.org"
 fi
