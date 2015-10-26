@@ -26,7 +26,7 @@ Commit your patches in a single commit.
     <make edits>
     git add -A
     git commit -m "Message"
-    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-5.1
+    git push ssh://<username>@review.pac-rom.com:29418/<project> HEAD:refs/for/pac-6.0
 
 **If you are going to make additional edits, just repeat steps, but instead of using:**
 
