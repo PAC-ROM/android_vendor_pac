@@ -17,12 +17,6 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-# Bootanimation
-PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
-
-# Kernel Adiutor
-PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
-
 # PAC version
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
 BOARD := $(subst pac_,,$(TARGET_PRODUCT))
@@ -31,6 +25,40 @@ PRODUCT_NAME := $(TARGET_PRODUCT)
 
 # Set the board version
 PAC_BUILD := $(BOARD)
+
+PRODUCT_BRAND ?= pacrom
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+
+ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=android-google
+else
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
+endif
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    keyguard.no_require_sim=true \
+    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
+    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
+    ro.com.android.wifi-watchlist=GoogleGuest \
+    ro.setupwizard.enterprise_mode=1 \
+    ro.com.android.dateformat=MM-dd-yyyy \
+    ro.com.android.dataroaming=false
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
+ifneq ($(TARGET_BUILD_VARIANT),user)
+# Thank you, please drive thru!
+PRODUCT_PROPERTY_OVERRIDES += persist.sys.dun.override=0
+endif
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+# Enable ADB authentication
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+endif
 
 # Lower RAM devices
 ifeq ($(PAC_LOW_RAM_DEVICE),true)
@@ -78,40 +106,6 @@ ifeq ($(PAC_USE_ADDREMOVE),true)
     GET_PROJECT_ADDS := $(shell vendor/pac/tools/addprojects.py $(PRODUCT_NAME))
 endif
 
-PRODUCT_BRAND ?= pacrom
-
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-
-ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=android-google
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
-endif
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.com.android.wifi-watchlist=GoogleGuest \
-    ro.setupwizard.enterprise_mode=1 \
-    ro.com.android.dateformat=MM-dd-yyyy \
-    ro.com.android.dataroaming=false
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
-
-ifneq ($(TARGET_BUILD_VARIANT),user)
-# Thank you, please drive thru!
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.dun.override=0
-endif
-
-ifneq ($(TARGET_BUILD_VARIANT),eng)
-# Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
-endif
-
 # Backup Tool
 ifneq ($(WITH_GMS),true)
 PRODUCT_COPY_FILES += \
@@ -136,6 +130,10 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 endif
 
+# Kernel Adiutor
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+
 # PAC-specific init file
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/etc/init.local.rc:root/init.pac.rc
@@ -155,25 +153,17 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/pac/config/themes_common.mk
 
-# Required PAC packages
+# PAC packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Development \
-    BluetoothExt \
-    Profiles
-
-# Optional PAC packages
-PRODUCT_PACKAGES += \
-    VoicePlus \
-    Basic \
-    libemoji \
-    Terminal
-
-# Custom PAC packages
-PRODUCT_PACKAGES += \
     AudioFX \
+    Basic \
+    BluetoothExt \
+    Development \
     Eleven \
+    libemoji \
     LockClock \
+    Terminal
 
 # Platform Library
 PRODUCT_PACKAGES += \

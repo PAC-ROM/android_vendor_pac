@@ -2,7 +2,8 @@
 ifeq (pac_sirius,$(TARGET_PRODUCT))
 
 # Bootanimation
-PAC_BOOTANIMATION_NAME := 1080
+PRODUCT_COPY_FILES += \
+    vendor/pac/prebuilt/common/media/bootanimation/1080.zip:system/media/bootanimation.zip
 
 # Include PAC common configuration
 include vendor/pac/config/common.mk
