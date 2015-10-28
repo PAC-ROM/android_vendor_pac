@@ -23,9 +23,6 @@ BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 PAC_BUILD_VERSION := pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
 PRODUCT_NAME := $(TARGET_PRODUCT)
 
-# Set the board version
-PAC_BUILD := $(BOARD)
-
 PRODUCT_BRAND ?= pacrom
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
