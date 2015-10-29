@@ -3,24 +3,24 @@
         "remote":       "ss",
         "repository":   "android_device_lge_hammerhead",
         "target_path":  "device/lge/hammerhead",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_kernel_lge_hammerhead",
         "target_path":  "kernel/lge/hammerhead",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     }
 ]
