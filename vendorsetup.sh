@@ -1,6 +1,9 @@
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
+# Samsung
+add_lunch_combo pac_d2att-userdebug
+add_lunch_combo pac_d2spr-userdebug
+add_lunch_combo pac_d2tmo-userdebug
+add_lunch_combo pac_d2vzw-userdebug
 # Sony
 add_lunch_combo pac_sirius-userdebug
-
-
