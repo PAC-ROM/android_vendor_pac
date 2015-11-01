@@ -8,9 +8,9 @@ PRODUCT_COPY_FILES += \
 
 # Telephony packages
 PRODUCT_PACKAGES += \
-    messaging \
-    Stk \
-    CellBroadcastReceiver
+    CellBroadcastReceiver \
+    Mms \
+    Stk
 
 # Mms depends on SoundRecorder for recorded audio messages
 PRODUCT_PACKAGES += \
