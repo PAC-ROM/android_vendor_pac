@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     libemoji \
     LockClock \
-    Terminal
+    Terminal \
+    Trebuchet
 
 # Platform Library
 PRODUCT_PACKAGES += \
@@ -242,6 +243,9 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
+
+# Bootanimation
+PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.pac.display.version=$(PACVERSION)
