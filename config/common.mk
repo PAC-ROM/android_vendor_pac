@@ -164,7 +164,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     libemoji \
     LockClock \
-    Terminal
+    Terminal \
+    Trebuchet
 
 # Platform Library
 PRODUCT_PACKAGES += \
