@@ -127,8 +127,8 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Kernel Adiutor
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
 
 # PAC-specific init file
 PRODUCT_COPY_FILES += \
@@ -150,9 +150,6 @@ PRODUCT_COPY_FILES += \
 # Enable wireless Xbox 360 controller support
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
-
-# T-Mobile theme engine
-include vendor/pac/config/themes_common.mk
 
 # PAC packages
 PRODUCT_PACKAGES += \
@@ -243,6 +240,9 @@ PRODUCT_PACKAGES += \
 endif
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
+
+# Bootanimation
+PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.pac.display.version=$(PACVERSION)
