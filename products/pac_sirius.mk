@@ -9,6 +9,6 @@ PRODUCT_COPY_FILES += \
 include vendor/pac/config/common.mk
 
 # Inherit CM device configuration
-$(call inherit-product, device/sony/sirius/cm.mk)
+$(call inherit-product, device/sony/sirius/pac.mk)
 
 endif
