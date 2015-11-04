@@ -1,50 +1,48 @@
 [
     {
-        "remote":       "ss",
-        "repository":   "android_device_sony_common",
-        "target_path":  "device/sony/common",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_hardware_sony_thermanager",
-        "target_path":  "hardware/sony/thermanager",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_device_qcom_common",
-        "target_path":  "device/qcom/common",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_device_sony_sirius",
+        "remote":       "github",
+        "repository":   "alviteri/device-sony-shinano",
+        "target_path":  "device/sony/shinano",
+        "revision":     "test-m"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-sirius",
         "target_path":  "device/sony/sirius",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_device_sony_shinano-common",
-        "target_path":  "device/sony/shinano-common",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_kernel_sony_msm8974",
-        "target_path":  "kernel/sony/msm8974",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "pic",
-        "repository":   "proprietary_vendor_sony",
-        "target_path":  "vendor/sony",
-        "revision":     "cm-12.1"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_device_sony_msm8974-common",
-        "target_path":  "device/sony/msm8974-common",
-        "revision":     "pac-5.1"
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/kernel",
+        "target_path":  "kernel/sony/msm",
+        "revision":     "aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
+    },{
+        "remote":       "github",
+        "repository":   "alviteri/vendor-sony-kernel",
+        "target_path":  "vendor/sony/kernel",
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/thermanager",
+        "target_path":  "vendor/sony/system/thermanager",
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/mkqcdtbootimg",
+        "target_path":  "vendor/sony/system/mkqcdtbootimg",
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/timekeep",
+        "target_path":  "vendor/sony/system/timekeep",
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/macaddrsetup",
+        "target_path":  "vendor/sony/system/macaddrsetup",
+        "revision":     "master"
+    },{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/boringssl-compat",
+        "target_path":  "device/qcom/boringssl-compat",
+        "revision":     "master"
     }
 ]
