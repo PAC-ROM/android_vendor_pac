@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     Development \
     Eleven \
+    ExactCalculator \
     Launcher3 \
     libemoji \
     LockClock \
