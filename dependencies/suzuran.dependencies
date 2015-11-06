@@ -1,0 +1,68 @@
+[
+    {
+        "account":      "oshmoun",
+        "repository":   "device-sony-suzuran",
+        "target_path":  "device/sony/suzuran",
+        "revision":     "master"
+    },
+    {
+        "account":      "oshmoun",
+        "repository":   "device-sony-kitakami",
+        "target_path":  "device/sony/kitakami",
+        "revision":     "suzuran"
+    },
+    {
+        "account":      "oshmoun",
+        "repository":   "kernel",
+        "target_path":  "kernel/sony/msm",
+        "revision":     "suzuran"
+    },
+    {
+        "account":      "pvyParts",
+        "repository":   "vendor-sony-kernel",
+        "target_path":  "vendor/sony/kernel",
+        "revision":     "master"
+    },
+    {
+        "account":      "alviteri",
+        "repository":   "vendor-sony-blobs",
+        "target_path":  "vendor",
+        "revision":     "master"
+    },
+    {
+        "account":      "alviteri",
+        "repository":   "vendor-qcom-proprietary",
+        "target_path":  "vendor/qcom/proprietary",
+        "revision":     "master"
+    },
+    {
+        "account":      "sonyxperiadev",
+        "repository":   "thermanager",
+        "target_path":  "vendor/sony/system/thermanager",
+        "revision":     "master"
+    },
+    {
+        "account":      "sonyxperiadev",
+        "repository":   "mkqcdtbootimg",
+        "target_path":  "vendor/sony/system/mkqcdtbootimg",
+        "revision":     "master"
+    },
+    {
+        "account":      "sonyxperiadev",
+        "repository":   "timekeep",
+        "target_path":  "vendor/sony/system/timekeep",
+        "revision":     "master"
+    },
+    {
+        "account":      "sonyxperiadev",
+        "repository":   "macaddrsetup",
+        "target_path":  "vendor/sony/system/macaddrsetup",
+        "revision":     "master"
+    },
+    {
+        "account":      "sonyxperiadev",
+        "repository":   "boringssl-compat",
+        "target_path":  "device/qcom/boringssl-compat",
+        "revision":     "master"
+    }
+]
