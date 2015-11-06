@@ -2,4 +2,4 @@
 host=review.pac-rom.com
 port=29418
 project=android_vendor_pac.git
-defaultbranch=pac-5.1
+defaultbranch=pac-6.0
