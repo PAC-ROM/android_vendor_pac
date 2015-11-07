@@ -34,5 +34,17 @@
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision": "cm-13.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "cm-13.0"
+  },
+  {
+    "remote": "cm",
+    "repository": "android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "revision": "cm-13.0"
   }
 ]
