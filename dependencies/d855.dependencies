@@ -34,5 +34,29 @@
     "repository": "proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "revision": "cm-13.0"
+  },
+  {
+    "remote": "pac",
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "pac-6.0"
+  },
+  {
+    "remote": "pac",
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "revision": "pac-6.0"
+  },
+  {
+    "remote": "pac",
+    "repository": "android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "revision": "pac-6.0"
+  },
+  {
+    "remote": "pac",
+    "repository": "android_external_connectivity",
+    "target_path": "external/connectivity",
+    "revision": "pac-6.0"
   }
 ]
