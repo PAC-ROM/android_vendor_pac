@@ -8,7 +8,7 @@
     }
     {
         "remote":       "github",
-        "account":      "Evervolve",
+        "account":      "Evervolv",
         "repository":   "android_external_bluetooth_bluedroid",
         "target_path":  "external/bluetooth/bluedroid",
         "revision":     "lollipop-5.1"
