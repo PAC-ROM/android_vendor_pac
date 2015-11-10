@@ -25,6 +25,12 @@
     },
     {
         "remote":       "ss",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common"
+        "revision":     "pac-5.1"
+    },
+    {
+        "remote":       "ss",
         "repository":   "android_kernel_samsung_jf",
         "target_path":  "kernel/samsung/jf",
         "revision":     "pac-5.1"
