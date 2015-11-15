@@ -404,14 +404,4 @@ fi
 rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
 
-echo -e ${bldred}"********************************************************************************"${txtrst}
-echo -e ${bldred}"*******************************PLEASE READ THIS!!*******************************"${txtrst}
-echo -e ""
-echo -e ${bldylw}"     Please remember that this source is currently for private builds ONLY!"${txtrst}
-echo -e ""
-echo -e ${bldylw}"       Public builds are NOT ALLOWED, all public builds will be removed.${txtrst}"${txtrst}
-echo -e ""
-echo -e ${bldylw}"   It will be welcomed after nightlies (6.0) begin. Thank you, the Developers.${txtrst}"${txtrst}
-echo -e ""
-echo -e ${bldred}"*******************************PLEASE READ THIS!!*******************************"${txtrst}
-echo -e ${bldred}"********************************************************************************"${txtrst}
+. ./vendor/pac/tools/res/pac-start
