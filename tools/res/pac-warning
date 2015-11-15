@@ -31,7 +31,7 @@ echo -e "${bldred}☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠☠�
 echo -e ""
 echo -e "     ${bldred}Please remember that this source is currently for private builds ONLY!${rst}"
 echo -e "     ${bldred}Public distribution is NOT ALLOWED! All public builds will be removed!${rst}"
-echo -e "     ${bldred}It will be welcomed after nightlies (5.0) begin. Thank you,${rst}"
+echo -e "     ${bldred}It will be welcomed after nightlies (6.0) begin. Thank you,${rst}"
 echo -e ""
 echo -e "     ${bldcya}The Developers${rst}"
 echo -e ""
