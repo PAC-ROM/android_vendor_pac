@@ -403,5 +403,3 @@ fi
 # Cleanup unused built
 rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
-
-. ./vendor/pac/tools/res/pac-warning
