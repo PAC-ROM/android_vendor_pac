@@ -1,0 +1,26 @@
+[
+  {
+    "remote":       "ss",
+    "repository":   "android_device_bn_ovation",
+    "target_path":  "device/bn/ovation",
+    "revision":     "pac-5.1"
+  },
+	{
+		"remote":       "pac",
+		"repository":   "android_hardware_bn_fm",
+		"target_path":  "hardware/qcom/fm",
+		"revision":     "pac-5.1"
+	},
+	{
+		"remote":       "pac",
+		"repository":   "android_external_mm-dash",
+		"target_path":  "external/mm-dash",
+		"revision":     "pac-5.1"
+	},
+	{
+		"remote":       "pic",
+		"repository":   "proprietary_vendor_bn",
+		"target_path":  "vendor/bn",
+		"revision":     "cm-12.1"
+	}
+]
