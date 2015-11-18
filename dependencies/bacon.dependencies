@@ -24,6 +24,12 @@
         "revision":     "pac-6.0"
     },
     {
+        "remote":       "pac",
+        "repository":   "android_vendor_qcom_opensource_dataservices",
+        "target_path":  "vendor/qcom/opensource/dataservices",
+        "revision":     "pac-6.0"
+    },
+    {
         "remote":       "pic",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
