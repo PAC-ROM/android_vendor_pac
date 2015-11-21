@@ -1,0 +1,14 @@
+_build-pac() 
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    opts="$(ls vendor/pac/dependencies/ | sed -e 's:\.[^./]*$::' | sed ':a;N;$!ba;s/\n/ /g')"
+
+    if [[ ${cur} == * ]] ; then
+        COMPREPLY=( $(compgen -W '${opts}' ${cur}) )
+        return 0
+    fi
+}
+complete -F _build-pac ./build-pac.sh
+
