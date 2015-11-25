@@ -3,36 +3,42 @@
         "remote":       "ss",
         "repository":   "android_device_samsung_manta",
         "target_path":  "device/samsung/manta",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_kernel_samsung_manta",
         "target_path":  "kernel/samsung/manta",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_broadcom",
         "target_path":  "vendor/broadcom",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_widevine",
         "target_path":  "vendor/widevine",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_audience",
         "target_path":  "vendor/audience",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "pac-6.0"
     }
 ]
