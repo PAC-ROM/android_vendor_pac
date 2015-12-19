@@ -1,20 +1,14 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_lge_e975",
+        "repository":   "android_device_lge_geehrc",
         "target_path":  "device/lge/e975",
         "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_lge_gproj-common",
-        "target_path":  "device/lge/gproj-common",
-        "revision":     "pac-6.0"
-    },
-    {
-        "remote":       "ss",
-        "repository":   "android_kernel_lge_gproj",
-        "target_path":  "kernel/lge/gproj",
+        "repository":   "android_kernel_lge_gee",
+        "target_path":  "kernel/lge/gee",
         "revision":     "pac-6.0"
     },
     {
