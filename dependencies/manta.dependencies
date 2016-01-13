@@ -40,5 +40,11 @@
         "repository":   "android_external_stlport",
         "target_path":  "external/stlport",
         "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_hardware_samsung_slsi_exynos5",
+        "target_path":  "hardware/samsung_slsi/exynos5",
+        "revision":     "pac-6.0"
     }
 ]
