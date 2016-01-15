@@ -3,30 +3,42 @@
         "remote":       "ss",
         "repository":   "android_device_motorola_condor",
         "target_path":  "device/motorola/condor",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_motorola_msm8610-common",
+        "target_path":  "device/motorola/msm8610-common",
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_kernel_motorola_msm8610",
         "target_path":  "kernel/motorola/msm8610",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_device_qcom_common",
         "target_path":  "device/qcom/common",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "ss",
         "repository":   "android_hardware_qcom_fm",
         "target_path":  "hardware/qcom/fm",
-        "revision":     "pac-5.1"
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_external_sony_boringssl-compat",
+        "target_path":  "external/sony/boringssl-compat",
+        "revision":     "pac-6.0"
     },
     {
         "remote":       "pic",
         "repository":   "proprietary_vendor_motorola",
         "target_path":  "vendor/motorola",
-        "revision":     "cm-12.1"
+        "revision":     "cm-13.0"
     }
 ]
