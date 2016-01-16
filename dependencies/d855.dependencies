@@ -19,16 +19,10 @@
   },
   {
     "remote": "ss",
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "pac-6.0"
-  },
-  {
-    "remote": "ss",
-    "repository": "android_hardware_qcom_fm",
-    "target_path": "hardware/qcom/fm",
-    "revision": "pac-6.0"
-  },
+    "repository": "android_device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy-caf"
+    "revision": "pac-6.0-caf"
+  }
   {
     "remote": "pic",
     "repository": "proprietary_vendor_lge",
@@ -37,26 +31,14 @@
   },
   {
     "remote": "pac",
-    "repository": "android_external_stlport",
-    "target_path": "external/stlport",
+    "repository": "android_vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
     "revision": "pac-6.0"
   },
   {
     "remote": "pac",
-    "repository": "android_external_sony_boringssl-compat",
-    "target_path": "external/sony/boringssl-compat",
-    "revision": "pac-6.0"
-  },
-  {
-    "remote": "pac",
-    "repository": "android_hardware_sony_thermanager",
-    "target_path": "hardware/sony/thermanager",
-    "revision": "pac-6.0"
-  },
-  {
-    "remote": "pac",
-    "repository": "android_external_connectivity",
-    "target_path": "external/connectivity",
+    "repository": "android_vendor_qcom_opensource_display-frameworks",
+    "target_path": "vendor/qcom/opensource/display-frameworks",
     "revision": "pac-6.0"
   }
 ]
