@@ -1,5 +1,7 @@
 # HTC
 add_lunch_combo pac_m8-userdebug
+# LG
+add_lunch_combo pac_geehrc-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 # Samsung
