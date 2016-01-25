@@ -2,7 +2,7 @@
     {
         "remote":       "ss",
         "repository":   "android_device_lge_geehrc",
-        "target_path":  "device/lge/e975",
+        "target_path":  "device/lge/geehrc",
         "revision":     "pac-6.0"
     },
     {
@@ -13,21 +13,15 @@
     },
     {
         "remote":       "ss",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
         "repository":   "android_device_qcom_sepolicy",
         "target_path":  "device/qcom/sepolicy-caf",
         "revision":     "pac-6.0-caf"
-    },
-    {
-        "remote":       "pac",
-        "repository":   "android_vendor_qcom_opensource_dataservices",
-        "target_path":  "vendor/qcom/opensource/dataservices",
-        "revision":     "pac-6.0"
-    },
-    {
-        "remote":       "pac",
-        "repository":   "android_vendor_qcom_opensource_display-frameworks",
-        "target_path":  "vendor/qcom/opensource/display-frameworks",
-        "revision":     "pac-6.0"
     },
     {
         "remote":       "pic",
