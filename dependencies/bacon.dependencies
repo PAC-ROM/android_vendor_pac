@@ -30,18 +30,6 @@
         "revision":     "pac-6.0-caf"
     },
     {
-        "remote":       "pac",
-        "repository":   "android_vendor_qcom_opensource_dataservices",
-        "target_path":  "vendor/qcom/opensource/dataservices",
-        "revision":     "pac-6.0"
-    },
-    {
-        "remote":       "pac",
-        "repository":   "android_vendor_qcom_opensource_display-frameworks",
-        "target_path":  "vendor/qcom/opensource/display-frameworks",
-        "revision":     "pac-6.0"
-    },
-    {
         "remote":       "pic",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
