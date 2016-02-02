@@ -26,6 +26,7 @@
   <device name="d2spr"/>
   <device name="d2tmo"/>
   <device name="d2vzw"/>
+  <device name="d851"/>
   <device name="d855"/>
   <device name="evita"/>
   <device name="falcon"/>
