@@ -51,7 +51,7 @@ check_prereq() {
     retval=1
     ver=$(awk "/ro.pac.version=($V)/ {print \"MM\"}" /system/build.prop)
     case "$ver" in
-        LP)
+        MM)
             echo "Found compatible version, backing up files."
         ;;
          *)
