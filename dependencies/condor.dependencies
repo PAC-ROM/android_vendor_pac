@@ -30,7 +30,7 @@
         "revision":     "pac-6.0"
     },
     {
-        "remote":       "ss",
+        "remote":       "pac",
         "repository":   "android_external_sony_boringssl-compat",
         "target_path":  "external/sony/boringssl-compat",
         "revision":     "pac-6.0"
