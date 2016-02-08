@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "ss",
+        "repository":   "android_device_huawei_angler",
+        "target_path":  "device/huawei/angler",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_huawei_angler",
+        "target_path":  "kernel/huawei/angler",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_huawei",
+        "target_path":  "vendor/huawei",
+        "revision":     "cm-13.0"
+    }
+]

@@ -22,6 +22,7 @@ add_lunch_combo pac_t6-userdebug
 add_lunch_combo pac_t6spr-userdebug
 add_lunch_combo pac_t6vzw-userdebug
 # Huawei
+add_lunch_combo pac_angler-userdebug
 add_lunch_combo pac_mt2-userdebug
 # LG
 add_lunch_combo pac_d855-userdebug

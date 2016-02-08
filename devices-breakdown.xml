@@ -29,6 +29,7 @@
     </vendor>
     <vendor Name="Huawei">
         <device FullName="Ascend Mate 2" CodeName="mt2"/>
+        <device FullName="Nexus 6P" CodeName="angler"/>
     </vendor>
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
