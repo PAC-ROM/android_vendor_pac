@@ -24,12 +24,6 @@
         "revision":     "pac-6.0"
     },
     {
-        "remote":       "ss",
-        "repository":   "android_device_qcom_sepolicy",
-        "target_path":  "device/qcom/sepolicy-caf",
-        "revision":     "pac-6.0-caf"
-    },
-    {
         "remote":       "pic",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
