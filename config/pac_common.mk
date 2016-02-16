@@ -1,6 +1,6 @@
 #
 # pac_common.mk: set up our common configuration
-# Copyright (C) 2015 The PAC-ROM Project
+# Copyright (C) 2015-2016 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -16,18 +16,6 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
-
-# Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
-    vendor/pac/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/pac/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh
-
-# Pac Sounds
-PRODUCT_COPY_FILES += \
-    vendor/pac/prebuilt/common/media/audio/alarms/PAC-Alarm.ogg:system/media/audio/alarms/PAC-Alarm.ogg \
-    vendor/pac/prebuilt/common/media/audio/notifications/PAC-Notifications.ogg:system/media/audio/notifications/PAC-Notifications.ogg \
-    vendor/pac/prebuilt/common/media/audio/ringtones/PAC-Ringtone.ogg:system/media/audio/ringtones/PAC-Ringtone.ogg
 
 # Bootanimation
 PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
@@ -49,9 +37,6 @@ BOARD := $(subst pac_,,$(TARGET_PRODUCT))
 PAC_BUILD_VERSION := pac_$(BOARD)_$(PACVERSION)_$(shell date +%Y%m%d-%H%M%S)
 PRODUCT_NAME := $(TARGET_PRODUCT)
 
-# Set the board version
-CM_BUILD := $(BOARD)
-
 # Lower RAM devices
 ifeq ($(PAC_LOW_RAM_DEVICE),true)
 MALLOC_IMPL := dlmalloc
@@ -72,15 +57,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.name=PAC-ROM \
     ro.pacstats.version=$(PACVERSION) \
     ro.pacstats.tframe=1
-
-# TWRP Recovery
-ifeq ($(RECOVERY_VARIANT),twrp)
-    ifeq ($(PAC_MAKE),recoveryimage)
-        BOARD_SEPOLICY_IGNORE += external/sepolicy/domain.te
-        BOARD_SEPOLICY_DIRS += vendor/pac/sepolicy/twrp
-        BOARD_SEPOLICY_UNION += domain.te init.te recovery.te
-    endif
-endif
 
 # Disable ADB authentication and set root access to Apps and ADB
 ifeq ($(DISABLE_ADB_AUTH),true)

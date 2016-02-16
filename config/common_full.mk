@@ -1,10 +1,10 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
+# Inherit common PAC stuff
+$(call inherit-product, vendor/pac/config/common.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+# Include PAC audio files
+include vendor/pac/config/pac_audio.mk
 
-# Optional CM packages
+# Optional PAC packages
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     PhotoPhase \
     Screencast
 
-# Extra tools in CM
+# Extra tools in PAC
 PRODUCT_PACKAGES += \
     7z \
     lib7z \
