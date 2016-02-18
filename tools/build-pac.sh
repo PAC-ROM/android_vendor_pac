@@ -279,7 +279,7 @@ fi
 if [ "$opt_sync" -eq 1 ]; then
     # Sync with latest sources
     echo -e "${bldcya}Fetching latest sources${rst}"
-    repo sync -j"$opt_jobs"
+    repo sync -qj"$opt_jobs"
     echo ""
 elif [ "$opt_sync" -eq 2 ]; then
     # Take snapshot of current sources
@@ -303,7 +303,7 @@ elif [ "$opt_sync" -eq 3 ]; then
     repo init -m snapshot-"$device".xml
     echo -e "${bldcya}Fetching snapshot sources${rst}"
     echo ""
-    repo sync -d -j"$opt_jobs"
+    repo sync -qdj"$opt_jobs"
 
     # Prevent duplicate backups
     cd .repo/local_manifests
