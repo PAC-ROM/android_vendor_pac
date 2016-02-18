@@ -22,8 +22,7 @@ PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTA
 
 # Additonal Packages
 PRODUCT_PACKAGES += \
-    OmniSwitch \
-    PACSetupWizard
+    PACConsole
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
