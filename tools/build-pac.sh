@@ -64,7 +64,7 @@ usage() {
 
 # PAC version
 export PAC_VERSION_MAJOR="MM"
-export PAC_VERSION_MINOR=""
+export PAC_VERSION_MINOR="Alpha 1"
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
