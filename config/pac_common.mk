@@ -18,7 +18,7 @@
 #
 
 # Bootanimation
-PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/$(PAC_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/centre-900-60fps.zip:system/media/bootanimation.zip
 
 # Additonal Packages
 PRODUCT_PACKAGES += \
