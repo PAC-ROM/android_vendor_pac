@@ -12,3 +12,7 @@ _build-pac()
 }
 complete -F _build-pac ./build-pac.sh
 
+# to use this
+# add a line like this to your ~/.bashrc
+# source /home/[user]/[path]/[to]/[src]/vendor/pac/tools/autobuildpac 
+
