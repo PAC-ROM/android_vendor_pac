@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     PACConsole
 
 # PAC Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/pac/overlay/common
 
 # PAC version
 PACVERSION := $(shell echo $(PAC_VERSION) | sed -e 's/^[ \t]*//;s/[ \t]*$$//;s/ /./g')
