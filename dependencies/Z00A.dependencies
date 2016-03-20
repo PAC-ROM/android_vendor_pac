@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "ss",
+        "repository":   "android_device_asus_Z00A",
+        "target_path":  "device/asus/Z00A",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_asus_mofd-common",
+        "target_path":  "device/asus/mofd-common",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_asus_moorefield",
+        "target_path":  "kernel/asus/moorefield",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_asus",
+        "target_path":  "vendor/asus",
+        "revision":     "cm-13.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "pac-6.0"
+    }
+]

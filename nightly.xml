@@ -68,5 +68,6 @@
   <device name="trltespr"/>
   <device name="trltetmo"/>
   <device name="trltexx"/>
+  <device name="Z00A"/>
   <!-- <device name="v500"/> -->
 </manifest>
