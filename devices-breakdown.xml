@@ -60,6 +60,7 @@
     </vendor>
     <vendor Name="OnePlus">
         <device FullName="One" CodeName="bacon"/>
+        <device FullName="X" CodeName="onyx"/>
     </vendor>
     <vendor Name="Samsung">
         <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>

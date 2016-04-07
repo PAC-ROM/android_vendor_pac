@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "ss",
+        "repository":   "android_device_oneplus_onyx",
+        "target_path":  "device/oneplus/onyx",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository     "android_device_oppo_common",
+        "target_path":  "device/oppo/common",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_oneplus_onyx",
+        "target_path":  "kernel/oneplus/onyx",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "cm-13.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_sony_boringssl-compat",
+        "target_path":  "external/sony/boringssl-compat",
+        "revision":     "pac-6.0"
+    }
+]

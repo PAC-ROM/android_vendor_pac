@@ -50,6 +50,7 @@ add_lunch_combo pac_titan-userdebug
 add_lunch_combo pac_wx_na_do-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
+add_lunch_combo pac_onyx-userdebug
 # Samsung
 add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2spr-userdebug
