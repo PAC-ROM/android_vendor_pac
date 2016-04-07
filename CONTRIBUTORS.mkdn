@@ -77,6 +77,7 @@
 | Nexus 7 2013                     | flo          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
 | Nexus 7 2013 (LTE)               | deb          | [PAC] (http://forum.pac-rom.com/thread-552.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
 | Nexus Player                     | fugu         | [PAC] (http://forum.pac-rom.com/thread-1484.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3140183)   | [Skiwong20] (https://github.com/Skiwong20)
+| Zenfone 2                        | Z008         | [PAC]                                              | [XDA]                                                              | [Druboo666] (https://github.com/Druboo666)
 | Zenfone 2                        | Z00A         | [PAC]                                              | [XDA]                                                              | [Druboo666] (https://github.com/Druboo666)
 <br>
 ####Google:
@@ -236,7 +237,7 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 99
+##Total Devices: 100
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
 

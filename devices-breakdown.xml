@@ -7,6 +7,7 @@
         <device FullName="Nexus 7 (2013)" CodeName="flo"/>
         <device FullName="Nexus 7 LTE (2013)" CodeName="deb"/>
         <device FullName="Nexus Player" CodeName="fugu"/>
+        <device FullName="ZenFone 2" CodeName="Z008"/>
         <device FullName="ZenFone 2" CodeName="Z00A"/>
     </vendor>
     <vendor Name="Google">

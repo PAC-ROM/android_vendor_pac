@@ -5,6 +5,7 @@ add_lunch_combo pac_deb-userdebug
 add_lunch_combo pac_flo-userdebug
 add_lunch_combo pac_fugu-userdebug
 add_lunch_combo pac_grouper-userdebug
+add_lunch_combo pac_Z008-userdebug
 add_lunch_combo pac_Z00A-userdebug
 # Google
 add_lunch_combo pac_sprout4-userdebug
