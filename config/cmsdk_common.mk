@@ -39,10 +39,10 @@ ifndef CM_PLATFORM_REV
 endif
 
 # CyanogenMod Platform SDK Version
-#PRODUCT_PROPERTY_OVERRIDES += \
-#  ro.cm.build.version.plat.sdk=$(CM_PLATFORM_SDK_VERSION)
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.cm.build.version.plat.sdk=$(CM_PLATFORM_SDK_VERSION)
 
 # CyanogenMod Platform Internal
-#PRODUCT_PROPERTY_OVERRIDES += \
-#  ro.cm.build.version.plat.rev=$(CM_PLATFORM_REV)
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.cm.build.version.plat.rev=$(CM_PLATFORM_REV)
 
