@@ -140,7 +140,7 @@
 | Moto E (Global GSM)              | condor       | [PAC] (http://forum.pac-rom.com/thread-1211.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2886058)   | [ashwin007] (https://github.com/ashwin007)
 | Moto E (Retail US GSM)           | condor       | [PAC] (http://forum.pac-rom.com/thread-1211.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2886058)   | [ashwin007] (https://github.com/ashwin007)
 | Moto E 2015 3G (GSM)             | otus         | [PAC] (http://forum.pac-rom.com/thread-1616.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3122422)   | [Shr3ps] (https://github.com/Shr3ps)
-| Moto E 2015 LTE (GSM)            | surnia       | [PAC] (http://forum.pac-rom.com/thread-1614.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3114041)   | [Shr3ps] (https://github.com/Shr3ps)
+| Moto E 2015 LTE (GSM)            | surnia       | [PAC] (http://forum.pac-rom.com/thread-1614.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3306057)   | [Shr3ps] (https://github.com/Shr3ps)
 | Moto G 2013 (Global GSM)         | falcon       | [PAC] (http://forum.pac-rom.com/thread-536.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2667834)   | [Wechy77] (https://github.com/Wechy77)
 | Moto G 2013 (Retail US GSM)      | falcon       | [PAC] (http://forum.pac-rom.com/thread-536.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2667834)   | [Wechy77] (https://github.com/Wechy77)
 | Moto G 2015 (3rd Gen)            | osprey       | [PAC] (http://forum.pac-rom.com/thread-1620.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3188400)   | [Shr3ps] (https://github.com/Shr3ps)
@@ -149,7 +149,7 @@
 | Moto X (T-Mobile)                | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (US Cellular)             | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
 | Moto X (Verizon)                 | ghost        | [PAC] (http://forum.pac-rom.com/thread-531.html)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2504830)   | [Skiwong20] (https://github.com/Skiwong20)
-| Moto X Play                      | lux          | [PAC] (http://forum.pac-rom.com/thread-1622.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3204606)   | [Shr3ps] (https://github.com/Shr3ps)
+| Moto X Play                      | lux          | [PAC] (http://forum.pac-rom.com/thread-1622.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3339507)   | [Shr3ps] (https://github.com/Shr3ps)
 | Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)
 
 <br>
