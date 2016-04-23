@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/pac/config/permissions/org.cyanogenmod.statusbar.xml:system/etc/permissions/org.cyanogenmod.statusbar.xml \
     vendor/pac/config/permissions/org.cyanogenmod.telephony.xml:system/etc/permissions/org.cyanogenmod.telephony.xml \
     vendor/pac/config/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml \
+    vendor/pac/config/permissions/org.cyanogenmod.weather.xml:system/etc/permissions/org.cyanogenmod.weather.xml \
     vendor/pac/config/permissions/org.cyanogenmod.weather.xml:system/etc/permissions/org.cyanogenmod.weather.xml
 
 # CM Platform Library
@@ -21,6 +22,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
     org.cyanogenmod.hardware.xml
+
+# JNI Libraries
+PRODUCT_PACKAGES += \
+    libcmsdk_platform_jni
 
 ifndef CM_PLATFORM_SDK_VERSION
   # This is the canonical definition of the SDK version, which defines
