@@ -153,6 +153,12 @@
 | Nexus 6                          | shamu        | [PAC] (http://forum.pac-rom.com/thread-1373.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3049284)   | [Skiwong20] (https://github.com/Skiwong20)
 
 <br>
+####Nextbit:
+| Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
+| :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
+| Robin                            | ether        | [PAC] (http://forum.pac-rom.com/TBA)               | [XDA] (http://forum.xda-developers.com/showthread.php?t=TBA)       | [Nick0703] (https://github.com/Nick0703)
+
+<br>
 ####Nvidia:
 | Device                           | Codename     | PAC Thread                                         | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
@@ -234,7 +240,7 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/thread-1566.html)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 97
+##Total Devices: 98
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
 

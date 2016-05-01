@@ -28,6 +28,7 @@
   <device name="d2vzw"/>
   <device name="d851"/>
   <device name="d855"/>
+  <device name="ether"/>
   <device name="evita"/>
   <device name="falcon"/>
   <device name="flo"/>

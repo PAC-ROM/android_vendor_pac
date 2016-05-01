@@ -57,6 +57,9 @@
         <device FullName="Moto X Play" CodeName="lux"/>
         <device FullName="Nexus 6" CodeName= "shamu" />
     </vendor>
+    <vendor Name="Nextbit">
+        <device FullName="Robin" CodeName="ether"/>
+    </vendor>
     <vendor Name="Nvidia">
         <device FullName="Shield Tablet (LTE)" CodeName="wx_na_do"/>
     </vendor>
