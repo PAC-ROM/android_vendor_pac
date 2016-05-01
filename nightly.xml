@@ -38,7 +38,6 @@
   <!-- <device name="hltespr"/> -->
   <!-- <device name="hltetmo"/> -->
   <device name="honami"/>
-  <device name="i9500"/>
   <device name="jflteatt"/>
   <device name="jfltecan"/>
   <device name="jfltespr"/>
@@ -53,7 +52,6 @@
   <device name="m7vzw"/>
   <device name="m8"/>
   <device name="mt2"/>
-  <!-- <device name="n5110"/> -->
   <device name="obake"/>
   <device name="osprey"/>
   <device name="otus"/>
