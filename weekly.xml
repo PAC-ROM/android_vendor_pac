@@ -27,8 +27,6 @@
   <device name="mako" hasextras="0"/>
   <!-- <device name="mango" hasextras="1"/> -->
   <device name="manta" hasextras="0"/>
-  <!-- <device name="n5100" hasextras="0"/> -->
-  <!-- <device name="n5120" hasextras="0"/> -->
   <device name="otterx" hasextras="0"/>
   <device name="pollux" hasextras="0"/>
   <device name="pollux_windy" hasextras="0"/>
