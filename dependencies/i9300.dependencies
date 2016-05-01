@@ -6,7 +6,7 @@
         "revision":     "cm-12.1"
     },
     {
-        "remote":       "ss",
+        "remote":       "pac",
         "repository":   "android_packages_apps_SamsungServiceMode",
         "target_path":  "packages/apps/SamsungServiceMode",
         "revision":     "pac-5.1"
