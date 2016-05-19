@@ -82,8 +82,6 @@ add_lunch_combo pac_trltetmo-userdebug
 add_lunch_combo pac_trltexx-userdebug
 # Sony
 add_lunch_combo pac_amami-userdebug
-add_lunch_combo pac_castor-userdebug
-add_lunch_combo pac_castor_windy-userdebug
 add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_pollux_windy-userdebug
