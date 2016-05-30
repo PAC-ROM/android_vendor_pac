@@ -123,7 +123,7 @@
 | G-Pad                            | v500         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=539)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668112)   | [darkassain] (https://github.com/MikePach)
 | G3 (T-Mobile)                    | d851         | [PAC] (http://forum.pac-rom.com/DONT-HAVE)                | [XDA] (http://forum.xda-developers.com/showthread.php?t=3083910)   | [Eliminater74] (https://github.com/Eliminater74)
 | G3 (International)               | d855         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1757)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198802)   | [dadi11] (https://github.com/dadi11)
-| Nexus 4                          | mako         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1610)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198239)   | [Volle] (https://github.com/aHcVolle)
+| Nexus 4                          | mako         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1773)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198239)   | [Volle] (https://github.com/aHcVolle)
 | Nexus 5                          | hammerhead   | [PAC] (http://forum.pac-rom.com/showthread.php?tid=984)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670238)   | [manfromgta] (https://github.com/manfromgta)
 | Optimus G (LTE)                  | e975         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1436)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3019858)   | [dadi11] (https://github.com/dadi11)
 | Optimus G Pro                    | e980         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1054)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2852984)   | [zamajalo] (https://github.com/zamajalo)
@@ -198,7 +198,7 @@
 | Galaxy S IV mini (DUOS)          | serranodsdd  | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1372)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
 | Galaxy S IV mini (GSM)           | serrano3gxx  | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1372)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
 | Galaxy S IV mini (LTE)           | serranoltexx | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1372)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048693)   | [lsdty] (https://github.com/paloda)
-| Nexus 10                         | manta        | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1379)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2948457)   | [Volle] (https://github.com/aHcVolle)
+| Nexus 10                         | manta        | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1772)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=2948457)   | [Volle] (https://github.com/aHcVolle)
 
 <br>
 ####Sony:
