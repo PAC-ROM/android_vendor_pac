@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # build-pac.sh: the overarching build script for the ROM.
-# Copyright (C) 2015 The PAC-ROM Project
+# Copyright (C) 2015-2016 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -44,8 +44,6 @@ usage() {
     echo -e "        1 - Normal sync"
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
-    echo -e "    -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)"
-    echo -e "        (This may produce an invalid recovery. Use only if you have the correct settings for these)"
     echo -e "    -w#  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
@@ -148,10 +146,9 @@ opt_lrd=0
 opt_only=0
 opt_reset=0
 opt_sync=0
-opt_twrp=0
 opt_log=0
 
-while getopts "ac:de:fij:klo:rs:tw:" opt; do
+while getopts "ac:de:fij:klo:rs:w:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -165,7 +162,6 @@ while getopts "ac:de:fij:klo:rs:tw:" opt; do
     o) opt_only="$OPTARG" ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
-    t) opt_twrp=1 ;;
     w) opt_log="$OPTARG" ;;
     *) usage
     esac
@@ -234,16 +230,6 @@ else
         echo -e "${bldcya}Output directory is: ${bldgrn}Clean${rst}"
         echo ""
     fi
-fi
-
-
-# TWRP Recovery
-if [ "$opt_twrp" -eq 1 ]; then
-    echo -e "${bldcya}TWRP Recovery will be built${rst}"
-    export RECOVERY_VARIANT=twrp
-    echo ""
-else
-    unset RECOVERY_VARIANT
 fi
 
 
@@ -401,5 +387,4 @@ fi
 
 
 # Cleanup unused built
-rm -f "$OUTDIR"/target/product/"$device"/cm-*.*
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip

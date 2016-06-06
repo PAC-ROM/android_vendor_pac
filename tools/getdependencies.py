@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # getdependencies.py: add the necessary dependencies to the local manifest
-# Copyright (C) 2015 The PAC-ROM Project
+# Copyright (C) 2015-2016 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -173,7 +173,7 @@ def fetch_dependencies(device):
 
     if len(syncable_repos) > 0:
         print('Syncing dependencies')
-        os.system('repo sync %s' % ' '.join(syncable_repos))
+        os.system('repo sync --force-sync %s' % ' '.join(syncable_repos))
 
 
 fetch_dependencies(device)
