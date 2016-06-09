@@ -1,6 +1,8 @@
 # Inherit common PAC stuff
 $(call inherit-product, vendor/pac/config/common.mk)
 
+PRODUCT_SIZE := full
+
 # Include PAC audio files
 include vendor/pac/config/pac_audio.mk
 
