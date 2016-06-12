@@ -4,12 +4,11 @@
     This file is used to enable nightly builds for eligible devices.
 
     import vendor.pac.Device;
-    import vendor.pac.Maintainers;
-    import vendor.pac.Threads;
-
-    if (!device.getThreads() && !device.getMaintainers() && !device.downloadsPerWeek > 35) {
-      devices.runNightly=false;
+    ...
+    if (!device.getThreads() || !device.getMaintainers() || device.downloadsPerWeek < 35) {
+      device.runNightly=false;
     }
+    ...
 -->
 
 <manifest>
