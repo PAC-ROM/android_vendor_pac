@@ -40,5 +40,11 @@
         "repository":   "android_hardware_samsung",
         "target_path":  "hardware/samsung",
         "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pac",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "pac-6.0"
     }
 ]
