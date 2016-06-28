@@ -123,6 +123,7 @@
 | G-Pad                            | v500         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=539)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668112)   | [darkassain] (https://github.com/MikePach)
 | G3 (T-Mobile)                    | d851         | [PAC] (http://forum.pac-rom.com/DONT-HAVE)                | [XDA] (http://forum.xda-developers.com/showthread.php?t=3083910)   | [Eliminater74] (https://github.com/Eliminater74)
 | G3 (International)               | d855         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1757)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198802)   | [dadi11] (https://github.com/dadi11)
+| G3 (Verizon)                     | vs985        | [PAC] (http://forum.pac-rom.com/DONT-HAVE)                | [XDA] (http://forum.xda-developers.com/DONT-HAVE)                  | [1KX2] (https://github.com/1KX2)
 | Nexus 4                          | mako         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1773)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198239)   | [Volle] (https://github.com/aHcVolle)
 | Nexus 5                          | hammerhead   | [PAC] (http://forum.pac-rom.com/showthread.php?tid=984)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2670238)   | [manfromgta] (https://github.com/manfromgta)
 | Optimus G (LTE)                  | e975         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1436)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3019858)   | [dadi11] (https://github.com/dadi11)
@@ -238,7 +239,7 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1566)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [Megatron007] (https://github.com/Megatron007)          | [pranav01] (https://github.com/pranav01)
 
 <br><br>
-##Total Devices: 96
+##Total Devices: 97
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
 

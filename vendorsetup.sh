@@ -34,6 +34,7 @@ add_lunch_combo pac_geehrc-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_mako-userdebug
 add_lunch_combo pac_v500-userdebug
+add_lunch_combo pac_vs985-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
 add_lunch_combo pac_falcon-userdebug
