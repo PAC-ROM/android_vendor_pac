@@ -21,7 +21,7 @@
         "remote":       "ss",
         "repository":   "android_kernel_lge_g3",
         "target_path":  "kernel/lge/g3",
-        "revision":     "pac-6.0"
+        "revision":     "pac-6.0-d1"
     },
     {
         "remote":       "pic",
