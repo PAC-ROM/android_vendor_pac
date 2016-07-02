@@ -74,15 +74,17 @@ fi
 
 
 # Maintenance logic
-if [ -s ~/PACname ]; then
-    export PAC_MAINTENANCE=$(cat ~/PACname)
+if [ -s "$HOME"/PACname ]; then
+    export PAC_MAINTENANCE=$(cat "$HOME"/PACname)
 else
     export PAC_MAINTENANCE="$PAC_VERSION_MAINTENANCE"
 fi
 if [ -z "$PAC_VERSION_MINOR" ]; then
     export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_MAINTENANCE"
+    export VO="${bldmag}$PAC_VERSION_MAJOR ${bldred}$PAC_MAINTENANCE${rst}"
 else
     export PAC_VERSION="$PAC_VERSION_MAJOR $PAC_VERSION_MINOR $PAC_MAINTENANCE"
+    export VO="${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
 fi
 
 
@@ -279,26 +281,26 @@ elif [ "$opt_sync" -eq 3 ]; then
     cp snapshot-"$device".xml .repo/manifests/
 
     # Prevent duplicate projects
-    cd .repo/local_manifests
+    cd .repo/local_manifests || exit
     for file in *.xml; do
         mv "$file" "$(echo $file | sed 's/\(.*\.\)xml/\1xmlback/')"
     done
 
     # Start snapshot file
-    cd "$DIR"
+    cd "$DIR" || exit
     repo init -m snapshot-"$device".xml
     echo -e "${bldcya}Fetching snapshot sources${rst}"
     echo ""
     repo sync -qdj"$opt_jobs"
 
     # Prevent duplicate backups
-    cd .repo/local_manifests
+    cd .repo/local_manifests || exit
     for file in *.xmlback; do
         mv "$file" "$(echo $file | sed 's/\(.*\.\)xmlback/\1xml/')"
     done
 
     # Remove snapshot file
-    cd "$DIR"
+    cd "$DIR" || exit
     rm -f .repo/manifests/snapshot-"$device".xml
     repo init
 fi
@@ -365,23 +367,18 @@ fi
 
 
 # Start compilation
-unset PAC_MAKE
 if [ "$opt_only" -eq 1 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}Boot Image only${rst}"
     echo ""
-    make -j$opt_jobs$opt_v$opt_i bootzip
+    make -j"$opt_jobs$opt_v$opt_i" bootzip
 elif [ "$opt_only" -eq 2 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}Recovery Image only${rst}"
     echo ""
-    make -j$opt_jobs$opt_v$opt_i recoveryimage
+    make -j"$opt_jobs$opt_v$opt_i" recoveryimage
 else
-    if [ -z "$PAC_VERSION_MINOR" ]; then
-        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldred}$PAC_MAINTENANCE${rst}"
-    else
-        echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM ${bldmag}$PAC_VERSION_MAJOR ${bldcya}$PAC_VERSION_MINOR ${bldred}$PAC_MAINTENANCE${rst}"
-    fi
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building ${bldylw}PAC-ROM $VO${rst}"
     echo ""
-    make -j$opt_jobs$opt_v$opt_i bacon
+    make -j"$opt_jobs$opt_v$opt_i" bacon
 fi
 
 
