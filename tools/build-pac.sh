@@ -44,6 +44,13 @@ usage() {
     echo -e "        1 - Normal sync"
     echo -e "        2 - Make snapshot"
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
+    echo -e "    -u  Upload rom to any server"
+    echo -e "        You need the server file"
+    echo -e "            Step 1 - Create 'Server' file in your $HOME/ DIR"
+    echo -e "            Step 2 - Fill of this way: username::password::hostserver::serverlocationfiles"
+    echo -e "                     example: Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly"
+    echo -e "            Alternative: Use this command for create the file with text"
+    echo -e "                     echo 'Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly' > $HOME/Server"
     echo -e "    -w#  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
@@ -148,9 +155,10 @@ opt_lrd=0
 opt_only=0
 opt_reset=0
 opt_sync=0
+opt_upload=0
 opt_log=0
 
-while getopts "ac:de:fij:klo:rs:w:" opt; do
+while getopts "ac:de:fij:klo:rs:uw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
@@ -164,6 +172,7 @@ while getopts "ac:de:fij:klo:rs:w:" opt; do
     o) opt_only="$OPTARG" ;;
     r) opt_reset=1 ;;
     s) opt_sync="$OPTARG" ;;
+    u) opt_upload=1 ;;
     w) opt_log="$OPTARG" ;;
     *) usage
     esac
@@ -174,6 +183,24 @@ if [ "$#" -ne 1 ]; then
     usage
 fi
 device="$1"
+
+
+# Check server file for uploading
+if [ "$opt_upload" -ne 0 ]; then
+    if [ ! -f "$HOME/Server" ]; then
+        echo -e "${bldcya}You are using the option to automatically upload the files after build${rst}"
+        echo -e "${bldcya}but the server configuration file is not found, please add it${rst}"
+        echo ""
+        echo -e "${bldcya}    Step 1 - Create 'Server' file in your $HOME/ DIR${rst}"
+        echo -e "${bldcya}    Step 2 - Fill of this way: username::password::hostserver::serverlocationfiles${rst}"
+        echo -e "${bldcya}             example: Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly${rst}"
+        echo ""
+        echo -e "${bldcya}    Alternative: Use this command for create the file with text${rst}"
+        echo -e "${bldcya}             echo 'Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly' > $HOME/Server${rst}"
+        echo ""
+        exit 1
+    fi
+fi
 
 
 # Ccache options
@@ -384,3 +411,37 @@ fi
 
 # Cleanup unused built
 rm -f "$OUTDIR"/target/product/"$device"/pac_*-ota*.zip
+
+
+# Upload
+if [ "$opt_upload" -ne 0 ]; then
+    finally="$OUTDIR/target/product/$device/"
+    md5name=$(basename "${finally}"pac*.md5sum)
+    zipname=$(basename "${finally}"pac*.zip)
+
+    echo ""
+    if [ -s "$HOME/Server" ]; then
+        if [ -f "$finally$md5name" ] && [ -f "$finally$zipname" ]; then
+            server="$HOME/Server"
+
+            suser=$(awk -F'::' '{print $1}' "$server")
+            spass=$(awk -F'::' '{print $2}' "$server")
+            shost=$(awk -F'::' '{print $3}' "$server")
+            spath=$(awk -F'::' '{print $4}' "$server")
+
+            echo -e "${bldcya}Uploading to${bldmag} ${shost} ${bldcya}as${bldmag} ${suser} ${bldcya}at${bldmag} ${spath}${rst}"
+
+            echo -e "${bldgrn}Uploading $md5name${rst}"
+            curl -T "${finally}${md5name}" ftp://"${suser}:${spass}@${shost}:${spath}/${md5name}"
+
+            echo -e "${bldgrn}Uploading $zipname${rst}"
+            curl -T "${finally}${zipname}" ftp://"${suser}:${spass}@${shost}:${spath}/${zipname}"
+
+            echo -e "${bldgrn}Upload Successfully${rst}"
+        else
+            echo -e "${bldgrn}ERROR: The ROM it does not exist${rst}"
+        fi
+    else
+        echo -e "${bldgrn}The Server configuration file it does not exist or is empty${rst}"
+    fi
+fi
