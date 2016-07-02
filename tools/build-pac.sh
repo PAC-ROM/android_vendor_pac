@@ -373,7 +373,6 @@ if [ "$opt_only" -eq 1 ]; then
 elif [ "$opt_only" -eq 2 ]; then
     echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
-    export PAC_MAKE=recoveryimage
     make -j$opt_jobs$opt_v$opt_i recoveryimage
 else
     if [ -z "$PAC_VERSION_MINOR" ]; then
