@@ -46,11 +46,11 @@ usage() {
     echo -e "        3 - Restore previous snapshot, then snapshot sync"
     echo -e "    -u  Upload rom to any server"
     echo -e "        You need the server file"
-    echo -e "            Step 1 - Create 'Server' file in your $HOME/ DIR"
+    echo -e "            Step 1 - Create 'Server-device' file in your $HOME/ DIR"
     echo -e "            Step 2 - Fill of this way: username::password::hostserver::serverlocationfiles"
-    echo -e "                     example: Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly"
-    echo -e "            Alternative: Use this command for create the file with text"
-    echo -e "                     echo 'Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly' > $HOME/Server"
+    echo -e "                     example: login::password::basketbuild.com::/device/folder"
+    echo -e "            Alternative: Use this command to create the text file"
+    echo -e "                     echo 'login::password::basketbuild.com::/device/folder' > $HOME/Server-$device"
     echo -e "    -w#  Log file options:"
     echo -e "        1 - Send warnings and errors to a log file"
     echo -e "        2 - Send all output to a log file"
@@ -191,12 +191,12 @@ if [ "$opt_upload" -ne 0 ]; then
         echo -e "${bldcya}You are using the option to automatically upload the files after build${rst}"
         echo -e "${bldcya}but the server configuration file is not found, please add it${rst}"
         echo ""
-        echo -e "${bldcya}    Step 1 - Create 'Server' file in your $HOME/ DIR${rst}"
+        echo -e "${bldcya}    Step 1 - Create 'Server-device' file in your $HOME/ DIR${rst}"
         echo -e "${bldcya}    Step 2 - Fill of this way: username::password::hostserver::serverlocationfiles${rst}"
-        echo -e "${bldcya}             example: Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly${rst}"
+        echo -e "${bldcya}             example: login::password::basketbuild.com::/device/folder${rst}"
         echo ""
-        echo -e "${bldcya}    Alternative: Use this command for create the file with text${rst}"
-        echo -e "${bldcya}             echo 'Harry::AvadaKedavra::basketbuild.com::/hammerhead/Nightly' > $HOME/Server${rst}"
+        echo -e "${bldcya}    Alternative: Use this command to create the text file${rst}"
+        echo -e "${bldcya}             echo 'login::password::basketbuild.com::/device/folder' > $HOME/Server-$device${rst}"
         echo ""
         exit 1
     fi
@@ -420,9 +420,9 @@ if [ "$opt_upload" -ne 0 ]; then
     zipname=$(basename "${finally}"pac*.zip)
 
     echo ""
-    if [ -s "$HOME/Server" ]; then
+    if [ -s "$HOME/Server-$device" ]; then
         if [ -f "$finally$md5name" ] && [ -f "$finally$zipname" ]; then
-            server="$HOME/Server"
+            server="$HOME/Server-$device"
 
             suser=$(awk -F'::' '{print $1}' "$server")
             spass=$(awk -F'::' '{print $2}' "$server")
@@ -437,11 +437,11 @@ if [ "$opt_upload" -ne 0 ]; then
             echo -e "${bldgrn}Uploading $zipname${rst}"
             curl -T "${finally}${zipname}" ftp://"${suser}:${spass}@${shost}:${spath}/${zipname}"
 
-            echo -e "${bldgrn}Upload Successfully${rst}"
+            echo -e "${bldgrn}Upload Successfull${rst}"
         else
-            echo -e "${bldgrn}ERROR: The ROM it does not exist${rst}"
+            echo -e "${bldgrn}ERROR: The ROM file does not exist${rst}"
         fi
     else
-        echo -e "${bldgrn}The Server configuration file it does not exist or is empty${rst}"
+        echo -e "${bldgrn}The Server configuration file does not exist or it is empty${rst}"
     fi
 fi
