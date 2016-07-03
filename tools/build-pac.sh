@@ -232,10 +232,11 @@ fi
 export TARGET_IGNORE_ERRORS
 
 if [ "$TARGET_IGNORE_ERRORS" == "true" ]; then
-   opt_clean=1
-   echo -e "${bldred}Last build ignored errors. Cleaning Out${rst}"
-   unset TARGET_IGNORE_ERRORS
-   echo -e "false" > .ignore_err
+    opt_clean=1
+    echo -e "${bldred}Last build ignored errors. Cleaning Out${rst}"
+    echo ""
+    unset TARGET_IGNORE_ERRORS
+    echo -e "false" > .ignore_err
 fi
 
 
@@ -445,3 +446,5 @@ if [ "$opt_upload" -ne 0 ]; then
         echo -e "${bldgrn}The Server configuration file does not exist or it is empty${rst}"
     fi
 fi
+
+echo ""
