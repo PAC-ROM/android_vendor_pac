@@ -47,6 +47,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.fw.bg_apps_limit=16
 endif
 
+# Use pac sounds by default
+ifeq ($(USE_PAC_SOUNDS),true)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=PAC-Ringtone.ogg \
+    ro.config.notification_sound=PAC-Notifications.ogg \
+    ro.config.alarm_alert=PAC-Alarm.ogg
+endif
+
 # ROMStats Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pacstats.url=http://www.pac-rom.com/pages/submit.php \
