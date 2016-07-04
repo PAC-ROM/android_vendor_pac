@@ -187,7 +187,7 @@ device="$1"
 
 # Check server file for uploading
 if [ "$opt_upload" -ne 0 ]; then
-    if [ ! -f "$HOME/Server" ]; then
+    if [ ! -f "$HOME/Server-$device" ]; then
         echo -e "${bldcya}You are using the option to automatically upload the files after build${rst}"
         echo -e "${bldcya}but the server configuration file is not found, please add it${rst}"
         echo ""
