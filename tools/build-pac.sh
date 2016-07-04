@@ -98,12 +98,12 @@ fi
 
 # Check directories
 if [ ! -d ".repo" ]; then
-    echo -e "${bldred}No .repo directory found.  Is this an Android build tree?${rst}"
+    echo -e "${bldred}No .repo directory found. Is this an Android build tree?${rst}"
     echo ""
     exit 1
 fi
 if [ ! -d "vendor/pac" ]; then
-    echo -e "${bldred}No vendor/pac directory found.  Is this a PAC build tree?${rst}"
+    echo -e "${bldred}No vendor/pac directory found. Is this a PAC build tree?${rst}"
     echo ""
     exit 1
 fi
@@ -208,14 +208,14 @@ fi
 
 # Ccache options
 if [ "$opt_ccache" -eq 1 ]; then
-    echo -e "${bldcya}Ccache not be used in this build${rst}"
+    echo -e "${bldcya}Ccache not used in this build${rst}"
     unset USE_CCACHE
     echo ""
 fi
 
 
 # PAC device dependencies
-echo -e "${bldcya}Looking for PAC product dependencies${bldgrn}"
+echo -e "${bldcya}Looking for PAC device dependencies${bldgrn}"
 if [ "$opt_kr" -ne 0 ]; then
     vendor/pac/tools/getdependencies.py "$device" "$opt_kr"
 else
@@ -451,9 +451,9 @@ if [ "$opt_upload" -ne 0 ]; then
             echo -e "${bldgrn}Uploading $zipname${rst}"
             curl -T "${finally}${zipname}" ftp://"${suser}:${spass}@${shost}:${spath}/${zipname}"
 
-            echo -e "${bldgrn}Upload Successfull${rst}"
+            echo -e "${bldgrn}Upload completed successfully${rst}"
         else
-            echo -e "${bldgrn}ERROR: The ROM file does not exist${rst}"
+            echo -e "${bldgrn}Upload ERROR: The ROM file does not exist${rst}"
         fi
     else
         echo -e "${bldgrn}The Server configuration file does not exist or it is empty${rst}"
