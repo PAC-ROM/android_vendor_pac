@@ -22,7 +22,8 @@ PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/media/bootanimation/centre-900-
 
 # Additonal Packages
 PRODUCT_PACKAGES += \
-    PACConsole
+    PACConsole \
+    PACSetupWizard
 
 # PAC Overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/pac/overlay/common
