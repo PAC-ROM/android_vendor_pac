@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/50-backup-script.sh:system/addon.d/50-backup-script.sh \
     vendor/pac/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
+# Backup Services whitelist
+PRODUCT_COPY_FILES += \
+    vendor/pac/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+
 # Signature compatibility validation
 PRODUCT_COPY_FILES += \
     vendor/pac/prebuilt/common/bin/otasigcheck.sh:install/bin/otasigcheck.sh
