@@ -56,6 +56,7 @@ add_lunch_combo pac_ether-userdebug
 add_lunch_combo pac_wx_na_do-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
+add_lunch_combo pac_oneplus3-userdebug
 add_lunch_combo pac_onyx-userdebug
 # Samsung
 add_lunch_combo pac_d2att-userdebug

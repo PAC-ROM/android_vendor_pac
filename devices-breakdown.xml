@@ -67,6 +67,7 @@
     </vendor>
     <vendor Name="OnePlus">
         <device FullName="One" CodeName="bacon"/>
+        <device FullName="3" CodeName="oneplus3"/>
         <device FullName="X" CodeName="onyx"/>
     </vendor>
     <vendor Name="Samsung">
