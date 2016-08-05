@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "ss",
+        "repository":   "android_device_xiaomi_kenzo",
+        "target_path":  "device/xiaomi/kenzo",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_kernel_xiaomi_kenzo",
+        "target_path":  "kernel/xiaomi/kenzo",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "pac-6.0"
+    },
+    {
+        "remote":       "pic",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "cm-13.0"
+    }
+]

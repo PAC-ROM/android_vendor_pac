@@ -118,6 +118,7 @@
     </vendor>
     <vendor Name="Xiaomi">
         <device FullName="Redmi 1S" CodeName="armani"/>
+        <device FullName="Redmi Note 3 Pro" CodeName="kenzo"/>
         <device FullName="Mi3W/Mi4W" CodeName="cancro"/>
     </vendor>
     <vendor Name="Yu">
