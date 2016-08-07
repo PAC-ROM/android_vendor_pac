@@ -38,6 +38,7 @@
         <device FullName="G3 (AT&amp;T)" CodeName="d850"/>
         <device FullName="G3 (T-Mobile)" CodeName="d851"/>
         <device FullName="G3 (International)" CodeName="d855"/>
+        <device FullName="G3 (Sprint)" CodeName="ls990"/>
         <device FullName="G3 (Verizon)" CodeName="vs985"/>
         <device FullName="Nexus 4" CodeName="mako"/>
         <device FullName="Nexus 5" CodeName="hammerhead"/>
