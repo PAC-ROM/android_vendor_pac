@@ -35,6 +35,7 @@
     </vendor>
     <vendor Name="LG">
         <device FullName="G-Pad" CodeName="v500"/>
+        <device FullName="G3 (AT&amp;T)" CodeName="d850"/>
         <device FullName="G3 (T-Mobile)" CodeName="d851"/>
         <device FullName="G3 (International)" CodeName="d855"/>
         <device FullName="G3 (Verizon)" CodeName="vs985"/>

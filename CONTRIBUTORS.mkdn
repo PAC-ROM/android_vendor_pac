@@ -121,6 +121,7 @@
 | Device                           | Codename     | PAC Thread                                                | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
 | :------------------------------: | :----------: | :-------------------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------------------: | :-----------------------------------------------------:
 | G-Pad                            | v500         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=539)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=2668112)   | [darkassain] (https://github.com/MikePach)
+| G3 (AT&T)                        | d850         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1800)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3434911)   | [rassawyer] (https://github.com/rassawyer)
 | G3 (T-Mobile)                    | d851         | [PAC] (http://forum.pac-rom.com/DONT-HAVE)                | [XDA] (http://forum.xda-developers.com/showthread.php?t=3083910)   | [Eliminater74] (https://github.com/Eliminater74)
 | G3 (International)               | d855         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1757)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3198802)   | [dadi11] (https://github.com/dadi11)
 | G3 (Verizon)                     | vs985        | [PAC] (http://forum.pac-rom.com/DONT-HAVE)                | [XDA] (http://forum.xda-developers.com/showthread.php?t=3408064)   | [1KX2] (https://github.com/1KX2)
@@ -239,7 +240,7 @@
 | Yuphoria                         | lettuce      | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1566)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3172488)   | [DroidThug] (https://github.com/DroidThug)
 
 <br><br>
-##Total Devices: 97
+##Total Devices: 98
 
 ####Best regards, szl.kiev and The PAC-ROM Team!
 
