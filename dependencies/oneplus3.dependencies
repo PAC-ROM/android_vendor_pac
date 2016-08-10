@@ -14,6 +14,12 @@
  },
  {
    "remote":       "ss",
+   "repository":   "android_device_qcom_common",
+   "target_path":  "device/qcom/common",
+   "revision":     "pac-6.0"
+ },
+ {
+   "remote":       "ss",
    "repository":   "android_kernel_oneplus_msm8996",
    "target_path":  "kernel/oneplus/msm8996",
    "revision":     "pac-6.0"
