@@ -3,33 +3,39 @@
  {
    "remote":       "ss",
    "repository":   "android_device_oneplus_oneplus3",
-   "target_path":  "device/oneplus/oneplus3"
+   "target_path":  "device/oneplus/oneplus3",
+   "revision":     "pac-6.0"
  },
  {
    "remote":       "ss",
    "repository":   "android_device_oppo_common",
-   "target_path":  "device/oppo/common"
+   "target_path":  "device/oppo/common",
+   "revision":     "pac-6.0"
  },
  {
    "remote":       "ss",
    "repository":   "android_kernel_oneplus_msm8996",
-   "target_path":  "kernel/oneplus/msm8996"
+   "target_path":  "kernel/oneplus/msm8996",
+   "revision":     "pac-6.0"
  },
  {
    "remote":       "pac",
    "repository":   "android_vendor_nxp-nfc_opensource_frameworks",
-   "target_path":  "vendor/nxp-nfc/opensource/frameworks"
+   "target_path":  "vendor/nxp-nfc/opensource/frameworks",
+   "revision":     "pac-6.0"
  },
  {
    "remote":       "pac",
    "repository":   "android_vendor_nxp-nfc_opensource_libnfc-nci",
-   "target_path":  "vendor/nxp-nfc/opensource/libnfc-nci"
+   "target_path":  "vendor/nxp-nfc/opensource/libnfc-nci",
+   "revision":     "pac-6.0"
  },
  {
    "remote":       "pac",
    "repository":   "android_vendor_nxp-nfc_opensource_Nfc",
-   "target_path":  "vendor/nxp-nfc/opensource/Nfc"
- }
+   "target_path":  "vendor/nxp-nfc/opensource/Nfc",
+   "revision":     "pac-6.0"
+ },
  {
    "remote":       "pic",
    "repository":   "proprietary_vendor_oneplus",
