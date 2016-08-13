@@ -1,37 +1,66 @@
-#!/bin/sh
+#!/bin/bash
+#
+# changelog: tool to generate a log of commits changes
+# Copyright (C) 2015 crDroid Android
+# Copyright (C) 2016 The PAC-ROM Project
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+#
 
-# Exports
+# Import Colors
+. $ANDROID_BUILD_TOP/vendor/pac/tools/colors
 
+# Changelog File
 export Changelog=Changelog.txt
 
-if [ -f $Changelog ];
-then
-	rm -f $Changelog
+# Remove tmp if it exists
+if [ -f "$Changelog" ]; then
+    rm -f "$Changelog"
 fi
 
-touch $Changelog
+# Create tmp file
+touch "$Changelog"
 
 # Print something to build output
-echo ${bldppl}"Generating changelog..."${txtrst}
+echo -e "${bldcya}Generating changelog...${txtrst}"
 
-for i in $(seq 7);
-do
-export After_Date=`date --date="$i days ago" +%m-%d-%Y`
-k=$(expr $i - 1)
-	export Until_Date=`date --date="$k days ago" +%m-%d-%Y`
+# Initializing log
+export CommitDeets=""
 
-	# Line with after --- until was too long for a small ListView
-	echo '====================' >> $Changelog;
-	echo  "     "$Until_Date    >> $Changelog;
-	echo '====================' >> $Changelog;
-	# Cycle through every repo to find commits between 2 dates
-	repo forall -pc 'git log --pretty=format:"%h  %s  [%cn]" --decorate --after=$After_Date --until=$Until_Date' >> $Changelog
-	echo >> $Changelog;
-        echo >> $Changelog;
+for i in $(seq 7); do
+    export After_Date
+    After_Date="$(date --date="$i days ago" +%Y-%m-%d)"
+
+    k=$((i - 1))
+    export Until_Date
+    Until_Date="$(date --date="$k days ago" +%Y-%m-%d)"
+
+    # Line with after --- until was too long for a small ListView
+    CommitDeets+="\n\n|*|day $Until_Date"
+
+    # Cycle through every repo to find commits between 2 dates
+    CommitDeets+="$(repo forall -pc git log --pretty=format:"%H|%ct|%an|%s" \
+                   --decorate --after="$After_Date" --until="$Until_Date")"
 done
 
-sed -i 's/project/   */g' $Changelog
+# Send all change to tmp file
+printf "$CommitDeets\n\n" > "$Changelog"
 
-cp $Changelog $OUT/system/etc/
-cp $Changelog $OUT/
-rm $Changelog
+# Copy the tmp file to output device
+cp "$Changelog" "$OUT"/system/etc/
+cp "$Changelog" "$OUT"/
+
+# Remove tmp file
+rm "$Changelog"
