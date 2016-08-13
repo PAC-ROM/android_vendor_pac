@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
     Development \
     BluetoothExt \
     Profiles \
-    ThemeManagerService
+    ThemeManagerService \
+    WeatherManagerService
 
 # Optional PAC packages
 PRODUCT_PACKAGES += \
