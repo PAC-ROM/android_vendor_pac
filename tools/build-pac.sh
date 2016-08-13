@@ -32,6 +32,7 @@ usage() {
     echo -e "        1 - Verbose build output"
     echo -e "        2 - Quiet build output"
     echo -e "    -f  Fetch extras"
+    echo -e "    -g  Do not generate the changelog"
     echo -e "    -i  Ignore minor errors during build"
     echo -e "    -j# Set number of jobs"
     echo -e "    -k  Rewrite roomservice after dependencies update"
@@ -157,14 +158,16 @@ opt_reset=0
 opt_sync=0
 opt_upload=0
 opt_log=0
+opt_changelog=0
 
-while getopts "ac:de:fij:klo:rs:uw:" opt; do
+while getopts "ac:de:fgij:klo:rs:uw:" opt; do
     case "$opt" in
     a) opt_adb=1 ;;
     c) opt_clean="$OPTARG" ;;
     d) opt_ccache=1 ;;
     e) opt_extra="$OPTARG" ;;
     f) opt_fetch=1 ;;
+    g) opt_changelog=1 ;;
     i) opt_ignore=1 ;;
     j) opt_jobs="$OPTARG" ;;
     k) opt_kr=1 ;;
@@ -337,6 +340,16 @@ fi
 # Fetch extras
 if [ "$opt_fetch" -ne 0 ]; then
     ./vendor/pac/tools/extras.sh "$device"
+fi
+
+
+# Do not generate the changelog
+if [ "$opt_changelog" -ne 0 ]; then
+    echo -e "${bldcya}Changelog generation disabled${rst}"
+    export GENERATE_CHANGELOG=false
+    echo ""
+else
+    unset GENERATE_CHANGELOG
 fi
 
 
