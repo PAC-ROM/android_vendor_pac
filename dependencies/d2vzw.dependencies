@@ -36,7 +36,7 @@
         "revision":     "cm-12.1"
     },
     {
-        "remote":       "ss",
+        "remote":       "pac",
         "repository":   "android_hardware_samsung",
         "target_path":  "hardware/samsung",
         "revision":     "pac-5.1"
