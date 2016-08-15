@@ -15,3 +15,7 @@
 **MM.Alpha.1.Official**
 
 **MM.Alpha.1.Unofficial**
+
+**MM.Beta.Official**
+
+**MM.Beta.Unofficial**
