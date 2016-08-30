@@ -77,8 +77,8 @@
 | Nexus 7 2013                     | flo          | [PAC] (http://forum.pac-rom.com/showthread.php?tid=552)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
 | Nexus 7 2013 (LTE)               | deb          | [PAC] (http://forum.pac-rom.com/showthread.php?tid=552)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3048596)   | [Skiwong20] (https://github.com/Skiwong20)
 | Nexus Player                     | fugu         | [PAC] (http://forum.pac-rom.com/showthread.php?tid=1484)  | [XDA] (http://forum.xda-developers.com/showthread.php?t=3140183)   | [Skiwong20] (https://github.com/Skiwong20)
-| Zenfone 2                        | Z008         | [PAC]                                                     | [XDA]                                                              | [Druboo666] (https://github.com/Druboo666)
-| Zenfone 2                        | Z00A         | [PAC]                                                     | [XDA]                                                              | [Druboo666] (https://github.com/Druboo666)
+| Zenfone 2                        | Z008         | [PAC](http://forum.pac-rom.com/showthread.php?tid=1804)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3450066)   | [Druboo666] (https://github.com/Druboo666)              | [A_Bunny] (https://github.com/vilinfield)
+| Zenfone 2                        | Z00A         | [PAC](http://forum.pac-rom.com/showthread.php?tid=1733)   | [XDA] (http://forum.xda-developers.com/showthread.php?t=3450066)   | [Druboo666] (https://github.com/Druboo666)              | [A_Bunny] (https://github.com/vilinfield)
 <br>
 ####Google:
 | Device                           | Codename     | PAC Thread                                                | XDA Thread                                                         | Maintainer                                              | Co-Maintainer
