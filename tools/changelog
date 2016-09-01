@@ -35,6 +35,7 @@ touch "$Changelog"
 
 # Print something to build output
 echo -e "${bldcya}Generating changelog...${txtrst}"
+echo -e "${rst}"
 
 # Initializing log
 export CommitDeets=""
