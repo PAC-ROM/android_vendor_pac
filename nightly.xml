@@ -35,6 +35,7 @@
   <device name="geehrc"/>
   <device name="ghost"/>
   <device name="hammerhead"/>
+  <device name="shamrock"/>
   <!-- <device name="hlte"/> -->
   <!-- <device name="hltespr"/> -->
   <!-- <device name="hltetmo"/> -->
