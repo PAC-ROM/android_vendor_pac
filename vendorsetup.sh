@@ -1,9 +1,6 @@
 # Amazon
 add_lunch_combo pac_otterx-userdebug
 # Asus
-add_lunch_combo pac_deb-userdebug
-add_lunch_combo pac_flo-userdebug
-add_lunch_combo pac_fugu-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_Z008-userdebug
 add_lunch_combo pac_Z00A-userdebug
@@ -30,16 +27,13 @@ add_lunch_combo pac_mt2-userdebug
 add_lunch_combo pac_d850-userdebug
 add_lunch_combo pac_d851-userdebug
 add_lunch_combo pac_d855-userdebug
-add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_geehrc-userdebug
 add_lunch_combo pac_hammerhead-userdebug
 add_lunch_combo pac_ls990-userdebug
 add_lunch_combo pac_mako-userdebug
-add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs985-userdebug
 # Motorola
 add_lunch_combo pac_condor-userbebug
-add_lunch_combo pac_falcon-userdebug
 add_lunch_combo pac_ghost-userdebug
 add_lunch_combo pac_lux-userdebug
 add_lunch_combo pac_obake-userdebug
@@ -53,8 +47,6 @@ add_lunch_combo pac_thea-userdebug
 add_lunch_combo pac_titan-userdebug
 # Nextbit
 add_lunch_combo pac_ether-userdebug
-# Nvidia
-add_lunch_combo pac_wx_na_do-userdebug
 # OnePlus
 add_lunch_combo pac_bacon-userdebug
 add_lunch_combo pac_oneplus3-userdebug
@@ -64,10 +56,6 @@ add_lunch_combo pac_d2att-userdebug
 add_lunch_combo pac_d2spr-userdebug
 add_lunch_combo pac_d2tmo-userdebug
 add_lunch_combo pac_d2vzw-userdebug
-add_lunch_combo pac_hlte-userdebug
-add_lunch_combo pac_hltetmo-userdebug
-add_lunch_combo pac_hltespr-userdebug
-add_lunch_combo pac_i9300-userdebug
 add_lunch_combo pac_jflteatt-userdebug
 add_lunch_combo pac_jfltecan-userdebug
 add_lunch_combo pac_jfltespr-userdebug
@@ -81,15 +69,6 @@ add_lunch_combo pac_s2vep-userdebug
 add_lunch_combo pac_serrano3gxx-userdebug
 add_lunch_combo pac_serranodsdd-userdebug
 add_lunch_combo pac_serranoltexx-userdebug
-add_lunch_combo pac_trltespr-userdebug
-add_lunch_combo pac_trltetmo-userdebug
-add_lunch_combo pac_trltexx-userdebug
-# Sony
-add_lunch_combo pac_amami-userdebug
-add_lunch_combo pac_honami-userdebug
-add_lunch_combo pac_pollux-userdebug
-add_lunch_combo pac_pollux_windy-userdebug
-add_lunch_combo pac_sirius-userdebug
 # Sony Ericsson
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug
@@ -101,9 +80,6 @@ add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
 # Xiaomi
-add_lunch_combo pac_armani-userdebug
-add_lunch_combo pac_cancro-userdebug
 add_lunch_combo pac_kenzo-userdebug
 # Yu
 add_lunch_combo pac_lettuce-userdebug
-add_lunch_combo pac_tomato-userdebug
