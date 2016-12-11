@@ -97,3 +97,4 @@ add_lunch_combo pac_cancro-userdebug
 # Yu
 add_lunch_combo pac_lettuce-userdebug
 add_lunch_combo pac_tomato-userdebug
+add_lunch_combo pac_jalebi-userdebug
