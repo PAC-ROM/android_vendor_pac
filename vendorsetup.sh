@@ -7,6 +7,7 @@ add_lunch_combo pac_fugu-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_Z008-userdebug
 add_lunch_combo pac_Z00A-userdebug
+add_lunch_combo pac_Z00L-userdebug
 # Google
 add_lunch_combo pac_sprout4-userdebug
 add_lunch_combo pac_sprout8-userdebug
