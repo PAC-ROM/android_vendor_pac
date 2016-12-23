@@ -112,7 +112,6 @@ PRODUCT_PACKAGES += \
 
 # Custom PAC packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
     Trebuchet \
     AudioFX \
     CMWallpapers \
